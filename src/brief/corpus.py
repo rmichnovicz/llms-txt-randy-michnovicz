@@ -31,6 +31,12 @@ def write_json(path: Path, value: Any) -> None:
     path.write_text(json.dumps(value, indent=2, ensure_ascii=False) + "\n")
 
 
+def canonical_url(url: str) -> str:
+    """Compare destinations without collapsing fragments: they can address different tasks."""
+    parts = urlsplit(url)
+    return urlunsplit((parts.scheme.lower(), parts.netloc.lower(), parts.path or "/", parts.query, parts.fragment))
+
+
 def parse_file(text: str, base_url: str) -> dict[str, Any]:
     """Parse CommonMark links (including references), excluding fenced examples."""
     tokens = MarkdownIt("commonmark").parse(text)
@@ -56,11 +62,7 @@ def parse_file(text: str, base_url: str) -> dict[str, Any]:
             tail = "".join(c.content for c in children[k + 1 :])
             description = re.sub(r"^\s*[:–—-]\s*", "", tail).strip() if re.match(r"^\s*[:–—-]", tail) else ""
             url = urljoin(base_url, destination)
-            parts = urlsplit(url)
-            # Fragments can address genuinely different tasks. Do not collapse them.
-            canonical = urlunsplit(
-                (parts.scheme.lower(), parts.netloc.lower(), parts.path or "/", parts.query, parts.fragment)
-            )
+            canonical = canonical_url(url)
             links.append(
                 {
                     "label": label,

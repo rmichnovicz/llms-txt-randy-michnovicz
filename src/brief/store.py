@@ -95,7 +95,9 @@ class Store:
                 "SELECT * FROM questions WHERE project_id = %s ORDER BY created_at", (project_id,)
             ).fetchall()
             project["versions"] = connection.execute(
-                "SELECT id, kind, manually_edited, created_at, refined_from_version_id FROM document_versions WHERE project_id = %s ORDER BY created_at DESC LIMIT 30",
+                """SELECT id, kind, manually_edited, created_at, refined_from_version_id,
+                model_metadata->>'origin' AS origin FROM document_versions
+                WHERE project_id = %s ORDER BY created_at DESC LIMIT 30""",
                 (project_id,),
             ).fetchall()
             project["guides"] = connection.execute(
@@ -474,10 +476,15 @@ class Store:
                 )
                 connection.execute("UPDATE projects SET revision = revision + 1 WHERE id = %s", (project["id"],))
                 return summary
-            from brief.guides import link_ready_child, linked_markdown, plan_automatic
+            from brief.guides import link_ready_child, linked_markdown, plan_automatic, retained_destinations
 
             assert markdown is not None
-            markdown = linked_markdown(connection, project, markdown)
+            markdown = linked_markdown(
+                connection,
+                project,
+                markdown,
+                retained=retained_destinations(connection, project, result, context.sources),
+            )
             version_id = uuid4()
             kind = "draft" if live["replace_draft"] or not project["draft_version_id"] else "proposal"
             connection.execute(

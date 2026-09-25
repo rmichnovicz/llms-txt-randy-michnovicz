@@ -6,15 +6,18 @@ import io
 import posixpath
 import zipfile
 from collections import Counter
-from collections.abc import Iterable
+from collections.abc import Collection, Iterable
 from typing import TYPE_CHECKING, Any
 from urllib.parse import unquote, urlsplit
 from uuid import UUID, uuid4
 
 from psycopg import Connection
 
+from brief.contracts import GenerationResult, Source
+from brief.corpus import canonical_url, parse_file
 from brief.crawl.fetch import normalize_url
 from brief.editor import EditConflict
+from brief.generation import render_guide, safe_destination
 
 if TYPE_CHECKING:
     from brief.store import Store
@@ -161,13 +164,92 @@ def cancel_automatic(store: Store, project_id: UUID) -> dict[str, Any]:
     return {"status": "cancelled"}
 
 
-def linked_markdown(c: Connection[dict[str, Any]], project: dict[str, Any], markdown: str) -> str:
+def retained_destinations(
+    c: Connection[dict[str, Any]], project: dict[str, Any], result: GenerationResult, sources: list[Source]
+) -> set[str]:
+    """Parent entry points that stay direct even when a child repeats them.
+
+    Owner-directed shortcuts are honoured only while their direction is still active, so
+    removing an answer releases the link without waiting for a regeneration to succeed.
+    Shortcuts with no cited direction are the model's own parent-level editorial choice.
+    """
+    if not result.guide or not result.guide.shortcuts:
+        return set()
+    active = {
+        row["id"]
+        for row in c.execute("SELECT id FROM decisions WHERE project_id=%s AND active", (project["id"],)).fetchall()
+    }
+    if project.get("guide_purpose"):
+        active.add("guide_purpose")  # The saved purpose is supplied as direction, not a stored row.
+    by_id = {source.id: source for source in sources}
+    kept = set()
+    for shortcut in result.guide.shortcuts:
+        source = by_id.get(shortcut.source_id)
+        # Stored results outlive both their source snapshot and their owner direction.
+        if source is None or not set(shortcut.decision_ids) <= active:
+            continue
+        try:
+            kept.add(canonical_url(safe_destination(source.markdown_url or source.url)))
+        except ValueError:
+            continue
+    return kept
+
+
+def consolidate_links(
+    markdown: str, base_url: str, children: list[dict[str, Any]], retained: Collection[str] = ()
+) -> str:
+    """Delegate repeated detail links only when a child lists them and the parent does not need them."""
+    delegated = set()
+    origin = urlsplit(base_url)
+    for child in children:
+        child_url = f"{origin.scheme}://{origin.netloc}{child['guide_path']}llms.txt"
+        for link in parse_file(child["markdown"], child_url)["links"]:
+            page = urlsplit(link["canonical"])
+            if (
+                (page.scheme, page.netloc) == (origin.scheme, origin.netloc)
+                and page.path.startswith(child["guide_path"])
+                and page.path.rstrip("/") != child["guide_path"].rstrip("/")
+                and not page.path.endswith("/llms.txt")
+            ):
+                delegated.add(link["canonical"])
+    parsed = parse_file(markdown, base_url)
+    lines = markdown.splitlines(keepends=True)
+    removed = {
+        link["line"] - 1
+        for link in parsed["links"]
+        if link["canonical"] in delegated
+        and link["canonical"] not in retained
+        and lines[link["line"] - 1].startswith("- [")
+    }
+    if not removed:
+        return markdown
+    headings = parsed["headings"]
+    for i, heading in enumerate(headings):
+        start = heading["line"] - 1
+        end = headings[i + 1]["line"] - 1 if i + 1 < len(headings) else len(lines)
+        if heading["level"] == 2 and not any(lines[n].strip() for n in range(start + 1, end) if n not in removed):
+            removed.update(range(start, end))
+    return "".join(line for n, line in enumerate(lines) if n not in removed)
+
+
+def linked_markdown(
+    c: Connection[dict[str, Any]],
+    project: dict[str, Any],
+    markdown: str,
+    *,
+    manually_edited: bool = False,
+    retained: Collection[str] = (),
+) -> str:
     """Add only ready child links; do not advertise a file which does not exist yet."""
     children = c.execute(
-        """SELECT guide_path,guide_name FROM projects WHERE site_id=%s AND id<>%s
-        AND draft_version_id IS NOT NULL AND NOT auto_cancelled ORDER BY guide_path""",
+        """SELECT p.guide_path,p.guide_name,d.markdown FROM projects p
+        JOIN document_versions d ON d.id=p.draft_version_id WHERE p.site_id=%s AND p.id<>%s
+        AND NOT p.auto_cancelled ORDER BY p.guide_path""",
         (project["site_id"], project["id"]),
     ).fetchall()
+    children = [child for child in children if child["guide_path"].startswith(project["guide_path"])]
+    if not manually_edited:
+        markdown = consolidate_links(markdown, project["site_url"], children, retained)
     origin = urlsplit(project["site_url"])
     lines = []
     for child in children:
@@ -181,37 +263,66 @@ def linked_markdown(c: Connection[dict[str, Any]], project: dict[str, Any], mark
     return markdown + "\n## Related guides\n\n" + "\n".join(lines) + "\n" if lines else markdown
 
 
-def link_ready_child(c: Connection[dict[str, Any]], child: dict[str, Any]) -> None:
-    if child["guide_path"] == "/":
-        return
-    root = c.execute(
-        "SELECT * FROM projects WHERE site_id=%s AND guide_path='/' FOR UPDATE", (child["site_id"],)
-    ).fetchone()
-    if not root or not root["draft_version_id"]:
-        return
-    # Do not invalidate a root generation in flight. Its completion adds ready links.
+def reconcile_parent(c: Connection[dict[str, Any]], parent: dict[str, Any]) -> None:
+    """Recheck one parent's coverage against its ready children, as new immutable versions."""
+    # Do not invalidate a parent generation in flight. Its completion adds ready links.
     if c.execute(
-        "SELECT 1 FROM jobs WHERE project_id=%s AND status IN ('pending','running') AND kind='generate'", (root["id"],)
+        "SELECT 1 FROM jobs WHERE project_id=%s AND status IN ('pending','running') AND kind='generate'",
+        (parent["id"],),
     ).fetchone():
         return
     for pointer in ("draft_version_id", "proposal_version_id"):
-        if not root[pointer]:
+        if not parent[pointer]:
             continue
-        old = c.execute("SELECT * FROM document_versions WHERE id=%s", (root[pointer],)).fetchone()
+        old = c.execute("SELECT * FROM document_versions WHERE id=%s", (parent[pointer],)).fetchone()
         assert old is not None
-        markdown = linked_markdown(c, root, old["markdown"])
+        markdown = old["markdown"]
+        retained: Collection[str] = ()
+        if not old["manually_edited"]:
+            # Retain the original structured guide so links can return if a child
+            # stops covering them. Saved versions themselves remain immutable.
+            result = GenerationResult.model_validate(old["structured_result"])
+            assert result.guide is not None
+            sources = [Source.model_validate(s) for s in old["generation_input"]["sources"]]
+            markdown = render_guide(result.guide, sources)
+            retained = retained_destinations(c, parent, result, sources)
+        markdown = linked_markdown(c, parent, markdown, manually_edited=old["manually_edited"], retained=retained)
         if markdown == old["markdown"]:
             continue
         vid = uuid4()
+        # Carry refined_from_version_id too: relinking is not a refinement, and dropping it
+        # would hide the before/after comparison the owner is still reviewing.
         c.execute(
             """INSERT INTO document_versions(id,project_id,snapshot_id,kind,generation_input,structured_result,
-            markdown,model_metadata,manually_edited,decisions_revision)
+            markdown,model_metadata,manually_edited,decisions_revision,refined_from_version_id)
             SELECT %s,project_id,snapshot_id,kind,generation_input,structured_result,%s,
-            '{"origin":"related-guide-link"}'::jsonb,manually_edited,decisions_revision FROM document_versions WHERE id=%s""",
+            '{"origin":"related-guide-link"}'::jsonb,manually_edited,decisions_revision,refined_from_version_id
+            FROM document_versions WHERE id=%s""",
             (vid, markdown, old["id"]),
         )
         # Pointer names are constants from the tuple above, never external input.
-        c.execute(f"UPDATE projects SET {pointer}=%s,revision=revision+1 WHERE id=%s", (vid, root["id"]))
+        c.execute(f"UPDATE projects SET {pointer}=%s,revision=revision+1 WHERE id=%s", (vid, parent["id"]))
+
+
+def link_ready_child(c: Connection[dict[str, Any]], child: dict[str, Any]) -> None:
+    """Reconcile every ancestor guide, not only the root, so intermediate guides stay usable."""
+    if child["guide_path"] == "/":
+        return
+    paths = [
+        row["guide_path"]
+        for row in c.execute(
+            "SELECT guide_path FROM projects WHERE site_id=%s AND id<>%s AND draft_version_id IS NOT NULL",
+            (child["site_id"], child["id"]),
+        ).fetchall()
+        if child["guide_path"].startswith(row["guide_path"])
+    ]
+    # Lock deepest first: callers already hold the descendant, so the order stays consistent.
+    for path in sorted(paths, key=len, reverse=True):
+        parent = c.execute(
+            "SELECT * FROM projects WHERE site_id=%s AND guide_path=%s FOR UPDATE", (child["site_id"], path)
+        ).fetchone()
+        if parent and parent["draft_version_id"]:
+            reconcile_parent(c, parent)
 
 
 def resume_automatic(store: Store, project_id: UUID) -> dict[str, Any]:

@@ -1,8 +1,8 @@
 from __future__ import annotations
 
-from typing import Annotated, Literal
+from typing import Annotated, Any, Literal
 
-from pydantic import BaseModel, ConfigDict, Field, StringConstraints, field_validator
+from pydantic import BaseModel, ConfigDict, Field, StringConstraints, field_validator, model_validator
 from pydantic.alias_generators import to_camel
 
 
@@ -71,11 +71,28 @@ class Section(Contract):
     links: list[Link] = Field(min_length=1)
 
 
+class Shortcut(Contract):
+    """A parent-level entry point that stays direct even when a child guide repeats it."""
+
+    source_id: str
+    reason: Line
+    decision_ids: list[str]
+
+
 class Guide(Contract):
     title: Line
     summary: Claim | None
     context: list[Claim] = Field(max_length=12)
     sections: list[Section] = Field(max_length=20)
+    # Structural bound only. Owner-directed entry points come first, so this never
+    # silently outranks explicit direction; see docs/GUIDES_AND_RUN_DETAILS.md.
+    shortcuts: list[Shortcut] = Field(max_length=3)
+
+    @model_validator(mode="before")
+    @classmethod
+    def absent_shortcuts(cls, data: Any) -> Any:
+        """Documents saved before shortcuts existed have none; the field stays schema-required."""
+        return {**data, "shortcuts": []} if isinstance(data, dict) and "shortcuts" not in data else data
 
 
 class Question(Contract):
@@ -131,4 +148,15 @@ def validate_result(raw: object, context: GenerationInput) -> GenerationResult:
                 if link.source_id in used:
                     raise ValueError(f"Duplicate source: {link.source_id}")
                 used.add(link.source_id)
+        # Retention only means "do not delegate this link", so it must be a real link here.
+        active_decisions = {d.id for d in context.decisions if d.active}
+        marked: set[str] = set()
+        for shortcut in result.guide.shortcuts:
+            if shortcut.source_id not in used:
+                raise ValueError(f"Shortcut is not linked in the guide: {shortcut.source_id}")
+            if shortcut.source_id in marked:
+                raise ValueError(f"Duplicate shortcut: {shortcut.source_id}")
+            marked.add(shortcut.source_id)
+            if unknown := set(shortcut.decision_ids) - active_decisions:
+                raise ValueError(f"Shortcut cites unknown/inactive direction: {sorted(unknown)}")
     return result

@@ -63,6 +63,41 @@ def test_duplicate_links() -> None:
         validate_result(result, CONTEXT)
 
 
+def test_shortcuts_must_be_real_links_backed_by_current_direction() -> None:
+    def with_shortcut(**overrides: Any) -> dict[str, Any]:
+        result = good()
+        result["guide"]["shortcuts"] = [
+            {"sourceId": "api", "reason": "Main entry point.", "decisionIds": [], **overrides}
+        ]
+        return result
+
+    assert validate_result(with_shortcut(), CONTEXT).guide is not None
+    # Omitted entirely by documents generated before shortcuts existed.
+    assert validate_result(good(), CONTEXT).guide.shortcuts == []  # type: ignore[union-attr]
+    with pytest.raises(ValueError, match="not linked in the guide"):
+        validate_result(with_shortcut(sourceId="careers"), CONTEXT)
+    with pytest.raises(ValueError, match="unknown/inactive direction"):
+        validate_result(with_shortcut(decisionIds=["dec_removed"]), CONTEXT)
+    duplicated = with_shortcut()
+    duplicated["guide"]["shortcuts"] *= 2
+    with pytest.raises(ValueError, match="Duplicate shortcut"):
+        validate_result(duplicated, CONTEXT)
+    fact = GenerationInput.model_validate(CASES["user-fact"]["input"])
+    supported = good()
+    supported["guide"]["sections"][0]["links"] = [
+        {"sourceId": fact.sources[0].id, "label": "Home", "description": None}
+    ]
+    supported["guide"]["summary"]["evidenceIds"] = [fact.sources[0].id]
+    supported["guide"]["shortcuts"] = [
+        {
+            "sourceId": fact.sources[0].id,
+            "reason": "The owner asked to lead here.",
+            "decisionIds": [fact.decisions[0].id],
+        }
+    ]
+    assert validate_result(supported, fact).guide is not None
+
+
 def test_dismissed_topic_and_invalid_option() -> None:
     result = good()
     result["questions"] = [

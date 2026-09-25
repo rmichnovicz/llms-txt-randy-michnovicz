@@ -1242,13 +1242,15 @@ export default function Workspace({
                     <span>
                       <FileText size={17} />
                       <strong>
-                        {v.manually_edited
-                          ? "Manual edit"
-                          : v.refined_from_version_id
-                            ? "Refined draft"
-                            : v.kind === "proposal"
-                              ? "Generated proposal"
-                              : "Generated draft"}
+                        {v.origin === "related-guide-link"
+                          ? "Guide links updated"
+                          : v.manually_edited
+                            ? "Manual edit"
+                            : v.refined_from_version_id
+                              ? "Refined draft"
+                              : v.kind === "proposal"
+                                ? "Generated proposal"
+                                : "Generated draft"}
                       </strong>
                     </span>
                     <span>

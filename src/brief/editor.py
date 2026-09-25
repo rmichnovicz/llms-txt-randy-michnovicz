@@ -262,6 +262,9 @@ def save_document(store: Store, project_id: UUID, revision: int, markdown: str) 
         connection.execute(
             "UPDATE projects SET draft_version_id = %s, revision = revision + 1 WHERE id = %s", (version_id, project_id)
         )
+        from brief.guides import link_ready_child
+
+        link_ready_child(connection, project)
         return {"version_id": version_id}
 
 
@@ -285,4 +288,7 @@ def use_version(store: Store, project_id: UUID, revision: int, version_id: UUID)
             "UPDATE projects SET draft_version_id = %s, proposal_version_id = NULL, revision = revision + 1 WHERE id = %s",
             (version_id, project_id),
         )
+        from brief.guides import link_ready_child
+
+        link_ready_child(connection, project)
         return {"version_id": version_id}

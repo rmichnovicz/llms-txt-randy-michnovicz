@@ -57,13 +57,34 @@ invalidates the active job lease and excludes the unfinished guide from bundles
 and refresh-all; Resume explicitly queues it again. Individual model/network calls
 already in flight may finish, but their results cannot be committed after cancellation.
 
-Once a child draft exists, its absolute llms.txt link is appended to root draft and
-proposal copies as new immutable versions. Existing text and historical versions
-are preserved. If root generation is already queued/running, that generation adds
-ready child links when it completes. Parent SSE also observes sibling job status,
-so switching guides or refreshing the browser is unnecessary to see completion.
-These files remain local drafts until the user exports and hosts them.
+Once a child draft exists, its absolute llms.txt link is appended to every ancestor
+guide's draft and proposal copies as new immutable versions. Generated parents drop
+repeated detail links listed by the child's current draft within its scope; section
+landing pages and resources absent from the child remain. Empty sections are removed.
+Hand-edited parents keep their content, and all historical versions stay unchanged.
+Child edits and version restores recheck coverage, restoring original parent links
+when needed. These app-managed versions carry `origin: related-guide-link` and appear
+in version history as "Guide links updated" rather than as a manual edit or a fresh
+generation, and they keep the refinement lineage of the version they replace, so an
+owner's before/after comparison survives a child becoming ready. If a parent generation is already queued/running, that generation
+consolidates ready child links when it completes. Parent SSE also observes sibling
+job status, so switching guides or refreshing the browser is unnecessary to see
+completion. These files remain local drafts until the user exports and hosts them.
+
+Zero overlap is not the goal. A guide may name up to three of its own links as
+`shortcuts`: parent-level entry points that stay direct even when a child repeats
+them. Each carries a reason, and an owner-directed one also cites the decision IDs
+establishing it. Reconciliation honours such a shortcut only while every cited
+decision is still active, so removing or replacing an answer releases the link
+without waiting for a regeneration to succeed; a shortcut citing no decision is the
+model's own editorial choice of a starting point. The cap is a structural bound on
+the model's output, and owner-directed entry points are listed first, so it does not
+outrank explicit direction. A child guide's own audience and ordering never move a
+parent's priority. Retention marks a real link in that guide, not a new destination,
+so it changes nothing about scope, host, fragment, or landing-page handling.
 
 Tests cover root-first scheduling, duplicate prevention, cancelled lease writes,
-immutable parent linking, no recursive creation, cancellation/resume, site-cookie
-navigation, and accessibility at mobile and desktop widths.
+immutable parent linking, intermediate-ancestor reconciliation, retained owner
+shortcuts across child completion and changed direction, no recursive creation,
+cancellation/resume, site-cookie navigation, and accessibility at mobile and
+desktop widths.

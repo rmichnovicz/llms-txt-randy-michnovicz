@@ -106,3 +106,28 @@ def test_refinement_baseline_includes_manual_wording(store: Store) -> None:
     log = require_row(store.get_project(pid, token))["draft"]["refinement"]
     assert log["before_version_id"] == manual["version_id"]
     assert "-My exact wording." in log["diff"]
+
+
+def test_refinement_survives_automatic_child_relinking(store: Store) -> None:
+    from test_store import result, source
+
+    from brief.guides import create_guide
+
+    project, token = setup_project(store)
+    pid = project["id"]
+    initial = project["draft"]
+    editor.save_decision(store, pid, project["revision"], statement="For developers", kind="preference")
+    complete(store, "Developer guide")
+    # A ready child rewrites the parent draft as a new version; that is not a refinement,
+    # so the owner's before/after comparison must survive it unchanged.
+    create_guide(store, pid, path="/help/", name="Help", purpose="Help readers")
+    store.finish_crawl(require_row(store.claim()), result(source("https://example.com/help/")), enqueue_generation=True)
+    complete(store, "Help")
+    state = require_row(store.get_project(pid, token))
+    assert state["draft"]["model_metadata"]["origin"] == "related-guide-link"
+    log = state["draft"]["refinement"]
+    assert log["before_version_id"] == initial["id"]
+    assert log["before_markdown"] == initial["markdown"]
+    assert log["directions"] == [{"kind": "added", "before": None, "after": "For developers"}]
+    assert "+- [Help](<https://example.com/help/llms.txt>)" in log["diff"]  # relink shown, not hidden
+    assert state["versions"][0]["refined_from_version_id"] == initial["id"]

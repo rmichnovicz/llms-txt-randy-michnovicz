@@ -55,6 +55,7 @@ export type Version = {
   decisions_revision: number;
   structured_result: { explanation: string };
   model_metadata?: Record<string, unknown>;
+  origin?: string | null;
   generation_input: { decisions: Decision[] };
 };
 export type GuideCheck = {
