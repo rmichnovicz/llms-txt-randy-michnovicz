@@ -8,33 +8,20 @@ message broker is used.
 ## Deployed runtime
 
 ```mermaid
-flowchart LR
-  Browser[Browser]
-  Websites[Public websites]
-  Model[OpenAI Responses API]
-
-  subgraph Cloudflare[Cloudflare Pages]
-    Assets[React static assets]
-    Proxy[API proxy]
-  end
-
-  subgraph Railway[Railway]
-    API[FastAPI]
-    Worker[Python worker]
-    Scheduler[Hourly scheduler]
-    DB[(Postgres)]
-  end
-
-  Browser -->|Load editor| Assets
-  Browser <-->|API requests and SSE| Proxy
-  Proxy <-->|Forward to fixed API origin| API
-  API <-->|Read state and enqueue jobs| DB
-  Worker <-->|Claim jobs and save results| DB
-  Scheduler -->|Enqueue due refreshes| DB
-  Worker -->|Crawl and extract| Websites
-  Worker -->|Plan coverage, generate, test| Model
-  API -->|Owner-requested guide and installation checks| Websites
+flowchart TD
+  Browser[Browser] --> Assets[React static assets]
+  Browser <--> Proxy[Pages API proxy]
+  Proxy <--> API[FastAPI]
+  API <--> DB[(Postgres)]
+  Scheduler[Hourly scheduler] --> DB
+  DB <--> Worker[Python worker]
+  Worker --> Websites[Public websites]
+  Worker --> Model[OpenAI Responses API]
+  API --> Websites
 ```
+
+Cloudflare Pages hosts the static assets and proxy. Railway runs the API,
+worker, scheduler, and Postgres.
 
 The browser uses one origin. The [Pages proxy](frontend/public/_worker.js)
 forwards `/api/*` and `/health` to Railway, preserving cookies and streaming
