@@ -12,9 +12,9 @@ flowchart TD
   Browser[Browser] --> Assets[React static assets]
   Browser <--> Proxy[Pages API proxy]
   Proxy <--> API[FastAPI]
-  API <--> DB[(Postgres)]
+  API <-->|Enqueue / read| DB[(Postgres: state and job queue)]
   Scheduler[Hourly scheduler] --> DB
-  DB <--> Worker[Python worker]
+  DB <-->|Claim / save| Worker[Python worker]
   Worker --> Websites[Public websites]
   Worker --> Model[OpenAI Responses API]
   API --> Websites
@@ -28,10 +28,12 @@ forwards `/api/*` and `/health` to Railway, preserving cookies and streaming
 responses while disabling API caching. Published `llms.txt` files use this same
 API path; FastAPI serves their saved contents without a model call.
 
-The API handles access, edits, publication, and job submission. The worker runs
-crawls, generation, and reader tests. It records progress in Postgres; the API
-streams updates through Server-Sent Events. The browser falls back to polling
-when that stream is unavailable.
+FastAPI hands work to the worker through the Postgres job queue, not a direct
+HTTP call. The API inserts a job; the worker polls the queue, claims it, and saves
+progress and results back to Postgres. The API reads that state and streams
+updates to the browser through Server-Sent Events, with polling as a fallback.
+The worker handles crawls, generation, and reader tests; the API handles access,
+edits, and publication.
 
 **The scheduler runs hourly; monitored projects are checked daily.** It queues
 projects whose `next_check_at` is due, moves that time forward one day, then exits.
