@@ -1100,8 +1100,30 @@ export default function Workspace({
               </div>
             )}
           {failed && (
-            <div className="banner error" role="alert">
+            <div className="banner error crawl-failure" role="alert">
               {latestJob?.error || "The update could not finish."}
+              {!!latestJob?.result?.warnings?.length && (
+                <ul className="crawl-warnings">
+                  {latestJob.result.warnings
+                    .slice(0, 5)
+                    .map((warning, index) => (
+                      <li key={index}>
+                        <p>{warning.reason}</p>
+                        <p>{warning.url}</p>
+                        {warning.redirect_url && (
+                          <p>
+                            Redirect destination: {warning.redirect_url}{" "}
+                            <a
+                              href={`/?url=${encodeURIComponent(warning.redirect_url)}`}
+                            >
+                              Start a brief at this address
+                            </a>
+                          </p>
+                        )}
+                      </li>
+                    ))}
+                </ul>
+              )}
               <button
                 disabled={acting}
                 onClick={() =>

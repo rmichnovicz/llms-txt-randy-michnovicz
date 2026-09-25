@@ -6,7 +6,9 @@ import Logo from "./Logo";
 import { errorText } from "./errors";
 
 export default function Start() {
-  const [url, setUrl] = useState("");
+  const [url, setUrl] = useState(
+    () => new URLSearchParams(window.location.search).get("url") || "",
+  );
   const [busy, setBusy] = useState(false);
   const [error, setError] = useState("");
   const [creationKey, setCreationKey] = useState("");

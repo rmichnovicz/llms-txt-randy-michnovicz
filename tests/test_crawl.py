@@ -13,7 +13,15 @@ import pytest
 from pytest import MonkeyPatch
 
 from brief.crawl.extract import extract_page
-from brief.crawl.fetch import FetchError, PublicResolver, Response, SafeFetcher, normalize_url, public_socket
+from brief.crawl.fetch import (
+    BlockedRedirect,
+    FetchError,
+    PublicResolver,
+    Response,
+    SafeFetcher,
+    normalize_url,
+    public_socket,
+)
 from brief.crawl.runner import Scope, crawl
 
 if TYPE_CHECKING:
@@ -177,12 +185,13 @@ async def test_deadline_reports_partial_progress() -> None:
     assert "deadline" in result.warnings[0]["reason"]
 
 
-async def test_redirect_is_revalidated_before_second_request() -> None:
+@pytest.mark.parametrize("destination", ["http://169.254.169.254/", "https://docs.example.org/latest/"])
+async def test_redirect_is_revalidated_before_second_request(destination: str) -> None:
     class Redirect:
         status = 302
 
         def __init__(self) -> None:
-            self.headers = {"Location": "http://169.254.169.254/"}
+            self.headers = {"Location": destination}
 
         async def __aenter__(self) -> Self:
             return self
@@ -201,8 +210,13 @@ async def test_redirect_is_revalidated_before_second_request() -> None:
     fetcher = SafeFetcher(interval=0)
     session = Session()
     fetcher.session = cast(aiohttp.ClientSession, session)
-    with pytest.raises(FetchError):
-        await fetcher.get("https://example.com/", allowed=lambda url: True)
+    with pytest.raises(FetchError) as error:
+        await fetcher.get("https://example.com/", allowed=lambda url: url == "https://example.com/")
+    if destination.startswith("https://"):
+        assert isinstance(error.value, BlockedRedirect)
+        assert error.value.destination == destination
+    else:
+        assert not isinstance(error.value, BlockedRedirect)
     assert session.calls == 1
 
 

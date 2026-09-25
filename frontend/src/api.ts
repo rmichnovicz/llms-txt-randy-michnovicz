@@ -132,7 +132,11 @@ export type Project = {
     progress?: Progress;
     status: string;
     error: string | null;
-    result: { explanation?: string; question_count?: number } | null;
+    result: {
+      explanation?: string;
+      question_count?: number;
+      warnings?: { url: string; reason: string; redirect_url?: string }[];
+    } | null;
   }[];
 };
 export async function api<T>(

@@ -67,6 +67,15 @@ class Store:
                 "SELECT id, kind, status, attempt, error, result, progress, created_at, completed_at FROM jobs WHERE project_id = %s ORDER BY created_at DESC LIMIT 10",
                 (project_id,),
             ).fetchall()
+            for job in project["jobs"]:
+                result = job.get("result") or {}
+                if job["status"] == "failed" and "warnings" not in result:
+                    snapshot = connection.execute(
+                        "SELECT warnings FROM crawl_snapshots WHERE project_id = %s AND job_id = %s ORDER BY attempt DESC LIMIT 1",
+                        (project_id, job["id"]),
+                    ).fetchone()
+                    if snapshot:
+                        job["result"] = {**result, "warnings": snapshot["warnings"]}
             project["snapshot"] = connection.execute(
                 "SELECT * FROM crawl_snapshots WHERE id = %s", (project["latest_snapshot_id"],)
             ).fetchone()
@@ -313,6 +322,7 @@ class Store:
                 "status": status,
                 "changes": changes,
                 "coverage": coverage,
+                "warnings": result.warnings,
             }
             connection.execute(
                 "UPDATE projects SET last_checked_at = now(), last_check_status = %s WHERE id = %s",

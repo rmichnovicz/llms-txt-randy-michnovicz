@@ -881,6 +881,17 @@ summary {
   white-space: nowrap;
   font-size: 11px;
 }
+.crawl-failure {
+  flex-wrap: wrap;
+}
+.crawl-warnings {
+  order: 1;
+  flex-basis: 100%;
+  min-width: 0;
+  margin: 0;
+  padding-left: 20px;
+  overflow-wrap: anywhere;
+}
 .banner.error,
 .error {
   background: #fff0f0;

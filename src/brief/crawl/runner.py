@@ -16,7 +16,7 @@ from defusedxml.ElementTree import ParseError, fromstring
 
 from brief.contracts import Source
 from brief.crawl.extract import EXTRACTION_VERSION, extract_page, source_id
-from brief.crawl.fetch import FETCH_CONCURRENCY, USER_AGENT, FetchError, SafeFetcher, normalize_url
+from brief.crawl.fetch import FETCH_CONCURRENCY, USER_AGENT, BlockedRedirect, FetchError, SafeFetcher, normalize_url
 from brief.crawl.inventory import balanced, section
 from brief.crawl.planning import priority
 from brief.refresh import Observation, content_hash
@@ -479,7 +479,10 @@ async def crawl(
                 except (ValueError, OSError) as error:
                     result.trace.append({"url": current, "status": "unavailable", "cache": "not-used", "bytes": 0})
                     result.observations.append(Observation(current, "unavailable"))
-                    result.warnings.append({"url": current, "reason": str(error)[:200]})
+                    warning = {"url": current, "reason": str(error)[:200]}
+                    if isinstance(error, BlockedRedirect):
+                        warning["redirect_url"] = error.destination
+                    result.warnings.append(warning)
                     await report("Skipping a page without usable content; continuing with the rest.", current)
                 current = None
             if selected is not None and not queue and result.stop_reason == "exhausted":

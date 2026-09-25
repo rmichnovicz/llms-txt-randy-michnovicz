@@ -154,6 +154,7 @@ def test_failed_crawl_preserves_last_good_snapshot_and_records_failure(store: St
     assert state["last_check_status"] == "failed"
     assert state["jobs"][0]["status"] == "pending"
     assert summary["status"] == "failed"
+    assert state["jobs"][0]["result"]["warnings"] == [{"reason": "timeout"}]
 
 
 def test_two_explicit_missing_checks_remove_but_omissions_and_errors_do_not(store: Store) -> None:

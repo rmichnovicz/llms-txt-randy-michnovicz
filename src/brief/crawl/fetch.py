@@ -25,6 +25,12 @@ class FetchError(ValueError):
     pass
 
 
+class BlockedRedirect(FetchError):
+    def __init__(self, destination: str) -> None:
+        super().__init__("This page redirects outside the allowed crawl scope or to a page blocked by robots.txt.")
+        self.destination = destination
+
+
 def public_ip(value: str) -> bool:
     ip = ipaddress.ip_address(value.split("%", 1)[0])
     return ip.is_global and not ip.is_multicast and not ip.is_reserved and not getattr(ip, "ipv4_mapped", None)
@@ -134,12 +140,15 @@ class SafeFetcher:
 
         if self.session is None:
             raise RuntimeError("Use SafeFetcher as an async context manager")
+        redirected = False
         for _ in range(6):
             url = normalize_url(url)
             verdict = allowed(url)
             if inspect.isawaitable(verdict):
                 verdict = await verdict
             if not verdict:
+                if redirected:
+                    raise BlockedRedirect(url)
                 raise FetchError("URL outside crawl scope or disallowed by robots.txt")
             async with self.pacing_lock:
                 await asyncio.sleep(max(0, self.interval - (time.monotonic() - self.last_request)))
@@ -150,6 +159,7 @@ class SafeFetcher:
                         if not response.headers.get("Location"):
                             raise FetchError("Redirect without destination")
                         url = urljoin(url, response.headers["Location"])
+                        redirected = True
                         headers = None
                         continue
                     content = bytearray()
