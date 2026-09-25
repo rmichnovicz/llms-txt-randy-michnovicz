@@ -19,9 +19,20 @@ refresh. Changing owner direction triggers a fresh assessment. With an existing
 draft, unchanged source content does not enqueue guide generation. Reused plans
 are labeled in run details and do not report the original model usage as new usage.
 
-Discovery currently uses robots-declared sitemaps, the conventional sitemap path,
-and HTML links. Existing llms.txt discovery, hierarchical guides, and persistent HTTP
-conditional caching are separate follow-ups, not implemented by this change.
+Discovery uses robots-declared sitemaps (or the conventional `/sitemap.xml` path
+when none are declared), HTML links, and the saved discovery frontier. The initial
+reading sample is balanced across path sections. The assessment receives a
+section-balanced shortlist within 24 KB of serialized URL text, rather than the
+entire URL inventory. See [saved discovery](DISCOVERY_INVENTORY.md).
+
+The surrounding application also implements existing `llms.txt` discovery,
+path-scoped guides, and persistent page caching. The first normal worker crawl
+checks for an existing guide at the submitted path and its ancestors. Scoped
+guides share a site cache while retaining independent decisions and history.
+Cached pages are revalidated with ETag or Last-Modified headers; a 304 reuses
+extracted content, while pages without validators are downloaded again. Robots
+and sitemap responses do not have a persistent conditional cache. See [guide and
+cache behavior](GUIDES_AND_RUN_DETAILS.md) and [existing-guide checks](../README.md#publish-discover-existing-guides-and-review-changes).
 
 ## Safeguards and failure behavior
 
@@ -32,7 +43,13 @@ conditional caching are separate follow-ups, not implemented by this change.
   evidence supplied downstream.
 - Existing per-request timeout, 2 MB response limit, robots checks, public-address
   validation, and site/path scope restrictions remain in effect.
-- Discovery retains its 1,000-URL memory bound and three-sitemap discovery bound.
+- New page URL inventory is bounded by 4 MB of compact JSON URL bytes per pass;
+  sitemap URL bookkeeping has a separate 1 MB allowance. Existing source URLs
+  and the entry URL are restored separately. There is no fixed 1,000-URL or
+  three-sitemap cap.
+- Sitemap discovery has a 10-second deadline and 4 MB soft download budget;
+  the last response can cross that byte budget. Unread URLs, pending sitemap
+  files, and partial XML offsets are saved per project for subsequent crawls.
   These are safety constraints, not a target site coverage claim.
 - An explicitly supplied `--max-pages` remains available for diagnostics/tests;
   its default is now unset and values greater than 50 are accepted.
@@ -65,10 +82,13 @@ reading order, retention of previously known URLs, specific entry pages ahead of
 generic help articles, invalid/invented URLs, budget stops, structured model output,
 and the worker's use of saved owner direction.
 
-A live Tally smoke test with no owner direction read 26 pages in 36.3 seconds,
+During the original coverage-planner implementation, a live Tally smoke test with no owner direction read 26 pages in 36.3 seconds,
 including planning, and downloaded 13.3 MB. It finished the selected coverage pass.
 An earlier iteration chose 32 additional pages and hit a 20 MB safeguard; its
 initial sample included low-value template articles. That exposed a ranking issue,
 which was corrected, and the aggregate safeguard was set to 50 MB. Both outputs
 remain in `evals/results/coverage-tally/`; they are not additions to the eval corpus.
-This is a functional smoke test, not a controlled speed or quality benchmark.
+These are historical functional smoke runs, not measurements of the current
+crawler's speed or quality. The [saved-discovery replay](DISCOVERY_INVENTORY.md#verification)
+separately compares old and current discovery limits against recorded XML;
+discovered URL counts do not measure pages read or generated-guide quality.

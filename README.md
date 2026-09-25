@@ -1,71 +1,255 @@
 # Brief
 
-A guided llms.txt editor: crawl a website, generate a useful draft, refine it through optional questions, publish a stable file, and monitor changes.
+Turn a website into an `llms.txt` guide you can review, test, and keep up to date.
 
-The Python/FastAPI backend handles crawling, source snapshots, durable jobs, draft
-generation, and scheduled refreshes. The React editor supports optional questions,
-saved decisions, Markdown editing, version comparison, explicit publication, and
-a source change inbox.
+[Open the live app](https://brief-llms-txt.pages.dev/). Project creation requires
+a private demo creation key.
 
-Cloud deployment is planned: Cloudflare Pages for the frontend and Railway for
-the backend. The configured generation model is GPT-6 Sol with medium reasoning.
+Give Brief a URL and it reads the site, picks useful pages, and writes a draft.
+You can answer follow-up questions to shape it, edit the Markdown yourself, or
+try visitor questions to see whether the guide leads to the right sources.
+When you're happy with it, download the file or publish a hosted copy.
 
-- [Product goals and design](PRODUCT_SPEC.md)
-- [Architecture and tradeoffs](ARCHITECTURE.md)
-- [Feature guides and verification notes](docs/README.md)
-- [Evaluation commands and review rubric](evals/README.md)
-- [Real-file evaluation study and results](evals/REPORT.md)
+Brief also checks for website changes. Updates arrive as proposals for you to
+review, so a background crawl won't overwrite your published guide.
+
+The app uses React, Python/FastAPI, and Postgres. The frontend runs on Cloudflare
+Pages and the backend on Railway. Generation uses GPT-6 Sol with medium reasoning.
+See [deployment instructions](docs/DEPLOYMENT.md) for setup and redeploys.
+
+<details>
+<summary>See the editor</summary>
+
+![Brief editor showing a generated guide, source coverage, and reader tests](docs/images/editor-demo.png)
+
+This screenshot uses the browser tests' sample site.
+
+</details>
 
 ## Run locally
 
-Requires Python 3.12+, [uv](https://docs.astral.sh/uv/), and Docker for Postgres.
+You'll need Python 3.12+, [uv](https://docs.astral.sh/uv/), Node.js 22.12+,
+and Docker Compose with Docker running. Generating guides and running reader
+tests requires an OpenAI API key and incurs API charges. You can crawl sites and
+inspect their sources without a key.
+
+Install dependencies and start Postgres:
 
 ```sh
 uv sync
+npm --prefix frontend ci
 cp .env.example .env
 docker compose up -d --wait
 uv run --env-file .env brief migrate
-uv run --env-file .env uvicorn brief.api:app --reload
 ```
 
-Add `OPENAI_API_KEY` to the gitignored `.env` to enable generation (`OPENAI_MODEL` defaults to `gpt-6-sol`). Without a key, the worker runs the crawl-only pipeline. Run the worker in another terminal:
+Add `OPENAI_API_KEY` to `.env`, which is excluded from Git. The example file
+already has the cookie and origin settings for local development.
+`OPENAI_MODEL` defaults to `gpt-6-sol`.
+
+Start the API with its embedded worker:
 
 ```sh
-uv run --env-file .env brief worker
+BRIEF_EMBEDDED_WORKER=true uv run --env-file .env uvicorn brief.api:app --host 127.0.0.1 --port 8000
 ```
 
-Start the frontend in another terminal (Node.js required):
+In a second terminal, start the frontend:
 
 ```sh
-npm --prefix frontend ci
 npm --prefix frontend run dev
 ```
 
-Open http://localhost:5173. For local HTTP, set `BRIEF_SECURE_COOKIES=false` and `FRONTEND_ORIGINS=http://localhost:5173` in `.env`. The Vite server proxies `/api` to port 8000. Keep secure cookies enabled in production.
+Open [Brief at localhost:5173](http://localhost:5173).
 
-Open [API docs](http://localhost:8000/docs). `POST /api/projects` accepts `{"url":"https://example.com/"}` and returns a project ID, job ID, and one-time management token. Use the token as `Authorization: Bearer <token>` on project routes. It is stored only as a hash. The frontend exchanges a private link fragment for a site-scoped HttpOnly cookie, then removes the fragment from the address bar.
-
-Workspace URLs use one site UUID: `/s/{site_id}` opens the site's original document, and `/s/{site_id}?doc=/docs/` selects a document by scope. All documents share site access; their internal IDs still keep edits and version history independent. `GET /api/projects/{site_id}/document?doc=/docs/` resolves and loads a document within the authenticated site.
-
-`GET /api/projects/{id}` returns recent job status and the latest usable snapshot, including source titles, descriptions, URLs, main content, coverage, warnings, and added/modified/removed URLs. Completed attempts remain readable at `GET /api/projects/{id}/snapshots/{snapshot_id}`, including failed attempts whose snapshot ID is in the job result.
-
-`POST /api/projects/{id}/refresh` requires an `Idempotency-Key` header. Refresh requests reuse an active project job; completed manually created refresh keys are deduplicated. A changed source produces a new snapshot; a failed crawl preserves the previous usable snapshot. With a configured model, changed sources queue generation as a separate durable job. The first generated document becomes a draft; later generations become proposals, preserving the current draft. Publication is explicit: only a saved version selected by the owner becomes public.
-
-`GET /api/projects/{id}` also returns `draft` and `proposal`, including Markdown, structured questions, pinned source snapshot, and model usage metadata. `POST /api/projects/{id}/generate` with an `Idempotency-Key` queues generation from the latest usable snapshot without recrawling. Generation freezes the active decisions with its source snapshot. Decision changes replace the draft; source refreshes create a proposal for review. Model failures leave source snapshots and previous documents intact.
-
-Enable source monitoring with `PATCH /api/projects/{id}/monitoring` and `{"enabled":true}`. Run the scheduler hourly; it enqueues projects due for their daily check, then exits:
+The embedded worker handles crawl and generation jobs inside the API process.
+Use one API process with this setup, and don't start another worker. To run the
+API and worker separately, leave `BRIEF_EMBEDDED_WORKER=false` and run these in
+separate terminals:
 
 ```sh
-uv run --env-file .env brief schedule
+uv run --env-file .env uvicorn brief.api:app --reload
+uv run --env-file .env brief worker
 ```
 
-A database-free crawler is also available:
+Jobs and documents stay in Postgres in either mode. The embedded worker uses its
+own thread and event loop, with in-memory queues for live progress. See
+[live progress](docs/LIVE_PROGRESS.md) for recovery behavior and deployment limits.
+
+<a id="five-minute-reviewer-walkthrough"></a>
+
+### Try it out
+
+Start with a small site that serves HTML, such as `https://llmstxt.org/`.
+
+1. **Create a draft.** Enter the URL and let Brief read the site. Check the
+   resulting summary, sections, and links against the original pages.
+2. **See what it read.** Open **Run details** for page selection, crawl warnings,
+   and model usage. Brief may finish its selected pages without reading the
+   whole site.
+3. **Ask a visitor question.** Expand **Test this guide** and choose **Run
+   suggested tests**, or write your own question. You can inspect the answer,
+   the pages the reader opened, and its source quotes. These tests use saved
+   page content.
+4. **Refine the guide.** Answer an optional question or edit and save the
+   Markdown. **Rerun same questions** lets you compare the two versions against
+   the same sources.
+5. **Download or publish.** Choose **Download file** to get the Markdown, or
+   expand **Publish your guide** to host a saved version at a stable URL.
+   To put it on your own domain, download it and upload it there.
+
+You can also watch the browser tests exercise the flow using fixed sample data:
+run `npm --prefix frontend run test:e2e` with Postgres and Chrome available.
+This doesn't need a model key. See [browser QA](docs/BROWSER_QA.md) for details.
+
+### Troubleshooting
+
+| Problem | What to try |
+| --- | --- |
+| Can't connect to Postgres | Run `docker compose ps`. The local database uses port `55432`. Run migrations once it's ready. |
+| Sources appear, but there's no draft | Add `OPENAI_API_KEY` and restart the worker or embedded API. Choose **Check now** after a crawl-only run, or **Retry** after a failed generation. |
+| Jobs stay queued | Check that a worker is running and uses the same `DATABASE_URL` as the API. |
+| Can't open a project in the browser | Use `http://localhost:5173`, set `BRIEF_SECURE_COOKIES=false` locally, and check `FRONTEND_ORIGINS`. |
+| Very little content was found | Read the crawl warnings. JavaScript-only pages, PDFs, and bot challenges aren't supported yet. Try an HTML section of the site. |
+
+## Working with guides
+
+You can create separate guides for different parts of a site, such as `/docs/`
+and `/help/`. They share a page cache, but each has its own decisions and version
+history. Use the sidebar to switch guides, check their structure, or download
+all of them as a ZIP. [Guide details](docs/GUIDES_AND_RUN_DETAILS.md) covers this
+workflow.
+
+### Publishing and installation
+
+**Publish your guide** makes a saved version available as plain text at
+`/api/published/{publication_id}/llms.txt`. Anyone with that URL can read it.
+Further edits and generated proposals stay private until you choose **Publish
+updated draft**. The URL stays the same. **Unpublish** makes it return 404.
+
+Before publishing, finish any pending crawl or generation and resolve source or
+decision conflicts. Publication checks the project revision to avoid publishing
+from stale editor state.
+
+The panel shows where to install the file on your domain. After uploading it,
+choose **Verify installation** to compare the served file with your published
+version. The check follows same-origin redirects, ignores surrounding whitespace,
+and records the version and time checked. Brief's hosted copy and the file on
+your domain are separate; updating one won't update the other.
+
+<a id="publish-discover-existing-guides-and-review-changes"></a>
+
+### Existing files and website changes
+
+On the first worker crawl, Brief looks for an existing `llms.txt` at the guide's
+path and each parent path up to the site root. **Existing website guide** lets
+you repeat that check and compare what it found with your draft.
+
+Discovery respects robots rules, validates public addresses, follows only
+same-origin redirects, and allows up to 100 KB per response within a 20-second
+budget. It rejects HTML and error pages and requires a Markdown title. Finding a
+file doesn't establish that its contents are accurate or fully conform to the
+format. Brief saves its URL, retrieval time, and content hash for reference.
+
+The **Change inbox** compares the sources behind your saved draft with the latest
+captured pages. Filter by added, changed, removed, or answer-related content, then
+review any saved answers affected by those changes. Check crawl coverage too:
+an empty inbox only means no changes were found in the captured evidence.
+
+### Returning to a project
+
+The home page remembers projects you've created or opened in this browser.
+Local storage holds the URL, guide name and path, last visit, and private access
+token. Opening a saved project restores its session cookie when a token is
+available. Cookie-only visits appear in the list too.
+
+**Remove** forgets the local entry and token; it doesn't delete the project.
+Clearing browser storage clears the list, and it doesn't sync between devices.
+Older projects appear there the next time you open them.
+
+## What the crawler can read
+
+Brief uses Trafilatura to extract content and aiohttp to fetch pages. It starts
+with a ranked sample, asks the model which areas need more coverage, and reads
+those pages next. There's no default page-count cap, but each crawl has limits:
+
+| Resource | Limit |
+| --- | --- |
+| Sitemap discovery | 10 seconds and 4 MB |
+| Whole crawl | 120 seconds and 50 MB of downloads |
+| Extracted evidence | 300,000 characters total; 12,000 content characters per source |
+| Each request | 12 seconds and 2 MB per response |
+| Discovery inventory | 4 MB of new page URLs and 1 MB of sitemap URLs |
+
+Requests run in batches of four, at least 250 ms apart, with longer delays when
+robots rules require them. The initial sample and the model's 24 KB URL shortlist
+include pages from different sections. Unfinished discovery is saved for later.
+
+Refreshes reuse the selected pages while your instructions stay the same and
+recheck existing sources. New URLs stay in the discovery inventory. If the
+content hasn't changed and a draft already exists, Brief skips generation.
+See [crawl coverage](docs/CRAWL_COVERAGE.md) and
+[saved discovery](docs/DISCOVERY_INVENTORY.md) for the details.
+
+The crawler stays within the submitted hostname, its `www` alias, and the chosen
+path. It checks robots rules per origin and validates destination IPs during DNS
+resolution and socket creation. Environment proxies and cookies are disabled.
+Submit documentation on another subdomain as its own URL.
+
+JavaScript rendering, PDFs, bot-protection bypasses, and verified Markdown
+alternatives aren't supported yet. Missing content and partial coverage appear
+in crawl notes. Brief only removes a known resource after two explicit 404/410
+responses in usable crawls; a timeout or an unread page doesn't count as deletion.
+
+To try the crawler without Postgres:
 
 ```sh
 uv run brief crawl https://llmstxt.org/ --max-pages 5 --out evals/results/crawl.json
 ```
 
-## Verify
+## API and scheduled checks
+
+The running API has [interactive docs](http://localhost:8000/docs).
+`POST /api/projects` accepts `{"url":"https://example.com/"}` and returns a
+project ID, job ID, and one-time management token. Send that token as
+`Authorization: Bearer <token>` on project routes. The server stores its hash.
+In the browser, a private link exchanges the token in its URL fragment for a
+site-scoped HttpOnly cookie, then clears the fragment from the address bar.
+
+| Endpoint | Use |
+| --- | --- |
+| `GET /api/projects/{id}` | Read job status, the latest usable source snapshot, draft, and proposal. |
+| `GET /api/projects/{id}/snapshots/{snapshot_id}` | Inspect a saved crawl attempt, including failed attempts with a snapshot ID in the job result. |
+| `POST /api/projects/{id}/refresh` | Check the website again. Requires `Idempotency-Key`; active jobs are reused and repeated completed manual requests are deduplicated. |
+| `POST /api/projects/{id}/generate` | Generate from the latest usable snapshot without recrawling. Requires `Idempotency-Key`. |
+| `PATCH /api/projects/{id}/monitoring` | Enable daily checks with `{"enabled":true}`. |
+
+Snapshots include source text and metadata, coverage, warnings, and URL changes.
+Drafts and proposals include Markdown, questions, their source snapshot, and model
+usage. Generation captures the active decisions along with its source snapshot.
+Decision changes rebuild the draft; source refreshes produce proposals. Failed
+crawls and model calls preserve the previous usable sources and documents.
+
+In the UI, `/s/{site_id}` opens the original guide and
+`/s/{site_id}?doc=/docs/` opens a guide for that path. All guides share site
+access while keeping their edits and history separate.
+`GET /api/projects/{site_id}/document?doc=/docs/` resolves the corresponding document.
+
+Run the scheduler hourly to queue projects due for their daily check:
+
+```sh
+uv run --env-file .env brief schedule
+```
+
+The scheduler exits after adding jobs. A running worker picks them up.
+
+## Tests and evaluations
+
+[CI](.github/workflows/ci.yml) installs locked dependencies and runs Python
+checks, Postgres integration tests, the frozen benchmark, the frontend build,
+and Chrome browser tests. Benchmark results and browser artifacts are saved
+with the run.
+
+Run the Python checks locally:
 
 ```sh
 uv run ruff check .
@@ -73,26 +257,54 @@ uv run ruff format --check .
 uv run mypy
 uv run pytest
 TEST_DATABASE_URL=postgresql://brief:brief-local-only@localhost:55432/brief uv run pytest
+```
+
+Without `TEST_DATABASE_URL`, Postgres tests are skipped. Each integration test
+creates and removes its own schema, leaving existing tables alone. Tests cover
+job claiming and recovery, retries, authorization, scheduling, snapshot
+preservation, and the crawl-to-refresh flow. Python lint and type checks cover
+`src`, `tests`, `evals`, and `scripts`.
+
+Build the frontend and run browser checks with:
+
+```sh
+npm --prefix frontend run build
+npm --prefix frontend run test:e2e
+```
+
+Browser tests need Chrome and the local Postgres container. They start a separate
+API on port 8001 and Vite on 5175, using the `brief_browser` database and fixed
+crawl/model data. Your development API and worker can keep running. The suite
+covers editing and review at four viewport widths, keyboard navigation,
+accessibility, long content, session recovery, and failure/retry flows.
+See [browser QA notes](docs/BROWSER_QA.md).
+
+For generation and crawl evaluations:
+
+```sh
 uv run brief-eval --export evals/results/requests
+uv run python evals/end_to_end.py --baseline --out evals/results/end-to-end-review
 # Optional paid model run:
 uv run --env-file .env brief-eval --openai --out evals/results/live
 ```
 
-Python checks cover `src`, `tests`, `evals`, and `scripts`. Every function requires parameter and return annotations, and mypy checks function bodies and generic type arguments. Heterogeneous SQL rows and JSON payloads use explicit `dict[str, Any]` types; injected services and callbacks use structural protocols.
+The [URL-to-file benchmark](evals/end_to_end.md) replays 12 authored sites through
+crawling, extraction, validation, and rendering. Its baseline simply links every
+extracted source. It helps catch coverage regressions, but doesn't measure model
+quality or success on live websites. Give each run a fresh output directory.
 
-Without `TEST_DATABASE_URL`, tests requiring Postgres explicitly skip. Integration tests create and remove a unique schema per test; they do not reset the database's existing tables. They cover concurrent claims, lease expiry, retries, atomic enqueue, snapshot preservation, authorization, scheduling, and API-to-extraction-to-refresh behavior. Synthetic HTML fixtures cover documentation, a service business, policies, and a product catalog.
+The generation harness also accepts executable model adapters and saved JSON
+responses. Its separate `uv run brief-eval --baseline` command runs a deliberately
+weak metadata control and is expected to fail some checks. The
+[evaluation guide](evals/README.md) explains how to interpret the results, and the
+[real-file study](evals/REPORT.md) records the historical model runs and their limits.
 
-The eval harness accepts any model through an executable adapter or saved JSON responses. `uv run brief-eval --baseline` is a deliberately weak metadata control and is expected to return a failing exit code. See [the eval guide](evals/README.md) for interpretation.
+## Deployment
 
-## Crawl boundaries
-
-Uses Trafilatura for extraction and aiohttp for controlled fetching. There is no default page-count limit. Production crawls use a ranked initial sample and one model-guided coverage assessment, followed by targeted reading. Safeguards: 10 seconds and 4 MB for sitemap discovery, a 120-second crawl deadline, 50 MB aggregate downloads, 300,000 extracted evidence characters, 12-second request timeout, 2 MB per response, and 12,000 content characters per source. See [coverage-driven reading](docs/CRAWL_COVERAGE.md). Requests run in batches of four with at least 250 ms between starts, increased by robots crawl delay. Discovery retains a compact URL inventory (4 MB of new URLs and 1 MB of sitemap URLs), with unfinished work saved per project. Initial reading and the model’s 24 KB candidate shortlist are balanced across sections; refreshes reuse the saved page selection while owner direction is unchanged and recheck existing sources. Newly discovered URLs remain in the inventory. Unchanged content with an existing draft skips guide generation. See [saved discovery](docs/DISCOVERY_INVENTORY.md).
-
-The crawler checks robots per origin, keeps redirects in the submitted hostname/`www` alias and path scope, and checks destination IPs during DNS resolution and socket creation. Environment proxies and cookies are disabled. It reports missing content and partial coverage. It does not render JavaScript, bypass bot protection, process PDFs, or verify Markdown alternatives yet. Subdomain documentation sites need their own submitted URL. Known resources are removed only after two explicit 404/410 observations in usable crawls; a timeout or an omitted page never means deletion.
-
-## Backend deployment commands
-
-Use one repository with separate Railway services for API and worker, plus managed Postgres. Use the same `DATABASE_URL` on both. Run migrations once as a pre-deploy command.
+See [deployment and redeploy instructions](docs/DEPLOYMENT.md) for the full setup.
+Run the API and worker as separate Railway services sharing a managed Postgres
+database and the same `DATABASE_URL`. Apply migrations before deploying updated
+code.
 
 | Process | Command |
 | --- | --- |
@@ -101,55 +313,20 @@ Use one repository with separate Railway services for API and worker, plus manag
 | Worker | `uv run brief worker` |
 | Hourly cron | `uv run brief schedule` |
 
-The cron must exit after dispatch; the worker stays running. Set `FRONTEND_ORIGINS` to exact frontend origins. Set `BRIEF_CREATION_KEY` for a private demo before exposing project creation publicly; send it via `X-Creation-Key`. This gate is not a production user quota system. Public rollout still needs per-user/project quotas and deployment-specific origin configuration. The default Compose password is for loopback-only local development.
+The worker stays running; the cron exits after dispatch. Set `FRONTEND_ORIGINS`
+to the exact frontend origins. For a private demo, set `BRIEF_CREATION_KEY` and
+send it through `X-Creation-Key`. Public access still needs per-user/project
+quotas. The Compose password is only for local development on the loopback interface.
 
-## Frontend build and browser checks
+The frontend build produces `frontend/dist` for Cloudflare Pages. The Pages
+worker proxies `/api/*` to its `API_ORIGIN` binding, keeping browser sessions on
+the same origin. Leave `VITE_API_BASE` unset for that setup. If browsers connect
+directly to a separate API host, set `VITE_API_BASE` at build time and use HTTPS
+sibling custom domains so SameSite cookies work.
 
-`npm --prefix frontend run build` produces `frontend/dist` for Cloudflare Pages. Set `VITE_API_BASE` to the API origin at build time when using a separate API host. Use HTTPS sibling custom domains for frontend and API so SameSite cookies work; an unrelated `pages.dev` / Railway domain pair needs a same-origin API proxy or a different cookie strategy before deployment.
+## More about the project
 
-Run `npm --prefix frontend run test:e2e` with the local Postgres container running. The suite starts an isolated API on 8001 and Vite on 5175, creates the dedicated `brief_browser` database, and uses deterministic crawl/model fixtures. Your development API and worker can keep running. Chrome is required. Tests cover the full editing/review flow at four viewport widths, keyboard navigation, long-content scaling, accessibility checks, authentication recovery, and failure/retry states. See [browser QA notes](docs/BROWSER_QA.md).
-
-Path-scoped guides share a site cache while keeping independent decisions and document history. The sidebar provides guide structure, switching, checks, and a ZIP export; the top bar's **Run details** exposes recorded crawl selection, fetch outcomes, cache behavior, and model usage. See [the demo and implementation notes](docs/GUIDES_AND_RUN_DETAILS.md) and [the frozen real hierarchy fixtures](evals/corpus/hierarchies/README.md).
-
-## Publish, discover existing guides, and review changes
-
-Run `uv run --env-file .env brief migrate` after updating to apply pending migrations.
-In the editor, expand **Publish your guide** to publish the current saved draft.
-The stable `/api/published/{publication_id}/llms.txt` URL serves only that version as
-plain text without authentication. Editing, regeneration, and refresh proposals do
-not change the published file. **Publish updated draft** updates the same URL;
-**Unpublish** makes it return 404. Publication requires a current project revision,
-no pending crawl/generation, and resolved source/decision conflicts.
-
-The panel shows the exact installation URL on the owner's domain. Download the
-published file, install it there, then use **Verify installation** to compare the
-served text with the selected publication (ignoring leading/trailing whitespace).
-Hosting a copy in Brief does not install it on another domain. Verification follows
-same-origin redirects and reports the checked version and time.
-
-The first normal worker crawl also checks for an existing `llms.txt` at the guide's
-path and every ancestor through the origin root. **Existing website guide** can
-repeat the check and compare captured files beside the saved draft. Checks use
-public-address validation, same-origin redirects, robots rules, a 100 KB response
-limit, and a 20-second request budget. HTML/error pages are rejected; a Markdown
-title is required. This is discovery, not full llms.txt conformance or content
-verification. Results retain the source URL, retrieval time, and content hash.
-
-The **Change inbox** compares saved draft evidence with the latest captured sources.
-Filter added, modified, removed, or answer-related changes while keeping flagged
-answers available for review. An empty inbox does not prove the live website is
-unchanged; check outcomes and crawl coverage still matter.
-
-## Saved browser sessions
-
-The home page lists projects created or successfully opened in this browser,
-ordered by the most recent visit. Local storage keeps each project's URL, guide
-name/path, last-opened time, and private access token. Reopening a saved session
-restores its cookie automatically. Cookie-only visits are remembered too. **Remove**
-forgets the list entry and saved token without deleting the server-side project.
-Clearing browser storage removes this history; it is not synced between devices.
-Sessions visited before this feature are added when reopened.
-
-## Single-process demo runtime
-
-Start the API with `BRIEF_EMBEDDED_WORKER=true uv run --env-file .env uvicorn brief.api:app --host 127.0.0.1 --port 8000` and **do not start a separate worker**. Use one API process. The worker runs on its own thread/event loop; live progress flows through bounded memory queues instead of Postgres polling. Durable jobs, evidence and documents remain in Postgres. See [live progress](docs/LIVE_PROGRESS.md) for recovery and deployment limits. Leave the flag off to retain the separate-worker deployment.
+- [Product goals and design](PRODUCT_SPEC.md)
+- [Architecture and tradeoffs](ARCHITECTURE.md)
+- [Feature guides](docs/README.md)
+- [Frozen examples of hierarchical guides](evals/corpus/hierarchies/README.md)

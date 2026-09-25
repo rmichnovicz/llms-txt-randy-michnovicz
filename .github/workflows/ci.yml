@@ -1,0 +1,77 @@
+name: Verify
+
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: verify-${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    services:
+      postgres:
+        image: postgres:16-alpine
+        env:
+          POSTGRES_USER: brief
+          POSTGRES_PASSWORD: brief-local-only
+          POSTGRES_DB: brief
+        ports:
+          - 55432:5432
+        options: >-
+          --health-cmd "pg_isready -U brief -d brief"
+          --health-interval 2s
+          --health-timeout 3s
+          --health-retries 20
+    env:
+      TEST_DATABASE_URL: postgresql://brief:brief-local-only@localhost:55432/brief
+    steps:
+      - uses: actions/checkout@d23441a48e516b6c34aea4fa41551a30e30af803 # v6
+      - uses: astral-sh/setup-uv@94527f2e458b27549849d47d273a16bec83a01e9 # v7
+        with:
+          version: "0.11.32"
+          python-version: "3.12"
+          enable-cache: true
+      - uses: actions/setup-node@249970729cb0ef3589644e2896645e5dc5ba9c38 # v6
+        with:
+          node-version: "24"
+          cache: npm
+          cache-dependency-path: frontend/package-lock.json
+      - name: Install locked dependencies
+        run: |
+          uv sync --locked
+          npm --prefix frontend ci
+      - name: Lint, formatting, and types
+        run: |
+          uv run --no-sync ruff check .
+          uv run --no-sync ruff format --check .
+          uv run --no-sync mypy
+      - name: Unit and Postgres integration tests
+        run: uv run --no-sync pytest -q
+      - name: Replay frozen URL-to-file benchmark
+        run: uv run --no-sync python evals/end_to_end.py --baseline --out evals/results/end-to-end-ci
+      - name: Build frontend
+        run: npm --prefix frontend run build
+      - name: Install browser
+        working-directory: frontend
+        run: npx playwright install --with-deps chrome
+      - name: Browser workflows and accessibility
+        run: npm --prefix frontend run test:e2e
+      - name: Preserve benchmark and browser evidence
+        if: always()
+        uses: actions/upload-artifact@b7c566a772e6b6bfb58ed0dc250532a479d7789f # v6
+        with:
+          name: verification-evidence
+          path: |
+            evals/results/end-to-end-ci/
+            frontend/test-results/
+            frontend/playwright-report/
+          if-no-files-found: ignore
+          retention-days: 7

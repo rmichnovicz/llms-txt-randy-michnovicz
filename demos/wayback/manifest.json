@@ -1,0 +1,18 @@
+{
+  "before": {
+    "timestamp": "20221231202913",
+    "capture_url": "https://web.archive.org/web/20221231202913id_/https://html5boilerplate.com/",
+    "original_url": "https://html5boilerplate.com/",
+    "file": "captures/before.html",
+    "sha256": "7bcca9fed585bfccbe64d31832300ffb790d512a7983a45c3844e5b1bbb72244",
+    "retrieved_at": "2026-09-25T07:44:29.825386+00:00"
+  },
+  "after": {
+    "timestamp": "20250531194832",
+    "capture_url": "https://web.archive.org/web/20250531194832id_/https://html5boilerplate.com/",
+    "original_url": "https://html5boilerplate.com/",
+    "file": "captures/after.html",
+    "sha256": "99a42ebdb70cbdafbce6498b2728adc7a6f60c48455c7dc0a353995ee5985968",
+    "retrieved_at": "2026-09-25T07:44:29.825975+00:00"
+  }
+}

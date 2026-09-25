@@ -1,10 +1,10 @@
-# Brief: architecture and evaluation plan
+# Brief: implemented architecture and remaining work
 
 Status: the Python API, Postgres migrations/job lifecycle, crawler, source snapshots, refresh diffing, scheduler command, domain functions, OpenAI generation, document versions, and eval harness are implemented. The React editor, persisted decisions, optional question flow, manual Markdown editing, and version review are also implemented. Explicit saved-version publication, existing-guide checks, and the change inbox are implemented; cloud deployment remains planned. Provider: OpenAI Responses API, GPT-6 Sol, medium reasoning.
 
 ## Architecture decision
 
-Use a TypeScript React/Vite frontend on Cloudflare Pages and a Python backend on Railway. Railway is the default recommendation, not a deployment commitment: keep the backend portable. Run FastAPI as an HTTP service, a separate Python worker process for crawling/model jobs, and Postgres for project state and a small durable job queue. A Railway cron process inserts due refresh jobs and exits. The browser receives Server-Sent Events with a polling fallback; see [live progress](docs/LIVE_PROGRESS.md). No agent framework or vector database is needed for the first build.
+The implemented runtime is a TypeScript React/Vite frontend and Python backend. Cloudflare Pages and Railway are planned deployment targets; the backend remains portable. Run FastAPI as an HTTP service, a separate Python worker process for crawling/model jobs, and Postgres for project state and a small durable job queue. A Railway cron process inserts due refresh jobs and exits. The browser receives Server-Sent Events with a polling fallback; see [live progress](docs/LIVE_PROGRESS.md). No agent framework or vector database is needed for the first build.
 
 ```mermaid
 flowchart LR
@@ -27,11 +27,11 @@ Relevant primary documentation: [Railway FastAPI deployment](https://docs.railwa
 
 Generate from a crawl snapshot, active decisions, dismissed question topics, and an explicit task. Do not reconstruct authority by replaying conversation history. Every model result has a complete structured guide or, for question-only requests, no guide. Render Markdown in application code.
 
-- A source is a stable ID, verified URL, title, description, and bounded extracted content. A Markdown alternative is stored only after checking it exists.
+- A source is a stable ID, verified URL, title, description, and bounded extracted content. The schema supports a Markdown alternative; automatic discovery and verification of alternatives is not implemented.
 - A decision is a fact or editorial preference with an active flag and provenance. Persist decision revisions; snapshots record the precise revisions used.
 - A pending question carries a stable topic, a short rationale, options, a recommendation, and evidence IDs. The user can also answer freely.
 - A generation result contains the guide, a short explanation, and zero to three questions. “Keep grilling me” uses a one-question budget per turn, with no lifetime limit.
-- A document version records source snapshot ID, decision snapshot ID, model/prompt metadata, structured guide, rendered bytes, and whether the user edited it directly.
+- A document version records its source snapshot ID, frozen generation input (including decisions), decision revision, model/prompt metadata, structured guide, rendered bytes, and whether the user edited it directly.
 
 The current `build_request` excludes inactive decisions. On decision deletion, regenerate from source evidence and the remaining active decisions, never the old generated draft. The UI must explain that regeneration replaces manual wording; preserve the prior document version for recovery. A removed claim may still appear if independently supported by the website. Removal withdraws an instruction; exclusion requires an active exclusion preference.
 
@@ -43,13 +43,13 @@ This interpretation step and targeted document editing are planned, not implemen
 
 1. Validate the submitted URL and establish crawl scope.
 2. Crawl and normalize source evidence, retaining fetch outcomes and extraction warnings.
-3. Load the appropriate decision snapshot. Interactive generation uses active draft decisions. Scheduled refresh uses the published decision snapshot, even if newer draft decisions exist.
+3. Freeze current active decisions with the source snapshot. Refresh generation also uses current saved decisions and creates a private proposal; it does not regenerate or publish from an older published decision snapshot.
 4. Make one bounded model call through a provider-neutral adapter.
 5. Parse the structured result, validate source and evidence IDs, question budget, duplicate links, and question-only behavior.
 6. Render the guide with escaped text and source-owned HTTP(S) destinations.
 7. Save an immutable version. Atomically update the draft pointer if its expected revision is still current.
 
-The initial adapter does not automatically repair invalid output: schema/source failures terminate the generation job and preserve the previous version. Transient network/server errors retry through the durable job system; credential, quota, refusal, and incomplete-output failures are terminal and can be explicitly retried after correction. Retry transient provider failures separately from schema failures. Keep an overall job deadline and configurable crawl, content, token, and cost budgets. Record attempts so a successful-looking repair does not hide first-attempt failure rates.
+The initial adapter does not automatically repair invalid output: schema/source failures terminate the generation job and preserve the previous version. Transient network/server errors retry through the durable job system; credential, quota, refusal, and incomplete-output failures are terminal and can be explicitly retried after correction. Retry transient provider failures separately from schema failures. Keep an overall job deadline and bounded crawl, content, and output-token budgets. Record attempts so a successful-looking repair does not hide first-attempt failure rates.
 
 The model boundary returns JSON, not arbitrary Markdown or executable actions. Evidence IDs establish traceability, not factual entailment: semantic review still matters. Website content is untrusted data. The prompt instructs the model to ignore embedded instructions; evals test that behavior. API keys remain backend environment secrets and never enter browser requests, stored source text, or eval artifacts.
 
@@ -76,19 +76,20 @@ Live smoke tests exposed price-only extraction on a catalog and incorrect UTF-8 
 
 ## Data and consistency
 
-Implemented tables: `projects`, `jobs`, `crawl_snapshots`, `document_versions`, `decisions`, `decision_events`, and `questions`, with checksummed SQL migrations. Each snapshot stores bounded sources, page state, observations, coverage, warnings, and changes as JSONB; there is no separate `pages` table yet. The following table describes the logical schema, including planned publication state:
+The [SQL migrations](src/brief/migrations/) are the authoritative schema. Current application tables are:
 
-| Table | Important state |
+| Tables | Stored state |
 | --- | --- |
-| projects | site URL, scope, management token hash, public slug, draft/published version IDs, revision, refresh settings, due time, last checked/updated |
-| crawl_snapshots | project, completion/coverage status, extraction version, timestamps |
-| pages | snapshot, source ID, canonical URL, content hash, bounded extracted evidence, fetch status, not-found count |
-| decisions / decision_revisions | stable ID, current revision, kind, statement, active status, origin and evidence |
-| decision_snapshots | immutable list of revisions used for a document |
-| questions | topic, options, evidence, status, related decision |
-| document_versions | immutable content, source/decision snapshot IDs, parent, manual-edit flag, prompt/model metadata |
-| jobs | kind, idempotency key, expected project revision, status, stage, attempt, lease expiry/token, error |
-| events | bounded audit of changes and publication outcomes; no hidden reasoning |
+| `sites`, `projects` | Shared site identity; each scoped guide's access token hash, revision, draft/proposal/published pointers, publication ID, and monitoring settings |
+| `crawl_snapshots` | Bounded sources, page state, observations, coverage, warnings, and changes as JSONB |
+| `decisions`, `decision_events`, `questions` | Active facts/preferences, revision history, evidence basis, and optional questions |
+| `document_versions` | Immutable Markdown, structured output, frozen generation input, source snapshot, manual-edit flag, model/prompt metadata |
+| `jobs` | Kind, idempotency key, frozen generation input, expected revision, progress, attempts, lease token/expiry, result/error |
+| `page_cache`, `discovery_frontiers`, `model_cache` | Shared page evidence, saved discovery work, and reusable model responses |
+| `guide_test_suites`, `guide_test_runs` | Saved visitor questions and versioned reader-test results |
+
+There are no separate `pages`, `decision_revisions`, or `decision_snapshots` tables.
+Decision inputs are frozen inside generation jobs and document versions.
 
 Store only bounded evidence initially. Add object storage if measured source volume warrants it, instead of saving unlimited HTML in Postgres. Define retention for superseded snapshots without deleting evidence referenced by retained versions.
 
@@ -102,33 +103,42 @@ Publication atomically moves the published version pointer, guarded by project r
 
 ## Refresh and publication
 
-Both manual “check now” and Cron use the same refresh job. Distinguish source change from rendered file change and from decision conflict.
+Manual checks and the scheduler enqueue refresh jobs. Unusable crawls preserve the
+last usable evidence and publication. Unchanged sources with an existing draft
+skip generation. Changed sources produce a private proposal while retaining the
+current draft; changed evidence can flag saved decisions for review. Accepting a
+proposal and publishing it are explicit owner actions guarded by revisions.
 
-| Condition | Result |
-| --- | --- |
-| Failed/unusable crawl or invalid candidate | Preserve last good publication; show failure |
-| No meaningful source change | Record successful check; no generation |
-| Valid candidate, identical output, no conflict | Record check; leave last-updated unchanged |
-| Conflict with saved facts/preferences | Show evidence and a decision point, even if bytes are unchanged |
-| Unpublished draft, manual published edits, or auto-update disabled | Save a review proposal |
-| Valid changed candidate, no conflicts, auto-update enabled, no protected edits | Publish and record an update event |
+The pure `refresh_action` helper in [refresh.py](src/brief/refresh.py) models a
+broader policy, including a possible automatic-publish outcome. That policy is
+not wired into automatic publication. Current worker refreshes never update the
+public file automatically. Automatic publication, three-way merging, and email
+notifications remain future work.
 
-The pure `refresh_action` implements this decision table; the caller must derive its flags from actual crawl coverage, validation, version state, and conflict analysis. Do not trust model-reported success flags. When review proposals are accepted, use a revision check again.
-
-A directly edited published file always enters review-first refresh. Automatic three-way merging is out of scope. A failed refresh must not erase the hosted file. Last checked means a completed attempt with its result; last updated means changed published bytes. The UI links to the update diff. Email remains a stretch goal. A downloaded copy on the user's domain does not follow the app's hosted URL automatically.
+A downloaded copy on the owner's domain does not follow changes to Brief's hosted
+URL. Installation verification compares the owner's served file with the selected
+publication; it does not deploy it.
 
 ## HTTP and access
 
-Implemented routes are documented in README.md and FastAPI OpenAPI: project creation/read, snapshot read, refresh, and monitoring toggle. Creation queues a crawl, which queues generation when the worker has model credentials. An explicit generation route can reuse an existing snapshot. The full product route plan follows:
+The running [OpenAPI reference](http://localhost:8000/docs) documents exact request
+bodies and responses. Representative implemented routes are:
 
-- `POST /api/projects`: create project and initial generation job.
-- `GET /api/projects/:id`: authenticated state, versions, questions, and job status.
-- `POST /api/projects/:id/messages`: interpret free text or request another question.
-- `PATCH /api/projects/:id/decisions/:decisionId`: revise/deactivate a decision and enqueue regeneration.
-- `POST /api/projects/:id/versions`: save a direct edit with expected revision.
-- `POST /api/projects/:id/publish`: publish a specified valid version with expected revision.
-- `POST /api/projects/:id/refresh`: enqueue a deduplicated check.
-- `GET /p/:slug/llms.txt`: public plain text with content hash ETag.
+| Route | Purpose |
+| --- | --- |
+| `POST /api/projects` | Create a project and enqueue its initial crawl; successful crawling queues generation when configured |
+| `GET /api/projects/{id}` | Authenticated state, versions, questions, and job status |
+| `POST /api/projects/{id}/decisions` | Save a decision and enqueue regeneration |
+| `PATCH /api/projects/{id}/decisions/{decision_id}` | Revise/deactivate a decision |
+| `POST /api/projects/{id}/questions` | Request another optional question |
+| `POST /api/projects/{id}/versions` | Save a direct edit with expected revision |
+| `POST /api/projects/{id}/versions/{version_id}/use` | Use a saved version as the draft |
+| `POST /api/projects/{id}/publication` | Publish a selected saved version or unpublish |
+| `GET /api/published/{publication_id}/llms.txt` | Serve public plain text with ETag |
+| `POST /api/projects/{id}/refresh` | Enqueue a deduplicated source check |
+| `POST /api/projects/{id}/tests` | Queue a reader test of a guide version |
+
+General free-text message interpretation is planned; there is no `/messages` endpoint.
 
 The current API generates a cryptographically random management token and stores only its hash; project routes support bearer authentication and project-scoped HttpOnly cookies. The frontend exchanges the management secret for a cookie (Secure in production). The UI keeps the secret out of public URLs, logs, and referrers through a fragment-based recovery link cleared after exchange. Scope every query to the authenticated project. The current development API uses exact-origin CORS and an optional private-demo creation key. Cookie-authenticated mutations enforce exact Origin checks; public deployment needs quotas on creation and model-triggering endpoints. No signup is required; possession of the management link grants editing access.
 
@@ -136,15 +146,32 @@ Prefer custom sibling domains (`app.example.com` on Pages, `api.example.com` on 
 
 Deploy one Python package with distinct API, worker, and scheduler entry points. Use managed Postgres and versioned migrations, backend-only secrets, structured logs, and health checks. Pages deploys static frontend assets. A staging smoke test must verify real database transactions, duplicate job claims, concurrent publication, schedule dispatch, authentication across domains, and last-good-file preservation; local domain tests cannot establish these properties.
 
-## Evaluation and build order
+## Evaluation and remaining work
 
-The implemented harness runs nine frozen synthetic model scenarios and runtime/grader tests. It exports schema-bearing requests, grades saved JSON responses, or invokes a provider adapter executable. The model harness uses frozen synthetic inputs. GPT-6 Sol passed all nine deterministic cases in its first live run; broader repetitions and human review remain pending. The separate crawler CLI has been smoke-tested against public sites; those live runs are not reproducible model evals. See evals/README.md for commands, rubric, and limits.
+The original harness has nine frozen synthetic scenarios and can export requests,
+grade saved JSON responses, or invoke a model adapter. Expanded studies add real
+files, routing tasks, frozen page evidence, consumer navigation, and refresh
+fixtures. See [the evaluation guide](evals/README.md) for commands and boundaries.
+A passing model-input fixture does not establish end-to-end live-site coverage.
+The [URL-to-file benchmark](evals/end_to_end.md) separately replays 12 authored
+HTTP sites through crawl, extraction, validation, and rendering. Its deterministic
+baseline exposes coverage gaps without measuring model editorial quality.
 
-Completed vertical slice: API → transactional job enqueue → Python crawler → immutable snapshot → authenticated status and refresh diff. The provider adapter and durable source-to-draft path are now implemented. The URL-to-draft editor and decision operations are complete. Next: publication and deployment of the existing daily refresh scheduler. Extraction regression tests now cover synthetic docs, services, policy, and catalog HTML. Before deployment, add a held-out set of frozen real-site evidence and run the model corpus against candidate providers. Keep a small held-out set for final review.
+The [September 24 study](evals/REPORT.md) collected 55 actual files across 13
+categories, eight templates, 97 routing questions, and 54 generation cases (23
+with fetched page evidence). The frozen v2 prompt passed 162 repeated deterministic
+checks after documented label corrections. The application now uses
+`brief-generation-v5`; those historical scores must not be presented as validation
+of the current prompt. Raw model results remain local and gitignored.
 
-The first demo should show a generated file, a meaningful question, removal of an answer changing the document, publication, a changed-source refresh, and a protected manual edit. Prioritize that complete path over visual polish or email.
+Implemented product flows include URL-to-draft generation, persisted decisions,
+manual editing, version comparison, reader tests, scoped guides, explicit
+publication, installation checks, existing-guide discovery, and source-change
+review. The [README walkthrough](README.md#five-minute-reviewer-walkthrough)
+connects these into a short reviewer journey.
 
-
-## Expanded evaluation study
-
-The study in `evals/REPORT.md` adds 55 frozen actual files across 13 categories, eight published templates, 97 task-routing questions, and 54 generation scenarios (23 with fetched real-page evidence). Development and held-out generation cases are separated. Repeated runs record source/request hashes, exact prompts, first-attempt outputs, tokens, latency and per-category results. Same-model semantic review is advisory and is calibrated with six positive/negative pairs. Lint signals are descriptive rather than a universal quality score. The v2 generation prompt handles empty evidence within the existing schema and tightens unsupported descriptions and scope. Raw model results remain local and gitignored.
+Remaining work includes broader end-to-end website benchmarks, current-prompt
+model runs, independent human calibration, browser-rendered/PDF extraction, and
+cloud deployment validation. Keep crawl coverage, deterministic output validity,
+semantic accuracy, and reader usefulness as separate measurements. None of the
+existing studies establishes search ranking gains or adoption by answer engines.

@@ -842,6 +842,24 @@ summary {
   color: #6c607b;
   font-size: 10px;
 }
+.coverage-summary {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 8px 16px;
+  margin-bottom: 17px;
+  font-size: 12px;
+  line-height: 1.6;
+  color: #6c607b;
+}
+.coverage-summary p {
+  flex: 1 1 260px;
+  margin: 0;
+}
+.coverage-summary button {
+  font-size: 12px;
+}
 .banner {
   background: #eeebf7;
   border: 1px solid #ded6ed;

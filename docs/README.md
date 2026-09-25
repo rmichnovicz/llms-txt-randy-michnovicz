@@ -1,8 +1,8 @@
 # Documentation
 
 Start with the [project README](../README.md) for setup, verification, and deployment
-commands. The [architecture](../ARCHITECTURE.md) explains implementation decisions
-and planned behavior. The [product specification](../PRODUCT_SPEC.md) describes
+commands. The [architecture](../ARCHITECTURE.md) distinguishes the implemented architecture
+from remaining work. The [product specification](../PRODUCT_SPEC.md) describes
 the user experience and development priorities.
 
 ## Editor and review
@@ -23,7 +23,8 @@ the user experience and development priorities.
 
 - [Browser QA](BROWSER_QA.md): editor flows, accessibility, and failure states.
 - [Evaluation guide](../evals/README.md): commands, grading, and interpretation.
-- [Real-file study](../evals/REPORT.md): evaluation results and limitations.
+- [Real-file study](../evals/REPORT.md): historical v2 evaluation results and limitations.
+- [URL-to-file benchmark](../evals/end_to_end.md): 12 authored HTTP fixtures, extraction coverage, and generation controls.
 - [Sitemap study](../evals/reports/sitemap-study/README.md): measured discovery behavior.
 - [Refresh fixtures](../tests/fixtures/refresh/README.md): archived sources and capture provenance.
 - [Hierarchy fixtures](../evals/corpus/hierarchies/README.md): frozen examples of scoped guides.

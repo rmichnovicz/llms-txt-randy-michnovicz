@@ -1,6 +1,6 @@
 # llms.txt evaluation study — September 24, 2026
 
-The generator passed **162/162 deterministic checks across 54 cases, each run three times**, after one prompt revision and documented corrections to overly strict labels. These checks are regression evidence; they do not establish factual accuracy of every generated sentence. The most useful product finding is that **task routing, scope and source authority matter more than Markdown polish alone**.
+The frozen v2 generator passed **162/162 deterministic checks across 54 cases, each run three times**, after one prompt revision and documented corrections to overly strict labels. These checks are regression evidence; they do not establish factual accuracy of every generated sentence. The most useful product finding is that **task routing, scope and source authority matter more than Markdown polish alone**.
 
 ## What was collected
 
@@ -83,7 +83,7 @@ The model-facing inputs were unchanged for the v1/v2 comparisons. The new prompt
 3. Distinguishes a user's positioning preference from evidence of a certification or other factual claim.
 4. Preserves version, locale, geographic scope and policy exceptions; permits clearly labeled archive material when useful.
 
-Prompts are frozen in `prompts/generation-v1.json` and `prompts/generation-v2.json`; v2 is now used by the application. Original requests, outputs, failures and usage remain under `results/`.
+Prompts are frozen in `prompts/generation-v1.json` and `prompts/generation-v2.json`. These are historical v1/v2 results. The application now identifies its prompt as `brief-generation-v5` in [generation.py](../src/brief/generation.py); the scores above do not establish v5 performance. Original requests, outputs, failures and usage remain under `results/`.
 
 ## Semantic review and its limits
 

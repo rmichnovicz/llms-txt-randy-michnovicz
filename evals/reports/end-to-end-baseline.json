@@ -1,0 +1,588 @@
+{
+  "mode": "metadata-baseline",
+  "corpus_sha256": "b89da37e4ef1b60c3bb1c78e9aecbc7da213f3facdccf57584666398459245ad",
+  "prompt_version": "brief-generation-v5",
+  "git_revision": "34682cffd978d1b9d5302de882c2b0f2e2ec2d09",
+  "git_dirty": true,
+  "system_prompt_sha256": "8d0b41beb2f1f7b78c5d0912cde1a2fcb97acf7c0728b2f63a3342de4afd6c1b",
+  "code_sha256": {
+    "evals/end_to_end.py": "4870eccacf39d02e802a5673bc02d71d7518fe5190b130138c4d7cefc8c50a28",
+    "src/brief/__init__.py": "07a8ee6c8d0fc7abc6ced1b890fb365885ad2abe2eb0d04040feb47d112e956f",
+    "src/brief/api.py": "8dc5c63dfcb2418852225337867ce811160705e2635c28995fd60597acea7ee9",
+    "src/brief/benchmark.py": "6ef99cad7dac7297881797b1675b03f323dcbe2b3ca12cbf040b0fc294b28072",
+    "src/brief/change_inbox.py": "dcaa0d8d65c75e0c30b9145776599122bd3701d5a9d35760f1e86110aa5ac8d7",
+    "src/brief/cli.py": "8ea96da9bc43cd5b0b1bce255d18b10adfe534b672c0ce8f1ec0f194d5e9974b",
+    "src/brief/consumer_eval.py": "c107b918e094493c191141f1a39ff976b36cd3051668066fb5675a20948cca95",
+    "src/brief/contracts.py": "22c1fd7c357562a9d99792be8d4189f3b02b557d78a8913fd35844c017bf7001",
+    "src/brief/corpus.py": "7d35d7a2f97eeffa3a51202da660f60d90609b3b38b224fe047519840fb0c9f4",
+    "src/brief/crawl/__init__.py": "7178ddfe954d8675ca220e0242e2bf373ca22b2b1cf1164f5fb551eb54a9a998",
+    "src/brief/crawl/cache.py": "dc0545e90d21957b0017fb67b846600931a0007cc744e4becdab9f371a42fed0",
+    "src/brief/crawl/extract.py": "7579bf80f356c3c2edd5dda97e96e425a55d5f4c49eacc1a9e36c077b33585f2",
+    "src/brief/crawl/fetch.py": "b86876f9c2cf949a262acf0824ec8bad9d29fd87a1b7492c70897e97ed2ddfb2",
+    "src/brief/crawl/inventory.py": "19162157bf90483a6f9d775af291471e5602545fe8549e681a33878c12c19a08",
+    "src/brief/crawl/planning.py": "7bce79a96d871516ea3309ce3d8a26dc0e58411df85fe109eb89fd5b28f532bd",
+    "src/brief/crawl/runner.py": "729ecc85550d77ad125dd8b0c823ca95cf52c0674edd016877e0567f7efeb75f",
+    "src/brief/db.py": "4ac62453f9941fe93bee52058bf6753f8652821e685dd401420c3b44ed39311a",
+    "src/brief/decision_review.py": "f8518af0e5a3deef99248f7ec1d8951635325562b2e0d6fbc07bcaebc3d98021",
+    "src/brief/dialogue_eval.py": "b18b38b84d3ace60784e8c1838633227383af99df9fc07b0dfac989ae579bde9",
+    "src/brief/dialogue_review.py": "22275accedcce593b070c60a6200db58be2c91fc502a8b195fd4b44574a9e47a",
+    "src/brief/editor.py": "65b07eea9f2a7d1a0d0da174a83cdcb49ef524d5ab4cd8fc618d7ec215a5a489",
+    "src/brief/evals.py": "b9c2a395702a4079647b12668390d1d815bf9d0a9860ccad8a9feede8d5d082c",
+    "src/brief/generation.py": "0fc279720f6fd91272946b21ee60bfddcec41f75d0b902fdef58f4fd68cd5bea",
+    "src/brief/guide_tests.py": "1bae13db47a43194d88ffbe31d1450a84f2c65e31322d19d4d5edfc1ddeaedec",
+    "src/brief/guides.py": "9b21298307f60403545fbf981f71e7a2274671a0e63eaebb691ba7050344487b",
+    "src/brief/interfaces.py": "2406e0a8f2668d4c1156b4971f09823d7f0634d991c87aadcf8a33f5d5a0ec8b",
+    "src/brief/live.py": "ec4828f1a615ba091df751441812ac2c0da7d831a8b28c00b36bb51ef6b41f7f",
+    "src/brief/model.py": "884749bc83f5da292b14e41e6046745e13c880ab8871a2b1ae37211ca01067f4",
+    "src/brief/model_cache.py": "e0123911749bd39ecd347d1c11b202f6d303ea300dc2ad357b8b919bb801b995",
+    "src/brief/progress.py": "54cd39154066e5fcdc9b34d75013e7b27a65d3368e49ca9770c368996d0030e5",
+    "src/brief/publication.py": "4d8d8ad31fa6cc8f1399c434667cd60d1460e24d4274bfc022b5db72e5bd0858",
+    "src/brief/refresh.py": "8753757b43c6fe59988cf6c8461e8d8d29ef875c2502d9750d52c88bb0eeef03",
+    "src/brief/routing_eval.py": "e79fd6c2714f8b11f8a68bf35e25200bbbe065f42c81bb48f8dca7211c908f80",
+    "src/brief/semantic_eval.py": "60ac56df7a6aece3c22f06f0427771f0b2903dbf0995ab740a7db2ec3cfd8f23",
+    "src/brief/store.py": "c12e7cdb67280ac9bd8facea0110d64f9f8d5afda4232ad26d2524124d8b75ea",
+    "src/brief/worker.py": "3171d0d54853aec3f9ff9c084f78ff5b23ec3cb396a69e468bccd348dce20f34",
+    "uv.lock": "fd522d8a571b609841873d65a6939ba71e19e61eb5803d5dacdb5b04c39e760f"
+  },
+  "limitations": [
+    "Authored synthetic HTTP fixtures; no live network, DNS, redirect transport, JavaScript rendering, or browser UI.",
+    "Replay omits model-guided coverage assessment, durable jobs, persistence, and browser flows.",
+    "Baseline is the existing metadata-only control, not production model quality; it links every extracted source.",
+    "Coverage is URL set overlap, not semantic accuracy, useful curation, factual entailment, or task success.",
+    "Empty denominators are null. Aggregate ratios are micro-averages; failed and blocked cases remain included.",
+    "Replay timings are diagnostic only; they do not measure live-site latency."
+  ],
+  "summary": {
+    "cases": 12,
+    "generation_errors": 0,
+    "crawl_important_coverage": {
+      "matched": 23,
+      "total": 30,
+      "ratio": 0.7666666666666667
+    },
+    "generated_important_coverage": {
+      "matched": 23,
+      "total": 30,
+      "ratio": 0.7666666666666667
+    },
+    "generated_usable_source_coverage": {
+      "matched": 23,
+      "total": 23,
+      "ratio": 1.0
+    },
+    "generated_link_precision": {
+      "matched": 23,
+      "total": 23,
+      "ratio": 1.0
+    }
+  },
+  "results": [
+    {
+      "id": "developer-docs",
+      "category": "documentation",
+      "notes": "Linked documentation and actionable reference pages.",
+      "metrics": {
+        "crawl_important_coverage": {
+          "matched": 3,
+          "total": 3,
+          "ratio": 1.0,
+          "missing": []
+        },
+        "generated_important_coverage": {
+          "matched": 3,
+          "total": 3,
+          "ratio": 1.0,
+          "missing": []
+        },
+        "generated_usable_source_coverage": {
+          "matched": 3,
+          "total": 3,
+          "ratio": 1.0,
+          "missing": []
+        },
+        "generated_link_precision": {
+          "matched": 3,
+          "total": 3,
+          "ratio": 1.0,
+          "missing": []
+        },
+        "unsupported_destinations": []
+      },
+      "generation_error": null,
+      "crawl_warnings": [],
+      "crawl_stop_reason": "exhausted",
+      "crawl_truncated": false,
+      "crawl_duration_ms": 89,
+      "generation_duration_ms": 6,
+      "total_duration_ms": 97
+    },
+    {
+      "id": "retail-shop",
+      "category": "ecommerce",
+      "notes": "Product and shopping-policy coverage; metadata baseline does not judge shopping relevance.",
+      "metrics": {
+        "crawl_important_coverage": {
+          "matched": 3,
+          "total": 3,
+          "ratio": 1.0,
+          "missing": []
+        },
+        "generated_important_coverage": {
+          "matched": 3,
+          "total": 3,
+          "ratio": 1.0,
+          "missing": []
+        },
+        "generated_usable_source_coverage": {
+          "matched": 3,
+          "total": 3,
+          "ratio": 1.0,
+          "missing": []
+        },
+        "generated_link_precision": {
+          "matched": 3,
+          "total": 3,
+          "ratio": 1.0,
+          "missing": []
+        },
+        "unsupported_destinations": []
+      },
+      "generation_error": null,
+      "crawl_warnings": [],
+      "crawl_stop_reason": "exhausted",
+      "crawl_truncated": false,
+      "crawl_duration_ms": 11,
+      "generation_duration_ms": 1,
+      "total_duration_ms": 14
+    },
+    {
+      "id": "local-services",
+      "category": "services",
+      "notes": "Service descriptions and customer next steps.",
+      "metrics": {
+        "crawl_important_coverage": {
+          "matched": 3,
+          "total": 3,
+          "ratio": 1.0,
+          "missing": []
+        },
+        "generated_important_coverage": {
+          "matched": 3,
+          "total": 3,
+          "ratio": 1.0,
+          "missing": []
+        },
+        "generated_usable_source_coverage": {
+          "matched": 3,
+          "total": 3,
+          "ratio": 1.0,
+          "missing": []
+        },
+        "generated_link_precision": {
+          "matched": 3,
+          "total": 3,
+          "ratio": 1.0,
+          "missing": []
+        },
+        "unsupported_destinations": []
+      },
+      "generation_error": null,
+      "crawl_warnings": [],
+      "crawl_stop_reason": "exhausted",
+      "crawl_truncated": false,
+      "crawl_duration_ms": 9,
+      "generation_duration_ms": 1,
+      "total_duration_ms": 12
+    },
+    {
+      "id": "news-publication",
+      "category": "publishing",
+      "notes": "Articles alongside editorial information.",
+      "metrics": {
+        "crawl_important_coverage": {
+          "matched": 3,
+          "total": 3,
+          "ratio": 1.0,
+          "missing": []
+        },
+        "generated_important_coverage": {
+          "matched": 3,
+          "total": 3,
+          "ratio": 1.0,
+          "missing": []
+        },
+        "generated_usable_source_coverage": {
+          "matched": 3,
+          "total": 3,
+          "ratio": 1.0,
+          "missing": []
+        },
+        "generated_link_precision": {
+          "matched": 3,
+          "total": 3,
+          "ratio": 1.0,
+          "missing": []
+        },
+        "unsupported_destinations": []
+      },
+      "generation_error": null,
+      "crawl_warnings": [],
+      "crawl_stop_reason": "exhausted",
+      "crawl_truncated": false,
+      "crawl_duration_ms": 9,
+      "generation_duration_ms": 1,
+      "total_duration_ms": 12
+    },
+    {
+      "id": "multilingual",
+      "category": "multilingual",
+      "notes": "Spanish and English extraction; URL coverage does not verify translation or locale-aware curation.",
+      "metrics": {
+        "crawl_important_coverage": {
+          "matched": 3,
+          "total": 3,
+          "ratio": 1.0,
+          "missing": []
+        },
+        "generated_important_coverage": {
+          "matched": 3,
+          "total": 3,
+          "ratio": 1.0,
+          "missing": []
+        },
+        "generated_usable_source_coverage": {
+          "matched": 3,
+          "total": 3,
+          "ratio": 1.0,
+          "missing": []
+        },
+        "generated_link_precision": {
+          "matched": 3,
+          "total": 3,
+          "ratio": 1.0,
+          "missing": []
+        },
+        "unsupported_destinations": []
+      },
+      "generation_error": null,
+      "crawl_warnings": [],
+      "crawl_stop_reason": "exhausted",
+      "crawl_truncated": false,
+      "crawl_duration_ms": 9,
+      "generation_duration_ms": 1,
+      "total_duration_ms": 12
+    },
+    {
+      "id": "sitemap-discovery",
+      "category": "sitemap",
+      "notes": "Important page discoverable only through sitemap.",
+      "metrics": {
+        "crawl_important_coverage": {
+          "matched": 2,
+          "total": 2,
+          "ratio": 1.0,
+          "missing": []
+        },
+        "generated_important_coverage": {
+          "matched": 2,
+          "total": 2,
+          "ratio": 1.0,
+          "missing": []
+        },
+        "generated_usable_source_coverage": {
+          "matched": 2,
+          "total": 2,
+          "ratio": 1.0,
+          "missing": []
+        },
+        "generated_link_precision": {
+          "matched": 2,
+          "total": 2,
+          "ratio": 1.0,
+          "missing": []
+        },
+        "unsupported_destinations": []
+      },
+      "generation_error": null,
+      "crawl_warnings": [],
+      "crawl_stop_reason": "exhausted",
+      "crawl_truncated": false,
+      "crawl_duration_ms": 3,
+      "generation_duration_ms": 1,
+      "total_duration_ms": 6
+    },
+    {
+      "id": "path-scoped",
+      "category": "path-scope",
+      "notes": "Entry path limits scope; archive outside /docs must not be requested.",
+      "metrics": {
+        "crawl_important_coverage": {
+          "matched": 2,
+          "total": 2,
+          "ratio": 1.0,
+          "missing": []
+        },
+        "generated_important_coverage": {
+          "matched": 2,
+          "total": 2,
+          "ratio": 1.0,
+          "missing": []
+        },
+        "generated_usable_source_coverage": {
+          "matched": 2,
+          "total": 2,
+          "ratio": 1.0,
+          "missing": []
+        },
+        "generated_link_precision": {
+          "matched": 2,
+          "total": 2,
+          "ratio": 1.0,
+          "missing": []
+        },
+        "unsupported_destinations": []
+      },
+      "generation_error": null,
+      "crawl_warnings": [],
+      "crawl_stop_reason": "exhausted",
+      "crawl_truncated": false,
+      "crawl_duration_ms": 6,
+      "generation_duration_ms": 1,
+      "total_duration_ms": 8
+    },
+    {
+      "id": "robots-blocked",
+      "category": "robots",
+      "notes": "An important page is blocked by robots; retain it in the coverage denominator.",
+      "metrics": {
+        "crawl_important_coverage": {
+          "matched": 1,
+          "total": 2,
+          "ratio": 0.5,
+          "missing": [
+            "https://robots-blocked.example.com/restricted"
+          ]
+        },
+        "generated_important_coverage": {
+          "matched": 1,
+          "total": 2,
+          "ratio": 0.5,
+          "missing": [
+            "https://robots-blocked.example.com/restricted"
+          ]
+        },
+        "generated_usable_source_coverage": {
+          "matched": 1,
+          "total": 1,
+          "ratio": 1.0,
+          "missing": []
+        },
+        "generated_link_precision": {
+          "matched": 1,
+          "total": 1,
+          "ratio": 1.0,
+          "missing": []
+        },
+        "unsupported_destinations": []
+      },
+      "generation_error": null,
+      "crawl_warnings": [
+        {
+          "url": "https://robots-blocked.example.com/restricted",
+          "reason": "Disallowed by robots.txt"
+        }
+      ],
+      "crawl_stop_reason": "exhausted",
+      "crawl_truncated": false,
+      "crawl_duration_ms": 3,
+      "generation_duration_ms": 1,
+      "total_duration_ms": 6
+    },
+    {
+      "id": "transient-failure",
+      "category": "http-failure",
+      "notes": "503 page remains missing rather than being counted as usable evidence.",
+      "metrics": {
+        "crawl_important_coverage": {
+          "matched": 1,
+          "total": 2,
+          "ratio": 0.5,
+          "missing": [
+            "https://transient-failure.example.com/accessibility"
+          ]
+        },
+        "generated_important_coverage": {
+          "matched": 1,
+          "total": 2,
+          "ratio": 0.5,
+          "missing": [
+            "https://transient-failure.example.com/accessibility"
+          ]
+        },
+        "generated_usable_source_coverage": {
+          "matched": 1,
+          "total": 1,
+          "ratio": 1.0,
+          "missing": []
+        },
+        "generated_link_precision": {
+          "matched": 1,
+          "total": 1,
+          "ratio": 1.0,
+          "missing": []
+        },
+        "unsupported_destinations": []
+      },
+      "generation_error": null,
+      "crawl_warnings": [
+        {
+          "url": "https://transient-failure.example.com/accessibility",
+          "reason": "HTTP 503"
+        }
+      ],
+      "crawl_stop_reason": "exhausted",
+      "crawl_truncated": false,
+      "crawl_duration_ms": 2,
+      "generation_duration_ms": 0,
+      "total_duration_ms": 4
+    },
+    {
+      "id": "javascript-only",
+      "category": "javascript",
+      "notes": "Known limitation: a client-rendered shell yields no usable source; zero-source link ratios are null.",
+      "metrics": {
+        "crawl_important_coverage": {
+          "matched": 0,
+          "total": 1,
+          "ratio": 0.0,
+          "missing": [
+            "https://javascript-only.example.com/"
+          ]
+        },
+        "generated_important_coverage": {
+          "matched": 0,
+          "total": 1,
+          "ratio": 0.0,
+          "missing": [
+            "https://javascript-only.example.com/"
+          ]
+        },
+        "generated_usable_source_coverage": {
+          "matched": 0,
+          "total": 0,
+          "ratio": null,
+          "missing": []
+        },
+        "generated_link_precision": {
+          "matched": 0,
+          "total": 0,
+          "ratio": null,
+          "missing": []
+        },
+        "unsupported_destinations": []
+      },
+      "generation_error": null,
+      "crawl_warnings": [
+        {
+          "url": "https://javascript-only.example.com/",
+          "reason": "No usable main content; page may require JavaScript"
+        }
+      ],
+      "crawl_stop_reason": "exhausted",
+      "crawl_truncated": false,
+      "crawl_duration_ms": 3,
+      "generation_duration_ms": 0,
+      "total_duration_ms": 5
+    },
+    {
+      "id": "pdf-resource",
+      "category": "pdf",
+      "notes": "Known limitation: linked PDF has no extracted HTML source; fixture bytes are only a MIME gate probe.",
+      "metrics": {
+        "crawl_important_coverage": {
+          "matched": 1,
+          "total": 2,
+          "ratio": 0.5,
+          "missing": [
+            "https://pdf-resource.example.com/handbook.pdf"
+          ]
+        },
+        "generated_important_coverage": {
+          "matched": 1,
+          "total": 2,
+          "ratio": 0.5,
+          "missing": [
+            "https://pdf-resource.example.com/handbook.pdf"
+          ]
+        },
+        "generated_usable_source_coverage": {
+          "matched": 1,
+          "total": 1,
+          "ratio": 1.0,
+          "missing": []
+        },
+        "generated_link_precision": {
+          "matched": 1,
+          "total": 1,
+          "ratio": 1.0,
+          "missing": []
+        },
+        "unsupported_destinations": []
+      },
+      "generation_error": null,
+      "crawl_warnings": [],
+      "crawl_stop_reason": "exhausted",
+      "crawl_truncated": false,
+      "crawl_duration_ms": 2,
+      "generation_duration_ms": 0,
+      "total_duration_ms": 4
+    },
+    {
+      "id": "bounded-crawl",
+      "category": "budget",
+      "notes": "One-page budget intentionally leaves important lessons unread.",
+      "metrics": {
+        "crawl_important_coverage": {
+          "matched": 1,
+          "total": 4,
+          "ratio": 0.25,
+          "missing": [
+            "https://bounded-crawl.example.com/lesson-one",
+            "https://bounded-crawl.example.com/lesson-three",
+            "https://bounded-crawl.example.com/lesson-two"
+          ]
+        },
+        "generated_important_coverage": {
+          "matched": 1,
+          "total": 4,
+          "ratio": 0.25,
+          "missing": [
+            "https://bounded-crawl.example.com/lesson-one",
+            "https://bounded-crawl.example.com/lesson-three",
+            "https://bounded-crawl.example.com/lesson-two"
+          ]
+        },
+        "generated_usable_source_coverage": {
+          "matched": 1,
+          "total": 1,
+          "ratio": 1.0,
+          "missing": []
+        },
+        "generated_link_precision": {
+          "matched": 1,
+          "total": 1,
+          "ratio": 1.0,
+          "missing": []
+        },
+        "unsupported_destinations": []
+      },
+      "generation_error": null,
+      "crawl_warnings": [],
+      "crawl_stop_reason": "explicit_page_budget",
+      "crawl_truncated": true,
+      "crawl_duration_ms": 2,
+      "generation_duration_ms": 0,
+      "total_duration_ms": 4
+    }
+  ]
+}

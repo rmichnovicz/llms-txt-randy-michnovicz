@@ -1,0 +1,268 @@
+[
+  {
+    "id": "developer-docs",
+    "category": "documentation",
+    "url": "https://developer-docs.example.com/",
+    "notes": "Linked documentation and actionable reference pages.",
+    "max_pages": 12,
+    "important_paths": [
+      "/",
+      "/quickstart",
+      "/authentication"
+    ],
+    "responses": {
+      "/": {
+        "body": "<!doctype html><html><head><title>Orbit developer documentation</title></head><body><main><h1>Orbit developer documentation</h1><p>Orbit is an example API for coordinating scheduled jobs. Start with the getting started guide, then use the authentication reference to connect your application. These documents cover the stable API version.</p><ul><li><a href=\"/quickstart\">Getting started</a></li><li><a href=\"/authentication\">API authentication</a></li></ul></main></body></html>"
+      },
+      "/quickstart": {
+        "body": "<!doctype html><html><head><title>Getting started</title></head><body><main><h1>Getting started</h1><p>Create a project and configure a job using the Orbit API. The example request schedules a daily inventory refresh. Run the example in your development account before enabling jobs for a production application.</p><ul><li><a href=\"/\">Orbit developer documentation</a></li><li><a href=\"/authentication\">API authentication</a></li></ul></main></body></html>"
+      },
+      "/authentication": {
+        "body": "<!doctype html><html><head><title>API authentication</title></head><body><main><h1>API authentication</h1><p>Requests use an Authorization header with a project token. Create tokens in project settings and store them on your server. Revoke a token when it is no longer needed; do not place tokens in public browser code.</p><ul><li><a href=\"/\">Orbit developer documentation</a></li><li><a href=\"/quickstart\">Getting started</a></li></ul></main></body></html>"
+      }
+    }
+  },
+  {
+    "id": "retail-shop",
+    "category": "ecommerce",
+    "url": "https://retail-shop.example.com/",
+    "notes": "Product and shopping-policy coverage; metadata baseline does not judge shopping relevance.",
+    "max_pages": 12,
+    "important_paths": [
+      "/",
+      "/products/notebook",
+      "/returns"
+    ],
+    "responses": {
+      "/": {
+        "body": "<!doctype html><html><head><title>Acorn shop</title></head><body><main><h1>Acorn shop</h1><p>Acorn sells reusable notebooks and replacement paper. Browse the notebook collection and read the returns policy before placing an order. This fictional store ships physical goods to customers in its service region.</p><ul><li><a href=\"/products/notebook\">Reusable notebook</a></li><li><a href=\"/returns\">Returns policy</a></li></ul></main></body></html>"
+      },
+      "/products/notebook": {
+        "body": "<!doctype html><html><head><title>Reusable notebook</title></head><body><main><h1>Reusable notebook</h1><p>The Acorn notebook contains removable paper and a durable cover. Replacement paper is sold separately. Product dimensions and materials are described here so customers can select a notebook suitable for their work.</p><ul><li><a href=\"/\">Acorn shop</a></li><li><a href=\"/returns\">Returns policy</a></li></ul></main></body></html>"
+      },
+      "/returns": {
+        "body": "<!doctype html><html><head><title>Returns policy</title></head><body><main><h1>Returns policy</h1><p>Unused notebooks may be returned within thirty days of delivery. Contact customer support for return instructions before shipping the package. Personalized covers are excluded unless the delivered item is defective.</p><ul><li><a href=\"/\">Acorn shop</a></li><li><a href=\"/products/notebook\">Reusable notebook</a></li></ul></main></body></html>"
+      }
+    }
+  },
+  {
+    "id": "local-services",
+    "category": "services",
+    "url": "https://local-services.example.com/",
+    "notes": "Service descriptions and customer next steps.",
+    "max_pages": 12,
+    "important_paths": [
+      "/",
+      "/services",
+      "/appointments"
+    ],
+    "responses": {
+      "/": {
+        "body": "<!doctype html><html><head><title>Harbor bicycle repair</title></head><body><main><h1>Harbor bicycle repair</h1><p>Harbor is a fictional bicycle repair workshop serving the waterfront district. Mechanics inspect commuter bicycles, replace worn parts, and provide scheduled maintenance. Read service details and appointment information before visiting.</p><ul><li><a href=\"/services\">Repair services</a></li><li><a href=\"/appointments\">Workshop appointments</a></li></ul></main></body></html>"
+      },
+      "/services": {
+        "body": "<!doctype html><html><head><title>Repair services</title></head><body><main><h1>Repair services</h1><p>Our workshop offers puncture repair, brake adjustment, and drivetrain cleaning. Bring your bicycle for an inspection to receive a written estimate. Repairs requiring special parts are scheduled after those parts arrive.</p><ul><li><a href=\"/\">Harbor bicycle repair</a></li><li><a href=\"/appointments\">Workshop appointments</a></li></ul></main></body></html>"
+      },
+      "/appointments": {
+        "body": "<!doctype html><html><head><title>Workshop appointments</title></head><body><main><h1>Workshop appointments</h1><p>Appointments are available Tuesday through Saturday at the waterfront workshop. Call the workshop to discuss the bicycle problem and arrange an inspection. Walk-in availability depends on the existing repair schedule.</p><ul><li><a href=\"/\">Harbor bicycle repair</a></li><li><a href=\"/services\">Repair services</a></li></ul></main></body></html>"
+      }
+    }
+  },
+  {
+    "id": "news-publication",
+    "category": "publishing",
+    "url": "https://news-publication.example.com/",
+    "notes": "Articles alongside editorial information.",
+    "max_pages": 12,
+    "important_paths": [
+      "/",
+      "/articles/park",
+      "/editorial-policy"
+    ],
+    "responses": {
+      "/": {
+        "body": "<!doctype html><html><head><title>Town journal</title></head><body><main><h1>Town journal</h1><p>The Town Journal is a fictional local publication covering transport, parks, and community meetings. Browse recent reporting and read our editorial policy to understand how corrections and source attribution are handled.</p><ul><li><a href=\"/articles/park\">Park reopening report</a></li><li><a href=\"/editorial-policy\">Editorial policy</a></li></ul></main></body></html>"
+      },
+      "/articles/park": {
+        "body": "<!doctype html><html><head><title>Park reopening report</title></head><body><main><h1>Park reopening report</h1><p>The riverside park reopened following replacement of its walking paths. The report describes the public meeting where residents discussed access improvements. This is an authored fictional article used for a crawler evaluation.</p><ul><li><a href=\"/\">Town journal</a></li><li><a href=\"/editorial-policy\">Editorial policy</a></li></ul></main></body></html>"
+      },
+      "/editorial-policy": {
+        "body": "<!doctype html><html><head><title>Editorial policy</title></head><body><main><h1>Editorial policy</h1><p>The journal separates reporting from paid announcements. Readers can request a correction by contacting the editorial desk and identifying the article and disputed passage. Editors review supporting information before updating a story.</p><ul><li><a href=\"/\">Town journal</a></li><li><a href=\"/articles/park\">Park reopening report</a></li></ul></main></body></html>"
+      }
+    }
+  },
+  {
+    "id": "multilingual",
+    "category": "multilingual",
+    "url": "https://multilingual.example.com/",
+    "notes": "Spanish and English extraction; URL coverage does not verify translation or locale-aware curation.",
+    "max_pages": 12,
+    "important_paths": [
+      "/",
+      "/es/servicios",
+      "/en/services"
+    ],
+    "responses": {
+      "/": {
+        "body": "<!doctype html><html><head><title>Biblioteca comunitaria</title></head><body><main><h1>Biblioteca comunitaria</h1><p>La biblioteca comunitaria ofrece libros, talleres y espacios de lectura para todas las edades. Consulte la información en español o en inglés para conocer los servicios disponibles y las condiciones para obtener una tarjeta.</p><ul><li><a href=\"/es/servicios\">Servicios de biblioteca</a></li><li><a href=\"/en/services\">Library services</a></li></ul></main></body></html>"
+      },
+      "/es/servicios": {
+        "body": "<!doctype html><html><head><title>Servicios de biblioteca</title></head><body><main><h1>Servicios de biblioteca</h1><p>La tarjeta de biblioteca permite pedir libros y reservar materiales de lectura. Para solicitar una tarjeta, visite el mostrador y presente un comprobante de domicilio. Los talleres de conversación se anuncian en el calendario mensual.</p><ul><li><a href=\"/\">Biblioteca comunitaria</a></li><li><a href=\"/en/services\">Library services</a></li></ul></main></body></html>"
+      },
+      "/en/services": {
+        "body": "<!doctype html><html><head><title>Library services</title></head><body><main><h1>Library services</h1><p>A library card lets residents borrow books and reserve reading materials. Visit the front desk with proof of address to apply for a card. Conversation workshops and community reading sessions are listed in the monthly calendar.</p><ul><li><a href=\"/\">Biblioteca comunitaria</a></li><li><a href=\"/es/servicios\">Servicios de biblioteca</a></li></ul></main></body></html>"
+      }
+    }
+  },
+  {
+    "id": "sitemap-discovery",
+    "category": "sitemap",
+    "url": "https://sitemap-discovery.example.com/",
+    "notes": "Important page discoverable only through sitemap.",
+    "max_pages": 12,
+    "important_paths": [
+      "/",
+      "/orientation"
+    ],
+    "responses": {
+      "/": {
+        "body": "<!doctype html><html><head><title>Atlas learning center</title></head><body><main><h1>Atlas learning center</h1><p>Atlas publishes practical learning resources for new volunteers. The learning center includes orientation materials and safety guidance. Some pages are listed only in the sitemap, so ordinary homepage links are not a complete inventory.</p><ul></ul></main></body></html>"
+      },
+      "/orientation": {
+        "body": "<!doctype html><html><head><title>Volunteer orientation</title></head><body><main><h1>Volunteer orientation</h1><p>New volunteers attend an introductory session before joining an activity. The session explains the organization, how to contact a coordinator, and where to find the current schedule. Read these materials before the first meeting.</p><ul></ul></main></body></html>"
+      },
+      "/sitemap.xml": {
+        "content_type": "application/xml",
+        "body": "<urlset xmlns=\"http://www.sitemaps.org/schemas/sitemap/0.9\"><url><loc>https://sitemap-discovery.example.com/orientation</loc></url></urlset>"
+      }
+    }
+  },
+  {
+    "id": "path-scoped",
+    "category": "path-scope",
+    "url": "https://path-scoped.example.com/docs/",
+    "notes": "Entry path limits scope; archive outside /docs must not be requested.",
+    "max_pages": 12,
+    "important_paths": [
+      "/docs/",
+      "/docs/install"
+    ],
+    "responses": {
+      "/docs/": {
+        "body": "<!doctype html><html><head><title>Current reference</title></head><body><main><h1>Current reference</h1><p>These documentation pages describe the current stable library release. Read installation instructions before importing the library. Archived releases have separate documentation outside this directory and should not be mixed with current setup guidance.</p><ul><li><a href=\"/docs/install\">Installation reference</a></li><li><a href=\"/archive/old\">Archived installation</a></li></ul></main></body></html>"
+      },
+      "/docs/install": {
+        "body": "<!doctype html><html><head><title>Installation reference</title></head><body><main><h1>Installation reference</h1><p>Install the stable library release in an isolated project environment. Configure the project before running the example application. The reference lists the setup sequence and explains where generated configuration belongs.</p><ul><li><a href=\"/docs/\">Current reference</a></li><li><a href=\"/archive/old\">Archived installation</a></li></ul></main></body></html>"
+      },
+      "/archive/old": {
+        "body": "<!doctype html><html><head><title>Archived installation</title></head><body><main><h1>Archived installation</h1><p>This page describes a retired release with an older configuration format. It is preserved for users maintaining historical projects. The instructions here do not apply to the current stable release of the library.</p><ul><li><a href=\"/docs/\">Current reference</a></li><li><a href=\"/docs/install\">Installation reference</a></li></ul></main></body></html>"
+      }
+    }
+  },
+  {
+    "id": "robots-blocked",
+    "category": "robots",
+    "url": "https://robots-blocked.example.com/",
+    "notes": "An important page is blocked by robots; retain it in the coverage denominator.",
+    "max_pages": 12,
+    "important_paths": [
+      "/",
+      "/restricted"
+    ],
+    "responses": {
+      "/": {
+        "body": "<!doctype html><html><head><title>Research archive</title></head><body><main><h1>Research archive</h1><p>This fictional archive contains public project descriptions and a restricted collection. The public homepage links to the collection, but automated readers must follow the access policy published by the archive operator.</p><ul><li><a href=\"/restricted\">Restricted collection</a></li></ul></main></body></html>"
+      },
+      "/restricted": {
+        "body": "<!doctype html><html><head><title>Restricted collection</title></head><body><main><h1>Restricted collection</h1><p>The collection contains detailed records for the archive project. These records are important to a complete description of the website, but automated access is intentionally blocked in this fixture to expose the coverage limitation.</p><ul><li><a href=\"/\">Research archive</a></li></ul></main></body></html>"
+      },
+      "/robots.txt": {
+        "content_type": "text/plain",
+        "body": "User-agent: *\nDisallow: /restricted\n"
+      }
+    }
+  },
+  {
+    "id": "transient-failure",
+    "category": "http-failure",
+    "url": "https://transient-failure.example.com/",
+    "notes": "503 page remains missing rather than being counted as usable evidence.",
+    "max_pages": 12,
+    "important_paths": [
+      "/",
+      "/accessibility"
+    ],
+    "responses": {
+      "/": {
+        "body": "<!doctype html><html><head><title>Travel museum</title></head><body><main><h1>Travel museum</h1><p>The fictional travel museum publishes visitor information and a schedule of exhibitions. Visitors should check accessibility information before planning their visit. One linked information page is temporarily unavailable in this replay.</p><ul><li><a href=\"/accessibility\">Museum accessibility</a></li></ul></main></body></html>"
+      },
+      "/accessibility": {
+        "status": 503,
+        "content_type": "text/plain",
+        "body": "Temporarily unavailable"
+      }
+    }
+  },
+  {
+    "id": "javascript-only",
+    "category": "javascript",
+    "url": "https://javascript-only.example.com/",
+    "notes": "Known limitation: a client-rendered shell yields no usable source; zero-source link ratios are null.",
+    "max_pages": 12,
+    "important_paths": [
+      "/"
+    ],
+    "responses": {
+      "/": {
+        "body": "<html><head><title>Client application</title></head><body><div id=\"root\"></div><script>renderApplication()</script></body></html>"
+      }
+    }
+  },
+  {
+    "id": "pdf-resource",
+    "category": "pdf",
+    "url": "https://pdf-resource.example.com/",
+    "notes": "Known limitation: linked PDF has no extracted HTML source; fixture bytes are only a MIME gate probe.",
+    "max_pages": 12,
+    "important_paths": [
+      "/",
+      "/handbook.pdf"
+    ],
+    "responses": {
+      "/": {
+        "body": "<!doctype html><html><head><title>Community handbook</title></head><body><main><h1>Community handbook</h1><p>The community center publishes a handbook with detailed participation rules. The homepage explains the purpose of the handbook and links to its PDF edition. Automated readers need the handbook content to answer questions about participation requirements.</p><ul><li><a href=\"/handbook.pdf\">/handbook.pdf</a></li></ul></main></body></html>"
+      },
+      "/handbook.pdf": {
+        "content_type": "application/pdf",
+        "body": "%PDF-1.4\nSynthetic MIME gate fixture; intentionally no full PDF payload."
+      }
+    }
+  },
+  {
+    "id": "bounded-crawl",
+    "category": "budget",
+    "url": "https://bounded-crawl.example.com/",
+    "notes": "One-page budget intentionally leaves important lessons unread.",
+    "max_pages": 1,
+    "important_paths": [
+      "/",
+      "/lesson-one",
+      "/lesson-two",
+      "/lesson-three"
+    ],
+    "responses": {
+      "/": {
+        "body": "<!doctype html><html><head><title>Learning catalog</title></head><body><main><h1>Learning catalog</h1><p>This fictional learning catalog contains several independently useful lessons. Each lesson covers a different stage of a practical project. The replay uses a deliberately small page budget to show that successful generation can still omit important pages.</p><ul><li><a href=\"/lesson-one\">Planning lesson</a></li><li><a href=\"/lesson-two\">Delivery lesson</a></li><li><a href=\"/lesson-three\">Review lesson</a></li></ul></main></body></html>"
+      },
+      "/lesson-one": {
+        "body": "<!doctype html><html><head><title>Planning lesson</title></head><body><main><h1>Planning lesson</h1><p>Plan the project by listing the expected outcome, available materials, and time constraints. Review the proposed approach with participants before starting. This lesson provides a sequence for turning a broad idea into a manageable activity.</p><ul><li><a href=\"/\">Learning catalog</a></li><li><a href=\"/lesson-two\">Delivery lesson</a></li><li><a href=\"/lesson-three\">Review lesson</a></li></ul></main></body></html>"
+      },
+      "/lesson-two": {
+        "body": "<!doctype html><html><head><title>Delivery lesson</title></head><body><main><h1>Delivery lesson</h1><p>Deliver the planned activity by checking materials, explaining the schedule, and recording questions from participants. Reserve time to review the result. This lesson focuses on practical coordination during an activity.</p><ul><li><a href=\"/\">Learning catalog</a></li><li><a href=\"/lesson-one\">Planning lesson</a></li><li><a href=\"/lesson-three\">Review lesson</a></li></ul></main></body></html>"
+      },
+      "/lesson-three": {
+        "body": "<!doctype html><html><head><title>Review lesson</title></head><body><main><h1>Review lesson</h1><p>Review the completed activity with participants and record what should change next time. Compare the outcome with the original plan and keep concrete examples. Use this review when preparing the next scheduled activity.</p><ul><li><a href=\"/\">Learning catalog</a></li><li><a href=\"/lesson-one\">Planning lesson</a></li><li><a href=\"/lesson-two\">Delivery lesson</a></li></ul></main></body></html>"
+      }
+    }
+  }
+]
