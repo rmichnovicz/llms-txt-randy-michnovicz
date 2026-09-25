@@ -22,10 +22,11 @@ Railway runs managed Postgres plus three services:
 All services use `DATABASE_URL=${{Postgres.DATABASE_URL}}`. The API has
 `BRIEF_SECURE_COOKIES=true`, `BRIEF_EMBEDDED_WORKER=false`, and
 `FRONTEND_ORIGINS=https://brief-llms-txt.pages.dev`. The worker has the configured
-OpenAI key and model. The API requires a private creation key, stored locally in
-the gitignored `.env.deploy` file as `BRIEF_CREATION_KEY`; enter its value in the
-home page's creation-key field. Existing projects remain accessible with their
-private links. Never include the key in a frontend build or repository.
+OpenAI key and model. The public demo leaves `BRIEF_CREATION_KEY` unset, so
+anyone can create a project without a creation key. Each project's editing access
+still requires its private link or browser session. To restrict a separate
+deployment, set `BRIEF_CREATION_KEY` on its API service; never include the key in
+a frontend build or repository.
 
 ## Redeploy
 

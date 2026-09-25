@@ -2,8 +2,8 @@
 
 Turn a website into an `llms.txt` guide you can review, test, and keep up to date.
 
-[Open the live app](https://brief-llms-txt.pages.dev/). Project creation requires
-a private demo creation key.
+[Open the live app](https://brief-llms-txt.pages.dev/). Anyone can create a project;
+no creation key is required.
 
 Give Brief a URL and it reads the site, picks useful pages, and writes a draft.
 You can answer follow-up questions to shape it, edit the Markdown yourself, or
