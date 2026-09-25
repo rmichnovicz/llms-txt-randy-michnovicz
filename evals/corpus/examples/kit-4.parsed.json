@@ -1,0 +1,78 @@
+{
+  "parser_version": "corpus-v2",
+  "headings": [
+    {
+      "level": 1,
+      "text": "Example Guide",
+      "line": 1
+    },
+    {
+      "level": 2,
+      "text": "Core pages",
+      "line": 9
+    },
+    {
+      "level": 2,
+      "text": "Optional",
+      "line": 15
+    }
+  ],
+  "links": [
+    {
+      "label": "Best heat pump guide",
+      "url": "https://example.com/heat-pumps",
+      "canonical": "https://example.com/heat-pumps",
+      "raw_url": "https://example.com/heat-pumps",
+      "description": "Current buying guide",
+      "line": 10
+    },
+    {
+      "label": "Solar calculator",
+      "url": "https://example.com/solar-calculator",
+      "canonical": "https://example.com/solar-calculator",
+      "raw_url": "https://example.com/solar-calculator",
+      "description": "Free estimate tool",
+      "line": 11
+    },
+    {
+      "label": "Methodology",
+      "url": "https://example.com/methodology",
+      "canonical": "https://example.com/methodology",
+      "raw_url": "https://example.com/methodology",
+      "description": "How recommendations are researched",
+      "line": 12
+    },
+    {
+      "label": "Corrections policy",
+      "url": "https://example.com/corrections",
+      "canonical": "https://example.com/corrections",
+      "raw_url": "https://example.com/corrections",
+      "description": "Editorial corrections process",
+      "line": 13
+    },
+    {
+      "label": "Archive",
+      "url": "https://example.com/archive",
+      "canonical": "https://example.com/archive",
+      "raw_url": "https://example.com/archive",
+      "description": "Older articles",
+      "line": 16
+    }
+  ],
+  "bare_links": [],
+  "metrics": {
+    "bytes": 660,
+    "words": 67,
+    "lines": 16,
+    "approx_tokens_chars_div_4": 165,
+    "h1_count": 1,
+    "link_count": 5,
+    "bare_url_count": 0,
+    "described_links": 5,
+    "unique_destinations": 5,
+    "markdown_destinations": 0
+  },
+  "flags": [
+    "placeholder-review"
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "url": "https://cake.vn/bieu-phi",
+  "retrieved_at": "2026-09-24T22:49:19.302027+00:00",
+  "source": {
+    "id": "src_a911b043046ad5741850",
+    "url": "https://cake.vn/bieu-phi",
+    "title": "Biểu phí",
+    "description": "Chi tiết về các loại phí và điều kiện áp dụng của Cake.",
+    "content": "Chào bạn, mình là Cake by VPBank\nMột ngân hàng số lấy nền tảng công nghệ và trí tuệ nhân tạo làm cốt lõi, tự tin đồng hành cùng bạn ở mọi điểm chạm trong cuộc sống hàng ngày, mang đến dịch vụ, tiện ích số đa dạng với trải nghiệm dễ dàng, nhanh, tiện và liền mạch.",
+    "markdownUrl": null
+  },
+  "status": 200,
+  "final_url": "https://cake.vn/bieu-phi",
+  "sha256": "3f74a3e737848e6bef5196d6867e200efd5c9428aeadf1706d020790b380ef22",
+  "content_type": "text/html; charset=utf-8"
+}

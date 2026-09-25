@@ -1,0 +1,17 @@
+# Framer
+
+> Framer is a website design and publishing platform. Its site describes an editable canvas-based design agent, a CMS agent, and built-in hosting, analytics, CMS, and SEO.
+
+The Free plan can be used to explore Framer, but connecting a custom domain requires a paid plan. Paid plans include monthly credits for Agents, Localization, and other AI features.
+
+## Design and publishing
+
+- [Framer overview](<https://www.framer.com/>): Introduces canvas-based site design, the CMS agent, and publishing features.
+
+## Plans and billing
+
+- [Pricing and plan FAQ](<https://www.framer.com/pricing>): Compare plan limits, AI credits, add-ons, editor billing, and refund eligibility.
+
+## External AI agents
+
+- [Connect an external agent](<https://www.framer.com/agents/external/>): Shows how to set up the Framer skill and connect an AI agent to a project.

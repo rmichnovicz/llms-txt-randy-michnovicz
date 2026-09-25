@@ -1,0 +1,17 @@
+{
+  "id": "lowellbooks",
+  "url": "https://lowellbooks.com/llms.txt",
+  "category": "ecommerce",
+  "kind": "actual",
+  "split": "development",
+  "discovery": "https://llmstxt.site/",
+  "retrieved_at": "2026-09-24T22:46:21.499649+00:00",
+  "accepted": true,
+  "status": 200,
+  "final_url": "https://lowellbooks.com/llms.txt",
+  "content_type": "text/plain",
+  "sha256": "9b9a6f7ce947fddec9f67e23437e4c03f820b4ddb7b89c56b4ced9df0b4dc243",
+  "bytes": 7912,
+  "decode_replacements": 0,
+  "raw_path": "raw/lowellbooks.txt"
+}

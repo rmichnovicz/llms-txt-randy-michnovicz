@@ -1,0 +1,17 @@
+{
+  "id": "backpackbed",
+  "url": "https://backpackbed.org/llms.txt",
+  "category": "nonprofit-research",
+  "kind": "actual",
+  "split": "development",
+  "discovery": "https://llmstxt.site/",
+  "retrieved_at": "2026-09-24T22:46:25.830525+00:00",
+  "accepted": true,
+  "status": 200,
+  "final_url": "https://backpackbed.org/llms.txt",
+  "content_type": "text/plain",
+  "sha256": "847b0df69fd368c047ef0cc963f75cf277c466d54d01992b4aa55a9ea3bfb02e",
+  "bytes": 2188,
+  "decode_replacements": 0,
+  "raw_path": "raw/backpackbed.txt"
+}

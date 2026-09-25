@@ -1,0 +1,725 @@
+{
+  "parser_version": "corpus-v2",
+  "headings": [
+    {
+      "level": 1,
+      "text": "SoliTek - European Manufacturer of Solar and Battery Solutions",
+      "line": 1
+    },
+    {
+      "level": 2,
+      "text": "English Content (solitek.eu/en)",
+      "line": 9
+    },
+    {
+      "level": 3,
+      "text": "Solar Products",
+      "line": 11
+    },
+    {
+      "level": 3,
+      "text": "Battery Solutions",
+      "line": 33
+    },
+    {
+      "level": 3,
+      "text": "Integrated Solutions",
+      "line": 42
+    },
+    {
+      "level": 3,
+      "text": "Company Information",
+      "line": 49
+    },
+    {
+      "level": 3,
+      "text": "Legal and Regional Links",
+      "line": 56
+    },
+    {
+      "level": 2,
+      "text": "Deutscher Inhalt (solitek.eu/de)",
+      "line": 63
+    },
+    {
+      "level": 3,
+      "text": "Solarmodule",
+      "line": 65
+    },
+    {
+      "level": 3,
+      "text": "Batterielösungen",
+      "line": 87
+    },
+    {
+      "level": 3,
+      "text": "Integrierte Lösungen",
+      "line": 96
+    },
+    {
+      "level": 3,
+      "text": "Unternehmensinformationen",
+      "line": 104
+    },
+    {
+      "level": 3,
+      "text": "Unternehmensinformationen",
+      "line": 107
+    },
+    {
+      "level": 2,
+      "text": "Other SoliTek Group Domains (External)",
+      "line": 114
+    }
+  ],
+  "links": [
+    {
+      "label": "Solar Panels",
+      "url": "https://www.solitek.eu/en/solar-panels",
+      "canonical": "https://www.solitek.eu/en/solar-panels",
+      "raw_url": "https://www.solitek.eu/en/solar-panels",
+      "description": "A comprehensive range of solar panels designed for various applications, ensuring high efficiency and durability. Information is provided for each module on which of them are certified Cradle to Cradle Gold, DiBT, Sundahus A, MCS, Transizione 5.0.",
+      "line": 12
+    },
+    {
+      "label": "Technology of solar panels",
+      "url": "https://www.solitek.eu/en/technology",
+      "canonical": "https://www.solitek.eu/en/technology",
+      "raw_url": "https://www.solitek.eu/en/technology",
+      "description": "Overview of the technology behind SoliTek's solar panels, highlighting key materials and manufacturing approach.",
+      "line": 13
+    },
+    {
+      "label": "Full-Black Solar Modules BLACKSTAR 435W",
+      "url": "https://www.solitek.eu/en/products/solar-panel-blackstar-435-w",
+      "canonical": "https://www.solitek.eu/en/products/solar-panel-blackstar-435-w",
+      "raw_url": "https://www.solitek.eu/en/products/solar-panel-blackstar-435-w",
+      "description": "Information on full-black solar modules with black frames, designed for solar power plants where aesthetics is key.",
+      "line": 14
+    },
+    {
+      "label": "Highly Durable Solar Modules SOLID 435W",
+      "url": "https://www.solitek.eu/en/products/solar-panel-solid-bifacial-framed-b108-435w",
+      "canonical": "https://www.solitek.eu/en/products/solar-panel-solid-bifacial-framed-b108-435w",
+      "raw_url": "https://www.solitek.eu/en/products/solar-panel-solid-bifacial-framed-b108-435w",
+      "description": "Information on highly durable, framed SoliTek solar modules, enduring up to 10.5 kPa pressure.",
+      "line": 15
+    },
+    {
+      "label": "Highly Durable Full-Black Solar Modules SOLID 435W",
+      "url": "https://www.solitek.eu/en/products/solar-panel-solid-bifacial-framed-full-black-b108-435w",
+      "canonical": "https://www.solitek.eu/en/products/solar-panel-solid-bifacial-framed-full-black-b108-435w",
+      "raw_url": "https://www.solitek.eu/en/products/solar-panel-solid-bifacial-framed-full-black-b108-435w",
+      "description": "Information on highly durable Full-Black SoliTek solar modules, suitable for installations where black aesthetic is important.",
+      "line": 16
+    },
+    {
+      "label": "Low-Reflectance Anti-glare Highly Durable Solar Modules SOLID SATIN 425W",
+      "url": "https://www.solitek.eu/en/products/anti-glare-full-black-solar-modules-solid-bifacial-framed-satin-35-mm-425w",
+      "canonical": "https://www.solitek.eu/en/products/anti-glare-full-black-solar-modules-solid-bifacial-framed-satin-35-mm-425w",
+      "raw_url": "https://www.solitek.eu/en/products/anti-glare-full-black-solar-modules-solid-bifacial-framed-satin-35-mm-425w",
+      "description": "Information on low-reflectance (anti-glare) SoliTek solar modules, ideal for reflection-sensitive areas like airports.",
+      "line": 17
+    },
+    {
+      "label": "Low-Reflectance Anti-Glare Strongest Solar Modules SOLID SATIN 425W",
+      "url": "https://www.solitek.eu/en/products/anti-glare-full-black-framed-solar-panel-solid-bifacial-satin-40-mm-425-w",
+      "canonical": "https://www.solitek.eu/en/products/anti-glare-full-black-framed-solar-panel-solid-bifacial-satin-40-mm-425-w",
+      "raw_url": "https://www.solitek.eu/en/products/anti-glare-full-black-framed-solar-panel-solid-bifacial-satin-40-mm-425-w",
+      "description": "Information on low-reflectance SoliTek solar modules with a thicker frame, suitable for high-load and reflection-sensitive areas.",
+      "line": 18
+    },
+    {
+      "label": "Strongest Solar Modules SOLID 435W",
+      "url": "https://www.solitek.eu/en/products/solar-panel-solid-bifacial-framed-b108-435w-40-mm-frame",
+      "canonical": "https://www.solitek.eu/en/products/solar-panel-solid-bifacial-framed-b108-435w-40-mm-frame",
+      "raw_url": "https://www.solitek.eu/en/products/solar-panel-solid-bifacial-framed-b108-435w-40-mm-frame",
+      "description": "Information on the strongest framed SoliTek solar modules with a thicker frame, ideal for carports and overhead installations.",
+      "line": 19
+    },
+    {
+      "label": "Strongest Full-Black Solar Modules SOLID 435W",
+      "url": "https://www.solitek.eu/en/products/full-black-solar-panel-solid-bifacial-framed-b108-435w-40-mm-frame",
+      "canonical": "https://www.solitek.eu/en/products/full-black-solar-panel-solid-bifacial-framed-b108-435w-40-mm-frame",
+      "raw_url": "https://www.solitek.eu/en/products/full-black-solar-panel-solid-bifacial-framed-b108-435w-40-mm-frame",
+      "description": "Information on the strongest Full-Black SoliTek solar modules, suitable for carports and overhead installations where black aesthetics is also important.",
+      "line": 20
+    },
+    {
+      "label": "Largest and Most Powerful Solar Modules 505W",
+      "url": "https://www.solitek.eu/en/products/solar-panel-solid-framed-b120-505w",
+      "canonical": "https://www.solitek.eu/en/products/solar-panel-solid-framed-b120-505w",
+      "raw_url": "https://www.solitek.eu/en/products/solar-panel-solid-framed-b120-505w",
+      "description": "Information on SoliTek's largest solar modules, designed for commercial installations and solar parks.",
+      "line": 21
+    },
+    {
+      "label": "Frameless, Semi-Transparent Solar Modules SOLID 435W",
+      "url": "https://www.solitek.eu/en/products/solar-panel-solid-bifacial-b108-435w-frameless",
+      "canonical": "https://www.solitek.eu/en/products/solar-panel-solid-bifacial-b108-435w-frameless",
+      "raw_url": "https://www.solitek.eu/en/products/solar-panel-solid-bifacial-b108-435w-frameless",
+      "description": "Information on frameless, up to 10% transparent SoliTek solar modules.",
+      "line": 22
+    },
+    {
+      "label": "Frameless, Full-Black Solar Modules SOLID 435W",
+      "url": "https://www.solitek.eu/en/products/solar-panel-solid-bifacial-b60-435w-frameless-full-black",
+      "canonical": "https://www.solitek.eu/en/products/solar-panel-solid-bifacial-b60-435w-frameless-full-black",
+      "raw_url": "https://www.solitek.eu/en/products/solar-panel-solid-bifacial-b60-435w-frameless-full-black",
+      "description": "Information on frameless full-black solar modules.",
+      "line": 23
+    },
+    {
+      "label": "Frameless, Full-Black, Low-Reflectance Solar Modules SOLID 435W",
+      "url": "https://www.solitek.eu/en/products/anti-glare-full-black-frameless-solar-modules-solid-bifacial-satin-425-w",
+      "canonical": "https://www.solitek.eu/en/products/anti-glare-full-black-frameless-solar-modules-solid-bifacial-satin-425-w",
+      "raw_url": "https://www.solitek.eu/en/products/anti-glare-full-black-frameless-solar-modules-solid-bifacial-satin-425-w",
+      "description": "Information on frameless, full-black, low-reflectance (anti-glare) solar modules.",
+      "line": 24
+    },
+    {
+      "label": "High Light Transmittance Frameless Solar Modules 290W",
+      "url": "https://www.solitek.eu/en/products/solar-panel-solid-agro-b72-290w-increased-transparency",
+      "canonical": "https://www.solitek.eu/en/products/solar-panel-solid-agro-b72-290w-increased-transparency",
+      "raw_url": "https://www.solitek.eu/en/products/solar-panel-solid-agro-b72-290w-increased-transparency",
+      "description": "Information on frameless, up to 40% transparent, lower-power SoliTek solar modules, designed for agro installations, terraces, and pergolas.",
+      "line": 25
+    },
+    {
+      "label": "High Light Transmittance Framed Solar Modules 290W",
+      "url": "https://www.solitek.eu/en/products/solar-panel-solid-agro-framed-b72-290w-increased-transparency",
+      "canonical": "https://www.solitek.eu/en/products/solar-panel-solid-agro-framed-b72-290w-increased-transparency",
+      "raw_url": "https://www.solitek.eu/en/products/solar-panel-solid-agro-framed-b72-290w-increased-transparency",
+      "description": "Information on up to 40% transparent, lower-power SoliTek solar modules with a frame, suitable for agro installations and terraces.",
+      "line": 26
+    },
+    {
+      "label": "Integrated Durable Solar Modules SOLID Solrif 435W",
+      "url": "https://www.solitek.eu/en/products/solar-panel-solid-solrif-d-b108-3-mm-transparent",
+      "canonical": "https://www.solitek.eu/en/products/solar-panel-solid-solrif-d-b108-3-mm-transparent",
+      "raw_url": "https://www.solitek.eu/en/products/solar-panel-solid-solrif-d-b108-3-mm-transparent",
+      "description": "Information on up to 10% transparent, highly durable SoliTek solar modules, prepared for installation as a roof replacement.",
+      "line": 27
+    },
+    {
+      "label": "Integrated Full-Black Solar Modules SOLID Solrif 435W",
+      "url": "https://www.solitek.eu/en/products/solar-panel-solid-solrif-d-b108-33-full-black",
+      "canonical": "https://www.solitek.eu/en/products/solar-panel-solid-solrif-d-b108-33-full-black",
+      "raw_url": "https://www.solitek.eu/en/products/solar-panel-solid-solrif-d-b108-33-full-black",
+      "description": "Information on full-black, highly durable SoliTek solar modules, prepared for installation as a roof replacement.",
+      "line": 28
+    },
+    {
+      "label": "Integrated Low-Reflectance Solar Modules SOLID Solrif 425W",
+      "url": "https://www.solitek.eu/en/products/anti-glare-full-black-solid-solrif-satin-d-425w-3232-mm",
+      "canonical": "https://www.solitek.eu/en/products/anti-glare-full-black-solid-solrif-satin-d-425w-3232-mm",
+      "raw_url": "https://www.solitek.eu/en/products/anti-glare-full-black-solid-solrif-satin-d-425w-3232-mm",
+      "description": "Information on full-black, low-reflectance, highly durable SoliTek solar modules, prepared for installation as a roof replacement.",
+      "line": 29
+    },
+    {
+      "label": "Integrated High Light Transmittance Solar Modules SOLID Solrif 290W",
+      "url": "https://www.solitek.eu/en/products/solar-panel-solid-solrif-d-increased-transparancy-33",
+      "canonical": "https://www.solitek.eu/en/products/solar-panel-solid-solrif-d-increased-transparancy-33",
+      "raw_url": "https://www.solitek.eu/en/products/solar-panel-solid-solrif-d-increased-transparancy-33",
+      "description": "Data on high light transmittance (up to 40%), highly durable SoliTek solar modules, prepared for installation as a roof replacement.",
+      "line": 30
+    },
+    {
+      "label": "Production Line of Solar Panels",
+      "url": "https://www.solitek.eu/en/production-line-solar-panels",
+      "canonical": "https://www.solitek.eu/en/production-line-solar-panels",
+      "raw_url": "https://www.solitek.eu/en/production-line-solar-panels",
+      "description": "Insights into the production processes and quality control measures employed in the manufacturing of solar panels.",
+      "line": 31
+    },
+    {
+      "label": "Battery solutions",
+      "url": "https://www.solitek.eu/en/latest-list-solitek-battery-solutions",
+      "canonical": "https://www.solitek.eu/en/latest-list-solitek-battery-solutions",
+      "raw_url": "https://www.solitek.eu/en/latest-list-solitek-battery-solutions",
+      "description": "Overview of the different battery solutions offered by SoliTek, focusing on energy storage and management.",
+      "line": 34
+    },
+    {
+      "label": "Commercial and Industrial Battery",
+      "url": "https://www.solitek.eu/en/commercial-industrial-smart-battery-solitek-vega",
+      "canonical": "https://www.solitek.eu/en/commercial-industrial-smart-battery-solitek-vega",
+      "raw_url": "https://www.solitek.eu/en/commercial-industrial-smart-battery-solitek-vega",
+      "description": "Specifications and applications of VEGA batteries designed for commercial and industrial use, highlighting capacity and efficiency.",
+      "line": 35
+    },
+    {
+      "label": "Solid-State Residential Battery",
+      "url": "https://www.solitek.eu/en/battery-energy-storage-solution-solitek-lite",
+      "canonical": "https://www.solitek.eu/en/battery-energy-storage-solution-solitek-lite",
+      "raw_url": "https://www.solitek.eu/en/battery-energy-storage-solution-solitek-lite",
+      "description": "Information on LITE solid-state battery technology for residential applications, emphasizing safety and performance.",
+      "line": 36
+    },
+    {
+      "label": "Industrial Energy Storage 254 kWh (TERA)",
+      "url": "https://www.solitek.eu/en/industrial-energy-storage-tera",
+      "canonical": "https://www.solitek.eu/en/industrial-energy-storage-tera",
+      "raw_url": "https://www.solitek.eu/en/industrial-energy-storage-tera",
+      "description": "Details on the TERA industrial energy storage solution with a capacity of 254 kWh, suitable for large-scale energy management.",
+      "line": 37
+    },
+    {
+      "label": "Battery Container 5 MWh",
+      "url": "https://www.solitek.eu/en/tailor-made-bess-container",
+      "canonical": "https://www.solitek.eu/en/tailor-made-bess-container",
+      "raw_url": "https://www.solitek.eu/en/tailor-made-bess-container",
+      "description": "Description of a large-scale tailor-made battery container solution with a capacity of 5 MWh, ideal for extensive energy storage needs.",
+      "line": 38
+    },
+    {
+      "label": "Production Line of Batteries",
+      "url": "https://www.solitek.eu/en/solar-battery-production-line",
+      "canonical": "https://www.solitek.eu/en/solar-battery-production-line",
+      "raw_url": "https://www.solitek.eu/en/solar-battery-production-line",
+      "description": "An overview of the production processes for batteries, including technology and quality assurance.",
+      "line": 39
+    },
+    {
+      "label": "Energy Management System (EMS)",
+      "url": "https://www.solitek.eu/en/smart-energy-management-system",
+      "canonical": "https://www.solitek.eu/en/smart-energy-management-system",
+      "raw_url": "https://www.solitek.eu/en/smart-energy-management-system",
+      "description": "Information on the Smart Energy Management System that helps in monitoring and controlling energy consumption effectively.",
+      "line": 40
+    },
+    {
+      "label": "Integrated Solutions Overview",
+      "url": "https://www.solitek.eu/en/solutions",
+      "canonical": "https://www.solitek.eu/en/solutions",
+      "raw_url": "https://www.solitek.eu/en/solutions",
+      "description": "A summary of SoliTek's integrated solutions that combine solar panels and battery systems for optimized energy use.",
+      "line": 43
+    },
+    {
+      "label": "Solar Carport",
+      "url": "https://www.solitek.eu/en/solutions/solar-carport-carport-integrated-solar-panels",
+      "canonical": "https://www.solitek.eu/en/solutions/solar-carport-carport-integrated-solar-panels",
+      "raw_url": "https://www.solitek.eu/en/solutions/solar-carport-carport-integrated-solar-panels",
+      "description": "Overview of solar carport solutions integrating energy generation with vehicle protection.",
+      "line": 44
+    },
+    {
+      "label": "Photovoltaic Noise Barriers",
+      "url": "https://www.solitek.eu/en/solutions/photovoltaic-noise-barrier",
+      "canonical": "https://www.solitek.eu/en/solutions/photovoltaic-noise-barrier",
+      "raw_url": "https://www.solitek.eu/en/solutions/photovoltaic-noise-barrier",
+      "description": "Description of noise barrier solutions that incorporate solar technology for dual functionality.",
+      "line": 45
+    },
+    {
+      "label": "Solar Roof",
+      "url": "https://www.solitek.eu/en/solutions/solid-solrif-solar-panel",
+      "canonical": "https://www.solitek.eu/en/solutions/solid-solrif-solar-panel",
+      "raw_url": "https://www.solitek.eu/en/solutions/solid-solrif-solar-panel",
+      "description": "Description of solar roof solutions that incorporate solar modules SOLID Solrif into roof.",
+      "line": 46
+    },
+    {
+      "label": "Agro photovoltaic",
+      "url": "https://www.solitek.eu/en/solutions/agro-photovoltaic",
+      "canonical": "https://www.solitek.eu/en/solutions/agro-photovoltaic",
+      "raw_url": "https://www.solitek.eu/en/solutions/agro-photovoltaic",
+      "description": "Overview of Agro photovoltaic solutions that incorporate solar modules with increased transparency over agro culture products or can be used where partial shade is needed.",
+      "line": 47
+    },
+    {
+      "label": "SoliTek Group",
+      "url": "https://www.solitek.eu/en/company",
+      "canonical": "https://www.solitek.eu/en/company",
+      "raw_url": "https://www.solitek.eu/en/company",
+      "description": "Overview of the SoliTek group, including its mission, vision, and market presence.",
+      "line": 50
+    },
+    {
+      "label": "R'n'D Department",
+      "url": "https://www.solitek.eu/en/solitek-rnd",
+      "canonical": "https://www.solitek.eu/en/solitek-rnd",
+      "raw_url": "https://www.solitek.eu/en/solitek-rnd",
+      "description": "Insights into the research and development department focused on innovation in solar and battery technologies.",
+      "line": 51
+    },
+    {
+      "label": "Sustainability & Cradle to Cradle",
+      "url": "https://www.solitek.eu/en/sustainability",
+      "canonical": "https://www.solitek.eu/en/sustainability",
+      "raw_url": "https://www.solitek.eu/en/sustainability",
+      "description": "Details on SoliTek's commitment to sustainability and the Cradle to Cradle Gold certification.",
+      "line": 52
+    },
+    {
+      "label": "News & Updates",
+      "url": "https://www.solitek.eu/en/news",
+      "canonical": "https://www.solitek.eu/en/news",
+      "raw_url": "https://www.solitek.eu/en/news",
+      "description": "Latest updates and news related to SoliTek and the solar energy industry.",
+      "line": 53
+    },
+    {
+      "label": "Downloads",
+      "url": "https://www.solitek.eu/en/downloads",
+      "canonical": "https://www.solitek.eu/en/downloads",
+      "raw_url": "https://www.solitek.eu/en/downloads",
+      "description": "Access to various documents, including datasheets, warranties, and brochures.",
+      "line": 54
+    },
+    {
+      "label": "Terms and Conditions",
+      "url": "https://www.solitek.eu/en/terms-conditions",
+      "canonical": "https://www.solitek.eu/en/terms-conditions",
+      "raw_url": "https://www.solitek.eu/en/terms-conditions",
+      "description": "Legal terms and conditions governing the use of products and services.",
+      "line": 57
+    },
+    {
+      "label": "Contacts",
+      "url": "https://www.solitek.eu/en/contacts",
+      "canonical": "https://www.solitek.eu/en/contacts",
+      "raw_url": "https://www.solitek.eu/en/contacts",
+      "description": "Contact information for inquiries and support.",
+      "line": 58
+    },
+    {
+      "label": "Find Distributor",
+      "url": "https://www.solitek.eu/en/contacts#distributors",
+      "canonical": "https://www.solitek.eu/en/contacts#distributors",
+      "raw_url": "https://www.solitek.eu/en/contacts#distributors",
+      "description": "A resource for locating authorized distributors of SoliTek products.",
+      "line": 59
+    },
+    {
+      "label": "Solarmodule im Überblick",
+      "url": "https://www.solitek.eu/de/jungste-liste-der-solitek-solarmodule",
+      "canonical": "https://www.solitek.eu/de/jungste-liste-der-solitek-solarmodule",
+      "raw_url": "https://www.solitek.eu/de/jungste-liste-der-solitek-solarmodule",
+      "description": "Eine umfassende Palette an Solarmodulen für verschiedene Anwendungen, die hohe Effizienz und Haltbarkeit gewährleisten. Zu jedem Modul werden Informationen bereitgestellt, welche davon Cradle to Cradle Gold, DiBT, Sundahus A, MCS, Transizione 5.0 zertifiziert sind.",
+      "line": 66
+    },
+    {
+      "label": "Technologie der Solarmodule",
+      "url": "https://www.solitek.eu/de/die-technologie-der-solarmodule",
+      "canonical": "https://www.solitek.eu/de/die-technologie-der-solarmodule",
+      "raw_url": "https://www.solitek.eu/de/die-technologie-der-solarmodule",
+      "description": "Überblick über die Technologie hinter den SoliTek-Solarmodulen mit Schwerpunkt auf den wichtigsten Materialien und dem Herstellungsansatz.",
+      "line": 67
+    },
+    {
+      "label": "Vollschwarze Solarmodule BLACKSTAR 435W",
+      "url": "https://www.solitek.eu/de/products/solarmodul-blackstar-b108-435-w",
+      "canonical": "https://www.solitek.eu/de/products/solarmodul-blackstar-b108-435-w",
+      "raw_url": "https://www.solitek.eu/de/products/solarmodul-blackstar-b108-435-w",
+      "description": "Informationen zu den vollschwarzen Solarmodulen BLACKSTAR mit schwarzem Rahmen, entwickelt für Solaranlagen, bei denen die Ästhetik im Vordergrund steht.",
+      "line": 68
+    },
+    {
+      "label": "Extrem widerstandsfähige Solarmodule SOLID 435W",
+      "url": "https://www.solitek.eu/de/products/solarmodul-solid-bifacial-framed-b108-435w",
+      "canonical": "https://www.solitek.eu/de/products/solarmodul-solid-bifacial-framed-b108-435w",
+      "raw_url": "https://www.solitek.eu/de/products/solarmodul-solid-bifacial-framed-b108-435w",
+      "description": "Informationen zu den extrem widerstandsfähigen SoliTek-Solarmodulen mit Rahmen, die einem Druck von bis zu 10,5 kPa standhalten.",
+      "line": 69
+    },
+    {
+      "label": "Extrem widerstandsfähige Full-Black Solarmodule SOLID 435W",
+      "url": "https://www.solitek.eu/de/products/solarmodul-solid-bifacial-framed-full-black-b108-435w",
+      "canonical": "https://www.solitek.eu/de/products/solarmodul-solid-bifacial-framed-full-black-b108-435w",
+      "raw_url": "https://www.solitek.eu/de/products/solarmodul-solid-bifacial-framed-full-black-b108-435w",
+      "description": "Informationen zu den extrem widerstandsfähigen Full-Black SoliTek-Solarmodulen, besonders geeignet für Orte, an denen schwarze Ästhetik wichtig ist.",
+      "line": 70
+    },
+    {
+      "label": "Reflexionsarme, äußerst robuste Solarmodule SOLID SATIN 425W",
+      "url": "https://www.solitek.eu/de/products/blendfreie-vollschwarze-solarmodule-solid-bifacial-framed-satin-35-mm-425w",
+      "canonical": "https://www.solitek.eu/de/products/blendfreie-vollschwarze-solarmodule-solid-bifacial-framed-satin-35-mm-425w",
+      "raw_url": "https://www.solitek.eu/de/products/blendfreie-vollschwarze-solarmodule-solid-bifacial-framed-satin-35-mm-425w",
+      "description": "Informationen zu den reflexionsarmen SoliTek-Solarmodulen (Anti-Glare), ideal für reflexionsempfindliche Bereiche wie Flughäfen.",
+      "line": 71
+    },
+    {
+      "label": "Reflexionsarme, robusteste Solarmodule SOLID SATIN 425W",
+      "url": "https://www.solitek.eu/de/products/anti-glare-full-black-gerahmte-solarmodule-solid-bifacial-satin-40-mm-425-w",
+      "canonical": "https://www.solitek.eu/de/products/anti-glare-full-black-gerahmte-solarmodule-solid-bifacial-satin-40-mm-425-w",
+      "raw_url": "https://www.solitek.eu/de/products/anti-glare-full-black-gerahmte-solarmodule-solid-bifacial-satin-40-mm-425-w",
+      "description": "Informationen zu den reflexionsarmen SoliTek-Solarmodulen mit dickerem Rahmen, besonders geeignet für hohe Lasten und reflexionsempfindliche Bereiche.",
+      "line": 72
+    },
+    {
+      "label": "Robusteste Solarmodule SOLID 435W",
+      "url": "https://www.solitek.eu/de/products/solarmodul-solid-bifacial-framed-b108-435w-mit-40-mm-rahmen",
+      "canonical": "https://www.solitek.eu/de/products/solarmodul-solid-bifacial-framed-b108-435w-mit-40-mm-rahmen",
+      "raw_url": "https://www.solitek.eu/de/products/solarmodul-solid-bifacial-framed-b108-435w-mit-40-mm-rahmen",
+      "description": "Informationen zu den robustesten gerahmten SoliTek-Solarmodulen mit dickerem Rahmen, besonders geeignet für Carports und Überkopfmontage.",
+      "line": 73
+    },
+    {
+      "label": "Robusteste vollschwarze Solarmodule SOLID 435W",
+      "url": "https://www.solitek.eu/de/products/vollschwarzes-solarmodul-solid-bifacial-framed-b108-435w-mit-40-mm-rahmen",
+      "canonical": "https://www.solitek.eu/de/products/vollschwarzes-solarmodul-solid-bifacial-framed-b108-435w-mit-40-mm-rahmen",
+      "raw_url": "https://www.solitek.eu/de/products/vollschwarzes-solarmodul-solid-bifacial-framed-b108-435w-mit-40-mm-rahmen",
+      "description": "Informationen zu den robustesten Full-Black SoliTek-Solarmodulen, besonders geeignet für Carports und Überkopfmontage, wo schwarze Ästhetik wichtig ist.",
+      "line": 74
+    },
+    {
+      "label": "Größte und leistungsstärkste Solarmodule 505W",
+      "url": "https://www.solitek.eu/de/products/solarmodul-solid-gerahmt-b120-505w",
+      "canonical": "https://www.solitek.eu/de/products/solarmodul-solid-gerahmt-b120-505w",
+      "raw_url": "https://www.solitek.eu/de/products/solarmodul-solid-gerahmt-b120-505w",
+      "description": "Informationen zu SoliTek's größten Solarmodulen, konzipiert für gewerbliche Installationen und Solarparks.",
+      "line": 75
+    },
+    {
+      "label": "Rahmenlose, teilweise transparente Solarmodule SOLID 435W",
+      "url": "https://www.solitek.eu/de/products/rahmenlos-solarmodul-solid-bifacial-b108-435w",
+      "canonical": "https://www.solitek.eu/de/products/rahmenlos-solarmodul-solid-bifacial-b108-435w",
+      "raw_url": "https://www.solitek.eu/de/products/rahmenlos-solarmodul-solid-bifacial-b108-435w",
+      "description": "Informationen zu rahmenlosen, bis zu 10% transparenten SoliTek-Solarmodulen.",
+      "line": 76
+    },
+    {
+      "label": "Rahmenlose, vollschwarze Solarmodule SOLID 435W",
+      "url": "https://www.solitek.eu/de/products/vollschwarzes-solarmodul-solid-bifacial-b108-435w",
+      "canonical": "https://www.solitek.eu/de/products/vollschwarzes-solarmodul-solid-bifacial-b108-435w",
+      "raw_url": "https://www.solitek.eu/de/products/vollschwarzes-solarmodul-solid-bifacial-b108-435w",
+      "description": "Informationen zu rahmenlosen, vollschwarzen Solarmodulen.",
+      "line": 77
+    },
+    {
+      "label": "Rahmenlose, vollschwarze, reflexionsarme Solarmodule SOLID 425W",
+      "url": "https://www.solitek.eu/de/products/anti-glare-full-black-rahmenlose-solarmodule-solid-bifacial-satin-425-w",
+      "canonical": "https://www.solitek.eu/de/products/anti-glare-full-black-rahmenlose-solarmodule-solid-bifacial-satin-425-w",
+      "raw_url": "https://www.solitek.eu/de/products/anti-glare-full-black-rahmenlose-solarmodule-solid-bifacial-satin-425-w",
+      "description": "Informationen zu rahmenlosen, vollschwarzen, reflexionsarmen (Anti-Glare) Solarmodulen.",
+      "line": 78
+    },
+    {
+      "label": "Rahmenlose Solarmodule mit hoher Lichtdurchlässigkeit 290W",
+      "url": "https://www.solitek.eu/de/products/solarmodul-solid-agro-b72-290w-erhohte-transparenz",
+      "canonical": "https://www.solitek.eu/de/products/solarmodul-solid-agro-b72-290w-erhohte-transparenz",
+      "raw_url": "https://www.solitek.eu/de/products/solarmodul-solid-agro-b72-290w-erhohte-transparenz",
+      "description": "Informationen zu rahmenlosen, bis zu 40% transparenten, SoliTek-Solarmodulen mit geringerer Leistung, konzipiert für Agri-Installationen, Terrassen und Pergolen.",
+      "line": 79
+    },
+    {
+      "label": "Gerahmte Solarmodule mit hoher Lichtdurchlässigkeit 290W",
+      "url": "https://www.solitek.eu/de/products/solarmodul-solid-agro-framed-hochtransparent",
+      "canonical": "https://www.solitek.eu/de/products/solarmodul-solid-agro-framed-hochtransparent",
+      "raw_url": "https://www.solitek.eu/de/products/solarmodul-solid-agro-framed-hochtransparent",
+      "description": "Informationen zu bis zu 40% transparenten, SoliTek-Solarmodulen mit geringerer Leistung und Rahmen, geeignet für Agri-Installationen und Terrassen.",
+      "line": 80
+    },
+    {
+      "label": "Integrierte robuste Solarmodule SOLID Solrif 435W",
+      "url": "https://www.solitek.eu/de/products/solarpanel-solid-solrif-d-b108-33-transparent",
+      "canonical": "https://www.solitek.eu/de/products/solarpanel-solid-solrif-d-b108-33-transparent",
+      "raw_url": "https://www.solitek.eu/de/products/solarpanel-solid-solrif-d-b108-33-transparent",
+      "description": "Informationen zu bis zu 10% transparenten, hochbeständigen SoliTek-Solarmodulen, vorbereitet für die Montage anstelle der Dacheindeckung.",
+      "line": 81
+    },
+    {
+      "label": "Integrierte vollschwarze Solarmodule SOLID Solrif 435W",
+      "url": "https://www.solitek.eu/de/products/solarpanel-solid-solrif-d-b108-33-vollschwarz",
+      "canonical": "https://www.solitek.eu/de/products/solarpanel-solid-solrif-d-b108-33-vollschwarz",
+      "raw_url": "https://www.solitek.eu/de/products/solarpanel-solid-solrif-d-b108-33-vollschwarz",
+      "description": "Informationen zu vollschwarzen, hochbeständigen SoliTek-Solarmodulen, vorbereitet für die Montage anstelle der Dacheindeckung.",
+      "line": 82
+    },
+    {
+      "label": "Integrierte reflexionsarme Solarmodule SOLID Solrif 425W",
+      "url": "https://www.solitek.eu/de/products/blendfrei-vollschwarz-solid-solrif-satin-d-425w-3232-mm",
+      "canonical": "https://www.solitek.eu/de/products/blendfrei-vollschwarz-solid-solrif-satin-d-425w-3232-mm",
+      "raw_url": "https://www.solitek.eu/de/products/blendfrei-vollschwarz-solid-solrif-satin-d-425w-3232-mm",
+      "description": "Informationen zu vollschwarzen, reflexionsarmen, hochbeständigen SoliTek-Solarmodulen, vorbereitet für die Montage anstelle der Dacheindeckung.",
+      "line": 83
+    },
+    {
+      "label": "Integrierte Solarmodule mit hoher Lichtdurchlässigkeit SOLID Solrif 290W",
+      "url": "https://www.solitek.eu/de/products/solarmodul-solid-solrif-d-erhohte-transparenz-33",
+      "canonical": "https://www.solitek.eu/de/products/solarmodul-solid-solrif-d-erhohte-transparenz-33",
+      "raw_url": "https://www.solitek.eu/de/products/solarmodul-solid-solrif-d-erhohte-transparenz-33",
+      "description": "Daten zu hoher Lichtdurchlässigkeit (bis zu 40%), hochbeständigen SoliTek-Solarmodulen, vorbereitet für die Montage anstelle der Dacheindeckung.",
+      "line": 84
+    },
+    {
+      "label": "Produktionslinie für Solarmodule",
+      "url": "https://www.solitek.eu/de/produktionslinie-fur-solarmodule",
+      "canonical": "https://www.solitek.eu/de/produktionslinie-fur-solarmodule",
+      "raw_url": "https://www.solitek.eu/de/produktionslinie-fur-solarmodule",
+      "description": "Einblicke in die Produktionsprozesse und Maßnahmen zur Qualitätskontrolle bei der Herstellung von Solarmodulen.",
+      "line": 85
+    },
+    {
+      "label": "Batterielösungen",
+      "url": "https://www.solitek.eu/de/aktuelle-liste-der-solitek-batterielosungen",
+      "canonical": "https://www.solitek.eu/de/aktuelle-liste-der-solitek-batterielosungen",
+      "raw_url": "https://www.solitek.eu/de/aktuelle-liste-der-solitek-batterielosungen",
+      "description": "Überblick über die verschiedenen Batteriespeicherlösungen von SoliTek, mit Fokus auf Energiespeicherung und -verwaltung.",
+      "line": 88
+    },
+    {
+      "label": "Gewerbliche und industrielle Batterie (VEGA)",
+      "url": "https://www.solitek.eu/de/ci-hochspannungsbatterie-solitek-vega",
+      "canonical": "https://www.solitek.eu/de/ci-hochspannungsbatterie-solitek-vega",
+      "raw_url": "https://www.solitek.eu/de/ci-hochspannungsbatterie-solitek-vega",
+      "description": "Spezifikationen und Anwendungen der VEGA-Batterien für gewerbliche und industrielle Nutzung, mit Schwerpunkt auf Kapazität und Effizienz.",
+      "line": 89
+    },
+    {
+      "label": "Festkörper-Batterie für Wohngebäude (LITE)",
+      "url": "https://www.solitek.eu/de/batteriespeicherlosung-solitek-lite",
+      "canonical": "https://www.solitek.eu/de/batteriespeicherlosung-solitek-lite",
+      "raw_url": "https://www.solitek.eu/de/batteriespeicherlosung-solitek-lite",
+      "description": "Informationen zur LITE Festkörper-Batterietechnologie für private Anwendungen.",
+      "line": 90
+    },
+    {
+      "label": "Industrieller Energiespeicher 254 kWh (TERA)",
+      "url": "https://www.solitek.eu/de/industrielle-energiespeicherung-tera",
+      "canonical": "https://www.solitek.eu/de/industrielle-energiespeicherung-tera",
+      "raw_url": "https://www.solitek.eu/de/industrielle-energiespeicherung-tera",
+      "description": "Details zur TERA-Industriespeicherlösung mit einer Kapazität von 254 kWh, geeignet für großflächiges Energiemanagement.",
+      "line": 91
+    },
+    {
+      "label": "Batterie-Container 5 MWh",
+      "url": "https://www.solitek.eu/de/batteriespeichercontainer-bess",
+      "canonical": "https://www.solitek.eu/de/batteriespeichercontainer-bess",
+      "raw_url": "https://www.solitek.eu/de/batteriespeichercontainer-bess",
+      "description": "Beschreibung einer maßgeschneiderten Batterie-Container-Lösung mit einer Kapazität von 5 MWh, ideal für umfangreiche Energiespeicheranforderungen.",
+      "line": 92
+    },
+    {
+      "label": "Produktionslinie für Batterien",
+      "url": "https://www.solitek.eu/de/ems-fortgeschrittene-software-fur-maximale-einsparungen",
+      "canonical": "https://www.solitek.eu/de/ems-fortgeschrittene-software-fur-maximale-einsparungen",
+      "raw_url": "https://www.solitek.eu/de/ems-fortgeschrittene-software-fur-maximale-einsparungen",
+      "description": "Ein Überblick über die Produktionsprozesse für Batterien, einschließlich Technologie und Qualitätssicherung.",
+      "line": 93
+    },
+    {
+      "label": "Energiemanagementsystem (EMS)",
+      "url": "https://www.solitek.eu/de/ems-fortgeschrittene-software-fur-maximale-einsparungen",
+      "canonical": "https://www.solitek.eu/de/ems-fortgeschrittene-software-fur-maximale-einsparungen",
+      "raw_url": "https://www.solitek.eu/de/ems-fortgeschrittene-software-fur-maximale-einsparungen",
+      "description": "Informationen zum Smart Energy Management System, das eine effektive Überwachung und Steuerung des Energieverbrauchs ermöglicht.",
+      "line": 94
+    },
+    {
+      "label": "Integrierte Lösungen",
+      "url": "https://www.solitek.eu/de/losungen",
+      "canonical": "https://www.solitek.eu/de/losungen",
+      "raw_url": "https://www.solitek.eu/de/losungen",
+      "description": "Eine Zusammenfassung der integrierten SoliTek-Lösungen, die Solarmodule und Batteriesysteme für optimierten Energieeinsatz kombinieren.",
+      "line": 97
+    },
+    {
+      "label": "Solar-Carport",
+      "url": "https://www.solitek.eu/de/sprendimai/solarcarport-carport-mit-integrierten-solarmodulen",
+      "canonical": "https://www.solitek.eu/de/sprendimai/solarcarport-carport-mit-integrierten-solarmodulen",
+      "raw_url": "https://www.solitek.eu/de/sprendimai/solarcarport-carport-mit-integrierten-solarmodulen",
+      "description": "Überblick über Solar-Carport-Lösungen, die Energieerzeugung mit Fahrzeugschutz kombinieren.",
+      "line": 98
+    },
+    {
+      "label": "Photovoltaik-Lärmschutzwände",
+      "url": "https://www.solitek.eu/de/sprendimai/photovoltaik-larmschutzwande-pvnbs",
+      "canonical": "https://www.solitek.eu/de/sprendimai/photovoltaik-larmschutzwande-pvnbs",
+      "raw_url": "https://www.solitek.eu/de/sprendimai/photovoltaik-larmschutzwande-pvnbs",
+      "description": "Beschreibung von Lärmschutzwänden-Lösungen, die Solartechnologie für eine duale Funktionalität integrieren.",
+      "line": 99
+    },
+    {
+      "label": "Solar-Dachsysteme (SOLID Solrif)",
+      "url": "https://www.solitek.eu/de/sprendimai/dachintegrierte-solid-solrif-solarlosung",
+      "canonical": "https://www.solitek.eu/de/sprendimai/dachintegrierte-solid-solrif-solarlosung",
+      "raw_url": "https://www.solitek.eu/de/sprendimai/dachintegrierte-solid-solrif-solarlosung",
+      "description": "Beschreibung von Solar-Dachsystemen, die SOLID Solrif Solarmodule in das Dach integrieren.",
+      "line": 100
+    },
+    {
+      "label": "Agri-Photovoltaik",
+      "url": "https://www.solitek.eu/de/sprendimai/agrivoltaik-oder-agriphotovoltaik-agropv",
+      "canonical": "https://www.solitek.eu/de/sprendimai/agrivoltaik-oder-agriphotovoltaik-agropv",
+      "raw_url": "https://www.solitek.eu/de/sprendimai/agrivoltaik-oder-agriphotovoltaik-agropv",
+      "description": "Überblick über Agri-Photovoltaik-Lösungen, die Solarmodule mit erhöhter Transparenz über Agrarprodukten integrieren oder dort eingesetzt werden, wo Teilschatten erforderlich ist.",
+      "line": 101
+    },
+    {
+      "label": "Nachhaltigkeit",
+      "url": "https://www.solitek.eu/de/neuigkeiten",
+      "canonical": "https://www.solitek.eu/de/neuigkeiten",
+      "raw_url": "https://www.solitek.eu/de/neuigkeiten",
+      "description": "Details zum Engagement von SoliTek für Nachhaltigkeit und die Cradle to Cradle Gold-Zertifizierung.",
+      "line": 105
+    },
+    {
+      "label": "Kontakt",
+      "url": "https://www.solitek.eu/de/kontakte",
+      "canonical": "https://www.solitek.eu/de/kontakte",
+      "raw_url": "https://www.solitek.eu/de/kontakte",
+      "description": "Kontaktinformationen für Anfragen und Support.",
+      "line": 106
+    },
+    {
+      "label": "SoliTek Gruppe",
+      "url": "https://www.solitek.eu/de/solitek-gruppe-solarmodule-und-batterien-aus-europa",
+      "canonical": "https://www.solitek.eu/de/solitek-gruppe-solarmodule-und-batterien-aus-europa",
+      "raw_url": "https://www.solitek.eu/de/solitek-gruppe-solarmodule-und-batterien-aus-europa",
+      "description": "Überblick über die SoliTek-Gruppe, einschließlich ihrer Mission, Vision und Marktpräsenz.",
+      "line": 108
+    },
+    {
+      "label": "Nachhaltigkeit & Cradle to Cradle",
+      "url": "https://www.solitek.eu/de/nachhaltigkeitsbericht",
+      "canonical": "https://www.solitek.eu/de/nachhaltigkeitsbericht",
+      "raw_url": "https://www.solitek.eu/de/nachhaltigkeitsbericht",
+      "description": "Details zum Engagement von SoliTek für Nachhaltigkeit und die Cradle to Cradle Gold-Zertifizierung.",
+      "line": 109
+    },
+    {
+      "label": "Downloads",
+      "url": "https://www.solitek.eu/de/downloads",
+      "canonical": "https://www.solitek.eu/de/downloads",
+      "raw_url": "https://www.solitek.eu/de/downloads",
+      "description": "Zugang zu verschiedenen Dokumenten, einschließlich Datenblättern, Garantien und Broschüren.",
+      "line": 110
+    },
+    {
+      "label": "SoliTek Lithuania",
+      "url": "https://www.solitek.lt/lt",
+      "canonical": "https://www.solitek.lt/lt",
+      "raw_url": "https://www.solitek.lt/lt",
+      "description": "Information specific to the Lithuanian market and operations.",
+      "line": 116
+    },
+    {
+      "label": "SoliTek Italy",
+      "url": "https://www.solitek.it/it",
+      "canonical": "https://www.solitek.it/it",
+      "raw_url": "https://www.solitek.it/it",
+      "description": "Information specific to the Italian market and operations.",
+      "line": 117
+    }
+  ],
+  "bare_links": [],
+  "metrics": {
+    "bytes": 19298,
+    "words": 1635,
+    "lines": 117,
+    "approx_tokens_chars_div_4": 4798,
+    "h1_count": 1,
+    "link_count": 79,
+    "bare_url_count": 0,
+    "described_links": 79,
+    "unique_destinations": 78,
+    "markdown_destinations": 0
+  },
+  "flags": [
+    "duplicate-destinations-review"
+  ]
+}

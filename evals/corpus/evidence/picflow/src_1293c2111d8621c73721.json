@@ -1,0 +1,16 @@
+{
+  "url": "https://picflow.com/",
+  "retrieved_at": "2026-09-24T22:49:11.914154+00:00",
+  "source": {
+    "id": "src_1293c2111d8621c73721",
+    "url": "https://picflow.com/",
+    "title": "Picflow — Client Galleries & Online Proofing for Creatives",
+    "description": "Simple client galleries and proofing for creative professionals. Share branded links, get fast approvals, and transfer media effortlessly. Try Picflow for free.",
+    "content": "Picflow supports all common image formats (JPEG, PNG, TIFF, WEBP, HEIC), RAW files from major camera brands (CR2, CR3, NEF, ARW, DNG, and more), videos (MP4, MOV up to 4K HDR), and audio files. RAW files are automatically converted to high-quality previews.",
+    "markdownUrl": null
+  },
+  "status": 200,
+  "final_url": "https://picflow.com/",
+  "sha256": "dcc857b0fb25f888706129ab711ff843064c718c0326c856d5e58de3e0e752b5",
+  "content_type": "text/html; charset=utf-8"
+}

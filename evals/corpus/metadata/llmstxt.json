@@ -1,0 +1,17 @@
+{
+  "id": "llmstxt",
+  "url": "https://llmstxt.org/llms.txt",
+  "category": "developer-docs",
+  "kind": "actual",
+  "split": "holdout",
+  "discovery": "https://llmstxt.site/",
+  "retrieved_at": "2026-09-24T22:46:20.426869+00:00",
+  "accepted": true,
+  "status": 200,
+  "final_url": "https://llmstxt.org/llms.txt",
+  "content_type": "text/plain; charset=utf-8",
+  "sha256": "8b45bd6172aba50751b819e17d94bc3b4e98e41a68b0a299e06c0fc78699ec5a",
+  "bytes": 637,
+  "decode_replacements": 0,
+  "raw_path": "raw/llmstxt.txt"
+}

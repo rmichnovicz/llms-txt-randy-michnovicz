@@ -1,0 +1,83 @@
+{
+  "cases": [
+    {
+      "id": "jquery",
+      "url": "https://jquery.com/",
+      "versions": [
+        {
+          "label": "2023-08-28",
+          "download_url": "https://raw.githubusercontent.com/jquery/jquery.com/a2a568149ab6d9d4fa9eddc8ee13b91c0a0b17ea/pages/index.html",
+          "file": "jquery-2023-08-28.html",
+          "sha256": "bbf5e644603ec26a14bf83a9a07d507f60d8e2cfaa9fd988d903138840302d68",
+          "retrieved_at": "2026-09-24T23:48:27.300040+00:00"
+        },
+        {
+          "label": "2026-01-28",
+          "download_url": "https://raw.githubusercontent.com/jquery/jquery.com/0bc7a3f27c452f08a38da65c0e25a48f353f2828/pages/index.html",
+          "file": "jquery-2026-01-28.html",
+          "sha256": "a4cabeb0345d9609dcc46fff24dc019850a78691befbba725a56785764c3d5af",
+          "retrieved_at": "2026-09-24T23:48:27.359069+00:00"
+        }
+      ],
+      "expected_change": true,
+      "auxiliary_pages": [
+        {
+          "url": "https://jquery.com/browser-support/",
+          "download_url": "https://raw.githubusercontent.com/jquery/jquery.com/a2a568149ab6d9d4fa9eddc8ee13b91c0a0b17ea/pages/browser-support.html",
+          "file": "jquery-2023-08-28-support.html",
+          "sha256": "bbfbb27438e26dd26758e0d439a60ce45cdc81d6cc33d045d7741db693a95f3a",
+          "retrieved_at": "2026-09-24T23:48:27.300040+00:00",
+          "note": "Frozen 2023 auxiliary page used only in labeled synthetic availability scenarios."
+        }
+      ],
+      "archive_kind": "git-archived-website-source",
+      "reason": "Related-project maintenance/deprecation notices were added. They must not be mistaken for a statement that jQuery itself is deprecated."
+    },
+    {
+      "id": "h5bp",
+      "url": "https://html5boilerplate.com/",
+      "versions": [
+        {
+          "label": "2023-03-01",
+          "download_url": "https://raw.githubusercontent.com/h5bp/html5boilerplate.com/b27826ea640a7f2131b5f6d9e10202ebff0f97bb/docs/index.html",
+          "file": "h5bp-2023-03-01.html",
+          "sha256": "8730a11dc3485b1645643b6fe5c8919ce4acfceab1291dda074efa39e91ac726",
+          "retrieved_at": "2026-09-24T23:48:27.599344+00:00"
+        },
+        {
+          "label": "2025-04-09",
+          "download_url": "https://raw.githubusercontent.com/h5bp/html5boilerplate.com/e02d3c6baa80dbcec82657e3bccac77c5a067803/docs/index.html",
+          "file": "h5bp-2025-04-09.html",
+          "sha256": "99a42ebdb70cbdafbce6498b2728adc7a6f60c48455c7dc0a353995ee5985968",
+          "retrieved_at": "2026-09-24T23:48:27.854504+00:00"
+        }
+      ],
+      "expected_change": true,
+      "archive_kind": "git-archived-website-source",
+      "reason": "The starter template stopped listing Normalize.css, optimized analytics, and Modernizr among included features."
+    },
+    {
+      "id": "python",
+      "url": "https://docs.python.org/tutorial/controlflow.html",
+      "versions": [
+        {
+          "label": "release-3.10",
+          "download_url": "https://docs.python.org/3.10/tutorial/controlflow.html",
+          "file": "python-release-3.10.html",
+          "sha256": "c78e43c3eb7ab2c4827658bf3acaa9447c173c51ba555e156fb6db0e50387995",
+          "retrieved_at": "2026-09-24T23:48:29.057411+00:00"
+        },
+        {
+          "label": "release-3.13",
+          "download_url": "https://docs.python.org/3.13/tutorial/controlflow.html",
+          "file": "python-release-3.13.html",
+          "sha256": "a69ee694105a6b29a8a9e7856174bce5c92cffa08060bb392354944fd420f03d",
+          "retrieved_at": "2026-09-24T23:48:29.520674+00:00"
+        }
+      ],
+      "expected_change": true,
+      "archive_kind": "versioned-release-documentation",
+      "reason": "Tutorial wording, examples, and section organization changed between maintained Python 3.10 and 3.13 documentation branches; these are release alternatives, not dated Wayback captures."
+    }
+  ]
+}

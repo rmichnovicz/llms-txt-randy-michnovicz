@@ -1,0 +1,15 @@
+# Acme Analytics
+
+> Product analytics platform for SaaS teams that need event tracking, funnels, cohorts, and dashboards.
+
+Acme Analytics helps product and growth teams understand activation, retention, and conversion.
+
+## Docs
+
+- [Getting started](https://example.com/docs/getting-started): Install the SDK and send your first event.
+- [API reference](https://example.com/docs/api): REST API, SDKs, and webhook reference.
+
+## Product
+
+- [Funnels](https://example.com/features/funnels): Build conversion funnels from tracked events.
+- [Cohorts](https://example.com/features/cohorts): Segment users by behavior.

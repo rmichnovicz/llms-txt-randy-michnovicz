@@ -1,0 +1,17 @@
+{
+  "id": "cake",
+  "url": "https://cake.vn/llms.txt",
+  "category": "finance",
+  "kind": "actual",
+  "split": "development",
+  "discovery": "https://llmstxt.site/",
+  "retrieved_at": "2026-09-24T22:46:24.713920+00:00",
+  "accepted": true,
+  "status": 200,
+  "final_url": "https://cake.vn/llms.txt",
+  "content_type": "text/plain; charset=UTF-8",
+  "sha256": "88f3b8a736de554fd2db453fc25278d1bda1ac13f06d8d05bfdf37a3e989b7fb",
+  "bytes": 9320,
+  "decode_replacements": 0,
+  "raw_path": "raw/cake.txt"
+}

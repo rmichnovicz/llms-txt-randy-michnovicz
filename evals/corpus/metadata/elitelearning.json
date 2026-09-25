@@ -1,0 +1,17 @@
+{
+  "id": "elitelearning",
+  "url": "https://elitelearning.com/llms.txt",
+  "category": "education",
+  "kind": "actual",
+  "split": "holdout",
+  "discovery": "https://llmstxt.site/",
+  "retrieved_at": "2026-09-24T22:46:23.810848+00:00",
+  "accepted": true,
+  "status": 200,
+  "final_url": "https://elitelearning.com/llms.txt",
+  "content_type": "text/plain",
+  "sha256": "4b98d12caad4ff0aace2c7c710778865f149afcb3e70512f456b2e4a211dce30",
+  "bytes": 127730,
+  "decode_replacements": 0,
+  "raw_path": "raw/elitelearning.txt"
+}

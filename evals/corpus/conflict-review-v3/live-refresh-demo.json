@@ -1,0 +1,92 @@
+{
+  "input": {
+    "siteUrl": "https://demo-shop.example.com/",
+    "sources": [
+      {
+        "id": "shipping",
+        "url": "https://demo-shop.example.com/shipping",
+        "title": "Shipping policy",
+        "description": "Standard shipping within mainland France.",
+        "content": "Demo Atelier sells homewares. Standard delivery in mainland France is free for orders over \u20ac600. Below that threshold, delivery costs \u20ac12. This policy applies to standard delivery only.",
+        "markdownUrl": null
+      }
+    ],
+    "decisions": [
+      {
+        "id": "dec_f1cfc316e06b4f109595304057c587d1",
+        "kind": "fact",
+        "statement": "Use \u20ac450 for free standard delivery in mainland France until the website is corrected.",
+        "active": true,
+        "needsReview": true,
+        "reviewSources": [
+          {
+            "id": "shipping",
+            "url": "https://demo-shop.example.com/shipping",
+            "title": "Shipping policy",
+            "description": "Standard shipping within mainland France.",
+            "content": "Demo Atelier sells homewares. Standard delivery in mainland France is free for orders over \u20ac300. Below that threshold, delivery costs \u20ac12. This policy applies to standard delivery only.",
+            "markdownUrl": null
+          }
+        ]
+      }
+    ],
+    "dismissedTopics": [],
+    "mode": "generate",
+    "maxQuestions": 3
+  },
+  "output": {
+    "guide": {
+      "title": "Demo Atelier",
+      "summary": {
+        "text": "Demo Atelier sells homewares.",
+        "evidenceIds": [
+          "shipping"
+        ]
+      },
+      "context": [
+        {
+          "text": "The shipping policy covers standard delivery within mainland France only.",
+          "evidenceIds": [
+            "shipping"
+          ]
+        }
+      ],
+      "sections": [
+        {
+          "title": "Delivery",
+          "links": [
+            {
+              "sourceId": "shipping",
+              "label": "Shipping policy",
+              "description": "Standard delivery terms for mainland France; the free-delivery threshold needs review."
+            }
+          ]
+        }
+      ]
+    },
+    "explanation": "The free-delivery threshold needs review, so the guide does not state an amount. The shipping policy remains available as a resource.",
+    "questions": []
+  },
+  "metadata": {
+    "provider": "openai",
+    "model": "gpt-6-sol",
+    "reasoning": "medium",
+    "prompt_version": "brief-generation-v3",
+    "response_id": "resp_0540b4e9a0867eeb016ab5ce6055dc87d2a4426403644bc88d",
+    "duration_ms": 5528,
+    "usage": {
+      "input_tokens": 1304,
+      "input_tokens_details": {
+        "cache_write_tokens": 1301,
+        "cached_tokens": 0
+      },
+      "output_tokens": 226,
+      "output_tokens_details": {
+        "reasoning_tokens": 92
+      },
+      "total_tokens": 1530
+    },
+    "max_output_tokens": 12000,
+    "attempts": 1
+  }
+}

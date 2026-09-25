@@ -1,0 +1,44 @@
+# Terminal Trove - llms.txt
+
+> Terminal Trove: The $HOME of all things in the terminal.
+
+## Core Resources
+
+https://terminaltrove.com/ - Homepage
+https://terminaltrove.com/about/ - About Terminal Trove
+https://terminaltrove.com/list/ - Complete list of all tools
+https://terminaltrove.com/new/ - Recently added tools
+https://terminaltrove.com/tool-of-the-week/ - Tool of the Week archive
+https://terminaltrove.com/categories/ - Browse by category
+https://terminaltrove.com/blog/ - Blog posts and writeups
+
+## Key Categories
+
+https://terminaltrove.com/categories/cli/ - Command-line tools
+https://terminaltrove.com/categories/tui/ - Text-based user interfaces
+https://terminaltrove.com/categories/productivity/ - Productivity tools
+https://terminaltrove.com/categories/devops/ - DevOps and infrastructure
+https://terminaltrove.com/categories/text-editors/ - Terminal text editors
+https://terminaltrove.com/categories/monitoring/ - System monitoring tools
+
+## AI Coding Agents
+
+https://terminaltrove.com/agents/ - Browse and compare terminal AI coding agents
+https://terminaltrove.com/compare/agents/ - Compare AI coding agents side by side
+
+## Terminal Emulators
+
+https://terminaltrove.com/terminals/ - Terminal emulator comparisons
+https://terminaltrove.com/compare/ - Terminal comparison tool
+
+## Feeds & Data
+
+https://terminaltrove.com/new.xml - RSS feed: New tools
+https://terminaltrove.com/totw.xml - RSS feed: Tool of the Week
+https://terminaltrove.com/blog.xml - RSS feed: Blog posts
+https://terminaltrove.com/sitemap-index.xml - Sitemap index
+
+## More Information
+
+https://terminaltrove.com/llms-full.txt - Extended resource list
+https://terminaltrove.com/submit/ - Submit a new tool

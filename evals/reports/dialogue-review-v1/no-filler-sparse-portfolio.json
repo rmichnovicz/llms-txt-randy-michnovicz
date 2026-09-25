@@ -1,0 +1,31 @@
+{
+  "case_id": "no-filler-sparse-portfolio",
+  "judge_prompt_version": "dialogue-review-v1",
+  "payload_sha256": "a82189b40b9e463a62c293c14e397826787d0ffdcb8af548f112d5a855312c15",
+  "advisory": true,
+  "model": "gpt-6-sol",
+  "judgment": {
+    "scores": {
+      "question_value": 2,
+      "options": 2,
+      "recommendation_reason": 2,
+      "answer_fidelity": 2,
+      "decision_lifecycle": 2
+    },
+    "issues": [],
+    "summary": "The available evidence supports a useful guide without clarification. No question was needed; the other dimensions were not exercised."
+  },
+  "anchor_errors": [],
+  "usage": {
+    "input_tokens": 857,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 108,
+    "output_tokens_details": {
+      "reasoning_tokens": 39
+    },
+    "total_tokens": 965
+  }
+}

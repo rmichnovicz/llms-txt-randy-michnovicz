@@ -1,0 +1,782 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+<meta http-equiv="Permissions-Policy" content="accelerometer=()">
+
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no">
+	<meta name="format-detection" content="telephone=no">
+	
+	<meta name='robots' content='index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1' />
+
+	<!-- This site is optimized with the Yoast SEO plugin v28.5 - https://yoast.com/product/yoast-seo-wordpress/ -->
+	<title>MOLLIE Aspen | Boutique Hotel in Aspen | Official Site</title>
+	<meta name="description" content="Experience MOLLIE Aspen, where understated luxury meets a warm, residential ambiance in downtown Aspen, Colorado. Learn more about our boutique hotel." />
+	<link rel="canonical" href="https://mollieaspen.com/" />
+	<meta property="og:locale" content="en_US" />
+	<meta property="og:type" content="website" />
+	<meta property="og:title" content="MOLLIE Aspen | Boutique Hotel in Aspen | Official Site" />
+	<meta property="og:description" content="Experience MOLLIE Aspen, where understated luxury meets a warm, residential ambiance in downtown Aspen, Colorado. Learn more about our boutique hotel." />
+	<meta property="og:url" content="https://mollieaspen.com/" />
+	<meta property="og:site_name" content="MOLLIE Aspen" />
+	<meta property="article:publisher" content="https://www.facebook.com/mollieaspen/" />
+	<meta property="article:modified_time" content="2026-09-22T22:03:30+00:00" />
+	<meta property="og:image" content="https://mollieaspen.com/wp-content/uploads/2025/01/DW17495-HDR.jpg" />
+	<meta property="og:image:width" content="1900" />
+	<meta property="og:image:height" content="1163" />
+	<meta property="og:image:type" content="image/jpeg" />
+	<meta name="twitter:card" content="summary_large_image" />
+	<script type="application/ld+json" class="yoast-schema-graph">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/mollieaspen.com\/","url":"https:\/\/mollieaspen.com\/","name":"MOLLIE Aspen | Boutique Hotel in Aspen | Official Site","isPartOf":{"@id":"https:\/\/mollieaspen.com\/#website"},"about":{"@id":"https:\/\/mollieaspen.com\/#organization"},"primaryImageOfPage":{"@id":"https:\/\/mollieaspen.com\/#primaryimage"},"image":{"@id":"https:\/\/mollieaspen.com\/#primaryimage"},"thumbnailUrl":"https:\/\/mollieaspen.com\/wp-content\/uploads\/2025\/01\/DW17495-HDR.jpg","datePublished":"2023-08-18T13:04:04+00:00","dateModified":"2026-09-22T22:03:30+00:00","description":"Experience MOLLIE Aspen, where understated luxury meets a warm, residential ambiance in downtown Aspen, Colorado. Learn more about our boutique hotel.","breadcrumb":{"@id":"https:\/\/mollieaspen.com\/#breadcrumb"},"inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/mollieaspen.com\/"]}]},{"@type":"ImageObject","inLanguage":"en-US","@id":"https:\/\/mollieaspen.com\/#primaryimage","url":"https:\/\/mollieaspen.com\/wp-content\/uploads\/2025\/01\/DW17495-HDR.jpg","contentUrl":"https:\/\/mollieaspen.com\/wp-content\/uploads\/2025\/01\/DW17495-HDR.jpg","width":1900,"height":1163,"caption":"MOLLIE Aspen hotel exterior in the fall"},{"@type":"BreadcrumbList","@id":"https:\/\/mollieaspen.com\/#breadcrumb","itemListElement":[{"@type":"ListItem","position":1,"name":"Home"}]},{"@type":"WebSite","@id":"https:\/\/mollieaspen.com\/#website","url":"https:\/\/mollieaspen.com\/","name":"MOLLIE Aspen","description":"Luxury Aspen Hotel","publisher":{"@id":"https:\/\/mollieaspen.com\/#organization"},"alternateName":"MOLLIE","potentialAction":[{"@type":"SearchAction","target":{"@type":"EntryPoint","urlTemplate":"https:\/\/mollieaspen.com\/?s={search_term_string}"},"query-input":{"@type":"PropertyValueSpecification","valueRequired":true,"valueName":"search_term_string"}}],"inLanguage":"en-US"},{"@type":"Organization","@id":"https:\/\/mollieaspen.com\/#organization","name":"MOLLIE Aspen","alternateName":"MOLLIE","url":"https:\/\/mollieaspen.com\/","logo":{"@type":"ImageObject","inLanguage":"en-US","@id":"https:\/\/mollieaspen.com\/#\/schema\/logo\/image\/","url":"https:\/\/mollieaspen.com\/wp-content\/uploads\/2026\/09\/MOLLIE_LOGOMARK_BURGUNDY.png","contentUrl":"https:\/\/mollieaspen.com\/wp-content\/uploads\/2026\/09\/MOLLIE_LOGOMARK_BURGUNDY.png","width":1080,"height":1080,"caption":"MOLLIE Aspen"},"image":{"@id":"https:\/\/mollieaspen.com\/#\/schema\/logo\/image\/"},"sameAs":["https:\/\/www.facebook.com\/mollieaspen\/","https:\/\/www.instagram.com\/mollie_aspen\/","https:\/\/www.youtube.com\/@MOLLIEAspen"]},{"@type":"Hotel","@id":"https:\/\/mollieaspen.com\/#local_business","name":"MOLLIE Aspen","address":{"@type":"PostalAddress","streetAddress":"111 S. Garmisch St.","addressLocality":"Aspen","addressRegion":"Colorado","addressCountry":"US","postalCode":"81611"},"image":["https:\/\/mollieaspen.com\/wp-content\/uploads\/2025\/01\/DW17495-HDR.jpg"],"logo":"https:\/\/mollieaspen.com\/wp-content\/uploads\/2023\/09\/cropped-cropped-apple-touch-icon-300x300-1.png","openingHoursSpecification":[{"@type":"OpeningHoursSpecification","dayOfWeek":"https:\/\/schema.org\/Monday","opens":"00:00:00","closes":"23:59:59"},{"@type":"OpeningHoursSpecification","dayOfWeek":"https:\/\/schema.org\/Tuesday","opens":"00:00:00","closes":"23:59:59"},{"@type":"OpeningHoursSpecification","dayOfWeek":"https:\/\/schema.org\/Wednesday","opens":"00:00:00","closes":"23:59:59"},{"@type":"OpeningHoursSpecification","dayOfWeek":"https:\/\/schema.org\/Thursday","opens":"00:00:00","closes":"23:59:59"},{"@type":"OpeningHoursSpecification","dayOfWeek":"https:\/\/schema.org\/Friday","opens":"00:00:00","closes":"23:59:59"},{"@type":"OpeningHoursSpecification","dayOfWeek":"https:\/\/schema.org\/Saturday","opens":"00:00:00","closes":"23:59:59"},{"@type":"OpeningHoursSpecification","dayOfWeek":"https:\/\/schema.org\/Sunday","opens":"00:00:00","closes":"23:59:59"}],"priceRange":"$$$$","sameAs":["https:\/\/www.facebook.com\/mollieaspen\/","https:\/\/www.instagram.com\/mollie_aspen\/"],"telephone":"(970) 742-1234","url":"https:\/\/mollieaspen.com\/"}]}</script>
+	<meta name="google-site-verification" content="EvOtWPXrpX5FuIwsaIJPvJwFB6ojcDxfMjrurZdeoNU" />
+	<!-- / Yoast SEO plugin. -->
+
+
+<link rel='dns-prefetch' href='//cdnjs.cloudflare.com' />
+<link rel='dns-prefetch' href='//www.google.com' />
+<link rel="alternate" type="application/rss+xml" title="MOLLIE Aspen &raquo; Feed" href="https://mollieaspen.com/feed/" />
+<link rel="alternate" type="application/rss+xml" title="MOLLIE Aspen &raquo; Comments Feed" href="https://mollieaspen.com/comments/feed/" />
+<link rel="alternate" type="text/calendar" title="MOLLIE Aspen &raquo; iCal Feed" href="https://mollieaspen.com/events/?ical=1" />
+<style id="wp-img-auto-sizes-contain-inline-css">
+img:is([sizes=auto i],[sizes^="auto," i]){contain-intrinsic-size:3000px 1500px}
+/*# sourceURL=wp-img-auto-sizes-contain-inline-css */
+</style>
+<link rel='stylesheet' id='tribe-events-pro-mini-calendar-block-styles-css' href='https://mollieaspen.com/wp-content/plugins/events-calendar-pro/build/css/tribe-events-pro-mini-calendar-block.css?ver=7.8.3' media='all' />
+<style id="wp-block-library-inline-css">
+:root{--wp-block-synced-color:#7a00df;--wp-block-synced-color--rgb:122,0,223;--wp-bound-block-color:var(--wp-block-synced-color);--wp-editor-canvas-background:#ddd;--wp-admin-theme-color:#007cba;--wp-admin-theme-color--rgb:0,124,186;--wp-admin-theme-color-darker-10:#006ba1;--wp-admin-theme-color-darker-10--rgb:0,107,160.5;--wp-admin-theme-color-darker-20:#005a87;--wp-admin-theme-color-darker-20--rgb:0,90,135;--wp-admin-border-width-focus:2px}@media (min-resolution:192dpi){:root{--wp-admin-border-width-focus:1.5px}}.wp-element-button{cursor:pointer}:root .has-very-light-gray-background-color{background-color:#eee}:root .has-very-dark-gray-background-color{background-color:#313131}:root .has-very-light-gray-color{color:#eee}:root .has-very-dark-gray-color{color:#313131}:root .has-vivid-green-cyan-to-vivid-cyan-blue-gradient-background{background:linear-gradient(135deg,#00d084,#0693e3)}:root .has-purple-crush-gradient-background{background:linear-gradient(135deg,#34e2e4,#4721fb 50%,#ab1dfe)}:root .has-hazy-dawn-gradient-background{background:linear-gradient(135deg,#faaca8,#dad0ec)}:root .has-subdued-olive-gradient-background{background:linear-gradient(135deg,#fafae1,#67a671)}:root .has-atomic-cream-gradient-background{background:linear-gradient(135deg,#fdd79a,#004a59)}:root .has-nightshade-gradient-background{background:linear-gradient(135deg,#330968,#31cdcf)}:root .has-midnight-gradient-background{background:linear-gradient(135deg,#020381,#2874fc)}:root{--wp--preset--font-size--normal:16px;--wp--preset--font-size--huge:42px}.has-regular-font-size{font-size:1em}.has-larger-font-size{font-size:2.625em}.has-normal-font-size{font-size:var(--wp--preset--font-size--normal)}.has-huge-font-size{font-size:var(--wp--preset--font-size--huge)}:root .has-text-align-center{text-align:center}:root .has-text-align-left{text-align:left}:root .has-text-align-right{text-align:right}.has-fit-text{white-space:nowrap!important}#end-resizable-editor-section{display:none}.aligncenter{clear:both}.items-justified-left{justify-content:flex-start}.items-justified-center{justify-content:center}.items-justified-right{justify-content:flex-end}.items-justified-space-between{justify-content:space-between}.screen-reader-text{word-wrap:normal!important;border:0;clip-path:inset(50%);height:1px;margin:-1px;overflow:hidden;padding:0;position:absolute;width:1px}.screen-reader-text:focus{background-color:#ddd;clip-path:none;color:#444;display:block;font-size:1em;height:auto;left:5px;line-height:normal;padding:15px 23px 14px;text-decoration:none;top:5px;width:auto;z-index:100000}html :where(.has-border-color){border-style:solid}html :where([style*=border-color]){border-style:solid}html :where([style*=border-top-color]){border-top-style:solid}html :where([style*=border-right-color]){border-right-style:solid}html :where([style*=border-bottom-color]){border-bottom-style:solid}html :where([style*=border-left-color]){border-left-style:solid}html :where([style*=border-width]){border-style:solid}html :where([style*=border-top-width]){border-top-style:solid}html :where([style*=border-right-width]){border-right-style:solid}html :where([style*=border-bottom-width]){border-bottom-style:solid}html :where([style*=border-left-width]){border-left-style:solid}html :where(img[class*=wp-image-]){height:auto;max-width:100%}:where(figure){margin:0 0 1em}html :where(.is-position-sticky){--wp-admin--admin-bar--position-offset:var(--wp-admin--admin-bar--height,0px)}@media screen and (max-width:600px){html :where(.is-position-sticky){--wp-admin--admin-bar--position-offset:0px}}
+
+/*# sourceURL=/wp-includes/css/dist/block-library/common.min.css */
+</style>
+<style id="classic-theme-styles-inline-css">
+/*! This file is auto-generated */
+.wp-block-button__link{color:#fff;background-color:#32373c;border-radius:9999px;box-shadow:none;text-decoration:none;padding:calc(.667em + 2px) calc(1.333em + 2px);font-size:1.125em}.wp-block-file__button{background:#32373c;color:#fff;text-decoration:none}
+/*# sourceURL=/wp-includes/css/classic-themes.min.css */
+</style>
+
+<link rel='stylesheet' id='contact-form-7-css' href='https://mollieaspen.com/wp-content/plugins/contact-form-7/includes/css/styles.css?ver=6.1.7' media='all' />
+<link rel='stylesheet' id='ssa-upcoming-appointments-card-style-css' href='https://mollieaspen.com/wp-content/plugins/simply-schedule-appointments/assets/css/upcoming-appointments.css?ver=2.6.12.31' media='all' />
+<link rel='stylesheet' id='ssa-styles-css' href='https://mollieaspen.com/wp-content/plugins/simply-schedule-appointments/assets/css/ssa-styles.css?ver=2.6.12.31' media='all' />
+<link rel='stylesheet' id='am_https-cdnjs-cloudflare-com-ajax-libs-slick-carousel-1-8-1-slick-min-css-css' href='https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css?ver=3de3b56b4b6d4a4fc5794a9de09f44de' media='all' />
+<link rel='stylesheet' id='am_https-cdnjs-cloudflare-com-ajax-libs-slick-carousel-1-8-1-slick-theme-min-css-css' href='https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css?ver=3de3b56b4b6d4a4fc5794a9de09f44de' media='all' />
+<link rel='stylesheet' id='am_https-cdnjs-cloudflare-com-ajax-libs-fancybox-3-5-7-jquery-fancybox-min-css-css' href='https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.css?ver=3de3b56b4b6d4a4fc5794a9de09f44de' media='all' />
+<link rel='stylesheet' id='am_assets-css-style-min-css-css' href='https://mollieaspen.com/wp-content/themes/mollie/assets/css/style.min.css?ver=1783029502' media='all' />
+<link rel='stylesheet' id='am_style-css-css' href='https://mollieaspen.com/wp-content/themes/mollie/style.css?ver=1765221977' media='all' />
+<script id="jquery-core-js" src="https://mollieaspen.com/wp-includes/js/jquery/jquery.min.js?ver=3.7.1"></script>
+<script id="jquery-migrate-js" src="https://mollieaspen.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1"></script>
+<script id="am_https-cdnjs-cloudflare-com-ajax-libs-slick-carousel-1-8-1-slick-min-js-js" src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js?ver=3de3b56b4b6d4a4fc5794a9de09f44de"></script>
+<script id="am_https-cdnjs-cloudflare-com-ajax-libs-fancybox-3-5-7-jquery-fancybox-min-js-js" src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js?ver=3de3b56b4b6d4a4fc5794a9de09f44de"></script>
+<script id="am_https-cdnjs-cloudflare-com-ajax-libs-moment-js-2-29-4-moment-min-js-js" src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.4/moment.min.js?ver=3de3b56b4b6d4a4fc5794a9de09f44de"></script>
+<meta name="tec-api-version" content="v1"><meta name="tec-api-origin" content="https://mollieaspen.com"><link rel="alternate" href="https://mollieaspen.com/wp-json/tribe/events/v1/" />		<script type="text/javascript">
+		var ajaxurl = 'https://mollieaspen.com/wp-admin/admin-ajax.php';
+	</script>
+	<link rel="icon" href="https://mollieaspen.com/wp-content/uploads/2023/09/cropped-cropped-apple-touch-icon-300x300-1-32x32.png" sizes="32x32" />
+<link rel="icon" href="https://mollieaspen.com/wp-content/uploads/2023/09/cropped-cropped-apple-touch-icon-300x300-1-192x192.png" sizes="192x192" />
+<link rel="apple-touch-icon" href="https://mollieaspen.com/wp-content/uploads/2023/09/cropped-cropped-apple-touch-icon-300x300-1-180x180.png" />
+<meta name="msapplication-TileImage" content="https://mollieaspen.com/wp-content/uploads/2023/09/cropped-cropped-apple-touch-icon-300x300-1-270x270.png" />
+
+	
+ 
+ 
+					<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-W6VXNR2');</script>
+<!-- End Google Tag Manager -->
+	
+<meta name="facebook-domain-verification" content="3ykjy54y57tyn1cwqbsh4xxy7mcgsk" />
+
+			<style id="global-styles-inline-css">
+:root{--wp--preset--aspect-ratio--square: 1;--wp--preset--aspect-ratio--4-3: 4/3;--wp--preset--aspect-ratio--3-4: 3/4;--wp--preset--aspect-ratio--3-2: 3/2;--wp--preset--aspect-ratio--2-3: 2/3;--wp--preset--aspect-ratio--16-9: 16/9;--wp--preset--aspect-ratio--9-16: 9/16;--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: #abb8c3;--wp--preset--color--white: #ffffff;--wp--preset--color--pale-pink: #f78da7;--wp--preset--color--vivid-red: #cf2e2e;--wp--preset--color--luminous-vivid-orange: #ff6900;--wp--preset--color--luminous-vivid-amber: #fcb900;--wp--preset--color--light-green-cyan: #7bdcb5;--wp--preset--color--vivid-green-cyan: #00d084;--wp--preset--color--pale-cyan-blue: #8ed1fc;--wp--preset--color--vivid-cyan-blue: #0693e3;--wp--preset--color--vivid-purple: #9b51e0;--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple: linear-gradient(135deg,rgb(6,147,227) 0%,rgb(155,81,224) 100%);--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan: linear-gradient(135deg,rgb(122,220,180) 0%,rgb(0,208,130) 100%);--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange: linear-gradient(135deg,rgb(252,185,0) 0%,rgb(255,105,0) 100%);--wp--preset--gradient--luminous-vivid-orange-to-vivid-red: linear-gradient(135deg,rgb(255,105,0) 0%,rgb(207,46,46) 100%);--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray: linear-gradient(135deg,rgb(238,238,238) 0%,rgb(169,184,195) 100%);--wp--preset--gradient--cool-to-warm-spectrum: linear-gradient(135deg,rgb(74,234,220) 0%,rgb(151,120,209) 20%,rgb(207,42,186) 40%,rgb(238,44,130) 60%,rgb(251,105,98) 80%,rgb(254,248,76) 100%);--wp--preset--gradient--blush-light-purple: linear-gradient(135deg,rgb(255,206,236) 0%,rgb(152,150,240) 100%);--wp--preset--gradient--blush-bordeaux: linear-gradient(135deg,rgb(254,205,165) 0%,rgb(254,45,45) 50%,rgb(107,0,62) 100%);--wp--preset--gradient--luminous-dusk: linear-gradient(135deg,rgb(255,203,112) 0%,rgb(199,81,192) 50%,rgb(65,88,208) 100%);--wp--preset--gradient--pale-ocean: linear-gradient(135deg,rgb(255,245,203) 0%,rgb(182,227,212) 50%,rgb(51,167,181) 100%);--wp--preset--gradient--electric-grass: linear-gradient(135deg,rgb(202,248,128) 0%,rgb(113,206,126) 100%);--wp--preset--gradient--midnight: linear-gradient(135deg,rgb(2,3,129) 0%,rgb(40,116,252) 100%);--wp--preset--font-size--small: 13px;--wp--preset--font-size--medium: 20px;--wp--preset--font-size--large: 36px;--wp--preset--font-size--x-large: 42px;--wp--preset--spacing--20: 0.44rem;--wp--preset--spacing--30: 0.67rem;--wp--preset--spacing--40: 1rem;--wp--preset--spacing--50: 1.5rem;--wp--preset--spacing--60: 2.25rem;--wp--preset--spacing--70: 3.38rem;--wp--preset--spacing--80: 5.06rem;--wp--preset--shadow--natural: 6px 6px 9px rgba(0, 0, 0, 0.2);--wp--preset--shadow--deep: 12px 12px 50px rgba(0, 0, 0, 0.4);--wp--preset--shadow--sharp: 6px 6px 0px rgba(0, 0, 0, 0.2);--wp--preset--shadow--outlined: 6px 6px 0px -3px rgb(255, 255, 255), 6px 6px rgb(0, 0, 0);--wp--preset--shadow--crisp: 6px 6px 0px rgb(0, 0, 0);}:where(body) { margin: 0; }:where(.is-layout-flex){gap: 0.5em;}:where(.is-layout-grid){gap: 0.5em;}body .is-layout-flex{display: flex;}.is-layout-flex{flex-wrap: wrap;align-items: center;}.is-layout-flex > :is(*, div){margin: 0;}body .is-layout-grid{display: grid;}.is-layout-grid > :is(*, div){margin: 0;}body{padding-top: 0px;padding-right: 0px;padding-bottom: 0px;padding-left: 0px;}:root :where(.wp-element-button, .wp-block-button__link){background-color: #32373c;border-width: 0;color: #fff;font-family: inherit;font-size: inherit;font-style: inherit;font-weight: inherit;letter-spacing: inherit;line-height: inherit;padding-top: calc(0.667em + 2px);padding-right: calc(1.333em + 2px);padding-bottom: calc(0.667em + 2px);padding-left: calc(1.333em + 2px);text-decoration: none;text-transform: inherit;}.has-black-color{color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-color{color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-color{color: var(--wp--preset--color--white) !important;}.has-pale-pink-color{color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-color{color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-color{color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-color{color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-color{color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-color{color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-color{color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-color{color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-color{color: var(--wp--preset--color--vivid-purple) !important;}.has-black-background-color{background-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-background-color{background-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-background-color{background-color: var(--wp--preset--color--white) !important;}.has-pale-pink-background-color{background-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-background-color{background-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-background-color{background-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-background-color{background-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-background-color{background-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-background-color{background-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-background-color{background-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-background-color{background-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-background-color{background-color: var(--wp--preset--color--vivid-purple) !important;}.has-black-border-color{border-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-border-color{border-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-border-color{border-color: var(--wp--preset--color--white) !important;}.has-pale-pink-border-color{border-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-border-color{border-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-border-color{border-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-border-color{border-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-border-color{border-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-border-color{border-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-border-color{border-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-border-color{border-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-border-color{border-color: var(--wp--preset--color--vivid-purple) !important;}.has-vivid-cyan-blue-to-vivid-purple-gradient-background{background: var(--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple) !important;}.has-light-green-cyan-to-vivid-green-cyan-gradient-background{background: var(--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan) !important;}.has-luminous-vivid-amber-to-luminous-vivid-orange-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange) !important;}.has-luminous-vivid-orange-to-vivid-red-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-orange-to-vivid-red) !important;}.has-very-light-gray-to-cyan-bluish-gray-gradient-background{background: var(--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray) !important;}.has-cool-to-warm-spectrum-gradient-background{background: var(--wp--preset--gradient--cool-to-warm-spectrum) !important;}.has-blush-light-purple-gradient-background{background: var(--wp--preset--gradient--blush-light-purple) !important;}.has-blush-bordeaux-gradient-background{background: var(--wp--preset--gradient--blush-bordeaux) !important;}.has-luminous-dusk-gradient-background{background: var(--wp--preset--gradient--luminous-dusk) !important;}.has-pale-ocean-gradient-background{background: var(--wp--preset--gradient--pale-ocean) !important;}.has-electric-grass-gradient-background{background: var(--wp--preset--gradient--electric-grass) !important;}.has-midnight-gradient-background{background: var(--wp--preset--gradient--midnight) !important;}.has-small-font-size{font-size: var(--wp--preset--font-size--small) !important;}.has-medium-font-size{font-size: var(--wp--preset--font-size--medium) !important;}.has-large-font-size{font-size: var(--wp--preset--font-size--large) !important;}.has-x-large-font-size{font-size: var(--wp--preset--font-size--x-large) !important;}
+/*# sourceURL=global-styles-inline-css */
+</style>
+
+</head>
+
+<body class="home wp-singular page-template page-template-page-templates page-template-home page-template-page-templateshome-php page page-id-70 wp-theme-mollie tribe-no-js group-blog unknown">
+	
+ 
+ 
+					<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-W6VXNR2"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->					<!-- Header -->
+	<header class="header header--light">
+		<div class="container-fluid">
+			<div class="header-inner">
+				<button class="hamburger" aria-label="Menu">
+					<span></span>
+				</button>
+				<a href="https://mollieaspen.com" class="header-logo">
+					<!-- content-modules-image -->
+						<img class="header-logo__image" src="https://mollieaspen.com/wp-content/uploads/2023/10/MOLLIE_COMBINATION_MARK_WHITE_500px.png" alt="MOLLIE Aspen Logo in white" loading="lazy">
+								<!-- content-modules-image -->
+						<img class="header-logo__scroll" src="https://mollieaspen.com/wp-content/uploads/2023/08/logo-scroll.svg" alt="MOLLIE Aspen icon" loading="lazy">
+							</a>
+				
+
+
+
+				<a class="btn btn-outline header-booking d-md-only" href="https://be.synxis.com/?Chain=10237&#038;Hotel=41140&#038;level=hotel" target="_blank">
+			Book Your Stay					</a>
+					<!-- <button class="btn btn-outline header-booking btn-booking-popup d-md-only">
+					Book Your Stay				</button> -->
+			</div>
+		</div>
+		<div class="header-menu">
+			<div class="container-fluid">
+				<nav class="menu-header-menu-container"><ul id="menu-header-menu" class="header-nav"><li id="menu-item-758" class="menu-item--lg menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-70 current_page_item menu-item-758"><a href="https://mollieaspen.com/" aria-current="page">Home</a></li>
+<li id="menu-item-260" class="menu-item--lg menu-item menu-item-type-post_type menu-item-object-page menu-item-260"><a href="https://mollieaspen.com/rooms/">Rest</a></li>
+<li id="menu-item-1433" class="menu-item--lg menu-item menu-item-type-post_type menu-item-object-page menu-item-1433"><a href="https://mollieaspen.com/specials/">Specials</a></li>
+<li id="menu-item-1491" class="menu-item--lg menu-item menu-item-type-post_type menu-item-object-page menu-item-1491"><a href="https://mollieaspen.com/amenities/">Experience</a></li>
+<li id="menu-item-1235" class="menu-item--lg menu-item menu-item-type-post_type menu-item-object-page menu-item-1235"><a href="https://mollieaspen.com/dine-drink/">Taste</a></li>
+<li id="menu-item-923" class="menu-item--lg menu-item menu-item-type-post_type menu-item-object-page menu-item-923"><a href="https://mollieaspen.com/meetings-events/">Gather</a></li>
+<li id="menu-item-924" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-924"><a href="https://mollieaspen.com/events/">Events</a></li>
+<li id="menu-item-2241" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-2241"><a href="https://shopmollieaspen.com/">Boutique</a></li>
+<li id="menu-item-1617" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1617"><a href="https://mollieaspen.com/blog/">Journal</a></li>
+<li id="menu-item-1027" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1027"><a href="https://mollieaspen.com/press/">Press</a></li>
+<li id="menu-item-1225" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1225"><a href="https://mollieaspen.com/explore/">Explore</a></li>
+<li id="menu-item-1078" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1078"><a href="https://mollieaspen.com/gallery/">Gallery</a></li>
+</ul></nav>								<div class="header-information text-lg">
+					
+
+
+
+				<a class="" href="https://www.google.com/maps/place/MOLLIE+Aspen/@39.1909627,-106.8233958,15z/data=!4m2!3m1!1s0x0:0x3099e5d442d70c7f?sa=X&#038;ved=2ahUKEwins9CVs7mBAxVqT6QEHflYA0IQ_BJ6BAhMEAA&#038;ved=2ahUKEwins9CVs7mBAxVqT6QEHflYA0IQ_BJ6BAhPEAc" target="_blank">
+			111 S. Garmisch St. Aspen, Colorado					</a>
+												<a href="tel:970-742-1234">
+							970-742-1234						</a>
+																<a href="mailto:reservations@mollieaspen.com" aria-label="Email">
+							<img src="https://mollieaspen.com/wp-content/themes/mollie/assets/img/icon-sms.svg" alt="Email">
+						</a>
+									</div>
+							</div>
+		</div>
+	</header>
+	<!-- /Header -->
+	<!-- Main -->
+	<main class="main" role="main" id="fullpage">
+<!-- Banner -->
+<section class="hp-banner">
+<div class="hp-banner__bg bg-cover">
+    
+    <link href="https://vjs.zencdn.net/7.14.3/video-js.css" rel="stylesheet" />
+    <script src="https://vjs.zencdn.net/7.14.3/video.min.js"></script>
+    <style>
+        #mollie-video {
+            width: 100%;
+            height: auto;
+        }
+
+        .video-js .vjs-control-bar {
+            visibility: hidden; /* Set to visible if you want controls */
+        }
+
+        .vjs-fullscreen {
+            width: 100% !important;
+            height: 100% !important;
+        }
+
+        .video-js.vjs-fullscreen .vjs-tech {
+            width: 100%;
+            height: 100%;
+        }
+
+        .video-js .vjs-control-bar {
+            opacity: 0;
+            transition: opacity 0.5s ease-in-out;
+        }
+        #background-image {
+            width: 100%;
+            height: 100vh; /* Full viewport height */
+            background-size: cover;
+            background-position: center;
+        }
+
+        /* Style adjustments for the video player, if needed */
+        #mollie-video {
+            display: block; /* Ensure it's displayed by default */
+        }
+    </style>
+
+    <video id="mollie-video" class="video-js vjs-fullscreen" preload="auto" width="100%" height="auto"
+    data-setup="{}" autoplay loop muted>
+    <source src="https://mollieaspen.sfo2.cdn.digitaloceanspaces.com/websitebannerfinal1080p.mp4" type="video/mp4" />
+    <p class="vjs-no-js">
+        To view this video please enable JavaScript, and consider upgrading to a web browser that
+        <a href="https://videojs.com/html5-video-support/" target="_blank">supports HTML5 video</a>
+    </p>
+    </video>
+    <div id="background-image" class="hp-hotel__hero-image" style="display: none;">
+        <img width="1900" height="1267" src="https://mollieaspen.com/wp-content/uploads/2023/12/Mollie_Common-Areas_Lobby-Lounge_034.jpg" class="attachment-full size-full" alt="MOLLIE Lobby Lounge" decoding="async" fetchpriority="high" srcset="https://mollieaspen.com/wp-content/uploads/2023/12/Mollie_Common-Areas_Lobby-Lounge_034.jpg 1900w, https://mollieaspen.com/wp-content/uploads/2023/12/Mollie_Common-Areas_Lobby-Lounge_034-300x200.jpg 300w, https://mollieaspen.com/wp-content/uploads/2023/12/Mollie_Common-Areas_Lobby-Lounge_034-1024x683.jpg 1024w, https://mollieaspen.com/wp-content/uploads/2023/12/Mollie_Common-Areas_Lobby-Lounge_034-768x512.jpg 768w, https://mollieaspen.com/wp-content/uploads/2023/12/Mollie_Common-Areas_Lobby-Lounge_034-1536x1024.jpg 1536w" sizes="(max-width: 1900px) 100vw, 1900px" />    </div>
+    <script>
+        function isMobileDevice() {
+            return /Mobi|Android/i.test(navigator.userAgent);
+        }
+
+        var player = videojs('mollie-video');
+
+        // Disable default pause on click
+        player.on('click', function(event) {
+        event.preventDefault();
+        });
+
+        document.addEventListener('DOMContentLoaded', function() {
+            if (isMobileDevice()) {
+            // Hide the video player
+            document.getElementById('mollie-video').style.display = 'none';
+            // Show the background image
+            document.getElementById('background-image').style.display = 'block';
+        }
+  });
+    </script>
+</div>
+
+	<!-- content-modules-image -->
+		<!-- content-modules-image -->
+		<div class="hp-banner__content 2d-md-only">
+		<div class="container-fluid">
+			<div class="row" style="position:relative;">
+				
+ 
+ 
+			<div class="col col-md-6 d-md-only"		>
+						<p class="hp-banner__heading a-up"			>
+				111 S. Garmisch St.<br />
+Aspen, Colorado 81611					</p>
+					</div>
+					<div class="col col-md-6 text-right"><a href="https://guide.michelin.com/us/en/hotels-stays/aspen/mollie-aspen-13821?arr=2025-11-07&dep=2025-11-08&nA=1&nC=0&nR=1"><img src="https://mollieaspen.com/wp-content/uploads/2025/10/1-Key-White-horz-trimmed2025.png" class="align-right"></a>			</div>
+		</div>
+	</div>
+	<button class="btn-scroll-next d-md-only" aria-label="Scroll More">
+		Scroll More	</button>
+</section>
+
+<!-- Hotel -->
+<section class="hp-hotel full-content-image">
+	<div class="container full-content-image__inner">
+		<div class="hp-hotel__content full-content-image__content">
+			
+ 
+ 
+						<p class="section-subheading a-up a-delay-1"			>
+				Welcome to					</p>
+						
+ 
+ 
+						<h1 class="section-heading a-up"			>
+				Mollie Aspen					</h1>
+						
+ 
+ 
+						<div class="section-copy a-up a-delay-2"			>
+				<h6>Awarded One <span style="text-decoration: underline;"><a href="https://mollieaspen.com/awards/">MICHELIN Key</a></span> in 2026, MOLLIE is a boutique hotel inspired by the layered spirit of Aspen and the many individuals who shaped its vibrant history.</h6>
+<p><span class="citation-140 citation-141 citation-end-141">A place that honors the outdoors and encourages adventure while providing a luxurious experience to its guests. It is a place that believes in the beauty and freedom of simplicity and s</span><span class="citation-140 citation-end-140">ubtlety. Come here to connect, to get inspired, to find re</span>spite.</p>
+					</div>
+						<div class="section-buttons a-up a-delay-3">
+				
+
+
+
+			<div 		>
+				<a class="btn btn-outline" href="https://be.synxis.com/?adult=1&#038;arrive=2023-10-06&#038;chain=10237&#038;child=0&#038;currency=USD&#038;depart=2023-10-07&#038;hotel=41140&#038;level=hotel&#038;locale=en-US&#038;rooms=1" target="_blank">
+			Book Your Stay					</a>
+			</div>
+					
+
+
+
+			<div 		>
+				<a class="link" href="https://mollieaspen.com/our-hotel/" target="_self">
+			ABOUT THE HOTEL					</a>
+			</div>
+				</div>
+		</div>
+				<div class="hp-hotel__media a-up">
+			<div class="hp-hotel__video bg-cover">
+				
+    <img width="690" height="985" src="https://mollieaspen.com/wp-content/uploads/2023/10/home-hotel-warion-taipei-unsplash-scaled-1-690x985.jpg" class="attachment-full-content-image size-full-content-image" alt="View of someone sitting at the MOLLIE, a boutique hotel in Aspen" loading="lazy" decoding="async" />			</div>
+			
+ 
+ 
+						<p class="hp-hotel__media-caption d-md-only a-up a-delay-1"			>
+				Find retreat, warmth, and respite.  					</p>
+					</div>
+			</div>
+</section>
+
+<!-- Rooms -->
+<section class="hp-rooms full-content-image">
+	<div class="container full-content-image__inner">
+		<div class="hp-rooms__left full-content-image__content">
+			
+ 
+ 
+						<h2 class="h1 section-heading a-up"			>
+				REST					</h2>
+						
+ 
+ 
+						<h6 class="section-subheading a-up a-delay-1"			>
+				RETREAT AND RESPITE					</h6>
+						
+ 
+ 
+						<div class="section-copy a-up a-delay-2"			>
+				<h6>Considered and thoughtful design.</h6>
+<p>Our rooms evoke residential comfort through the subtle lens of Japanese and Scandinavian design. Removal of excess is the foundation of our interior, which creates spaces that evoke a feeling of calm and quiet where you can retreat and leave the burdens of the day behind.</p>
+					</div>
+						<div class="section-buttons a-up a-delay-3">
+				
+
+
+
+			<div 		>
+				<a class="btn btn-outline" href="https://be.synxis.com/?adult=1&#038;arrive=2023-10-06&#038;chain=10237&#038;child=0&#038;currency=USD&#038;depart=2023-10-07&#038;hotel=41140&#038;level=hotel&#038;locale=en-US&#038;rooms=1" target="_blank">
+			Book Your Stay					</a>
+			</div>
+					
+
+
+
+			<div 		>
+				<a class="link" href="https://mollieaspen.com/rooms/" target="_self">
+			VIEW ROOMS &amp; SUITES					</a>
+			</div>
+				</div>
+		</div>
+					<div class="hp-rooms__right a-op a-delay-1">
+        <div class="hp-rooms__thumbnails">
+                            <div class="hp-rooms__thumbnail bg-cover">
+                    <img width="150" height="150" src="https://mollieaspen.com/wp-content/uploads/2023/12/MOLLIE_205_760x952-150x150.png" class="" alt="MOLLIE Bed detail" loading="lazy" decoding="async" srcset="https://mollieaspen.com/wp-content/uploads/2023/12/MOLLIE_205_760x952-150x150.png 150w, https://mollieaspen.com/wp-content/uploads/2023/12/MOLLIE_205_760x952-220x220.png 220w" sizes="auto, (max-width: 150px) 100vw, 150px" />                </div>
+                            <div class="hp-rooms__thumbnail bg-cover">
+                    <img width="150" height="150" src="https://mollieaspen.com/wp-content/uploads/2024/11/MOLLIE_205_Desk_760x952-150x150.jpg" class="" alt="MOLLIE hotel room desk" loading="lazy" decoding="async" srcset="https://mollieaspen.com/wp-content/uploads/2024/11/MOLLIE_205_Desk_760x952-150x150.jpg 150w, https://mollieaspen.com/wp-content/uploads/2024/11/MOLLIE_205_Desk_760x952-220x220.jpg 220w, https://mollieaspen.com/wp-content/uploads/2024/11/MOLLIE_205_Desk_760x952-300x300.jpg 300w, https://mollieaspen.com/wp-content/uploads/2024/11/MOLLIE_205_Desk_760x952-400x400.jpg 400w, https://mollieaspen.com/wp-content/uploads/2024/11/MOLLIE_205_Desk_760x952-600x600.jpg 600w" sizes="auto, (max-width: 150px) 100vw, 150px" />                </div>
+                            <div class="hp-rooms__thumbnail bg-cover">
+                    <img width="150" height="150" src="https://mollieaspen.com/wp-content/uploads/2023/12/MOLLIE_205_Sofa_760x952-150x150.png" class="" alt="Maharam fabric wrapped green sofa, small coffee table made of travertine and wood, and an end table with a lamp, at our Aspen luxury hotel." loading="lazy" decoding="async" srcset="https://mollieaspen.com/wp-content/uploads/2023/12/MOLLIE_205_Sofa_760x952-150x150.png 150w, https://mollieaspen.com/wp-content/uploads/2023/12/MOLLIE_205_Sofa_760x952-220x220.png 220w" sizes="auto, (max-width: 150px) 100vw, 150px" />                </div>
+                    </div>
+        <div class="hp-rooms__carousel">
+                            <a href="https://mollieaspen.com/wp-content/uploads/2023/12/MOLLIE_205_760x952.png" class="hp-rooms__slide bg-cover" data-fancybox="gallery">
+                    <img width="690" height="952" src="https://mollieaspen.com/wp-content/uploads/2023/12/MOLLIE_205_760x952-690x952.png" class="" alt="MOLLIE Bed detail" loading="lazy" decoding="async" />                    <span class="hp-rooms__slide-fancybox">
+                        <img src="https://mollieaspen.com/wp-content/themes/mollie/assets/img/icon-plus.svg" alt="Open Lightbox" loading="lazy">
+                    </span>
+                </a>
+                            <a href="https://mollieaspen.com/wp-content/uploads/2024/11/MOLLIE_205_Desk_760x952.jpg" class="hp-rooms__slide bg-cover" data-fancybox="gallery">
+                    <img width="690" height="952" src="https://mollieaspen.com/wp-content/uploads/2024/11/MOLLIE_205_Desk_760x952-690x952.jpg" class="" alt="MOLLIE hotel room desk" loading="lazy" decoding="async" />                    <span class="hp-rooms__slide-fancybox">
+                        <img src="https://mollieaspen.com/wp-content/themes/mollie/assets/img/icon-plus.svg" alt="Open Lightbox" loading="lazy">
+                    </span>
+                </a>
+                            <a href="https://mollieaspen.com/wp-content/uploads/2023/12/MOLLIE_205_Sofa_760x952.png" class="hp-rooms__slide bg-cover" data-fancybox="gallery">
+                    <img width="690" height="952" src="https://mollieaspen.com/wp-content/uploads/2023/12/MOLLIE_205_Sofa_760x952-690x952.png" class="" alt="Maharam fabric wrapped green sofa, small coffee table made of travertine and wood, and an end table with a lamp, at our Aspen luxury hotel." loading="lazy" decoding="async" />                    <span class="hp-rooms__slide-fancybox">
+                        <img src="https://mollieaspen.com/wp-content/themes/mollie/assets/img/icon-plus.svg" alt="Open Lightbox" loading="lazy">
+                    </span>
+                </a>
+                    </div>
+				<div class="hp-rooms__caption d-md-only">
+											<p class="text-caption">
+													</p>
+											<p class="text-caption">
+													</p>
+											<p class="text-caption">
+													</p>
+									</div>
+			</div>
+			</div>
+</section>
+
+<!-- Taste -->
+<section class="hp-taste full-content-image" id="taste">
+	<div class="container full-content-image__inner">
+				<div class="hp-taste__media">
+								<div class="hp-taste__slide bg-cover is-active">
+						<img width="1707" height="2560" src="https://mollieaspen.com/wp-content/uploads/2025/12/Petit_Trois_15389-scaled.jpg" class="attachment-full size-full" alt="Fresh coffee at MOLLIE Aspen Cafe" loading="lazy" decoding="async" srcset="https://mollieaspen.com/wp-content/uploads/2025/12/Petit_Trois_15389-scaled.jpg 1707w, https://mollieaspen.com/wp-content/uploads/2025/12/Petit_Trois_15389-200x300.jpg 200w, https://mollieaspen.com/wp-content/uploads/2025/12/Petit_Trois_15389-683x1024.jpg 683w, https://mollieaspen.com/wp-content/uploads/2025/12/Petit_Trois_15389-768x1152.jpg 768w, https://mollieaspen.com/wp-content/uploads/2025/12/Petit_Trois_15389-1024x1536.jpg 1024w, https://mollieaspen.com/wp-content/uploads/2025/12/Petit_Trois_15389-1366x2048.jpg 1366w" sizes="auto, (max-width: 1707px) 100vw, 1707px" />					</div>
+										<div class="hp-taste__slide bg-cover">
+						<img width="1707" height="2560" src="https://mollieaspen.com/wp-content/uploads/2025/12/Petit_Trois_15220-scaled.jpg" class="attachment-full size-full" alt="French Onion Soup at Petit Trois Aspen" loading="lazy" decoding="async" srcset="https://mollieaspen.com/wp-content/uploads/2025/12/Petit_Trois_15220-scaled.jpg 1707w, https://mollieaspen.com/wp-content/uploads/2025/12/Petit_Trois_15220-200x300.jpg 200w, https://mollieaspen.com/wp-content/uploads/2025/12/Petit_Trois_15220-683x1024.jpg 683w, https://mollieaspen.com/wp-content/uploads/2025/12/Petit_Trois_15220-768x1152.jpg 768w, https://mollieaspen.com/wp-content/uploads/2025/12/Petit_Trois_15220-1024x1536.jpg 1024w, https://mollieaspen.com/wp-content/uploads/2025/12/Petit_Trois_15220-1366x2048.jpg 1366w" sizes="auto, (max-width: 1707px) 100vw, 1707px" />					</div>
+										<div class="hp-taste__slide bg-cover">
+						<img width="2048" height="1366" src="https://mollieaspen.com/wp-content/uploads/2026/06/Petit_Familia_Aspen_26920.jpg" class="attachment-full size-full" alt="Petit Familia agave cocktail at MOLLIE Aspen" loading="lazy" decoding="async" srcset="https://mollieaspen.com/wp-content/uploads/2026/06/Petit_Familia_Aspen_26920.jpg 2048w, https://mollieaspen.com/wp-content/uploads/2026/06/Petit_Familia_Aspen_26920-300x200.jpg 300w, https://mollieaspen.com/wp-content/uploads/2026/06/Petit_Familia_Aspen_26920-1024x683.jpg 1024w, https://mollieaspen.com/wp-content/uploads/2026/06/Petit_Familia_Aspen_26920-768x512.jpg 768w, https://mollieaspen.com/wp-content/uploads/2026/06/Petit_Familia_Aspen_26920-1536x1025.jpg 1536w" sizes="auto, (max-width: 2048px) 100vw, 2048px" />					</div>
+							</div>
+				<div class="hp-taste__content full-content-image__content">
+			<div class="hp-taste__top">
+				
+ 
+ 
+						<h2 class="h1 section-heading a-up"			>
+				TASTE					</h2>
+							
+ 
+ 
+						<h6 class="section-subheading a-up a-delay-1"			>
+				SEASONAL AND <br />
+TIMELESS					</h6>
+						</div>
+							<div class="hp-taste__links a-up a-delay-2">
+												<a href="https://mollieaspen.com/dine-drink/cafe/" class="hp-taste__link" target="_self">
+								Cafe							</a>
+														<a href="https://mollieaspen.com/dine-drink/restaurant-bar/" class="hp-taste__link" target="_self">
+								Petit Trois - Restaurant &amp; Bar							</a>
+														<a href="https://mollieaspen.com/restaurants-bars/roof-terrace-bar/" class="hp-taste__link" target="_self">
+								Petit Familia - Roof Terrace Bar							</a>
+											</div>
+						
+ 
+ 
+						<div class="section-copy a-up a-delay-3"			>
+				<h6>Crafting a thoughtful, warm experience for visitors and locals alike.</h6>
+<p>MOLLIE Aspen offers a comprehensive range of dining options from morning to night. Indulge in delicious cuisine at <span style="text-decoration: underline;"><a href="https://mollieaspen.com/restaurants-bars/petit-trois/">Petit Trois</a></span>, our lobby bar and restaurant, featuring indoor and year-round outdoor heated seating on two terraces. Our inviting cafe provides a casual dining experience for both breakfast and lunch. Relax and unwind by the hearth and savor a carefully crafted cocktail or kick start your morning with small batch coffee sourced from Sightglass.</p>
+					</div>
+						<div class="section-buttons a-up a-delay-4">
+				
+
+
+
+			<div 		>
+				<a class="btn btn-outline" href="https://www.opentable.com/r/mollie-aspen-reservations-aspen?restref=1334608&#038;lang=en-US&#038;ot_source=Restaurant%20website" target="_blank">
+			Make a Reservation					</a>
+			</div>
+					
+
+
+
+			<div 		>
+				<a class="link" href="https://mollieaspen.com/dine-drink/" target="_self">
+			View All Dining					</a>
+			</div>
+				</div>
+		</div>
+	</div>
+</section>
+
+    <!-- Full Image -->
+    <section class="hp-full-image">
+        <a href="https://mollieaspen.com/wp-content/uploads/2025/12/Petit_Trois_15459-1.jpg" data-fancybox>
+            <img width="2048" height="1366" src="https://mollieaspen.com/wp-content/uploads/2025/12/Petit_Trois_15459-1.jpg" class="hp-full-image__bg a-op" alt="Petit Trois Aspen at MOLLIE" loading="lazy" decoding="async" srcset="https://mollieaspen.com/wp-content/uploads/2025/12/Petit_Trois_15459-1.jpg 2048w, https://mollieaspen.com/wp-content/uploads/2025/12/Petit_Trois_15459-1-300x200.jpg 300w, https://mollieaspen.com/wp-content/uploads/2025/12/Petit_Trois_15459-1-1024x683.jpg 1024w, https://mollieaspen.com/wp-content/uploads/2025/12/Petit_Trois_15459-1-768x512.jpg 768w, https://mollieaspen.com/wp-content/uploads/2025/12/Petit_Trois_15459-1-1536x1025.jpg 1536w" sizes="auto, (max-width: 2048px) 100vw, 2048px" />        </a>
+        <a href="https://mollieaspen.com/wp-content/uploads/2025/12/Petit_Trois_15459-1.jpg" data-fancybox>
+            <span class="hp-full-image__fancybox">
+                <img src="https://mollieaspen.com/wp-content/themes/mollie/assets/img/icon-plus.svg" alt="Open Lightbox">
+            </span>
+        </a>
+            </section>
+
+<!-- Explore -->
+<section class="hp-explore full-content-image">
+	<div class="container full-content-image__inner">
+		<div class="hp-explore__content full-content-image__content">
+			
+ 
+ 
+						<h2 class="h1 section-heading d-md-only a-up"			>
+				EXPLORE					</h2>
+						
+ 
+ 
+						<h6 class="section-subheading d-md-only a-up a-delay-1"			>
+				THE SOUL OF ASPEN
+IS VERY MUCH ALIVE
+
+					</h6>
+						
+ 
+ 
+						<div class="section-copy a-up a-delay-3"			>
+				<h6>A dynamic, year-round destination.</h6>
+<p>MOLLIE is conveniently located within a short walk of downtown Aspen. Visit cultural hubs like The Aspen Institute, The Aspen Art Museum, or The Wheeler Opera House, shop Aspen’s walking malls, dine on the renowned restaurant row, revel in the vibrant nightlife, and more. All four ski areas are easily accessible from MOLLIE.</p>
+					</div>
+						<div class="section-buttons a-up a-delay-4">
+				
+
+
+
+			<div 		>
+				<a class="btn btn-outline" href="https://mollieaspen.com/explore/" target="_self">
+			EXPLORE GUIDE					</a>
+			</div>
+					
+
+
+
+			</div>
+		</div>
+				<div class="hp-explore__media a-op">
+			<div class="hp-explore__links">
+										<a class="hp-explore__link" href="#" target="_self">
+							Art &amp; Culture						</a>
+												<a class="hp-explore__link" href="#" target="_self">
+							Outdoors						</a>
+												<a class="hp-explore__link" href="#" target="_self">
+							Dining						</a>
+												<a class="hp-explore__link" href="#" target="_self">
+							Shopping						</a>
+												<a class="hp-explore__link" href="#" target="_self">
+							Wellness						</a>
+									</div>
+			
+ 
+ 
+						<h2 class="h1 section-heading d-sm-only"			>
+				EXPLORE					</h2>
+			      <div class="hp-explore__images">
+                            <div class="hp-explore__image bg-cover">
+                      <img width="690" height="985" src="https://mollieaspen.com/wp-content/uploads/2023/10/home-explore-art-culture-pexels-e1696594647693-690x985.jpg" class="" alt="Ceramic artist making a bowl" loading="lazy" decoding="async" />                  </div>
+                                    <div class="hp-explore__image bg-cover">
+                      <img width="690" height="985" src="https://mollieaspen.com/wp-content/uploads/2023/10/MG_6457-modified-690x985.jpg" class="" alt="Two snowboarders walking in the snow in Aspen, Colorado" loading="lazy" decoding="async" srcset="https://mollieaspen.com/wp-content/uploads/2023/10/MG_6457-modified-690x985.jpg 690w, https://mollieaspen.com/wp-content/uploads/2023/10/MG_6457-modified-1380x1970.jpg 1380w" sizes="auto, (max-width: 690px) 100vw, 690px" />                  </div>
+                                    <div class="hp-explore__image bg-cover">
+                      <img width="690" height="985" src="https://mollieaspen.com/wp-content/uploads/2023/10/home-explore-dining-unsplash-e1696491057957-690x985.jpg" class="" alt="Craft Cocktails In Aspen at the MOLLIE Aspen, a Luxury Hotel In Aspen" loading="lazy" decoding="async" />                  </div>
+                                    <div class="hp-explore__image bg-cover">
+                      <img width="690" height="952" src="https://mollieaspen.com/wp-content/uploads/2023/12/MOLLIE_RETAIL_slippers_760x952-690x952.png" class="" alt="MOLLIE RETAIL slippers" loading="lazy" decoding="async" />                  </div>
+                                    <div class="hp-explore__image bg-cover">
+                      <img width="690" height="985" src="https://mollieaspen.com/wp-content/uploads/2023/10/home-explore-wellness-unsplash-e1696595008423-1-690x985.jpg" class="" alt="View of nature in aspen outside of MOLLIE Aspen, a Luxury Hotel In Aspen" loading="lazy" decoding="async" />                  </div>
+                        </div>
+
+			<div class="hp-explore__caption d-md-only">
+							</div>
+		</div>
+			</div>
+</section>
+
+
+    <!-- Boutique -->
+    <section class="hp-taste full-content-image">
+        <div class="container full-content-image__inner">
+                            <div class="hp-taste__media">
+                                                <div class="hp-taste__slide bg-cover is-active">
+                                <img width="1267" height="1900" src="https://mollieaspen.com/wp-content/uploads/2025/03/MOLLIE_ASPEN25-5web.jpg" class="attachment-full size-full" alt="Shop MOLLIE Aspen&#039;s online Boutique" loading="lazy" decoding="async" srcset="https://mollieaspen.com/wp-content/uploads/2025/03/MOLLIE_ASPEN25-5web.jpg 1267w, https://mollieaspen.com/wp-content/uploads/2025/03/MOLLIE_ASPEN25-5web-200x300.jpg 200w, https://mollieaspen.com/wp-content/uploads/2025/03/MOLLIE_ASPEN25-5web-683x1024.jpg 683w, https://mollieaspen.com/wp-content/uploads/2025/03/MOLLIE_ASPEN25-5web-768x1152.jpg 768w, https://mollieaspen.com/wp-content/uploads/2025/03/MOLLIE_ASPEN25-5web-1024x1536.jpg 1024w" sizes="auto, (max-width: 1267px) 100vw, 1267px" />                            </div>
+                                                        <div class="hp-taste__slide bg-cover">
+                                <img width="750" height="1074" src="https://mollieaspen.com/wp-content/uploads/2025/03/MOLLIEAspen_WEB_231016006-e1742259837940.jpg" class="attachment-full size-full" alt="Shop MOLLIE Aspen&#039;s online Boutique" loading="lazy" decoding="async" srcset="https://mollieaspen.com/wp-content/uploads/2025/03/MOLLIEAspen_WEB_231016006-e1742259837940.jpg 750w, https://mollieaspen.com/wp-content/uploads/2025/03/MOLLIEAspen_WEB_231016006-e1742259837940-209x300.jpg 209w, https://mollieaspen.com/wp-content/uploads/2025/03/MOLLIEAspen_WEB_231016006-e1742259837940-715x1024.jpg 715w" sizes="auto, (max-width: 750px) 100vw, 750px" />                            </div>
+                                                        <div class="hp-taste__slide bg-cover">
+                                <img width="1267" height="1900" src="https://mollieaspen.com/wp-content/uploads/2025/03/MOLLIEroom2_ASPEN25-51web.jpg" class="attachment-full size-full" alt="MOLLIE Aspen&#039;s online Boutique candle" loading="lazy" decoding="async" srcset="https://mollieaspen.com/wp-content/uploads/2025/03/MOLLIEroom2_ASPEN25-51web.jpg 1267w, https://mollieaspen.com/wp-content/uploads/2025/03/MOLLIEroom2_ASPEN25-51web-200x300.jpg 200w, https://mollieaspen.com/wp-content/uploads/2025/03/MOLLIEroom2_ASPEN25-51web-683x1024.jpg 683w, https://mollieaspen.com/wp-content/uploads/2025/03/MOLLIEroom2_ASPEN25-51web-768x1152.jpg 768w, https://mollieaspen.com/wp-content/uploads/2025/03/MOLLIEroom2_ASPEN25-51web-1024x1536.jpg 1024w" sizes="auto, (max-width: 1267px) 100vw, 1267px" />                            </div>
+                                                        <div class="hp-taste__slide bg-cover">
+                                <img width="1267" height="1900" src="https://mollieaspen.com/wp-content/uploads/2025/03/MOLLIEroom_ASPEN25web.jpg" class="attachment-full size-full" alt="Shop MOLLIE Aspen&#039;s online Boutique" loading="lazy" decoding="async" srcset="https://mollieaspen.com/wp-content/uploads/2025/03/MOLLIEroom_ASPEN25web.jpg 1267w, https://mollieaspen.com/wp-content/uploads/2025/03/MOLLIEroom_ASPEN25web-200x300.jpg 200w, https://mollieaspen.com/wp-content/uploads/2025/03/MOLLIEroom_ASPEN25web-683x1024.jpg 683w, https://mollieaspen.com/wp-content/uploads/2025/03/MOLLIEroom_ASPEN25web-768x1152.jpg 768w, https://mollieaspen.com/wp-content/uploads/2025/03/MOLLIEroom_ASPEN25web-1024x1536.jpg 1024w" sizes="auto, (max-width: 1267px) 100vw, 1267px" />                            </div>
+                                            </div>
+                        
+            <div class="hp-taste__content full-content-image__content">
+                <div class="hp-taste__top">
+                    
+ 
+ 
+						<h2 class="h1 section-heading a-up"			>
+				BOUTIQUE					</h2>
+			                    
+ 
+ 
+						<h6 class="section-subheading a-up a-delay-1"			>
+				CURATED FOR YOU					</h6>
+			                </div>
+
+                
+                
+ 
+ 
+						<div class="boutique-section-copy a-up a-delay-3"			>
+				<p>Our carefully curated boutique is designed for the discerning traveler, offering a selection of exceptional goods. Discover thoughtfully chosen accessories and objects that bring the essence of MOLLIE into your everyday life—whether you&#8217;re at home or on the go. Shop now and take a piece of MOLLIE with you, wherever your journey leads.</p>
+					</div>
+			
+                <div class="section-buttons a-up a-delay-4">
+                    
+
+
+
+			<div 		>
+				<a class="btn btn-outline" href="https://shopmollieaspen.com/" target="_self">
+			Shop Online					</a>
+			</div>
+	                    
+
+
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+	</main>
+	<!-- /Main -->
+	<!-- Footer -->
+	<footer class="footer">
+		<div class="container-fluid">
+			<div class="footer-logo__wrapper d-sm-only">
+				<a href="https://mollieaspen.com" class="footer-logo a-up">
+					<!-- content-modules-image -->
+						<img class="footer-logo__img" src="https://mollieaspen.com/wp-content/uploads/2023/10/MOLLIE_COMBINATION_MARK_OFF-WHITE-1.svg" alt="MOLLIE Aspen full Logo" loading="lazy">
+							</a>
+			</div>
+			<div class="footer-main">
+				<div class="row">
+					<div class="col col-md-4 footer-main__left a-op a-delay-1">
+						
+ 
+ 
+						<div class="footer-info d-sm-only"			>
+				<p><a href="https://www.google.com/maps/place/MOLLIE+Aspen/@39.1909627,-106.8233958,15z/data=!4m2!3m1!1s0x0:0x3099e5d442d70c7f?sa=X&amp;ved=2ahUKEwins9CVs7mBAxVqT6QEHflYA0IQ_BJ6BAhMEAA&amp;ved=2ahUKEwins9CVs7mBAxVqT6QEHflYA0IQ_BJ6BAhPEAc" target="_blank" rel="noopener">111 S. Garmisch St., Aspen, Colorado 81611</a></p>
+<p>Main: <a href="tel:970-742-1234">970-742-1234</a>  |  Dining: <a href="tel:970-627-7805">970-627-7805</a></p>
+<p>Reservations: <a href="mailto:reservations@mollieaspen.com">reservations@mollieaspen.com</a></p>
+<p>Front Desk: <a href="mailto:frontdesk@mollieaspen.com">frontdesk@mollieaspen.com</a></p>
+<p>Dining: <a href="mailto:taste@mollieaspen.com">taste@mollieaspen.com</a></p>
+<p><a href="https://guide.michelin.com/us/en/hotels-stays/aspen/mollie-aspen-13821?arr=2025-11-07&amp;dep=2025-11-08&amp;nA=1&amp;nC=0&amp;nR=1" target="_blank" rel="noopener"><img decoding="async" class="alignnone size-medium wp-image-1502 michelin" style="max-width: 50%;" src="https://mollieaspen.com/wp-content/uploads/2025/10/1-Key-White-horz-trimmed2025.png" alt="" /></a></p>
+					</div>
+									<ul id="menu-footer-menu" class="footer-menu"><li id="menu-item-1396" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1396"><a href="https://mollieaspen.com/specials/">Special Offers</a></li>
+<li id="menu-item-1198" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1198"><a href="https://mollieaspen.com/press/">Press</a></li>
+<li id="menu-item-2517" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2517"><a href="https://mollieaspen.com/awards/">Awards</a></li>
+<li id="menu-item-1341" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1341"><a href="https://mollieaspen.com/influencer-requests/">Influencer Requests</a></li>
+<li id="menu-item-2526" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2526"><a href="https://mollieaspen.com/careers/">Careers</a></li>
+<li id="menu-item-2327" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2327"><a href="https://mollieaspen.com/our-hotel/">About</a></li>
+<li id="menu-item-3259" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3259"><a href="https://mollieaspen.com/blog/">Journal</a></li>
+<li id="menu-item-2465" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2465"><a href="https://mollieaspen.com/frequently-asked-questions/">FAQs</a></li>
+<li id="menu-item-635" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-privacy-policy menu-item-635"><a rel="privacy-policy" href="https://mollieaspen.com/privacy-policy/">Privacy Policy</a></li>
+<li id="menu-item-659" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-659"><a href="https://mollieaspen.com/sitemap/">Sitemap</a></li>
+</ul>						<!-- content-modules-image -->
+						<div class="d-sm-only footer-image__wrapper"			>
+					<img class="footer-image" src="https://mollieaspen.com/wp-content/uploads/2023/10/Preferred-L.V.X.-SMALL-LOGO_white-1-e1696409220850.png" alt="Preferred LVX Hotel Badge" loading="lazy">
+					</div>
+									<!-- <div class="footer-form">
+							<iframe src="https://tcgms.net/app/new/Nzc4ODU5MjA0NQ?languageCode=df"></iframe>
+						</div> -->
+						
+ 
+ 
+			<div class="footer-form"		>
+		<iframe src="https://tcgms.net/app/new/Nzc4ODU5MjA0NQ?languageCode=df" width="100%" height="70" frameborder="0" scrolling="no"></iframe>
+			</div>
+	                          <div class="footer-copyright" style="margin-left:0; padding-top:10px;padding-right:10px;">
+							This site is protected by reCAPTCHA and the Google 
+							<a href="https://policies.google.com/privacy" target="_blank" rel="noopener noreferrer">Privacy Policy</a> and 
+							<a href="https://policies.google.com/terms" target="_blank" rel="noopener noreferrer">Terms of Service</a> apply.
+						</div>
+					</div>
+					<div class="col col-md-4 text-center a-op a-delay-2 d-md-only">
+						<a href="https://mollieaspen.com" class="footer-logo a-up">
+							<!-- content-modules-image -->
+						<img class="footer-logo__img d-md-only" src="https://mollieaspen.com/wp-content/uploads/2023/10/MOLLIE_COMBINATION_MARK_OFF-WHITE-1.svg" alt="MOLLIE Aspen full Logo" loading="lazy">
+									</a>
+						<a href="https://preferredhotels.com/hotels/united-states/mollie-aspen" target="_blank">
+						<!-- content-modules-image -->
+						<img class="footer-image" src="https://mollieaspen.com/wp-content/uploads/2023/10/Preferred-L.V.X.-SMALL-LOGO_white-1-e1696409220850.png" alt="Preferred LVX Hotel Badge" loading="lazy">
+									</a>
+					</div>
+					<div class="col col-md-4 footer-main__right a-op a-delay-3">
+						
+ 
+ 
+						<div class="footer-info d-md-only"			>
+				<p><a href="https://www.google.com/maps/place/MOLLIE+Aspen/@39.1909627,-106.8233958,15z/data=!4m2!3m1!1s0x0:0x3099e5d442d70c7f?sa=X&amp;ved=2ahUKEwins9CVs7mBAxVqT6QEHflYA0IQ_BJ6BAhMEAA&amp;ved=2ahUKEwins9CVs7mBAxVqT6QEHflYA0IQ_BJ6BAhPEAc" target="_blank" rel="noopener">111 S. Garmisch St., Aspen, Colorado 81611</a></p>
+<p>Main: <a href="tel:970-742-1234">970-742-1234</a>  |  Dining: <a href="tel:970-627-7805">970-627-7805</a></p>
+<p>Reservations: <a href="mailto:reservations@mollieaspen.com">reservations@mollieaspen.com</a></p>
+<p>Front Desk: <a href="mailto:frontdesk@mollieaspen.com">frontdesk@mollieaspen.com</a></p>
+<p>Dining: <a href="mailto:taste@mollieaspen.com">taste@mollieaspen.com</a></p>
+<p><a href="https://guide.michelin.com/us/en/hotels-stays/aspen/mollie-aspen-13821?arr=2025-11-07&amp;dep=2025-11-08&amp;nA=1&amp;nC=0&amp;nR=1" target="_blank" rel="noopener"><img decoding="async" class="alignnone size-medium wp-image-1502 michelin" style="max-width: 50%;" src="https://mollieaspen.com/wp-content/uploads/2025/10/1-Key-White-horz-trimmed2025.png" alt="" /></a></p>
+					</div>
+									<div class="footer-bottom">
+														<ul class="footer-bottom-menu">
+																		<li class="menu-item">
+											<a href="https://www.instagram.com/mollie_aspen/" target="_blank">
+																									<img src="https://mollieaspen.com/wp-content/uploads/2023/10/instagram.svg" alt="Off-white Instagram icon">
+																							</a>
+										</li>
+																				<li class="menu-item">
+											<a href="https://www.facebook.com/mollieaspen/" target="_blank">
+																									<img src="https://mollieaspen.com/wp-content/uploads/2023/10/facebook.svg" alt="Facebook logo used for MOLLIE Aspen Website">
+																							</a>
+										</li>
+																	</ul>
+														<p class="footer-copyright">Copyright &copy; 2026</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</footer>
+	<!-- /Footer -->
+
+	<!-- Sticky Book Now Mobile Button -->
+	
+
+
+
+				<a class="btn btn-outline sticky-booking-btn d-sm-only" href="https://be.synxis.com/?Chain=10237&#038;Hotel=41140&#038;level=hotel" target="_blank">
+			Book Your Stay					</a>
+		<!-- <button class="btn btn-outline sticky-booking-btn btn-booking-popup d-sm-only">
+		Book Your Stay	</button> -->
+	<!-- /Sticky Book Now Mobile Button -->
+
+	<!-- Booking Popup -->
+		<div class="booking-popup" data-default-url="https://be.synxis.com/?Chain=10237&#038;Hotel=41140&#038;level=hotel">
+		<div class="booking-popup__inner">
+			<div class="booking-popup__header">
+				
+ 
+ 
+						<h6 class="booking-popup__title"			>
+				Book your stay					</h6>
+							<button class="booking-popup__close" aria-label="Close Booking Popup">
+					<svg width="19" height="19" viewBox="0 0 19 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+						<line x1="0.707107" y1="0.875901" x2="18.1238" y2="18.2926" stroke="black" stroke-width="2"/>
+						<line x1="18.1241" y1="0.707107" x2="0.707433" y2="18.1238" stroke="black" stroke-width="2"/>
+					</svg>
+				</button>
+			</div>
+			<div class="booking-popup__body">
+				<div class="booking-popup__calendar">
+          <label for="booking-popup__calendar--range" class="booking-popup__calendar--label visually-hidden">Select Dates</label>
+					<input type="text" class="booking-popup__calendar--range" id="booking-popup__calendar--range">
+					<div class="booking-popup__calendar--calendar" id="booking-popup__calendar--calendar">
+					</div>
+				</div>
+				
+
+
+
+				<a class="btn btn-outline booking-submit" href="https://be.synxis.com/?Chain=10237&#038;Hotel=41140&#038;level=hotel" target="_blank">
+			Book Your Stay					</a>
+				</div>
+		</div>
+	</div>
+
+	<button id="ot-sdk-btn" class="ot-sdk-show-settings">
+		Cookie Settings
+	</button>
+
+	<script type="speculationrules">
+{"prefetch":[{"source":"document","where":{"and":[{"href_matches":"/*"},{"not":{"href_matches":["/wp-*.php","/wp-admin/*","/wp-content/uploads/*","/wp-content/*","/wp-content/plugins/*","/wp-content/themes/mollie/*","/*\\?(.+)"]}},{"not":{"selector_matches":"a[rel~=\"nofollow\"]"}},{"not":{"selector_matches":".no-prefetch, .no-prefetch a"}}]},"eagerness":"conservative"}]}
+</script>
+		<script>
+		( function ( body ) {
+			'use strict';
+			body.className = body.className.replace( /\btribe-no-js\b/, 'tribe-js' );
+		} )( document.body );
+		</script>
+		<script> /* <![CDATA[ */var tribe_l10n_datatables = {"aria":{"sort_ascending":": activate to sort column ascending","sort_descending":": activate to sort column descending"},"length_menu":"Show _MENU_ entries","empty_table":"No data available in table","info":"Showing _START_ to _END_ of _TOTAL_ entries","info_empty":"Showing 0 to 0 of 0 entries","info_filtered":"(filtered from _MAX_ total entries)","zero_records":"No matching records found","search":"Search:","all_selected_text":"All items on this page were selected. ","select_all_link":"Select all pages","clear_selection":"Clear Selection.","pagination":{"all":"All","next":"Next","previous":"Previous"},"select":{"rows":{"0":"","_":": Selected %d rows","1":": Selected 1 row"}},"datepicker":{"dayNames":["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"],"dayNamesShort":["Sun","Mon","Tue","Wed","Thu","Fri","Sat"],"dayNamesMin":["S","M","T","W","T","F","S"],"monthNames":["January","February","March","April","May","June","July","August","September","October","November","December"],"monthNamesShort":["January","February","March","April","May","June","July","August","September","October","November","December"],"monthNamesMin":["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],"nextText":"Next","prevText":"Prev","currentText":"Today","closeText":"Done","today":"Today","clear":"Clear"}};/* ]]> */ </script><script id="tec-user-agent-js" src="https://mollieaspen.com/wp-content/plugins/the-events-calendar/common/build/js/user-agent.js?ver=da75d0bdea6dde3898df"></script>
+<script id="wp-hooks-js" src="https://mollieaspen.com/wp-includes/js/dist/hooks.min.js?ver=7496969728ca0f95732d"></script>
+<script id="wp-i18n-js" src="https://mollieaspen.com/wp-includes/js/dist/i18n.min.js?ver=781d11515ad3d91786ec"></script>
+<script id="wp-i18n-js-after">
+wp.i18n.setLocaleData( { 'text direction\u0004ltr': [ 'ltr' ] } );
+//# sourceURL=wp-i18n-js-after
+</script>
+<script id="swv-js" src="https://mollieaspen.com/wp-content/plugins/contact-form-7/includes/swv/js/index.js?ver=6.1.7"></script>
+<script id="contact-form-7-js-before">
+var wpcf7 = {
+    "api": {
+        "root": "https:\/\/mollieaspen.com\/wp-json\/",
+        "namespace": "contact-form-7\/v1"
+    },
+    "cached": 1
+};
+//# sourceURL=contact-form-7-js-before
+</script>
+<script id="contact-form-7-js" src="https://mollieaspen.com/wp-content/plugins/contact-form-7/includes/js/index.js?ver=6.1.7"></script>
+<script async data-wp-strategy="async" fetchpriority="low" id="comment-reply-js" src="https://mollieaspen.com/wp-includes/js/comment-reply.min.js?ver=3de3b56b4b6d4a4fc5794a9de09f44de"></script>
+<script id="am_assets-js-libs-min-js-js" src="https://mollieaspen.com/wp-content/themes/mollie/assets/js/libs.min.js?ver=1701197857"></script>
+<script id="am_assets-js-main-min-js-js" src="https://mollieaspen.com/wp-content/themes/mollie/assets/js/main.min.js?ver=1765221624"></script>
+<script id="gforms_recaptcha_recaptcha-js-extra">
+var gforms_recaptcha_recaptcha_strings = {"nonce":"6fc78b15df","disconnect":"Disconnecting","change_connection_type":"Resetting","spinner":"https://mollieaspen.com/wp-content/plugins/gravityforms/images/spinner.svg","connection_type":"classic","disable_badge":"1","change_connection_type_title":"Change Connection Type","change_connection_type_message":"Changing the connection type will delete your current settings.  Do you want to proceed?","disconnect_title":"Disconnect","disconnect_message":"Disconnecting from reCAPTCHA will delete your current settings.  Do you want to proceed?","site_key":"6Lfg0Z4qAAAAAOFfIblaGXDdeRPkuSeJw6K9un9D"};
+//# sourceURL=gforms_recaptcha_recaptcha-js-extra
+</script>
+<script data-wp-strategy="defer" defer id="gforms_recaptcha_recaptcha-js" src="https://www.google.com/recaptcha/api.js?render=6Lfg0Z4qAAAAAOFfIblaGXDdeRPkuSeJw6K9un9D&#038;ver=2.2.2"></script>
+<script data-wp-strategy="defer" defer id="gforms_recaptcha_frontend-js" src="https://mollieaspen.com/wp-content/plugins/gravityformsrecaptcha/js/frontend.min.js?ver=2.2.2"></script>
+
+	
+ 
+ 
+					<!-- Start of script tag -->
+  <script async type="text/javascript"
+  src="https://sdk.selfbook.com/selfbook.js?hotelId=41140&apiKey=YdFyXz5mJriWbxBX3dBjsDY0ig-0k-ew0WY" 
+  id="selfbook_jssdk"></script>
+<!-- End of script tag -->			<script>(function(){function c(){var b=a.contentDocument||(a.contentWindow&&a.contentWindow.document);if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'a40557599aae4f1c',t:'MTc5MDI5MDE1NA=='};var a=document.createElement('script');a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script></body>
+</html>

@@ -1,0 +1,17 @@
+{
+  "id": "samiolearning",
+  "url": "https://www.samiolearning.com/llms.txt",
+  "category": "education",
+  "kind": "actual",
+  "split": "development",
+  "discovery": "https://llmstxt.site/",
+  "retrieved_at": "2026-09-24T22:46:23.418369+00:00",
+  "accepted": true,
+  "status": 200,
+  "final_url": "https://samiolearning.com/llms.txt",
+  "content_type": "text/plain; charset=utf-8",
+  "sha256": "c669343b033a62fc45b21268aada850bdc7230b298e0af216f4f28b121ce5755",
+  "bytes": 34347,
+  "decode_replacements": 0,
+  "raw_path": "raw/samiolearning.txt"
+}

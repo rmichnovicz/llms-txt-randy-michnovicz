@@ -1,0 +1,5 @@
+{
+  "source_artifact": "evals/results/corpus-v2-holdout/real-healthcare-lk--r1.llms.txt",
+  "sha256": "3415c71c02e0673303c999b248710252cbcb64fa432b3b1689d896878a6a2d7c",
+  "producer_request_sha256": "c4f4a9c924773852f4d2c61f73d072e92cc75aea2b36ef66da3379fc60036dea"
+}

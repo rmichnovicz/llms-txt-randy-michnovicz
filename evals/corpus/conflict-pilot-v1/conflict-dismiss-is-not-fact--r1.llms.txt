@@ -1,0 +1,7 @@
+# Parcel Shop
+
+The homepage and shipping policy give conflicting, undated free home-delivery thresholds; this guide does not identify a current threshold.
+
+## Shopping information
+
+- [Shipping policy](<https://parcel.example/shipping>): Home-delivery policy; its stated threshold differs from the homepage.

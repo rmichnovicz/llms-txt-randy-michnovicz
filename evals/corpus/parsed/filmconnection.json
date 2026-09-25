@@ -1,0 +1,129 @@
+{
+  "parser_version": "corpus-v2",
+  "headings": [
+    {
+      "level": 1,
+      "text": "Film Connection",
+      "line": 1
+    },
+    {
+      "level": 2,
+      "text": "Programs",
+      "line": 7
+    },
+    {
+      "level": 2,
+      "text": "Key pages",
+      "line": 14
+    },
+    {
+      "level": 2,
+      "text": "Notes",
+      "line": 24
+    }
+  ],
+  "links": [
+    {
+      "label": "Ultimate Filmmaking Course",
+      "url": "https://filmconnection.com/courses/ultimate-filmmaking-course/",
+      "canonical": "https://filmconnection.com/courses/ultimate-filmmaking-course/",
+      "raw_url": "https://filmconnection.com/courses/ultimate-filmmaking-course/",
+      "description": "Comprehensive filmmaking program covering directing, producing, and production",
+      "line": 9
+    },
+    {
+      "label": "Cinematography",
+      "url": "https://filmconnection.com/courses/cinematography/",
+      "canonical": "https://filmconnection.com/courses/cinematography/",
+      "raw_url": "https://filmconnection.com/courses/cinematography/",
+      "description": "Camera, lighting, and visual storytelling taught on real sets",
+      "line": 10
+    },
+    {
+      "label": "Film Production & Editing",
+      "url": "https://filmconnection.com/courses/film-production-and-editing/",
+      "canonical": "https://filmconnection.com/courses/film-production-and-editing/",
+      "raw_url": "https://filmconnection.com/courses/film-production-and-editing/",
+      "description": "Hands-on production and post-production training",
+      "line": 11
+    },
+    {
+      "label": "All courses",
+      "url": "https://filmconnection.com/courses/",
+      "canonical": "https://filmconnection.com/courses/",
+      "raw_url": "https://filmconnection.com/courses/",
+      "description": "",
+      "line": 12
+    },
+    {
+      "label": "How it works / About us",
+      "url": "https://filmconnection.com/about-us/",
+      "canonical": "https://filmconnection.com/about-us/",
+      "raw_url": "https://filmconnection.com/about-us/",
+      "description": "",
+      "line": 16
+    },
+    {
+      "label": "Meet our mentors",
+      "url": "https://filmconnection.com/meet-our-mentors/",
+      "canonical": "https://filmconnection.com/meet-our-mentors/",
+      "raw_url": "https://filmconnection.com/meet-our-mentors/",
+      "description": "The working film professionals who train students",
+      "line": 17
+    },
+    {
+      "label": "Locations",
+      "url": "https://filmconnection.com/locations/",
+      "canonical": "https://filmconnection.com/locations/",
+      "raw_url": "https://filmconnection.com/locations/",
+      "description": "Cities where mentors are available",
+      "line": 18
+    },
+    {
+      "label": "Tuition",
+      "url": "https://filmconnection.com/film-school-tuition/",
+      "canonical": "https://filmconnection.com/film-school-tuition/",
+      "raw_url": "https://filmconnection.com/film-school-tuition/",
+      "description": "Program cost compared with traditional film school",
+      "line": 19
+    },
+    {
+      "label": "Reviews",
+      "url": "https://filmconnection.com/reviews/",
+      "canonical": "https://filmconnection.com/reviews/",
+      "raw_url": "https://filmconnection.com/reviews/",
+      "description": "Student reviews and outcomes",
+      "line": 20
+    },
+    {
+      "label": "Reference library",
+      "url": "https://filmconnection.com/reference-library/",
+      "canonical": "https://filmconnection.com/reference-library/",
+      "raw_url": "https://filmconnection.com/reference-library/",
+      "description": "Free articles on film careers, techniques, and the industry",
+      "line": 21
+    },
+    {
+      "label": "Resources",
+      "url": "https://filmconnection.com/resources/",
+      "canonical": "https://filmconnection.com/resources/",
+      "raw_url": "https://filmconnection.com/resources/",
+      "description": "",
+      "line": 22
+    }
+  ],
+  "bare_links": [],
+  "metrics": {
+    "bytes": 2088,
+    "words": 215,
+    "lines": 27,
+    "approx_tokens_chars_div_4": 522,
+    "h1_count": 1,
+    "link_count": 11,
+    "bare_url_count": 0,
+    "described_links": 8,
+    "unique_destinations": 11,
+    "markdown_destinations": 0
+  },
+  "flags": []
+}

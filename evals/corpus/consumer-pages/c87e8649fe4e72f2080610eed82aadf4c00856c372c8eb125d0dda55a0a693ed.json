@@ -1,0 +1,1851 @@
+{
+  "url": "https://developers.cloudflare.com/workers/llms.txt",
+  "title": "Workers",
+  "content": "# Workers\n\nBuild, deploy, and scale serverless applications globally with low latency and minimal configuration\n\n> Links below point directly to Markdown versions of each page. Any page can also be retrieved as Markdown by sending an `Accept: text/markdown` header to the page's URL without the `index.md` suffix (for example, `curl -H \"Accept: text/markdown\" https://developers.cloudflare.com/workers/`).\n>\n> For other Cloudflare products, see the [Cloudflare documentation directory](https://developers.cloudflare.com/llms.txt).\n\n## Overview\n\n- [Cloudflare Workers](https://developers.cloudflare.com/workers/index.md): Build and deploy serverless applications across Cloudflare's global network with Workers.\n\n## Examples\n\n- [Examples](https://developers.cloudflare.com/workers/examples/index.md): Browse code examples and starter templates for Cloudflare Workers.\n- [103 Early Hints](https://developers.cloudflare.com/workers/examples/103-early-hints/index.md): Allow a client to request static assets while waiting for the HTML response.\n- [A/B testing with same-URL direct access](https://developers.cloudflare.com/workers/examples/ab-testing/index.md): Set up an A/B test by controlling what response is served based on cookies. This version supports passing the request through to test and control on the origin, bypassing random assignment.\n- [Accessing the Cloudflare Object](https://developers.cloudflare.com/workers/examples/accessing-the-cloudflare-object/index.md): Access custom Cloudflare properties and control how Cloudflare features are applied to every request.\n- [Aggregate requests](https://developers.cloudflare.com/workers/examples/aggregate-requests/index.md): Send two GET request to two urls and aggregates the responses into one response.\n- [Alter headers](https://developers.cloudflare.com/workers/examples/alter-headers/index.md): Example of how to add, change, or delete headers sent in a request or returned in a response.\n- [Write to Analytics Engine](https://developers.cloudflare.com/workers/examples/analytics-engine/index.md): Write custom analytics events to Workers Analytics Engine for high-cardinality, time-series data.\n- [Auth with headers](https://developers.cloudflare.com/workers/examples/auth-with-headers/index.md): Allow or deny a request based on a known pre-shared key in a header. This is not meant to replace the WebCrypto API.\n- [HTTP Basic Authentication](https://developers.cloudflare.com/workers/examples/basic-auth/index.md): Shows how to restrict access using the HTTP Basic schema.\n- [Block on TLS](https://developers.cloudflare.com/workers/examples/block-on-tls/index.md): Inspects the incoming request's TLS version and blocks if under TLSv1.2.\n- [Bulk origin override](https://developers.cloudflare.com/workers/examples/bulk-origin-proxy/index.md): Resolve requests to your domain to a set of proxy third-party origin URLs.\n- [Bulk redirects](https://developers.cloudflare.com/workers/examples/bulk-redirects/index.md): Redirect requests to certain URLs based on a mapped object to the request's URL.\n- [Using the Cache API](https://developers.cloudflare.com/workers/examples/cache-api/index.md): Use the Cache API to store responses in Cloudflare's cache.\n- [Cache POST requests](https://developers.cloudflare.com/workers/examples/cache-post-request/index.md): Cache POST requests using the Cache API.\n- [Cache Tags using Workers](https://developers.cloudflare.com/workers/examples/cache-tags/index.md): Send Additional Cache Tags using Workers\n- [Cache using fetch](https://developers.cloudflare.com/workers/examples/cache-using-fetch/index.md): Determine how to cache a resource by setting TTLs, custom cache keys, and cache headers in a fetch request.\n- [Conditional response](https://developers.cloudflare.com/workers/examples/conditional-response/index.md): Return a response based on the incoming request's URL, HTTP method, User Agent, IP address, ASN or device type.\n- [CORS header proxy](https://developers.cloudflare.com/workers/examples/cors-header-proxy/index.md): Add the necessary CORS headers to a third party API response.\n- [Country code redirect](https://developers.cloudflare.com/workers/examples/country-code-redirect/index.md): Redirect a response based on the country code in the header of a visitor.\n- [Setting Cron Triggers](https://developers.cloudflare.com/workers/examples/cron-trigger/index.md): Set a Cron Trigger for your Worker.\n- [Data loss prevention](https://developers.cloudflare.com/workers/examples/data-loss-prevention/index.md): Protect sensitive data to prevent data loss, and send alerts to a webhooks server in the event of a data breach.\n- [Debugging logs](https://developers.cloudflare.com/workers/examples/debugging-logs/index.md): Send debugging information in an errored response to a logging service.\n- [Cookie parsing](https://developers.cloudflare.com/workers/examples/extract-cookie-value/index.md): Given the cookie name, get the value of a cookie. You can also use cookies for A/B testing.\n- [Fetch HTML](https://developers.cloudflare.com/workers/examples/fetch-html/index.md): Send a request to a remote server, read HTML from the response, and serve that HTML.\n- [Fetch JSON](https://developers.cloudflare.com/workers/examples/fetch-json/index.md): Send a GET request and read in JSON from the response. Use to fetch external data.\n- [Geolocation: Weather application](https://developers.cloudflare.com/workers/examples/geolocation-app-weather/index.md): Fetch weather data from an API using the user's geolocation data.\n- [Geolocation: Custom Styling](https://developers.cloudflare.com/workers/examples/geolocation-custom-styling/index.md): Personalize website styling based on localized user time.\n- [Geolocation: Hello World](https://developers.cloudflare.com/workers/examples/geolocation-hello-world/index.md): Get all geolocation data fields and display them in HTML.\n- [Hot-link protection](https://developers.cloudflare.com/workers/examples/hot-link-protection/index.md): Block other websites from linking to your content. This is useful for protecting images.\n- [Custom Domain with Images](https://developers.cloudflare.com/workers/examples/images-workers/index.md): Set up custom domain for Images using a Worker or serve images using a prefix path and Cloudflare registered domain.\n- [Logging headers to console](https://developers.cloudflare.com/workers/examples/logging-headers/index.md): Examine the contents of a Headers object by logging to console with a Map.\n- [Modify request property](https://developers.cloudflare.com/workers/examples/modify-request-property/index.md): Create a modified request with edited properties based off of an incoming request.\n- [Modify response](https://developers.cloudflare.com/workers/examples/modify-response/index.md): Fetch and modify response properties which are immutable by creating a copy first.\n- [Multiple Cron Triggers](https://developers.cloudflare.com/workers/examples/multiple-cron-triggers/index.md): Set multiple Cron Triggers on three different schedules.\n- [Stream OpenAI API Responses](https://developers.cloudflare.com/workers/examples/openai-sdk-streaming/index.md): Use the OpenAI v4 SDK to stream responses from OpenAI.\n- [Post JSON](https://developers.cloudflare.com/workers/examples/post-json/index.md): Send a POST request with JSON data. Use to share data with external servers.\n- [Using timingSafeEqual](https://developers.cloudflare.com/workers/examples/protect-against-timing-attacks/index.md): Protect against timing attacks by safely comparing values using `timingSafeEqual`.\n- [Read POST](https://developers.cloudflare.com/workers/examples/read-post/index.md): Serve an HTML form, then read POST requests. Use also to read JSON or POST data from an incoming request.\n- [Redirect](https://developers.cloudflare.com/workers/examples/redirect/index.md): Redirect requests from one URL to another or from one set of URLs to another set.\n- [Respond with another site](https://developers.cloudflare.com/workers/examples/respond-with-another-site/index.md): Respond to the Worker request with the response from another website (example.com in this example).\n- [Return small HTML page](https://developers.cloudflare.com/workers/examples/return-html/index.md): Deliver an HTML page from an HTML string directly inside the Worker script.\n- [Return JSON](https://developers.cloudflare.com/workers/examples/return-json/index.md): Return JSON directly from a Worker script, useful for building APIs and middleware.\n- [Rewrite links](https://developers.cloudflare.com/workers/examples/rewrite-links/index.md): Rewrite URL links in HTML using the HTMLRewriter. This is useful for JAMstack websites.\n- [Set security headers](https://developers.cloudflare.com/workers/examples/security-headers/index.md): Set common security headers (X-XSS-Protection, X-Frame-Options, X-Content-Type-Options, Permissions-Policy, Referrer-Policy, Strict-Transport-Security, Content-Security-Policy).\n- [Sign requests](https://developers.cloudflare.com/workers/examples/signing-requests/index.md): Verify a signed request using the HMAC and SHA-256 algorithms or return a 403.\n- [Single Page App (SPA) shell with bootstrap data](https://developers.cloudflare.com/workers/examples/spa-shell/index.md): Use HTMLRewriter to inject prefetched bootstrap data into an SPA shell, eliminating client-side data fetching on initial load. Works with Workers Static Assets or an externally hosted SPA.\n- [Stream large JSON](https://developers.cloudflare.com/workers/examples/streaming-json/index.md): Parse and transform large JSON request and response bodies using streaming.\n- [Turnstile with Workers](https://developers.cloudflare.com/workers/examples/turnstile-html-rewriter/index.md): Inject [Turnstile](/turnstile/) implicitly into HTML elements using the HTMLRewriter runtime API.\n- [Using the WebSockets API](https://developers.cloudflare.com/workers/examples/websockets/index.md): Use the WebSockets API to communicate in real time with your Cloudflare Workers.\n\n## Tutorials\n\n- [Tutorials](https://developers.cloudflare.com/workers/tutorials/index.md): Step-by-step Workers tutorials and video guides to help you build projects on Cloudflare.\n- [Build a todo list Jamstack application](https://developers.cloudflare.com/workers/tutorials/build-a-jamstack-app/index.md): This tutorial explains how to build a todo list application using HTML, CSS, and JavaScript.\n- [Build a QR code generator](https://developers.cloudflare.com/workers/tutorials/build-a-qr-code-generator/index.md): This tutorial shows you how to build and publish a Worker application that generates QR codes. The final version of the codebase is available on GitHub.\n- [Build a Slackbot](https://developers.cloudflare.com/workers/tutorials/build-a-slackbot/index.md): Learn how to build a Slackbot with Hono and TypeScript in Cloudflare Workers\n- [Connect to and query your Turso database using Workers](https://developers.cloudflare.com/workers/tutorials/connect-to-turso-using-workers/index.md): This tutorial will guide you on how to build globally distributed applications with Cloudflare Workers, and Turso, an edge-hosted distributed database based on libSQL.\n- [Create a fine-tuned OpenAI model with R2](https://developers.cloudflare.com/workers/tutorials/create-finetuned-chatgpt-ai-models-with-r2/index.md): In this tutorial, you will use the OpenAI API and Cloudflare R2 to create a fine-tuned model.\n- [Deploy a real-time chat application](https://developers.cloudflare.com/workers/tutorials/deploy-a-realtime-chat-app/index.md): This tutorial shows how to deploy a serverless, real-time chat application. The chat application uses a Durable Object to control each chat room.\n- [Deploy an Express.js application on Cloudflare Workers](https://developers.cloudflare.com/workers/tutorials/deploy-an-express-app/index.md): Learn how to deploy an Express.js application on Cloudflare Workers.\n- [Generate YouTube thumbnails with Workers and Cloudflare Image Res",
+  "links": [
+    {
+      "url": "https://developers.cloudflare.com/llms.txt",
+      "label": "Cloudflare documentation directory"
+    },
+    {
+      "url": "https://developers.cloudflare.com/workers/index.md",
+      "label": "Cloudflare Workers"
+    },
+    {
+      "url": "https://developers.cloudflare.com/workers/examples/index.md",
+      "label": "Examples"
+    },
+    {
+      "url": "https://developers.cloudflare.com/workers/examples/103-early-hints/index.md",
+      "label": "103 Early Hints"
+    },
+    {
+      "url": "https://developers.cloudflare.com/workers/examples/ab-testing/index.md",
+      "label": "A/B testing with same-URL direct access"
+    },
+    {
+      "url": "https://developers.cloudflare.com/workers/examples/accessing-the-cloudflare-object/index.md",
+      "label": "Accessing the Cloudflare Object"
+    },
+    {
+      "url": "https://developers.cloudflare.com/workers/examples/aggregate-requests/index.md",
+      "label": "Aggregate requests"
+    },
+    {
+      "url": "https://developers.cloudflare.com/workers/examples/alter-headers/index.md",
+      "label": "Alter headers"
+    },
+    {
+      "url": "https://developers.cloudflare.com/workers/examples/analytics-engine/index.md",
+      "label": "Write to Analytics Engine"
+    },
+    {
+      "url": "https://developers.cloudflare.com/workers/examples/auth-with-headers/index.md",
+      "label": "Auth with headers"
+    },
+    {
+      "url": "https://developers.cloudflare.com/workers/examples/basic-auth/index.md",
+      "label": "HTTP Basic Authentication"
+    },
+    {
+      "url": "https://developers.cloudflare.com/workers/examples/block-on-tls/index.md",
+      "label": "Block on TLS"
+    },
+    {
+      "url": "https://developers.cloudflare.com/workers/examples/bulk-origin-proxy/index.md",
+      "label": "Bulk origin override"
+    },
+    {
+      "url": "https://developers.cloudflare.com/workers/examples/bulk-redirects/index.md",
+      "label": "Bulk redirects"
+    },
+    {
+      "url": "https://developers.cloudflare.com/workers/examples/cache-api/index.md",
+      "label": "Using the Cache API"
+    },
+    {
+      "url": "https://developers.cloudflare.com/workers/examples/cache-post-request/index.md",
+      "label": "Cache POST requests"
+    },
+    {
+      "url": "https://developers.cloudflare.com/workers/examples/cache-tags/index.md",
+      "label": "Cache Tags using Workers"
+    },
+    {
+      "url": "https://developers.cloudflare.com/workers/examples/cache-using-fetch/index.md",
+      "label": "Cache using fetch"
+    },
+    {
+      "url": "https://developers.cloudflare.com/workers/examples/conditional-response/index.md",
+      "label": "Conditional response"
+    },
+    {
+      "url": "https://developers.cloudflare.com/workers/examples/cors-header-proxy/index.md",
+      "label": "CORS header proxy"
+    },
+    {
+      "url": "https://developers.cloudflare.com/workers/examples/country-code-redirect/index.md",
+      "label": "Country code redirect"
+    },
+    {
+      "url": "https://developers.cloudflare.com/workers/examples/cron-trigger/index.md",
+      "label": "Setting Cron Triggers"
+    },
+    {
+      "url": "https://developers.cloudflare.com/workers/examples/data-loss-prevention/index.md",
+      "label": "Data loss prevention"
+    },
+    {
+      "url": "https://developers.cloudflare.com/workers/examples/debugging-logs/index.md",
+      "label": "Debugging logs"
+    },
+    {
+      "url": "https://developers.cloudflare.com/workers/examples/extract-cookie-value/index.md",
+      "label": "Cookie parsing"
+    },
+    {
+      "url": "https://developers.cloudflare.com/workers/examples/fetch-html/index.md",
+      "label": "Fetch HTML"
+    },
+    {
+      "url": "https://developers.cloudflare.com/workers/examples/fetch-json/index.md",
+      "label": "Fetch JSON"
+    },
+    {
+      "url": "https://developers.cloudflare.com/workers/examples/geolocation-app-weather/index.md",
+      "label": "Geolocation: Weather application"
+    },
+    {
+      "url": "https://developers.cloudflare.com/workers/examples/geolocation-custom-styling/index.md",
+      "label": "Geolocation: Custom Styling"
+    },
+    {
+      "url": "https://developers.cloudflare.com/workers/examples/geolocation-hello-world/index.md",
+      "label": "Geolocation: Hello World"
+    },
+    {
+      "url": "https://developers.cloudflare.com/workers/examples/hot-link-protection/index.md",
+      "label": "Hot-link protection"
+    },
+    {
+      "url": "https://developers.cloudflare.com/workers/examples/images-workers/index.md",
+      "label": "Custom Domain with Images"
+    },
+    {
+      "url": "https://developers.cloudflare.com/workers/examples/logging-headers/index.md",
+      "label": "Logging headers to console"
+    },
+    {
+      "url": "https://developers.cloudflare.com/workers/examples/modify-request-property/index.md",
+      "label": "Modify request property"
+    },
+    {
+      "url": "https://developers.cloudflare.com/workers/examples/modify-response/index.md",
+      "label": "Modify response"
+    },
+    {
+      "url": "https://developers.cloudflare.com/workers/examples/multiple-cron-triggers/index.md",
+      "label": "Multiple Cron Triggers"
+    },
+    {
+      "url": "https://developers.cloudflare.com/workers/examples/openai-sdk-streaming/index.md",
+      "label": "Stream OpenAI API Responses"
+    },
+    {
+      "url": "https://developers.cloudflare.com/workers/examples/post-json/index.md",
+      "label": "Post JSON"
+    },
+    {
+      "url": "https://developers.cloudflare.com/workers/examples/protect-against-timing-attacks/index.md",
+      "label": "Using timingSafeEqual"
+    },
+    {
+      "url": "https://developers.cloudflare.com/workers/examples/read-post/index.md",
+      "label": "Read POST"
+    },
+    {
+      "url": "https://developers.cloudflare.com/workers/examples/redirect/index.md",
+      "label": "Redirect"
+    },
+    {
+      "url": "https://developers.cloudflare.com/workers/examples/respond-with-another-site/index.md",
+      "label": "Respond with another site"
+    },
+    {
+      "url": "https://developers.cloudflare.com/workers/examples/return-html/index.md",
+      "label": "Return small HTML page"
+    },
+    {
+      "url": "https://developers.cloudflare.com/workers/examples/return-json/index.md",
+      "label": "Return JSON"
+    },
+    {
+      "url": "https://developers.cloudflare.com/workers/examples/rewrite-links/index.md",
+      "label": "Rewrite links"
+    },
+    {
+      "url": "https://developers.cloudflare.com/workers/examples/security-headers/index.md",
+      "label": "Set security headers"
+    },
+    {
+      "url": "https://developers.cloudflare.com/workers/examples/signing-requests/index.md",
+      "label": "Sign requests"
+    },
+    {
+      "url": "https://developers.cloudflare.com/workers/examples/spa-shell/index.md",
+      "label": "Single Page App (SPA) shell with bootstrap data"
+    },
+    {
+      "url": "https://developers.cloudflare.com/workers/examples/streaming-json/index.md",
+      "label": "Stream large JSON"
+    },
+    {
+      "url": "https://developers.cloudflare.com/workers/examples/turnstile-html-rewriter/index.md",
+      "label": "Turnstile with Workers"
+    },
+    {
+      "url": "https://developers.cloudflare.com/turnstile/",
+      "label": "Turnstile"
+    },
+    {
+      "url": "https://developers.cloudflare.com/workers/examples/websockets/index.md",
+      "label": "Using the WebSockets API"
+    },
+    {
+      "url": "https://developers.cloudflare.com/workers/tutorials/index.md",
+      "label": "Tutorials"
+    },
+    {
+      "url": "https://developers.cloudflare.com/workers/tutorials/build-a-jamstack-app/index.md",
+      "label": "Build a todo list Jamstack application"
+    },
+    {
+      "url": "https://developers.cloudflare.com/workers/tutorials/build-a-qr-code-generator/index.md",
+      "label": "Build a QR code generator"
+    },
+    {
+      "url": "https://developers.cloudflare.com/workers/tutorials/build-a-slackbot/index.md",
+      "label": "Build a Slackbot"
+    },
+    {
+      "url": "https://developers.cloudflare.com/workers/tutorials/connect-to-turso-using-workers/index.md",
+      "label": "Connect to and query your Turso database using Workers"
+    },
+    {
+      "url": "https://developers.cloudflare.com/workers/tutorials/create-finetuned-chatgpt-ai-models-with-r2/index.md",
+      "label": "Create a fine-tuned OpenAI model with R2"
+    },
+    {
+      "url": "https://developers.cloudflare.com/workers/tutorials/deploy-a-realtime-chat-app/index.md",
+      "label": "Deploy a real-time chat application"
+    },
+    {
+      "url": "https://developers.cloudflare.com/workers/tutorials/deploy-an-express-app/index.md",
+      "label": "Deploy an Express.js application on Cloudflare Workers"
+    },
+    {
+      "url": "https://developers.cloudflare.com/workers/tutorials/generate-youtube-thumbnails-with-workers-and-images/index.md",
+      "label": "Generate YouTube thumbnails with Workers and Cloudflare Image Resizing"
+    },
+    {
+      "url": "https://developers.cloudflare.com/workers/tutorials/github-sms-notifications-using-twilio/index.md",
+      "label": "GitHub SMS notifications using Twilio"
+    },
+    {
+      "url": "https://developers.cloudflare.com/workers/tutorials/handle-form-submissions-with-airtable/index.md",
+      "label": "Handle form submissions with Airtable"
+    },
+    {
+      "url": "https://developers.cloudflare.com/workers/tutorials/mysql/index.md",
+      "label": "Connect to a MySQL database with Cloudflare Workers"
+    },
+    {
+      "url": "https://developers.cloudflare.com/workers/tutorials/openai-function-calls-workers/index.md",
+      "label": "OpenAI GPT function calling with JavaScript and Cloudflare Workers"
+    },
+    {
+      "url": "https://developers.cloudflare.com/workers/tutorials/postgres/index.md",
+      "label": "Connect to a PostgreSQL database with Cloudflare Workers"
+    },
+    {
+      "url": "https://developers.cloudflare.com/workers/tutorials/send-emails-with-postmark/index.md",
+      "label": "Send Emails With Postmark"
+    },
+    {
+      "url": "https://developers.cloudflare.com/workers/tutorials/send-emails-with-resend/index.md",
+      "label": "Send Emails With Resend"
+    },
+    {
+      "url": "https://developers.cloudflare.com/workers/tutorials/upload-assets-with-r2/index.md",
+      "label": "Securely access and upload assets with Cloudflare R2"
+    },
+    {
+      "url": "https://developers.cloudflare.com/workers/tutorials/using-prisma-postgres-with-workers/index.md",
+      "label": "Set up and use a Prisma Postgres database"
+    },
+    {
+      "url": "https://developers.cloudflare.com/workers/tutorials/workers-kv-from-rust/index.md",
+      "label": "Use Workers KV directly from Rust"
+    },
+    {
+      "url": "https://developers.cloudflare.com/workers/demos/index.md",
+      "label": "Demos and architectures"
+    },
+    {
+      "url": "https://developers.cloudflare.com/workers/demos/chatgpt-app/index.md",
+      "label": "Build an Interactive ChatGPT App"
+    },
+    {
+      "url": "https://developers.cloudflare.com/workers/local-development/index.md",
+      "label": "Local development"
+    },
+    {
+      "url": "https://developers.cloudflare.com/workers/local-development/bindings-per-env/index.md",
+      "label": "Supported bindings per development mode"
+    },
+    {
+      "url": "https://developers.cloudflare.com/workers/local-development/environment-variables/index.md",
+      "label": "Environment variables and secrets"
+    },
+    {
+      "url": "https://developers.cloudflare.com/workers/local-development/local-data/index.md",
+      "label": "Adding local data"
+    },
+    {
+      "url": "https://developers.cloudflare.com/workers/local-development/local-dev-tunnels/index.md",
+      "label": "Share a local dev server"
+    },
+    {
+      "url": "https://developers.cloudflare.com/workers/local-development/local-explorer/index.md",
+      "label": "Local Explorer"
+    },
+    {
+      "url": "https://developers.cloudflare.com/workers/local-development/multi-workers/index.md",
+      "label": "Developing with multiple Workers"
+    },
+    {
+      "url": "https://developers.cloudflare.com/workers/vite-plugin/index.md",
+      "label": "Vite Plugin"
+    },
+    {
+      "url": "https://developers.cloudflare.com/workers/local-development/wrangler-vs-vite/index.md",
+      "label": "Choosing between Wrangler & Vite"
+    },
+    {
+      "url": "https://developers.cloudflare.com/workers/playground/index.md",
+      "label": "Playground"
+    },
+    {
+      "url": "https://developers.cloudflare.com/workers/configuration/index.md",
+      "label": "Configuration"
+    },
+    {
+      "url": "https://developers.cloudflare.com/workers/runtime-apis/bindings/index.md",
+      "label": "Bindings"
+    },
+    {
+      "url": "https://developers.cloudflare.com/workers/configuration/cloudflare-access/index.md",
+      "label": "Cloudflare Access"
+    },
+    {
+      "url": "https://developers.cloudflare.com/workers/configuration/compatibility-dates/index.md",
+      "label": "Compatibility dates"
+    },
+    {
+      "url": "https://developers.cloudflare.com/workers/configuration/compatibility-flags/index.md",
+      "label": "Compatibility flags"
+    },
+    {
+      "url": "https://developers.cloudflare.com/workers/configuration/cron-triggers/index.md",
+      "label": "Cron Triggers"
+    },
+    {
+      "url": "https://developers.cloudflare.com/workers/configuration/environment-variables/index.md",
+      "label": "Environment variables"
+    },
+    {
+      "url": "https://developers.cloudflare.com/workers/configuration/integrations/index.md",
+      "label": "Integrations"
+    },
+    {
+      "url": "https://developers.cloudflare.com/workers/configuration/integrations/apis/index.md",
+      "label": "APIs"
+    },
+    {
+      "url": "https://developers.cloudflare.com/workers/configuration/integrations/external-services/index.md",
+      "label": "External Services"
+    },
+    {
+      "url": "https://developers.cloudflare.com/workers/configuration/multipart-upload-metadata/index.md",
+      "label": "Multipart upload metadata"
+    },
+    {
+      "url": "https://developers.cloudflare.com/workers/configuration/placement/index.md",
+      "label": "Placement"
+    },
+    {
+      "url": "https://developers.cloudflare.com/workers/configuration/routing/index.md",
+      "label": "Routes and domains"
+    },
+    {
+      "url": "https://developers.cloudflare.com/workers/configuration/routing/custom-domains/index.md",
+      "label": "Custom Domains"
+    },
+    {
+      "url": "https://developers.cloudflare.com/workers/configuration/routing/routes/index.md",
+      "label": "Routes"
+    },
+    {
+      "url": "https://developers.cloudflare.com/workers/configuration/routing/workers-dev/index.md",
+      "label": "workers.dev"
+    },
+    {
+      "url": "https://developers.cloudflare.com/workers/configuration/secrets/index.md",
+      "label": "Secrets"
+    },
+    {
+      "url": "https://developers.cloudflare.com/workers/configuration/sites/index.md",
+      "label": "Workers Sites"
+    },
+    {
+      "url": "https://developers.cloudflare.com/workers/static-assets/",
+      "label": "Workers Static Assets"
+    },
+    {
+      "url": "https://developers.cloudflare.com/workers/configuration/sites/configuration/index.md",
+      "label": "Workers Sites configuration"
+    },
+    {
+      "url": "https://developers.cloudflare.com/workers/configuration/sites/start-from-existing/index.md",
+      "label": "Start from existing"
+    },
+    {
+      "url": "https://developers.cloudflare.com/workers/configuration/sites/start-from-scratch/index.md",
+      "label": "Start from scratch"
+    },
+    {
+      "url": "https://developers.cloudflare.com/workers/configuration/sites/start-from-worker/index.md",
+      "label": "Start from Worker"
+    },
+    {
+      "url": "https://developers.cloudflare.com/workers/configuration/workers-with-page-rules/index.md",
+      "label": "Page Rules"
+    },
+    {
+      "url": "https://developers.cloudflare.com/workers/authorization/index.md",
+      "label": "Roles and permissions"
+    },
+    {
+      "url": "https://developers.cloudflare.com/workers/authorization/durable-objects/index.md",
+      "label": "Durable Objects roles and permissions"
+    },
+    {
+      "url": "https://developers.cloudflare.com/workers/authorization/workers/index.md",
+      "label": "Workers roles and permissions"
+    },
+    {
+      "url": "https://developers.cloudflare.com/workers/previews/index.md",
+      "label": "Previews"
+    },
+    {
+      "url": "https://developers.cloudflare.com/workers/previews/compare-workflows/index.md",
+      "label": "Compare workflows"
+    },
+    {
+      "url": "https://developers.cloudflare.com/workers/previews/configuration/index.md",
+      "label": "Configuration"
+    },
+    {
+      "url": "https://developers.cloudflare.com/workers/previews/custom-domains/index.md",
+      "label": "Custom domains"
+    },
+    {
+      "url": "https://developers.cloudflare.com/workers/previews/examples/index.md",
+      "label": "Examples"
+    },
+    {
+      "url": "https://developers.cloudflare.com/workers/previews/get-started/index.md",
+      "label": "Get started"
+    },
+    {
+      "url": "https://developers.cloudflare.com/workers/previews/resources/index.md",
+      "label": "Resources and isolation"
+    },
+    {
+      "url": "https://developers.cloudflare.com/workers/previews/test-and-debug/index.md",
+      "label": "Test and debug"
+    },
+    {
+      "url": "https://developers.cloudflare.com/workers/versions-and-deployments/index.md",
+      "label": "Versions & deployments"
+    },
+    {
+      "url": "https://developers.cloudflare.com/workers/versions-and-deployments/deployment-management/index.md",
+      "label": "Deployment management"
+    },
+    {
+      "url": "https://developers.cloudflare.com/workers/versions-and-deployments/gradual-deployments/index.md",
+      "label": "Gradual deployments"
+    },
+    {
+      "url": "https://developers.cloudflare.com/workers/versions-and-deployments/gradual-deployments/version-affinity/index.md",
+      "label": "Version affinity"
+    },
+    {
+      "url": "https://developers.cloudflare.com/workers/versions-and-deployments/gradual-deployments/with-durable-objects/index.md",
+      "label": "With Durable Objects"
+    },
+    {
+      "url": "https://developers.cloudflare.com/workers/versions-and-deployments/rollbacks/index.md",
+      "label": "Rollbacks"
+    },
+    {
+      "url": "https://developers.cloudflare.com/workers/versions-and-deployments/version-overrides/index.md",
+      "label": "Version overrides"
+    },
+    {
+      "url": "https://developers.cloudflare.com/workers/versions-and-deployments/version-urls/index.md",
+      "label": "Version URLs"
+    },
+    {
+      "url": "https://developers.cloudflare.com/workers/cache/index.md",
+      "label": "Workers Cache"
+    },
+    {
+      "url": "https://developers.cloudflare.com/workers/cache/cache-keys/index.md",
+      "label": "Cache keys"
+    },
+    {
+      "url": "https://developers.cloudflare.com/workers/cache/configuration/index.md",
+      "label": "Configuration"
+    },
+    {
+      "url": "https://developers.cloudflare.com/workers/cache/debugging/index.md",
+      "label": "Debugging"
+    },
+    {
+      "url": "https://developers.cloudflare.com/workers/cache/examples/index.md",
+      "label": "Examples"
+    },
+    {
+      "url": "https://developers.cloudflare.com/workers/cache/limitations/index.md",
+      "label": "Limitations"
+    },
+    {
+      "url": "https://developers.cloudflare.com/workers/cache/purge/index.md",
+      "label": "Purging the cache"
+    },
+    {
+      "url": "https://developers.cloudflare.com/workers/ci-cd/index.md",
+      "label": "CI/CD"
+    },
+    {
+      "url": "https://developers.cloudflare.com/workers/ci-cd/builds/index.md",
+      "label": "Builds"
+    },
+    {
+      "url": "https://developers.cloudflare.com/workers/ci-cd/builds/advanced-setups/index.md",
+      "label": "Advanced setups"
+    },
+    {
+      "url": "https://developers.cloudflare.com/workers/ci-cd/builds/api-reference/index.md",
+      "label": "Builds API reference"
+    },
+    {
+      "url": "https://developers.cloudflare.com/workers/ci-cd/builds/automatic-prs/index.md",
+      "label": "Automatic pull requests"
+    },
+    {
+      "url": "https://developers.cloudflare.com/workers/ci-cd/builds/build-branches/index.md",
+      "label": "Build branches"
+    },
+    {
+      "url": "https://developers.cloudflare.com/workers/ci-cd/builds/build-caching/index.md",
+      "label": "Build caching"
+    },
+    {
+      "url": "https://developers.cloudflare.com/workers/ci-cd/builds/build-image/index.md",
+      "label": "Build image"
+    },
+    {
+      "url": "https://developers.cloudflare.com/workers/ci-cd/builds/build-watch-paths/index.md",
+      "label": "Build watch paths"
+    },
+    {
+      "url": "https://developers.cloudflare.com/workers/ci-cd/builds/configuration/index.md",
+      "label": "Configuration"
+    },
+    {
+      "url": "https://developers.cloudflare.com/workers/ci-cd/builds/deploy-hooks/index.md",
+      "label": "Deploy Hooks"
+    },
+    {
+      "url": "https://developers.cloudflare.com/workers/ci-cd/builds/event-subscriptions/index.md",
+      "label": "Event subscriptions"
+    },
+    {
+      "url": "https://developers.cloudflare.com/workers/ci-cd/builds/git-integration/index.md",
+      "label": "Git integration"
+    },
+    {
+      "url": "https://developers.cloudflare.com/workers/ci-cd/builds/git-integration/cursor-origin-integration/index.md",
+      "label": "Cursor Origin integration"
+    },
+    {
+      "url": "https://developers.cloudflare.com/workers/ci-cd/builds/git-integration/github-integration/index.md",
+      "label": "GitHub integration"
+    },
+    {
+      "url": "https://developers.cloudflare.com/workers/ci-cd/builds/git-integration/gitlab-integration/index.md",
+      "label": "GitLab integration"
+    },
+    {
+      "url": "https://developers.cloudflare.com/workers/ci-cd/builds/limits-and-pricing/index.md",
+      "label": "Limits & pricing"
+    },
+    {
+      "url": "https://developers.cloudflare.com/workers/ci-cd/builds/troubleshoot/index.md",
+      "label": "Troubleshooting builds"
+    },
+    {
+      "url": "https://developers.cloudflare.com/workers/ci-cd/external-cicd/index.md",
+      "label": "External CI/CD"
+    },
+    {
+      "url": "https://developers.cloudflare.com/workers/ci-cd/external-cicd/github-actions/index.md",
+      "label": "GitHub Actions"
+    },
+    {
+      "url": "https://developers.cloudflare.com/workers/ci-cd/external-cicd/gitlab-cicd/index.md",
+      "label": "GitLab CI/CD"
+    },
+    {
+      "url": "https://developers.cloudflare.com/workers/runtime-apis/index.md",
+      "label": "Runtime APIs"
+    },
+    {
+      "url": "https://developers.cloudflare.com/workers/runtime-apis/bindings/index.md",
+      "label": "Bindings (env)"
+    },
+    {
+      "url": "https://developers.cloudflare.com/workers-ai/get-started/workers-wrangler/index.md#2-connect-your-worker-to-workers-ai",
+      "label": "AI"
+    },
+    {
+      "url": "https://developers.cloudflare.com/analytics/analytics-engine/index.md",
+      "label": "Analytics Engine"
+    },
+    {
+      "url": "https://developers.cloudflare.com/workers/static-assets/binding/index.md",
+      "label": "Assets"
+    },
+    {
+      "url": "https://developers.cloudflare.com/browser-run/index.md",
+      "label": "Browser Run"
+    },
+    {
+      "url": "https://developers.cloudflare.com/d1/worker-api/index.md",
+      "label": "D1"
+    },
+    {
+      "url": "https://developers.cloudflare.com/cloudflare-for-platforms/workers-for-platforms/configuration/dynamic-dispatch/index.md",
+      "label": "Dispatcher (Workers for Platforms)"
+    },
+    {
+      "url": "https://developers.cloudflare.com/durable-objects/api/index.md",
+      "label": "Durable Objects"
+    },
+    {
+      "url": "https://developers.cloudflare.com/workers/configuration/environment-variables/index.md",
+      "label": "Environment Variables"
+    },
+    {
+      "url": "https://developers.cloudflare.com/hyperdrive/index.md",
+      "label": "Hyperdrive"
+    },
+    {
+      "url": "https://developers.cloudflare.com/images/optimization/binding/index.md",
+      "label": "Images"
+    },
+    {
+      "url": "https://developers.cloudflare.com/kv/api/index.md",
+      "label": "KV"
+    },
+    {
+      "url": "https://developers.cloudflare.com/stream/transform-videos/bindings/index.md",
+      "label": "Media Transformations"
+    },
+    {
+      "url": "https://developers.cloudflare.com/workers/runtime-apis/bindings/mtls/index.md",
+      "label": "mTLS"
+    },
+    {
+      "url": "https://developers.cloudflare.com/queues/configuration/javascript-apis/index.md",
+      "label": "Queues"
+    },
+    {
+      "url": "https://developers.cloudflare.com/r2/api/workers/workers-api-reference/index.md",
+      "label": "R2"
+    },
+    {
+      "url": "https://developers.cloudflare.com/workers/runtime-apis/bindings/rate-limit/index.md",
+      "label": "Rate Limiting"
+    },
+    {
+      "url": "https://developers.cloudflare.com/workers/configuration/secrets/index.md",
+      "label": "Secrets"
+    },
+    {
+      "url": "https://developers.cloudflare.com/secrets-store/integrations/workers/index.md",
+      "label": "Secrets Store"
+    },
+    {
+      "url": "https://developers.cloudflare.com/workers/runtime-apis/bindings/service-bindings/index.md",
+      "label": "Service bindings"
+    },
+    {
+      "url": "https://developers.cloudflare.com/workers/runtime-apis/bindings/service-bindings/http/index.md",
+      "label": "HTTP"
+    },
+    {
+      "url": "https://developers.cloudflare.com/workers/runtime-apis/bindings/service-bindings/rpc/index.md",
+      "label": "RPC (WorkerEntrypoint)"
+    },
+    {
+      "url": "https://developers.cloudflare.com/stream/manage-video-library/bindings/index.md",
+      "label": "Stream"
+    },
+    {
+      "url": "https://developers.cloudflare.com/vectorize/reference/client-api/index.md",
+      "label": "Vectorize"
+    },
+    {
+      "url": "https://developers.cloudflare.com/workers/runtime-apis/bindings/version-metadata/index.md",
+      "label": "Version metadata"
+    },
+    {
+      "url": "https://developers.cloudflare.com/dynamic-workers/index.md",
+      "label": "Dynamic Worker Loaders"
+    },
+    {
+      "url": "https://developers.cloudflare.com/workflows/index.md",
+      "label": "Workflows"
+    },
+    {
+      "url": "https://developers.cloudflare.com/workers/runtime-apis/cache/index.md",
+      "label": "Cache"
+    },
+    {
+      "url": "https://developers.cloudflare.com/workers/runtime-apis/console/index.md",
+      "label": "Console"
+    },
+    {
+      "url": "https://developers.cloudflare.com/workers/runtime-apis/context/index.md",
+      "label": "Context (ctx)"
+    },
+    {
+      "url": "https://developers.cloudflare.com/workers/runtime-apis/encoding/index.md",
+      "label": "Encoding"
+    },
+    {
+      "url": "https://developers.cloudflare.com/workers/runtime-apis/eventsource/index.md",
+      "label": "EventSource"
+    },
+    {
+      "url": "https://developers.cloudflare.com/workers/runtime-apis/fetch/index.md",
+      "label": "Fetch"
+    },
+    {
+      "url": "https://developers.cloudflare.com/workers/runtime-apis/handlers/index.md",
+      "label": "Handlers"
+    },
+    {
+      "url": "https://developers.cloudflare.com/durable-objects/api/alarms/index.md",
+      "label": "Alarm Handler"
+    },
+    {
+      "url": "https://developers.cloudflare.com/email-service/api/route-emails/email-handler/index.md",
+      "label": "Email Handler"
+    },
+    {
+      "url": "https://developers.cloudflare.com/workers/runtime-apis/handlers/fetch/index.md",
+      "label": "Fetch Handler"
+    },
+    {
+      "url": "https://developers.cloudflare.com/queues/configuration/javascript-apis/index.md#consumer",
+      "label": "Queue Handler"
+    },
+    {
+      "url": "https://developers.cloudflare.com/workers/runtime-apis/handlers/scheduled/index.md",
+      "label": "Scheduled Handler"
+    },
+    {
+      "url": "https://developers.cloudflare.com/workers/runtime-apis/handlers/tail/index.md",
+      "label": "Tail Handler"
+    },
+    {
+      "url": "https://developers.cloudflare.com/workers/runtime-apis/headers/index.md",
+      "label": "Headers"
+    },
+    {
+      "url": "https://developers.cloudflare.com/workers/runtime-apis/html-rewriter/index.md",
+      "label": "HTMLRewriter"
+    },
+    {
+      "url": "https://developers.cloudflare.com/workers/runtime-apis/messagechannel/index.md",
+      "label": "MessageChannel"
+    },
+    {
+      "url": "https://developers.cloudflare.com/workers/runtime-apis/nodejs/index.md",
+      "label": "Node.js compatibility"
+    },
+    {
+      "url": "https://developers.cloudflare.com/workers/runtime-apis/nodejs/assert/index.md",
+      "label": "assert"
+    },
+    {
+      "url": "https://developers.cloudflare.com/workers/runtime-apis/nodejs/asynclocalstorage/index.md",
+      "label": "AsyncLocalStorage"
+    },
+    {
+      "url": "https://developers.cloudflare.com/workers/runtime-apis/nodejs/buffer/index.md",
+      "label": "Buffer"
+    },
+    {
+      "url": "https://developers.cloudflare.com/workers/runtime-apis/nodejs/crypto/index.md",
+      "label": "crypto"
+    },
+    {
+      "url": "https://developers.cloudflare.com/workers/runtime-apis/nodejs/diagnostics-channel/index.md",
+      "label": "Diagnostics Channel"
+    },
+    {
+      "url": "https://developers.cloudflare.com/workers/runtime-apis/nodejs/dns/index.md",
+      "label": "dns"
+    },
+    {
+      "url": "https://developers.cloudflare.com/workers/runtime-apis/nodejs/eventemitter/index.md",
+      "label": "EventEmitter"
+    },
+    {
+      "url": "https://developers.cloudflare.com/workers/runtime-apis/nodejs/fs/index.md",
+      "label": "fs"
+    },
+    {
+      "url": "https://developers.cloudflare.com/workers/runtime-apis/nodejs/http/index.md",
+      "label": "http"
+    },
+    {
+      "url": "https://developers.cloudflare.com/workers/runtime-apis/nodejs/https/index.md",
+      "label": "https"
+    },
+    {
+      "url": "https://developers.cloudflare.com/workers/runtime-apis/nodejs/net/index.md",
+      "label": "net"
+    },
+    {
+      "url": "https://developers.cloudflare.com/workers/runtime-apis/nodejs/path/index.md",
+      "label": "path"
+    },
+    {
+      "url": "https://developers.cloudflare.com/workers/runtime-apis/nodejs/process/index.md",
+      "label": "process"
+    },
+    {
+      "url": "https://developers.cloudflare.com/workers/runtime-apis/nodejs/streams/index.md",
+      "label": "Streams"
+    },
+    {
+      "url": "https://developers.cloudflare.com/workers/runtime-apis/nodejs/string-decoder/index.md",
+      "label": "StringDecoder"
+    },
+    {
+      "url": "https://developers.cloudflare.com/workers/runtime-apis/nodejs/test/index.md",
+      "label": "test"
+    },
+    {
+      "url": "https://developers.cloudflare.com/workers/runtime-apis/nodejs/timers/index.md",
+      "label": "timers"
+    },
+    {
+      "url": "https://developers.cloudflare.com/workers/runtime-apis/nodejs/tls/index.md",
+      "label": "tls"
+    },
+    {
+      "url": "https://developers.cloudflare.com/workers/runtime-apis/nodejs/url/index.md",
+      "label": "url"
+    },
+    {
+      "url": "https://developers.cloudflare.com/workers/runtime-apis/nodejs/util/index.md",
+      "label": "util"
+    },
+    {
+      "url": "https://developers.cloudflare.com/workers/runtime-apis/nodejs/zlib/index.md",
+      "label": "zlib"
+    },
+    {
+      "url": "https://developers.cloudflare.com/workers/runtime-apis/performance/index.md",
+      "label": "Performance and timers"
+    },
+    {
+      "url": "https://developers.cloudflare.com/workers/runtime-apis/request/index.md",
+      "label": "Request"
+    },
+    {
+      "url": "https://developers.cloudflare.com/workers/runtime-apis/response/index.md",
+      "label": "Response"
+    },
+    {
+      "url": "https://developers.cloudflare.com/workers/runtime-apis/rpc/index.md",
+      "label": "Remote-procedure call (RPC)"
+    },
+    {
+      "url": "https://developers.cloudflare.com/workers/runtime-apis/rpc/error-handling/index.md",
+      "label": "Error handling"
+    },
+    {
+      "url": "https://developers.cloudflare.com/workers/runtime-apis/rpc/lifecycle/index.md",
+      "label": "Lifecycle"
+    },
+    {
+      "url": "https://developers.cloudflare.com/workers/runtime-apis/rpc/reserved-methods/index.md",
+      "label": "Reserved Methods"
+    },
+    {
+      "url": "https://developers.cloudflare.com/workers/runtime-apis/rpc/typescript/index.md",
+      "label": "TypeScript"
+    },
+    {
+      "url": "https://developers.cloudflare.com/workers/runtime-apis/rpc/visibility/index.md",
+      "label": "Visibility and Security Model"
+    },
+    {
+      "url": "https://developers.cloudflare.com/workers/runtime-apis/scheduler/index.md",
+      "label": "Scheduler"
+    },
+    {
+      "url": "https://developers.cloudflare.com/workers/runtime-apis/streams/index.md",
+      "label": "Streams"
+    },
+    {
+      "url": "https://developers.cloudflare.com/workers/runtime-apis/streams/readablestream/index.md",
+      "label": "ReadableStream"
+    },
+    {
+      "url": "https://developers.cloudflare.com/workers/runtime-apis/streams/readablestreambyobreader/index.md",
+      "label": "ReadableStream BYOBReader"
+    },
+    {
+      "url": "https://developers.cloudflare.com/workers/runtime-apis/streams/readablestreamdefaultreader/index.md",
+      "label": "ReadableStream DefaultReader"
+    },
+    {
+      "url": "https://developers.cloudflare.com/workers/runtime-apis/streams/transformstream/index.md",
+      "label": "TransformStream"
+    },
+    {
+      "url": "https://developers.cloudflare.com/workers/runtime-apis/streams/writablestream/index.md",
+      "label": "WritableStream"
+    },
+    {
+      "url": "https://developers.cloudflare.com/workers/runtime-apis/streams/writablestreamdefaultwriter/index.md",
+      "label": "WritableStream DefaultWriter"
+    },
+    {
+      "url": "https://developers.cloudflare.com/workers/runtime-apis/tcp-sockets/index.md",
+      "label": "TCP sockets"
+    },
+    {
+      "url": "https://developers.cloudflare.com/workers/runtime-apis/web-crypto/index.md",
+      "label": "Web Crypto"
+    },
+    {
+      "url": "https://developers.cloudflare.com/workers/runtime-apis/web-standards/index.md",
+      "label": "Web standards"
+    },
+    {
+      "url": "https://developers.cloudflare.com/workers/runtime-apis/webassembly/index.md",
+      "label": "WebAssembly (Wasm)"
+    },
+    {
+      "url": "https://developers.cloudflare.com/workers/runtime-apis/webassembly/javascript/index.md",
+      "label": "Wasm in JavaScript"
+    },
+    {
+      "url": "https://developers.cloudflare.com/workers/runtime-apis/websockets/index.md",
+      "label": "WebSockets"
+    },
+    {
+      "url": "https://developers.cloudflare.com/workers/static-assets/index.md",
+      "label": "Static Assets"
+    },
+    {
+      "url": "https://developers.cloudflare.com/workers/static-assets/billing-and-limitations/index.md",
+      "label": "Billing and Limitations"
+    },
+    {
+      "url": "https://developers.cloudflare.com/workers/static-assets/binding/index.md",
+      "label": "Configuration and Bindings"
+    },
+    {
+      "url": "https://developers.cloudflare.com/workers/static-assets/direct-upload/index.md",
+      "label": "Direct Uploads"
+    },
+    {
+      "url": "https://developers.cloudflare.com/workers/static-assets/get-started/index.md",
+      "label": "Get Started"
+    },
+    {
+      "url": "https://developers.cloudflare.com/workers/static-assets/headers/index.md",
+      "label": "Headers"
+    },
+    {
+      "url": "https://developers.cloudflare.com/workers/static-assets/migration-guides/migrate-from-pages/index.md",
+      "label": "Migrate from Pages to Workers"
+    },
+    {
+      "url": "https://developers.cloudflare.com/workers/static-assets/migration-guides/netlify-to-workers/index.md",
+      "label": "Migrate from Netlify to Workers"
+    },
+    {
+      "url": "https://developers.cloudflare.com/workers/static-assets/migration-guides/vercel-to-workers/index.md",
+      "label": "Migrate from Vercel to Workers"
+    },
+    {
+      "url": "https://developers.cloudflare.com/workers/static-assets/redirects/index.md",
+      "label": "Redirects"
+    },
+    {
+      "url": "https://developers.cloudflare.com/workers/versions-and-deployments/gradual-deployments/version-affinity/index.md#static-assets",
+      "label": "Gradual rollouts"
+    },
+    {
+      "url": "https://developers.cloudflare.com/workers/static-assets/routing/advanced/html-handling/index.md",
+      "label": "HTML handling"
+    },
+    {
+      "url": "https://developers.cloudflare.com/workers/static-assets/routing/advanced/serving-a-subdirectory/index.md",
+      "label": "Serving a subdirectory"
+    },
+    {
+      "url": "https://developers.cloudflare.com/workers/static-assets/routing/full-stack-application/index.md",
+      "label": "Full-stack application"
+    },
+    {
+      "url": "https://developers.cloudflare.com/workers/static-assets/routing/single-page-application/index.md",
+      "label": "Single Page Application (SPA)"
+    },
+    {
+      "url": "https://developers.cloudflare.com/workers/static-assets/routing/static-site-generation/index.md",
+      "label": "Static Site Generation (SSG) and custom 404 pages"
+    },
+    {
+      "url": "https://developers.cloudflare.com/workers/static-assets/routing/worker-script/index.md",
+      "label": "Worker script"
+    },
+    {
+      "url": "https://developers.cloudflare.com/workers/observability/index.md",
+      "label": "Observability"
+    },
+    {
+      "url": "https://developers.cloudflare.com/workers/observability/dev-tools/index.md",
+      "label": "DevTools"
+    },
+    {
+      "url": "https://developers.cloudflare.com/workers/observability/dev-tools/breakpoints/index.md",
+      "label": "Breakpoints"
+    },
+    {
+      "url": "https://developers.cloudflare.com/workers/observability/dev-tools/cpu-usage/index.md",
+      "label": "Profiling CPU usage"
+    },
+    {
+      "url": "https://developers.cloudflare.com/workers/observability/dev-tools/memory-usage/index.md",
+      "label": "Profiling Memory"
+    },
+    {
+      "url": "https://developers.cloudflare.com/workers/observability/errors/index.md",
+      "label": "Errors and exceptions"
+    },
+    {
+      "url": "https://developers.cloudflare.com/workers/observability/exporting-opentelemetry-data/index.md",
+      "label": "Exporting OpenTelemetry Data"
+    },
+    {
+      "url": "https://developers.cloudflare.com/workers/observability/exporting-opentelemetry-data/axiom/index.md",
+      "label": "Export to Axiom"
+    },
+    {
+      "url": "https://developers.cloudflare.com/workers/observability/exporting-opentelemetry-data/grafana-cloud/index.md",
+      "label": "Export to Grafana Cloud"
+    },
+    {
+      "url": "https://developers.cloudflare.com/workers/observability/exporting-opentelemetry-data/honeycomb/index.md",
+      "label": "Export to Honeycomb"
+    },
+    {
+      "url": "https://developers.cloudflare.com/workers/observability/exporting-opentelemetry-data/posthog/index.md",
+      "label": "Export to PostHog"
+    },
+    {
+      "url": "https://developers.cloudflare.com/workers/observability/exporting-opentelemetry-data/sentry/index.md",
+      "label": "Export to Sentry"
+    },
+    {
+      "url": "https://developers.cloudflare.com/workers/observability/logs/index.md",
+      "label": "Logs"
+    },
+    {
+      "url": "https://developers.cloudflare.com/workers/observability/logs/logpush/index.md",
+      "label": "Workers Logpush"
+    },
+    {
+      "url": "https://developers.cloudflare.com/workers/observability/logs/real-time-logs/index.md",
+      "label": "Real-time logs"
+    },
+    {
+      "url": "https://developers.cloudflare.com/workers/observability/logs/tail-workers/index.md",
+      "label": "Tail Workers"
+    },
+    {
+      "url": "https://developers.cloudflare.com/workers/observability/logs/workers-logs/index.md",
+      "label": "Workers Logs"
+    },
+    {
+      "url": "https://developers.cloudflare.com/workers/observability/metrics-and-analytics/index.md",
+      "label": "Metrics and analytics"
+    },
+    {
+      "url": "https://developers.cloudflare.com/workers/observability/query-builder/index.md",
+      "label": "Query Builder"
+    },
+    {
+      "url": "https://developers.cloudflare.com/workers/observability/source-maps/index.md",
+      "label": "Source maps and stack traces"
+    },
+    {
+      "url": "https://developers.cloudflare.com/workers/observability/traces/index.md",
+      "label": "Traces"
+    },
+    {
+      "url": "https://developers.cloudflare.com/workers/observability/traces/custom-spans/index.md",
+      "label": "Custom spans"
+    },
+    {
+      "url": "https://developers.cloudflare.com/workers/observability/traces/known-limitations/index.md",
+      "label": "Known limitations"
+    },
+    {
+      "url": "https://developers.cloudflare.com/workers/observability/traces/spans-and-attributes/index.md",
+      "label": "Spans and attributes"
+    },
+    {
+      "url": "https://developers.cloudflare.com/workers/testing/index.md",
+      "label": "Testing"
+    },
+    {
+      "url": "https://developers.cloudflare.com/workers/testing/miniflare/index.md",
+      "label": "Miniflare"
+    },
+    {
+      "url": "https://developers.cloudflare.com/workers/testing/miniflare/core/compatibility/index.md",
+      "label": "Compatibility Dates"
+    },
+    {
+      "url": "https://developers.cloudflare.com/workers/testing/miniflare/core/fetch/index.md",
+      "label": "Fetch Events"
+    },
+    {
+      "url": "https://developers.cloudflare.com/workers/testing/miniflare/core/modules/index.md",
+      "label": "Modules"
+    },
+    {
+      "url": "https://developers.cloudflare.com/workers/testing/miniflare/core/multiple-workers/index.md",
+      "label": "Multiple Workers"
+    },
+    {
+      "url": "https://developers.cloudflare.com/workers/testing/miniflare/core/queues/index.md",
+      "label": "Queues"
+    },
+    {
+      "url": "https://developers.cloudflare.com/workers/testing/miniflare/core/scheduled/index.md",
+      "label": "Scheduled Events"
+    },
+    {
+      "url": "https://developers.cloudflare.com/workers/testing/miniflare/core/standards/index.md",
+      "label": "Web Standards"
+    },
+    {
+      "url": "https://developers.cloudflare.com/workers/testing/miniflare/core/variables-secrets/index.md",
+      "label": "Variables and Secrets"
+    },
+    {
+      "url": "https://developers.cloudflare.com/workers/testing/miniflare/core/web-sockets/index.md",
+      "label": "WebSockets"
+    },
+    {
+      "url": "https://developers.cloudflare.com/workers/testing/miniflare/developing/debugger/index.md",
+      "label": "Attaching a Debugger"
+    },
+    {
+      "url": "https://developers.cloudflare.com/workers/testing/miniflare/developing/live-reload/index.md",
+      "label": "Live Reload"
+    },
+    {
+      "url": "https://developers.cloudflare.com/workers/testing/miniflare/get-started/index.md",
+      "label": "Get Started"
+    },
+    {
+      "url": "https://developers.cloudflare.com/workers/testing/miniflare/migrations/from-v2/index.md",
+      "label": "Migrating from Version 2"
+    },
+    {
+      "url": "https://developers.cloudflare.com/workers/testing/miniflare/storage/cache/index.md",
+      "label": "Cache"
+    },
+    {
+      "url": "https://developers.cloudflare.com/workers/testing/miniflare/storage/d1/index.md",
+      "label": "D1"
+    },
+    {
+      "url": "https://developers.cloudflare.com/workers/testing/miniflare/storage/durable-objects/index.md",
+      "label": "Durable Objects"
+    },
+    {
+      "url": "https://developers.cloudflare.com/workers/testing/miniflare/storage/kv/index.md",
+      "label": "KV"
+    },
+    {
+      "url": "https://developers.cloudflare.com/workers/testing/miniflare/storage/r2/index.md",
+      "label": "R2"
+    },
+    {
+      "url": "https://developers.cloudflare.com/workers/testing/miniflare/writing-tests/index.md",
+      "label": "Writing tests"
+    },
+    {
+      "url": "https://developers.cloudflare.com/workers/testing/test-harness/index.md",
+      "label": "Integration test harness"
+    },
+    {
+      "url": "https://developers.cloudflare.com/workers/testing/test-harness/configure/index.md",
+      "label": "Configure the test harness"
+    },
+    {
+      "url": "https://developers.cloudflare.com/workers/testing/test-harness/get-started/index.md",
+      "label": "Get started"
+    },
+    {
+      "url": "https://developers.cloudflare.com/workers/testing/test-harness/integrations/index.md",
+      "label": "Integrations"
+    },
+    {
+      "url": "https://developers.cloudflare.com/workers/testing/test-harness/interact-with-workers/index.md",
+      "label": "Interact with Workers"
+    },
+    {
+      "url": "https://developers.cloudflare.com/workers/testing/test-harness/prepare-test-state/index.md",
+      "label": "Prepare test state"
+    },
+    {
+      "url": "https://developers.cloudflare.com/workers/testing/unstable_startworker/index.md",
+      "label": "Wrangler's unstable_startWorker()"
+    },
+    {
+      "url": "https://developers.cloudflare.com/workers/testing/vitest-integration/index.md",
+      "label": "Vitest integration"
+    },
+    {
+      "url": "https://developers.cloudflare.com/workers/testing/vitest-integration/configuration/index.md",
+      "label": "Configuration"
+    },
+    {
+      "url": "https://developers.cloudflare.com/workers/testing/vitest-integration/debugging/index.md",
+      "label": "Debugging"
+    },
+    {
+      "url": "https://developers.cloudflare.com/workers/testing/vitest-integration/isolation-and-concurrency/index.md",
+      "label": "Isolation and concurrency"
+    },
+    {
+      "url": "https://developers.cloudflare.com/workers/testing/vitest-integration/known-issues/index.md",
+      "label": "Known issues"
+    },
+    {
+      "url": "https://developers.cloudflare.com/workers/testing/vitest-integration/migration-guides/migrate-from-miniflare-2/index.md",
+      "label": "Migrate from Miniflare 2's test environments"
+    },
+    {
+      "url": "https://github.com/cloudflare/miniflare?tab=readme-ov-file",
+      "label": "Miniflare 2"
+    },
+    {
+      "url": "https://developers.cloudflare.com/workers/testing/vitest-integration/migration-guides/migrate-from-unstable-dev/index.md",
+      "label": "Migrate from unstable_dev"
+    },
+    {
+      "url": "https://developers.cloudflare.com/workers/testing/vitest-integration/migration-guides/migrate-from-vitest-3-to-vitest-4/index.md",
+      "label": "Migrate from Vitest 3 to Vitest 4"
+    },
+    {
+      "url": "https://developers.cloudflare.com/workers/testing/vitest-integration/migration-guides/migrate-to-vitest-plugin/index.md",
+      "label": "Migrate to Vitest plugin"
+    },
+    {
+      "url": "https://developers.cloudflare.com/workers/testing/vitest-integration/mock-outbound-requests/index.md",
+      "label": "Mock outbound requests"
+    },
+    {
+      "url": "https://developers.cloudflare.com/workers/testing/vitest-integration/recipes/index.md",
+      "label": "Recipes and examples"
+    },
+    {
+      "url": "https://developers.cloudflare.com/workers/testing/vitest-integration/test-apis/index.md",
+      "label": "Test APIs"
+    },
+    {
+      "url": "https://developers.cloudflare.com/workers/testing/vitest-integration/write-your-first-test/index.md",
+      "label": "Write your first test"
+    },
+    {
+      "url": "https://developers.cloudflare.com/workers/wrangler/index.md",
+      "label": "Wrangler"
+    },
+    {
+      "url": "https://developers.cloudflare.com/workers/wrangler/api/index.md",
+      "label": "API"
+    },
+    {
+      "url": "https://developers.cloudflare.com/workers/wrangler/bundling/index.md",
+      "label": "Bundling"
+    },
+    {
+      "url": "https://developers.cloudflare.com/workers/wrangler/commands/index.md",
+      "label": "Commands"
+    },
+    {
+      "url": "https://developers.cloudflare.com/workers/wrangler/commands/artifacts/index.md",
+      "label": "Artifacts"
+    },
+    {
+      "url": "https://developers.cloudflare.com/workers/wrangler/commands/browser/index.md",
+      "label": "Browser"
+    },
+    {
+      "url": "https://developers.cloudflare.com/workers/wrangler/commands/certificates/index.md",
+      "label": "Certificates"
+    },
+    {
+      "url": "https://developers.cloudflare.com/workers/wrangler/commands/containers/index.md",
+      "label": "Containers"
+    },
+    {
+      "url": "https://developers.cloudflare.com/workers/wrangler/commands/d1/index.md",
+      "label": "D1"
+    },
+    {
+      "url": "https://developers.cloudflare.com/workers/wrangler/commands/flagship/index.md",
+      "label": "Flagship"
+    },
+    {
+      "url": "https://developers.cloudflare.com/workers/wrangler/commands/general/index.md",
+      "label": "General commands"
+    },
+    {
+      "url": "https://developers.cloudflare.com/workers/wrangler/commands/hyperdrive/index.md",
+      "label": "Hyperdrive"
+    },
+    {
+      "url": "https://developers.cloudflare.com/workers/wrangler/commands/kv/index.md",
+      "label": "KV"
+    },
+    {
+      "url": "https://developers.cloudflare.com/workers/wrangler/commands/pages/index.md",
+      "label": "Pages"
+    },
+    {
+      "url": "https://developers.cloudflare.com/workers/wrangler/commands/pipelines/index.md",
+      "label": "Pipelines"
+    },
+    {
+      "url": "https://developers.cloudflare.com/workers/wrangler/commands/queues/index.md",
+      "label": "Queues"
+    },
+    {
+      "url": "https://developers.cloudflare.com/workers/wrangler/commands/r2/index.md",
+      "label": "R2"
+    },
+    {
+      "url": "https://developers.cloudflare.com/workers/wrangler/commands/secrets-store/index.md",
+      "label": "Secrets Store"
+    },
+    {
+      "url": "https://developers.cloudflare.com/workers/wrangler/commands/tunnel/index.md",
+      "label": "Tunnel"
+    },
+    {
+      "url": "https://developers.cloudflare.com/workers/wrangler/commands/vectorize/index.md",
+      "label": "Vectorize"
+    },
+    {
+      "url": "https://developers.cloudflare.com/workers/wrangler/commands/vpc/index.md",
+      "label": "VPC"
+    },
+    {
+      "url": "https://developers.cloudflare.com/workers/wrangler/commands/workers/index.md",
+      "label": "Workers"
+    },
+    {
+      "url": "https://developers.cloudflare.com/workers/wrangler/commands/workers-for-platforms/index.md",
+      "label": "Workers for Platforms"
+    },
+    {
+      "url": "https://developers.cloudflare.com/workers/wrangler/commands/workflows/index.md",
+      "label": "Workflows"
+    },
+    {
+      "url": "https://developers.cloudflare.com/workers/wrangler/configuration/index.md",
+      "label": "Configuration"
+    },
+    {
+      "url": "https://developers.cloudflare.com/workers/wrangler/custom-builds/index.md",
+      "label": "Custom builds"
+    },
+    {
+      "url": "https://developers.cloudflare.com/workers/wrangler/deprecations/index.md",
+      "label": "Deprecations"
+    },
+    {
+      "url": "https://developers.cloudflare.com/workers/wrangler/environments/index.md",
+      "label": "Environments"
+    },
+    {
+      "url": "https://developers.cloudflare.com/workers/wrangler/install-and-update/index.md",
+      "label": "Install/Update Wrangler"
+    },
+    {
+      "url": "https://developers.cloudflare.com/workers/wrangler/migration/update-v2-to-v3/index.md",
+      "label": "Migrate from Wrangler v2 to v3"
+    },
+    {
+      "url": "https://developers.cloudflare.com/workers/wrangler/migration/update-v3-to-v4/index.md",
+      "label": "Migrate from Wrangler v3 to v4"
+    },
+    {
+      "url": "https://developers.cloudflare.com/workers/wrangler/migration/v1-to-v2/eject-webpack/index.md",
+      "label": "1. Migrate webpack projects"
+    },
+    {
+      "url": "https://developers.cloudflare.com/workers/wrangler/migration/v1-to-v2/update-v1-to-v2/index.md",
+      "label": "2. Update to Wrangler v2"
+    },
+    {
+      "url": "https://developers.cloudflare.com/workers/wrangler/migration/v1-to-v2/wrangler-legacy/authentication/index.md",
+      "label": "Authentication"
+    },
+    {
+      "url": "https://developers.cloudflare.com/workers/wrangler/migration/v1-to-v2/wrangler-legacy/commands/index.md",
+      "label": "Commands"
+    },
+    {
+      "url": "https://developers.cloudflare.com/workers/wrangler/migration/v1-to-v2/wrangler-legacy/configuration/index.md",
+      "label": "Configuration"
+    },
+    {
+      "url": "https://developers.cloudflare.com/workers/wrangler/migration/v1-to-v2/wrangler-legacy/install-update/index.md",
+      "label": "Install / Update"
+    },
+    {
+      "url": "https://developers.cloudflare.com/workers/wrangler/migration/v1-to-v2/wrangler-legacy/webpack/index.md",
+      "label": "Webpack"
+    },
+    {
+      "url": "https://developers.cloudflare.com/workers/wrangler/profiles/index.md",
+      "label": "Authentication profiles"
+    },
+    {
+      "url": "https://developers.cloudflare.com/workers/wrangler/system-environment-variables/index.md",
+      "label": "System environment variables"
+    },
+    {
+      "url": "https://developers.cloudflare.com/workers/vite-plugin/index.md",
+      "label": "Vite plugin"
+    },
+    {
+      "url": "https://developers.cloudflare.com/workers/vite-plugin/get-started/index.md",
+      "label": "Get started"
+    },
+    {
+      "url": "https://developers.cloudflare.com/workers/vite-plugin/reference/api/index.md",
+      "label": "API"
+    },
+    {
+      "url": "https://developers.cloudflare.com/workers/vite-plugin/reference/cloudflare-environments/index.md",
+      "label": "Cloudflare Environments"
+    },
+    {
+      "url": "https://developers.cloudflare.com/workers/vite-plugin/reference/debugging/index.md",
+      "label": "Debugging"
+    },
+    {
+      "url": "https://developers.cloudflare.com/workers/vite-plugin/reference/migrating-from-wrangler-dev/index.md",
+      "label": "Migrating from wrangler dev"
+    },
+    {
+      "url": "https://developers.cloudflare.com/workers/vite-plugin/reference/non-javascript-modules/index.md",
+      "label": "Non-JavaScript modules"
+    },
+    {
+      "url": "https://developers.cloudflare.com/workers/vite-plugin/reference/programmatic-configuration/index.md",
+      "label": "Programmatic configuration"
+    },
+    {
+      "url": "https://developers.cloudflare.com/workers/vite-plugin/reference/secrets/index.md",
+      "label": "Secrets"
+    },
+    {
+      "url": "https://developers.cloudflare.com/workers/vite-plugin/reference/static-assets/index.md",
+      "label": "Static Assets"
+    },
+    {
+      "url": "https://developers.cloudflare.com/workers/vite-plugin/reference/vite-environments/index.md",
+      "label": "Vite Environments"
+    },
+    {
+      "url": "https://developers.cloudflare.com/workers/vite-plugin/tutorial/index.md",
+      "label": "Tutorial - React SPA with an API"
+    },
+    {
+      "url": "https://developers.cloudflare.com/workers/languages/index.md",
+      "label": "Languages"
+    },
+    {
+      "url": "https://developers.cloudflare.com/workers/languages/javascript/index.md",
+      "label": "JavaScript"
+    },
+    {
+      "url": "https://developers.cloudflare.com/workers/examples/?languages=JavaScript/index.md",
+      "label": "Examples"
+    },
+    {
+      "url": "https://developers.cloudflare.com/workers/languages/python/index.md",
+      "label": "Python Workers"
+    },
+    {
+      "url": "https://developers.cloudflare.com/workers/languages/python/basics/index.md",
+      "label": "The Basics"
+    },
+    {
+      "url": "https://developers.cloudflare.com/workers/languages/python/examples/index.md",
+      "label": "Examples"
+    },
+    {
+      "url": "https://developers.cloudflare.com/workers/languages/python/ffi/index.md",
+      "label": "Foreign Function Interface (FFI)"
+    },
+    {
+      "url": "https://developers.cloudflare.com/workers/languages/python/how-python-workers-work/index.md",
+      "label": "How Python Workers Work"
+    },
+    {
+      "url": "https://developers.cloudflare.com/workers/languages/python/packages/index.md",
+      "label": "Packages"
+    },
+    {
+      "url": "https://developers.cloudflare.com/workers/languages/python/packages/django/index.md",
+      "label": "Django"
+    },
+    {
+      "url": "https://developers.cloudflare.com/workers/languages/python/packages/fastapi/index.md",
+      "label": "FastAPI"
+    },
+    {
+      "url": "https://developers.cloudflare.com/workers/languages/python/packages/flask/index.md",
+      "label": "Flask"
+    },
+    {
+      "url": "https://developers.cloudflare.com/workers/languages/python/packages/langchain/index.md",
+      "label": "Langchain"
+    },
+    {
+      "url": "https://developers.cloudflare.com/workers/languages/python/stdlib/index.md",
+      "label": "Standard Library"
+    },
+    {
+      "url": "https://developers.cloudflare.com/workers/languages/rust/index.md",
+      "label": "Rust"
+    },
+    {
+      "url": "https://github.com/cloudflare/workers-rs",
+      "label": "workers-rs crate"
+    },
+    {
+      "url": "https://developers.cloudflare.com/workers/languages/rust/crates/index.md",
+      "label": "Supported crates"
+    },
+    {
+      "url": "https://developers.cloudflare.com/workers/languages/typescript/index.md",
+      "label": "TypeScript"
+    },
+    {
+      "url": "https://developers.cloudflare.com/workers/examples/?languages=TypeScript/index.md",
+      "label": "Examples"
+    },
+    {
+      "url": "https://developers.cloudflare.com/workers/glossary/index.md",
+      "label": "Glossary"
+    },
+    {
+      "url": "https://developers.cloudflare.com/workers/best-practices/workers-best-practices/index.md",
+      "label": "Workers Best Practices"
+    },
+    {
+      "url": "https://developers.cloudflare.com/analytics/analytics-engine/index.md",
+      "label": "Analytics Engine"
+    },
+    {
+      "url": "https://developers.cloudflare.com/workers/databases/connecting-to-databases/index.md",
+      "label": "Connect to databases"
+    },
+    {
+      "url": "https://developers.cloudflare.com/d1/index.md",
+      "label": "Cloudflare D1"
+    },
+    {
+      "url": "https://developers.cloudflare.com/hyperdrive/index.md",
+      "label": "Hyperdrive"
+    },
+    {
+      "url": "https://developers.cloudflare.com/workers/databases/third-party-integrations/index.md",
+      "label": "3rd Party Integrations"
+    },
+    {
+      "url": "https://developers.cloudflare.com/workers/databases/third-party-integrations/neon/index.md",
+      "label": "Neon"
+    },
+    {
+      "url": "https://developers.cloudflare.com/workers/databases/third-party-integrations/planetscale/index.md",
+      "label": "PlanetScale"
+    },
+    {
+      "url": "https://developers.cloudflare.com/workers/databases/third-party-integrations/supabase/index.md",
+      "label": "Supabase"
+    },
+    {
+      "url": "https://developers.cloudflare.com/workers/databases/third-party-integrations/turso/index.md",
+      "label": "Turso"
+    },
+    {
+      "url": "https://developers.cloudflare.com/workers/databases/third-party-integrations/upstash/index.md",
+      "label": "Upstash"
+    },
+    {
+      "url": "https://developers.cloudflare.com/workers/databases/third-party-integrations/xata/index.md",
+      "label": "Xata"
+    },
+    {
+      "url": "https://developers.cloudflare.com/vectorize/index.md",
+      "label": "Vectorize (vector database)"
+    },
+    {
+      "url": "https://developers.cloudflare.com/agents/index.md",
+      "label": "Agents SDK"
+    },
+    {
+      "url": "https://developers.cloudflare.com/workers/languages/python/packages/langchain/index.md",
+      "label": "LangChain"
+    },
+    {
+      "url": "https://developers.cloudflare.com/workers/languages/python/packages/fastapi/index.md",
+      "label": "FastAPI"
+    },
+    {
+      "url": "https://developers.cloudflare.com/workers/languages/python/packages/flask/index.md",
+      "label": "Flask"
+    },
+    {
+      "url": "https://developers.cloudflare.com/workers/framework-guides/web-apps/more-web-frameworks/hono/index.md",
+      "label": "Hono"
+    },
+    {
+      "url": "https://developers.cloudflare.com/workers/framework-guides/automatic-configuration/index.md",
+      "label": "Deploy an existing project"
+    },
+    {
+      "url": "https://developers.cloudflare.com/workers/framework-guides/web-apps/astro/index.md",
+      "label": "Astro"
+    },
+    {
+      "url": "https://developers.cloudflare.com/workers/framework-guides/web-apps/microfrontends/index.md",
+      "label": "Microfrontends"
+    },
+    {
+      "url": "https://developers.cloudflare.com/workers/framework-guides/web-apps/more-web-frameworks/index.md",
+      "label": "More guides..."
+    },
+    {
+      "url": "https://developers.cloudflare.com/workers/framework-guides/web-apps/more-web-frameworks/analog/index.md",
+      "label": "Analog"
+    },
+    {
+      "url": "https://developers.cloudflare.com/workers/framework-guides/web-apps/more-web-frameworks/angular/index.md",
+      "label": "Angular"
+    },
+    {
+      "url": "https://developers.cloudflare.com/workers/framework-guides/web-apps/more-web-frameworks/docusaurus/index.md",
+      "label": "Docusaurus"
+    },
+    {
+      "url": "https://developers.cloudflare.com/workers/framework-guides/web-apps/more-web-frameworks/gatsby/index.md",
+      "label": "Gatsby"
+    },
+    {
+      "url": "https://developers.cloudflare.com/workers/framework-guides/web-apps/more-web-frameworks/hono/index.md",
+      "label": "Hono"
+    },
+    {
+      "url": "https://developers.cloudflare.com/workers/framework-guides/web-apps/more-web-frameworks/nuxt/index.md",
+      "label": "Nuxt"
+    },
+    {
+      "url": "https://developers.cloudflare.com/workers/framework-guides/web-apps/more-web-frameworks/qwik/index.md",
+      "label": "Qwik"
+    },
+    {
+      "url": "https://developers.cloudflare.com/workers/framework-guides/web-apps/more-web-frameworks/solid/index.md",
+      "label": "Solid"
+    },
+    {
+      "url": "https://developers.cloudflare.com/workers/framework-guides/web-apps/more-web-frameworks/waku/index.md",
+      "label": "Waku"
+    },
+    {
+      "url": "https://developers.cloudflare.com/workers/framework-guides/web-apps/nextjs/index.md",
+      "label": "Next.js"
+    },
+    {
+      "url": "https://developers.cloudflare.com/workers/framework-guides/web-apps/opennext/index.md",
+      "label": "OpenNext adapter"
+    },
+    {
+      "url": "https://developers.cloudflare.com/workers/framework-guides/web-apps/react/index.md",
+      "label": "React + Vite"
+    },
+    {
+      "url": "https://developers.cloudflare.com/workers/framework-guides/web-apps/react-router/index.md",
+      "label": "React Router (formerly Remix)"
+    },
+    {
+      "url": "https://developers.cloudflare.com/workers/framework-guides/web-apps/redwoodsdk/index.md",
+      "label": "RedwoodSDK"
+    },
+    {
+      "url": "https://developers.cloudflare.com/workers/framework-guides/web-apps/sveltekit/index.md",
+      "label": "SvelteKit"
+    },
+    {
+      "url": "https://developers.cloudflare.com/workers/framework-guides/web-apps/tanstack-start/index.md",
+      "label": "TanStack Start"
+    },
+    {
+      "url": "https://developers.cloudflare.com/workers/framework-guides/web-apps/vike/index.md",
+      "label": "Vike"
+    },
+    {
+      "url": "https://developers.cloudflare.com/workers/framework-guides/web-apps/vue/index.md",
+      "label": "Vue"
+    },
+    {
+      "url": "https://developers.cloudflare.com/workers/get-started/dashboard/index.md",
+      "label": "Dashboard"
+    },
+    {
+      "url": "https://developers.cloudflare.com/workers/get-started/guide/index.md",
+      "label": "CLI"
+    },
+    {
+      "url": "https://developers.cloudflare.com/workers/get-started/prompting/index.md",
+      "label": "Prompting"
+    },
+    {
+      "url": "https://developers.cloudflare.com/workers/get-started/quickstarts/index.md",
+      "label": "Templates"
+    },
+    {
+      "url": "https://developers.cloudflare.com/workers/platform/betas/index.md",
+      "label": "Betas"
+    },
+    {
+      "url": "https://developers.cloudflare.com/workers/platform/built-with-cloudflare/index.md",
+      "label": "Built with Cloudflare button"
+    },
+    {
+      "url": "https://developers.cloudflare.com/workers/platform/changelog/index.md",
+      "label": "Changelog"
+    },
+    {
+      "url": "https://developers.cloudflare.com/workers/platform/changelog/historical-changelog/index.md",
+      "label": "Workers (Historic)"
+    },
+    {
+      "url": "https://developers.cloudflare.com/workers/platform/claim-deployments/index.md",
+      "label": "Claim deployments (temporary accounts)"
+    },
+    {
+      "url": "https://developers.cloudflare.com/workers/platform/deploy-buttons/index.md",
+      "label": "Deploy to Cloudflare buttons"
+    },
+    {
+      "url": "https://developers.cloudflare.com/workers/platform/infrastructure-as-code/index.md",
+      "label": "Infrastructure as Code (IaC)"
+    },
+    {
+      "url": "https://developers.cloudflare.com/workers/platform/known-issues/index.md",
+      "label": "Known issues"
+    },
+    {
+      "url": "https://developers.cloudflare.com/workers/platform/limits/index.md",
+      "label": "Limits"
+    },
+    {
+      "url": "https://developers.cloudflare.com/workers/platform/pricing/index.md",
+      "label": "Pricing"
+    },
+    {
+      "url": "https://developers.cloudflare.com/workers/platform/storage-options/index.md",
+      "label": "Choose a data or storage product"
+    },
+    {
+      "url": "https://developers.cloudflare.com/cloudflare-for-platforms/workers-for-platforms/index.md",
+      "label": "Workers for Platforms"
+    },
+    {
+      "url": "https://developers.cloudflare.com/workers/reference/how-the-cache-works/index.md",
+      "label": "How the Cache works"
+    },
+    {
+      "url": "https://developers.cloudflare.com/workers/reference/how-workers-works/index.md",
+      "label": "How Workers works"
+    },
+    {
+      "url": "https://developers.cloudflare.com/workers/reference/migrate-to-module-workers/index.md",
+      "label": "Migrate from Service Workers to ES Modules"
+    },
+    {
+      "url": "https://developers.cloudflare.com/workers/reference/protocols/index.md",
+      "label": "Protocols"
+    },
+    {
+      "url": "https://developers.cloudflare.com/workers/reference/security-model/index.md",
+      "label": "Security model"
+    },
+    {
+      "url": "https://developers.cloudflare.com/workers/`",
+      "label": "> Links below point directly to Markdown versions of each page. Any page can also be retrieved as Markdown by sending an `Accept: text/markdown` header to the p"
+    }
+  ],
+  "body_sha256": "884ddfdbc398ac84047a39ba3acfec9bf1f8e299c3f37bebab4442615f0fbde7",
+  "status": 200,
+  "origin": "frozen-corpus",
+  "retrieved_at": "2026-09-24T22:49:11.539579+00:00"
+}

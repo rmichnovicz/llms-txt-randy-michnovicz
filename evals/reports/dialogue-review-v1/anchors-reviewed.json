@@ -1,0 +1,315 @@
+{
+  "source_run": "dialogue-review-v1",
+  "results": [
+    {
+      "case_id": "developer-or-buyer",
+      "judge_prompt_version": "dialogue-review-v1",
+      "payload_sha256": "28c54e29b3d26676f107ccb47ebec15f92da4699e7fd1dc26047fbae58ec2951",
+      "advisory": true,
+      "model": "gpt-6-sol",
+      "judgment": {
+        "scores": {
+          "question_value": 2,
+          "options": 2,
+          "recommendation_reason": 1,
+          "answer_fidelity": 2,
+          "decision_lifecycle": 2
+        },
+        "issues": [
+          {
+            "dimension": "recommendation_reason",
+            "stage": "first",
+            "quote": "\"recommendedOption\": null",
+            "reason": "The question has no tentative recommendation. The overview link is a reversible draft choice, but the response does not recommend an option for resolving the API-versus-plans decision."
+          },
+          {
+            "dimension": "recommendation_reason",
+            "stage": "removed",
+            "quote": "The guide provisionally links to the API resource. The one-link limit makes the intended audience consequential.",
+            "reason": "The API link is provisional, but the explanation does not ground choosing it over plans when the intended audience remains unknown; the question again has no recommended option."
+          }
+        ],
+        "summary": "The dialogue asks the consequential one-link question and honors both the API answer and the custom buyers-only answer. It handles dismissal, extra-question mode, and removal appropriately. Its main weakness is the missing grounded tentative recommendation."
+      },
+      "anchor_errors": [],
+      "usage": {
+        "input_tokens": 2893,
+        "input_tokens_details": {
+          "cache_write_tokens": 2890,
+          "cached_tokens": 0
+        },
+        "output_tokens": 447,
+        "output_tokens_details": {
+          "reasoning_tokens": 180
+        },
+        "total_tokens": 3340
+      },
+      "original_anchor_errors": [
+        {
+          "dimension": "recommendation_reason",
+          "stage": "first",
+          "quote": "\"recommendedOption\": null",
+          "reason": "The question has no tentative recommendation. The overview link is a reversible draft choice, but the response does not recommend an option for resolving the API-versus-plans decision."
+        }
+      ]
+    },
+    {
+      "case_id": "no-filler-local-service-scope",
+      "judge_prompt_version": "dialogue-review-v1",
+      "payload_sha256": "652a888a7f4a2b13d3c4248c52906f59054ba0dd80ff5292badb7e268d2b8db4",
+      "advisory": true,
+      "model": "gpt-6-sol",
+      "judgment": {
+        "scores": {
+          "question_value": 2,
+          "options": 2,
+          "recommendation_reason": 2,
+          "answer_fidelity": 2,
+          "decision_lifecycle": 2
+        },
+        "issues": [],
+        "summary": "The supplied pages support a useful guide without clarification. The draft accurately covers services, geographic limits, appointment hours, and the lack of emergency callouts. No question or decision branches were exercised; their scores are not-applicable, not evidence of success."
+      },
+      "anchor_errors": [],
+      "usage": {
+        "input_tokens": 1007,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 140,
+        "output_tokens_details": {
+          "reasoning_tokens": 43
+        },
+        "total_tokens": 1147
+      },
+      "original_anchor_errors": []
+    },
+    {
+      "case_id": "no-filler-question-only-no-filler",
+      "judge_prompt_version": "dialogue-review-v1",
+      "payload_sha256": "bede4e745b397c3e463d9f3449f6164139ead220e9b002f77c5b475caf9a5dc9",
+      "advisory": true,
+      "model": "gpt-6-sol",
+      "judgment": {
+        "scores": {
+          "question_value": 2,
+          "options": 2,
+          "recommendation_reason": 2,
+          "answer_fidelity": 2,
+          "decision_lifecycle": 2
+        },
+        "issues": [],
+        "summary": "The supplied pages support a useful default, and the questions-only response correctly asks no filler questions or dismissed topics. Options, recommendation, and answer fidelity were not exercised; their scores are not evidence of success."
+      },
+      "anchor_errors": [],
+      "usage": {
+        "input_tokens": 772,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 129,
+        "output_tokens_details": {
+          "reasoning_tokens": 41
+        },
+        "total_tokens": 901
+      },
+      "original_anchor_errors": []
+    },
+    {
+      "case_id": "no-filler-sparse-portfolio",
+      "judge_prompt_version": "dialogue-review-v1",
+      "payload_sha256": "a82189b40b9e463a62c293c14e397826787d0ffdcb8af548f112d5a855312c15",
+      "advisory": true,
+      "model": "gpt-6-sol",
+      "judgment": {
+        "scores": {
+          "question_value": 2,
+          "options": 2,
+          "recommendation_reason": 2,
+          "answer_fidelity": 2,
+          "decision_lifecycle": 2
+        },
+        "issues": [],
+        "summary": "The available evidence supports a useful guide without clarification. No question was needed; the other dimensions were not exercised."
+      },
+      "anchor_errors": [],
+      "usage": {
+        "input_tokens": 857,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 108,
+        "output_tokens_details": {
+          "reasoning_tokens": 39
+        },
+        "total_tokens": 965
+      },
+      "original_anchor_errors": []
+    },
+    {
+      "case_id": "real-shipping-conflict",
+      "judge_prompt_version": "dialogue-review-v1",
+      "payload_sha256": "4dd63313ad78ad7013137318f534d5e11c1d69446057fccd8aa0f3aa4ccdd7ae",
+      "advisory": true,
+      "model": "gpt-6-sol",
+      "judgment": {
+        "scores": {
+          "question_value": 2,
+          "options": 1,
+          "recommendation_reason": 1,
+          "answer_fidelity": 1,
+          "decision_lifecycle": 2
+        },
+        "issues": [
+          {
+            "dimension": "options",
+            "stage": "first",
+            "quote": "These are distinct offers; clarify which services and destinations each covers.",
+            "reason": "Clarifying the scope is useful, but the option asserts that the conflicting terms are distinct offers before that has been established."
+          },
+          {
+            "dimension": "recommendation_reason",
+            "stage": "first",
+            "quote": "The guide prioritizes shopping and delivery information while flagging a material difference between the two sources' free-delivery terms.",
+            "reason": "The conflict is explained, but no option is recommended. A reversible default—linking the policy without stating a threshold—was available."
+          },
+          {
+            "dimension": "answer_fidelity",
+            "stage": "alternative",
+            "quote": "The shipping policy states that delivery is free for orders over €300 and that delivery to Pickup Points in France is free with no minimum purchase. Shipping costs for other orders are shown at checkout.",
+            "reason": "This follows the selected preference to use the shipping policy, but the guide presents its threshold without noting or citing the conflicting homepage threshold. The explanation mentions that the pages differ; the guide itself does not make that conflict clear."
+          }
+        ],
+        "summary": "The dialogue identifies the consequential conflict and handles the owner update, dismissal, extra-question mode, and removal appropriately. Its main gaps are an unsupported option framing, no initial recommended default, and insufficient conflict disclosure in the shipping-policy branch."
+      },
+      "anchor_errors": [],
+      "usage": {
+        "input_tokens": 6758,
+        "input_tokens_details": {
+          "cache_write_tokens": 6755,
+          "cached_tokens": 0
+        },
+        "output_tokens": 894,
+        "output_tokens_details": {
+          "reasoning_tokens": 516
+        },
+        "total_tokens": 7652
+      },
+      "original_anchor_errors": []
+    },
+    {
+      "case_id": "service-area-conflict",
+      "judge_prompt_version": "dialogue-review-v1",
+      "payload_sha256": "00fe5e3b17932e300b4cc9241f99e0db8464cf2b074d6210651ac6a97de45b80",
+      "advisory": true,
+      "model": "gpt-6-sol",
+      "judgment": {
+        "scores": {
+          "question_value": 2,
+          "options": 1,
+          "recommendation_reason": 2,
+          "answer_fidelity": 2,
+          "decision_lifecycle": 2
+        },
+        "issues": [
+          {
+            "dimension": "options",
+            "stage": "removed",
+            "quote": "\"options\": [\"Yes, San Francisco is served\", \"No, San Francisco is not served\"]",
+            "reason": "The regenerated question offers distinct answers, but unlike the first question it has no defer or unconfirmed choice despite the conflicting pages. An owner who cannot yet verify coverage has no fitting option."
+          }
+        ],
+        "summary": "The dialogue identifies the consequential coverage conflict, recommends cautious wording, and produces useful guides without treating either page as conclusive. The selected, custom, dismissed, and extra-question branches respect their active decisions. The only weakness is the missing uncertainty option in the regenerated question."
+      },
+      "anchor_errors": [],
+      "usage": {
+        "input_tokens": 4130,
+        "input_tokens_details": {
+          "cache_write_tokens": 4127,
+          "cached_tokens": 0
+        },
+        "output_tokens": 689,
+        "output_tokens_details": {
+          "reasoning_tokens": 516
+        },
+        "total_tokens": 4819
+      },
+      "original_anchor_errors": [
+        {
+          "dimension": "options",
+          "stage": "removed",
+          "quote": "\"options\": [\"Yes, San Francisco is served\", \"No, San Francisco is not served\"]",
+          "reason": "The regenerated question offers distinct answers, but unlike the first question it has no defer or unconfirmed choice despite the conflicting pages. An owner who cannot yet verify coverage has no fitting option."
+        }
+      ]
+    },
+    {
+      "case_id": "shelter-priority",
+      "judge_prompt_version": "dialogue-review-v1",
+      "payload_sha256": "5119dec59928a6832943cefd07741cf35c60ebbaf84e17c749a0472d69bd189a",
+      "advisory": true,
+      "model": "gpt-6-sol",
+      "judgment": {
+        "scores": {
+          "question_value": 2,
+          "options": 2,
+          "recommendation_reason": 2,
+          "answer_fidelity": 2,
+          "decision_lifecycle": 2
+        },
+        "issues": [],
+        "summary": "The dialogue identifies the consequential one-link audience choice, offers distinct actionable options, and uses a reversible intake default without claiming to know the owner's intent. Every supplied branch honors its active decision, including the donor and custom answers; dismissal, extra-question mode, and removal are handled appropriately."
+      },
+      "anchor_errors": [],
+      "usage": {
+        "input_tokens": 4363,
+        "input_tokens_details": {
+          "cache_write_tokens": 4360,
+          "cached_tokens": 0
+        },
+        "output_tokens": 259,
+        "output_tokens_details": {
+          "reasoning_tokens": 156
+        },
+        "total_tokens": 4622
+      },
+      "original_anchor_errors": []
+    },
+    {
+      "case_id": "undated-interest-conflict",
+      "judge_prompt_version": "dialogue-review-v1",
+      "payload_sha256": "823186da7e4652e323d0d331799659817490ec4aa1859234616113bc2cc48fd6",
+      "advisory": true,
+      "model": "gpt-6-sol",
+      "judgment": {
+        "scores": {
+          "question_value": 2,
+          "options": 2,
+          "recommendation_reason": 2,
+          "answer_fidelity": 2,
+          "decision_lifecycle": 2
+        },
+        "issues": [],
+        "summary": "The dialogue asks which conflicting, undated rate has been verified, recommends identifying neither as current pending verification, and explains why. Every supplied branch follows its active decision; dismissed and answered questions are not repeated, the removed owner-provided rate is forgotten, and extra-question mode leaves the guide untouched."
+      },
+      "anchor_errors": [],
+      "usage": {
+        "input_tokens": 3968,
+        "input_tokens_details": {
+          "cache_write_tokens": 3965,
+          "cached_tokens": 0
+        },
+        "output_tokens": 191,
+        "output_tokens_details": {
+          "reasoning_tokens": 85
+        },
+        "total_tokens": 4159
+      },
+      "original_anchor_errors": []
+    }
+  ],
+  "anchor_failures": 0
+}

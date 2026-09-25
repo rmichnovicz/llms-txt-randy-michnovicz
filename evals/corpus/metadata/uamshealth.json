@@ -1,0 +1,17 @@
+{
+  "id": "uamshealth",
+  "url": "https://uamshealth.com/llms.txt",
+  "category": "health",
+  "kind": "actual",
+  "split": "development",
+  "discovery": "https://communications.uams.edu/web/news/inside-uams-ai-wayfinding-a-technical-deep-dive-on-the-llms-txt-file-triad/",
+  "retrieved_at": "2026-09-24T22:46:24.200336+00:00",
+  "accepted": true,
+  "status": 200,
+  "final_url": "https://uamshealth.com/llms.txt",
+  "content_type": "text/plain; charset=utf-8",
+  "sha256": "0e8d0feeea12e6939abd0e39c3c8da1e2dfbf691832c793ff9ccc9621106c393",
+  "bytes": 4102,
+  "decode_replacements": 0,
+  "raw_path": "raw/uamshealth.txt"
+}

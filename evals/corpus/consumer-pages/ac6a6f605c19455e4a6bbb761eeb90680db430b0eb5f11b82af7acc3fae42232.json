@@ -1,0 +1,51 @@
+{
+  "url": "https://docs.transitionzero.org/platform/creating-a-scenario.md",
+  "title": "Documentation Index",
+  "content": "> ## Documentation Index\n> Fetch the complete documentation index at: https://docs.transitionzero.org/llms.txt\n> Use this file to discover all available pages before exploring further.\n\n# Creating a Scenario\n\n> How to create a project and configure a new scenario: geography, model type, timeline, and temporal resolution.\n\nIn Scenario Builder, your work is organised into **projects** and **scenarios**:\n\n* A **project** is a container for related scenarios, for example all the scenarios exploring one research question or country\n* A **scenario** explores a single possible future for the electricity system, based on your assumptions about demand, technology, and policy\n\n## 1. Create a project\n\nFrom your workspace, click **New Project**, give it a name, and create it. You can rename or delete a project later from the project page.\n\n<Frame caption=\"Creating a project in Scenario Builder\">\n  <video src=\"https://mintcdn.com/transitionzero/HSEawz0vTgacZg8o/videos/Create-Project-SB3.mp4?fit=max&auto=format&n=HSEawz0vTgacZg8o&q=85&s=e0d6778b00ea627e0ecfad7247bb9023\" controls data-path=\"videos/Create-Project-SB3.mp4\" />\n</Frame>\n\n## 2. Create a scenario\n\nOpen your project and click **New Scenario**. The form has a few core fields plus a **Configuration** section that sets the shape of your model.\n\n<Frame caption=\"Creating a scenario in Scenario Builder\">\n  <video src=\"https://mintcdn.com/transitionzero/HSEawz0vTgacZg8o/videos/SB3.0-Create-Scenario.mp4?fit=max&auto=format&n=HSEawz0vTgacZg8o&q=85&s=63e834ed578d4e3111f95983e987c366\" controls data-path=\"videos/SB3.0-Create-Scenario.mp4\" />\n</Frame>\n\n### Name and research question\n\n* **Name**: a unique name for the scenario (e.g. *Growth economy*)\n* **Research question** *(optional)*: a short description of what the scenario explores (e.g. *A high-growth economy with increased energy demand*). This is also a useful starting point for [AMP](/platform/amp-ai-assistant).\n\n### Geographies and spatial resolution\n\nChoose the **geographies** your scenario covers, then a **spatial resolution** that controls how finely those geographies are divided into nodes:\n\n| Resolution         | What it means                                                                                                                                             |\n| :----------------- | :-------------------------------------------------------------------------------------------------------------------------------------------------------- |\n| **National**       | The whole country is modelled as a single node.                                                                                                           |\n| **Regional**       | The country is split into multiple interconnected nodes (e.g. states, islands, or grid zones), so the model can represent electricity flows between them. |\n| **Multi-national** | Multiple countries are modelled together, with cross-border interconnectors.                                                                              |\n\nThe available resolutions and node counts differ by country. See the [Country models](/countries/overview) section for what each model offers. For more on how spatial detail affects results, see [Model resolution](/methodology/model-resolution#spatial-resolution-geographical-detail).\n\n### Model type\n\nChoose the framework that fits your question:\n\n| Model type             | Best for                                                           | Framework                                    |\n| :--------------------- | :----------------------------------------------------------------- | :------------------------------------------- |\n| **Capacity Expansion** | Multi-year, long-term investment planning at lower time resolution | [TZ-OSeMOSYS](/methodology/model-frameworks) |\n| **Dispatch**           | A single year of operation at high time resolution                 | [PyPSA](/methodology/model-frameworks)       |\n\nSee [Model frameworks](/methodology/model-frameworks) for a fuller comparison and guidance on choosing, and on *soft-linking* a capacity expansion plan into a dispatch model.\n\n### Timeline\n\nSet the years your scenario covers:\n\n* **Capacity Expansion** runs over a range: pick a **Start** and **End** year\n* **Dispatch** models a single year only\n\n### Temporal resolution\n\nTemporal resolution sets how many **time slices** the model uses to represent variation within a year. Each scenario's time slices are the product of *parts of a year* × *parts of a day*:\n\n| Resolution | Time slices | Detail                                  |\n| :--------- | :---------- | :-------------------------------------- |\n| **Low**    | 1           | A single annual average.                |\n| **Medium** | 32          | 4 parts of a year × 8 parts of a day.   |\n| **High**   | 8760        | Full hourly detail (used for Dispatch). |\n\nHigher resolution captures more demand and renewable variability but takes longer to solve. See [Model resolution](/methodology/model-resolution#time-slices) for the trade-offs.\n\n## 3. What happens next\n\nEvery scenario starts from a **calibrated base model** with sensible default inputs, so you can run it immediately to get a least-cost baseline. From there you can:\n\n<Steps>\n  <Step title=\"Customise the inputs\">\n    Adjust any of the model's [input data types](/platform/input-types) to reflect your assumptions. See [Editing Scenarios](/platform/editing-scenarios) for how.\n  </Step>\n\n  <Step title=\"Run the model\">\n    Click **Run** and follow the [run statuses](/platform/run-statuses) through building, solving, and results.\n  </Step>\n\n  <Step title=\"Explore and compare\">\n    View your results and compare scenarios side by side.\n  </Step>\n</Steps>\n\n<Tip>\n  Only **draft** scenarios can be edited. To change a scenario that has already been run, [duplicate it](/platform/editing-scenarios#duplicating-a-scenario) first.\n</Tip>\n",
+  "links": [
+    {
+      "url": "https://docs.transitionzero.org/platform/amp-ai-assistant",
+      "label": "AMP"
+    },
+    {
+      "url": "https://docs.transitionzero.org/countries/overview",
+      "label": "Country models"
+    },
+    {
+      "url": "https://docs.transitionzero.org/methodology/model-resolution#spatial-resolution-geographical-detail",
+      "label": "Model resolution"
+    },
+    {
+      "url": "https://docs.transitionzero.org/methodology/model-frameworks",
+      "label": "TZ-OSeMOSYS"
+    },
+    {
+      "url": "https://docs.transitionzero.org/methodology/model-frameworks",
+      "label": "PyPSA"
+    },
+    {
+      "url": "https://docs.transitionzero.org/methodology/model-frameworks",
+      "label": "Model frameworks"
+    },
+    {
+      "url": "https://docs.transitionzero.org/methodology/model-resolution#time-slices",
+      "label": "Model resolution"
+    },
+    {
+      "url": "https://docs.transitionzero.org/llms.txt",
+      "label": "> Fetch the complete documentation index at: https://docs.transitionzero.org/llms.txt"
+    },
+    {
+      "url": "https://mintcdn.com/transitionzero/HSEawz0vTgacZg8o/videos/Create-Project-SB3.mp4?fit=max&auto=format&n=HSEawz0vTgacZg8o&q=85&s=e0d6778b00ea627e0ecfad7247bb9023",
+      "label": "<video src=\"https://mintcdn.com/transitionzero/HSEawz0vTgacZg8o/videos/Create-Project-SB3.mp4?fit=max&auto=format&n=HSEawz0vTgacZg8o&q=85&s=e0d6778b00ea627e0ecf"
+    },
+    {
+      "url": "https://mintcdn.com/transitionzero/HSEawz0vTgacZg8o/videos/SB3.0-Create-Scenario.mp4?fit=max&auto=format&n=HSEawz0vTgacZg8o&q=85&s=63e834ed578d4e3111f95983e987c366",
+      "label": "<video src=\"https://mintcdn.com/transitionzero/HSEawz0vTgacZg8o/videos/SB3.0-Create-Scenario.mp4?fit=max&auto=format&n=HSEawz0vTgacZg8o&q=85&s=63e834ed578d4e311"
+    }
+  ],
+  "body_sha256": "33af6a767a0b33581b4bb139f417b52d7f3b982c09406bc80f8de7da1450c896",
+  "status": 200,
+  "origin": "frozen-corpus",
+  "retrieved_at": "2026-09-24T22:49:20.179275+00:00"
+}

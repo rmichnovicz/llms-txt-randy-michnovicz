@@ -1,0 +1,399 @@
+{
+  "parser_version": "corpus-v2",
+  "headings": [
+    {
+      "level": 1,
+      "text": "PackMojo",
+      "line": 1
+    },
+    {
+      "level": 2,
+      "text": "Product Categories",
+      "line": 14
+    },
+    {
+      "level": 2,
+      "text": "Platform & Ordering",
+      "line": 38
+    },
+    {
+      "level": 2,
+      "text": "Samples",
+      "line": 44
+    },
+    {
+      "level": 2,
+      "text": "Services",
+      "line": 57
+    },
+    {
+      "level": 2,
+      "text": "Company, Sustainability, and Support",
+      "line": 63
+    },
+    {
+      "level": 2,
+      "text": "API and Data Access",
+      "line": 71
+    },
+    {
+      "level": 2,
+      "text": "Optional",
+      "line": 76
+    }
+  ],
+  "links": [
+    {
+      "label": "Mailer Boxes",
+      "url": "https://packmojo.com/custom-packaging/mailer-boxes/",
+      "canonical": "https://packmojo.com/custom-packaging/mailer-boxes/",
+      "raw_url": "https://packmojo.com/custom-packaging/mailer-boxes/",
+      "description": "Corrugated shipping boxes with styles including standard, no dust flaps, no flaps, and with adhesive. MOQ 100 units.",
+      "line": 16
+    },
+    {
+      "label": "Folding Carton Boxes",
+      "url": "https://packmojo.com/custom-packaging/folding-carton-boxes/",
+      "canonical": "https://packmojo.com/custom-packaging/folding-carton-boxes/",
+      "raw_url": "https://packmojo.com/custom-packaging/folding-carton-boxes/",
+      "description": "Paperboard product boxes including reverse tuck end, straight tuck end, snap lock, auto bottom. MOQ 100–300 units.",
+      "line": 17
+    },
+    {
+      "label": "Rigid Boxes",
+      "url": "https://packmojo.com/custom-packaging/rigid-boxes/",
+      "canonical": "https://packmojo.com/custom-packaging/rigid-boxes/",
+      "raw_url": "https://packmojo.com/custom-packaging/rigid-boxes/",
+      "description": "Premium chipboard boxes (full cover lid, partial cover lid, shoulder & neck). MOQ 300 units.",
+      "line": 18
+    },
+    {
+      "label": "Rigid Drawer Boxes",
+      "url": "https://packmojo.com/custom-packaging/rigid-drawer-boxes/",
+      "canonical": "https://packmojo.com/custom-packaging/rigid-drawer-boxes/",
+      "raw_url": "https://packmojo.com/custom-packaging/rigid-drawer-boxes/",
+      "description": "Tray + sleeve with ribbon pull or thumb notch. MOQ 300 units.",
+      "line": 19
+    },
+    {
+      "label": "Magnetic Rigid Boxes",
+      "url": "https://packmojo.com/custom-packaging/magnetic-closure-boxes/",
+      "canonical": "https://packmojo.com/custom-packaging/magnetic-closure-boxes/",
+      "raw_url": "https://packmojo.com/custom-packaging/magnetic-closure-boxes/",
+      "description": "Hinged magnetic closure (non-collapsible and collapsible). MOQ 300 units.",
+      "line": 20
+    },
+    {
+      "label": "Tray & Sleeve Boxes",
+      "url": "https://packmojo.com/custom-packaging/tray-and-sleeve-boxes/",
+      "canonical": "https://packmojo.com/custom-packaging/tray-and-sleeve-boxes/",
+      "raw_url": "https://packmojo.com/custom-packaging/tray-and-sleeve-boxes/",
+      "description": "Foldable tray and sleeve boxes with thin or thick walls. MOQ 300 units.",
+      "line": 21
+    },
+    {
+      "label": "Foldable Lid & Base Boxes",
+      "url": "https://packmojo.com/custom-packaging/foldable-lid-and-base-boxes/",
+      "canonical": "https://packmojo.com/custom-packaging/foldable-lid-and-base-boxes/",
+      "raw_url": "https://packmojo.com/custom-packaging/foldable-lid-and-base-boxes/",
+      "description": "Two-piece foldable lid/base alternative to rigid boxes. MOQ 300 units.",
+      "line": 22
+    },
+    {
+      "label": "Packaging Sleeves",
+      "url": "https://packmojo.com/custom-packaging/packaging-sleeves/",
+      "canonical": "https://packmojo.com/custom-packaging/packaging-sleeves/",
+      "raw_url": "https://packmojo.com/custom-packaging/packaging-sleeves/",
+      "description": "Pre-glued sleeves, sleeves with adhesive, and flat sleeves. MOQ 500 units.",
+      "line": 23
+    },
+    {
+      "label": "Custom Box Inserts",
+      "url": "https://packmojo.com/custom-packaging/custom-box-inserts/",
+      "canonical": "https://packmojo.com/custom-packaging/custom-box-inserts/",
+      "raw_url": "https://packmojo.com/custom-packaging/custom-box-inserts/",
+      "description": "Cardboard inserts for holding products securely inside packaging.",
+      "line": 24
+    },
+    {
+      "label": "Custom Foam Inserts",
+      "url": "https://packmojo.com/custom-packaging/custom-foam-inserts/",
+      "canonical": "https://packmojo.com/custom-packaging/custom-foam-inserts/",
+      "raw_url": "https://packmojo.com/custom-packaging/custom-foam-inserts/",
+      "description": "Foam inserts for additional product protection and presentation.",
+      "line": 25
+    },
+    {
+      "label": "Molded Pulp Inserts",
+      "url": "https://packmojo.com/custom-packaging/molded-pulp-inserts/",
+      "canonical": "https://packmojo.com/custom-packaging/molded-pulp-inserts/",
+      "raw_url": "https://packmojo.com/custom-packaging/molded-pulp-inserts/",
+      "description": "Molded pulp insert options for protective and sustainable packaging.",
+      "line": 26
+    },
+    {
+      "label": "Display Boxes",
+      "url": "https://packmojo.com/custom-packaging/display-boxes/",
+      "canonical": "https://packmojo.com/custom-packaging/display-boxes/",
+      "raw_url": "https://packmojo.com/custom-packaging/display-boxes/",
+      "description": "Display boxes with or without dust flaps; machine-packed options available.",
+      "line": 27
+    },
+    {
+      "label": "Cardboard Tubes",
+      "url": "https://packmojo.com/custom-packaging/cardboard-tubes/",
+      "canonical": "https://packmojo.com/custom-packaging/cardboard-tubes/",
+      "raw_url": "https://packmojo.com/custom-packaging/cardboard-tubes/",
+      "description": "Premium round packaging. MOQ 1,000 units.",
+      "line": 28
+    },
+    {
+      "label": "Paper Bags",
+      "url": "https://packmojo.com/custom-packaging/paper-bags/",
+      "canonical": "https://packmojo.com/custom-packaging/paper-bags/",
+      "raw_url": "https://packmojo.com/custom-packaging/paper-bags/",
+      "description": "Paper bags with ribbon, rope, or twisted handles. MOQ 500–2,000 units.",
+      "line": 29
+    },
+    {
+      "label": "Custom Pouches",
+      "url": "https://packmojo.com/custom-packaging/custom-pouches/",
+      "canonical": "https://packmojo.com/custom-packaging/custom-pouches/",
+      "raw_url": "https://packmojo.com/custom-packaging/custom-pouches/",
+      "description": "Resealable stand-up and flat pouches, including food-grade options. MOQ 300 units.",
+      "line": 30
+    },
+    {
+      "label": "Custom Stickers",
+      "url": "https://packmojo.com/custom-packaging/custom-stickers/",
+      "canonical": "https://packmojo.com/custom-packaging/custom-stickers/",
+      "raw_url": "https://packmojo.com/custom-packaging/custom-stickers/",
+      "description": "Custom stickers and labels for branded packaging.",
+      "line": 31
+    },
+    {
+      "label": "Tissue Paper",
+      "url": "https://packmojo.com/custom-packaging/tissue-paper/",
+      "canonical": "https://packmojo.com/custom-packaging/tissue-paper/",
+      "raw_url": "https://packmojo.com/custom-packaging/tissue-paper/",
+      "description": "Custom tissue paper for branded wrapping and inserts.",
+      "line": 32
+    },
+    {
+      "label": "Hang Tags",
+      "url": "https://packmojo.com/custom-packaging/hang-tags/",
+      "canonical": "https://packmojo.com/custom-packaging/hang-tags/",
+      "raw_url": "https://packmojo.com/custom-packaging/hang-tags/",
+      "description": "Custom hang tags for retail and product packaging.",
+      "line": 33
+    },
+    {
+      "label": "Playing Cards",
+      "url": "https://packmojo.com/custom-packaging/custom-playing-cards/",
+      "canonical": "https://packmojo.com/custom-packaging/custom-playing-cards/",
+      "raw_url": "https://packmojo.com/custom-packaging/custom-playing-cards/",
+      "description": "Custom printed playing cards.",
+      "line": 34
+    },
+    {
+      "label": "Cake Boxes",
+      "url": "https://packmojo.com/custom-packaging/cake-boxes/",
+      "canonical": "https://packmojo.com/custom-packaging/cake-boxes/",
+      "raw_url": "https://packmojo.com/custom-packaging/cake-boxes/",
+      "description": "Specialty cake packaging.",
+      "line": 35
+    },
+    {
+      "label": "Pillow Boxes",
+      "url": "https://packmojo.com/custom-packaging/pillow-boxes/",
+      "canonical": "https://packmojo.com/custom-packaging/pillow-boxes/",
+      "raw_url": "https://packmojo.com/custom-packaging/pillow-boxes/",
+      "description": "Specialty pillow-shaped boxes.",
+      "line": 36
+    },
+    {
+      "label": "PackMojo Platform",
+      "url": "https://packmojo.com/platform/",
+      "canonical": "https://packmojo.com/platform/",
+      "raw_url": "https://packmojo.com/platform/",
+      "description": "Configure specs, compare multi-quantity quotes, choose shipping (air/ocean; split shipments), download dielines, upload artwork, and track orders.",
+      "line": 40
+    },
+    {
+      "label": "Dieline Templates",
+      "url": "https://packmojo.com/packaging-dielines/",
+      "canonical": "https://packmojo.com/packaging-dielines/",
+      "raw_url": "https://packmojo.com/packaging-dielines/",
+      "description": "Standard templates available; custom dielines provided after a paid sample or production order.",
+      "line": 41
+    },
+    {
+      "label": "PackMojo App",
+      "url": "https://app.packmojo.com/",
+      "canonical": "https://app.packmojo.com/",
+      "raw_url": "https://app.packmojo.com/",
+      "description": "Authenticated platform for quotes, payment, order tracking, and product data. Quotes require 100% prepayment before production, with other payment options available for repeat customers.",
+      "line": 42
+    },
+    {
+      "label": "Samples Overview",
+      "url": "https://packmojo.com/samples/",
+      "canonical": "https://packmojo.com/samples/",
+      "raw_url": "https://packmojo.com/samples/",
+      "description": "Overview of custom sample options.",
+      "line": 48
+    },
+    {
+      "label": "Sample Kit",
+      "url": "https://packmojo.com/samples/sample-kit/",
+      "canonical": "https://packmojo.com/samples/sample-kit/",
+      "raw_url": "https://packmojo.com/samples/sample-kit/",
+      "description": "Curated selection including a mailer, folding carton, rigid boxes, sleeve, insert, and swatches; reimbursable on a first production order.",
+      "line": 49
+    },
+    {
+      "label": "Structural Sample",
+      "url": "https://packmojo.com/samples/structural-sample/",
+      "canonical": "https://packmojo.com/samples/structural-sample/",
+      "raw_url": "https://packmojo.com/samples/structural-sample/",
+      "description": "Blank or unprinted sample to validate size and structure; available for most products.",
+      "line": 50
+    },
+    {
+      "label": "Simplified Sample",
+      "url": "https://packmojo.com/samples/simplified-sample/",
+      "canonical": "https://packmojo.com/samples/simplified-sample/",
+      "raw_url": "https://packmojo.com/samples/simplified-sample/",
+      "description": "Low-fidelity CMYK print to visualize artwork on packaging; excludes finishes/add-ons and is not available for rigid boxes.",
+      "line": 51
+    },
+    {
+      "label": "Pre-Production Sample",
+      "url": "https://packmojo.com/samples/pre-production-sample/",
+      "canonical": "https://packmojo.com/samples/pre-production-sample/",
+      "raw_url": "https://packmojo.com/samples/pre-production-sample/",
+      "description": "Full-spec 1:1 production sample including print, finishes, and add-ons; ideal for final validation.",
+      "line": 52
+    },
+    {
+      "label": "Print Proof",
+      "url": "https://packmojo.com/samples/digital-print-proof/",
+      "canonical": "https://packmojo.com/samples/digital-print-proof/",
+      "raw_url": "https://packmojo.com/samples/digital-print-proof/",
+      "description": "2D CMYK proof on proof paper to check color and artwork alignment.",
+      "line": 53
+    },
+    {
+      "label": "Press Proof",
+      "url": "https://packmojo.com/samples/press-proof/",
+      "canonical": "https://packmojo.com/samples/press-proof/",
+      "raw_url": "https://packmojo.com/samples/press-proof/",
+      "description": "2D proof on the production press and material for exact colors with finishes and add-ons.",
+      "line": 54
+    },
+    {
+      "label": "Pantone Color Chip",
+      "url": "https://packmojo.com/samples/pantone-color-chip/",
+      "canonical": "https://packmojo.com/samples/pantone-color-chip/",
+      "raw_url": "https://packmojo.com/samples/pantone-color-chip/",
+      "description": "Physical Pantone color reference.",
+      "line": 55
+    },
+    {
+      "label": "Structural Design Service",
+      "url": "https://packmojo.com/services/structural-design/",
+      "canonical": "https://packmojo.com/services/structural-design/",
+      "raw_url": "https://packmojo.com/services/structural-design/",
+      "description": "Insert and complex structure design by packaging engineers; Essential and Premium packages include reimbursable amounts, structural samples, and proofs per tier.",
+      "line": 61
+    },
+    {
+      "label": "About PackMojo",
+      "url": "https://packmojo.com/about/",
+      "canonical": "https://packmojo.com/about/",
+      "raw_url": "https://packmojo.com/about/",
+      "description": "Mission, team, and approach to quality and customer support.",
+      "line": 65
+    },
+    {
+      "label": "Sustainability",
+      "url": "https://packmojo.com/sustainability/",
+      "canonical": "https://packmojo.com/sustainability/",
+      "raw_url": "https://packmojo.com/sustainability/",
+      "description": "FSC™-certified materials (FSC™-C198591), recycled content, soy-based inks, and aqueous finishes.",
+      "line": 66
+    },
+    {
+      "label": "Packaging Showcases",
+      "url": "https://packmojo.com/showcase/",
+      "canonical": "https://packmojo.com/showcase/",
+      "raw_url": "https://packmojo.com/showcase/",
+      "description": "Real-world customer stories and images across product types.",
+      "line": 67
+    },
+    {
+      "label": "Help Center",
+      "url": "https://packmojo.com/help/",
+      "canonical": "https://packmojo.com/help/",
+      "raw_url": "https://packmojo.com/help/",
+      "description": "Platform navigation, FAQs, and how-tos.",
+      "line": 68
+    },
+    {
+      "label": "Contact PackMojo",
+      "url": "https://packmojo.com/contact/",
+      "canonical": "https://packmojo.com/contact/",
+      "raw_url": "https://packmojo.com/contact/",
+      "description": "Contact page for quotes, support, partnerships, and data access requests.",
+      "line": 69
+    },
+    {
+      "label": "PackMojo App",
+      "url": "https://app.packmojo.com/",
+      "canonical": "https://app.packmojo.com/",
+      "raw_url": "https://app.packmojo.com/",
+      "description": "Authenticated platform for product and pricing data. No public API is currently available.",
+      "line": 73
+    },
+    {
+      "label": "Contact PackMojo",
+      "url": "https://packmojo.com/contact/",
+      "canonical": "https://packmojo.com/contact/",
+      "raw_url": "https://packmojo.com/contact/",
+      "description": "Partnership and data access requests.",
+      "line": 74
+    },
+    {
+      "label": "Blog",
+      "url": "https://packmojo.com/blog/",
+      "canonical": "https://packmojo.com/blog/",
+      "raw_url": "https://packmojo.com/blog/",
+      "description": "Packaging tips, sustainability practices, and industry insights.",
+      "line": 78
+    },
+    {
+      "label": "PackMojo Home",
+      "url": "https://packmojo.com/",
+      "canonical": "https://packmojo.com/",
+      "raw_url": "https://packmojo.com/",
+      "description": "Preferred canonical URL for PackMojo.",
+      "line": 79
+    }
+  ],
+  "bare_links": [],
+  "metrics": {
+    "bytes": 7622,
+    "words": 785,
+    "lines": 79,
+    "approx_tokens_chars_div_4": 1900,
+    "h1_count": 1,
+    "link_count": 42,
+    "bare_url_count": 0,
+    "described_links": 42,
+    "unique_destinations": 40,
+    "markdown_destinations": 0
+  },
+  "flags": [
+    "duplicate-destinations-review"
+  ]
+}

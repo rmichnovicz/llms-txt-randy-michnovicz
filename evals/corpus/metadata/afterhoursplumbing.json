@@ -1,0 +1,17 @@
+{
+  "id": "afterhoursplumbing",
+  "url": "https://afterhoursplumbing.com.au/llms.txt",
+  "category": "local-services",
+  "kind": "actual",
+  "split": "development",
+  "discovery": "https://llmstxt.site/",
+  "retrieved_at": "2026-09-24T22:46:22.830068+00:00",
+  "accepted": true,
+  "status": 200,
+  "final_url": "https://afterhoursplumbing.com.au/llms.txt",
+  "content_type": "text/plain; charset=UTF-8",
+  "sha256": "15ee4324b4d4ee1bc0de7f4d7797d9d76044313a51b2d61cbfe489cccf96d137",
+  "bytes": 382665,
+  "decode_replacements": 0,
+  "raw_path": "raw/afterhoursplumbing.txt"
+}

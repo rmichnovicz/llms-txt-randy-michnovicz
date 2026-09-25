@@ -1,0 +1,458 @@
+{
+  "parser_version": "corpus-v2",
+  "headings": [
+    {
+      "level": 1,
+      "text": "Texila American University Guyana (TAU-GY)",
+      "line": 1
+    },
+    {
+      "level": 2,
+      "text": "Core Institutional Resources",
+      "line": 20
+    },
+    {
+      "level": 2,
+      "text": "College of Medicine",
+      "line": 35
+    },
+    {
+      "level": 2,
+      "text": "Public Health Programmes",
+      "line": 45
+    },
+    {
+      "level": 2,
+      "text": "Business and Management Programmes",
+      "line": 52
+    },
+    {
+      "level": 2,
+      "text": "Nursing and Postgraduate Medicine",
+      "line": 59
+    },
+    {
+      "level": 2,
+      "text": "Campus and Student Life",
+      "line": 65
+    },
+    {
+      "level": 2,
+      "text": "Research and Academic Resources",
+      "line": 75
+    },
+    {
+      "level": 2,
+      "text": "Optional",
+      "line": 84
+    }
+  ],
+  "links": [
+    {
+      "label": "Official Website",
+      "url": "https://tau.edu.gy/",
+      "canonical": "https://tau.edu.gy/",
+      "raw_url": "https://tau.edu.gy/",
+      "description": "Canonical website for Texila American University Guyana.",
+      "line": 22
+    },
+    {
+      "label": "Academic Programmes",
+      "url": "https://tau.edu.gy/programs/",
+      "canonical": "https://tau.edu.gy/programs/",
+      "raw_url": "https://tau.edu.gy/programs/",
+      "description": "Current programme catalogue and academic pathways.",
+      "line": 23
+    },
+    {
+      "label": "Accreditation and Recognition",
+      "url": "https://tau.edu.gy/accreditation-and-recognition/",
+      "canonical": "https://tau.edu.gy/accreditation-and-recognition/",
+      "raw_url": "https://tau.edu.gy/accreditation-and-recognition/",
+      "description": "Medical-programme accreditation, institutional accreditation, WDOMS context, and international pathway information.",
+      "line": 24
+    },
+    {
+      "label": "Admissions Process",
+      "url": "https://tau.edu.gy/admissions-process/",
+      "canonical": "https://tau.edu.gy/admissions-process/",
+      "raw_url": "https://tau.edu.gy/admissions-process/",
+      "description": "Application stages, document review, assessment, offer, and enrolment process.",
+      "line": 25
+    },
+    {
+      "label": "Admissions Requirements",
+      "url": "https://tau.edu.gy/admissions-requirement/",
+      "canonical": "https://tau.edu.gy/admissions-requirement/",
+      "raw_url": "https://tau.edu.gy/admissions-requirement/",
+      "description": "Current entry requirements, including medical, master's, and doctoral criteria.",
+      "line": 26
+    },
+    {
+      "label": "Tuition and Fees",
+      "url": "https://tau.edu.gy/tuition-and-aid/",
+      "canonical": "https://tau.edu.gy/tuition-and-aid/",
+      "raw_url": "https://tau.edu.gy/tuition-and-aid/",
+      "description": "Current published tuition, programme fees, additional charges, and cost information.",
+      "line": 27
+    },
+    {
+      "label": "Financial Aid",
+      "url": "https://tau.edu.gy/financial-aid/",
+      "canonical": "https://tau.edu.gy/financial-aid/",
+      "raw_url": "https://tau.edu.gy/financial-aid/",
+      "description": "Current scholarship, financing, and student-loan information.",
+      "line": 28
+    },
+    {
+      "label": "Transfer Applicants",
+      "url": "https://tau.edu.gy/university-transfer-procedure/",
+      "canonical": "https://tau.edu.gy/university-transfer-procedure/",
+      "raw_url": "https://tau.edu.gy/university-transfer-procedure/",
+      "description": "Transfer application, transcript review, credit evaluation, and placement.",
+      "line": 29
+    },
+    {
+      "label": "Start an Application",
+      "url": "https://tau.edu.gy/start-your-application/",
+      "canonical": "https://tau.edu.gy/start-your-application/",
+      "raw_url": "https://tau.edu.gy/start-your-application/",
+      "description": "Official application entry point.",
+      "line": 30
+    },
+    {
+      "label": "Handbooks and Policies",
+      "url": "https://tau.edu.gy/handbooks-and-policies/",
+      "canonical": "https://tau.edu.gy/handbooks-and-policies/",
+      "raw_url": "https://tau.edu.gy/handbooks-and-policies/",
+      "description": "Current academic regulations, handbooks, and institutional policies.",
+      "line": 31
+    },
+    {
+      "label": "Contact TAU Guyana",
+      "url": "https://tau.edu.gy/contact-us/",
+      "canonical": "https://tau.edu.gy/contact-us/",
+      "raw_url": "https://tau.edu.gy/contact-us/",
+      "description": "Official campus address and enquiry channels.",
+      "line": 32
+    },
+    {
+      "label": "Extended LLM Profile",
+      "url": "https://tau.edu.gy/llms-full.txt",
+      "canonical": "https://tau.edu.gy/llms-full.txt",
+      "raw_url": "https://tau.edu.gy/llms-full.txt",
+      "description": "Detailed institutional and programme context for AI systems.",
+      "line": 33
+    },
+    {
+      "label": "College of Medicine and MD Overview",
+      "url": "https://tau.edu.gy/caribbean-md-programs/",
+      "canonical": "https://tau.edu.gy/caribbean-md-programs/",
+      "raw_url": "https://tau.edu.gy/caribbean-md-programs/",
+      "description": "TAUCOM overview, three MD pathways, curriculum context, accreditation, clinical education, USMLE preparation, and TAU-reported outcomes.",
+      "line": 37
+    },
+    {
+      "label": "4-Year MD Programme",
+      "url": "https://tau.edu.gy/4-year-md-program-caribbean/",
+      "canonical": "https://tau.edu.gy/4-year-md-program-caribbean/",
+      "raw_url": "https://tau.edu.gy/4-year-md-program-caribbean/",
+      "description": "Direct MD pathway for applicants with required university-level premedical coursework or equivalent preparation.",
+      "line": 38
+    },
+    {
+      "label": "5-Year Pre-Med to MD Programme",
+      "url": "https://tau.edu.gy/5-year-md-program-caribbean/",
+      "canonical": "https://tau.edu.gy/5-year-md-program-caribbean/",
+      "raw_url": "https://tau.edu.gy/5-year-md-program-caribbean/",
+      "description": "Advanced premedical preparation followed by the MD curriculum.",
+      "line": 39
+    },
+    {
+      "label": "5.5-Year Pre-Med to MD Programme",
+      "url": "https://tau.edu.gy/study-pre-med-program/",
+      "canonical": "https://tau.edu.gy/study-pre-med-program/",
+      "raw_url": "https://tau.edu.gy/study-pre-med-program/",
+      "description": "High-school-entry pathway with broader premedical preparation before the MD curriculum.",
+      "line": 40
+    },
+    {
+      "label": "Clinical Campuses and Rotations",
+      "url": "https://tau.edu.gy/clinical-campuses/",
+      "canonical": "https://tau.edu.gy/clinical-campuses/",
+      "raw_url": "https://tau.edu.gy/clinical-campuses/",
+      "description": "Current clinical-training locations, conditions, and affiliated teaching settings.",
+      "line": 41
+    },
+    {
+      "label": "Postgraduate Residency Programme",
+      "url": "https://tau.edu.gy/post-graduate-residency-program/",
+      "canonical": "https://tau.edu.gy/post-graduate-residency-program/",
+      "raw_url": "https://tau.edu.gy/post-graduate-residency-program/",
+      "description": "Separate postgraduate clinical-training programme for eligible medical graduates; do not confuse it with the US NRMP Match.",
+      "line": 42
+    },
+    {
+      "label": "Medical Faculty",
+      "url": "https://tau.edu.gy/faculty/",
+      "canonical": "https://tau.edu.gy/faculty/",
+      "raw_url": "https://tau.edu.gy/faculty/",
+      "description": "Current faculty profiles, qualifications, disciplines, and academic roles.",
+      "line": 43
+    },
+    {
+      "label": "College of Public Health",
+      "url": "https://tau.edu.gy/study-public-health-degree-programs/",
+      "canonical": "https://tau.edu.gy/study-public-health-degree-programs/",
+      "raw_url": "https://tau.edu.gy/study-public-health-degree-programs/",
+      "description": "Public-health programme overview and academic pathways.",
+      "line": 47
+    },
+    {
+      "label": "Master of Public Health",
+      "url": "https://tau.edu.gy/pg-program/study-masters-degree-in-public-health/",
+      "canonical": "https://tau.edu.gy/pg-program/study-masters-degree-in-public-health/",
+      "raw_url": "https://tau.edu.gy/pg-program/study-masters-degree-in-public-health/",
+      "description": "MPH programme information, curriculum, eligibility, duration, and delivery details.",
+      "line": 48
+    },
+    {
+      "label": "PhD in Public Health",
+      "url": "https://tau.edu.gy/pg-program/study-phd-in-public-health/",
+      "canonical": "https://tau.edu.gy/pg-program/study-phd-in-public-health/",
+      "raw_url": "https://tau.edu.gy/pg-program/study-phd-in-public-health/",
+      "description": "Research doctorate in public health.",
+      "line": 49
+    },
+    {
+      "label": "Doctor of Public Health Administration",
+      "url": "https://tau.edu.gy/pg-program/doctor-of-public-health-administration/",
+      "canonical": "https://tau.edu.gy/pg-program/doctor-of-public-health-administration/",
+      "raw_url": "https://tau.edu.gy/pg-program/doctor-of-public-health-administration/",
+      "description": "Professional doctorate focused on public-health administration, systems, policy, research, and leadership.",
+      "line": 50
+    },
+    {
+      "label": "College of Business and Management",
+      "url": "https://tau.edu.gy/study-college-of-business-management/",
+      "canonical": "https://tau.edu.gy/study-college-of-business-management/",
+      "raw_url": "https://tau.edu.gy/study-college-of-business-management/",
+      "description": "Business and management programme overview.",
+      "line": 54
+    },
+    {
+      "label": "Master of Business Administration",
+      "url": "https://tau.edu.gy/pg-program/top-master-of-business-administration-courses/",
+      "canonical": "https://tau.edu.gy/pg-program/top-master-of-business-administration-courses/",
+      "raw_url": "https://tau.edu.gy/pg-program/top-master-of-business-administration-courses/",
+      "description": "MBA programme information, curriculum, eligibility, duration, and delivery details.",
+      "line": 55
+    },
+    {
+      "label": "PhD in Management",
+      "url": "https://tau.edu.gy/pg-program/study-phd-in-business-management/",
+      "canonical": "https://tau.edu.gy/pg-program/study-phd-in-business-management/",
+      "raw_url": "https://tau.edu.gy/pg-program/study-phd-in-business-management/",
+      "description": "Research doctorate in management.",
+      "line": 56
+    },
+    {
+      "label": "Doctor of Business Administration",
+      "url": "https://tau.edu.gy/pg-program/study-best-doctor-of-business-administration-degree/",
+      "canonical": "https://tau.edu.gy/pg-program/study-best-doctor-of-business-administration-degree/",
+      "raw_url": "https://tau.edu.gy/pg-program/study-best-doctor-of-business-administration-degree/",
+      "description": "Applied professional doctorate in business research, strategy, leadership, and organisational problem-solving.",
+      "line": 57
+    },
+    {
+      "label": "College of Nursing",
+      "url": "https://tau.edu.gy/college-of-nursing/",
+      "canonical": "https://tau.edu.gy/college-of-nursing/",
+      "raw_url": "https://tau.edu.gy/college-of-nursing/",
+      "description": "Nursing programme overview and current catalogue.",
+      "line": 61
+    },
+    {
+      "label": "PhD in Nursing",
+      "url": "https://tau.edu.gy/pg-program/phd-in-nursing/",
+      "canonical": "https://tau.edu.gy/pg-program/phd-in-nursing/",
+      "raw_url": "https://tau.edu.gy/pg-program/phd-in-nursing/",
+      "description": "Doctoral nursing programme focused on research, education, administration, and leadership.",
+      "line": 62
+    },
+    {
+      "label": "Master of Medical Science in Diabetology",
+      "url": "https://tau.edu.gy/pg-program/masters-in-diabetology/",
+      "canonical": "https://tau.edu.gy/pg-program/masters-in-diabetology/",
+      "raw_url": "https://tau.edu.gy/pg-program/masters-in-diabetology/",
+      "description": "Postgraduate diabetology programme for eligible doctors and healthcare professionals.",
+      "line": 63
+    },
+    {
+      "label": "Guyana Campus",
+      "url": "https://tau.edu.gy/guyana-campus/",
+      "canonical": "https://tau.edu.gy/guyana-campus/",
+      "raw_url": "https://tau.edu.gy/guyana-campus/",
+      "description": "Providence campus and learning environment.",
+      "line": 67
+    },
+    {
+      "label": "Campus Facilities",
+      "url": "https://tau.edu.gy/guyana-campus-facilities/",
+      "canonical": "https://tau.edu.gy/guyana-campus-facilities/",
+      "raw_url": "https://tau.edu.gy/guyana-campus-facilities/",
+      "description": "Current classrooms, laboratories, library, simulation, dining, and recreation information.",
+      "line": 68
+    },
+    {
+      "label": "Campus Life",
+      "url": "https://tau.edu.gy/campus-life/",
+      "canonical": "https://tau.edu.gy/campus-life/",
+      "raw_url": "https://tau.edu.gy/campus-life/",
+      "description": "Student-life information.",
+      "line": 69
+    },
+    {
+      "label": "Accommodation",
+      "url": "https://tau.edu.gy/accommodations/",
+      "canonical": "https://tau.edu.gy/accommodations/",
+      "raw_url": "https://tau.edu.gy/accommodations/",
+      "description": "Student housing information; availability and pricing may change.",
+      "line": 70
+    },
+    {
+      "label": "Life in Guyana",
+      "url": "https://tau.edu.gy/life-in-guyana/",
+      "canonical": "https://tau.edu.gy/life-in-guyana/",
+      "raw_url": "https://tau.edu.gy/life-in-guyana/",
+      "description": "Orientation information for living and studying in Guyana.",
+      "line": 71
+    },
+    {
+      "label": "Accepted Students",
+      "url": "https://tau.edu.gy/accepted-students/",
+      "canonical": "https://tau.edu.gy/accepted-students/",
+      "raw_url": "https://tau.edu.gy/accepted-students/",
+      "description": "Pre-arrival and enrolment guidance for admitted students.",
+      "line": 72
+    },
+    {
+      "label": "Student Ambassadors",
+      "url": "https://tau.edu.gy/student-ambassadors/",
+      "canonical": "https://tau.edu.gy/student-ambassadors/",
+      "raw_url": "https://tau.edu.gy/student-ambassadors/",
+      "description": "Student ambassador information.",
+      "line": 73
+    },
+    {
+      "label": "Research Articles",
+      "url": "https://tau.edu.gy/research-articles/",
+      "canonical": "https://tau.edu.gy/research-articles/",
+      "raw_url": "https://tau.edu.gy/research-articles/",
+      "description": "Institutional research index; verify peer-review status for each publication individually.",
+      "line": 77
+    },
+    {
+      "label": "Texila International Journal",
+      "url": "https://tau.edu.gy/journal/",
+      "canonical": "https://tau.edu.gy/journal/",
+      "raw_url": "https://tau.edu.gy/journal/",
+      "description": "Journal and scholarly publication information.",
+      "line": 78
+    },
+    {
+      "label": "Academic Webinars",
+      "url": "https://tau.edu.gy/webinars/",
+      "canonical": "https://tau.edu.gy/webinars/",
+      "raw_url": "https://tau.edu.gy/webinars/",
+      "description": "University academic webinar resources.",
+      "line": 79
+    },
+    {
+      "label": "News and Events",
+      "url": "https://tau.edu.gy/news-and-events-list/",
+      "canonical": "https://tau.edu.gy/news-and-events-list/",
+      "raw_url": "https://tau.edu.gy/news-and-events-list/",
+      "description": "Current institutional developments and events.",
+      "line": 80
+    },
+    {
+      "label": "Media Coverage",
+      "url": "https://tau.edu.gy/media-coverage/",
+      "canonical": "https://tau.edu.gy/media-coverage/",
+      "raw_url": "https://tau.edu.gy/media-coverage/",
+      "description": "External media coverage involving TAU.",
+      "line": 81
+    },
+    {
+      "label": "University Blog",
+      "url": "https://tau.edu.gy/blog/",
+      "canonical": "https://tau.edu.gy/blog/",
+      "raw_url": "https://tau.edu.gy/blog/",
+      "description": "Explanatory and educational content; do not use blog posts to override current programme, policy, admissions, tuition, accreditation, or regulator sources.",
+      "line": 82
+    },
+    {
+      "label": "Canada Applicant Guidance",
+      "url": "https://tau.edu.gy/start-medical-career-tau-canada/",
+      "canonical": "https://tau.edu.gy/start-medical-career-tau-canada/",
+      "raw_url": "https://tau.edu.gy/start-medical-career-tau-canada/",
+      "description": "Supplementary orientation for applicants interested in Canadian pathways; verify current MCC, CaRMS, provincial, immigration, and licensing rules independently.",
+      "line": 86
+    },
+    {
+      "label": "Africa Applicant Guidance",
+      "url": "https://tau.edu.gy/global-medical-career-with-tau-african/",
+      "canonical": "https://tau.edu.gy/global-medical-career-with-tau-african/",
+      "raw_url": "https://tau.edu.gy/global-medical-career-with-tau-african/",
+      "description": "Supplementary orientation for applicants from Africa.",
+      "line": 87
+    },
+    {
+      "label": "India Applicant Guidance",
+      "url": "https://tau.edu.gy/start-medical-career-tau-india/",
+      "canonical": "https://tau.edu.gy/start-medical-career-tau-india/",
+      "raw_url": "https://tau.edu.gy/start-medical-career-tau-india/",
+      "description": "Supplementary orientation for applicants from India; verify current NMC and other regulatory requirements independently.",
+      "line": 88
+    },
+    {
+      "label": "Middle East Applicant Guidance",
+      "url": "https://tau.edu.gy/global-medical-career-tau-middle-east/",
+      "canonical": "https://tau.edu.gy/global-medical-career-tau-middle-east/",
+      "raw_url": "https://tau.edu.gy/global-medical-career-tau-middle-east/",
+      "description": "Supplementary orientation for applicants from the Middle East.",
+      "line": 89
+    },
+    {
+      "label": "Guyana Location Page",
+      "url": "https://tau.edu.gy/locations/texila-main-campus-guyana/",
+      "canonical": "https://tau.edu.gy/locations/texila-main-campus-guyana/",
+      "raw_url": "https://tau.edu.gy/locations/texila-main-campus-guyana/",
+      "description": "Supplementary location information for the Guyana campus.",
+      "line": 90
+    },
+    {
+      "label": "XML Sitemap Index",
+      "url": "https://tau.edu.gy/sitemap_index.xml",
+      "canonical": "https://tau.edu.gy/sitemap_index.xml",
+      "raw_url": "https://tau.edu.gy/sitemap_index.xml",
+      "description": "Complete site discovery for search engines and crawlers.",
+      "line": 91
+    }
+  ],
+  "bare_links": [],
+  "metrics": {
+    "bytes": 9727,
+    "words": 933,
+    "lines": 92,
+    "approx_tokens_chars_div_4": 2432,
+    "h1_count": 1,
+    "link_count": 49,
+    "bare_url_count": 0,
+    "described_links": 49,
+    "unique_destinations": 49,
+    "markdown_destinations": 0
+  },
+  "flags": []
+}

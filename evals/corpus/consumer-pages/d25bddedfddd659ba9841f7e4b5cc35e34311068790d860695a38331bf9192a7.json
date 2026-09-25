@@ -1,0 +1,491 @@
+{
+  "url": "https://www.framer.com/pricing",
+  "title": "Framer: Pricing",
+  "content": "Yearly billing\nBasic\nCreative personal sites\n$10\nper month\nFree custom domain\n2× credits first month\n2 CMS collections\n50 GB bandwidth\nLocalization (add-on)\nPro\nGrowing professional sites\n$30\nper month\nFree custom domain\n2× credits first month\n10 CMS collections\n100 GB bandwidth\nSite redirects\nStaging environment\nBranching with previews\nAdvanced hosting (add-on)\nA/B testing (add-on)\nAll prices are monthly and billed according to the billing cycle selected at checkout. Any applicable sales tax will be added at checkout based on your location.\nFAQ\nWhat are credits?\nEvery paid plan includes monthly credits that power Agents, Localization, and other AI features. Credits are shared across your entire workspace and its editors. Running low? Upgrade a site or add an add-on for more.\n¹ On the free plan, when your workspace has no active subscriptions, you receive 500 credits to try Agents. Upgrade any of your sites to unlock more.\nWhat’s included in the Free plan?\nProjects on the Free plan include access to 10 CMS collections, 1,000 pages, 5 MB file uploads, and one free locale to try. This makes it easy to explore Framer, use it as a design tool, or create templates. To connect a custom domain, you’ll need to upgrade to a paid plan. Workspaces without a subscription also support collaboration with up to three editors.\nWhich plan is right for me?\nHow are extra editors billed?\nEditors are billed per seat and can be added to your workspace or projects at any time. We will notify you when an editor is added to your billing, and you will be charged within 24 hours.\nWhat happens if I go over a limit?\nWhen you reach certain limits, we will ask you to upgrade your plan in Framer. For other limits, like bandwidth, we allow you to exceed your limit for one month. You’ll receive a notification via email so you can upgrade your plan accordingly.\nHow many add-ons can you purchase on the Pro plan?\nWith add-ons you can have up to 40,000 CMS items, 40 CMS collections, 2 TB of bandwidth, 700 pages, and 1.5M events on the Pro plan.\nHow are events billed for the Convert add-on?\nYou will be billed based on the number of analytics events your site generates each month. An event can be a page view, a click on a tracked link, or a submission through a tracked form. With the add-on, you can also run up to 5 A/B tests. The add-on is billed as part of the billing cycle for the associated plan.\nWhat’s included in the Advanced Hosting add-on?\nWith the Advanced Hosting add-on, you can add up to 6 rewrites and set custom values for the Permissions-Policy, Referrer-Policy, and X-Frame-Options headers. You can also upload up to 500 static files.\nWhat if my open-source or side project receives a lot of traffic?\nWhat payment methods do you offer?\nYou can pay for your Framer subscription with a credit card or, in some regions, via PayPal. Alternatively, we offer custom billing options, including credit cards or bank transfers, for Enterprise plans.\nWhat is your refund policy?\nIf you live in the EU or Turkey, you are legally eligible for a refund if your subscription was purchased within the last 14 days. To claim your refund, please contact our Support team; they will cancel your subscription and process the refund.",
+  "links": [
+    {
+      "url": "https://www.framer.com/",
+      "label": "Framer"
+    },
+    {
+      "url": "https://www.framer.com/enterprise/",
+      "label": "Enterprise"
+    },
+    {
+      "url": "https://www.framer.com/pricing",
+      "label": "Pricing"
+    },
+    {
+      "url": "https://framer.com/r/login",
+      "label": "Log in"
+    },
+    {
+      "url": "https://www.framer.com/r/signup/",
+      "label": "Sign up"
+    },
+    {
+      "url": "https://www.framer.com/brand",
+      "label": "Brand guidelines"
+    },
+    {
+      "url": "https://www.framer.com/developers/",
+      "label": "Overview"
+    },
+    {
+      "url": "https://www.framer.com/developers/comparison",
+      "label": "Compare"
+    },
+    {
+      "url": "https://www.framer.com/developers/faq",
+      "label": "FAQ"
+    },
+    {
+      "url": "https://www.framer.com/developers/plugins-introduction",
+      "label": "Introduction"
+    },
+    {
+      "url": "https://www.framer.com/developers/plugins-quick-start",
+      "label": "Quick Start"
+    },
+    {
+      "url": "https://www.framer.com/developers/publishing",
+      "label": "Publishing"
+    },
+    {
+      "url": "https://www.framer.com/developers/changelog",
+      "label": "Changelog"
+    },
+    {
+      "url": "https://www.framer.com/developers/reference",
+      "label": "Reference"
+    },
+    {
+      "url": "https://www.framer.com/developers/server-api-introduction",
+      "label": "Introduction"
+    },
+    {
+      "url": "https://www.framer.com/developers/server-api-quick-start",
+      "label": "Quick Start"
+    },
+    {
+      "url": "https://www.framer.com/developers/server-api-reference",
+      "label": "Reference"
+    },
+    {
+      "url": "https://www.framer.com/developers/server-api-faq",
+      "label": "FAQ"
+    },
+    {
+      "url": "https://www.framer.com/developers/fetch-introduction",
+      "label": "Introduction"
+    },
+    {
+      "url": "https://www.framer.com/developers/fetch-examples",
+      "label": "Examples"
+    },
+    {
+      "url": "https://www.framer.com/developers/components-introduction",
+      "label": "Introduction"
+    },
+    {
+      "url": "https://www.framer.com/developers/component-examples",
+      "label": "Examples"
+    },
+    {
+      "url": "https://www.framer.com/developers/component-sharing",
+      "label": "Asset Sharing"
+    },
+    {
+      "url": "https://www.framer.com/developers/auto-sizing",
+      "label": "Auto-Sizing"
+    },
+    {
+      "url": "https://www.framer.com/developers/property-controls",
+      "label": "Property Controls"
+    },
+    {
+      "url": "https://www.framer.com/developers/components-reference",
+      "label": "Reference"
+    },
+    {
+      "url": "https://www.framer.com/developers/overrides-introduction",
+      "label": "Introduction"
+    },
+    {
+      "url": "https://www.framer.com/developers/overrides-examples",
+      "label": "Examples"
+    },
+    {
+      "url": "https://framer.com/projects/?showUpgrade=true&upgradeTo=basicSite2025",
+      "label": "Start with Basic"
+    },
+    {
+      "url": "https://framer.com/projects/?showUpgrade=true&upgradeTo=proSite2025",
+      "label": "Start with Pro"
+    },
+    {
+      "url": "https://www.framer.com/stories/",
+      "label": "Meet our customers"
+    },
+    {
+      "url": "https://www.framer.com/domains/",
+      "label": "Complimentary domain"
+    },
+    {
+      "url": "https://www.framer.com/expert/apply/",
+      "label": "Pro Experts"
+    },
+    {
+      "url": "https://www.framer.com/convert/",
+      "label": "Triggers"
+    },
+    {
+      "url": "https://www.framer.com/contact/",
+      "label": "Please contact us"
+    },
+    {
+      "url": "https://www.framer.com/help/account/",
+      "label": "help section"
+    },
+    {
+      "url": "https://www.framer.com/ai/",
+      "label": "AI"
+    },
+    {
+      "url": "https://www.framer.com/agents/",
+      "label": "Agents"
+    },
+    {
+      "url": "https://www.framer.com/agents/external/",
+      "label": "External Agents"
+    },
+    {
+      "url": "https://www.framer.com/design/",
+      "label": "Design"
+    },
+    {
+      "url": "https://www.framer.com/collaborate/",
+      "label": "Collaborate"
+    },
+    {
+      "url": "https://www.framer.com/cms/",
+      "label": "CMS"
+    },
+    {
+      "url": "https://www.framer.com/hosting/",
+      "label": "Hosting"
+    },
+    {
+      "url": "https://www.framer.com/performance/",
+      "label": "Performance"
+    },
+    {
+      "url": "https://www.framer.com/seo/",
+      "label": "SEO"
+    },
+    {
+      "url": "https://www.framer.com/skills",
+      "label": "Skills New"
+    },
+    {
+      "url": "https://www.framer.com/publish/",
+      "label": "Publish"
+    },
+    {
+      "url": "https://www.framer.com/updates",
+      "label": "Updates"
+    },
+    {
+      "url": "https://www.framer.com/community/marketplace/templates/",
+      "label": "Templates"
+    },
+    {
+      "url": "https://www.framer.com/community/marketplace/components/",
+      "label": "Components"
+    },
+    {
+      "url": "https://www.framer.com/community/marketplace/plugins/",
+      "label": "Plugins"
+    },
+    {
+      "url": "https://www.framer.com/community/marketplace/vectors/",
+      "label": "Vectors"
+    },
+    {
+      "url": "https://www.framer.com/community/gallery/",
+      "label": "Gallery"
+    },
+    {
+      "url": "https://www.framer.com/community/members/",
+      "label": "Experts"
+    },
+    {
+      "url": "https://www.framer.com/switch/",
+      "label": "Switch"
+    },
+    {
+      "url": "https://www.framer.com/agencies/",
+      "label": "Agencies"
+    },
+    {
+      "url": "https://www.framer.com/startups/",
+      "label": "Startups"
+    },
+    {
+      "url": "https://www.framer.com/academy/",
+      "label": "Academy"
+    },
+    {
+      "url": "https://www.framer.com/downloads/",
+      "label": "Download App"
+    },
+    {
+      "url": "https://www.framer.com/guides",
+      "label": "Guides"
+    },
+    {
+      "url": "https://www.framer.com/blog/",
+      "label": "Blog"
+    },
+    {
+      "url": "https://www.framer.com/newsletter",
+      "label": "Newsletter"
+    },
+    {
+      "url": "https://www.framer.com/creators",
+      "label": "Creators"
+    },
+    {
+      "url": "https://www.framer.com/education/students/",
+      "label": "Students"
+    },
+    {
+      "url": "https://www.framer.com/education/ambassadors/",
+      "label": "Ambassadors"
+    },
+    {
+      "url": "https://www.framer.com/help/",
+      "label": "Help Articles"
+    },
+    {
+      "url": "https://www.framer.com/meetups/",
+      "label": "Meetups"
+    },
+    {
+      "url": "https://www.framer.com/solutions/designers/",
+      "label": "Designers"
+    },
+    {
+      "url": "https://www.framer.com/solutions/agencies/",
+      "label": "Agencies"
+    },
+    {
+      "url": "https://www.framer.com/solutions/marketers/",
+      "label": "Marketers"
+    },
+    {
+      "url": "https://www.framer.com/solutions/growth/",
+      "label": "Growth"
+    },
+    {
+      "url": "https://www.framer.com/solutions/builders/",
+      "label": "Builders"
+    },
+    {
+      "url": "https://www.framer.com/solutions/engineers/",
+      "label": "Engineers"
+    },
+    {
+      "url": "https://www.framer.com/solutions/site-teams/",
+      "label": "Site Teams"
+    },
+    {
+      "url": "https://www.framer.com/solutions/founders/",
+      "label": "Founders"
+    },
+    {
+      "url": "https://www.framer.com/solutions/ai-website-builder/",
+      "label": "AI website builder"
+    },
+    {
+      "url": "https://www.framer.com/solutions/ai-designer/",
+      "label": "AI design agent"
+    },
+    {
+      "url": "https://www.framer.com/solutions/website-builder/",
+      "label": "Website builder"
+    },
+    {
+      "url": "https://www.framer.com/solutions/landing-pages/",
+      "label": "Landing pages"
+    },
+    {
+      "url": "https://www.framer.com/solutions/portfolio-website/",
+      "label": "Portfolio maker"
+    },
+    {
+      "url": "https://www.framer.com/solutions/ui-ux-design/",
+      "label": "UI/UX design"
+    },
+    {
+      "url": "https://www.framer.com/solutions/figma-to-html/",
+      "label": "Figma to HTML"
+    },
+    {
+      "url": "https://www.framer.com/solutions/no-code-website-builder/",
+      "label": "No-code"
+    },
+    {
+      "url": "https://www.framer.com/compare",
+      "label": "Compare"
+    },
+    {
+      "url": "https://www.framer.com/compare/framer-vs-webflow",
+      "label": "Webflow"
+    },
+    {
+      "url": "https://www.framer.com/compare/framer-vs-figma",
+      "label": "Figma"
+    },
+    {
+      "url": "https://www.framer.com/compare/framer-vs-wix",
+      "label": "Wix"
+    },
+    {
+      "url": "https://www.framer.com/compare/framer-vs-squarespace",
+      "label": "Squarespace"
+    },
+    {
+      "url": "https://www.framer.com/compare/framer-vs-wordpress",
+      "label": "WordPress"
+    },
+    {
+      "url": "https://www.framer.com/compare/framer-vs-readymag",
+      "label": "Readymag"
+    },
+    {
+      "url": "https://www.framer.com/compare/framer-vs-ceros",
+      "label": "Ceros"
+    },
+    {
+      "url": "https://www.framer.com/compare/framer-vs-unbounce",
+      "label": "Unbounce"
+    },
+    {
+      "url": "https://www.framer.com/compare/framer-vs-lovable",
+      "label": "Lovable"
+    },
+    {
+      "url": "https://www.framer.com/compare/framer-vs-claude-code",
+      "label": "Claude Code"
+    },
+    {
+      "url": "https://www.framer.com/compare/framer-vs-chatgpt",
+      "label": "ChatGPT"
+    },
+    {
+      "url": "https://www.framer.com/compare/framer-vs-codex",
+      "label": "Codex"
+    },
+    {
+      "url": "https://www.framer.com/compare/framer-vs-contentful",
+      "label": "Contentful"
+    },
+    {
+      "url": "https://www.framer.com/compare/framer-vs-sanity",
+      "label": "Sanity"
+    },
+    {
+      "url": "https://www.framer.com/compare/framer-vs-adobe-experience-manager",
+      "label": "AEM"
+    },
+    {
+      "url": "https://www.framer.com/compare/framer-vs-replit",
+      "label": "Replit"
+    },
+    {
+      "url": "https://www.framer.com/compare/framer-vs-v0",
+      "label": "v0"
+    },
+    {
+      "url": "https://www.framer.com/careers/",
+      "label": "Careers"
+    },
+    {
+      "url": "https://www.framer.com/legal/security",
+      "label": "Security"
+    },
+    {
+      "url": "https://www.framer.com/legal/community-terms",
+      "label": "Legal"
+    },
+    {
+      "url": "https://app.eu.vanta.com/framer.com/trust/ow67ujg7iav0t6qtd1o6r2",
+      "label": "Trust"
+    },
+    {
+      "url": "https://www.framer.com/store",
+      "label": "Merch"
+    },
+    {
+      "url": "https://www.framer.com/f1",
+      "label": "Keyboard"
+    },
+    {
+      "url": "https://www.framer.com/stack-score/",
+      "label": "Stack Score"
+    },
+    {
+      "url": "https://www.framer.com/aeo",
+      "label": "AEO scanner"
+    },
+    {
+      "url": "https://www.framer.com/state-of-sites-2026/",
+      "label": "State of Sites"
+    },
+    {
+      "url": "https://www.framer.com/canvasbench/",
+      "label": "CanvasBench"
+    },
+    {
+      "url": "https://www.linkpreview.app/",
+      "label": "Link Preview"
+    },
+    {
+      "url": "https://x.com/framer",
+      "label": ""
+    },
+    {
+      "url": "https://www.youtube.com/@Framer",
+      "label": ""
+    },
+    {
+      "url": "https://www.instagram.com/framer/",
+      "label": ""
+    },
+    {
+      "url": "https://www.linkedin.com/company/framer/",
+      "label": ""
+    },
+    {
+      "url": "https://www.threads.com/@framer",
+      "label": ""
+    },
+    {
+      "url": "https://framer.com/llms.txt/",
+      "label": ""
+    },
+    {
+      "url": "https://www.framerstatus.com/",
+      "label": "Checking status"
+    },
+    {
+      "url": "https://www.framer.com/shortcuts",
+      "label": "Shortcuts"
+    }
+  ],
+  "body_sha256": "49ae197de95506c58d962d76fdc6608d42b9735f57fd601e779e219a21ccd377",
+  "status": 200,
+  "origin": "frozen-corpus",
+  "retrieved_at": "2026-09-24T22:49:12.567161+00:00"
+}

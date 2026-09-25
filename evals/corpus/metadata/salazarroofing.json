@@ -1,0 +1,17 @@
+{
+  "id": "salazarroofing",
+  "url": "https://www.salazarroofing.com/llms.txt",
+  "category": "local-services",
+  "kind": "actual",
+  "split": "development",
+  "discovery": "https://llmstxt.site/",
+  "retrieved_at": "2026-09-24T22:46:23.074960+00:00",
+  "accepted": true,
+  "status": 200,
+  "final_url": "https://www.salazarroofing.com/llms.txt",
+  "content_type": "text/plain; charset=utf-8",
+  "sha256": "2236144645cb34ca6cc6e688e496fae6d245b7cdfdd9289cee3ade6060400be3",
+  "bytes": 4544,
+  "decode_replacements": 0,
+  "raw_path": "raw/salazarroofing.txt"
+}

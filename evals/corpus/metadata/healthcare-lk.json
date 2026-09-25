@@ -1,0 +1,17 @@
+{
+  "id": "healthcare-lk",
+  "url": "https://healthcare.lk/llms.txt",
+  "category": "health",
+  "kind": "actual",
+  "split": "holdout",
+  "discovery": "https://llmstxt.site/",
+  "retrieved_at": "2026-09-24T22:46:24.342714+00:00",
+  "accepted": true,
+  "status": 200,
+  "final_url": "https://healthcare.lk/llms.txt",
+  "content_type": "text/plain",
+  "sha256": "c3079ff21510455cc08ed290dec832ffeba228f195ab87a357e5b0256dad915a",
+  "bytes": 11748,
+  "decode_replacements": 0,
+  "raw_path": "raw/healthcare-lk.txt"
+}

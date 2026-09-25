@@ -1,0 +1,12 @@
+# Example Store
+
+> Online store selling durable travel gear, backpacks, and accessories.
+
+## Shopping
+
+- [Backpacks](https://example.com/collections/backpacks): Main product category.
+- [Shipping policy](https://example.com/policies/shipping): Delivery times and regions.
+
+## Support
+
+- [Returns](https://example.com/policies/returns): Return window and refund process.

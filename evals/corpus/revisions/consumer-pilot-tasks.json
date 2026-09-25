@@ -1,0 +1,470 @@
+[
+  {
+    "id": "framer-plan-prices",
+    "site_id": "framer",
+    "category": "saas",
+    "site_url": "https://www.framer.com/",
+    "question": "On the pricing page, what monthly prices are displayed for Basic and Pro under yearly billing? Make the billing basis clear.",
+    "facts": [
+      {
+        "id": "basic",
+        "answer_patterns": [
+          "Basic[^\\n.;]{0,70}10\\b|10\\b[^\\n.;]{0,40}Basic"
+        ],
+        "quote_patterns": [
+          "Basic",
+          "\\$10"
+        ],
+        "evidence_urls": [
+          "https://www.framer.com/pricing"
+        ]
+      },
+      {
+        "id": "pro",
+        "answer_patterns": [
+          "Pro[^\\n.;]{0,70}30\\b|30\\b[^\\n.;]{0,40}Pro"
+        ],
+        "quote_patterns": [
+          "Pro",
+          "\\$30"
+        ],
+        "evidence_urls": [
+          "https://www.framer.com/pricing"
+        ]
+      },
+      {
+        "id": "billing",
+        "answer_patterns": [
+          "yearly|annual"
+        ],
+        "quote_patterns": [
+          "Yearly billing"
+        ],
+        "evidence_urls": [
+          "https://www.framer.com/pricing"
+        ]
+      }
+    ],
+    "expect_abstain": false,
+    "forbidden_patterns": [],
+    "generated_file": "evals/corpus/consumer-guides/framer.txt",
+    "gold_scope": "Frozen source extracts, not independent verification of business claims."
+  },
+  {
+    "id": "mollie-dining-hours",
+    "site_id": "mollieaspen",
+    "category": "hospitality",
+    "site_url": "https://mollieaspen.com/",
+    "question": "At MOLLIE Aspen, when are breakfast and dinner served?",
+    "facts": [
+      {
+        "id": "breakfast",
+        "answer_patterns": [
+          "7(?::00)?\\s*(?:AM|a\\.m\\.)",
+          "11(?::00)?\\s*(?:AM|a\\.m\\.)"
+        ],
+        "quote_patterns": [
+          "BREAKFAST",
+          "7:00AM",
+          "11:00AM"
+        ],
+        "evidence_urls": [
+          "https://mollieaspen.com/dine-drink/"
+        ]
+      },
+      {
+        "id": "dinner",
+        "answer_patterns": [
+          "5(?::00)?\\s*(?:PM|p\\.m\\.)",
+          "9(?::00)?\\s*(?:PM|p\\.m\\.)"
+        ],
+        "quote_patterns": [
+          "DINNER",
+          "5:00PM",
+          "9:00PM"
+        ],
+        "evidence_urls": [
+          "https://mollieaspen.com/dine-drink/"
+        ]
+      }
+    ],
+    "expect_abstain": false,
+    "forbidden_patterns": [],
+    "generated_file": "evals/corpus/consumer-guides/mollieaspen.txt",
+    "gold_scope": "Frozen source extracts, not independent verification of business claims."
+  },
+  {
+    "id": "neon-guarantee",
+    "site_id": "neonelectrical",
+    "category": "local-services",
+    "site_url": "https://www.neonelectrical.co.nz/",
+    "question": "What workmanship guarantee does Neon Electrical describe, and how long does its issue-remediation period last?",
+    "facts": [
+      {
+        "id": "amount",
+        "answer_patterns": [
+          "20[, ]?000"
+        ],
+        "quote_patterns": [
+          "20,000",
+          "Workmanship Guarantee"
+        ],
+        "evidence_urls": [
+          "https://www.neonelectrical.co.nz/qualifications/"
+        ]
+      },
+      {
+        "id": "period",
+        "answer_patterns": [
+          "12\\s*months|one\\s*year|a\\s*year"
+        ],
+        "quote_patterns": [
+          "12 months"
+        ],
+        "evidence_urls": [
+          "https://www.neonelectrical.co.nz/qualifications/"
+        ]
+      }
+    ],
+    "expect_abstain": false,
+    "forbidden_patterns": [],
+    "generated_file": "evals/corpus/consumer-guides/neonelectrical.txt",
+    "gold_scope": "Frozen source extracts, not independent verification of business claims."
+  },
+  {
+    "id": "docpp-demo",
+    "site_id": "healthcare-lk",
+    "category": "health",
+    "site_url": "https://healthcare.lk/",
+    "question": "How long is the DocPP free demo, and are users and prescriptions limited during it?",
+    "facts": [
+      {
+        "id": "duration",
+        "answer_patterns": [
+          "14[ -]?day"
+        ],
+        "quote_patterns": [
+          "14.days"
+        ],
+        "evidence_urls": [
+          "https://healthcare.lk/",
+          "https://healthcare.lk/request-free-demo/"
+        ]
+      },
+      {
+        "id": "limits",
+        "answer_patterns": [
+          "unlimited[^.]{0,80}users|users[^.]{0,50}unlimited",
+          "unlimited[^.]{0,80}prescriptions|prescriptions[^.]{0,50}unlimited"
+        ],
+        "quote_patterns": [
+          "Unlimited Users",
+          "Unlimited Prescriptions"
+        ],
+        "evidence_urls": [
+          "https://healthcare.lk/",
+          "https://healthcare.lk/request-free-demo/"
+        ]
+      }
+    ],
+    "expect_abstain": false,
+    "forbidden_patterns": [],
+    "generated_file": "evals/corpus/consumer-guides/healthcare-lk.txt",
+    "gold_scope": "Frozen source extracts, not independent verification of business claims."
+  },
+  {
+    "id": "docpp-privacy",
+    "site_id": "healthcare-lk",
+    "category": "health",
+    "site_url": "https://healthcare.lk/",
+    "question": "Does HealthCare.LK say it shares data with third parties for marketing?",
+    "facts": [
+      {
+        "id": "marketing",
+        "answer_patterns": [
+          "\\bnot\\b|\\bno\\b|doesn.t",
+          "marketing"
+        ],
+        "quote_patterns": [
+          "do not share",
+          "marketing purposes"
+        ],
+        "evidence_urls": [
+          "https://healthcare.lk/privacy-policy/"
+        ]
+      }
+    ],
+    "expect_abstain": false,
+    "forbidden_patterns": [],
+    "generated_file": "evals/corpus/consumer-guides/healthcare-lk.txt",
+    "gold_scope": "Frozen source extracts, not independent verification of business claims."
+  },
+  {
+    "id": "store-returns-details",
+    "site_id": "we-in-style",
+    "category": "ecommerce",
+    "site_url": "https://we-in-style.com/",
+    "question": "For WE IN STYLE, how long after receipt can I request a return, can I exchange it, and who pays return shipping and customs?",
+    "facts": [
+      {
+        "id": "window",
+        "answer_patterns": [
+          "30[ -]?days?"
+        ],
+        "quote_patterns": [
+          "30 days",
+          "receive"
+        ],
+        "evidence_urls": [
+          "https://we-in-style.com/policies/refund-policy"
+        ]
+      },
+      {
+        "id": "exchange",
+        "answer_patterns": [
+          "exchanges?[^.]{0,50}(?:not|no)|(?:not|no)[^.]{0,50}exchanges?",
+          "refund"
+        ],
+        "quote_patterns": [
+          "exchanges are not possible",
+          "only refunds"
+        ],
+        "evidence_urls": [
+          "https://we-in-style.com/policies/refund-policy"
+        ]
+      },
+      {
+        "id": "fees",
+        "answer_patterns": [
+          "customer|buyer|you (?:pay|are responsible)",
+          "customs",
+          "shipping"
+        ],
+        "quote_patterns": [
+          "customer is responsible",
+          "shipping and customs fees"
+        ],
+        "evidence_urls": [
+          "https://we-in-style.com/policies/refund-policy"
+        ]
+      }
+    ],
+    "expect_abstain": false,
+    "forbidden_patterns": [],
+    "generated_file": "evals/corpus/consumer-guides/we-in-style.txt",
+    "gold_scope": "Frozen source extracts, not independent verification of business claims."
+  },
+  {
+    "id": "store-shipping-details",
+    "site_id": "we-in-style",
+    "category": "ecommerce",
+    "site_url": "https://we-in-style.com/",
+    "question": "When is WE IN STYLE delivery free, and how soon after confirmation is an order dispatched?",
+    "facts": [
+      {
+        "id": "threshold",
+        "answer_patterns": [
+          "300"
+        ],
+        "quote_patterns": [
+          "over €300"
+        ],
+        "evidence_urls": [
+          "https://we-in-style.com/policies/shipping-policy"
+        ]
+      },
+      {
+        "id": "pickup",
+        "answer_patterns": [
+          "France",
+          "no minimum|without.{0,10}minimum"
+        ],
+        "quote_patterns": [
+          "Pickup Points in France",
+          "no minimum purchase"
+        ],
+        "evidence_urls": [
+          "https://we-in-style.com/policies/shipping-policy"
+        ]
+      },
+      {
+        "id": "dispatch",
+        "answer_patterns": [
+          "2 business days|two business days"
+        ],
+        "quote_patterns": [
+          "within 2 business days"
+        ],
+        "evidence_urls": [
+          "https://we-in-style.com/policies/shipping-policy"
+        ]
+      }
+    ],
+    "expect_abstain": false,
+    "forbidden_patterns": [],
+    "generated_file": "evals/corpus/consumer-guides/we-in-style.txt",
+    "gold_scope": "Frozen source extracts, not independent verification of business claims."
+  },
+  {
+    "id": "packmojo-reimbursement",
+    "site_id": "packmojo",
+    "category": "manufacturing",
+    "site_url": "https://packmojo.com/",
+    "question": "What order quantity makes PackMojo custom samples reimbursable?",
+    "facts": [
+      {
+        "id": "quantity",
+        "answer_patterns": [
+          "500",
+          "at least|minimum|or more|500\\+"
+        ],
+        "quote_patterns": [
+          "reimbursable",
+          "at least 500 units"
+        ],
+        "evidence_urls": [
+          "https://packmojo.com/samples/"
+        ]
+      }
+    ],
+    "expect_abstain": false,
+    "forbidden_patterns": [],
+    "generated_file": "evals/corpus/consumer-guides/packmojo.txt",
+    "gold_scope": "Frozen source extracts, not independent verification of business claims."
+  },
+  {
+    "id": "fasthtml-live-reload",
+    "site_id": "fasthtml",
+    "category": "developer-docs",
+    "site_url": "https://www.fastht.ml/",
+    "question": "How do I enable live reloading with the FastHTML app class and uvicorn? Is it intended for production?",
+    "facts": [
+      {
+        "id": "class",
+        "answer_patterns": [
+          "FastHTMLWithLiveReload"
+        ],
+        "quote_patterns": [
+          "FastHTMLWithLiveReload"
+        ],
+        "evidence_urls": [
+          "https://www.fastht.ml/docs/ref/live_reload.html.md"
+        ]
+      },
+      {
+        "id": "uvicorn",
+        "answer_patterns": [
+          "uvicorn",
+          "--reload"
+        ],
+        "quote_patterns": [
+          "uvicorn main:app --reload"
+        ],
+        "evidence_urls": [
+          "https://www.fastht.ml/docs/ref/live_reload.html.md"
+        ]
+      },
+      {
+        "id": "scope",
+        "answer_patterns": [
+          "development|not.{0,30}production|disable.{0,30}production"
+        ],
+        "quote_patterns": [
+          "only be used during",
+          "development"
+        ],
+        "evidence_urls": [
+          "https://www.fastht.ml/docs/ref/live_reload.html.md"
+        ]
+      }
+    ],
+    "expect_abstain": false,
+    "forbidden_patterns": [],
+    "generated_file": "evals/corpus/consumer-guides/fasthtml.txt",
+    "gold_scope": "Frozen source extracts, not independent verification of business claims."
+  },
+  {
+    "id": "picflow-lightroom",
+    "site_id": "picflow",
+    "category": "saas",
+    "site_url": "https://picflow.com/",
+    "question": "Which Lightroom version does Picflow’s plugin support, and where do I open the plug-in manager?",
+    "facts": [
+      {
+        "id": "version",
+        "answer_patterns": [
+          "Lightroom Classic"
+        ],
+        "quote_patterns": [
+          "Lightroom Classic"
+        ],
+        "evidence_urls": [
+          "https://help.picflow.com/en/articles/8587606-lightroom-plugin-installation-guide"
+        ]
+      },
+      {
+        "id": "manager",
+        "answer_patterns": [
+          "File",
+          "Plug.in Manager"
+        ],
+        "quote_patterns": [
+          "File",
+          "Plug.in Manager"
+        ],
+        "evidence_urls": [
+          "https://help.picflow.com/en/articles/8587606-lightroom-plugin-installation-guide"
+        ]
+      }
+    ],
+    "expect_abstain": false,
+    "forbidden_patterns": [],
+    "generated_file": "evals/corpus/consumer-guides/picflow.txt",
+    "gold_scope": "Frozen source extracts, not independent verification of business claims."
+  },
+  {
+    "id": "film-tuition-contact",
+    "site_id": "filmconnection",
+    "category": "education",
+    "site_url": "https://filmconnection.com/",
+    "question": "Does Film Connection’s tuition page provide a specific numeric tuition amount, or how does it tell me to find out?",
+    "facts": [
+      {
+        "id": "advisor",
+        "answer_patterns": [
+          "advisor|adviser",
+          "form|contact|reach|consult"
+        ],
+        "quote_patterns": [
+          "Fill out the form",
+          "mentee advisor"
+        ],
+        "evidence_urls": [
+          "https://filmconnection.com/",
+          "https://filmconnection.com/film-school-tuition/",
+          "https://filmconnection.com/locations/"
+        ]
+      }
+    ],
+    "expect_abstain": false,
+    "forbidden_patterns": [
+      "\\$\\s*\\d"
+    ],
+    "generated_file": "evals/corpus/consumer-guides/filmconnection.txt",
+    "gold_scope": "Frozen source extracts, not independent verification of business claims."
+  },
+  {
+    "id": "mollie-unknown-future-rate",
+    "site_id": "mollieaspen",
+    "category": "hospitality",
+    "site_url": "https://mollieaspen.com/",
+    "question": "What is the guaranteed exact nightly rate for a room at MOLLIE Aspen on December 31, 2028? If you cannot establish that exact rate, abstain.",
+    "facts": [],
+    "expect_abstain": true,
+    "forbidden_patterns": [
+      "\\$\\s*\\d"
+    ],
+    "generated_file": "evals/corpus/consumer-guides/mollieaspen.txt",
+    "gold_scope": "Frozen source extracts, not independent verification of business claims."
+  }
+]

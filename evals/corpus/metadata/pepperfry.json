@@ -1,0 +1,17 @@
+{
+  "id": "pepperfry",
+  "url": "https://www.pepperfry.com/llms.txt",
+  "category": "ecommerce",
+  "kind": "actual",
+  "split": "development",
+  "discovery": "https://llmstxt.site/",
+  "retrieved_at": "2026-09-24T22:46:21.008220+00:00",
+  "accepted": false,
+  "status": 403,
+  "final_url": "https://www.pepperfry.com/llms.txt",
+  "content_type": "text/html",
+  "sha256": "0a25cb29455949febac2a95e2bf69887e3ff2d73891d8f321b5cf15bed0711e5",
+  "bytes": 381,
+  "decode_replacements": 0,
+  "raw_path": "raw/pepperfry.txt"
+}

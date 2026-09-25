@@ -1,0 +1,16 @@
+{
+  "url": "https://www.solitek.eu/",
+  "retrieved_at": "2026-09-24T22:49:21.910746+00:00",
+  "source": {
+    "id": "src_b52a3c3f4ee458e3c955",
+    "url": "https://www.solitek.eu/en",
+    "title": "Solar Panels, Integrated Solutions Made in Europe | SoliTek",
+    "description": "Discover sustainable European manufacturer SoliTek. We offer a wide range of durable and sustainably made solar modules and integrated solar solutions",
+    "content": "Toughest solar panels in the world\n3.2 + 3.2 mm double heat-strengthened glass makes SoliTek modules probably the thickest solar panels in the world.\nThis construction gives them exceptional strength and durability:\n- Resistant to 50 mm hail - the highest Hail Class 5 rating\n- Resistant to heavy snow loads up to 10,500 Pa - equal to around 10 meters of snow per 1 m²\n- Resistant to hurricane-speed winds up to 320 km/h - 5,400 Pa\nThanks to this extreme mechanical resistance, SoliTek panels come with a 30-year product warranty and are designed for a 50-year lifetime. After 30 years, we still guarantee 90% efficiency.",
+    "markdownUrl": null
+  },
+  "status": 200,
+  "final_url": "https://www.solitek.eu/en",
+  "sha256": "ca30ecaf89470e1d45eb8ff30064383c6530e10da04ccc0a5e3094762220e727",
+  "content_type": "text/html; charset=utf-8"
+}

@@ -1,0 +1,78 @@
+{
+  "parser_version": "corpus-v2",
+  "headings": [
+    {
+      "level": 1,
+      "text": "Example SaaS",
+      "line": 1
+    },
+    {
+      "level": 2,
+      "text": "Core pages",
+      "line": 10
+    },
+    {
+      "level": 2,
+      "text": "Optional",
+      "line": 16
+    }
+  ],
+  "links": [
+    {
+      "label": "Product overview",
+      "url": "https://example.com/product",
+      "canonical": "https://example.com/product",
+      "raw_url": "https://example.com/product",
+      "description": "Main product capabilities and use cases",
+      "line": 11
+    },
+    {
+      "label": "Pricing",
+      "url": "https://example.com/pricing",
+      "canonical": "https://example.com/pricing",
+      "raw_url": "https://example.com/pricing",
+      "description": "Current public plans and billing limits",
+      "line": 12
+    },
+    {
+      "label": "Documentation",
+      "url": "https://example.com/docs",
+      "canonical": "https://example.com/docs",
+      "raw_url": "https://example.com/docs",
+      "description": "Setup, integrations, and API references",
+      "line": 13
+    },
+    {
+      "label": "Security",
+      "url": "https://example.com/security",
+      "canonical": "https://example.com/security",
+      "raw_url": "https://example.com/security",
+      "description": "Public security and compliance information",
+      "line": 14
+    },
+    {
+      "label": "Blog",
+      "url": "https://example.com/blog",
+      "canonical": "https://example.com/blog",
+      "raw_url": "https://example.com/blog",
+      "description": "Educational articles and product updates",
+      "line": 17
+    }
+  ],
+  "bare_links": [],
+  "metrics": {
+    "bytes": 719,
+    "words": 86,
+    "lines": 17,
+    "approx_tokens_chars_div_4": 180,
+    "h1_count": 1,
+    "link_count": 5,
+    "bare_url_count": 0,
+    "described_links": 5,
+    "unique_destinations": 5,
+    "markdown_destinations": 0
+  },
+  "flags": [
+    "placeholder-review"
+  ]
+}

@@ -1,0 +1,488 @@
+{
+  "parser_version": "corpus-v2",
+  "headings": [
+    {
+      "level": 1,
+      "text": "Cake by VPBank",
+      "line": 1
+    },
+    {
+      "level": 2,
+      "text": "Thông tin chung",
+      "line": 7
+    },
+    {
+      "level": 2,
+      "text": "Sản phẩm chính",
+      "line": 15
+    },
+    {
+      "level": 3,
+      "text": "Thẻ",
+      "line": 17
+    },
+    {
+      "level": 3,
+      "text": "Thẻ thanh toán",
+      "line": 26
+    },
+    {
+      "level": 3,
+      "text": "Dịch vụ vay nhanh",
+      "line": 30
+    },
+    {
+      "level": 3,
+      "text": "Tiền gửi & Tiết kiệm",
+      "line": 38
+    },
+    {
+      "level": 3,
+      "text": "Đầu tư",
+      "line": 44
+    },
+    {
+      "level": 3,
+      "text": "Bảo hiểm",
+      "line": 49
+    },
+    {
+      "level": 3,
+      "text": "Tài khoản Cake",
+      "line": 55
+    },
+    {
+      "level": 2,
+      "text": "Khuyến mãi hiện tại",
+      "line": 63
+    },
+    {
+      "level": 2,
+      "text": "Tin tức & Cập nhật",
+      "line": 70
+    },
+    {
+      "level": 2,
+      "text": "Cơ hội Nghề nghiệp",
+      "line": 80
+    },
+    {
+      "level": 2,
+      "text": "Hướng dẫn & Hỗ trợ",
+      "line": 84
+    },
+    {
+      "level": 2,
+      "text": "Mạng xã hội & Cộng đồng",
+      "line": 89
+    }
+  ],
+  "links": [
+    {
+      "label": "Giới thiệu về Cake",
+      "url": "https://cake.vn/gioi-thieu",
+      "canonical": "https://cake.vn/gioi-thieu",
+      "raw_url": "https://cake.vn/gioi-thieu",
+      "description": "Cake by VPBank phát triển và vận hành CAKE BANK, ứng dụng ngân hàng số chính thức của Cake by VPBank, nơi khách hàng có thể thực hiện giao dịch và sử dụng các sản phẩm, dịch vụ tài chính trên một nền tảng số.",
+      "line": 9
+    },
+    {
+      "label": "Chính sách Bảo mật dữ liệu",
+      "url": "https://cake.vn/bao-mat",
+      "canonical": "https://cake.vn/bao-mat",
+      "raw_url": "https://cake.vn/bao-mat",
+      "description": "Cam kết bảo vệ thông tin cá nhân và tuân thủ các tiêu chuẩn bảo mật.",
+      "line": 10
+    },
+    {
+      "label": "Điều khoản sử dụng",
+      "url": "https://cake.vn/dieu-kien-dieu-khoan",
+      "canonical": "https://cake.vn/dieu-kien-dieu-khoan",
+      "raw_url": "https://cake.vn/dieu-kien-dieu-khoan",
+      "description": "Các điều khoản và điều kiện khi sử dụng dịch vụ của Cake.",
+      "line": 11
+    },
+    {
+      "label": "Biểu mẫu & Phí dịch vụ",
+      "url": "https://cake.vn/bieu-phi",
+      "canonical": "https://cake.vn/bieu-phi",
+      "raw_url": "https://cake.vn/bieu-phi",
+      "description": "Chi tiết về các loại phí và điều kiện áp dụng của Cake.",
+      "line": 12
+    },
+    {
+      "label": "Thông tin liên hệ & Văn phòng",
+      "url": "https://cake.vn/lien-he",
+      "canonical": "https://cake.vn/lien-he",
+      "raw_url": "https://cake.vn/lien-he",
+      "description": "Thông tin liên hệ và địa chỉ văn phòng của Cake.",
+      "line": 13
+    },
+    {
+      "label": "Thẻ",
+      "url": "https://cake.vn/the",
+      "canonical": "https://cake.vn/the",
+      "raw_url": "https://cake.vn/the",
+      "description": "Thông tin về các loại thẻ tín dụng và ưu đãi hoàn tiền.",
+      "line": 19
+    },
+    {
+      "label": "Thẻ Cake 2in1 - Gói Premium",
+      "url": "https://cake.vn/the/the-cake-2in1/goi-premium",
+      "canonical": "https://cake.vn/the/the-cake-2in1/goi-premium",
+      "raw_url": "https://cake.vn/the/the-cake-2in1/goi-premium",
+      "description": "Thẻ Cake 2in1 - Gói Premium siêu hoàn tiền đến 20%. Tối đa 10 triệu đồng/kỳ sao kê.",
+      "line": 20
+    },
+    {
+      "label": "Thẻ Cake 2in1 - Gói Standard",
+      "url": "https://cake.vn/the/the-cake-2in1/goi-standard",
+      "canonical": "https://cake.vn/the/the-cake-2in1/goi-standard",
+      "raw_url": "https://cake.vn/the/the-cake-2in1/goi-standard",
+      "description": "Thẻ Cake 2in1 - Gói Standard hoàn 20% lên đến 1 triệu đồng/tháng cho nhiều ngành hàng chi tiêu phổ biến.",
+      "line": 21
+    },
+    {
+      "label": "Thẻ tín dụng Be Cake",
+      "url": "https://cake.vn/the/the-cake-partner/the-be-cake-2in1",
+      "canonical": "https://cake.vn/the/the-cake-partner/the-be-cake-2in1",
+      "raw_url": "https://cake.vn/the/the-cake-partner/the-be-cake-2in1",
+      "description": "Ngưng phát hành thẻ mới. Thẻ tín dụng Be Cake hoàn tiền 20% trên Be.",
+      "line": 22
+    },
+    {
+      "label": "Thẻ tín dụng VieON Cake",
+      "url": "https://cake.vn/the/the-cake-partner/the-vieon-cake-2in1",
+      "canonical": "https://cake.vn/the/the-cake-partner/the-vieon-cake-2in1",
+      "raw_url": "https://cake.vn/the/the-cake-partner/the-vieon-cake-2in1",
+      "description": "Ngưng phát hành thẻ mới. Hoàn tiền khi mua gói VieON và nhiều đặc quyền.",
+      "line": 23
+    },
+    {
+      "label": "Thẻ tự do 2in1",
+      "url": "https://cake.vn/the/the-cake-partner/the-tu-do-2in1",
+      "canonical": "https://cake.vn/the/the-cake-partner/the-tu-do-2in1",
+      "raw_url": "https://cake.vn/the/the-cake-partner/the-tu-do-2in1",
+      "description": "Ngưng phát hành thẻ mới. Thiết kế thẻ lấy cảm hứng từ Mẫu tem \"Nam Bắc một nhà, non sông liền dải\".",
+      "line": 24
+    },
+    {
+      "label": "Thẻ thanh toán Thú Cưng",
+      "url": "https://cake.vn/the-thanh-toan/the-thanh-toan-thu-cung",
+      "canonical": "https://cake.vn/the-thanh-toan/the-thanh-toan-thu-cung",
+      "raw_url": "https://cake.vn/the-thanh-toan/the-thanh-toan-thu-cung",
+      "description": "Ngưng phát hành thẻ mới. Thẻ thanh toán phát hành online với thiết kế Thú Cưng.",
+      "line": 28
+    },
+    {
+      "label": "Sản phẩm Vay Cake",
+      "url": "https://cake.vn/khoan-vay/cake",
+      "canonical": "https://cake.vn/khoan-vay/cake",
+      "raw_url": "https://cake.vn/khoan-vay/cake",
+      "description": "Thông tin về các sản phẩm vay nhanh trực tuyến Cake by VPBank.",
+      "line": 32
+    },
+    {
+      "label": "Vay nhanh",
+      "url": "https://cake.vn/khoan-vay/cake/vay-nhanh",
+      "canonical": "https://cake.vn/khoan-vay/cake/vay-nhanh",
+      "raw_url": "https://cake.vn/khoan-vay/cake/vay-nhanh",
+      "description": "Phê duyệt trong 2 phút, giải ngân 100% online. Lãi suất vay chỉ từ 2.3%/tháng theo dư nợ giảm dần. Hạn mức vay từ 5.000.000Đ đến 60.000.000Đ, số tiền vay tối đa 60.000.000Đ. Kỳ hạn trả góp linh hoạt từ 6 đến 60 tháng.",
+      "line": 33
+    },
+    {
+      "label": "Ứng trước",
+      "url": "https://cake.vn/khoan-vay/cake/ung-truoc",
+      "canonical": "https://cake.vn/khoan-vay/cake/ung-truoc",
+      "raw_url": "https://cake.vn/khoan-vay/cake/ung-truoc",
+      "description": "Khoản vay linh hoạt hạn mức từ 3 - 6 triệu đồng, phù hợp tất toán trong 1 lần. Kỳ hạn vay tối ưu từ 30 - 45 ngày.",
+      "line": 34
+    },
+    {
+      "label": "Ứng tiền nhanh",
+      "url": "https://cake.vn/khoan-vay/cake/ung-tien-nhanh",
+      "canonical": "https://cake.vn/khoan-vay/cake/ung-tien-nhanh",
+      "raw_url": "https://cake.vn/khoan-vay/cake/ung-tien-nhanh",
+      "description": "Ngưng phát hành. Sản phẩm thấu chi không cần chứng minh thu nhập.",
+      "line": 35
+    },
+    {
+      "label": "Ứng tiền nhanh liên kết sổ tiết kiệm",
+      "url": "https://cake.vn/khoan-vay/cake/ung-tien-nhanh-lien-ket-so-tiet-kiem",
+      "canonical": "https://cake.vn/khoan-vay/cake/ung-tien-nhanh-lien-ket-so-tiet-kiem",
+      "raw_url": "https://cake.vn/khoan-vay/cake/ung-tien-nhanh-lien-ket-so-tiet-kiem",
+      "description": "Ngưng phát hành. Ứng tiền với tài sản đảm bảo là sổ tiết kiệm.",
+      "line": 36
+    },
+    {
+      "label": "Tiết kiệm & Tiền gửi",
+      "url": "https://cake.vn/tien-gui",
+      "canonical": "https://cake.vn/tien-gui",
+      "raw_url": "https://cake.vn/tien-gui",
+      "description": "Thông tin về sản phẩm tiết kiệm và lãi suất.",
+      "line": 40
+    },
+    {
+      "label": "Tiền gửi tiêu chuẩn",
+      "url": "https://cake.vn/tien-gui/tien-gui-tieu-chuan",
+      "canonical": "https://cake.vn/tien-gui/tien-gui-tieu-chuan",
+      "raw_url": "https://cake.vn/tien-gui/tien-gui-tieu-chuan",
+      "description": "Số tiền gửi tối thiểu: chỉ từ 100.000 VNĐ. Lãi suất luôn cao, cạnh tranh trên thị trường. Kỳ hạn gửi: đa dạng từ 1 đến 36 tháng.",
+      "line": 41
+    },
+    {
+      "label": "Tiền gửi tích lũy",
+      "url": "https://cake.vn/tien-gui/tien-gui-co-ky-han-tich-luy",
+      "canonical": "https://cake.vn/tien-gui/tien-gui-co-ky-han-tich-luy",
+      "raw_url": "https://cake.vn/tien-gui/tien-gui-co-ky-han-tich-luy",
+      "description": "Tiền gửi có kỳ hạn tích luỹ.",
+      "line": 42
+    },
+    {
+      "label": "Đầu tư",
+      "url": "https://cake.vn/tien-ich-khac/dau-tu-chung-khoan",
+      "canonical": "https://cake.vn/tien-ich-khac/dau-tu-chung-khoan",
+      "raw_url": "https://cake.vn/tien-ich-khac/dau-tu-chung-khoan",
+      "description": "Thông tin về đầu tư chứng khoán tại Cake by VPBank.",
+      "line": 46
+    },
+    {
+      "label": "Đầu tư chứng khoán DNSE",
+      "url": "https://cake.vn/tien-ich-khac/dau-tu-chung-khoan/dau-tu-chung-khoan-dnse",
+      "canonical": "https://cake.vn/tien-ich-khac/dau-tu-chung-khoan/dau-tu-chung-khoan-dnse",
+      "raw_url": "https://cake.vn/tien-ich-khac/dau-tu-chung-khoan/dau-tu-chung-khoan-dnse",
+      "description": "Đầu tư chứng khoán là tính năng trên ứng dụng Cake, được cung cấp bởi Công ty Cổ phần Chứng khoán DNSE, cho phép người dùng mở tài khoản chứng khoán DNSE và thực hiện đầu tư thuận tiện trên cùng một nền tảng với số vốn từ 10.000 đồng.",
+      "line": 47
+    },
+    {
+      "label": "Bảo hiểm xe",
+      "url": "https://cake.vn/tien-ich-khac/bao-hiem-xe",
+      "canonical": "https://cake.vn/tien-ich-khac/bao-hiem-xe",
+      "raw_url": "https://cake.vn/tien-ich-khac/bao-hiem-xe",
+      "description": "Bảo hiểm phương tiện giao thông xe máy và ô tô.",
+      "line": 51
+    },
+    {
+      "label": "Bảo hiểm ô tô",
+      "url": "https://cake.vn/tien-ich-khac/bao-hiem-xe/bao-hiem-tnds-o-to",
+      "canonical": "https://cake.vn/tien-ich-khac/bao-hiem-xe/bao-hiem-tnds-o-to",
+      "raw_url": "https://cake.vn/tien-ich-khac/bao-hiem-xe/bao-hiem-tnds-o-to",
+      "description": "Bảo hiểm ô tô (tùy theo tính chất của phương tiện như loại chỗ ngồi, kinh doanh vận tải/không kinh doanh vận tải mà có mức phí khác nhau), dao động trung bình chỉ từ 500 nghìn đồng/năm.",
+      "line": 52
+    },
+    {
+      "label": "Bảo hiểm xe máy",
+      "url": "https://cake.vn/tien-ich-khac/bao-hiem-xe/bao-hiem-tnds-xe-may",
+      "canonical": "https://cake.vn/tien-ich-khac/bao-hiem-xe/bao-hiem-tnds-xe-may",
+      "raw_url": "https://cake.vn/tien-ich-khac/bao-hiem-xe/bao-hiem-tnds-xe-may",
+      "description": "Bảo hiểm xe máy (xe dưới 50cc và trên 50cc): Chỉ từ 60.000 VND/năm.",
+      "line": 53
+    },
+    {
+      "label": "Tài khoản Cake",
+      "url": "https://cake.vn/tai-khoan",
+      "canonical": "https://cake.vn/tai-khoan",
+      "raw_url": "https://cake.vn/tai-khoan",
+      "description": "Thông tin về các loại tài khoản trong hệ sinh thái của Cake.",
+      "line": 57
+    },
+    {
+      "label": "Tài khoản thanh toán",
+      "url": "https://cake.vn/tai-khoan/tai-khoan-thanh-toan",
+      "canonical": "https://cake.vn/tai-khoan/tai-khoan-thanh-toan",
+      "raw_url": "https://cake.vn/tai-khoan/tai-khoan-thanh-toan",
+      "description": "Tài khoản thanh toán và các ưu đãi trên ứng dụng Cake.",
+      "line": 58
+    },
+    {
+      "label": "Dịch vụ thanh toán",
+      "url": "https://cake.vn/tai-khoan/dich-vu-thanh-toan",
+      "canonical": "https://cake.vn/tai-khoan/dich-vu-thanh-toan",
+      "raw_url": "https://cake.vn/tai-khoan/dich-vu-thanh-toan",
+      "description": "Danh sách các dịch vụ thanh toán có thể thực hiện trên ứng dụng Cake.",
+      "line": 59
+    },
+    {
+      "label": "Tài khoản Quỹ Chung",
+      "url": "https://cake.vn/tai-khoan/tai-khoan-quy-chung",
+      "canonical": "https://cake.vn/tai-khoan/tai-khoan-quy-chung",
+      "raw_url": "https://cake.vn/tai-khoan/tai-khoan-quy-chung",
+      "description": "Tài khoản Quỹ Chung là tài khoản nhóm giúp thu – chi minh bạch, Trưởng nhóm quản lý giao dịch, thành viên dễ dàng đóng góp và theo dõi quỹ, phù hợp cho các hoạt động tập thể.",
+      "line": 60
+    },
+    {
+      "label": "Dịch vụ nhận tiền quốc tế",
+      "url": "https://cake.vn/tai-khoan/nhan-tien-quoc-te",
+      "canonical": "https://cake.vn/tai-khoan/nhan-tien-quoc-te",
+      "raw_url": "https://cake.vn/tai-khoan/nhan-tien-quoc-te",
+      "description": "Dịch vụ nhận tiền quốc tế Cake GlobalX. Phí nhận tiền thấp. Đăng ký trực tuyến. Quản lý 24/7.",
+      "line": 61
+    },
+    {
+      "label": "Khuyến mãi hiện tại",
+      "url": "https://cake.vn/uu-dai",
+      "canonical": "https://cake.vn/uu-dai",
+      "raw_url": "https://cake.vn/uu-dai",
+      "description": "Các chương trình khuyến mãi và ưu đãi đang diễn ra dành riêng cho khách hàng Cake.",
+      "line": 65
+    },
+    {
+      "label": "Cake ưu đãi",
+      "url": "https://cake.vn/uu-dai/cake-uu-dai",
+      "canonical": "https://cake.vn/uu-dai/cake-uu-dai",
+      "raw_url": "https://cake.vn/uu-dai/cake-uu-dai",
+      "description": "Các chương trình khuyến mãi và ưu đãi đang diễn ra của Cake.",
+      "line": 66
+    },
+    {
+      "label": "Đối tác ưu đãi",
+      "url": "https://cake.vn/uu-dai/doi-tac-uu-dai",
+      "canonical": "https://cake.vn/uu-dai/doi-tac-uu-dai",
+      "raw_url": "https://cake.vn/uu-dai/doi-tac-uu-dai",
+      "description": "Các chương trình khuyến mãi và ưu đãi đang diễn ra của các đối tác dành cho khách hàng Cake.",
+      "line": 67
+    },
+    {
+      "label": "Ưu đãi tổng hợp",
+      "url": "https://cake.vn/uu-dai/uu-dai-tong-hop",
+      "canonical": "https://cake.vn/uu-dai/uu-dai-tong-hop",
+      "raw_url": "https://cake.vn/uu-dai/uu-dai-tong-hop",
+      "description": "Các chương trình khuyến mãi và ưu đãi được tổng hợp hàng tháng dành cho khách hàng Cake.",
+      "line": 68
+    },
+    {
+      "label": "Tin tức & Cập nhật",
+      "url": "https://cake.vn/tin-tuc",
+      "canonical": "https://cake.vn/tin-tuc",
+      "raw_url": "https://cake.vn/tin-tuc",
+      "description": "Các bài viết và thông tin mới nhất về Cake.",
+      "line": 72
+    },
+    {
+      "label": "Tin tức hoạt động",
+      "url": "https://cake.vn/tin-tuc/hoat-dong",
+      "canonical": "https://cake.vn/tin-tuc/hoat-dong",
+      "raw_url": "https://cake.vn/tin-tuc/hoat-dong",
+      "description": "Các bài viết và thông tin mới nhất về các hoạt động của Cake.",
+      "line": 73
+    },
+    {
+      "label": "Tin tức sản phẩm",
+      "url": "https://cake.vn/tin-tuc/san-pham",
+      "canonical": "https://cake.vn/tin-tuc/san-pham",
+      "raw_url": "https://cake.vn/tin-tuc/san-pham",
+      "description": "Các bài viết và thông tin mới nhất về các sản phẩm của Cake.",
+      "line": 74
+    },
+    {
+      "label": "Tin tức báo chí",
+      "url": "https://cake.vn/tin-tuc/bao-chi",
+      "canonical": "https://cake.vn/tin-tuc/bao-chi",
+      "raw_url": "https://cake.vn/tin-tuc/bao-chi",
+      "description": "Các bài báo và thông tin báo chí mới nhất về Cake.",
+      "line": 75
+    },
+    {
+      "label": "Cẩm nang tài chính",
+      "url": "https://cake.vn/tin-tuc/tai-chinh",
+      "canonical": "https://cake.vn/tin-tuc/tai-chinh",
+      "raw_url": "https://cake.vn/tin-tuc/tai-chinh",
+      "description": "Các bài viết và thông tin mới nhất cung cấp kiến thức và kỹ năng về tài chính của Cake.",
+      "line": 76
+    },
+    {
+      "label": "Tin tức sự kiện",
+      "url": "https://cake.vn/tin-tuc/su-kien",
+      "canonical": "https://cake.vn/tin-tuc/su-kien",
+      "raw_url": "https://cake.vn/tin-tuc/su-kien",
+      "description": "Các bài viết và thông tin mới nhất về các sự kiện nổi bật của Cake.",
+      "line": 77
+    },
+    {
+      "label": "Hướng dẫn",
+      "url": "https://cake.vn/tin-tuc/huong-dan",
+      "canonical": "https://cake.vn/tin-tuc/huong-dan",
+      "raw_url": "https://cake.vn/tin-tuc/huong-dan",
+      "description": "Các bài viết và thông tin hướng dẫn bổ ích cho người dùng Cake.",
+      "line": 78
+    },
+    {
+      "label": "Cơ hội Nghề nghiệp",
+      "url": "https://cake.vn/tuyen-dung",
+      "canonical": "https://cake.vn/tuyen-dung",
+      "raw_url": "https://cake.vn/tuyen-dung",
+      "description": "Thông tin tuyển dụng và cơ hội làm việc tại Cake.",
+      "line": 82
+    },
+    {
+      "label": "Hướng dẫn sử dụng ứng dụng",
+      "url": "https://cake.vn/huong-dan-su-dung",
+      "canonical": "https://cake.vn/huong-dan-su-dung",
+      "raw_url": "https://cake.vn/huong-dan-su-dung",
+      "description": "Cách sử dụng các tính năng và dịch vụ trên ứng dụng Cake.",
+      "line": 86
+    },
+    {
+      "label": "Tải ứng dụng Cake",
+      "url": "https://cake.vn/onboarding",
+      "canonical": "https://cake.vn/onboarding",
+      "raw_url": "https://cake.vn/onboarding",
+      "description": "Hướng dẫn tải và cài đặt ứng dụng Cake.",
+      "line": 87
+    },
+    {
+      "label": "Cake trên Facebook",
+      "url": "https://www.facebook.com/cake.themobilebank",
+      "canonical": "https://www.facebook.com/cake.themobilebank",
+      "raw_url": "https://www.facebook.com/cake.themobilebank",
+      "description": "Cập nhật và tương tác với Cake trên mạng xã hội Facebook.",
+      "line": 91
+    },
+    {
+      "label": "Cake trên Instagram",
+      "url": "https://www.instagram.com/cakebyvpbank",
+      "canonical": "https://www.instagram.com/cakebyvpbank",
+      "raw_url": "https://www.instagram.com/cakebyvpbank",
+      "description": "Cập nhật và tương tác với Cake trên mạng xã hội Instagram.",
+      "line": 92
+    },
+    {
+      "label": "Kênh Cake trên TikTok",
+      "url": "https://www.tiktok.com/@cakebyvpbank",
+      "canonical": "https://www.tiktok.com/@cakebyvpbank",
+      "raw_url": "https://www.tiktok.com/@cakebyvpbank",
+      "description": "Video ngắn và nội dung giải trí từ Cake trên mạng xã hội TikTok.",
+      "line": 93
+    },
+    {
+      "label": "Kênh YouTube của Cake",
+      "url": "https://www.youtube.com/@cakebyvpbank-nganhangso",
+      "canonical": "https://www.youtube.com/@cakebyvpbank-nganhangso",
+      "raw_url": "https://www.youtube.com/@cakebyvpbank-nganhangso",
+      "description": "Video hướng dẫn và tin tức từ Cake trên YouTube.",
+      "line": 94
+    },
+    {
+      "label": "Cake trên LinkedIn",
+      "url": "https://www.linkedin.com/company/cake-by-vpbank/posts/?feedView=all",
+      "canonical": "https://www.linkedin.com/company/cake-by-vpbank/posts/?feedView=all",
+      "raw_url": "https://www.linkedin.com/company/cake-by-vpbank/posts/?feedView=all",
+      "description": "Thông tin chuyên ngành và cơ hội nghề nghiệp từ Cake trên LinkedIn.",
+      "line": 95
+    }
+  ],
+  "bare_links": [],
+  "metrics": {
+    "bytes": 9320,
+    "words": 1237,
+    "lines": 95,
+    "approx_tokens_chars_div_4": 1949,
+    "h1_count": 1,
+    "link_count": 49,
+    "bare_url_count": 0,
+    "described_links": 49,
+    "unique_destinations": 49,
+    "markdown_destinations": 0
+  },
+  "flags": []
+}

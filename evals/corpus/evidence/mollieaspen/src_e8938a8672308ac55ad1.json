@@ -1,0 +1,16 @@
+{
+  "url": "https://mollieaspen.com/rooms/",
+  "retrieved_at": "2026-09-24T22:49:14.717676+00:00",
+  "source": {
+    "id": "src_e8938a8672308ac55ad1",
+    "url": "https://mollieaspen.com/rooms/",
+    "title": "Hotel Rooms & Suites in Aspen | MOLLIE Aspen | Luxury Hotel",
+    "description": "Carefully designed rooms & suites at MOLLIE Aspen promote relaxation, allowing hotel guests to rejuvenate after their Aspen explorations.",
+    "content": "Shadow Mountain Junior Suite\nAmenities\n- View of Shadow Mountain\n- Large room with sitting area\n- Private extra-large terrace\n- Accessible wet bar\n- ADA-accessible passageways\n- Soaking bathtub\n- Accessible double vanity\n- Waterworks® bath fixtures\n- Roll-in rainfall shower with fold-up seat\n- L:A Bruket® luxury bath amenities\nRoom Layout\n575 SQFT",
+    "markdownUrl": null
+  },
+  "status": 200,
+  "final_url": "https://mollieaspen.com/rooms/",
+  "sha256": "40247e82420f3d704aeae71014ecb80711b456114e414028a0dc3e44aa943397",
+  "content_type": "text/html; charset=UTF-8"
+}

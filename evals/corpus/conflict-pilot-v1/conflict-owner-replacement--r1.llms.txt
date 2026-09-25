@@ -1,0 +1,10 @@
+# Parcel Shop
+
+> The current free home-delivery threshold is €750, according to the supplied site-owner fact.
+
+The undated website pages disagree with that threshold: the homepage says €300 and the shipping policy says €600. Confirm the current terms before relying on either page.
+
+## Shopping and delivery
+
+- [Shipping policy](<https://parcel.example/shipping>): Delivery policy page; its stated free home-delivery threshold conflicts with the supplied current figure.
+- [Parcel Shop homepage](<https://parcel.example/>): Shop homepage; its stated free home-delivery threshold also conflicts with the supplied current figure.

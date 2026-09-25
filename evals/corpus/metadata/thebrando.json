@@ -1,0 +1,17 @@
+{
+  "id": "thebrando",
+  "url": "https://thebrando.com/llms.txt",
+  "category": "hospitality",
+  "kind": "actual",
+  "split": "development",
+  "discovery": "https://llmstxt.site/",
+  "retrieved_at": "2026-09-24T22:46:22.333721+00:00",
+  "accepted": true,
+  "status": 200,
+  "final_url": "https://thebrando.com/llms.txt",
+  "content_type": "text/plain",
+  "sha256": "1d906ea35c357c323e573354d490f3135d85f795c54c226de2371cc763f4d7ea",
+  "bytes": 1098,
+  "decode_replacements": 0,
+  "raw_path": "raw/thebrando.txt"
+}

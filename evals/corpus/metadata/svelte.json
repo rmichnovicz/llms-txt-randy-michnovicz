@@ -1,0 +1,17 @@
+{
+  "id": "svelte",
+  "url": "https://svelte.dev/llms.txt",
+  "category": "developer-docs",
+  "kind": "actual",
+  "split": "development",
+  "discovery": "https://llmstxt.site/",
+  "retrieved_at": "2026-09-24T22:46:20.214189+00:00",
+  "accepted": true,
+  "status": 200,
+  "final_url": "https://svelte.dev/llms.txt",
+  "content_type": "text/plain; charset=utf-8",
+  "sha256": "70c9177e2461eaa3c00a3d02c90e5e84f806e030933e60cabed6307929975489",
+  "bytes": 1676,
+  "decode_replacements": 0,
+  "raw_path": "raw/svelte.txt"
+}

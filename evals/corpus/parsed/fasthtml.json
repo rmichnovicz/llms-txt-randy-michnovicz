@@ -1,0 +1,214 @@
+{
+  "parser_version": "corpus-v2",
+  "headings": [
+    {
+      "level": 1,
+      "text": "FastHTML",
+      "line": 1
+    },
+    {
+      "level": 2,
+      "text": "Docs",
+      "line": 13
+    },
+    {
+      "level": 2,
+      "text": "API",
+      "line": 19
+    },
+    {
+      "level": 2,
+      "text": "Examples",
+      "line": 25
+    },
+    {
+      "level": 2,
+      "text": "Optional",
+      "line": 30
+    }
+  ],
+  "links": [
+    {
+      "label": "FastHTML concise guide",
+      "url": "https://www.fastht.ml/docs/ref/concise_guide.html.md",
+      "canonical": "https://www.fastht.ml/docs/ref/concise_guide.html.md",
+      "raw_url": "https://www.fastht.ml/docs/ref/concise_guide.html.md",
+      "description": "A brief overview of idiomatic FastHTML apps",
+      "line": 15
+    },
+    {
+      "label": "HTMX reference",
+      "url": "https://raw.githubusercontent.com/bigskysoftware/htmx/master/www/content/reference.md",
+      "canonical": "https://raw.githubusercontent.com/bigskysoftware/htmx/master/www/content/reference.md",
+      "raw_url": "https://raw.githubusercontent.com/bigskysoftware/htmx/master/www/content/reference.md",
+      "description": "Brief description of all HTMX attributes, CSS classes, headers, events, extensions, js lib methods, and config options",
+      "line": 16
+    },
+    {
+      "label": "Starlette quick guide",
+      "url": "https://gist.githubusercontent.com/jph00/e91192e9bdc1640f5421ce3c904f2efb/raw/61a2774912414029edaf1a55b506f0e283b93c46/starlette-quick.md",
+      "canonical": "https://gist.githubusercontent.com/jph00/e91192e9bdc1640f5421ce3c904f2efb/raw/61a2774912414029edaf1a55b506f0e283b93c46/starlette-quick.md",
+      "raw_url": "https://gist.githubusercontent.com/jph00/e91192e9bdc1640f5421ce3c904f2efb/raw/61a2774912414029edaf1a55b506f0e283b93c46/starlette-quick.md",
+      "description": "A quick overview of some Starlette features useful to FastHTML devs.",
+      "line": 17
+    },
+    {
+      "label": "API List",
+      "url": "https://www.fastht.ml/docs/apilist.txt",
+      "canonical": "https://www.fastht.ml/docs/apilist.txt",
+      "raw_url": "https://www.fastht.ml/docs/apilist.txt",
+      "description": "A succint list of all functions and methods in fasthtml.",
+      "line": 21
+    },
+    {
+      "label": "MonsterUI API List",
+      "url": "https://raw.githubusercontent.com/AnswerDotAI/MonsterUI/refs/heads/main/docs/apilist.txt",
+      "canonical": "https://raw.githubusercontent.com/AnswerDotAI/MonsterUI/refs/heads/main/docs/apilist.txt",
+      "raw_url": "https://raw.githubusercontent.com/AnswerDotAI/MonsterUI/refs/heads/main/docs/apilist.txt",
+      "description": "Complete API Reference for Monster UI, a component framework similar to shadcn, but for FastHTML",
+      "line": 22
+    },
+    {
+      "label": "Websockets application",
+      "url": "https://raw.githubusercontent.com/AnswerDotAI/fasthtml/main/examples/basic_ws.py",
+      "canonical": "https://raw.githubusercontent.com/AnswerDotAI/fasthtml/main/examples/basic_ws.py",
+      "raw_url": "https://raw.githubusercontent.com/AnswerDotAI/fasthtml/main/examples/basic_ws.py",
+      "description": "Very brief example of using websockets with HTMX and FastHTML",
+      "line": 27
+    },
+    {
+      "label": "Todo list application",
+      "url": "https://raw.githubusercontent.com/AnswerDotAI/fasthtml/main/examples/adv_app.py",
+      "canonical": "https://raw.githubusercontent.com/AnswerDotAI/fasthtml/main/examples/adv_app.py",
+      "raw_url": "https://raw.githubusercontent.com/AnswerDotAI/fasthtml/main/examples/adv_app.py",
+      "description": "Detailed walk-thru of a complete CRUD app in FastHTML showing idiomatic use of FastHTML and HTMX patterns.",
+      "line": 28
+    },
+    {
+      "label": "Surreal",
+      "url": "https://raw.githubusercontent.com/AnswerDotAI/surreal/main/README.md",
+      "canonical": "https://raw.githubusercontent.com/AnswerDotAI/surreal/main/README.md",
+      "raw_url": "https://raw.githubusercontent.com/AnswerDotAI/surreal/main/README.md",
+      "description": "Tiny jQuery alternative for plain Javascript with inline Locality of Behavior, providing me and any functions",
+      "line": 32
+    },
+    {
+      "label": "Starlette full documentation",
+      "url": "https://gist.githubusercontent.com/jph00/809e4a4808d4510be0e3dc9565e9cbd3/raw/9b717589ca44cedc8aaf00b2b8cacef922964c0f/starlette-sml.md",
+      "canonical": "https://gist.githubusercontent.com/jph00/809e4a4808d4510be0e3dc9565e9cbd3/raw/9b717589ca44cedc8aaf00b2b8cacef922964c0f/starlette-sml.md",
+      "raw_url": "https://gist.githubusercontent.com/jph00/809e4a4808d4510be0e3dc9565e9cbd3/raw/9b717589ca44cedc8aaf00b2b8cacef922964c0f/starlette-sml.md",
+      "description": "A subset of the Starlette documentation useful for FastHTML development.",
+      "line": 33
+    },
+    {
+      "label": "JS App Walkthrough",
+      "url": "https://www.fastht.ml/docs/tutorials/e2e.html.md",
+      "canonical": "https://www.fastht.ml/docs/tutorials/e2e.html.md",
+      "raw_url": "https://www.fastht.ml/docs/tutorials/e2e.html.md",
+      "description": "An end-to-end walkthrough of a complete FastHTML app, including deployment to railway.",
+      "line": 34
+    },
+    {
+      "label": "FastHTML by Example",
+      "url": "https://www.fastht.ml/docs/tutorials/by_example.html.md",
+      "canonical": "https://www.fastht.ml/docs/tutorials/by_example.html.md",
+      "raw_url": "https://www.fastht.ml/docs/tutorials/by_example.html.md",
+      "description": "A collection of 4 FastHTML apps showcasing idiomatic use of FastHTML and HTMX patterns.",
+      "line": 35
+    },
+    {
+      "label": "Using Jupyter to write FastHTML",
+      "url": "https://www.fastht.ml/docs/tutorials/jupyter_and_fasthtml.html.md",
+      "canonical": "https://www.fastht.ml/docs/tutorials/jupyter_and_fasthtml.html.md",
+      "raw_url": "https://www.fastht.ml/docs/tutorials/jupyter_and_fasthtml.html.md",
+      "description": "A guide to developing FastHTML apps inside Jupyter notebooks.",
+      "line": 36
+    },
+    {
+      "label": "FT Components",
+      "url": "https://www.fastht.ml/docs/explains/explaining_xt_components.html.md",
+      "canonical": "https://www.fastht.ml/docs/explains/explaining_xt_components.html.md",
+      "raw_url": "https://www.fastht.ml/docs/explains/explaining_xt_components.html.md",
+      "description": "Explanation of the FT components, which are a way to write HTML in a Pythonic way.",
+      "line": 37
+    },
+    {
+      "label": "FAQ",
+      "url": "https://www.fastht.ml/docs/explains/faq.html.md",
+      "canonical": "https://www.fastht.ml/docs/explains/faq.html.md",
+      "raw_url": "https://www.fastht.ml/docs/explains/faq.html.md",
+      "description": "Answers to common questions about FastHTML.",
+      "line": 38
+    },
+    {
+      "label": "MiniDataAPI Spec",
+      "url": "https://www.fastht.ml/docs/explains/minidataapi.html.md",
+      "canonical": "https://www.fastht.ml/docs/explains/minidataapi.html.md",
+      "raw_url": "https://www.fastht.ml/docs/explains/minidataapi.html.md",
+      "description": "Explanation of the MiniDataAPI specification, which allows us to use the same API for many different database engines.",
+      "line": 39
+    },
+    {
+      "label": "OAuth",
+      "url": "https://www.fastht.ml/docs/explains/oauth.html.md",
+      "canonical": "https://www.fastht.ml/docs/explains/oauth.html.md",
+      "raw_url": "https://www.fastht.ml/docs/explains/oauth.html.md",
+      "description": "Tutorial and explanation of how to use OAuth in FastHTML apps.",
+      "line": 40
+    },
+    {
+      "label": "Routes",
+      "url": "https://www.fastht.ml/docs/explains/routes.html.md",
+      "canonical": "https://www.fastht.ml/docs/explains/routes.html.md",
+      "raw_url": "https://www.fastht.ml/docs/explains/routes.html.md",
+      "description": "Explanation of how routes work in FastHTML.",
+      "line": 41
+    },
+    {
+      "label": "WebSockets",
+      "url": "https://www.fastht.ml/docs/explains/websockets.html.md",
+      "canonical": "https://www.fastht.ml/docs/explains/websockets.html.md",
+      "raw_url": "https://www.fastht.ml/docs/explains/websockets.html.md",
+      "description": "Explanation of websockets and how they work in FastHTML.",
+      "line": 42
+    },
+    {
+      "label": "Custom Components",
+      "url": "https://www.fastht.ml/docs/ref/defining_xt_component.md",
+      "canonical": "https://www.fastht.ml/docs/ref/defining_xt_component.md",
+      "raw_url": "https://www.fastht.ml/docs/ref/defining_xt_component.md",
+      "description": "Explanation of how to create custom components in FastHTML.",
+      "line": 43
+    },
+    {
+      "label": "Handling Handlers",
+      "url": "https://www.fastht.ml/docs/ref/handlers.html.md",
+      "canonical": "https://www.fastht.ml/docs/ref/handlers.html.md",
+      "raw_url": "https://www.fastht.ml/docs/ref/handlers.html.md",
+      "description": "Explanation of how to request and response handlers work in FastHTML as routes.",
+      "line": 44
+    },
+    {
+      "label": "Live Reloading",
+      "url": "https://www.fastht.ml/docs/ref/live_reload.html.md",
+      "canonical": "https://www.fastht.ml/docs/ref/live_reload.html.md",
+      "raw_url": "https://www.fastht.ml/docs/ref/live_reload.html.md",
+      "description": "Explanation of how to use live reloading for FastHTML development.",
+      "line": 45
+    }
+  ],
+  "bare_links": [],
+  "metrics": {
+    "bytes": 4796,
+    "words": 520,
+    "lines": 45,
+    "approx_tokens_chars_div_4": 1199,
+    "h1_count": 1,
+    "link_count": 21,
+    "bare_url_count": 0,
+    "described_links": 21,
+    "unique_destinations": 21,
+    "markdown_destinations": 17
+  },
+  "flags": []
+}

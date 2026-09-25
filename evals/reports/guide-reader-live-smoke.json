@@ -1,0 +1,588 @@
+[
+  {
+    "id": "3c728799-07ef-458b-ad83-7b679cf17de8",
+    "project_id": "c4a1f410-4d41-42e9-8ce9-9a2a6c696eff",
+    "suite_id": "beed589a-e2bf-4f93-a0e0-27f4c5ba7403",
+    "version_id": "e2da8c34-d18c-46ea-bf9d-8deb600982d4",
+    "job_id": "84966090-012a-46e3-abc0-beed9a00d7e0",
+    "reader_model": "gpt-4.1-mini-2025-04-14",
+    "report": {
+      "results": [
+        {
+          "trace": [
+            {
+              "url": "https://tally.so/help/embed-your-form",
+              "step": 1,
+              "action": "open",
+              "result": "Read frozen source"
+            },
+            {
+              "url": "https://tally.so/help/embed-your-form",
+              "step": 2,
+              "action": "answer"
+            }
+          ],
+          "answer": "If you change an embedded form's background style after adding it to your website, you need to copy the embed code again and replace it on your website. Any changes to the form content update automatically without re-embedding, but style changes to the embed require updating the code.",
+          "reason": "Quotes match pages the reader opened. This checks provenance, not every claim's correctness.",
+          "outcome": "evidence_matched",
+          "question": "If I change an embedded form\u2019s background style after adding it to my website, do I need to update the embed code?",
+          "citations": [
+            {
+              "url": "https://tally.so/help/embed-your-form",
+              "quote": "if you change any embed styles (for example: hiding the form title or making the background transparent) after embedding your form, you have to copy the code again and replace it on your website.",
+              "verified": true
+            }
+          ],
+          "model_calls": [
+            {
+              "model": "gpt-4.1-mini-2025-04-14",
+              "usage": {
+                "input_tokens": 1606,
+                "total_tokens": 1680,
+                "output_tokens": 74,
+                "input_tokens_details": {
+                  "cached_tokens": 1408,
+                  "cache_write_tokens": 0
+                },
+                "output_tokens_details": {
+                  "reasoning_tokens": 0
+                }
+              },
+              "attempts": 1,
+              "provider": "openai",
+              "reasoning": null,
+              "duration_ms": 1941,
+              "response_id": "resp_0197524790e0c721016ab5dd430e2887d09339d5526289f03a",
+              "prompt_version": "guide-test-reader-v1",
+              "max_output_tokens": 1800
+            },
+            {
+              "model": "gpt-4.1-mini-2025-04-14",
+              "usage": {
+                "input_tokens": 2493,
+                "total_tokens": 2627,
+                "output_tokens": 134,
+                "input_tokens_details": {
+                  "cached_tokens": 0,
+                  "cache_write_tokens": 0
+                },
+                "output_tokens_details": {
+                  "reasoning_tokens": 0
+                }
+              },
+              "attempts": 1,
+              "provider": "openai",
+              "reasoning": null,
+              "duration_ms": 2562,
+              "response_id": "resp_08308bd37b4181b7016ab5dd4501dc87d0a6868200ba2983fe",
+              "prompt_version": "guide-test-reader-v1",
+              "max_output_tokens": 1800
+            }
+          ],
+          "expected_url": "https://tally.so/help/embed-your-form",
+          "expected_cited": true,
+          "reference_quote": "However, if you change any embed styles (for example: hiding the form title or making the background transparent) after embedding your form, you have to copy the code again and replace it on your website.",
+          "expected_reached": true
+        },
+        {
+          "trace": [
+            {
+              "url": "https://tally.so/help/file-uploads",
+              "step": 1,
+              "action": "open",
+              "result": "Read frozen source"
+            },
+            {
+              "url": "https://tally.so/help/file-uploads",
+              "step": 2,
+              "action": "answer"
+            }
+          ],
+          "answer": "Yes. When you export form submissions to third-party tools like Google Sheets, an access token is added to the file upload URLs, making those files accessible without needing to log in to Tally. Therefore, anyone with access to your Google Sheet can open files uploaded through your Tally form without logging in.",
+          "reason": "Quotes match pages the reader opened. This checks provenance, not every claim's correctness.",
+          "outcome": "evidence_matched",
+          "question": "Can someone with access to my Google Sheet open files uploaded through my form without logging in to Tally?",
+          "citations": [
+            {
+              "url": "https://tally.so/help/file-uploads",
+              "quote": "When you export your file uploads to third-party tools using our integrations, an access token is added to the links, which makes them accessible without the need to be logged in. For example, if you export form submissions to a Google Sheet, anyone with access to that Sheet can click the file upload URL and access the file (without being logged into Tally).",
+              "verified": true
+            }
+          ],
+          "model_calls": [
+            {
+              "model": "gpt-4.1-mini-2025-04-14",
+              "usage": {
+                "input_tokens": 1599,
+                "total_tokens": 1746,
+                "output_tokens": 147,
+                "input_tokens_details": {
+                  "cached_tokens": 1408,
+                  "cache_write_tokens": 0
+                },
+                "output_tokens_details": {
+                  "reasoning_tokens": 0
+                }
+              },
+              "attempts": 1,
+              "provider": "openai",
+              "reasoning": null,
+              "duration_ms": 2328,
+              "response_id": "resp_0a0ccb7923c10055016ab5dd4784c887d290e161028a85aa4e",
+              "prompt_version": "guide-test-reader-v1",
+              "max_output_tokens": 1800
+            },
+            {
+              "model": "gpt-4.1-mini-2025-04-14",
+              "usage": {
+                "input_tokens": 2734,
+                "total_tokens": 2907,
+                "output_tokens": 173,
+                "input_tokens_details": {
+                  "cached_tokens": 0,
+                  "cache_write_tokens": 0
+                },
+                "output_tokens_details": {
+                  "reasoning_tokens": 0
+                }
+              },
+              "attempts": 1,
+              "provider": "openai",
+              "reasoning": null,
+              "duration_ms": 1961,
+              "response_id": "resp_01281d02a5f76f69016ab5dd49dea487d0aa4de7f33de5115a",
+              "prompt_version": "guide-test-reader-v1",
+              "max_output_tokens": 1800
+            }
+          ],
+          "expected_url": "https://tally.so/help/file-uploads",
+          "expected_cited": true,
+          "reference_quote": "For example, if you export form submissions to a Google Sheet, anyone with access to that Sheet can click the file upload URL and access the file (without being logged into Tally).",
+          "expected_reached": true
+        },
+        {
+          "trace": [
+            {
+              "url": "https://tally.so/help/form-settings",
+              "step": 1,
+              "action": "open",
+              "result": "Read frozen source"
+            },
+            {
+              "url": "https://tally.so/help/form-settings",
+              "step": 2,
+              "action": "open",
+              "result": "Read frozen source"
+            },
+            {
+              "url": "https://tally.so/help/form-settings",
+              "step": 3,
+              "action": "answer"
+            }
+          ],
+          "answer": "After automatic deletion, form submissions remain in the Trash for 30 days before they are permanently deleted. Users have the option to restore submissions from the Trash within this 30-day period.",
+          "reason": "The reader cited another page, rather than the question's expected source. Review whether that alternative is valid.",
+          "outcome": "needs_review",
+          "question": "After automatic deletion, how long do form submissions remain in the Trash?",
+          "citations": [
+            {
+              "url": "https://tally.so/help/form-settings",
+              "quote": "Deleted form submissions go to the Trash, where they remain for 30 days.",
+              "verified": false
+            }
+          ],
+          "model_calls": [
+            {
+              "model": "gpt-4.1-mini-2025-04-14",
+              "usage": {
+                "input_tokens": 1591,
+                "total_tokens": 1616,
+                "output_tokens": 25,
+                "input_tokens_details": {
+                  "cached_tokens": 1408,
+                  "cache_write_tokens": 0
+                },
+                "output_tokens_details": {
+                  "reasoning_tokens": 0
+                }
+              },
+              "attempts": 1,
+              "provider": "openai",
+              "reasoning": null,
+              "duration_ms": 1781,
+              "response_id": "resp_0e7328baa4bf7920016ab5dd4bd38c87d0a4fd00e54b486f5c",
+              "prompt_version": "guide-test-reader-v1",
+              "max_output_tokens": 1800
+            },
+            {
+              "model": "gpt-4.1-mini-2025-04-14",
+              "usage": {
+                "input_tokens": 2378,
+                "total_tokens": 2481,
+                "output_tokens": 103,
+                "input_tokens_details": {
+                  "cached_tokens": 2176,
+                  "cache_write_tokens": 0
+                },
+                "output_tokens_details": {
+                  "reasoning_tokens": 0
+                }
+              },
+              "attempts": 1,
+              "provider": "openai",
+              "reasoning": null,
+              "duration_ms": 1726,
+              "response_id": "resp_0b67a3d2e33675b6016ab5dd4d9b3487d29aaeeac4b4dc1c19",
+              "prompt_version": "guide-test-reader-v1",
+              "max_output_tokens": 1800
+            },
+            {
+              "model": "gpt-4.1-mini-2025-04-14",
+              "usage": {
+                "input_tokens": 3139,
+                "total_tokens": 3230,
+                "output_tokens": 91,
+                "input_tokens_details": {
+                  "cached_tokens": 0,
+                  "cache_write_tokens": 0
+                },
+                "output_tokens_details": {
+                  "reasoning_tokens": 0
+                }
+              },
+              "attempts": 1,
+              "provider": "openai",
+              "reasoning": null,
+              "duration_ms": 1114,
+              "response_id": "resp_0cd934b8f52edff0016ab5dd4f52d487d0ac3606cb60e0b418",
+              "prompt_version": "guide-test-reader-v1",
+              "max_output_tokens": 1800
+            }
+          ],
+          "expected_url": "https://tally.so/help/submissions-data-retention",
+          "expected_cited": false,
+          "reference_quote": "Deleted submissions are moved to the Trash, where they remain for 90 days before permanent deletion, unless you remove them earlier via the \nEmpty trash button.",
+          "expected_reached": false
+        }
+      ],
+      "max_opens": 3,
+      "limitations": "Frozen captured pages only; three page opens per question, 24,000 characters per guide and 12,000 per source. Quote checks establish provenance, not semantic correctness. Suggested questions are machine-generated and may be imperfect.",
+      "guide_sha256": "a97bc7b19e7087a4c167b9bc7ca301b159a285f2eac6c86aa8a68ff3e93ae355",
+      "reader_prompt": "guide-test-reader-v1"
+    },
+    "created_at": "2026-09-25 02:32:27.540867+00:00",
+    "status": "succeeded"
+  },
+  {
+    "id": "90fc1f91-3e20-4254-9f49-9b304be9cdfb",
+    "project_id": "c4a1f410-4d41-42e9-8ce9-9a2a6c696eff",
+    "suite_id": "beed589a-e2bf-4f93-a0e0-27f4c5ba7403",
+    "version_id": "5952a480-c2a0-47d5-8df8-b19d93192af3",
+    "job_id": "96a63441-3b6e-4d41-a02a-9e80ff249912",
+    "reader_model": "gpt-4.1-mini-2025-04-14",
+    "report": {
+      "results": [
+        {
+          "trace": [
+            {
+              "url": "https://tally.so/help/embed-your-form",
+              "step": 1,
+              "action": "open",
+              "result": "Read frozen source"
+            },
+            {
+              "url": "https://tally.so/help/embed-your-form",
+              "step": 2,
+              "action": "answer"
+            }
+          ],
+          "answer": "If you change an embedded form's background style after adding it to your website, you must copy the new embed code and replace the existing one on your site. Changes to form content do not require updating the embed code, but changes to embed styles do.",
+          "reason": "Quotes match pages the reader opened. This checks provenance, not every claim's correctness.",
+          "outcome": "evidence_matched",
+          "question": "If I change an embedded form\u2019s background style after adding it to my website, do I need to update the embed code?",
+          "citations": [
+            {
+              "url": "https://tally.so/help/embed-your-form",
+              "quote": "Any changes you make to your Tally form will automatically update the embed. You don\u2019t have to worry about changing the embed code anytime you make changes to your form content.",
+              "verified": true
+            },
+            {
+              "url": "https://tally.so/help/embed-your-form",
+              "quote": "However, if you change any embed styles (for example: hiding the form title or making the background transparent) after embedding your form, you have to copy the code again and replace it on your website.",
+              "verified": true
+            }
+          ],
+          "model_calls": [
+            {
+              "model": "gpt-4.1-mini-2025-04-14",
+              "usage": {
+                "input_tokens": 1602,
+                "total_tokens": 1733,
+                "output_tokens": 131,
+                "input_tokens_details": {
+                  "cached_tokens": 1408,
+                  "cache_write_tokens": 0
+                },
+                "output_tokens_details": {
+                  "reasoning_tokens": 0
+                }
+              },
+              "attempts": 1,
+              "provider": "openai",
+              "reasoning": null,
+              "duration_ms": 2940,
+              "response_id": "resp_03e30e74798c49d0016ab5dd65482c87d09ff54248ffef4763",
+              "prompt_version": "guide-test-reader-v1",
+              "max_output_tokens": 1800
+            },
+            {
+              "model": "gpt-4.1-mini-2025-04-14",
+              "usage": {
+                "input_tokens": 2489,
+                "total_tokens": 2671,
+                "output_tokens": 182,
+                "input_tokens_details": {
+                  "cached_tokens": 0,
+                  "cache_write_tokens": 0
+                },
+                "output_tokens_details": {
+                  "reasoning_tokens": 0
+                }
+              },
+              "attempts": 1,
+              "provider": "openai",
+              "reasoning": null,
+              "duration_ms": 2416,
+              "response_id": "resp_043ce841083a6eab016ab5dd685fa087d0b025abc2dc62df05",
+              "prompt_version": "guide-test-reader-v1",
+              "max_output_tokens": 1800
+            }
+          ],
+          "expected_url": "https://tally.so/help/embed-your-form",
+          "expected_cited": true,
+          "reference_quote": "However, if you change any embed styles (for example: hiding the form title or making the background transparent) after embedding your form, you have to copy the code again and replace it on your website.",
+          "expected_reached": true
+        },
+        {
+          "trace": [
+            {
+              "url": "https://tally.so/help/file-uploads",
+              "step": 1,
+              "action": "open",
+              "result": "Read frozen source"
+            },
+            {
+              "url": null,
+              "step": 2,
+              "action": "answer"
+            }
+          ],
+          "answer": "Files uploaded through a Tally form are stored securely and can be accessed only through authenticated links by logging in to your Tally account. However, if you export form submissions to third-party tools, such as a Google Sheet, the file upload links include an access token that allows anyone with access to that Google Sheet to open the uploaded files without needing to log in to Tally. Therefore, if someone has access to your Google Sheet containing these exported file upload URLs, they can open the files without logging into Tally.",
+          "reason": "Quotes match pages the reader opened. This checks provenance, not every claim's correctness.",
+          "outcome": "evidence_matched",
+          "question": "Can someone with access to my Google Sheet open files uploaded through my form without logging in to Tally?",
+          "citations": [
+            {
+              "url": "https://tally.so/help/file-uploads",
+              "quote": "All uploaded files are stored securely and accessible from the Submissions tab of your form. They can be accessed through an authenticated link or downloaded directly to your device. - View files: Open any submission to preview or access uploaded files. You need to be logged in to your Tally account to view them.",
+              "verified": true
+            },
+            {
+              "url": "https://tally.so/help/file-uploads",
+              "quote": "When you export your file uploads to third-party tools using our integrations, an access token is added to the links, which makes them accessible without the need to be logged in. For example, if you export form submissions to a Google Sheet, anyone with access to that Sheet can click the file upload URL and access the file (without being logged into Tally).",
+              "verified": true
+            }
+          ],
+          "model_calls": [
+            {
+              "model": "gpt-4.1-mini-2025-04-14",
+              "usage": {
+                "input_tokens": 1595,
+                "total_tokens": 1761,
+                "output_tokens": 166,
+                "input_tokens_details": {
+                  "cached_tokens": 1408,
+                  "cache_write_tokens": 0
+                },
+                "output_tokens_details": {
+                  "reasoning_tokens": 0
+                }
+              },
+              "attempts": 1,
+              "provider": "openai",
+              "reasoning": null,
+              "duration_ms": 1952,
+              "response_id": "resp_073334e74be6c1c7016ab5dd6a2ae487d0b9cbaad3b12f31c1",
+              "prompt_version": "guide-test-reader-v1",
+              "max_output_tokens": 1800
+            },
+            {
+              "model": "gpt-4.1-mini-2025-04-14",
+              "usage": {
+                "input_tokens": 2730,
+                "total_tokens": 3014,
+                "output_tokens": 284,
+                "input_tokens_details": {
+                  "cached_tokens": 0,
+                  "cache_write_tokens": 0
+                },
+                "output_tokens_details": {
+                  "reasoning_tokens": 0
+                }
+              },
+              "attempts": 1,
+              "provider": "openai",
+              "reasoning": null,
+              "duration_ms": 14212,
+              "response_id": "resp_0057418487bd2db9016ab5dd779a4887d088e781dfd0ac16a4",
+              "prompt_version": "guide-test-reader-v1",
+              "max_output_tokens": 1800
+            }
+          ],
+          "expected_url": "https://tally.so/help/file-uploads",
+          "expected_cited": true,
+          "reference_quote": "For example, if you export form submissions to a Google Sheet, anyone with access to that Sheet can click the file upload URL and access the file (without being logged into Tally).",
+          "expected_reached": true
+        },
+        {
+          "trace": [
+            {
+              "url": "https://tally.so/help/form-settings",
+              "step": 1,
+              "action": "open",
+              "result": "Read frozen source"
+            },
+            {
+              "url": "https://tally.so/help/form-settings",
+              "step": 2,
+              "action": "open",
+              "result": "Read frozen source"
+            },
+            {
+              "url": "https://tally.so/help/form-settings",
+              "step": 3,
+              "action": "open",
+              "result": "Read frozen source"
+            },
+            {
+              "url": null,
+              "step": 4,
+              "action": "answer"
+            }
+          ],
+          "answer": "The provided documentation from the Tally form builder's form settings page mentions the feature to automatically delete form submissions after a set period, which is a Tally Business feature. However, it does not specify how long form submissions remain in the Trash after automatic deletion. Therefore, based on the available information, the duration that form submissions remain in the Trash after automatic deletion is not stated.",
+          "reason": "The reader cited another page, rather than the question's expected source. Review whether that alternative is valid.",
+          "outcome": "needs_review",
+          "question": "After automatic deletion, how long do form submissions remain in the Trash?",
+          "citations": [
+            {
+              "url": "https://tally.so/help/form-settings",
+              "quote": "Automatically delete form submissions after a set period. Use this toggle to set a custom data retention time for each form. This is a Tally Business feature.",
+              "verified": true
+            }
+          ],
+          "model_calls": [
+            {
+              "model": "gpt-4.1-mini-2025-04-14",
+              "usage": {
+                "input_tokens": 1587,
+                "total_tokens": 1610,
+                "output_tokens": 23,
+                "input_tokens_details": {
+                  "cached_tokens": 1408,
+                  "cache_write_tokens": 0
+                },
+                "output_tokens_details": {
+                  "reasoning_tokens": 0
+                }
+              },
+              "attempts": 1,
+              "provider": "openai",
+              "reasoning": null,
+              "duration_ms": 2159,
+              "response_id": "resp_015ea41ee0bd3a93016ab5dd7b4cd087d0995eb10bcf673253",
+              "prompt_version": "guide-test-reader-v1",
+              "max_output_tokens": 1800
+            },
+            {
+              "model": "gpt-4.1-mini-2025-04-14",
+              "usage": {
+                "input_tokens": 2374,
+                "total_tokens": 2499,
+                "output_tokens": 125,
+                "input_tokens_details": {
+                  "cached_tokens": 2176,
+                  "cache_write_tokens": 0
+                },
+                "output_tokens_details": {
+                  "reasoning_tokens": 0
+                }
+              },
+              "attempts": 1,
+              "provider": "openai",
+              "reasoning": null,
+              "duration_ms": 2023,
+              "response_id": "resp_0e022d65e9473229016ab5dd7ce78487d093f5c1f9a63f39ee",
+              "prompt_version": "guide-test-reader-v1",
+              "max_output_tokens": 1800
+            },
+            {
+              "model": "gpt-4.1-mini-2025-04-14",
+              "usage": {
+                "input_tokens": 3161,
+                "total_tokens": 3275,
+                "output_tokens": 114,
+                "input_tokens_details": {
+                  "cached_tokens": 2944,
+                  "cache_write_tokens": 0
+                },
+                "output_tokens_details": {
+                  "reasoning_tokens": 0
+                }
+              },
+              "attempts": 1,
+              "provider": "openai",
+              "reasoning": null,
+              "duration_ms": 1960,
+              "response_id": "resp_07bf55d4e281f22f016ab5dd7ee73887d0b5cec2ac9970f136",
+              "prompt_version": "guide-test-reader-v1",
+              "max_output_tokens": 1800
+            },
+            {
+              "model": "gpt-4.1-mini-2025-04-14",
+              "usage": {
+                "input_tokens": 3922,
+                "total_tokens": 4060,
+                "output_tokens": 138,
+                "input_tokens_details": {
+                  "cached_tokens": 0,
+                  "cache_write_tokens": 0
+                },
+                "output_tokens_details": {
+                  "reasoning_tokens": 0
+                }
+              },
+              "attempts": 1,
+              "provider": "openai",
+              "reasoning": null,
+              "duration_ms": 1994,
+              "response_id": "resp_0c8bc3650cf21624016ab5dd81229c87d09c9354a79b57201e",
+              "prompt_version": "guide-test-reader-v1",
+              "max_output_tokens": 1800
+            }
+          ],
+          "expected_url": "https://tally.so/help/submissions-data-retention",
+          "expected_cited": false,
+          "reference_quote": "Deleted submissions are moved to the Trash, where they remain for 90 days before permanent deletion, unless you remove them earlier via the \nEmpty trash button.",
+          "expected_reached": false
+        }
+      ],
+      "max_opens": 3,
+      "limitations": "Frozen captured pages only; three page opens per question, 24,000 characters per guide and 12,000 per source. Quote checks establish provenance, not semantic correctness. Suggested questions are machine-generated and may be imperfect.",
+      "guide_sha256": "3db4b108ead5eddc022de736e5540b58ccc49ec63d253044cf5be26008be6c0a",
+      "reader_prompt": "guide-test-reader-v1"
+    },
+    "created_at": "2026-09-25 02:33:06.860153+00:00",
+    "status": "succeeded"
+  }
+]

@@ -1,0 +1,811 @@
+{
+  "url": "https://terminaltrove.com/list/",
+  "title": "List of Terminal Tools (A-Z) - Terminal Trove",
+  "content": "A\n- abtop - Like btop, but for your AI coding agents.\n- act - Run your GitHub Actions locally\n- act3 - Glance at the last 3 runs of your Github Actions.\n- ad - An adaptable text editor.\n- adguardian-term - An AdGuard Home terminal monitoring tool.\n- adsb-tui - A modern terminal user interface for tracking aircraft using ADS-B data.\n- aerc - A pretty good email client.\n- age - A simple, modern and secure file encryption tool.\n- aic - Fetch the latest changelogs for popular AI coding assistants.\n- aichat - all-in-one AI powered CLI chat and copilot.\n- aider - AI pair programming in your terminal.\n- aim - A command line download/upload tool with resume.\n- ali - A load testing tool capable of performing real-time analysis.\n- amdtop - A TUI system monitor specialized for AMD GPUs.\n- amfora - A fancy terminal browser for the Gemini protocol.\n- amp - A complete text editor for your terminal.\n- amux - A TUI for easily running parallel coding agents.\n- andcli - A 2FA TUI for your shell.\n- angryoxide - A WiFi attack and pentesting tool built in Rust.\n- apisnip - A TUI tool for trimming OpenAPI specifications down to size.\n- aptui - A TUI package manager for APT-based Linux distributions.\n- apw - A CLI for Apple Passwords (also known as iCloud Keychain)\n- arduino-cli-interactive - An Interactive way to use the arduino-cli.\n- aria2 - The ultra fast download utility.\n- aria2tui - A TUI client for the aria2 download utility.\n- artui - Read and track recent arXiv papers with a TUI.\n- asak - A cross-platform audio recording/playback CLI tool with a TUI.\n- asciinema - A terminal session recorder.\n- asmdiff - A tool to compare per-function C assembly across compilers and revisions.\n- asn - ASN lookup tool and traceroute server\n- ast-grep - A CLI tool for code structural search, lint and rewriting.\n- astroterm - A terminal-based star map.\n- atac - A simple API client (postman like) in your terminal.\n- atop - An advanced interactive monitor for linux systems.\n- atuin - Sync, search and backup shell history.\n- auggie - All the power of Augment Code in your terminal.\n- austin-tui - The top-like text-based user interface for Austin.\n- awsesh - A charming TUI for AWS SSO session management.\n- az-tui - A TUI for managing Azure Container Apps.\nB\n- b4n - A terminal user interface (TUI) for the Kubernetes API.\n- bacon - A background rust code checker.\n- bagels - A powerful expense tracker that lives in your terminal.\n- ballast - A tool for snapshot load testing APIs.\n- bandwhich - Terminal bandwidth utilization tool\n- basalt - A TUI for managing Obsidian vaults and notes.\n- basilk - A TUI to manage your tasks with minimal kanban logic.\n- bat - A cat(1) clone with wings.\n- bbcli - A TUI and CLI for accessing BBC News in the terminal.\n- bbrew - A Homebrew TUI Manager.\n- bcal - Bits, bytes and address calculator.\n- benben - A fast and efficient command line audio player and audio converter.\n- bfs - A breadth-first version of the UNIX find command.\n- bibiman - A simple TUI for handling your BibLaTeX database.\n- binsider - Analyze ELF binaries like a boss.\n- bit - Terminal ANSI Logo Designer & Font Library.\n- bitchat-tui - A TUI client for bitchat.\n- bkp - Utility that makes backups of your files/directories.\n- blink - tiniest x86-64-linux emulator.\n- bluetui - TUI for managing bluetooth on Linux.\n- bluetuith - A TUI bluetooth manager for Linux.\n- blueutil-tui - A TUI for macOS to interact with bluetooth devices via blueutil.\n- bmm - Get to your bookmarks in a flash.\n- bmon - Bandwidth monitor and rate estimator\n- bombadillo - A non-web client for the terminal, supporting Gopher, Gemini and much more.\n- bookokrat - A terminal EPUB / PDF ebook reader.\n- boomtypr - A sleek typing test experience in the terminal.\n- bottom - Yet another cross-platform graphical process/system monitor.\n- bpftop - Dynamic real-time view of running eBPF programs.\n- braindrop - A terminal-based client for raindrop.io.\n- branchlet - Manage Git worktrees with automation from the terminal.\n- broot - A new way to see and navigate directory trees.\n- brows - A GitHub releases browser for the terminal\n- browsr - A pleasant file explorer in your terminal supporting all filesystems.\n- bt - Interactive tree-like terminal file manager.\n- btop - A terminal monitor of resources.\n- bttf - A CLI tool for datetime arithmetic, parsing, formatting and more. \n- bugstalker - A Modern Rust debugger for Linux x86-64.\n- buku - Personal mini-web in text\n- bullmq-dash - A TUI dashboard for BullMQ.\n- byobu - Text-based window manager and terminal multiplexer\nC\n- calcure - Modern, customizable TUI calendar and task manager.\n- calcurse - A calendar and scheduling application for the command line.\n- caligula - A user-friendly, lightweight TUI for disk imaging.\n- caps-log - A small TUI journaling tool.\n- carbon-now-cli - generate beautiful images of your code from right inside your terminal.\n- cargo-geiger - Detects usage of unsafe Rust in a Rust crate and its dependencies.\n- cargo-seek - A TUI for searching, adding and installing cargo crates.\n- cargo-selector - Cargo subcommand to select and execute binary/example targets.\n- cariddi - A tool to crawl urls, scan endpoints, secrets, api keys, file extensions, tokens and more.\n- carl - a cal(1) alternative calendar for the command-line.\n- cashd - A fast and cozy TUI for personal finance management.\n- castero - A TUI podcast client for the terminal.\n- cava - Cross-platform Audio Visualizer for Alsa\n- celerator - Monitor and debug celery tasks in the terminal.\n- cgdb - A curses (terminal-based) interface to the GNU Debugger (GDB)\n- chatuino - A feature rich TUI Twitch chat client.\n- chawan - A TUI web browser.\n- chdig - Dig into ClickHouse with TUI interface.\n- chess-tui - Play chess from your terminal.\n- chezmoi - Manage dotfiles across multiple machines.\n- cheznav - A TUI for managing chezmoi dotfiles.\n- chiko - A TUI gRPC client.\n- chmod-cli - effortlessly generate chmod commands.\n- chroncal - All in one calendar, tasks and journal manager in the terminal.\n- cidr - A CLI to perform various actions on CIDR ranges.\n- circumflex - It's Hacker News in your terminal.\n- claude-code - An agentic coding tool that lives in your terminal, from Anthropic.\n- claws - A TUI for AWS resource management.\n- cliamp - A terminal music player inspired by winamp.\n- climp - A minimal CLI media player.\n- clin - A TUI note management app inspired by Obsidian.\n- clipboard - Your new, ridonkulously smart clipboard manager.\n- clipse - Configurable TUI clipboard manager for Unix.\n- cloc - Count lines of code in many programming languages\n- cloctui - A TUI interface for CLOC (Count Lines of Code)\n- cloudflare-speed-cli - A terminal interface for cloudflare's internet speed tester.\n- cmatrix - Matrix like effect in your terminal.\n- cmdperf - Benchmark and compare shell commands interactively.\n- cmus - Small, fast and powerful console music player for Unix-like operating systems.\n- cobib - The Console Bibliography.\n- codemark - Structural code bookmarks for humans and coding agents.\n- coderabbit - Free AI Code Reviews in the CLI.\n- codex - Lightweight coding agent that runs in your terminal from OpenAI.\n- cointop - cryptocurrency tracking for hackers that like htop.\n- colorstorm - A TUI to generate color themes for Vim, VSCode, and Sublime Text.\n- comchan - A blazingly fast, minimal, and beginner-friendly serial monitor.\n- concord - A TUI client for Discord with support for inline images.\n- cooldeck - A keyboard first terminal dashboard for Coolify.\n- cotp - trusted, encrypted, TOTP/HOTP authenticator with import functionality.\n- countryfetch - A neofetch-like tool for fetching information about your country.\n- cpufetch - Simple yet fancy CPU architecture fetching tool.\n- cpx - A batteries-included Cargo-like CLI for C++.\n- crates-tui - A TUI for exploring crates.io\n- critique - A terminal UI for reviewing git diffs.\n- croc - Easily and securely send things from one computer to another.\n- croft - A VSCode-style TUI text editor.\n- cronboard - A terminal tool for managing cron jobs locally and on servers.\n- csvi - A simple cross-platform terminal CSV editor.\n- csvlens - a csv viewer like less but made for csv.\n- ctop - A top-like interface for container metrics.\n- cueitup - Inspect messages in an AWS SQS queue.\n- cull - Interactive TUI disk space analyzer.\n- curl - A command line tool and library for transferring data.\n- curlie - The power of curl, the ease of use of httpie.\n- cy - A time traveling terminal multiplexer.\n- cyme - List system USB buses and devices.\nD\n- daff - align and compare tables\n- darya - A disk usage explorer with a TUI and live treemap.\n- datui - Data Exploration in the Terminal.\n- dawn - A distraction-free writing environment. draft anything, write now.\n- daylight - Track sunrise and sunset times in the terminal.\n- dblab - The database client designed for command line specialists.\n- dcv - A TUI viewer for docker-compose.\n- ddgr - DuckDuckGo from the terminal.\n- ddv - A TUI to view Amazon DynamoDB in the terminal.\n- deadbranch - Clean up stale git branches safely.\n- dealve-tui - Delve into game deals from your terminal.\n- deletor - Manage & delete files efficiently with an interactive TUI & scriptable CLI.\n- delta - A viewer for git and diff output.\n- depot - Replace docker build with depot build for up to 40x faster container image builds.\n- depsguard - A CLI to harden package manager configs against supply chain attacks.\n- desed - Demystify and debug your sed scripts, from the comfort of your terminal.\n- devzat - A tool to chat over SSH.\n- dhv - A TUI for visually exploring disassembled Python bytecode.\n- diffnav - A git diff pager based on delta but with a file tree, à la GitHub.\n- difftastic - A structural diff that understands syntax.\n- diffyml - A fast, structural YAML diff tool with built-in Kubernetes intelligence.\n- dijo - scriptable, curses-based, digital habit tracker.\n- dirsearch - A web path scanner for finding hidden files and directories.\n- diskbloom - A pastel, WizTree-style treemap disk visualizer that lives in your terminal.\n- diskonaut - terminal disk space navigator.\n- diskwatch - Single host disk diagnostics in your terminal.\n- dive - A tool for exploring each layer in a docker image.\n- dns53 - Expose your EC2 quickly, easily and privately within a VPC.\n- dnsglobe - A global DNS propagation checker for your terminal.\n- dnspyre - A CLI tool for a high QPS DNS benchmark.\n- docfd - TUI multiline fuzzy document finder.\n- dog - A command-line DNS client.\n- doggo - A command-line DNS client for humans.\n- dolphie - Realtime MySQL health monitoring in the terminal.\n- domain-check - A fast, powerful CLI tool for checking domain availability using RDAP and WHOIS.\n- dooit - A TUI todo manager for the terminal\n- dotbins - Keep updated binaries in your dotfiles.\n- dotenvhub - A TUI to manage your .env files in the terminal.\n- dotstate - A modern, secure, and user-friendly dotfile manager.\n- doxx - A viewer for Microsoft Word .docx files in the terminal.\n- dra - A command line tool to download release assets from GitHub.\n- drft - A diff re/viewer and file tree viewer.\n- dry - A Docker manager for the terminal.\n- drydock - A live terminal dashboard for a fleet of Git repositories.\n- dskditto - An ultra fast and easy duplicate file finder.\n- dstask - A CLI TODO manager with git-based sync + markdown notes.\n- dstp - Run common networking tests against any site.\n- dte - A small, configurable console text editor.\n- dtop - Multi-host Docker monitoring in the terminal.\n- dtop (python) - A high-performance TUI for Docker container management.\n- dua - View disk space usage and delete unwanted data, fast.\n- ducker - A slightly quackers Docker TUI.\n- duf - Disk Usage/Free Utility - a better 'df' alternative.\n- dug - A global DNS propagation checker on your CLI\n- dunk - Prettier git diffs in the terminal 🎨\n- durdraw - Versatile ASCII and ANSI Art text editor for terminals.\n- dusage - A command line disk usage information ",
+  "links": [
+    {
+      "url": "https://terminaltrove.com/categories/",
+      "label": "categories?"
+    },
+    {
+      "url": "https://coderabbit.link/terminal-trove-montly-002",
+      "label": "CodeRabbit   -   Cut Code Review Time & Bugs in Half. Supports TypeScript, Python, Java, Rust, and more.   -    Install CodeRabbit CLI"
+    },
+    {
+      "url": "https://terminaltrove.com/abtop/",
+      "label": "abtop"
+    },
+    {
+      "url": "https://terminaltrove.com/act/",
+      "label": "act"
+    },
+    {
+      "url": "https://terminaltrove.com/act3/",
+      "label": "act3"
+    },
+    {
+      "url": "https://terminaltrove.com/ad/",
+      "label": "ad"
+    },
+    {
+      "url": "https://terminaltrove.com/adguardian-term/",
+      "label": "adguardian-term"
+    },
+    {
+      "url": "https://terminaltrove.com/adsb-tui/",
+      "label": "adsb-tui"
+    },
+    {
+      "url": "https://terminaltrove.com/aerc/",
+      "label": "aerc"
+    },
+    {
+      "url": "https://terminaltrove.com/age/",
+      "label": "age"
+    },
+    {
+      "url": "https://terminaltrove.com/aic/",
+      "label": "aic"
+    },
+    {
+      "url": "https://terminaltrove.com/aichat/",
+      "label": "aichat"
+    },
+    {
+      "url": "https://terminaltrove.com/aider/",
+      "label": "aider"
+    },
+    {
+      "url": "https://terminaltrove.com/aim/",
+      "label": "aim"
+    },
+    {
+      "url": "https://terminaltrove.com/ali/",
+      "label": "ali"
+    },
+    {
+      "url": "https://terminaltrove.com/amdtop/",
+      "label": "amdtop"
+    },
+    {
+      "url": "https://terminaltrove.com/amfora/",
+      "label": "amfora"
+    },
+    {
+      "url": "https://terminaltrove.com/amp/",
+      "label": "amp"
+    },
+    {
+      "url": "https://terminaltrove.com/amux/",
+      "label": "amux"
+    },
+    {
+      "url": "https://terminaltrove.com/andcli/",
+      "label": "andcli"
+    },
+    {
+      "url": "https://terminaltrove.com/angryoxide/",
+      "label": "angryoxide"
+    },
+    {
+      "url": "https://terminaltrove.com/apisnip/",
+      "label": "apisnip"
+    },
+    {
+      "url": "https://terminaltrove.com/aptui/",
+      "label": "aptui"
+    },
+    {
+      "url": "https://terminaltrove.com/apw/",
+      "label": "apw"
+    },
+    {
+      "url": "https://terminaltrove.com/arduino-cli-interactive/",
+      "label": "arduino-cli-interactive"
+    },
+    {
+      "url": "https://terminaltrove.com/aria2/",
+      "label": "aria2"
+    },
+    {
+      "url": "https://terminaltrove.com/aria2tui/",
+      "label": "aria2tui"
+    },
+    {
+      "url": "https://terminaltrove.com/artui/",
+      "label": "artui"
+    },
+    {
+      "url": "https://terminaltrove.com/asak/",
+      "label": "asak"
+    },
+    {
+      "url": "https://terminaltrove.com/asciinema/",
+      "label": "asciinema"
+    },
+    {
+      "url": "https://terminaltrove.com/asmdiff/",
+      "label": "asmdiff"
+    },
+    {
+      "url": "https://terminaltrove.com/asn/",
+      "label": "asn"
+    },
+    {
+      "url": "https://terminaltrove.com/ast-grep/",
+      "label": "ast-grep"
+    },
+    {
+      "url": "https://terminaltrove.com/astroterm/",
+      "label": "astroterm"
+    },
+    {
+      "url": "https://terminaltrove.com/atac/",
+      "label": "atac"
+    },
+    {
+      "url": "https://terminaltrove.com/atop/",
+      "label": "atop"
+    },
+    {
+      "url": "https://terminaltrove.com/atuin/",
+      "label": "atuin"
+    },
+    {
+      "url": "https://terminaltrove.com/auggie/",
+      "label": "auggie"
+    },
+    {
+      "url": "https://terminaltrove.com/austin-tui/",
+      "label": "austin-tui"
+    },
+    {
+      "url": "https://terminaltrove.com/awsesh/",
+      "label": "awsesh"
+    },
+    {
+      "url": "https://terminaltrove.com/az-tui/",
+      "label": "az-tui"
+    },
+    {
+      "url": "https://terminaltrove.com/b4n/",
+      "label": "b4n"
+    },
+    {
+      "url": "https://terminaltrove.com/bacon/",
+      "label": "bacon"
+    },
+    {
+      "url": "https://terminaltrove.com/bagels/",
+      "label": "bagels"
+    },
+    {
+      "url": "https://terminaltrove.com/ballast/",
+      "label": "ballast"
+    },
+    {
+      "url": "https://terminaltrove.com/bandwhich/",
+      "label": "bandwhich"
+    },
+    {
+      "url": "https://terminaltrove.com/basalt/",
+      "label": "basalt"
+    },
+    {
+      "url": "https://terminaltrove.com/basilk/",
+      "label": "basilk"
+    },
+    {
+      "url": "https://terminaltrove.com/bat/",
+      "label": "bat"
+    },
+    {
+      "url": "https://terminaltrove.com/bbcli/",
+      "label": "bbcli"
+    },
+    {
+      "url": "https://terminaltrove.com/bbrew/",
+      "label": "bbrew"
+    },
+    {
+      "url": "https://terminaltrove.com/bcal/",
+      "label": "bcal"
+    },
+    {
+      "url": "https://terminaltrove.com/benben/",
+      "label": "benben"
+    },
+    {
+      "url": "https://terminaltrove.com/bfs/",
+      "label": "bfs"
+    },
+    {
+      "url": "https://terminaltrove.com/bibiman/",
+      "label": "bibiman"
+    },
+    {
+      "url": "https://terminaltrove.com/binsider/",
+      "label": "binsider"
+    },
+    {
+      "url": "https://terminaltrove.com/bit/",
+      "label": "bit"
+    },
+    {
+      "url": "https://terminaltrove.com/bitchat-tui/",
+      "label": "bitchat-tui"
+    },
+    {
+      "url": "https://terminaltrove.com/bkp/",
+      "label": "bkp"
+    },
+    {
+      "url": "https://terminaltrove.com/blink/",
+      "label": "blink"
+    },
+    {
+      "url": "https://terminaltrove.com/bluetui/",
+      "label": "bluetui"
+    },
+    {
+      "url": "https://terminaltrove.com/bluetuith/",
+      "label": "bluetuith"
+    },
+    {
+      "url": "https://terminaltrove.com/blueutil-tui/",
+      "label": "blueutil-tui"
+    },
+    {
+      "url": "https://terminaltrove.com/bmm/",
+      "label": "bmm"
+    },
+    {
+      "url": "https://terminaltrove.com/bmon/",
+      "label": "bmon"
+    },
+    {
+      "url": "https://terminaltrove.com/bombadillo/",
+      "label": "bombadillo"
+    },
+    {
+      "url": "https://terminaltrove.com/bookokrat/",
+      "label": "bookokrat"
+    },
+    {
+      "url": "https://terminaltrove.com/boomtypr/",
+      "label": "boomtypr"
+    },
+    {
+      "url": "https://terminaltrove.com/bottom/",
+      "label": "bottom"
+    },
+    {
+      "url": "https://terminaltrove.com/bpftop/",
+      "label": "bpftop"
+    },
+    {
+      "url": "https://terminaltrove.com/braindrop/",
+      "label": "braindrop"
+    },
+    {
+      "url": "https://terminaltrove.com/branchlet/",
+      "label": "branchlet"
+    },
+    {
+      "url": "https://terminaltrove.com/broot/",
+      "label": "broot"
+    },
+    {
+      "url": "https://terminaltrove.com/brows/",
+      "label": "brows"
+    },
+    {
+      "url": "https://terminaltrove.com/browsr/",
+      "label": "browsr"
+    },
+    {
+      "url": "https://terminaltrove.com/bt/",
+      "label": "bt"
+    },
+    {
+      "url": "https://terminaltrove.com/btop/",
+      "label": "btop"
+    },
+    {
+      "url": "https://terminaltrove.com/bttf/",
+      "label": "bttf"
+    },
+    {
+      "url": "https://terminaltrove.com/bugstalker/",
+      "label": "bugstalker"
+    },
+    {
+      "url": "https://terminaltrove.com/buku/",
+      "label": "buku"
+    },
+    {
+      "url": "https://terminaltrove.com/bullmq-dash/",
+      "label": "bullmq-dash"
+    },
+    {
+      "url": "https://terminaltrove.com/byobu/",
+      "label": "byobu"
+    },
+    {
+      "url": "https://terminaltrove.com/calcure/",
+      "label": "calcure"
+    },
+    {
+      "url": "https://terminaltrove.com/calcurse/",
+      "label": "calcurse"
+    },
+    {
+      "url": "https://terminaltrove.com/caligula/",
+      "label": "caligula"
+    },
+    {
+      "url": "https://terminaltrove.com/caps-log/",
+      "label": "caps-log"
+    },
+    {
+      "url": "https://terminaltrove.com/carbon-now-cli/",
+      "label": "carbon-now-cli"
+    },
+    {
+      "url": "https://terminaltrove.com/cargo-geiger/",
+      "label": "cargo-geiger"
+    },
+    {
+      "url": "https://terminaltrove.com/cargo-seek/",
+      "label": "cargo-seek"
+    },
+    {
+      "url": "https://terminaltrove.com/cargo-selector/",
+      "label": "cargo-selector"
+    },
+    {
+      "url": "https://terminaltrove.com/cariddi/",
+      "label": "cariddi"
+    },
+    {
+      "url": "https://terminaltrove.com/carl/",
+      "label": "carl"
+    },
+    {
+      "url": "https://terminaltrove.com/cashd/",
+      "label": "cashd"
+    },
+    {
+      "url": "https://terminaltrove.com/castero/",
+      "label": "castero"
+    },
+    {
+      "url": "https://terminaltrove.com/cava/",
+      "label": "cava"
+    },
+    {
+      "url": "https://terminaltrove.com/celerator/",
+      "label": "celerator"
+    },
+    {
+      "url": "https://terminaltrove.com/cgdb/",
+      "label": "cgdb"
+    },
+    {
+      "url": "https://terminaltrove.com/chatuino/",
+      "label": "chatuino"
+    },
+    {
+      "url": "https://terminaltrove.com/chawan/",
+      "label": "chawan"
+    },
+    {
+      "url": "https://terminaltrove.com/chdig/",
+      "label": "chdig"
+    },
+    {
+      "url": "https://terminaltrove.com/chess-tui/",
+      "label": "chess-tui"
+    },
+    {
+      "url": "https://terminaltrove.com/chezmoi/",
+      "label": "chezmoi"
+    },
+    {
+      "url": "https://terminaltrove.com/cheznav/",
+      "label": "cheznav"
+    },
+    {
+      "url": "https://terminaltrove.com/chiko/",
+      "label": "chiko"
+    },
+    {
+      "url": "https://terminaltrove.com/chmod-cli/",
+      "label": "chmod-cli"
+    },
+    {
+      "url": "https://terminaltrove.com/chroncal/",
+      "label": "chroncal"
+    },
+    {
+      "url": "https://terminaltrove.com/cidr/",
+      "label": "cidr"
+    },
+    {
+      "url": "https://terminaltrove.com/circumflex/",
+      "label": "circumflex"
+    },
+    {
+      "url": "https://terminaltrove.com/claude-code/",
+      "label": "claude-code"
+    },
+    {
+      "url": "https://terminaltrove.com/claws/",
+      "label": "claws"
+    },
+    {
+      "url": "https://terminaltrove.com/cliamp/",
+      "label": "cliamp"
+    },
+    {
+      "url": "https://terminaltrove.com/climp/",
+      "label": "climp"
+    },
+    {
+      "url": "https://terminaltrove.com/clin/",
+      "label": "clin"
+    },
+    {
+      "url": "https://terminaltrove.com/clipboard/",
+      "label": "clipboard"
+    },
+    {
+      "url": "https://terminaltrove.com/clipse/",
+      "label": "clipse"
+    },
+    {
+      "url": "https://terminaltrove.com/cloc/",
+      "label": "cloc"
+    },
+    {
+      "url": "https://terminaltrove.com/cloctui/",
+      "label": "cloctui"
+    },
+    {
+      "url": "https://terminaltrove.com/cloudflare-speed-cli/",
+      "label": "cloudflare-speed-cli"
+    },
+    {
+      "url": "https://terminaltrove.com/cmatrix/",
+      "label": "cmatrix"
+    },
+    {
+      "url": "https://terminaltrove.com/cmdperf/",
+      "label": "cmdperf"
+    },
+    {
+      "url": "https://terminaltrove.com/cmus/",
+      "label": "cmus"
+    },
+    {
+      "url": "https://terminaltrove.com/cobib/",
+      "label": "cobib"
+    },
+    {
+      "url": "https://terminaltrove.com/codemark/",
+      "label": "codemark"
+    },
+    {
+      "url": "https://terminaltrove.com/coderabbit/",
+      "label": "coderabbit"
+    },
+    {
+      "url": "https://terminaltrove.com/codex/",
+      "label": "codex"
+    },
+    {
+      "url": "https://terminaltrove.com/cointop/",
+      "label": "cointop"
+    },
+    {
+      "url": "https://terminaltrove.com/colorstorm/",
+      "label": "colorstorm"
+    },
+    {
+      "url": "https://terminaltrove.com/comchan/",
+      "label": "comchan"
+    },
+    {
+      "url": "https://terminaltrove.com/concord/",
+      "label": "concord"
+    },
+    {
+      "url": "https://terminaltrove.com/cooldeck/",
+      "label": "cooldeck"
+    },
+    {
+      "url": "https://terminaltrove.com/cotp/",
+      "label": "cotp"
+    },
+    {
+      "url": "https://terminaltrove.com/countryfetch/",
+      "label": "countryfetch"
+    },
+    {
+      "url": "https://terminaltrove.com/cpufetch/",
+      "label": "cpufetch"
+    },
+    {
+      "url": "https://terminaltrove.com/cpx/",
+      "label": "cpx"
+    },
+    {
+      "url": "https://terminaltrove.com/crates-tui/",
+      "label": "crates-tui"
+    },
+    {
+      "url": "https://terminaltrove.com/critique/",
+      "label": "critique"
+    },
+    {
+      "url": "https://terminaltrove.com/croc/",
+      "label": "croc"
+    },
+    {
+      "url": "https://terminaltrove.com/croft/",
+      "label": "croft"
+    },
+    {
+      "url": "https://terminaltrove.com/cronboard/",
+      "label": "cronboard"
+    },
+    {
+      "url": "https://terminaltrove.com/csvi/",
+      "label": "csvi"
+    },
+    {
+      "url": "https://terminaltrove.com/csvlens/",
+      "label": "csvlens"
+    },
+    {
+      "url": "https://terminaltrove.com/ctop/",
+      "label": "ctop"
+    },
+    {
+      "url": "https://terminaltrove.com/cueitup/",
+      "label": "cueitup"
+    },
+    {
+      "url": "https://terminaltrove.com/cull/",
+      "label": "cull"
+    },
+    {
+      "url": "https://terminaltrove.com/curl/",
+      "label": "curl"
+    },
+    {
+      "url": "https://terminaltrove.com/curlie/",
+      "label": "curlie"
+    },
+    {
+      "url": "https://terminaltrove.com/cy/",
+      "label": "cy"
+    },
+    {
+      "url": "https://terminaltrove.com/cyme/",
+      "label": "cyme"
+    },
+    {
+      "url": "https://terminaltrove.com/daff/",
+      "label": "daff"
+    },
+    {
+      "url": "https://terminaltrove.com/darya/",
+      "label": "darya"
+    },
+    {
+      "url": "https://terminaltrove.com/datui/",
+      "label": "datui"
+    },
+    {
+      "url": "https://terminaltrove.com/dawn/",
+      "label": "dawn"
+    },
+    {
+      "url": "https://terminaltrove.com/daylight/",
+      "label": "daylight"
+    },
+    {
+      "url": "https://terminaltrove.com/dblab/",
+      "label": "dblab"
+    },
+    {
+      "url": "https://terminaltrove.com/dcv/",
+      "label": "dcv"
+    },
+    {
+      "url": "https://terminaltrove.com/ddgr/",
+      "label": "ddgr"
+    },
+    {
+      "url": "https://terminaltrove.com/ddv/",
+      "label": "ddv"
+    },
+    {
+      "url": "https://terminaltrove.com/deadbranch/",
+      "label": "deadbranch"
+    },
+    {
+      "url": "https://terminaltrove.com/dealve-tui/",
+      "label": "dealve-tui"
+    },
+    {
+      "url": "https://terminaltrove.com/deletor/",
+      "label": "deletor"
+    },
+    {
+      "url": "https://terminaltrove.com/delta/",
+      "label": "delta"
+    },
+    {
+      "url": "https://terminaltrove.com/depot/",
+      "label": "depot"
+    },
+    {
+      "url": "https://terminaltrove.com/depsguard/",
+      "label": "depsguard"
+    },
+    {
+      "url": "https://terminaltrove.com/desed/",
+      "label": "desed"
+    },
+    {
+      "url": "https://terminaltrove.com/devzat/",
+      "label": "devzat"
+    },
+    {
+      "url": "https://terminaltrove.com/dhv/",
+      "label": "dhv"
+    },
+    {
+      "url": "https://terminaltrove.com/diffnav/",
+      "label": "diffnav"
+    },
+    {
+      "url": "https://terminaltrove.com/difftastic/",
+      "label": "difftastic"
+    },
+    {
+      "url": "https://terminaltrove.com/diffyml/",
+      "label": "diffyml"
+    },
+    {
+      "url": "https://terminaltrove.com/dijo/",
+      "label": "dijo"
+    },
+    {
+      "url": "https://terminaltrove.com/dirsearch/",
+      "label": "dirsearch"
+    },
+    {
+      "url": "https://terminaltrove.com/diskbloom/",
+      "label": "diskbloom"
+    },
+    {
+      "url": "https://terminaltrove.com/diskonaut/",
+      "label": "diskonaut"
+    },
+    {
+      "url": "https://terminaltrove.com/diskwatch/",
+      "label": "diskwatch"
+    },
+    {
+      "url": "https://terminaltrove.com/dive/",
+      "label": "dive"
+    },
+    {
+      "url": "https://terminaltrove.com/dns53/",
+      "label": "dns53"
+    },
+    {
+      "url": "https://terminaltrove.com/dnsglobe/",
+      "label": "dnsglobe"
+    },
+    {
+      "url": "https://terminaltrove.com/dnspyre/",
+      "label": "dnspyre"
+    },
+    {
+      "url": "https://terminaltrove.com/docfd/",
+      "label": "docfd"
+    },
+    {
+      "url": "https://terminaltrove.com/dog/",
+      "label": "dog"
+    },
+    {
+      "url": "https://terminaltrove.com/doggo/",
+      "label": "doggo"
+    },
+    {
+      "url": "https://terminaltrove.com/dolphie/",
+      "label": "dolphie"
+    },
+    {
+      "url": "https://terminaltrove.com/domain-check/",
+      "label": "domain-check"
+    },
+    {
+      "url": "https://terminaltrove.com/dooit/",
+      "label": "dooit"
+    },
+    {
+      "url": "https://terminaltrove.com/dotbins/",
+      "label": "dotbins"
+    },
+    {
+      "url": "https://terminaltrove.com/dotenvhub/",
+      "label": "dotenvhub"
+    },
+    {
+      "url": "https://terminaltrove.com/dotstate/",
+      "label": "dotstate"
+    },
+    {
+      "url": "https://terminaltrove.com/doxx/",
+      "label": "doxx"
+    },
+    {
+      "url": "https://terminaltrove.com/dra/",
+      "label": "dra"
+    },
+    {
+      "url": "https://terminaltrove.com/drft/",
+      "label": "drft"
+    },
+    {
+      "url": "https://terminaltrove.com/dry/",
+      "label": "dry"
+    },
+    {
+      "url": "https://terminaltrove.com/drydock/",
+      "label": "drydock"
+    },
+    {
+      "url": "https://terminaltrove.com/dskditto/",
+      "label": "dskditto"
+    },
+    {
+      "url": "https://terminaltrove.com/dstask/",
+      "label": "dstask"
+    },
+    {
+      "url": "https://terminaltrove.com/dstp/",
+      "label": "dstp"
+    },
+    {
+      "url": "https://terminaltrove.com/dte/",
+      "label": "dte"
+    },
+    {
+      "url": "https://terminaltrove.com/dtop/",
+      "label": "dtop"
+    },
+    {
+      "url": "https://terminaltrove.com/dtop-py/",
+      "label": "dtop (python)"
+    },
+    {
+      "url": "https://terminaltrove.com/dua/",
+      "label": "dua"
+    },
+    {
+      "url": "https://terminaltrove.com/ducker/",
+      "label": "ducker"
+    }
+  ],
+  "body_sha256": "d5a15d99f48416c2098f00b979c6219fc459ea0d9d271e1b75dc29793415c46e",
+  "status": 200,
+  "origin": "frozen-corpus",
+  "retrieved_at": "2026-09-24T22:49:21.908530+00:00"
+}

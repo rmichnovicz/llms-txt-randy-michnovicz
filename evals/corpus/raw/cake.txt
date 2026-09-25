@@ -1,0 +1,95 @@
+# Cake by VPBank
+
+> Cake by VPBank - Ngân hàng số AI hàng đầu Việt Nam
+
+Cake by VPBank phát triển và vận hành **CAKE BANK**, ứng dụng ngân hàng số chính thức của Cake by VPBank, nơi khách hàng có thể thực hiện giao dịch và sử dụng các sản phẩm, dịch vụ tài chính trên một nền tảng số.
+
+## Thông tin chung
+
+- [Giới thiệu về Cake](https://cake.vn/gioi-thieu): Cake by VPBank phát triển và vận hành CAKE BANK, ứng dụng ngân hàng số chính thức của Cake by VPBank, nơi khách hàng có thể thực hiện giao dịch và sử dụng các sản phẩm, dịch vụ tài chính trên một nền tảng số.
+- [Chính sách Bảo mật dữ liệu](https://cake.vn/bao-mat): Cam kết bảo vệ thông tin cá nhân và tuân thủ các tiêu chuẩn bảo mật.
+- [Điều khoản sử dụng](https://cake.vn/dieu-kien-dieu-khoan): Các điều khoản và điều kiện khi sử dụng dịch vụ của Cake.
+- [Biểu mẫu & Phí dịch vụ](https://cake.vn/bieu-phi): Chi tiết về các loại phí và điều kiện áp dụng của Cake.
+- [Thông tin liên hệ & Văn phòng](https://cake.vn/lien-he): Thông tin liên hệ và địa chỉ văn phòng của Cake.
+
+## Sản phẩm chính
+
+### Thẻ
+
+- [Thẻ](https://cake.vn/the): Thông tin về các loại thẻ tín dụng và ưu đãi hoàn tiền.
+- [Thẻ Cake 2in1 - Gói Premium](https://cake.vn/the/the-cake-2in1/goi-premium): Thẻ Cake 2in1 - Gói Premium siêu hoàn tiền đến 20%. Tối đa 10 triệu đồng/kỳ sao kê.
+- [Thẻ Cake 2in1 - Gói Standard](https://cake.vn/the/the-cake-2in1/goi-standard): Thẻ Cake 2in1 - Gói Standard hoàn 20% lên đến 1 triệu đồng/tháng cho nhiều ngành hàng chi tiêu phổ biến.
+- [Thẻ tín dụng Be Cake](https://cake.vn/the/the-cake-partner/the-be-cake-2in1): Ngưng phát hành thẻ mới. Thẻ tín dụng Be Cake hoàn tiền 20% trên Be.
+- [Thẻ tín dụng VieON Cake](https://cake.vn/the/the-cake-partner/the-vieon-cake-2in1): Ngưng phát hành thẻ mới. Hoàn tiền khi mua gói VieON và nhiều đặc quyền.
+- [Thẻ tự do 2in1](https://cake.vn/the/the-cake-partner/the-tu-do-2in1): Ngưng phát hành thẻ mới. Thiết kế thẻ lấy cảm hứng từ Mẫu tem "Nam Bắc một nhà, non sông liền dải".
+
+### Thẻ thanh toán
+
+- [Thẻ thanh toán Thú Cưng](https://cake.vn/the-thanh-toan/the-thanh-toan-thu-cung): Ngưng phát hành thẻ mới. Thẻ thanh toán phát hành online với thiết kế Thú Cưng.
+
+### Dịch vụ vay nhanh
+
+- [Sản phẩm Vay Cake](https://cake.vn/khoan-vay/cake): Thông tin về các sản phẩm vay nhanh trực tuyến Cake by VPBank.
+- [Vay nhanh](https://cake.vn/khoan-vay/cake/vay-nhanh): Phê duyệt trong 2 phút, giải ngân 100% online. Lãi suất vay chỉ từ 2.3%/tháng theo dư nợ giảm dần. **Hạn mức vay từ 5.000.000Đ đến 60.000.000Đ, số tiền vay tối đa 60.000.000Đ. Kỳ hạn trả góp linh hoạt từ 6 đến 60 tháng.**
+- [Ứng trước](https://cake.vn/khoan-vay/cake/ung-truoc): Khoản vay linh hoạt hạn mức từ 3 - 6 triệu đồng, phù hợp tất toán trong 1 lần. Kỳ hạn vay tối ưu từ 30 - 45 ngày.
+- [Ứng tiền nhanh](https://cake.vn/khoan-vay/cake/ung-tien-nhanh): Ngưng phát hành. Sản phẩm thấu chi không cần chứng minh thu nhập.
+- [Ứng tiền nhanh liên kết sổ tiết kiệm](https://cake.vn/khoan-vay/cake/ung-tien-nhanh-lien-ket-so-tiet-kiem): Ngưng phát hành. Ứng tiền với tài sản đảm bảo là sổ tiết kiệm.
+
+### Tiền gửi & Tiết kiệm
+
+- [Tiết kiệm & Tiền gửi](https://cake.vn/tien-gui): Thông tin về sản phẩm tiết kiệm và lãi suất.
+- [Tiền gửi tiêu chuẩn](https://cake.vn/tien-gui/tien-gui-tieu-chuan): Số tiền gửi tối thiểu: chỉ từ 100.000 VNĐ. Lãi suất luôn cao, cạnh tranh trên thị trường. Kỳ hạn gửi: đa dạng từ 1 đến 36 tháng.
+- [Tiền gửi tích lũy](https://cake.vn/tien-gui/tien-gui-co-ky-han-tich-luy): Tiền gửi có kỳ hạn tích luỹ.
+
+### Đầu tư
+
+- [Đầu tư](https://cake.vn/tien-ich-khac/dau-tu-chung-khoan): Thông tin về đầu tư chứng khoán tại Cake by VPBank.
+- [Đầu tư chứng khoán DNSE](https://cake.vn/tien-ich-khac/dau-tu-chung-khoan/dau-tu-chung-khoan-dnse): Đầu tư chứng khoán là tính năng trên ứng dụng Cake, được cung cấp bởi Công ty Cổ phần Chứng khoán DNSE, cho phép người dùng mở tài khoản chứng khoán DNSE và thực hiện đầu tư thuận tiện trên cùng một nền tảng với số vốn từ 10.000 đồng.
+
+### Bảo hiểm
+
+- [Bảo hiểm xe](https://cake.vn/tien-ich-khac/bao-hiem-xe): Bảo hiểm phương tiện giao thông xe máy và ô tô.
+- [Bảo hiểm ô tô](https://cake.vn/tien-ich-khac/bao-hiem-xe/bao-hiem-tnds-o-to): Bảo hiểm ô tô (tùy theo tính chất của phương tiện như loại chỗ ngồi, kinh doanh vận tải/không kinh doanh vận tải mà có mức phí khác nhau), dao động trung bình chỉ từ 500 nghìn đồng/năm.
+- [Bảo hiểm xe máy](https://cake.vn/tien-ich-khac/bao-hiem-xe/bao-hiem-tnds-xe-may): Bảo hiểm xe máy (xe dưới 50cc và trên 50cc): Chỉ từ 60.000 VND/năm.
+
+### Tài khoản Cake
+
+- [Tài khoản Cake](https://cake.vn/tai-khoan): Thông tin về các loại tài khoản trong hệ sinh thái của Cake.
+- [Tài khoản thanh toán](https://cake.vn/tai-khoan/tai-khoan-thanh-toan): Tài khoản thanh toán và các ưu đãi trên ứng dụng Cake.
+- [Dịch vụ thanh toán](https://cake.vn/tai-khoan/dich-vu-thanh-toan): Danh sách các dịch vụ thanh toán có thể thực hiện trên ứng dụng Cake.
+- [Tài khoản Quỹ Chung](https://cake.vn/tai-khoan/tai-khoan-quy-chung): Tài khoản Quỹ Chung là tài khoản nhóm giúp thu – chi minh bạch, Trưởng nhóm quản lý giao dịch, thành viên dễ dàng đóng góp và theo dõi quỹ, phù hợp cho các hoạt động tập thể.
+- [Dịch vụ nhận tiền quốc tế](https://cake.vn/tai-khoan/nhan-tien-quoc-te): Dịch vụ nhận tiền quốc tế Cake GlobalX. Phí nhận tiền thấp. Đăng ký trực tuyến. Quản lý 24/7.
+
+## Khuyến mãi hiện tại
+
+- [Khuyến mãi hiện tại](https://cake.vn/uu-dai): Các chương trình khuyến mãi và ưu đãi đang diễn ra dành riêng cho khách hàng Cake.
+- [Cake ưu đãi](https://cake.vn/uu-dai/cake-uu-dai): Các chương trình khuyến mãi và ưu đãi đang diễn ra của Cake.
+- [Đối tác ưu đãi](https://cake.vn/uu-dai/doi-tac-uu-dai): Các chương trình khuyến mãi và ưu đãi đang diễn ra của các đối tác dành cho khách hàng Cake.
+- [Ưu đãi tổng hợp](https://cake.vn/uu-dai/uu-dai-tong-hop): Các chương trình khuyến mãi và ưu đãi được tổng hợp hàng tháng dành cho khách hàng Cake.
+
+## Tin tức & Cập nhật
+
+- [Tin tức & Cập nhật](https://cake.vn/tin-tuc): Các bài viết và thông tin mới nhất về Cake.
+- [Tin tức hoạt động](https://cake.vn/tin-tuc/hoat-dong): Các bài viết và thông tin mới nhất về các hoạt động của Cake.
+- [Tin tức sản phẩm](https://cake.vn/tin-tuc/san-pham): Các bài viết và thông tin mới nhất về các sản phẩm của Cake.
+- [Tin tức báo chí](https://cake.vn/tin-tuc/bao-chi): Các bài báo và thông tin báo chí mới nhất về Cake.
+- [Cẩm nang tài chính](https://cake.vn/tin-tuc/tai-chinh): Các bài viết và thông tin mới nhất cung cấp kiến thức và kỹ năng về tài chính của Cake.
+- [Tin tức sự kiện](https://cake.vn/tin-tuc/su-kien): Các bài viết và thông tin mới nhất về các sự kiện nổi bật của Cake.
+- [Hướng dẫn](https://cake.vn/tin-tuc/huong-dan): Các bài viết và thông tin hướng dẫn bổ ích cho người dùng Cake.
+
+## Cơ hội Nghề nghiệp
+
+- [Cơ hội Nghề nghiệp](https://cake.vn/tuyen-dung): Thông tin tuyển dụng và cơ hội làm việc tại Cake.
+
+## Hướng dẫn & Hỗ trợ
+
+- [Hướng dẫn sử dụng ứng dụng](https://cake.vn/huong-dan-su-dung): Cách sử dụng các tính năng và dịch vụ trên ứng dụng Cake.
+- [Tải ứng dụng Cake](https://cake.vn/onboarding): Hướng dẫn tải và cài đặt ứng dụng Cake.
+
+## Mạng xã hội & Cộng đồng
+
+- [Cake trên Facebook](https://www.facebook.com/cake.themobilebank): Cập nhật và tương tác với Cake trên mạng xã hội Facebook.
+- [Cake trên Instagram](https://www.instagram.com/cakebyvpbank): Cập nhật và tương tác với Cake trên mạng xã hội Instagram.
+- [Kênh Cake trên TikTok](https://www.tiktok.com/@cakebyvpbank): Video ngắn và nội dung giải trí từ Cake trên mạng xã hội TikTok.
+- [Kênh YouTube của Cake](https://www.youtube.com/@cakebyvpbank-nganhangso): Video hướng dẫn và tin tức từ Cake trên YouTube.
+- [Cake trên LinkedIn](https://www.linkedin.com/company/cake-by-vpbank/posts/?feedView=all): Thông tin chuyên ngành và cơ hội nghề nghiệp từ Cake trên LinkedIn.

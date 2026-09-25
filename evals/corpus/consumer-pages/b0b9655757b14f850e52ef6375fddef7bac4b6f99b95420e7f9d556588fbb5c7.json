@@ -1,0 +1,811 @@
+{
+  "url": "https://terminaltrove.com/categories/tui/",
+  "title": "TUI Terminal Tools - Terminal Trove",
+  "content": "TUI Terminal Tools\nText User Interfaces (TUIs) emerged with early computing era, providing a text based layout, instead of graphical user interfaces (GUIs). They are useful in resource-constrained environments notably in server management, system administration programming, and file management.\nEven with the advent of graphical interfaces, TUIs still remain relevant, providing efficient, text based user interfaces for professionals and hobbyists and require less processing power where a GUI's overhead would be impractical.\nBelow is a list of terminal tools that are TUIs.\n- abtop - Like btop, but for your AI coding agents.\n- ad - An adaptable text editor.\n- adguardian-term - An AdGuard Home terminal monitoring tool.\n- adsb-tui - A modern terminal user interface for tracking aircraft using ADS-B data.\n- aerc - A pretty good email client.\n- aic - Fetch the latest changelogs for popular AI coding assistants.\n- aider - AI pair programming in your terminal.\n- ali - A load testing tool capable of performing real-time analysis.\n- amdtop - A TUI system monitor specialized for AMD GPUs.\n- amfora - A fancy terminal browser for the Gemini protocol.\n- amp - A complete text editor for your terminal.\n- amux - A TUI for easily running parallel coding agents.\n- andcli - A 2FA TUI for your shell.\n- angryoxide - A WiFi attack and pentesting tool built in Rust.\n- apisnip - A TUI tool for trimming OpenAPI specifications down to size.\n- aptui - A TUI package manager for APT-based Linux distributions.\n- aria2tui - A TUI client for the aria2 download utility.\n- artui - Read and track recent arXiv papers with a TUI.\n- asak - A cross-platform audio recording/playback CLI tool with a TUI.\n- astroterm - A terminal-based star map.\n- atac - A simple API client (postman like) in your terminal.\n- atop - An advanced interactive monitor for linux systems.\n- atuin - Sync, search and backup shell history.\n- auggie - All the power of Augment Code in your terminal.\n- austin-tui - The top-like text-based user interface for Austin.\n- awsesh - A charming TUI for AWS SSO session management.\n- az-tui - A TUI for managing Azure Container Apps.\n- b4n - A terminal user interface (TUI) for the Kubernetes API.\n- bandwhich - Terminal bandwidth utilization tool\n- basalt - A TUI for managing Obsidian vaults and notes.\n- bbcli - A TUI and CLI for accessing BBC News in the terminal.\n- bbrew - A Homebrew TUI Manager.\n- benben - A fast and efficient command line audio player and audio converter.\n- bibiman - A simple TUI for handling your BibLaTeX database.\n- binsider - Analyze ELF binaries like a boss.\n- bit - Terminal ANSI Logo Designer & Font Library.\n- bitchat-tui - A TUI client for bitchat.\n- blink - tiniest x86-64-linux emulator.\n- bluetui - TUI for managing bluetooth on Linux.\n- bluetuith - A TUI bluetooth manager for Linux.\n- blueutil-tui - A TUI for macOS to interact with bluetooth devices via blueutil.\n- bmm - Get to your bookmarks in a flash.\n- bmon - Bandwidth monitor and rate estimator\n- bombadillo - A non-web client for the terminal, supporting Gopher, Gemini and much more.\n- bookokrat - A terminal EPUB / PDF ebook reader.\n- bottom - Yet another cross-platform graphical process/system monitor.\n- bpftop - Dynamic real-time view of running eBPF programs.\n- braindrop - A terminal-based client for raindrop.io.\n- branchlet - Manage Git worktrees with automation from the terminal.\n- broot - A new way to see and navigate directory trees.\n- brows - A GitHub releases browser for the terminal\n- browsr - A pleasant file explorer in your terminal supporting all filesystems.\n- bt - Interactive tree-like terminal file manager.\n- btop - A terminal monitor of resources.\n- bugstalker - A Modern Rust debugger for Linux x86-64.\n- bullmq-dash - A TUI dashboard for BullMQ.\n- byobu - Text-based window manager and terminal multiplexer\n- calcure - Modern, customizable TUI calendar and task manager.\n- calcurse - A calendar and scheduling application for the command line.\n- caligula - A user-friendly, lightweight TUI for disk imaging.\n- caps-log - A small TUI journaling tool.\n- cargo-seek - A TUI for searching, adding and installing cargo crates.\n- carl - a cal(1) alternative calendar for the command-line.\n- cashd - A fast and cozy TUI for personal finance management.\n- castero - A TUI podcast client for the terminal.\n- cava - Cross-platform Audio Visualizer for Alsa\n- celerator - Monitor and debug celery tasks in the terminal.\n- cgdb - A curses (terminal-based) interface to the GNU Debugger (GDB)\n- chatuino - A feature rich TUI Twitch chat client.\n- chawan - A TUI web browser.\n- chdig - Dig into ClickHouse with TUI interface.\n- chess-tui - Play chess from your terminal.\n- cheznav - A TUI for managing chezmoi dotfiles.\n- chiko - A TUI gRPC client.\n- chmod-cli - effortlessly generate chmod commands.\n- chroncal - All in one calendar, tasks and journal manager in the terminal.\n- circumflex - It's Hacker News in your terminal.\n- claude-code - An agentic coding tool that lives in your terminal, from Anthropic.\n- claws - A TUI for AWS resource management.\n- cliamp - A terminal music player inspired by winamp.\n- climp - A minimal CLI media player.\n- clin - A TUI note management app inspired by Obsidian.\n- cloctui - A TUI interface for CLOC (Count Lines of Code)\n- cloudflare-speed-cli - A terminal interface for cloudflare's internet speed tester.\n- cmdperf - Benchmark and compare shell commands interactively.\n- cmus - Small, fast and powerful console music player for Unix-like operating systems.\n- cobib - The Console Bibliography.\n- codemark - Structural code bookmarks for humans and coding agents.\n- codex - Lightweight coding agent that runs in your terminal from OpenAI.\n- cointop - cryptocurrency tracking for hackers that like htop.\n- colorstorm - A TUI to generate color themes for Vim, VSCode, and Sublime Text.\n- comchan - A blazingly fast, minimal, and beginner-friendly serial monitor.\n- cooldeck - A keyboard first terminal dashboard for Coolify.\n- cpx - A batteries-included Cargo-like CLI for C++.\n- crates-tui - A TUI for exploring crates.io\n- critique - A terminal UI for reviewing git diffs.\n- croft - A VSCode-style TUI text editor.\n- cronboard - A terminal tool for managing cron jobs locally and on servers.\n- csvi - A simple cross-platform terminal CSV editor.\n- csvlens - a csv viewer like less but made for csv.\n- ctop - A top-like interface for container metrics.\n- cueitup - Inspect messages in an AWS SQS queue.\n- cull - Interactive TUI disk space analyzer.\n- cy - A time traveling terminal multiplexer.\n- darya - A disk usage explorer with a TUI and live treemap.\n- datui - Data Exploration in the Terminal.\n- dawn - A distraction-free writing environment. draft anything, write now.\n- daylight - Track sunrise and sunset times in the terminal.\n- dblab - The database client designed for command line specialists.\n- dcv - A TUI viewer for docker-compose.\n- ddv - A TUI to view Amazon DynamoDB in the terminal.\n- deadbranch - Clean up stale git branches safely.\n- dealve-tui - Delve into game deals from your terminal.\n- deletor - Manage & delete files efficiently with an interactive TUI & scriptable CLI.\n- delta - A viewer for git and diff output.\n- depsguard - A CLI to harden package manager configs against supply chain attacks.\n- desed - Demystify and debug your sed scripts, from the comfort of your terminal.\n- dhv - A TUI for visually exploring disassembled Python bytecode.\n- diffnav - A git diff pager based on delta but with a file tree, à la GitHub.\n- diffyml - A fast, structural YAML diff tool with built-in Kubernetes intelligence.\n- dijo - scriptable, curses-based, digital habit tracker.\n- diskbloom - A pastel, WizTree-style treemap disk visualizer that lives in your terminal.\n- diskonaut - terminal disk space navigator.\n- diskwatch - Single host disk diagnostics in your terminal.\n- dive - A tool for exploring each layer in a docker image.\n- dns53 - Expose your EC2 quickly, easily and privately within a VPC.\n- dnsglobe - A global DNS propagation checker for your terminal.\n- docfd - TUI multiline fuzzy document finder.\n- dolphie - Realtime MySQL health monitoring in the terminal.\n- dooit - A TUI todo manager for the terminal\n- dotbins - Keep updated binaries in your dotfiles.\n- dotenvhub - A TUI to manage your .env files in the terminal.\n- dotstate - A modern, secure, and user-friendly dotfile manager.\n- doxx - A viewer for Microsoft Word .docx files in the terminal.\n- drft - A diff re/viewer and file tree viewer.\n- dry - A Docker manager for the terminal.\n- drydock - A live terminal dashboard for a fleet of Git repositories.\n- dskditto - An ultra fast and easy duplicate file finder.\n- dtop - Multi-host Docker monitoring in the terminal.\n- dtop (python) - A high-performance TUI for Docker container management.\n- dua - View disk space usage and delete unwanted data, fast.\n- ducker - A slightly quackers Docker TUI.\n- duf - Disk Usage/Free Utility - a better 'df' alternative.\n- dug - A global DNS propagation checker on your CLI\n- dunk - Prettier git diffs in the terminal 🎨\n- durdraw - Versatile ASCII and ANSI Art text editor for terminals.\n- dyff - diff tool for YAML files, and sometimes JSON.\n- e1s - A TUI for managing AWS ECS Resources.\n- e2c - A TUI application for managing AWS EC2 instances.\n- ec - An easy terminal native 3-way git conflict resolver.\n- ecscope - monitor AWS ECS resources from the terminal.\n- edit - A TUI editor inspired by MS-DOS for Windows.\n- ekphos - A lightweight, fast, terminal-based markdown research tool inspired by Obsidian.\n- elia - A TUI ChatGPT client built with Textual\n- elinks - A full-featured text www browser.\n- elio - A terminal-native file manager with rich previews.\n- emacs - The extensible, customizable, free/libre display editor.\n- emeraldian - A terminal UI for Obsidian with graphical live-preview notes\n- endcord - A feature rich Discord TUI client.\n- enola - A CLI tool to search for usernames across social networks.\n- envdiff - A CLI tool to snapshot and diff environments.\n- envx - A powerful and secure TUI environment variable manager.\n- epiq - A distributed terminal native issue tracker backed by Git.\n- ereandel - A Gemini web browser using shell script.\n- erldash - A simple, terminal-based Erlang dashboard.\n- excise - A surgical terminal storage navigator.\n- exosphere - A CLI / TUI for aggregated patch reporting & system status monitoring via SSH.\n- fat - A modern, TUI file and archive viewer for your terminal.\n- fex - A command-line file explorer prioritizing quick navigation.\n- ffdash - A parallel batch video encoder for ffmpeg in the terminal.\n- filessh - A fast and convenient TUI file browser for remote servers.\n- flamelens - An interactive flamegraph viewer in the terminal.\n- flameshow - A flamegraph viewer in the terminal.\n- flawz - A TUI for browsing CVE security vulnerabilities.\n- fli - A command-line tool that simplifies AWS VPC Flow Logs analysis.\n- flow - Real-time network throughput dashboard for the terminal.\n- flowcontrol - Flow Control: a programmer's text editor.\n- flowrs - A TUI application for Apache Airflow.\n- flyline - Modern command-line editing for bash.\n- fm - A minimalistic file manager for the terminal.\n- fnug - Run all your lints, tests and commands at once, in the terminal.\n- forgit - A utility tool powered by fzf for using Git interactively.\n- fork-cleaner - A tool to clean up old and inactive forks on your GitHub account.\n- fq - jq for binary formats.\n- framework-tool-tui - A TUI for controlling and monitoring Framework Computers hardware.\n- fresh - A text editor for your terminal, easy, powerful and fast.\n- froggit - A modern, minimalist Git TUI.\n- frogmouth - A Markdown browser for your terminal\n- fuzpad - A minimalistic note management solution. Powered by fzf.\n- fx - command-line tool and terminal JSON viewer.\n- fzf-make - Find and run multi-project tasks with fuzzy search in the terminal.\n- fztea - A flipperzero remote control locally in the terminal and ssh.\n- g1c ",
+  "links": [
+    {
+      "url": "https://terminaltrove.com/categories/",
+      "label": "Categories"
+    },
+    {
+      "url": "https://en.m.wikipedia.org/wiki/Text-based_user_interface",
+      "label": "Text User Interfaces"
+    },
+    {
+      "url": "https://terminaltrove.com/categories/tui/",
+      "label": "A-Z"
+    },
+    {
+      "url": "https://terminaltrove.com/categories/tui/?sort=stars",
+      "label": "Stars"
+    },
+    {
+      "url": "https://terminaltrove.com/categories/tui/?sort=recent",
+      "label": "Recent"
+    },
+    {
+      "url": "https://terminaltrove.com/abtop/",
+      "label": "abtop Like btop, but for your AI coding agents."
+    },
+    {
+      "url": "https://terminaltrove.com/ad/",
+      "label": "ad An adaptable text editor."
+    },
+    {
+      "url": "https://terminaltrove.com/adguardian-term/",
+      "label": "adguardian-term An AdGuard Home terminal monitoring tool."
+    },
+    {
+      "url": "https://terminaltrove.com/adsb-tui/",
+      "label": "adsb-tui A modern terminal user interface for tracking aircraft using ADS-B data."
+    },
+    {
+      "url": "https://terminaltrove.com/aerc/",
+      "label": "aerc A pretty good email client."
+    },
+    {
+      "url": "https://terminaltrove.com/aic/",
+      "label": "aic Fetch the latest changelogs for popular AI coding assistants."
+    },
+    {
+      "url": "https://terminaltrove.com/aider/",
+      "label": "aider AI pair programming in your terminal."
+    },
+    {
+      "url": "https://terminaltrove.com/ali/",
+      "label": "ali A load testing tool capable of performing real-time analysis."
+    },
+    {
+      "url": "https://terminaltrove.com/amdtop/",
+      "label": "amdtop A TUI system monitor specialized for AMD GPUs."
+    },
+    {
+      "url": "https://terminaltrove.com/amfora/",
+      "label": "amfora A fancy terminal browser for the Gemini protocol."
+    },
+    {
+      "url": "https://terminaltrove.com/amp/",
+      "label": "amp A complete text editor for your terminal."
+    },
+    {
+      "url": "https://terminaltrove.com/amux/",
+      "label": "amux A TUI for easily running parallel coding agents."
+    },
+    {
+      "url": "https://terminaltrove.com/andcli/",
+      "label": "andcli A 2FA TUI for your shell."
+    },
+    {
+      "url": "https://terminaltrove.com/angryoxide/",
+      "label": "angryoxide A WiFi attack and pentesting tool built in Rust."
+    },
+    {
+      "url": "https://terminaltrove.com/apisnip/",
+      "label": "apisnip A TUI tool for trimming OpenAPI specifications down to size."
+    },
+    {
+      "url": "https://terminaltrove.com/aptui/",
+      "label": "aptui A TUI package manager for APT-based Linux distributions."
+    },
+    {
+      "url": "https://terminaltrove.com/aria2tui/",
+      "label": "aria2tui A TUI client for the aria2 download utility."
+    },
+    {
+      "url": "https://terminaltrove.com/artui/",
+      "label": "artui Read and track recent arXiv papers with a TUI."
+    },
+    {
+      "url": "https://terminaltrove.com/asak/",
+      "label": "asak A cross-platform audio recording/playback CLI tool with a TUI."
+    },
+    {
+      "url": "https://terminaltrove.com/astroterm/",
+      "label": "astroterm A terminal-based star map."
+    },
+    {
+      "url": "https://terminaltrove.com/atac/",
+      "label": "atac A simple API client (postman like) in your terminal."
+    },
+    {
+      "url": "https://terminaltrove.com/atop/",
+      "label": "atop An advanced interactive monitor for linux systems."
+    },
+    {
+      "url": "https://terminaltrove.com/atuin/",
+      "label": "atuin Sync, search and backup shell history."
+    },
+    {
+      "url": "https://terminaltrove.com/auggie/",
+      "label": "auggie All the power of Augment Code in your terminal."
+    },
+    {
+      "url": "https://terminaltrove.com/austin-tui/",
+      "label": "austin-tui The top-like text-based user interface for Austin."
+    },
+    {
+      "url": "https://terminaltrove.com/awsesh/",
+      "label": "awsesh A charming TUI for AWS SSO session management."
+    },
+    {
+      "url": "https://terminaltrove.com/az-tui/",
+      "label": "az-tui A TUI for managing Azure Container Apps."
+    },
+    {
+      "url": "https://terminaltrove.com/b4n/",
+      "label": "b4n A terminal user interface (TUI) for the Kubernetes API."
+    },
+    {
+      "url": "https://terminaltrove.com/bandwhich/",
+      "label": "bandwhich Terminal bandwidth utilization tool"
+    },
+    {
+      "url": "https://terminaltrove.com/basalt/",
+      "label": "basalt A TUI for managing Obsidian vaults and notes."
+    },
+    {
+      "url": "https://terminaltrove.com/bbcli/",
+      "label": "bbcli A TUI and CLI for accessing BBC News in the terminal."
+    },
+    {
+      "url": "https://terminaltrove.com/bbrew/",
+      "label": "bbrew A Homebrew TUI Manager."
+    },
+    {
+      "url": "https://terminaltrove.com/benben/",
+      "label": "benben A fast and efficient command line audio player and audio converter."
+    },
+    {
+      "url": "https://terminaltrove.com/bibiman/",
+      "label": "bibiman A simple TUI for handling your BibLaTeX database."
+    },
+    {
+      "url": "https://terminaltrove.com/binsider/",
+      "label": "binsider Analyze ELF binaries like a boss."
+    },
+    {
+      "url": "https://terminaltrove.com/bit/",
+      "label": "bit Terminal ANSI Logo Designer & Font Library."
+    },
+    {
+      "url": "https://terminaltrove.com/bitchat-tui/",
+      "label": "bitchat-tui A TUI client for bitchat."
+    },
+    {
+      "url": "https://terminaltrove.com/blink/",
+      "label": "blink tiniest x86-64-linux emulator."
+    },
+    {
+      "url": "https://terminaltrove.com/bluetui/",
+      "label": "bluetui TUI for managing bluetooth on Linux."
+    },
+    {
+      "url": "https://terminaltrove.com/bluetuith/",
+      "label": "bluetuith A TUI bluetooth manager for Linux."
+    },
+    {
+      "url": "https://terminaltrove.com/blueutil-tui/",
+      "label": "blueutil-tui A TUI for macOS to interact with bluetooth devices via blueutil."
+    },
+    {
+      "url": "https://terminaltrove.com/bmm/",
+      "label": "bmm Get to your bookmarks in a flash."
+    },
+    {
+      "url": "https://terminaltrove.com/bmon/",
+      "label": "bmon Bandwidth monitor and rate estimator"
+    },
+    {
+      "url": "https://terminaltrove.com/bombadillo/",
+      "label": "bombadillo A non-web client for the terminal, supporting Gopher, Gemini and much more."
+    },
+    {
+      "url": "https://terminaltrove.com/bookokrat/",
+      "label": "bookokrat A terminal EPUB / PDF ebook reader."
+    },
+    {
+      "url": "https://terminaltrove.com/bottom/",
+      "label": "bottom Yet another cross-platform graphical process/system monitor."
+    },
+    {
+      "url": "https://terminaltrove.com/bpftop/",
+      "label": "bpftop Dynamic real-time view of running eBPF programs."
+    },
+    {
+      "url": "https://terminaltrove.com/braindrop/",
+      "label": "braindrop A terminal-based client for raindrop.io."
+    },
+    {
+      "url": "https://terminaltrove.com/branchlet/",
+      "label": "branchlet Manage Git worktrees with automation from the terminal."
+    },
+    {
+      "url": "https://terminaltrove.com/broot/",
+      "label": "broot A new way to see and navigate directory trees."
+    },
+    {
+      "url": "https://terminaltrove.com/brows/",
+      "label": "brows A GitHub releases browser for the terminal"
+    },
+    {
+      "url": "https://terminaltrove.com/browsr/",
+      "label": "browsr A pleasant file explorer in your terminal supporting all filesystems."
+    },
+    {
+      "url": "https://terminaltrove.com/bt/",
+      "label": "bt Interactive tree-like terminal file manager."
+    },
+    {
+      "url": "https://terminaltrove.com/btop/",
+      "label": "btop A terminal monitor of resources."
+    },
+    {
+      "url": "https://terminaltrove.com/bugstalker/",
+      "label": "bugstalker A Modern Rust debugger for Linux x86-64."
+    },
+    {
+      "url": "https://terminaltrove.com/bullmq-dash/",
+      "label": "bullmq-dash A TUI dashboard for BullMQ."
+    },
+    {
+      "url": "https://terminaltrove.com/byobu/",
+      "label": "byobu Text-based window manager and terminal multiplexer"
+    },
+    {
+      "url": "https://terminaltrove.com/calcure/",
+      "label": "calcure Modern, customizable TUI calendar and task manager."
+    },
+    {
+      "url": "https://terminaltrove.com/calcurse/",
+      "label": "calcurse A calendar and scheduling application for the command line."
+    },
+    {
+      "url": "https://terminaltrove.com/caligula/",
+      "label": "caligula A user-friendly, lightweight TUI for disk imaging."
+    },
+    {
+      "url": "https://terminaltrove.com/caps-log/",
+      "label": "caps-log A small TUI journaling tool."
+    },
+    {
+      "url": "https://terminaltrove.com/cargo-seek/",
+      "label": "cargo-seek A TUI for searching, adding and installing cargo crates."
+    },
+    {
+      "url": "https://terminaltrove.com/carl/",
+      "label": "carl a cal(1) alternative calendar for the command-line."
+    },
+    {
+      "url": "https://terminaltrove.com/cashd/",
+      "label": "cashd A fast and cozy TUI for personal finance management."
+    },
+    {
+      "url": "https://terminaltrove.com/castero/",
+      "label": "castero A TUI podcast client for the terminal."
+    },
+    {
+      "url": "https://terminaltrove.com/cava/",
+      "label": "cava Cross-platform Audio Visualizer for Alsa"
+    },
+    {
+      "url": "https://terminaltrove.com/celerator/",
+      "label": "celerator Monitor and debug celery tasks in the terminal."
+    },
+    {
+      "url": "https://terminaltrove.com/cgdb/",
+      "label": "cgdb A curses (terminal-based) interface to the GNU Debugger (GDB)"
+    },
+    {
+      "url": "https://terminaltrove.com/chatuino/",
+      "label": "chatuino A feature rich TUI Twitch chat client."
+    },
+    {
+      "url": "https://terminaltrove.com/chawan/",
+      "label": "chawan A TUI web browser."
+    },
+    {
+      "url": "https://terminaltrove.com/chdig/",
+      "label": "chdig Dig into ClickHouse with TUI interface."
+    },
+    {
+      "url": "https://terminaltrove.com/chess-tui/",
+      "label": "chess-tui Play chess from your terminal."
+    },
+    {
+      "url": "https://terminaltrove.com/cheznav/",
+      "label": "cheznav A TUI for managing chezmoi dotfiles."
+    },
+    {
+      "url": "https://terminaltrove.com/chiko/",
+      "label": "chiko A TUI gRPC client."
+    },
+    {
+      "url": "https://terminaltrove.com/chmod-cli/",
+      "label": "chmod-cli effortlessly generate chmod commands."
+    },
+    {
+      "url": "https://terminaltrove.com/chroncal/",
+      "label": "chroncal All in one calendar, tasks and journal manager in the terminal."
+    },
+    {
+      "url": "https://terminaltrove.com/circumflex/",
+      "label": "circumflex It's Hacker News in your terminal."
+    },
+    {
+      "url": "https://terminaltrove.com/claude-code/",
+      "label": "claude-code An agentic coding tool that lives in your terminal, from Anthropic."
+    },
+    {
+      "url": "https://terminaltrove.com/claws/",
+      "label": "claws A TUI for AWS resource management."
+    },
+    {
+      "url": "https://terminaltrove.com/cliamp/",
+      "label": "cliamp A terminal music player inspired by winamp."
+    },
+    {
+      "url": "https://terminaltrove.com/climp/",
+      "label": "climp A minimal CLI media player."
+    },
+    {
+      "url": "https://terminaltrove.com/clin/",
+      "label": "clin A TUI note management app inspired by Obsidian."
+    },
+    {
+      "url": "https://terminaltrove.com/cloctui/",
+      "label": "cloctui A TUI interface for CLOC (Count Lines of Code)"
+    },
+    {
+      "url": "https://terminaltrove.com/cloudflare-speed-cli/",
+      "label": "cloudflare-speed-cli A terminal interface for cloudflare's internet speed tester."
+    },
+    {
+      "url": "https://terminaltrove.com/cmdperf/",
+      "label": "cmdperf Benchmark and compare shell commands interactively."
+    },
+    {
+      "url": "https://terminaltrove.com/cmus/",
+      "label": "cmus Small, fast and powerful console music player for Unix-like operating systems."
+    },
+    {
+      "url": "https://terminaltrove.com/cobib/",
+      "label": "cobib The Console Bibliography."
+    },
+    {
+      "url": "https://terminaltrove.com/codemark/",
+      "label": "codemark Structural code bookmarks for humans and coding agents."
+    },
+    {
+      "url": "https://terminaltrove.com/codex/",
+      "label": "codex Lightweight coding agent that runs in your terminal from OpenAI."
+    },
+    {
+      "url": "https://terminaltrove.com/cointop/",
+      "label": "cointop cryptocurrency tracking for hackers that like htop."
+    },
+    {
+      "url": "https://terminaltrove.com/colorstorm/",
+      "label": "colorstorm A TUI to generate color themes for Vim, VSCode, and Sublime Text."
+    },
+    {
+      "url": "https://terminaltrove.com/comchan/",
+      "label": "comchan A blazingly fast, minimal, and beginner-friendly serial monitor."
+    },
+    {
+      "url": "https://terminaltrove.com/cooldeck/",
+      "label": "cooldeck A keyboard first terminal dashboard for Coolify."
+    },
+    {
+      "url": "https://terminaltrove.com/cpx/",
+      "label": "cpx A batteries-included Cargo-like CLI for C++."
+    },
+    {
+      "url": "https://terminaltrove.com/crates-tui/",
+      "label": "crates-tui A TUI for exploring crates.io"
+    },
+    {
+      "url": "https://terminaltrove.com/critique/",
+      "label": "critique A terminal UI for reviewing git diffs."
+    },
+    {
+      "url": "https://terminaltrove.com/croft/",
+      "label": "croft A VSCode-style TUI text editor."
+    },
+    {
+      "url": "https://terminaltrove.com/cronboard/",
+      "label": "cronboard A terminal tool for managing cron jobs locally and on servers."
+    },
+    {
+      "url": "https://terminaltrove.com/csvi/",
+      "label": "csvi A simple cross-platform terminal CSV editor."
+    },
+    {
+      "url": "https://terminaltrove.com/csvlens/",
+      "label": "csvlens a csv viewer like less but made for csv."
+    },
+    {
+      "url": "https://terminaltrove.com/ctop/",
+      "label": "ctop A top-like interface for container metrics."
+    },
+    {
+      "url": "https://terminaltrove.com/cueitup/",
+      "label": "cueitup Inspect messages in an AWS SQS queue."
+    },
+    {
+      "url": "https://terminaltrove.com/cull/",
+      "label": "cull Interactive TUI disk space analyzer."
+    },
+    {
+      "url": "https://terminaltrove.com/cy/",
+      "label": "cy A time traveling terminal multiplexer."
+    },
+    {
+      "url": "https://terminaltrove.com/darya/",
+      "label": "darya A disk usage explorer with a TUI and live treemap."
+    },
+    {
+      "url": "https://terminaltrove.com/datui/",
+      "label": "datui Data Exploration in the Terminal."
+    },
+    {
+      "url": "https://terminaltrove.com/dawn/",
+      "label": "dawn A distraction-free writing environment. draft anything, write now."
+    },
+    {
+      "url": "https://terminaltrove.com/daylight/",
+      "label": "daylight Track sunrise and sunset times in the terminal."
+    },
+    {
+      "url": "https://terminaltrove.com/dblab/",
+      "label": "dblab The database client designed for command line specialists."
+    },
+    {
+      "url": "https://terminaltrove.com/dcv/",
+      "label": "dcv A TUI viewer for docker-compose."
+    },
+    {
+      "url": "https://terminaltrove.com/ddv/",
+      "label": "ddv A TUI to view Amazon DynamoDB in the terminal."
+    },
+    {
+      "url": "https://terminaltrove.com/deadbranch/",
+      "label": "deadbranch Clean up stale git branches safely."
+    },
+    {
+      "url": "https://terminaltrove.com/dealve-tui/",
+      "label": "dealve-tui Delve into game deals from your terminal."
+    },
+    {
+      "url": "https://terminaltrove.com/deletor/",
+      "label": "deletor Manage & delete files efficiently with an interactive TUI & scriptable CLI."
+    },
+    {
+      "url": "https://terminaltrove.com/delta/",
+      "label": "delta A viewer for git and diff output."
+    },
+    {
+      "url": "https://terminaltrove.com/depsguard/",
+      "label": "depsguard A CLI to harden package manager configs against supply chain attacks."
+    },
+    {
+      "url": "https://terminaltrove.com/desed/",
+      "label": "desed Demystify and debug your sed scripts, from the comfort of your terminal."
+    },
+    {
+      "url": "https://terminaltrove.com/dhv/",
+      "label": "dhv A TUI for visually exploring disassembled Python bytecode."
+    },
+    {
+      "url": "https://terminaltrove.com/diffnav/",
+      "label": "diffnav A git diff pager based on delta but with a file tree, à la GitHub."
+    },
+    {
+      "url": "https://terminaltrove.com/diffyml/",
+      "label": "diffyml A fast, structural YAML diff tool with built-in Kubernetes intelligence."
+    },
+    {
+      "url": "https://terminaltrove.com/dijo/",
+      "label": "dijo scriptable, curses-based, digital habit tracker."
+    },
+    {
+      "url": "https://terminaltrove.com/diskbloom/",
+      "label": "diskbloom A pastel, WizTree-style treemap disk visualizer that lives in your terminal."
+    },
+    {
+      "url": "https://terminaltrove.com/diskonaut/",
+      "label": "diskonaut terminal disk space navigator."
+    },
+    {
+      "url": "https://terminaltrove.com/diskwatch/",
+      "label": "diskwatch Single host disk diagnostics in your terminal."
+    },
+    {
+      "url": "https://terminaltrove.com/dive/",
+      "label": "dive A tool for exploring each layer in a docker image."
+    },
+    {
+      "url": "https://terminaltrove.com/dns53/",
+      "label": "dns53 Expose your EC2 quickly, easily and privately within a VPC."
+    },
+    {
+      "url": "https://terminaltrove.com/dnsglobe/",
+      "label": "dnsglobe A global DNS propagation checker for your terminal."
+    },
+    {
+      "url": "https://terminaltrove.com/docfd/",
+      "label": "docfd TUI multiline fuzzy document finder."
+    },
+    {
+      "url": "https://terminaltrove.com/dolphie/",
+      "label": "dolphie Realtime MySQL health monitoring in the terminal."
+    },
+    {
+      "url": "https://terminaltrove.com/dooit/",
+      "label": "dooit A TUI todo manager for the terminal"
+    },
+    {
+      "url": "https://terminaltrove.com/dotbins/",
+      "label": "dotbins Keep updated binaries in your dotfiles."
+    },
+    {
+      "url": "https://terminaltrove.com/dotenvhub/",
+      "label": "dotenvhub A TUI to manage your .env files in the terminal."
+    },
+    {
+      "url": "https://terminaltrove.com/dotstate/",
+      "label": "dotstate A modern, secure, and user-friendly dotfile manager."
+    },
+    {
+      "url": "https://terminaltrove.com/doxx/",
+      "label": "doxx A viewer for Microsoft Word .docx files in the terminal."
+    },
+    {
+      "url": "https://terminaltrove.com/drft/",
+      "label": "drft A diff re/viewer and file tree viewer."
+    },
+    {
+      "url": "https://terminaltrove.com/dry/",
+      "label": "dry A Docker manager for the terminal."
+    },
+    {
+      "url": "https://terminaltrove.com/drydock/",
+      "label": "drydock A live terminal dashboard for a fleet of Git repositories."
+    },
+    {
+      "url": "https://terminaltrove.com/dskditto/",
+      "label": "dskditto An ultra fast and easy duplicate file finder."
+    },
+    {
+      "url": "https://terminaltrove.com/dtop/",
+      "label": "dtop Multi-host Docker monitoring in the terminal."
+    },
+    {
+      "url": "https://terminaltrove.com/dtop-py/",
+      "label": "dtop (python) A high-performance TUI for Docker container management."
+    },
+    {
+      "url": "https://terminaltrove.com/dua/",
+      "label": "dua View disk space usage and delete unwanted data, fast."
+    },
+    {
+      "url": "https://terminaltrove.com/ducker/",
+      "label": "ducker A slightly quackers Docker TUI."
+    },
+    {
+      "url": "https://terminaltrove.com/duf/",
+      "label": "duf Disk Usage/Free Utility - a better 'df' alternative."
+    },
+    {
+      "url": "https://terminaltrove.com/dug/",
+      "label": "dug A global DNS propagation checker on your CLI"
+    },
+    {
+      "url": "https://terminaltrove.com/dunk/",
+      "label": "dunk Prettier git diffs in the terminal 🎨"
+    },
+    {
+      "url": "https://terminaltrove.com/durdraw/",
+      "label": "durdraw Versatile ASCII and ANSI Art text editor for terminals."
+    },
+    {
+      "url": "https://terminaltrove.com/dyff/",
+      "label": "dyff diff tool for YAML files, and sometimes JSON."
+    },
+    {
+      "url": "https://terminaltrove.com/e1s/",
+      "label": "e1s A TUI for managing AWS ECS Resources."
+    },
+    {
+      "url": "https://terminaltrove.com/e2c/",
+      "label": "e2c A TUI application for managing AWS EC2 instances."
+    },
+    {
+      "url": "https://terminaltrove.com/ec/",
+      "label": "ec An easy terminal native 3-way git conflict resolver."
+    },
+    {
+      "url": "https://terminaltrove.com/ecscope/",
+      "label": "ecscope monitor AWS ECS resources from the terminal."
+    },
+    {
+      "url": "https://terminaltrove.com/microsoft-edit/",
+      "label": "edit A TUI editor inspired by MS-DOS for Windows."
+    },
+    {
+      "url": "https://terminaltrove.com/ekphos/",
+      "label": "ekphos A lightweight, fast, terminal-based markdown research tool inspired by Obsidian."
+    },
+    {
+      "url": "https://terminaltrove.com/elia/",
+      "label": "elia A TUI ChatGPT client built with Textual"
+    },
+    {
+      "url": "https://terminaltrove.com/elinks/",
+      "label": "elinks A full-featured text www browser."
+    },
+    {
+      "url": "https://terminaltrove.com/elio/",
+      "label": "elio A terminal-native file manager with rich previews."
+    },
+    {
+      "url": "https://terminaltrove.com/emacs/",
+      "label": "emacs The extensible, customizable, free/libre display editor."
+    },
+    {
+      "url": "https://terminaltrove.com/emeraldian/",
+      "label": "emeraldian A terminal UI for Obsidian with graphical live-preview notes"
+    },
+    {
+      "url": "https://terminaltrove.com/endcord/",
+      "label": "endcord A feature rich Discord TUI client."
+    },
+    {
+      "url": "https://terminaltrove.com/enola/",
+      "label": "enola A CLI tool to search for usernames across social networks."
+    },
+    {
+      "url": "https://terminaltrove.com/envdiff/",
+      "label": "envdiff A CLI tool to snapshot and diff environments."
+    },
+    {
+      "url": "https://terminaltrove.com/envx/",
+      "label": "envx A powerful and secure TUI environment variable manager."
+    },
+    {
+      "url": "https://terminaltrove.com/epiq/",
+      "label": "epiq A distributed terminal native issue tracker backed by Git."
+    },
+    {
+      "url": "https://terminaltrove.com/ereandel/",
+      "label": "ereandel A Gemini web browser using shell script."
+    },
+    {
+      "url": "https://terminaltrove.com/erldash/",
+      "label": "erldash A simple, terminal-based Erlang dashboard."
+    },
+    {
+      "url": "https://terminaltrove.com/excise/",
+      "label": "excise A surgical terminal storage navigator."
+    },
+    {
+      "url": "https://terminaltrove.com/exosphere/",
+      "label": "exosphere A CLI / TUI for aggregated patch reporting & system status monitoring via SSH."
+    },
+    {
+      "url": "https://terminaltrove.com/fat/",
+      "label": "fat A modern, TUI file and archive viewer for your terminal."
+    },
+    {
+      "url": "https://terminaltrove.com/fex/",
+      "label": "fex A command-line file explorer prioritizing quick navigation."
+    },
+    {
+      "url": "https://terminaltrove.com/ffdash/",
+      "label": "ffdash A parallel batch video encoder for ffmpeg in the terminal."
+    },
+    {
+      "url": "https://terminaltrove.com/filessh/",
+      "label": "filessh A fast and convenient TUI file browser for remote servers."
+    },
+    {
+      "url": "https://terminaltrove.com/flamelens/",
+      "label": "flamelens An interactive flamegraph viewer in the terminal."
+    },
+    {
+      "url": "https://terminaltrove.com/flameshow/",
+      "label": "flameshow A flamegraph viewer in the terminal."
+    },
+    {
+      "url": "https://terminaltrove.com/flawz/",
+      "label": "flawz A TUI for browsing CVE security vulnerabilities."
+    },
+    {
+      "url": "https://terminaltrove.com/fli/",
+      "label": "fli A command-line tool that simplifies AWS VPC Flow Logs analysis."
+    },
+    {
+      "url": "https://terminaltrove.com/flow/",
+      "label": "flow Real-time network throughput dashboard for the terminal."
+    },
+    {
+      "url": "https://terminaltrove.com/flowcontrol/",
+      "label": "flowcontrol Flow Control: a programmer's text editor."
+    },
+    {
+      "url": "https://terminaltrove.com/flowrs/",
+      "label": "flowrs A TUI application for Apache Airflow."
+    },
+    {
+      "url": "https://terminaltrove.com/flyline/",
+      "label": "flyline Modern command-line editing for bash."
+    },
+    {
+      "url": "https://terminaltrove.com/fm/",
+      "label": "fm A minimalistic file manager for the terminal."
+    },
+    {
+      "url": "https://terminaltrove.com/fnug/",
+      "label": "fnug Run all your lints, tests and commands at once, in the terminal."
+    },
+    {
+      "url": "https://terminaltrove.com/forgit/",
+      "label": "forgit A utility tool powered by fzf for using Git interactively."
+    },
+    {
+      "url": "https://terminaltrove.com/fork-cleaner/",
+      "label": "fork-cleaner A tool to clean up old and inactive forks on your GitHub account."
+    },
+    {
+      "url": "https://terminaltrove.com/fq/",
+      "label": "fq jq for binary formats."
+    },
+    {
+      "url": "https://terminaltrove.com/framework-tool-tui/",
+      "label": "framework-tool-tui A TUI for controlling and monitoring Framework Computers hardware."
+    },
+    {
+      "url": "https://terminaltrove.com/fresh/",
+      "label": "fresh A text editor for your terminal, easy, powerful and fast."
+    },
+    {
+      "url": "https://terminaltrove.com/froggit/",
+      "label": "froggit A modern, minimalist Git TUI."
+    },
+    {
+      "url": "https://terminaltrove.com/frogmouth/",
+      "label": "frogmouth A Markdown browser for your terminal"
+    },
+    {
+      "url": "https://terminaltrove.com/fuzpad/",
+      "label": "fuzpad A minimalistic note management solution. Powered by fzf."
+    },
+    {
+      "url": "https://terminaltrove.com/fx/",
+      "label": "fx command-line tool and terminal JSON viewer."
+    },
+    {
+      "url": "https://terminaltrove.com/fzf-make/",
+      "label": "fzf-make Find and run multi-project tasks with fuzzy search in the terminal."
+    },
+    {
+      "url": "https://terminaltrove.com/fztea/",
+      "label": "fztea A flipperzero remote control locally in the terminal and ssh."
+    },
+    {
+      "url": "https://terminaltrove.com/g1c/",
+      "label": "g1c Google Cloud Instances Terminal UI Manager."
+    },
+    {
+      "url": "https://terminaltrove.com/gama/",
+      "label": "gama Manage your GitHub Actions from the terminal."
+    },
+    {
+      "url": "https://terminaltrove.com/gdb/",
+      "label": "gdb The GNU Project Debugger"
+    }
+  ],
+  "body_sha256": "514d2d2340583b1f58b931047d009457ee7046f64dd5af796ddd2dfa19c5f057",
+  "status": 200,
+  "origin": "frozen-corpus",
+  "retrieved_at": "2026-09-24T22:49:22.618048+00:00"
+}

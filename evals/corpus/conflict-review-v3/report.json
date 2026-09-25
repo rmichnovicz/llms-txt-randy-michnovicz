@@ -1,0 +1,264 @@
+{
+  "summary": {
+    "attempts": 6,
+    "passed": 6,
+    "cases": 3,
+    "consistently_passing_cases": 3,
+    "input_tokens": 7854,
+    "output_tokens": 2811,
+    "latency_ms_median": 8189.5,
+    "latency_ms_p95": 12071,
+    "groups": {
+      "category": {
+        "conflict-resolution": {
+          "attempts": 6,
+          "passed": 6
+        }
+      },
+      "kind": {
+        "authored-conflict": {
+          "attempts": 6,
+          "passed": 6
+        }
+      },
+      "split": {
+        "development": {
+          "attempts": 6,
+          "passed": 6
+        }
+      }
+    }
+  },
+  "evaluation": "deterministic invariants and editorial expectations; not a factual accuracy score",
+  "human_review_completed": false,
+  "results": [
+    {
+      "id": "conflict-owner-resolution--r1",
+      "caseId": "conflict-owner-resolution",
+      "repeat": 1,
+      "category": "conflict-resolution",
+      "kind": "authored-conflict",
+      "split": "development",
+      "case_sha256": "a554c4989302203b4108af89b262a07bbf732535e0c349040229a766d45e4c49",
+      "request_sha256": "1635e28289d3a383db2ee39d17164464a8ab263b137e1341c01a02472701a604",
+      "result": {
+        "passed": true,
+        "failures": [],
+        "markdown": "# Parcel Shop\n\n> The owner confirms that home delivery is currently free over €450, superseding the conflicting thresholds published on the website until they are corrected.\n\n## Shopping information\n\n- [Shipping policy](<https://parcel.example/shipping>): Published shipping information; its home-delivery threshold differs from the owner-confirmed current amount.\n- [Parcel Shop home](<https://parcel.example/>): Shop homepage; its published home-delivery threshold also differs from the owner-confirmed current amount.\n"
+      },
+      "modelMetadata": {
+        "provider": "openai",
+        "model": "gpt-6-sol",
+        "reasoning": "medium",
+        "prompt_version": "brief-generation-v3",
+        "response_id": "resp_0b0e89a835bfd3fb016ab5cefd205487d0abf54193f2f1683d",
+        "duration_ms": 5646,
+        "usage": {
+          "input_tokens": 1312,
+          "input_tokens_details": {
+            "cache_write_tokens": 1309,
+            "cached_tokens": 0
+          },
+          "output_tokens": 265,
+          "output_tokens_details": {
+            "reasoning_tokens": 98
+          },
+          "total_tokens": 1577
+        },
+        "max_output_tokens": 12000,
+        "attempts": 1
+      },
+      "durationMs": 5646
+    },
+    {
+      "id": "conflict-owner-resolution--r2",
+      "caseId": "conflict-owner-resolution",
+      "repeat": 2,
+      "category": "conflict-resolution",
+      "kind": "authored-conflict",
+      "split": "development",
+      "case_sha256": "a554c4989302203b4108af89b262a07bbf732535e0c349040229a766d45e4c49",
+      "request_sha256": "1635e28289d3a383db2ee39d17164464a8ab263b137e1341c01a02472701a604",
+      "result": {
+        "passed": true,
+        "failures": [],
+        "markdown": "# Parcel Shop\n\n> The owner confirms that home delivery is free for orders over €450 until the website is corrected.\n\nThe homepage and shipping policy state different thresholds; the owner’s explicit correction supplies the current threshold.\n\n## Shop and delivery\n\n- [Parcel Shop](<https://parcel.example/>): Shop homepage.\n- [Shipping policy](<https://parcel.example/shipping>): Delivery policy page; its published threshold differs from the owner’s correction.\n"
+      },
+      "modelMetadata": {
+        "provider": "openai",
+        "model": "gpt-6-sol",
+        "reasoning": "medium",
+        "prompt_version": "brief-generation-v3",
+        "response_id": "resp_0b98c05682808b64016ab5cefd24e487d2b39774c27f5901ec",
+        "duration_ms": 6198,
+        "usage": {
+          "input_tokens": 1312,
+          "input_tokens_details": {
+            "cache_write_tokens": 0,
+            "cached_tokens": 1309
+          },
+          "output_tokens": 295,
+          "output_tokens_details": {
+            "reasoning_tokens": 121
+          },
+          "total_tokens": 1607
+        },
+        "max_output_tokens": 12000,
+        "attempts": 1
+      },
+      "durationMs": 6199
+    },
+    {
+      "id": "conflict-refresh-dismissed-topic--r1",
+      "caseId": "conflict-refresh-dismissed-topic",
+      "repeat": 1,
+      "category": "conflict-resolution",
+      "kind": "authored-conflict",
+      "split": "development",
+      "case_sha256": "1953bf0780a9d78b6e91283b48080fb3a0fb28b260d71a6cd07432753880e63f",
+      "request_sha256": "62ab6e8148b703c864f4d87fb6ae80bfaa3ccae7b50ff93f41205eb6a447d0ba",
+      "result": {
+        "passed": true,
+        "failures": [],
+        "markdown": "# Parcel Shop\n\n## Delivery\n\n- [Shipping policy](<https://parcel.example/shipping>): Shipping policy updated September 24, 2026; the free-delivery threshold needs confirmation.\n"
+      },
+      "modelMetadata": {
+        "provider": "openai",
+        "model": "gpt-6-sol",
+        "reasoning": "medium",
+        "prompt_version": "brief-generation-v3",
+        "response_id": "resp_02bc8a57516392b1016ab5cf02fda087d0a9dd1de69feb3b3f",
+        "duration_ms": 12070,
+        "usage": {
+          "input_tokens": 1309,
+          "input_tokens_details": {
+            "cache_write_tokens": 199,
+            "cached_tokens": 1107
+          },
+          "output_tokens": 758,
+          "output_tokens_details": {
+            "reasoning_tokens": 460
+          },
+          "total_tokens": 2067
+        },
+        "max_output_tokens": 12000,
+        "attempts": 1
+      },
+      "durationMs": 12071
+    },
+    {
+      "id": "conflict-refresh-dismissed-topic--r2",
+      "caseId": "conflict-refresh-dismissed-topic",
+      "repeat": 2,
+      "category": "conflict-resolution",
+      "kind": "authored-conflict",
+      "split": "development",
+      "case_sha256": "1953bf0780a9d78b6e91283b48080fb3a0fb28b260d71a6cd07432753880e63f",
+      "request_sha256": "62ab6e8148b703c864f4d87fb6ae80bfaa3ccae7b50ff93f41205eb6a447d0ba",
+      "result": {
+        "passed": true,
+        "failures": [],
+        "markdown": "# Parcel Shop\n\n> Parcel Shop provides shipping information on its website.\n\n## Shipping\n\n- [Shipping policy](<https://parcel.example/shipping>): Delivery policy; the applicable free-delivery threshold needs owner confirmation.\n"
+      },
+      "modelMetadata": {
+        "provider": "openai",
+        "model": "gpt-6-sol",
+        "reasoning": "medium",
+        "prompt_version": "brief-generation-v3",
+        "response_id": "resp_09bf52bb4765b25c016ab5cf048ce087d0a1ef335b691d894c",
+        "duration_ms": 10563,
+        "usage": {
+          "input_tokens": 1309,
+          "input_tokens_details": {
+            "cache_write_tokens": 0,
+            "cached_tokens": 1306
+          },
+          "output_tokens": 555,
+          "output_tokens_details": {
+            "reasoning_tokens": 336
+          },
+          "total_tokens": 1864
+        },
+        "max_output_tokens": 12000,
+        "attempts": 1
+      },
+      "durationMs": 10563
+    },
+    {
+      "id": "conflict-refresh-vs-owner--r1",
+      "caseId": "conflict-refresh-vs-owner",
+      "repeat": 1,
+      "category": "conflict-resolution",
+      "kind": "authored-conflict",
+      "split": "development",
+      "case_sha256": "e26d0585600b2284d32e3d9ec60a02a026362da3f849f44cf95212263cbea2a3",
+      "request_sha256": "1992c662bbe23db420a1934a943e440bf8174796c49a073ab13830282410f295",
+      "result": {
+        "passed": true,
+        "failures": [],
+        "markdown": "# Parcel Shop\n\n## Shopping information\n\n- [Shipping policy](<https://parcel.example/shipping>): Delivery policy information.\n"
+      },
+      "modelMetadata": {
+        "provider": "openai",
+        "model": "gpt-6-sol",
+        "reasoning": "medium",
+        "prompt_version": "brief-generation-v3",
+        "response_id": "resp_02d9ae002d709432016ab5cefd2c7087d0be151e49b5ec0667",
+        "duration_ms": 7759,
+        "usage": {
+          "input_tokens": 1306,
+          "input_tokens_details": {
+            "cache_write_tokens": 196,
+            "cached_tokens": 1107
+          },
+          "output_tokens": 465,
+          "output_tokens_details": {
+            "reasoning_tokens": 198
+          },
+          "total_tokens": 1771
+        },
+        "max_output_tokens": 12000,
+        "attempts": 1
+      },
+      "durationMs": 7759
+    },
+    {
+      "id": "conflict-refresh-vs-owner--r2",
+      "caseId": "conflict-refresh-vs-owner",
+      "repeat": 2,
+      "category": "conflict-resolution",
+      "kind": "authored-conflict",
+      "split": "development",
+      "case_sha256": "e26d0585600b2284d32e3d9ec60a02a026362da3f849f44cf95212263cbea2a3",
+      "request_sha256": "1992c662bbe23db420a1934a943e440bf8174796c49a073ab13830282410f295",
+      "result": {
+        "passed": true,
+        "failures": [],
+        "markdown": "# Parcel Shop\n\n## Shopping policies\n\n- [Shipping policy](<https://parcel.example/shipping>): Published delivery terms; the free-delivery threshold needs owner revalidation.\n"
+      },
+      "modelMetadata": {
+        "provider": "openai",
+        "model": "gpt-6-sol",
+        "reasoning": "medium",
+        "prompt_version": "brief-generation-v3",
+        "response_id": "resp_0d9d40224c694c0b016ab5cf0273d887d0807f99042949454a",
+        "duration_ms": 8619,
+        "usage": {
+          "input_tokens": 1306,
+          "input_tokens_details": {
+            "cache_write_tokens": 0,
+            "cached_tokens": 1303
+          },
+          "output_tokens": 473,
+          "output_tokens_details": {
+            "reasoning_tokens": 252
+          },
+          "total_tokens": 1779
+        },
+        "max_output_tokens": 12000,
+        "attempts": 1
+      },
+      "durationMs": 8620
+    }
+  ]
+}

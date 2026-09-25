@@ -1,0 +1,9 @@
+# Parcel Shop
+
+> The owner-confirmed threshold for free home delivery is over €450 until the website is corrected.
+
+The homepage and shipping policy currently state a threshold of over €600, conflicting with the owner correction. The shipping policy is dated September 24, 2026.
+
+## Delivery
+
+- [Shipping policy](<https://parcel.example/shipping>): States a €600 free home delivery threshold; the owner-confirmed threshold is over €450 until the page is corrected.

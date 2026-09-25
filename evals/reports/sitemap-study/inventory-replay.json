@@ -1,0 +1,128 @@
+[
+  {
+    "site": "https://plausible.io/docs/",
+    "discovered_including_entry": 1,
+    "inventory_bytes": 0,
+    "resumed_urls": 0,
+    "resumed_indexes": 0,
+    "fetches": 1,
+    "bytes": 18445,
+    "stop_reason": "exhausted",
+    "remaining_indexes": 0,
+    "trace": [
+      {
+        "url": "https://plausible.io/sitemap.xml",
+        "status": 200,
+        "bytes": 18445
+      }
+    ],
+    "recorded_fetch_seconds": 0.087
+  },
+  {
+    "site": "https://tally.so/help/",
+    "discovered_including_entry": 199,
+    "inventory_bytes": 9649,
+    "resumed_urls": 0,
+    "resumed_indexes": 0,
+    "fetches": 1,
+    "bytes": 73529,
+    "stop_reason": "exhausted",
+    "remaining_indexes": 0,
+    "trace": [
+      {
+        "url": "https://tally.so/sitemap.xml",
+        "status": 200,
+        "bytes": 73529
+      }
+    ],
+    "recorded_fetch_seconds": 0.533
+  },
+  {
+    "site": "https://vercel.com/docs/",
+    "discovered_including_entry": 2002,
+    "inventory_bytes": 132425,
+    "resumed_urls": 0,
+    "resumed_indexes": 0,
+    "fetches": 1,
+    "bytes": 1030897,
+    "stop_reason": "exhausted",
+    "remaining_indexes": 0,
+    "trace": [
+      {
+        "url": "https://vercel.com/sitemap.xml",
+        "status": 200,
+        "bytes": 1030897
+      }
+    ],
+    "recorded_fetch_seconds": 0.511
+  },
+  {
+    "site": "https://www.shopify.com/blog/",
+    "discovered_including_entry": 6858,
+    "inventory_bytes": 392314,
+    "resumed_urls": 0,
+    "resumed_indexes": 0,
+    "fetches": 11,
+    "bytes": 5325649,
+    "stop_reason": "byte_budget",
+    "remaining_indexes": 558,
+    "trace": [
+      {
+        "url": "https://www.shopify.com/sitemaps_list.xml",
+        "status": 200,
+        "bytes": 44458
+      },
+      {
+        "url": "https://www.shopify.com/blog/authors/sitemap.xml",
+        "status": 200,
+        "bytes": 61405
+      },
+      {
+        "url": "https://www.shopify.com/blog/topics/sitemap.xml",
+        "status": 200,
+        "bytes": 252
+      },
+      {
+        "url": "https://www.shopify.com/sitemap_blog.xml",
+        "status": 200,
+        "bytes": 1309321
+      },
+      {
+        "url": "https://www.shopify.com/sitemap_blog_partners.xml",
+        "status": 200,
+        "bytes": 270293
+      },
+      {
+        "url": "https://www.shopify.com/au/sitemap_blog.xml",
+        "status": 200,
+        "bytes": 1328725
+      },
+      {
+        "url": "https://www.shopify.com/au/sitemap_blog_partners.xml",
+        "status": 200,
+        "bytes": 273950
+      },
+      {
+        "url": "https://www.shopify.com/bg/sitemap_blog.xml",
+        "status": 200,
+        "bytes": 103125
+      },
+      {
+        "url": "https://www.shopify.com/br/sitemap_blog.xml",
+        "status": 200,
+        "bytes": 501579
+      },
+      {
+        "url": "https://www.shopify.com/by/sitemap_blog.xml",
+        "status": 200,
+        "bytes": 103816
+      },
+      {
+        "url": "https://www.shopify.com/ca/sitemap_blog.xml",
+        "status": 200,
+        "bytes": 1328725
+      }
+    ],
+    "recorded_fetch_seconds": 5.439
+  }
+]

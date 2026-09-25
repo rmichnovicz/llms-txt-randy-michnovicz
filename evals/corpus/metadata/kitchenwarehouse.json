@@ -1,0 +1,11 @@
+{
+  "id": "kitchenwarehouse",
+  "url": "https://www.kitchenwarehouse.com.au/llms.txt",
+  "category": "ecommerce",
+  "kind": "actual",
+  "split": "development",
+  "discovery": "https://llmstxt.site/",
+  "retrieved_at": "2026-09-24T22:46:21.482777+00:00",
+  "accepted": false,
+  "error": "Fetch failed (ClientResponseError)"
+}

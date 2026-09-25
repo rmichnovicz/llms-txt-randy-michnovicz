@@ -1,0 +1,16 @@
+{
+  "url": "https://uamshealth.com/location/",
+  "retrieved_at": "2026-09-24T22:49:18.238288+00:00",
+  "source": {
+    "id": "src_f1e50ad0ab62d0749cd4",
+    "url": "https://uamshealth.com/location/",
+    "title": "Locations | UAMS Health",
+    "description": "One appointment. One location. One team for all your multiple sclerosis care, from diagnosis to infusion.",
+    "content": "Locations\nSearch Locations\nFilters\nList of Locations\n1125 N. College Ave.\n            UAMS Northwest Regional Campus\n            Fayetteville, AR 72703        \n- Appointment Phone Number\n- 501-526-4020\nNew and Returning Patients\n1811 Rahling Road\n            One Rahling Centre\nSuite 120\n            Little Rock, AR 72223        \n- Appointment Phone Number\n- 501-526-4020\nNew and Returning Patients\nAesthetic Plastic Surgery Clinic (Part of the Plastic Surgery Clinic)\n5800 W. 10th St.\n            Freeway Medical Tower\nSuite 605\n            Little Rock, AR 72204        \n- Appointment Phone Number\n- 501-526-7115\nNew and Returning Patients\n1125 N. College Ave.\n            UAMS Northwest Regional Campus\n            Fayetteville, AR 72703        \n- Appointment Phone Number\n- 501-686-5838\nNew and Returning Patients\nAortic Center (Part of the Surgery Clinic at the UAMS Medical Center)\n4110 Outpatient Circle\n            Outpatient Center\nSuite 4131\n            Little Rock, AR 72205        \n- Appointment Phone Number\n- 501-686-6176\nNew and Returning Patients\n501 Jack Stephens Drive\n            UAMS Jackson T. Stephens Spine and Neuroscience Institute\n            Little Rock, AR 72205        \n- Appointment Phone Number\n- 501-686-5878\nNew and Returning Patients\nBaptist Health / UAMS Thoracic Surgery Clinic (Part of UAMS Baptist Health Cancer Clinic — Little Rock)\n9500 Kanis Road\n            Hickingbotham Outpatient Center\nSuite 500\n            Little Rock, AR 72205        \n- Appointment Phone Number\n- 501-202-4715\nNew and Returning Patients",
+    "markdownUrl": null
+  },
+  "status": 200,
+  "final_url": "https://uamshealth.com/location/",
+  "sha256": "6f77cb72e663a2974d69c70d04d39cf2e8be2eafc9d7b87856c0ef35e100b35f",
+  "content_type": "text/html; charset=UTF-8"
+}

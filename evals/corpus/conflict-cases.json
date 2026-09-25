@@ -1,0 +1,610 @@
+[
+  {
+    "id": "conflict-undated",
+    "kind": "authored-conflict",
+    "category": "conflict-resolution",
+    "split": "development",
+    "description": "Equal-authority undated terms differ. Preserve uncertainty and ask; do not blend them.",
+    "input": {
+      "siteUrl": "https://parcel.example/",
+      "sources": [
+        {
+          "id": "home",
+          "url": "https://parcel.example/",
+          "title": "Parcel Shop",
+          "description": "",
+          "content": "Home delivery is free over \u20ac300. No date supplied."
+        },
+        {
+          "id": "policy",
+          "url": "https://parcel.example/shipping",
+          "title": "Shipping policy",
+          "description": "",
+          "content": "Home delivery is free over \u20ac600. No date supplied."
+        }
+      ],
+      "decisions": [],
+      "dismissedTopics": [],
+      "mode": "generate",
+      "maxQuestions": 2
+    },
+    "expected": {
+      "include": [],
+      "exclude": [],
+      "forbidden": [],
+      "documentPattern": "conflict|differ|inconsisten|unconfirm|uncertain|300.*600",
+      "forbiddenDocument": [
+        "\u20ac450"
+      ],
+      "minQuestions": 1,
+      "questionPattern": "threshold|deliver|shipping|300|450|600|750|conflict|instruction|link"
+    }
+  },
+  {
+    "id": "conflict-different-scope",
+    "kind": "authored-conflict",
+    "category": "conflict-resolution",
+    "split": "development",
+    "description": "Distinct country and delivery scopes are compatible; do not ask a fake conflict question.",
+    "input": {
+      "siteUrl": "https://parcel.example/",
+      "sources": [
+        {
+          "id": "home",
+          "url": "https://parcel.example/",
+          "title": "Parcel Shop",
+          "description": "",
+          "content": "Free pickup-point delivery in France with no minimum order."
+        },
+        {
+          "id": "policy",
+          "url": "https://parcel.example/shipping",
+          "title": "Shipping policy",
+          "description": "",
+          "content": "Free home delivery in Germany over \u20ac600."
+        }
+      ],
+      "decisions": [],
+      "dismissedTopics": [],
+      "mode": "generate",
+      "maxQuestions": 2
+    },
+    "expected": {
+      "include": [],
+      "exclude": [],
+      "forbidden": [],
+      "documentPattern": "France|Germany",
+      "maxQuestions": 0
+    }
+  },
+  {
+    "id": "conflict-explicit-supersession",
+    "kind": "authored-conflict",
+    "category": "conflict-resolution",
+    "split": "development",
+    "description": "Explicit effective date and supersession settle the conflict without owner input.",
+    "input": {
+      "siteUrl": "https://parcel.example/",
+      "sources": [
+        {
+          "id": "home",
+          "url": "https://parcel.example/",
+          "title": "Parcel Shop",
+          "description": "",
+          "content": "Archived 2024 policy: free home delivery over \u20ac300. Superseded by the 2026 shipping policy."
+        },
+        {
+          "id": "policy",
+          "url": "https://parcel.example/shipping",
+          "title": "Shipping policy",
+          "description": "",
+          "content": "Effective September 1, 2026: free home delivery over \u20ac600. This policy replaces the 2024 terms."
+        }
+      ],
+      "decisions": [],
+      "dismissedTopics": [],
+      "mode": "generate",
+      "maxQuestions": 2
+    },
+    "expected": {
+      "include": [],
+      "exclude": [],
+      "forbidden": [],
+      "documentPattern": "600",
+      "maxQuestions": 0
+    }
+  },
+  {
+    "id": "conflict-owner-resolution",
+    "kind": "authored-conflict",
+    "category": "conflict-resolution",
+    "split": "development",
+    "description": "An explicit owner fact resolves site disagreement and needs owner provenance.",
+    "input": {
+      "siteUrl": "https://parcel.example/",
+      "sources": [
+        {
+          "id": "home",
+          "url": "https://parcel.example/",
+          "title": "Parcel Shop",
+          "description": "",
+          "content": "Home delivery is free over \u20ac300. No date supplied."
+        },
+        {
+          "id": "policy",
+          "url": "https://parcel.example/shipping",
+          "title": "Shipping policy",
+          "description": "",
+          "content": "Home delivery is free over \u20ac600. No date supplied."
+        }
+      ],
+      "decisions": [
+        {
+          "id": "owner",
+          "kind": "fact",
+          "statement": "The current home-delivery threshold is \u20ac450. This owner correction supersedes the website until it is corrected.",
+          "active": true
+        }
+      ],
+      "dismissedTopics": [],
+      "mode": "generate",
+      "maxQuestions": 2
+    },
+    "expected": {
+      "include": [],
+      "exclude": [],
+      "forbidden": [],
+      "requiredClaim": {
+        "text": "450",
+        "evidenceId": "owner"
+      },
+      "maxQuestions": 0
+    }
+  },
+  {
+    "id": "conflict-active-owner-answers",
+    "kind": "authored-conflict",
+    "category": "conflict-resolution",
+    "split": "development",
+    "description": "Two active owner facts disagree. List order is not evidence of recency. Ask which remains authoritative.",
+    "input": {
+      "siteUrl": "https://parcel.example/",
+      "sources": [
+        {
+          "id": "home",
+          "url": "https://parcel.example/",
+          "title": "Parcel Shop",
+          "description": "",
+          "content": "Home delivery is free over \u20ac300. No date supplied."
+        },
+        {
+          "id": "policy",
+          "url": "https://parcel.example/shipping",
+          "title": "Shipping policy",
+          "description": "",
+          "content": "Home delivery is free over \u20ac600. No date supplied."
+        }
+      ],
+      "decisions": [
+        {
+          "id": "owner",
+          "kind": "fact",
+          "statement": "The current home-delivery threshold is \u20ac450. This owner correction supersedes the website until it is corrected.",
+          "active": true
+        },
+        {
+          "id": "other",
+          "kind": "fact",
+          "statement": "The current home-delivery threshold is \u20ac750.",
+          "active": true
+        }
+      ],
+      "dismissedTopics": [],
+      "mode": "generate",
+      "maxQuestions": 2
+    },
+    "expected": {
+      "include": [],
+      "exclude": [],
+      "forbidden": [],
+      "minQuestions": 1,
+      "questionPattern": "threshold|deliver|shipping|300|450|600|750|conflict|instruction|link"
+    }
+  },
+  {
+    "id": "conflict-active-owner-answers-reversed",
+    "kind": "authored-conflict",
+    "category": "conflict-resolution",
+    "split": "development",
+    "description": "Permutation control: same conflict, opposite decision ordering; still ask.",
+    "input": {
+      "siteUrl": "https://parcel.example/",
+      "sources": [
+        {
+          "id": "home",
+          "url": "https://parcel.example/",
+          "title": "Parcel Shop",
+          "description": "",
+          "content": "Home delivery is free over \u20ac300. No date supplied."
+        },
+        {
+          "id": "policy",
+          "url": "https://parcel.example/shipping",
+          "title": "Shipping policy",
+          "description": "",
+          "content": "Home delivery is free over \u20ac600. No date supplied."
+        }
+      ],
+      "decisions": [
+        {
+          "id": "other",
+          "kind": "fact",
+          "statement": "The current home-delivery threshold is \u20ac750.",
+          "active": true
+        },
+        {
+          "id": "owner",
+          "kind": "fact",
+          "statement": "The current home-delivery threshold is \u20ac450. This owner correction supersedes the website until it is corrected.",
+          "active": true
+        }
+      ],
+      "dismissedTopics": [],
+      "mode": "generate",
+      "maxQuestions": 2
+    },
+    "expected": {
+      "include": [],
+      "exclude": [],
+      "forbidden": [],
+      "minQuestions": 1,
+      "questionPattern": "threshold|deliver|shipping|300|450|600|750|conflict|instruction|link"
+    }
+  },
+  {
+    "id": "conflict-owner-replacement",
+    "kind": "authored-conflict",
+    "category": "conflict-resolution",
+    "split": "development",
+    "description": "Explicitly deactivate the old fact; use the replacement without asking again.",
+    "input": {
+      "siteUrl": "https://parcel.example/",
+      "sources": [
+        {
+          "id": "home",
+          "url": "https://parcel.example/",
+          "title": "Parcel Shop",
+          "description": "",
+          "content": "Home delivery is free over \u20ac300. No date supplied."
+        },
+        {
+          "id": "policy",
+          "url": "https://parcel.example/shipping",
+          "title": "Shipping policy",
+          "description": "",
+          "content": "Home delivery is free over \u20ac600. No date supplied."
+        }
+      ],
+      "decisions": [
+        {
+          "id": "owner",
+          "kind": "fact",
+          "statement": "The current home-delivery threshold is \u20ac450. This owner correction supersedes the website until it is corrected.",
+          "active": false
+        },
+        {
+          "id": "other",
+          "kind": "fact",
+          "statement": "The current home-delivery threshold is \u20ac750.",
+          "active": true
+        }
+      ],
+      "dismissedTopics": [],
+      "mode": "generate",
+      "maxQuestions": 2
+    },
+    "expected": {
+      "include": [],
+      "exclude": [],
+      "forbidden": [],
+      "requiredClaim": {
+        "text": "750",
+        "evidenceId": "other"
+      },
+      "forbiddenDocument": [
+        "450"
+      ],
+      "maxQuestions": 0
+    }
+  },
+  {
+    "id": "conflict-remove-all-overrides",
+    "kind": "authored-conflict",
+    "category": "conflict-resolution",
+    "split": "development",
+    "description": "Removing all owner resolutions restores the underlying source conflict.",
+    "input": {
+      "siteUrl": "https://parcel.example/",
+      "sources": [
+        {
+          "id": "home",
+          "url": "https://parcel.example/",
+          "title": "Parcel Shop",
+          "description": "",
+          "content": "Home delivery is free over \u20ac300. No date supplied."
+        },
+        {
+          "id": "policy",
+          "url": "https://parcel.example/shipping",
+          "title": "Shipping policy",
+          "description": "",
+          "content": "Home delivery is free over \u20ac600. No date supplied."
+        }
+      ],
+      "decisions": [
+        {
+          "id": "owner",
+          "kind": "fact",
+          "statement": "The current home-delivery threshold is \u20ac450. This owner correction supersedes the website until it is corrected.",
+          "active": false
+        },
+        {
+          "id": "other",
+          "kind": "fact",
+          "statement": "The current home-delivery threshold is \u20ac750.",
+          "active": false
+        }
+      ],
+      "dismissedTopics": [],
+      "mode": "generate",
+      "maxQuestions": 2
+    },
+    "expected": {
+      "include": [],
+      "exclude": [],
+      "forbidden": [],
+      "forbiddenDocument": [
+        "450",
+        "750"
+      ],
+      "minQuestions": 1,
+      "questionPattern": "threshold|deliver|shipping|300|450|600|750|conflict|instruction|link"
+    }
+  },
+  {
+    "id": "conflict-refresh-vs-owner",
+    "kind": "authored-conflict",
+    "category": "conflict-resolution",
+    "split": "development",
+    "description": "Refreshed pages disagree with a conditional owner override. Ask whether its correction condition has been met; do not silently discard the owner.",
+    "input": {
+      "siteUrl": "https://parcel.example/",
+      "sources": [
+        {
+          "id": "home",
+          "url": "https://parcel.example/",
+          "title": "Parcel Shop",
+          "description": "",
+          "content": "Free home delivery over \u20ac600."
+        },
+        {
+          "id": "policy",
+          "url": "https://parcel.example/shipping",
+          "title": "Shipping policy",
+          "description": "",
+          "content": "Updated September 24, 2026: free home delivery over \u20ac600."
+        }
+      ],
+      "decisions": [
+        {
+          "id": "owner",
+          "kind": "fact",
+          "statement": "Earlier confirmed owner correction: free home delivery over \u20ac450 until the website is corrected.",
+          "active": true
+        }
+      ],
+      "dismissedTopics": [],
+      "mode": "generate",
+      "maxQuestions": 2
+    },
+    "expected": {
+      "include": [],
+      "exclude": [],
+      "forbidden": [],
+      "minQuestions": 1,
+      "questionPattern": "threshold|deliver|shipping|300|450|600|750|conflict|instruction|link"
+    }
+  },
+  {
+    "id": "conflict-refresh-dismissed-topic",
+    "kind": "authored-conflict",
+    "category": "conflict-resolution",
+    "split": "development",
+    "description": "Desired behavior: materially new evidence should reopen a conflict even if its topic was dismissed. Current topic-only suppression may fail.",
+    "input": {
+      "siteUrl": "https://parcel.example/",
+      "sources": [
+        {
+          "id": "home",
+          "url": "https://parcel.example/",
+          "title": "Parcel Shop",
+          "description": "",
+          "content": "Free home delivery over \u20ac600."
+        },
+        {
+          "id": "policy",
+          "url": "https://parcel.example/shipping",
+          "title": "Shipping policy",
+          "description": "",
+          "content": "Updated September 24, 2026: free home delivery over \u20ac600."
+        }
+      ],
+      "decisions": [
+        {
+          "id": "owner",
+          "kind": "fact",
+          "statement": "Earlier confirmed owner correction: free home delivery over \u20ac450 until the website is corrected.",
+          "active": true
+        }
+      ],
+      "dismissedTopics": [
+        "shipping threshold"
+      ],
+      "mode": "generate",
+      "maxQuestions": 2
+    },
+    "expected": {
+      "include": [],
+      "exclude": [],
+      "forbidden": [],
+      "minQuestions": 1,
+      "questionPattern": "threshold|deliver|shipping|300|450|600|750|conflict|instruction|link"
+    }
+  },
+  {
+    "id": "conflict-defer-resolution",
+    "kind": "authored-conflict",
+    "category": "conflict-resolution",
+    "split": "development",
+    "description": "An explicit defer is actionable: omit the disputed claim, retain useful links, do not force a fact.",
+    "input": {
+      "siteUrl": "https://parcel.example/",
+      "sources": [
+        {
+          "id": "home",
+          "url": "https://parcel.example/",
+          "title": "Parcel Shop",
+          "description": "",
+          "content": "Home delivery is free over \u20ac300. No date supplied."
+        },
+        {
+          "id": "policy",
+          "url": "https://parcel.example/shipping",
+          "title": "Shipping policy",
+          "description": "",
+          "content": "Home delivery is free over \u20ac600. No date supplied."
+        }
+      ],
+      "decisions": [
+        {
+          "id": "unsure",
+          "kind": "preference",
+          "statement": "I cannot verify either amount. Omit numeric delivery thresholds and link the policy until I confirm.",
+          "active": true
+        }
+      ],
+      "dismissedTopics": [],
+      "mode": "generate",
+      "maxQuestions": 2
+    },
+    "expected": {
+      "include": [],
+      "exclude": [],
+      "forbidden": [],
+      "forbiddenDocument": [
+        "300",
+        "600"
+      ],
+      "maxQuestions": 0
+    }
+  },
+  {
+    "id": "conflict-dismiss-is-not-fact",
+    "kind": "authored-conflict",
+    "category": "conflict-resolution",
+    "split": "development",
+    "description": "Dismissal is not confirmation. Respect omission and retain useful navigation.",
+    "input": {
+      "siteUrl": "https://parcel.example/",
+      "sources": [
+        {
+          "id": "home",
+          "url": "https://parcel.example/",
+          "title": "Parcel Shop",
+          "description": "",
+          "content": "Home delivery is free over \u20ac300. No date supplied."
+        },
+        {
+          "id": "policy",
+          "url": "https://parcel.example/shipping",
+          "title": "Shipping policy",
+          "description": "",
+          "content": "Home delivery is free over \u20ac600. No date supplied."
+        }
+      ],
+      "decisions": [
+        {
+          "id": "omit",
+          "kind": "preference",
+          "statement": "Do not ask more about shipping. Do not assert either threshold as current; omit numeric amounts.",
+          "active": true
+        }
+      ],
+      "dismissedTopics": [
+        "shipping threshold"
+      ],
+      "mode": "generate",
+      "maxQuestions": 2
+    },
+    "expected": {
+      "include": [],
+      "exclude": [],
+      "forbidden": [],
+      "forbiddenDocument": [
+        "300",
+        "600"
+      ],
+      "maxQuestions": 0
+    }
+  },
+  {
+    "id": "conflict-incompatible-constraints",
+    "kind": "authored-conflict",
+    "category": "conflict-resolution",
+    "split": "development",
+    "description": "Ask which incompatible active editorial constraint to relax rather than pretending both are satisfied.",
+    "input": {
+      "siteUrl": "https://parcel.example/",
+      "sources": [
+        {
+          "id": "home",
+          "url": "https://parcel.example/",
+          "title": "Parcel Shop",
+          "description": "",
+          "content": "Home delivery is free over \u20ac300. No date supplied."
+        },
+        {
+          "id": "policy",
+          "url": "https://parcel.example/shipping",
+          "title": "Shipping policy",
+          "description": "",
+          "content": "Home delivery is free over \u20ac600. No date supplied."
+        }
+      ],
+      "decisions": [
+        {
+          "id": "limit",
+          "kind": "preference",
+          "statement": "Include exactly one resource link.",
+          "active": true
+        },
+        {
+          "id": "both",
+          "kind": "preference",
+          "statement": "Include both homepage and shipping policy as separate resource links.",
+          "active": true
+        }
+      ],
+      "dismissedTopics": [],
+      "mode": "generate",
+      "maxQuestions": 2
+    },
+    "expected": {
+      "include": [],
+      "exclude": [],
+      "forbidden": [],
+      "minQuestions": 1,
+      "questionPattern": "threshold|deliver|shipping|300|450|600|750|conflict|instruction|link"
+    }
+  }
+]

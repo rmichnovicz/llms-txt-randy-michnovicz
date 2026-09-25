@@ -1,0 +1,461 @@
+{
+  "parser_version": "corpus-v2",
+  "headings": [
+    {
+      "level": 1,
+      "text": "Vite",
+      "line": 1
+    },
+    {
+      "level": 2,
+      "text": "Table of Contents",
+      "line": 20
+    },
+    {
+      "level": 3,
+      "text": "Introduction",
+      "line": 22
+    },
+    {
+      "level": 3,
+      "text": "Guide",
+      "line": 28
+    },
+    {
+      "level": 3,
+      "text": "APIs",
+      "line": 45
+    },
+    {
+      "level": 3,
+      "text": "Environment API",
+      "line": 52
+    },
+    {
+      "level": 3,
+      "text": "Config",
+      "line": 60
+    },
+    {
+      "level": 3,
+      "text": "Future",
+      "line": 71
+    },
+    {
+      "level": 3,
+      "text": "Other",
+      "line": 79
+    }
+  ],
+  "links": [
+    {
+      "label": "rich feature enhancements",
+      "url": "https://vite.dev/guide/features.md",
+      "canonical": "https://vite.dev/guide/features.md",
+      "raw_url": "https://vite.dev/guide/features.md",
+      "description": "",
+      "line": 14
+    },
+    {
+      "label": "native ES modules",
+      "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Modules",
+      "canonical": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Modules",
+      "raw_url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Modules",
+      "description": "",
+      "line": 14
+    },
+    {
+      "label": "Hot Module Replacement (HMR)",
+      "url": "https://vite.dev/guide/features.md#hot-module-replacement",
+      "canonical": "https://vite.dev/guide/features.md#hot-module-replacement",
+      "raw_url": "https://vite.dev/guide/features.md#hot-module-replacement",
+      "description": "",
+      "line": 14
+    },
+    {
+      "label": "Rolldown",
+      "url": "https://rolldown.rs",
+      "canonical": "https://rolldown.rs/",
+      "raw_url": "https://rolldown.rs",
+      "description": "",
+      "line": 16
+    },
+    {
+      "label": "Plugin API",
+      "url": "https://vite.dev/guide/api-plugin.md",
+      "canonical": "https://vite.dev/guide/api-plugin.md",
+      "raw_url": "https://vite.dev/guide/api-plugin.md",
+      "description": "",
+      "line": 18
+    },
+    {
+      "label": "JavaScript API",
+      "url": "https://vite.dev/guide/api-javascript.md",
+      "canonical": "https://vite.dev/guide/api-javascript.md",
+      "raw_url": "https://vite.dev/guide/api-javascript.md",
+      "description": "",
+      "line": 18
+    },
+    {
+      "label": "Getting Started",
+      "url": "https://vite.dev/guide.md",
+      "canonical": "https://vite.dev/guide.md",
+      "raw_url": "/guide.md",
+      "description": "",
+      "line": 24
+    },
+    {
+      "label": "Project Philosophy",
+      "url": "https://vite.dev/guide/philosophy.md",
+      "canonical": "https://vite.dev/guide/philosophy.md",
+      "raw_url": "/guide/philosophy.md",
+      "description": "",
+      "line": 25
+    },
+    {
+      "label": "Why Vite",
+      "url": "https://vite.dev/guide/why.md",
+      "canonical": "https://vite.dev/guide/why.md",
+      "raw_url": "/guide/why.md",
+      "description": "",
+      "line": 26
+    },
+    {
+      "label": "Features",
+      "url": "https://vite.dev/guide/features.md",
+      "canonical": "https://vite.dev/guide/features.md",
+      "raw_url": "/guide/features.md",
+      "description": "",
+      "line": 30
+    },
+    {
+      "label": "Command Line Interface",
+      "url": "https://vite.dev/guide/cli.md",
+      "canonical": "https://vite.dev/guide/cli.md",
+      "raw_url": "/guide/cli.md",
+      "description": "",
+      "line": 31
+    },
+    {
+      "label": "Using Plugins",
+      "url": "https://vite.dev/guide/using-plugins.md",
+      "canonical": "https://vite.dev/guide/using-plugins.md",
+      "raw_url": "/guide/using-plugins.md",
+      "description": "",
+      "line": 32
+    },
+    {
+      "label": "Dependency Pre-Bundling",
+      "url": "https://vite.dev/guide/dep-pre-bundling.md",
+      "canonical": "https://vite.dev/guide/dep-pre-bundling.md",
+      "raw_url": "/guide/dep-pre-bundling.md",
+      "description": "",
+      "line": 33
+    },
+    {
+      "label": "Static Asset Handling",
+      "url": "https://vite.dev/guide/assets.md",
+      "canonical": "https://vite.dev/guide/assets.md",
+      "raw_url": "/guide/assets.md",
+      "description": "",
+      "line": 34
+    },
+    {
+      "label": "Building for Production",
+      "url": "https://vite.dev/guide/build.md",
+      "canonical": "https://vite.dev/guide/build.md",
+      "raw_url": "/guide/build.md",
+      "description": "",
+      "line": 35
+    },
+    {
+      "label": "Deploying a Static Site",
+      "url": "https://vite.dev/guide/static-deploy.md",
+      "canonical": "https://vite.dev/guide/static-deploy.md",
+      "raw_url": "/guide/static-deploy.md",
+      "description": "",
+      "line": 36
+    },
+    {
+      "label": "Env Variables and Modes",
+      "url": "https://vite.dev/guide/env-and-mode.md",
+      "canonical": "https://vite.dev/guide/env-and-mode.md",
+      "raw_url": "/guide/env-and-mode.md",
+      "description": "",
+      "line": 37
+    },
+    {
+      "label": "Server-Side Rendering (SSR)",
+      "url": "https://vite.dev/guide/ssr.md",
+      "canonical": "https://vite.dev/guide/ssr.md",
+      "raw_url": "/guide/ssr.md",
+      "description": "",
+      "line": 38
+    },
+    {
+      "label": "Backend Integration",
+      "url": "https://vite.dev/guide/backend-integration.md",
+      "canonical": "https://vite.dev/guide/backend-integration.md",
+      "raw_url": "/guide/backend-integration.md",
+      "description": "",
+      "line": 39
+    },
+    {
+      "label": "Troubleshooting",
+      "url": "https://vite.dev/guide/troubleshooting.md",
+      "canonical": "https://vite.dev/guide/troubleshooting.md",
+      "raw_url": "/guide/troubleshooting.md",
+      "description": "",
+      "line": 40
+    },
+    {
+      "label": "Performance",
+      "url": "https://vite.dev/guide/performance.md",
+      "canonical": "https://vite.dev/guide/performance.md",
+      "raw_url": "/guide/performance.md",
+      "description": "",
+      "line": 41
+    },
+    {
+      "label": "Migration from v7",
+      "url": "https://vite.dev/guide/migration.md",
+      "canonical": "https://vite.dev/guide/migration.md",
+      "raw_url": "/guide/migration.md",
+      "description": "",
+      "line": 42
+    },
+    {
+      "label": "Breaking Changes",
+      "url": "https://vite.dev/changes.md",
+      "canonical": "https://vite.dev/changes.md",
+      "raw_url": "/changes.md",
+      "description": "",
+      "line": 43
+    },
+    {
+      "label": "Plugin API",
+      "url": "https://vite.dev/guide/api-plugin.md",
+      "canonical": "https://vite.dev/guide/api-plugin.md",
+      "raw_url": "/guide/api-plugin.md",
+      "description": "",
+      "line": 47
+    },
+    {
+      "label": "HMR API",
+      "url": "https://vite.dev/guide/api-hmr.md",
+      "canonical": "https://vite.dev/guide/api-hmr.md",
+      "raw_url": "/guide/api-hmr.md",
+      "description": "",
+      "line": 48
+    },
+    {
+      "label": "JavaScript API",
+      "url": "https://vite.dev/guide/api-javascript.md",
+      "canonical": "https://vite.dev/guide/api-javascript.md",
+      "raw_url": "/guide/api-javascript.md",
+      "description": "",
+      "line": 49
+    },
+    {
+      "label": "Configuring Vite",
+      "url": "https://vite.dev/config.md",
+      "canonical": "https://vite.dev/config.md",
+      "raw_url": "/config.md",
+      "description": "",
+      "line": 50
+    },
+    {
+      "label": "Environment API",
+      "url": "https://vite.dev/guide/api-environment.md",
+      "canonical": "https://vite.dev/guide/api-environment.md",
+      "raw_url": "/guide/api-environment.md",
+      "description": "",
+      "line": 54
+    },
+    {
+      "label": "Using Environment Instances",
+      "url": "https://vite.dev/guide/api-environment-instances.md",
+      "canonical": "https://vite.dev/guide/api-environment-instances.md",
+      "raw_url": "/guide/api-environment-instances.md",
+      "description": "",
+      "line": 55
+    },
+    {
+      "label": "Environment API for Plugins",
+      "url": "https://vite.dev/guide/api-environment-plugins.md",
+      "canonical": "https://vite.dev/guide/api-environment-plugins.md",
+      "raw_url": "/guide/api-environment-plugins.md",
+      "description": "",
+      "line": 56
+    },
+    {
+      "label": "Environment API for Frameworks",
+      "url": "https://vite.dev/guide/api-environment-frameworks.md",
+      "canonical": "https://vite.dev/guide/api-environment-frameworks.md",
+      "raw_url": "/guide/api-environment-frameworks.md",
+      "description": "",
+      "line": 57
+    },
+    {
+      "label": "Environment API for Runtimes",
+      "url": "https://vite.dev/guide/api-environment-runtimes.md",
+      "canonical": "https://vite.dev/guide/api-environment-runtimes.md",
+      "raw_url": "/guide/api-environment-runtimes.md",
+      "description": "",
+      "line": 58
+    },
+    {
+      "label": "Configuring Vite",
+      "url": "https://vite.dev/config.md",
+      "canonical": "https://vite.dev/config.md",
+      "raw_url": "/config.md",
+      "description": "",
+      "line": 62
+    },
+    {
+      "label": "Shared Options",
+      "url": "https://vite.dev/config/shared-options.md",
+      "canonical": "https://vite.dev/config/shared-options.md",
+      "raw_url": "/config/shared-options.md",
+      "description": "",
+      "line": 63
+    },
+    {
+      "label": "Server Options",
+      "url": "https://vite.dev/config/server-options.md",
+      "canonical": "https://vite.dev/config/server-options.md",
+      "raw_url": "/config/server-options.md",
+      "description": "",
+      "line": 64
+    },
+    {
+      "label": "Build Options",
+      "url": "https://vite.dev/config/build-options.md",
+      "canonical": "https://vite.dev/config/build-options.md",
+      "raw_url": "/config/build-options.md",
+      "description": "",
+      "line": 65
+    },
+    {
+      "label": "Preview Options",
+      "url": "https://vite.dev/config/preview-options.md",
+      "canonical": "https://vite.dev/config/preview-options.md",
+      "raw_url": "/config/preview-options.md",
+      "description": "",
+      "line": 66
+    },
+    {
+      "label": "Dep Optimization Options",
+      "url": "https://vite.dev/config/dep-optimization-options.md",
+      "canonical": "https://vite.dev/config/dep-optimization-options.md",
+      "raw_url": "/config/dep-optimization-options.md",
+      "description": "",
+      "line": 67
+    },
+    {
+      "label": "SSR Options",
+      "url": "https://vite.dev/config/ssr-options.md",
+      "canonical": "https://vite.dev/config/ssr-options.md",
+      "raw_url": "/config/ssr-options.md",
+      "description": "",
+      "line": 68
+    },
+    {
+      "label": "Worker Options",
+      "url": "https://vite.dev/config/worker-options.md",
+      "canonical": "https://vite.dev/config/worker-options.md",
+      "raw_url": "/config/worker-options.md",
+      "description": "",
+      "line": 69
+    },
+    {
+      "label": "this.environment in Hooks",
+      "url": "https://vite.dev/changes/this-environment-in-hooks.md",
+      "canonical": "https://vite.dev/changes/this-environment-in-hooks.md",
+      "raw_url": "/changes/this-environment-in-hooks.md",
+      "description": "",
+      "line": 73
+    },
+    {
+      "label": "HMR hotUpdate Plugin Hook",
+      "url": "https://vite.dev/changes/hotupdate-hook.md",
+      "canonical": "https://vite.dev/changes/hotupdate-hook.md",
+      "raw_url": "/changes/hotupdate-hook.md",
+      "description": "",
+      "line": 74
+    },
+    {
+      "label": "Move to Per-environment APIs",
+      "url": "https://vite.dev/changes/per-environment-apis.md",
+      "canonical": "https://vite.dev/changes/per-environment-apis.md",
+      "raw_url": "/changes/per-environment-apis.md",
+      "description": "",
+      "line": 75
+    },
+    {
+      "label": "SSR Using ModuleRunner API",
+      "url": "https://vite.dev/changes/ssr-using-modulerunner.md",
+      "canonical": "https://vite.dev/changes/ssr-using-modulerunner.md",
+      "raw_url": "/changes/ssr-using-modulerunner.md",
+      "description": "",
+      "line": 76
+    },
+    {
+      "label": "Shared Plugins during Build",
+      "url": "https://vite.dev/changes/shared-plugins-during-build.md",
+      "canonical": "https://vite.dev/changes/shared-plugins-during-build.md",
+      "raw_url": "/changes/shared-plugins-during-build.md",
+      "description": "",
+      "line": 77
+    },
+    {
+      "label": "5th anniversary of the Vite Team Creation",
+      "url": "https://vite.dev/live.md",
+      "canonical": "https://vite.dev/live.md",
+      "raw_url": "/live.md",
+      "description": "Vite: The Documentary re-premiere. Join the ecosystem this March 19th at 3 PM UTC to remember the story we wrote together. And participate in the live stage to discuss our past, present, and future. We'll be waiting for you!",
+      "line": 81
+    },
+    {
+      "label": "Acknowledgements",
+      "url": "https://vite.dev/acknowledgements.md",
+      "canonical": "https://vite.dev/acknowledgements.md",
+      "raw_url": "/acknowledgements.md",
+      "description": "Vite is built upon the shoulders of giants. Thank you to all the projects and contributors that make Vite possible.",
+      "line": 82
+    },
+    {
+      "label": "Plugins",
+      "url": "https://vite.dev/plugins.md",
+      "canonical": "https://vite.dev/plugins.md",
+      "raw_url": "/plugins.md",
+      "description": "",
+      "line": 83
+    },
+    {
+      "label": "Releases",
+      "url": "https://vite.dev/releases.md",
+      "canonical": "https://vite.dev/releases.md",
+      "raw_url": "/releases.md",
+      "description": "",
+      "line": 84
+    }
+  ],
+  "bare_links": [],
+  "metrics": {
+    "bytes": 3528,
+    "words": 351,
+    "lines": 84,
+    "approx_tokens_chars_div_4": 877,
+    "h1_count": 1,
+    "link_count": 49,
+    "bare_url_count": 0,
+    "described_links": 2,
+    "unique_destinations": 45,
+    "markdown_destinations": 47
+  },
+  "flags": [
+    "duplicate-destinations-review",
+    "sparse-link-descriptions"
+  ]
+}

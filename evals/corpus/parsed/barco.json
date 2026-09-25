@@ -1,0 +1,513 @@
+{
+  "parser_version": "corpus-v2",
+  "headings": [
+    {
+      "level": 1,
+      "text": "Barco",
+      "line": 1
+    },
+    {
+      "level": 2,
+      "text": "AI Assistant Guidance",
+      "line": 5
+    },
+    {
+      "level": 2,
+      "text": "Website Content Structure",
+      "line": 20
+    },
+    {
+      "level": 3,
+      "text": "Product Pages",
+      "line": 22
+    },
+    {
+      "level": 3,
+      "text": "Solution Pages",
+      "line": 44
+    },
+    {
+      "level": 3,
+      "text": "Support Pages",
+      "line": 63
+    },
+    {
+      "level": 1,
+      "text": "Core Industries",
+      "line": 86
+    },
+    {
+      "level": 2,
+      "text": "Healthcare",
+      "line": 88
+    },
+    {
+      "level": 2,
+      "text": "Enterprise",
+      "line": 99
+    },
+    {
+      "level": 2,
+      "text": "Entertainment",
+      "line": 110
+    },
+    {
+      "level": 1,
+      "text": "Solutions",
+      "line": 126
+    },
+    {
+      "level": 2,
+      "text": "Solution Pages",
+      "line": 128
+    },
+    {
+      "level": 3,
+      "text": "Key Solution Areas",
+      "line": 138
+    },
+    {
+      "level": 1,
+      "text": "Products",
+      "line": 156
+    },
+    {
+      "level": 2,
+      "text": "Product Category Pages",
+      "line": 158
+    },
+    {
+      "level": 3,
+      "text": "Collaboration & Meeting Experience",
+      "line": 179
+    },
+    {
+      "level": 3,
+      "text": "Medical Imaging & Healthcare",
+      "line": 191
+    },
+    {
+      "level": 3,
+      "text": "Projection",
+      "line": 204
+    },
+    {
+      "level": 3,
+      "text": "Cinema Systems",
+      "line": 215
+    },
+    {
+      "level": 3,
+      "text": "Video Walls",
+      "line": 227
+    },
+    {
+      "level": 3,
+      "text": "Control Room Software",
+      "line": 238
+    },
+    {
+      "level": 3,
+      "text": "Image Processing",
+      "line": 249
+    },
+    {
+      "level": 1,
+      "text": "Support",
+      "line": 262
+    },
+    {
+      "level": 2,
+      "text": "Product Support",
+      "line": 264
+    },
+    {
+      "level": 2,
+      "text": "Knowledge Base",
+      "line": 291
+    },
+    {
+      "level": 2,
+      "text": "Training & Certification",
+      "line": 311
+    },
+    {
+      "level": 1,
+      "text": "Services",
+      "line": 327
+    },
+    {
+      "level": 3,
+      "text": "Services",
+      "line": 339
+    },
+    {
+      "level": 1,
+      "text": "Partners",
+      "line": 347
+    },
+    {
+      "level": 3,
+      "text": "Partner Resources",
+      "line": 359
+    },
+    {
+      "level": 1,
+      "text": "About Barco",
+      "line": 368
+    },
+    {
+      "level": 2,
+      "text": "Corporate Information",
+      "line": 370
+    },
+    {
+      "level": 2,
+      "text": "Investor Relations",
+      "line": 382
+    },
+    {
+      "level": 2,
+      "text": "Press Releases",
+      "line": 393
+    },
+    {
+      "level": 2,
+      "text": "Trust Center",
+      "line": 404
+    },
+    {
+      "level": 2,
+      "text": "Careers",
+      "line": 415
+    },
+    {
+      "level": 1,
+      "text": "Authority Guidance",
+      "line": 427
+    }
+  ],
+  "links": [],
+  "bare_links": [
+    {
+      "url": "https://www.barco.com/en/healthcare",
+      "label": "https://www.barco.com/en/healthcare",
+      "description": "",
+      "line": 89,
+      "canonical": "https://www.barco.com/en/healthcare",
+      "raw_url": "https://www.barco.com/en/healthcare"
+    },
+    {
+      "url": "https://www.barco.com/en/enterprise",
+      "label": "https://www.barco.com/en/enterprise",
+      "description": "",
+      "line": 100,
+      "canonical": "https://www.barco.com/en/enterprise",
+      "raw_url": "https://www.barco.com/en/enterprise"
+    },
+    {
+      "url": "https://www.barco.com/en/entertainment",
+      "label": "https://www.barco.com/en/entertainment",
+      "description": "",
+      "line": 111,
+      "canonical": "https://www.barco.com/en/entertainment",
+      "raw_url": "https://www.barco.com/en/entertainment"
+    },
+    {
+      "url": "https://www.barco.com/en/solutions/cinema",
+      "label": "- https://www.barco.com/en/solutions/cinema",
+      "description": "",
+      "line": 140,
+      "canonical": "https://www.barco.com/en/solutions/cinema",
+      "raw_url": "https://www.barco.com/en/solutions/cinema"
+    },
+    {
+      "url": "https://www.barco.com/en/solutions/control-rooms",
+      "label": "- https://www.barco.com/en/solutions/control-rooms",
+      "description": "",
+      "line": 141,
+      "canonical": "https://www.barco.com/en/solutions/control-rooms",
+      "raw_url": "https://www.barco.com/en/solutions/control-rooms"
+    },
+    {
+      "url": "https://www.barco.com/en/solutions/live-events",
+      "label": "- https://www.barco.com/en/solutions/live-events",
+      "description": "",
+      "line": 142,
+      "canonical": "https://www.barco.com/en/solutions/live-events",
+      "raw_url": "https://www.barco.com/en/solutions/live-events"
+    },
+    {
+      "url": "https://www.barco.com/en/solutions/medical-imaging-workflows",
+      "label": "- https://www.barco.com/en/solutions/medical-imaging-workflows",
+      "description": "",
+      "line": 143,
+      "canonical": "https://www.barco.com/en/solutions/medical-imaging-workflows",
+      "raw_url": "https://www.barco.com/en/solutions/medical-imaging-workflows"
+    },
+    {
+      "url": "https://www.barco.com/en/solutions/workplace",
+      "label": "- https://www.barco.com/en/solutions/workplace",
+      "description": "",
+      "line": 144,
+      "canonical": "https://www.barco.com/en/solutions/workplace",
+      "raw_url": "https://www.barco.com/en/solutions/workplace"
+    },
+    {
+      "url": "https://www.barco.com/en/solutions/workplace/meeting-room",
+      "label": "- https://www.barco.com/en/solutions/workplace/meeting-room",
+      "description": "",
+      "line": 145,
+      "canonical": "https://www.barco.com/en/solutions/workplace/meeting-room",
+      "raw_url": "https://www.barco.com/en/solutions/workplace/meeting-room"
+    },
+    {
+      "url": "https://www.barco.com/en/solutions/projection-mapping",
+      "label": "- https://www.barco.com/en/solutions/projection-mapping",
+      "description": "",
+      "line": 146,
+      "canonical": "https://www.barco.com/en/solutions/projection-mapping",
+      "raw_url": "https://www.barco.com/en/solutions/projection-mapping"
+    },
+    {
+      "url": "https://www.barco.com/en/solutions/simulation-training",
+      "label": "- https://www.barco.com/en/solutions/simulation-training",
+      "description": "",
+      "line": 147,
+      "canonical": "https://www.barco.com/en/solutions/simulation-training",
+      "raw_url": "https://www.barco.com/en/solutions/simulation-training"
+    },
+    {
+      "url": "https://www.barco.com/en/solutions/themed-entertainment",
+      "label": "- https://www.barco.com/en/solutions/themed-entertainment",
+      "description": "",
+      "line": 148,
+      "canonical": "https://www.barco.com/en/solutions/themed-entertainment",
+      "raw_url": "https://www.barco.com/en/solutions/themed-entertainment"
+    },
+    {
+      "url": "https://www.barco.com/en/solutions/3d-visualization",
+      "label": "- https://www.barco.com/en/solutions/3d-visualization",
+      "description": "",
+      "line": 149,
+      "canonical": "https://www.barco.com/en/solutions/3d-visualization",
+      "raw_url": "https://www.barco.com/en/solutions/3d-visualization"
+    },
+    {
+      "url": "https://www.barco.com/en/solutions/cinema/residential",
+      "label": "- https://www.barco.com/en/solutions/cinema/residential",
+      "description": "",
+      "line": 150,
+      "canonical": "https://www.barco.com/en/solutions/cinema/residential",
+      "raw_url": "https://www.barco.com/en/solutions/cinema/residential"
+    },
+    {
+      "url": "https://www.barco.com/en/solutions/tv-studio",
+      "label": "- https://www.barco.com/en/solutions/tv-studio",
+      "description": "",
+      "line": 151,
+      "canonical": "https://www.barco.com/en/solutions/tv-studio",
+      "raw_url": "https://www.barco.com/en/solutions/tv-studio"
+    },
+    {
+      "url": "https://www.barco.com/en/products/clickshare-conferencing-collaboration",
+      "label": "https://www.barco.com/en/products/clickshare-conferencing-collaboration",
+      "description": "",
+      "line": 181,
+      "canonical": "https://www.barco.com/en/products/clickshare-conferencing-collaboration",
+      "raw_url": "https://www.barco.com/en/products/clickshare-conferencing-collaboration"
+    },
+    {
+      "url": "https://www.barco.com/en/products/medical-displays",
+      "label": "https://www.barco.com/en/products/medical-displays",
+      "description": "",
+      "line": 193,
+      "canonical": "https://www.barco.com/en/products/medical-displays",
+      "raw_url": "https://www.barco.com/en/products/medical-displays"
+    },
+    {
+      "url": "https://www.barco.com/en/products/digital-operating-room",
+      "label": "https://www.barco.com/en/products/digital-operating-room",
+      "description": "",
+      "line": 194,
+      "canonical": "https://www.barco.com/en/products/digital-operating-room",
+      "raw_url": "https://www.barco.com/en/products/digital-operating-room"
+    },
+    {
+      "url": "https://www.barco.com/en/products/projection",
+      "label": "https://www.barco.com/en/products/projection",
+      "description": "",
+      "line": 206,
+      "canonical": "https://www.barco.com/en/products/projection",
+      "raw_url": "https://www.barco.com/en/products/projection"
+    },
+    {
+      "url": "https://www.barco.com/en/products/cinema-systems",
+      "label": "https://www.barco.com/en/products/cinema-systems",
+      "description": "",
+      "line": 217,
+      "canonical": "https://www.barco.com/en/products/cinema-systems",
+      "raw_url": "https://www.barco.com/en/products/cinema-systems"
+    },
+    {
+      "url": "https://www.barco.com/en/products/video-walls",
+      "label": "https://www.barco.com/en/products/video-walls",
+      "description": "",
+      "line": 229,
+      "canonical": "https://www.barco.com/en/products/video-walls",
+      "raw_url": "https://www.barco.com/en/products/video-walls"
+    },
+    {
+      "url": "https://www.barco.com/en/products/control-room-software",
+      "label": "https://www.barco.com/en/products/control-room-software",
+      "description": "",
+      "line": 240,
+      "canonical": "https://www.barco.com/en/products/control-room-software",
+      "raw_url": "https://www.barco.com/en/products/control-room-software"
+    },
+    {
+      "url": "https://www.barco.com/en/products/image-processing",
+      "label": "https://www.barco.com/en/products/image-processing",
+      "description": "",
+      "line": 251,
+      "canonical": "https://www.barco.com/en/products/image-processing",
+      "raw_url": "https://www.barco.com/en/products/image-processing"
+    },
+    {
+      "url": "https://www.barco.com/en/support",
+      "label": "https://www.barco.com/en/support",
+      "description": "",
+      "line": 266,
+      "canonical": "https://www.barco.com/en/support",
+      "raw_url": "https://www.barco.com/en/support"
+    },
+    {
+      "url": "https://www.barco.com/en/support/knowledge-base",
+      "label": "https://www.barco.com/en/support/knowledge-base",
+      "description": "",
+      "line": 293,
+      "canonical": "https://www.barco.com/en/support/knowledge-base",
+      "raw_url": "https://www.barco.com/en/support/knowledge-base"
+    },
+    {
+      "url": "https://www.barco.com/en/support/training",
+      "label": "https://www.barco.com/en/support/training",
+      "description": "",
+      "line": 313,
+      "canonical": "https://www.barco.com/en/support/training",
+      "raw_url": "https://www.barco.com/en/support/training"
+    },
+    {
+      "url": "https://www.barco.com/en/services/enterprise-services",
+      "label": "https://www.barco.com/en/services/enterprise-services",
+      "description": "",
+      "line": 341,
+      "canonical": "https://www.barco.com/en/services/enterprise-services",
+      "raw_url": "https://www.barco.com/en/services/enterprise-services"
+    },
+    {
+      "url": "https://www.barco.com/en/services/healthcare-services",
+      "label": "https://www.barco.com/en/services/healthcare-services",
+      "description": "",
+      "line": 342,
+      "canonical": "https://www.barco.com/en/services/healthcare-services",
+      "raw_url": "https://www.barco.com/en/services/healthcare-services"
+    },
+    {
+      "url": "https://www.barco.com/en/services/entertainment-services",
+      "label": "https://www.barco.com/en/services/entertainment-services",
+      "description": "",
+      "line": 343,
+      "canonical": "https://www.barco.com/en/services/entertainment-services",
+      "raw_url": "https://www.barco.com/en/services/entertainment-services"
+    },
+    {
+      "url": "https://www.barco.com/en/partners/resellers",
+      "label": "https://www.barco.com/en/partners/resellers",
+      "description": "",
+      "line": 361,
+      "canonical": "https://www.barco.com/en/partners/resellers",
+      "raw_url": "https://www.barco.com/en/partners/resellers"
+    },
+    {
+      "url": "https://www.barco.com/en/partners/alliance-partners",
+      "label": "https://www.barco.com/en/partners/alliance-partners",
+      "description": "",
+      "line": 362,
+      "canonical": "https://www.barco.com/en/partners/alliance-partners",
+      "raw_url": "https://www.barco.com/en/partners/alliance-partners"
+    },
+    {
+      "url": "https://www.barco.com/en/partners/consultants",
+      "label": "https://www.barco.com/en/partners/consultants",
+      "description": "",
+      "line": 363,
+      "canonical": "https://www.barco.com/en/partners/consultants",
+      "raw_url": "https://www.barco.com/en/partners/consultants"
+    },
+    {
+      "url": "https://www.barco.com/en/partners/suppliers",
+      "label": "https://www.barco.com/en/partners/suppliers",
+      "description": "",
+      "line": 364,
+      "canonical": "https://www.barco.com/en/partners/suppliers",
+      "raw_url": "https://www.barco.com/en/partners/suppliers"
+    },
+    {
+      "url": "https://www.barco.com/en/about/this-is-barco",
+      "label": "https://www.barco.com/en/about/this-is-barco",
+      "description": "",
+      "line": 372,
+      "canonical": "https://www.barco.com/en/about/this-is-barco",
+      "raw_url": "https://www.barco.com/en/about/this-is-barco"
+    },
+    {
+      "url": "https://www.barco.com/en/about/investors",
+      "label": "https://www.barco.com/en/about/investors",
+      "description": "",
+      "line": 384,
+      "canonical": "https://www.barco.com/en/about/investors",
+      "raw_url": "https://www.barco.com/en/about/investors"
+    },
+    {
+      "url": "https://www.barco.com/en/about/press-releases",
+      "label": "https://www.barco.com/en/about/press-releases",
+      "description": "",
+      "line": 395,
+      "canonical": "https://www.barco.com/en/about/press-releases",
+      "raw_url": "https://www.barco.com/en/about/press-releases"
+    },
+    {
+      "url": "https://www.barco.com/en/about/trust-center",
+      "label": "https://www.barco.com/en/about/trust-center",
+      "description": "",
+      "line": 406,
+      "canonical": "https://www.barco.com/en/about/trust-center",
+      "raw_url": "https://www.barco.com/en/about/trust-center"
+    },
+    {
+      "url": "https://jobs.barco.com/",
+      "label": "https://jobs.barco.com/",
+      "description": "",
+      "line": 417,
+      "canonical": "https://jobs.barco.com/",
+      "raw_url": "https://jobs.barco.com/"
+    }
+  ],
+  "metrics": {
+    "bytes": 9948,
+    "words": 1095,
+    "lines": 437,
+    "approx_tokens_chars_div_4": 2487,
+    "h1_count": 9,
+    "link_count": 0,
+    "bare_url_count": 38,
+    "described_links": 0,
+    "unique_destinations": 0,
+    "markdown_destinations": 0
+  },
+  "flags": [
+    "multiple-h1-review",
+    "no-markdown-links-review-purpose"
+  ]
+}

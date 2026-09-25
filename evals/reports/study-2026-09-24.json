@@ -1,0 +1,349 @@
+{
+  "snapshot_date": "2026-09-24",
+  "actual_files": 55,
+  "attempted_files": 60,
+  "categories": {
+    "developer-docs": 8,
+    "saas": 5,
+    "ecommerce": 3,
+    "hospitality": 5,
+    "local-services": 4,
+    "education": 4,
+    "health": 4,
+    "finance": 3,
+    "publisher-personal": 4,
+    "nonprofit-research": 4,
+    "professional-services": 4,
+    "directory-travel": 4,
+    "manufacturing": 3
+  },
+  "published_templates": 8,
+  "generation_cases": 54,
+  "routing_tasks": 97,
+  "model": "gpt-6-sol",
+  "reasoning": "medium",
+  "generation_v1_reviewed": {
+    "passed": 114,
+    "attempts": 117
+  },
+  "generation_v2_development": {
+    "attempts": 117,
+    "passed": 117,
+    "cases": 39,
+    "consistently_passing_cases": 39,
+    "input_tokens": 215466,
+    "output_tokens": 40248,
+    "latency_ms_median": 5025,
+    "latency_ms_p95": 8189,
+    "groups": {
+      "category": {
+        "developer-docs": {
+          "attempts": 12,
+          "passed": 12
+        },
+        "directory-travel": {
+          "attempts": 6,
+          "passed": 6
+        },
+        "ecommerce": {
+          "attempts": 12,
+          "passed": 12
+        },
+        "education": {
+          "attempts": 6,
+          "passed": 6
+        },
+        "finance": {
+          "attempts": 6,
+          "passed": 6
+        },
+        "health": {
+          "attempts": 3,
+          "passed": 3
+        },
+        "hospitality": {
+          "attempts": 6,
+          "passed": 6
+        },
+        "local-services": {
+          "attempts": 9,
+          "passed": 9
+        },
+        "manufacturing": {
+          "attempts": 3,
+          "passed": 3
+        },
+        "mixed": {
+          "attempts": 27,
+          "passed": 27
+        },
+        "nonprofit-research": {
+          "attempts": 6,
+          "passed": 6
+        },
+        "professional-services": {
+          "attempts": 6,
+          "passed": 6
+        },
+        "publisher-personal": {
+          "attempts": 3,
+          "passed": 3
+        },
+        "saas": {
+          "attempts": 12,
+          "passed": 12
+        }
+      },
+      "kind": {
+        "authored": {
+          "attempts": 48,
+          "passed": 48
+        },
+        "frozen-web-pages": {
+          "attempts": 42,
+          "passed": 42
+        },
+        "legacy-authored": {
+          "attempts": 27,
+          "passed": 27
+        }
+      },
+      "split": {
+        "development": {
+          "attempts": 117,
+          "passed": 117
+        }
+      }
+    }
+  },
+  "generation_v2_holdout": {
+    "attempts": 45,
+    "passed": 45,
+    "cases": 15,
+    "consistently_passing_cases": 15,
+    "input_tokens": 103083,
+    "output_tokens": 22299,
+    "latency_ms_median": 6287,
+    "latency_ms_p95": 11292,
+    "groups": {
+      "category": {
+        "developer-docs": {
+          "attempts": 6,
+          "passed": 6
+        },
+        "directory-travel": {
+          "attempts": 3,
+          "passed": 3
+        },
+        "ecommerce": {
+          "attempts": 3,
+          "passed": 3
+        },
+        "education": {
+          "attempts": 3,
+          "passed": 3
+        },
+        "health": {
+          "attempts": 6,
+          "passed": 6
+        },
+        "hospitality": {
+          "attempts": 3,
+          "passed": 3
+        },
+        "local-services": {
+          "attempts": 3,
+          "passed": 3
+        },
+        "manufacturing": {
+          "attempts": 6,
+          "passed": 6
+        },
+        "nonprofit-research": {
+          "attempts": 3,
+          "passed": 3
+        },
+        "professional-services": {
+          "attempts": 3,
+          "passed": 3
+        },
+        "publisher-personal": {
+          "attempts": 3,
+          "passed": 3
+        },
+        "saas": {
+          "attempts": 3,
+          "passed": 3
+        }
+      },
+      "kind": {
+        "authored": {
+          "attempts": 18,
+          "passed": 18
+        },
+        "frozen-web-pages": {
+          "attempts": 27,
+          "passed": 27
+        }
+      },
+      "split": {
+        "holdout": {
+          "attempts": 45,
+          "passed": 45
+        }
+      }
+    }
+  },
+  "metadata_control": {
+    "attempts": 54,
+    "passed": 35,
+    "cases": 54,
+    "consistently_passing_cases": 35,
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "latency_ms_median": 0.0,
+    "latency_ms_p95": 1,
+    "groups": {
+      "category": {
+        "developer-docs": {
+          "attempts": 6,
+          "passed": 5
+        },
+        "directory-travel": {
+          "attempts": 3,
+          "passed": 2
+        },
+        "ecommerce": {
+          "attempts": 5,
+          "passed": 2
+        },
+        "education": {
+          "attempts": 3,
+          "passed": 2
+        },
+        "finance": {
+          "attempts": 2,
+          "passed": 1
+        },
+        "health": {
+          "attempts": 3,
+          "passed": 2
+        },
+        "hospitality": {
+          "attempts": 3,
+          "passed": 2
+        },
+        "local-services": {
+          "attempts": 4,
+          "passed": 3
+        },
+        "manufacturing": {
+          "attempts": 3,
+          "passed": 3
+        },
+        "mixed": {
+          "attempts": 9,
+          "passed": 2
+        },
+        "nonprofit-research": {
+          "attempts": 3,
+          "passed": 2
+        },
+        "professional-services": {
+          "attempts": 3,
+          "passed": 3
+        },
+        "publisher-personal": {
+          "attempts": 2,
+          "passed": 2
+        },
+        "saas": {
+          "attempts": 5,
+          "passed": 4
+        }
+      },
+      "kind": {
+        "authored": {
+          "attempts": 22,
+          "passed": 10
+        },
+        "frozen-web-pages": {
+          "attempts": 23,
+          "passed": 23
+        },
+        "legacy-authored": {
+          "attempts": 9,
+          "passed": 2
+        }
+      },
+      "split": {
+        "development": {
+          "attempts": 39,
+          "passed": 22
+        },
+        "holdout": {
+          "attempts": 15,
+          "passed": 13
+        }
+      }
+    }
+  },
+  "routing_matched_39": {
+    "model": 38,
+    "bm25": 25,
+    "bm25_full": 23,
+    "labels": 21
+  },
+  "routing_all_97": {
+    "bm25_16k": {
+      "tasks": 97,
+      "passed": 67,
+      "top1": 53,
+      "top3": 67,
+      "gold_outside_budget": 2,
+      "mean_reciprocal_rank": 0.6065292096219932
+    },
+    "bm25_full": {
+      "tasks": 97,
+      "passed": 64,
+      "top1": 52,
+      "top3": 64,
+      "gold_outside_budget": 0,
+      "mean_reciprocal_rank": 0.5893470790378007
+    },
+    "labels_16k": {
+      "tasks": 97,
+      "passed": 55,
+      "top1": 43,
+      "top3": 55,
+      "gold_outside_budget": 2,
+      "mean_reciprocal_rank": 0.48625429553264604
+    }
+  },
+  "semantic_review": {
+    "corpus-v1-semantic": {
+      "reviewed": 39,
+      "with_issues": 5,
+      "invalid_anchors": 0
+    },
+    "corpus-v2-semantic": {
+      "reviewed": 39,
+      "with_issues": 0,
+      "invalid_anchors": 0
+    }
+  },
+  "judge_calibration": {
+    "correct": 12,
+    "total": 12
+  },
+  "live_calls_with_usage": 411,
+  "total_input_tokens": 783840,
+  "total_output_tokens": 122686,
+  "limitations": [
+    "Convenience sample",
+    "Small frozen source slices",
+    "Same-model advisory reviewer",
+    "No independent human factual review",
+    "No search ranking/adoption experiment"
+  ]
+}

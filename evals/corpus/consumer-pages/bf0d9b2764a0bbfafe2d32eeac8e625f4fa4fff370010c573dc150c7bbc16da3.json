@@ -1,0 +1,223 @@
+{
+  "url": "https://www.answer.ai/",
+  "title": "Answer.AI - Practical AI R&D – Answer.AI",
+  "content": "Answer.AI is a new kind of AI R&D lab which creates practical end-user products based on foundational research breakthroughs. To learn more about the research agenda and background behind our work, see our launch post and an independent analysis of our lab. See below for a complete list of published articles.",
+  "links": [
+    {
+      "url": "https://www.answer.ai/posts/2023-12-12-launch.html",
+      "label": "launch post"
+    },
+    {
+      "url": "https://www.answer.ai/posts/2024-01-26-freaktakes-lessons.html",
+      "label": "independent analysis"
+    },
+    {
+      "url": "https://www.answer.ai/posts/2026-08-19-llms-code-simpler.html",
+      "label": ""
+    },
+    {
+      "url": "https://www.answer.ai/posts/2026-03-17-risks-life-sciences/index.html",
+      "label": ""
+    },
+    {
+      "url": "https://www.answer.ai/posts/2026-03-12-so-where-are-all-the-ai-apps.html",
+      "label": ""
+    },
+    {
+      "url": "https://www.answer.ai/posts/2026-03-02-oai-dow-contract.html",
+      "label": ""
+    },
+    {
+      "url": "https://www.answer.ai/posts/2026-01-20-toolcalling.html",
+      "label": ""
+    },
+    {
+      "url": "https://www.answer.ai/posts/2025-10-13-video-to-doc.html",
+      "label": ""
+    },
+    {
+      "url": "https://www.answer.ai/posts/2025-10-01-solveit-full.html",
+      "label": ""
+    },
+    {
+      "url": "https://www.answer.ai/posts/2025-10-01-cachy.html",
+      "label": ""
+    },
+    {
+      "url": "https://www.answer.ai/posts/2025-07-23-faststripe.html",
+      "label": ""
+    },
+    {
+      "url": "https://www.answer.ai/posts/2025-06-13-fastmigrate.html",
+      "label": ""
+    },
+    {
+      "url": "https://www.answer.ai/posts/2025-06-07-exploring-flexicache.html",
+      "label": ""
+    },
+    {
+      "url": "https://www.answer.ai/posts/2025-06-05-readbench.html",
+      "label": ""
+    },
+    {
+      "url": "https://www.answer.ai/posts/2025-03-17-gpu-programming-scratch.html",
+      "label": ""
+    },
+    {
+      "url": "https://www.answer.ai/posts/2025-02-10-modernbert-instruct.html",
+      "label": ""
+    },
+    {
+      "url": "https://www.answer.ai/posts/2025-01-15-monsterui.html",
+      "label": ""
+    },
+    {
+      "url": "https://www.answer.ai/posts/2025-01-08-devin.html",
+      "label": ""
+    },
+    {
+      "url": "https://www.answer.ai/posts/2024-12-19-modernbert.html",
+      "label": ""
+    },
+    {
+      "url": "https://huggingface.co/collections/answerdotai/modernbert-67627ad707a4acbf33c41deb",
+      "label": "ModernBERT"
+    },
+    {
+      "url": "https://www.answer.ai/posts/2024-12-13-nbsanity.html",
+      "label": ""
+    },
+    {
+      "url": "https://www.answer.ai/posts/2024-12-10-shellsage-loves-iterm.html",
+      "label": ""
+    },
+    {
+      "url": "https://www.answer.ai/posts/2024-12-05-introducing-shell-sage.html",
+      "label": ""
+    },
+    {
+      "url": "https://www.answer.ai/posts/2024-11-30-writing.html",
+      "label": ""
+    },
+    {
+      "url": "https://www.answer.ai/posts/2024-11-07-solveit.html",
+      "label": ""
+    },
+    {
+      "url": "https://www.answer.ai/posts/2024-10-15-how-to-synthesize-data.html",
+      "label": ""
+    },
+    {
+      "url": "https://www.answer.ai/posts/2024-10-10-concurrency.html",
+      "label": ""
+    },
+    {
+      "url": "https://www.answer.ai/posts/2024-09-16-rerankers.html",
+      "label": ""
+    },
+    {
+      "url": "https://www.answer.ai/posts/2024-09-12-gpupuzzles.html",
+      "label": ""
+    },
+    {
+      "url": "https://www.answer.ai/posts/2024-09-03-llmstxt.html",
+      "label": ""
+    },
+    {
+      "url": "https://www.answer.ai/posts/2024-08-13-small-but-mighty-colbert.html",
+      "label": ""
+    },
+    {
+      "url": "https://www.answer.ai/posts/2024-08-04-carson.html",
+      "label": ""
+    },
+    {
+      "url": "https://www.answer.ai/posts/2024-08-03-fasthtml.html",
+      "label": ""
+    },
+    {
+      "url": "https://www.answer.ai/posts/2024-08-02-jacolbert-v25.html",
+      "label": ""
+    },
+    {
+      "url": "https://www.answer.ai/posts/2024-08-01-cold-compress.html",
+      "label": ""
+    },
+    {
+      "url": "https://www.answer.ai/posts/2024-07-25-transformers-as-matchers.html",
+      "label": ""
+    },
+    {
+      "url": "https://www.answer.ai/posts/2024-07-11--gpu-cpp.html",
+      "label": ""
+    },
+    {
+      "url": "https://www.answer.ai/posts/2024-06-28-ai-math.html",
+      "label": ""
+    },
+    {
+      "url": "https://www.answer.ai/posts/colbert-pooling.html",
+      "label": ""
+    },
+    {
+      "url": "https://www.answer.ai/posts/2024-06-23-claudette-src.html",
+      "label": ""
+    },
+    {
+      "url": "https://www.answer.ai/posts/2024-06-21-claudette.html",
+      "label": ""
+    },
+    {
+      "url": "https://www.answer.ai/posts/2024-06-19-ai-defn.html",
+      "label": ""
+    },
+    {
+      "url": "https://www.answer.ai/posts/2024-06-11-os-ai.html",
+      "label": ""
+    },
+    {
+      "url": "https://www.answer.ai/posts/2024-05-17-more-better.html",
+      "label": ""
+    },
+    {
+      "url": "https://www.answer.ai/posts/2024-04-29-sb1047.html",
+      "label": ""
+    },
+    {
+      "url": "https://www.answer.ai/posts/2024-04-26-fsdp-qdora-llama3.html",
+      "label": ""
+    },
+    {
+      "url": "https://www.answer.ai/posts/2024-04-12-tips.html",
+      "label": ""
+    },
+    {
+      "url": "https://www.answer.ai/posts/2024-03-14-fsdp-qlora-deep-dive.html",
+      "label": ""
+    },
+    {
+      "url": "https://www.answer.ai/posts/2024-03-06-fsdp-qlora.html",
+      "label": ""
+    },
+    {
+      "url": "https://www.answer.ai/index.html",
+      "label": "Answer.AI"
+    },
+    {
+      "url": "https://www.answer.ai/index.xml",
+      "label": ""
+    },
+    {
+      "url": "https://twitter.com/answerdotai",
+      "label": ""
+    },
+    {
+      "url": "https://www.answer.ai/index.md",
+      "label": "CommonMark"
+    }
+  ],
+  "body_sha256": "16a50c53a321ec69dd998e9f940adaead13b1207a239e610ce112579b317b5eb",
+  "status": 200,
+  "origin": "frozen-corpus",
+  "retrieved_at": "2026-09-24T22:49:19.359919+00:00"
+}

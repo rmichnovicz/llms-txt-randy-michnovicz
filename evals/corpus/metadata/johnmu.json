@@ -1,0 +1,17 @@
+{
+  "id": "johnmu",
+  "url": "https://johnmu.com/llms.txt",
+  "category": "publisher-personal",
+  "kind": "actual",
+  "split": "development",
+  "discovery": "https://llmstxt.site/",
+  "retrieved_at": "2026-09-24T22:46:25.108903+00:00",
+  "accepted": true,
+  "status": 200,
+  "final_url": "https://johnmu.com/.well-known/cats.txt",
+  "content_type": "text/plain; charset=utf-8",
+  "sha256": "4eebc46816310ce29e98cf00a2bd2f9c9217210e0cfd3a81b70956796752aa2a",
+  "bytes": 5816,
+  "decode_replacements": 0,
+  "raw_path": "raw/johnmu.txt"
+}

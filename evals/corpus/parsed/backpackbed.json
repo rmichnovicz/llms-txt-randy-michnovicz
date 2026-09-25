@@ -1,0 +1,86 @@
+{
+  "parser_version": "corpus-v2",
+  "headings": [
+    {
+      "level": 1,
+      "text": "Backpack Bed for Homeless - Australia",
+      "line": 1
+    },
+    {
+      "level": 2,
+      "text": "Main Sections:",
+      "line": 7
+    },
+    {
+      "level": 2,
+      "text": "Key Highlights",
+      "line": 40
+    },
+    {
+      "level": 3,
+      "text": "Donation Impact:",
+      "line": 42
+    },
+    {
+      "level": 3,
+      "text": "Product Features:",
+      "line": 47
+    },
+    {
+      "level": 3,
+      "text": "Community Impact:",
+      "line": 52
+    },
+    {
+      "level": 3,
+      "text": "Current Need:",
+      "line": 57
+    },
+    {
+      "level": 3,
+      "text": "How to Help:",
+      "line": 61
+    },
+    {
+      "level": 3,
+      "text": "Success Stories:",
+      "line": 64
+    },
+    {
+      "level": 3,
+      "text": "Contact Information:",
+      "line": 67
+    },
+    {
+      "level": 2,
+      "text": "Additional Information:",
+      "line": 71
+    }
+  ],
+  "links": [
+    {
+      "label": "https://backpackbed.org/au/",
+      "url": "https://backpackbed.org/au/",
+      "canonical": "https://backpackbed.org/au/",
+      "raw_url": "https://backpackbed.org/au/",
+      "description": "",
+      "line": 5
+    }
+  ],
+  "bare_links": [],
+  "metrics": {
+    "bytes": 2188,
+    "words": 339,
+    "lines": 74,
+    "approx_tokens_chars_div_4": 547,
+    "h1_count": 1,
+    "link_count": 1,
+    "bare_url_count": 0,
+    "described_links": 0,
+    "unique_destinations": 1,
+    "markdown_destinations": 0
+  },
+  "flags": [
+    "sparse-link-descriptions"
+  ]
+}

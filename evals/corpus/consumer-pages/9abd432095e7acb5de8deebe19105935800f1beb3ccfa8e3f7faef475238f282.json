@@ -1,0 +1,343 @@
+{
+  "url": "https://trailofbits.com/",
+  "title": "Trail of Bits: Security Research, Audits, and Tools",
+  "content": "A field report on rebuilding our own practice around AI tooling: what actually moved the needle, what broke, and where the real security boundaries turned out to be.\nDan Guido · 2026\nEverything we publish lives here: security reviews, research, open-source tools, and talks. Browse by domain, topic, or format, and follow the threads into your own problem.",
+  "links": [
+    {
+      "url": "https://trailofbits.com/services/",
+      "label": "Services"
+    },
+    {
+      "url": "https://trailofbits.com/library/",
+      "label": "Explore"
+    },
+    {
+      "url": "https://blog.trailofbits.com/",
+      "label": "Blog     (opens in a new tab)"
+    },
+    {
+      "url": "https://trailofbits.com/library/how-we-made-trail-of-bits-ai-native-so-far/",
+      "label": "How we made Trail of Bits AI-Native (so far)"
+    },
+    {
+      "url": "https://trailofbits.com/services/ai-ml/",
+      "label": "const E=typeof window<\"u\"&&window.matchMedia(\"(prefers-reduced-motion: reduce)\").matches,A=90,M=110,x=280,h=31,p=new WeakMap;function I(r){const n=Number(r.data"
+    },
+    {
+      "url": "https://trailofbits.com/services/blockchain/",
+      "label": "Blockchain    \nLearn More"
+    },
+    {
+      "url": "https://trailofbits.com/services/cryptography/",
+      "label": "Cryptography    \nLearn More"
+    },
+    {
+      "url": "https://trailofbits.com/services/application-security/",
+      "label": "Application Security    \nLearn More"
+    },
+    {
+      "url": "https://trailofbits.com/services/security-engineering/",
+      "label": "Security Engineering    \nLearn More"
+    },
+    {
+      "url": "https://trailofbits.com/services/research-and-development/",
+      "label": "Research & Development    \nLearn More"
+    },
+    {
+      "url": "https://github.com/trailofbits/skills/tree/main/plugins/let-fate-decide/skills/let-fate-decide",
+      "label": "2026-05    let-fate-decide       Skill"
+    },
+    {
+      "url": "https://trailofbits.com/library/franklin-templeton-benjiswap-differential-review/",
+      "label": "2026-04    Franklin Templeton BenjiSwap Differential Review    Franklin Templeton     Audit Blockchain"
+    },
+    {
+      "url": "https://trailofbits.com/library/risky-biz/",
+      "label": "2026-02    Risky Biz       Podcast"
+    },
+    {
+      "url": "https://trailofbits.com/library/top-tee-bugs-you-should-fix-before-your-audit/",
+      "label": "2025-12    Top TEE bugs you should fix before your audit       Webinar"
+    },
+    {
+      "url": "https://trailofbits.com/library/detecting-implicit-conversions-in-openvpn2-using-codeql/",
+      "label": "2025-09    Detecting Implicit Conversions in OpenVPN2 Using CodeQL       Paper"
+    },
+    {
+      "url": "https://trailofbits.com/library/buttercup-the-future-of-trail-of-bits-solution-to-darpa-s-ai-cyber-cha/",
+      "label": "2025    Buttercup: The Future of Trail of Bits' Solution to DARPA's AI Cyber Challenge    Trent Brunson     Talk Systems"
+    },
+    {
+      "url": "https://trailofbits.com/library/denial-of-service-in-protobuf-python/",
+      "label": "2025    Denial of Service in protobuf-python    protobuf-python     Disclosure"
+    },
+    {
+      "url": "https://trailofbits.com/library/a-broad-comparative-evaluation-of-software-debloating-tools/",
+      "label": "2024    A Broad Comparative Evaluation of Software Debloating Tools       Paper"
+    },
+    {
+      "url": "https://trailofbits.com/library/?q=Smart+Contracts",
+      "label": "Smart Contracts"
+    },
+    {
+      "url": "https://trailofbits.com/library/?q=zk",
+      "label": "Zero Knowledge"
+    },
+    {
+      "url": "https://trailofbits.com/library/?q=Fuzzing",
+      "label": "Fuzzing"
+    },
+    {
+      "url": "https://trailofbits.com/library/?q=Risk+Assessment",
+      "label": "Risk Assessment"
+    },
+    {
+      "url": "https://trailofbits.com/library/?q=formal",
+      "label": "Formal Methods"
+    },
+    {
+      "url": "https://trailofbits.com/library/?q=Static+Analysis",
+      "label": "Static Analysis"
+    },
+    {
+      "url": "https://trailofbits.com/library/?q=Compilers",
+      "label": "Compilers"
+    },
+    {
+      "url": "https://trailofbits.com/library/?q=Protocol+Security",
+      "label": "Protocol Security"
+    },
+    {
+      "url": "https://trailofbits.com/library/?q=binary",
+      "label": "Reverse Engineering"
+    },
+    {
+      "url": "https://trailofbits.com/library/?q=Supply+Chain",
+      "label": "Supply Chain"
+    },
+    {
+      "url": "https://trailofbits.com/library/?q=ai%2Fml",
+      "label": "Machine Learning"
+    },
+    {
+      "url": "https://trailofbits.com/library/?q=memory",
+      "label": "Memory Safety"
+    },
+    {
+      "url": "https://trailofbits.com/reports/",
+      "label": "View All"
+    },
+    {
+      "url": "https://trailofbits.com/library/kiln-lagoon-vault-diff-review/",
+      "label": "2026-05   Kiln Lagoon Vault Diff Review"
+    },
+    {
+      "url": "https://trailofbits.com/library/ripple-labs-xrp-ledger-confidential-transfer/",
+      "label": "2026-04   Ripple Labs XRP Ledger Confidential Transfer"
+    },
+    {
+      "url": "https://trailofbits.com/library/pypi-warehouse/",
+      "label": "2026-04   PyPI Warehouse"
+    },
+    {
+      "url": "https://trailofbits.com/talks/",
+      "label": "View All"
+    },
+    {
+      "url": "https://trailofbits.com/library/finding-hidden-overflows-in-go-fuzzing-beyond-the-compiler-s-limits/",
+      "label": "2026-02   Finding Hidden Overflows in Go: Fuzzing Beyond the Compiler's Limits"
+    },
+    {
+      "url": "https://trailofbits.com/library/buttercup-autonomously-finding-and-fixing-bugs-at-scale-in-open-source/",
+      "label": "2025   Buttercup: Autonomously Finding and Fixing Bugs at Scale in Open-Source Software"
+    },
+    {
+      "url": "https://github.com/crytic/slither",
+      "label": "Slither    Static analysis for Solidity and Vyper with built-in detectors and an API for custom checks.           6.3k           1.1k         Python"
+    },
+    {
+      "url": "https://trailofbits.com/",
+      "label": "Skip to main content"
+    },
+    {
+      "url": "https://trailofbits.com/patch-the-planet/",
+      "label": "New         Patch the Planet    (New)"
+    },
+    {
+      "url": "https://trailofbits.com/team/",
+      "label": "Company"
+    },
+    {
+      "url": "https://trailofbits.com/tools/",
+      "label": "Open Source"
+    },
+    {
+      "url": "https://trailofbits.com/contact/",
+      "label": "Get in Touch"
+    },
+    {
+      "url": "https://trailofbits.com/library/?kind=audit-report",
+      "label": "620     Audits"
+    },
+    {
+      "url": "https://github.com/trailofbits",
+      "label": "200+     Open-source repos"
+    },
+    {
+      "url": "https://trailofbits.com/privacy-policy/",
+      "label": "Privacy Policy"
+    },
+    {
+      "url": "https://trailofbits.com/vulnerability-disclosure-policy/",
+      "label": "Vulnerability Disclosure"
+    },
+    {
+      "url": "https://trailofbits.com/services/software-assurance/",
+      "label": "Software Assurance       Multi-disciplinary security reviews across the whole SDLC, with a team sized to your threat model rather than a fixed template."
+    },
+    {
+      "url": "https://x.com/trailofbits",
+      "label": ""
+    },
+    {
+      "url": "https://www.linkedin.com/company/trail-of-bits",
+      "label": ""
+    },
+    {
+      "url": "https://slack.empirehacking.nyc/",
+      "label": ""
+    },
+    {
+      "url": "https://trailofbits.com/about/",
+      "label": "About    Who we are, what we believe, and how we got here."
+    },
+    {
+      "url": "https://trailofbits.com/careers/",
+      "label": "Careers    Open roles and what it's like to work here."
+    },
+    {
+      "url": "https://trailofbits.com/mcp/",
+      "label": "Guide         MCP Security    Securing the Model Context Protocol: the mcp-context-protector wrapper, disclosed attack classes, and community defenses.   AI/ML "
+    },
+    {
+      "url": "https://trailofbits.com/guides/testing-handbook/",
+      "label": "Handbook         Testing Handbook    Guides for configuring and automating static and dynamic analysis tools.   Application Security"
+    },
+    {
+      "url": "https://trailofbits.com/guides/zkdocs/",
+      "label": "Handbook         ZKDocs    Interactive documentation on zero-knowledge proof systems.   Cryptography"
+    },
+    {
+      "url": "https://trailofbits.com/guides/building-secure-smart-contracts/",
+      "label": "Handbook         Building Secure Smart Contracts    Best practices for developing secure smart contracts.   Blockchain"
+    },
+    {
+      "url": "https://trailofbits.com/guides/ctf-field-guide/",
+      "label": "Guide         CTF Field Guide    Field guide to winning at Capture The Flag competitions.   Education"
+    },
+    {
+      "url": "https://trailofbits.com/guides/ruby-security-field-guide/",
+      "label": "Guide         Ruby Security Field Guide    Practical Ruby security guide.   Application Security"
+    },
+    {
+      "url": "https://trailofbits.com/library/gensyn-buyback-and-burn-vault/",
+      "label": "PDF   2026       Trail of Bits   Security Review       Gensyn Buyback-and-Burn Vault   Ethereum/EVM           2026-04   Gensyn Buyback-and-Burn Vault   Blockcha"
+    },
+    {
+      "url": "https://trailofbits.com/library/gensyn-bridged-token/",
+      "label": "PDF   2026       Trail of Bits   Security Review       Gensyn Bridged Token   Ethereum/EVM           2026-04   Gensyn Bridged Token   Blockchain"
+    },
+    {
+      "url": "https://trailofbits.com/library/gensyn-delphi-dynamic-paramutuel-markets/",
+      "label": "PDF   2026       Trail of Bits   Security Review       Gensyn Delphi Dynamic Paramutuel Markets   Ethereum/EVM           2026-04   Gensyn Delphi Dynamic Paramut"
+    },
+    {
+      "url": "https://trailofbits.com/library/open-home-foundation-securetar-v3/",
+      "label": "PDF   2026       Trail of Bits   Security Review       Open Home Foundation SecureTar v3   Cryptography Reviews           2026-03   Open Home Foundation SecureT"
+    },
+    {
+      "url": "https://trailofbits.com/library/anza-bls-signatures/",
+      "label": "PDF   2026       Trail of Bits   Security Review       Anza BLS Signatures   Cryptography Reviews           2026-03   Anza BLS Signatures   Crypto"
+    },
+    {
+      "url": "https://trailofbits.com/library/buttercup-and-darpa-s-ai-cyber-challenge-ringzer0/",
+      "label": "Slides       2025 · Systems   Buttercup and DARPA's AI Cyber Challenge, Ringzer0   Henrik Brodin, Ronald Eytchison"
+    },
+    {
+      "url": "https://trailofbits.com/library/our-experience-competing-in-the-ai-cyber-challenge/",
+      "label": "Slides       2025 · Systems   Our experience competing in the AI Cyber Challenge   Michael Brown et al."
+    },
+    {
+      "url": "https://trailofbits.com/library/mutation-testing-with-slither-a-new-way-to-find-high-severity-issues/",
+      "label": "Talk       2025 · Blockchain   Mutation Testing with Slither: A New Way to Find High-Severity Issues   Guillermo Larregay"
+    },
+    {
+      "url": "https://trailofbits.com/library/slither-s-model-context-protocol-giving-llms-ground-truth-from-static/",
+      "label": "Slides       2025 · Blockchain   Slither's Model Context Protocol: Giving LLMs Ground Truth from Static Analysis   Ben Samuels"
+    },
+    {
+      "url": "https://trailofbits.com/skills/let-fate-decide/",
+      "label": "Skill       let-fate-decide    Let Fate Decide · 2026-05"
+    },
+    {
+      "url": "https://trailofbits.com/skills/solana-vulnerability-scanner/",
+      "label": "Skill       solana-vulnerability-scanner    Building Secure Contracts · 2026-05"
+    },
+    {
+      "url": "https://trailofbits.com/skills/c-review/",
+      "label": "Skill       c-review    C Review · 2026-05"
+    },
+    {
+      "url": "https://trailofbits.com/skills/audit-augmentation/",
+      "label": "Skill       audit-augmentation    Trailmark · 2026-04"
+    },
+    {
+      "url": "https://trailofbits.com/skills/devcontainer-setup/",
+      "label": "Skill       devcontainer-setup    Devcontainer Setup · 2026-04"
+    },
+    {
+      "url": "https://trailofbits.com/skills/diagramming-code/",
+      "label": "Skill       diagramming-code    Trailmark · 2026-04"
+    },
+    {
+      "url": "https://trailofbits.com/skills/differential-review/",
+      "label": "Skill       differential-review    Differential Review · 2026-04"
+    },
+    {
+      "url": "https://trailofbits.com/skills/genotoxic/",
+      "label": "Skill       genotoxic    Trailmark · 2026-04"
+    },
+    {
+      "url": "https://trailofbits.com/skills/graph-evolution/",
+      "label": "Skill       graph-evolution    Trailmark · 2026-04"
+    },
+    {
+      "url": "https://trailofbits.com/skills/sharp-edges/",
+      "label": "Skill       sharp-edges    Sharp Edges · 2026-04"
+    },
+    {
+      "url": "https://trailofbits.com/skills/trailmark/",
+      "label": "Skill       trailmark    Trailmark · 2026-04"
+    },
+    {
+      "url": "https://trailofbits.com/skills/trailmark-structural/",
+      "label": "Skill       trailmark-structural    Trailmark · 2026-04"
+    },
+    {
+      "url": "https://trailofbits.com/skills/trailmark-summary/",
+      "label": "Skill       trailmark-summary    Trailmark · 2026-04"
+    },
+    {
+      "url": "https://trailofbits.com/skills/agentic-actions-auditor/",
+      "label": "Skill       agentic-actions-auditor    Agentic Actions Auditor · 2026-04"
+    },
+    {
+      "url": "https://trailofbits.com/guides/",
+      "label": "Browse all guides & handbooks   →"
+    }
+  ],
+  "body_sha256": "da1ab7c4f4fa50e7943cc66357f6246f2535ed48858f3a1342834c93b4be0924",
+  "status": 200,
+  "origin": "frozen-corpus",
+  "retrieved_at": "2026-09-24T22:49:20.113456+00:00"
+}

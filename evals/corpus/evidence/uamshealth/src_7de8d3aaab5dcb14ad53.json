@@ -1,0 +1,16 @@
+{
+  "url": "https://uamshealth.com/provider/",
+  "retrieved_at": "2026-09-24T22:49:17.653957+00:00",
+  "source": {
+    "id": "src_7de8d3aaab5dcb14ad53",
+    "url": "https://uamshealth.com/provider/",
+    "title": "Providers | UAMS Health",
+    "description": "Dr. Eddington sees patients in the Walker Family Clinic. She also treats patients in the Interventional Psychiatry program undergoing electroconvulsive therapy.",
+    "content": "UAMS Health Providers\nFilters\nList of Providers\nMarielie Heidi Agesilas, M.D. Family Medicine Physician\nMarielie “Heidi” Agesilas, M.D., is a member of the UAMS Family Medicine Residency Program’s Class of 2014. Originally from Puerto Rico, Agesilas joined the UAMS Northwest Regional Campus faculty upon …\nFull Profile\nSalma Ahi, M.D. Endocrinologist\nPatient ratings are not available for this provider.\nDr. Salma Ahi is an endocrinologist specializing in endocrinology, diabetes, and metabolism, with a focus on thyroid disorders, adrenal and pituitary diseases, as well as general endocrine conditions. She completed her …\nFull Profile\nSubhi J. Al'Aref, M.D. Interventional Cardiologist\nDr. Al’Aref’s focus includes clinical, educational and research goals. His interests include combining interventional and imaging cardiology, both for clinical and research purposes. He is dedicated to translational research, which …\nFull Profile",
+    "markdownUrl": null
+  },
+  "status": 200,
+  "final_url": "https://uamshealth.com/provider/",
+  "sha256": "abefaba7ec9bd1f547ef18d99ef75755816f63d8f92620813eba2087ab5d89a6",
+  "content_type": "text/html; charset=UTF-8"
+}

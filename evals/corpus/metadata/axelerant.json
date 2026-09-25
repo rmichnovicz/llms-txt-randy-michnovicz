@@ -1,0 +1,17 @@
+{
+  "id": "axelerant",
+  "url": "https://www.axelerant.com/llms.txt",
+  "category": "professional-services",
+  "kind": "actual",
+  "split": "development",
+  "discovery": "https://www.axelerant.com/blog/llms-txt-for-universities",
+  "retrieved_at": "2026-09-24T22:46:26.277541+00:00",
+  "accepted": true,
+  "status": 200,
+  "final_url": "https://www.axelerant.com/llms.txt",
+  "content_type": "text/plain; charset=utf-8",
+  "sha256": "c824cbc65d979b5abf9e5fd02aa6d7ecd4476ba686eb5b55ea2ec53101d59863",
+  "bytes": 18660,
+  "decode_replacements": 0,
+  "raw_path": "raw/axelerant.txt"
+}

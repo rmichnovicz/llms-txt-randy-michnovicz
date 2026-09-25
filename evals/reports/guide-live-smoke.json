@@ -1,0 +1,58 @@
+{
+  "/": {
+    "url": "https://tally.so/",
+    "captured_at": "2026-09-25T02:18:47.327695+00:00",
+    "pages": 33,
+    "duration_ms": 40004,
+    "stop_reason": "coverage_plan_finished",
+    "conditional_requests": 2,
+    "cache_hits": 0,
+    "storage_decisions": {
+      "stored with validator": 2,
+      "not stored: Cache-Control private/no-store": 31,
+      "not recorded": 2
+    },
+    "jobs": [
+      {
+        "kind": "generate",
+        "status": "succeeded"
+      },
+      {
+        "kind": "refresh",
+        "status": "succeeded"
+      },
+      {
+        "kind": "generate",
+        "status": "succeeded"
+      },
+      {
+        "kind": "initial_crawl",
+        "status": "succeeded"
+      }
+    ],
+    "has_draft": true
+  },
+  "/help/": {
+    "url": "https://tally.so/help/",
+    "captured_at": "2026-09-25T02:16:57.673606+00:00",
+    "pages": 40,
+    "duration_ms": 53634,
+    "stop_reason": "coverage_plan_finished",
+    "conditional_requests": 0,
+    "cache_hits": 0,
+    "storage_decisions": {
+      "not recorded": 40
+    },
+    "jobs": [
+      {
+        "kind": "generate",
+        "status": "succeeded"
+      },
+      {
+        "kind": "initial_crawl",
+        "status": "succeeded"
+      }
+    ],
+    "has_draft": true
+  }
+}

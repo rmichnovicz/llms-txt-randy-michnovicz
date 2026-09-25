@@ -1,0 +1,16 @@
+# Bay Electric
+
+> Bay Electric provides electrical repairs in Oakland and Berkeley and describes itself as a licensed contractor.
+
+Service is limited to Oakland and Berkeley; San Francisco is excluded.
+
+Appointments are Monday through Friday, 9–5. Emergency callouts are not offered.
+
+## Services and coverage
+
+- [Electrical repairs](<https://local-service-scope.example/home>): Overview of electrical repair services in Oakland and Berkeley.
+- [Service area](<https://local-service-scope.example/area>): Coverage is limited to Oakland and Berkeley; San Francisco is excluded.
+
+## Estimates and appointments
+
+- [Request an estimate](<https://local-service-scope.example/contact>): Appointment hours are Monday through Friday, 9–5; no emergency callouts.

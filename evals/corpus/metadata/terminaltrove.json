@@ -1,0 +1,17 @@
+{
+  "id": "terminaltrove",
+  "url": "https://terminaltrove.com/llms.txt",
+  "category": "directory-travel",
+  "kind": "actual",
+  "split": "holdout",
+  "discovery": "https://llmstxt.site/",
+  "retrieved_at": "2026-09-24T22:46:26.972432+00:00",
+  "accepted": true,
+  "status": 200,
+  "final_url": "https://terminaltrove.com/llms.txt",
+  "content_type": "text/plain; charset=utf-8",
+  "sha256": "3100b14cb1d2ee82bfe346fa70fcd1ed273ef924574866e79956cecab3773564",
+  "bytes": 1691,
+  "decode_replacements": 0,
+  "raw_path": "raw/terminaltrove.txt"
+}

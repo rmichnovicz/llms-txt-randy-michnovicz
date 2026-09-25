@@ -1,0 +1,74 @@
+[
+  {
+    "id": "calibration-1-0--r1",
+    "has_known_defect": false,
+    "dimension": "grounding",
+    "defect": null
+  },
+  {
+    "id": "calibration-1-1--r1",
+    "has_known_defect": true,
+    "dimension": "grounding",
+    "defect": "Unsupported or contradicted summary with an otherwise valid evidence ID"
+  },
+  {
+    "id": "calibration-2-0--r1",
+    "has_known_defect": false,
+    "dimension": "grounding",
+    "defect": null
+  },
+  {
+    "id": "calibration-2-1--r1",
+    "has_known_defect": true,
+    "dimension": "grounding",
+    "defect": "Unsupported or contradicted summary with an otherwise valid evidence ID"
+  },
+  {
+    "id": "calibration-3-0--r1",
+    "has_known_defect": false,
+    "dimension": "grounding",
+    "defect": null
+  },
+  {
+    "id": "calibration-3-1--r1",
+    "has_known_defect": true,
+    "dimension": "grounding",
+    "defect": "Unsupported or contradicted summary with an otherwise valid evidence ID"
+  },
+  {
+    "id": "calibration-4-0--r1",
+    "has_known_defect": false,
+    "dimension": "grounding",
+    "defect": null
+  },
+  {
+    "id": "calibration-4-1--r1",
+    "has_known_defect": true,
+    "dimension": "grounding",
+    "defect": "Unsupported or contradicted summary with an otherwise valid evidence ID"
+  },
+  {
+    "id": "calibration-5-0--r1",
+    "has_known_defect": false,
+    "dimension": "grounding",
+    "defect": null
+  },
+  {
+    "id": "calibration-5-1--r1",
+    "has_known_defect": true,
+    "dimension": "grounding",
+    "defect": "Unsupported or contradicted summary with an otherwise valid evidence ID"
+  },
+  {
+    "id": "calibration-6-0--r1",
+    "has_known_defect": false,
+    "dimension": "grounding",
+    "defect": null
+  },
+  {
+    "id": "calibration-6-1--r1",
+    "has_known_defect": true,
+    "dimension": "grounding",
+    "defect": "Unsupported or contradicted summary with an otherwise valid evidence ID"
+  }
+]

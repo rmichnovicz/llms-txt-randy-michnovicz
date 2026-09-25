@@ -1,0 +1,167 @@
+{
+  "url": "https://docs.transitionzero.org/platform/scenario-builder",
+  "title": "What is Scenario Builder? - TransitionZero",
+  "content": "What can Scenario Builder do ?\n- Analyze energy transition pathways for the power sector\n- Understand optimal capacity and generation mixes within a system\n- Assess the impact of demand, technology, economic, and policy constraints on emissions, price, and cost outcomes\nWhat type of research can Scenario Builder be used for?\nScenario Builder helps answer questions like:\n- What will it cost to decarbonise a country’s electricity grid?\n- What infrastructure investments are needed to meet rising demand?\n- What emissions reductions can we expect from current policies?",
+  "links": [
+    {
+      "url": "https://docs.transitionzero.org/platform/scenario-builder",
+      "label": "Skip to main content"
+    },
+    {
+      "url": "https://youtu.be/jT3NbzG9TdA",
+      "label": "Watch our energy system modelling 101 video."
+    },
+    {
+      "url": "https://docs.transitionzero.org/platform/get-started",
+      "label": "Getting Started"
+    },
+    {
+      "url": "https://twitter.com/transitionzero",
+      "label": "x"
+    },
+    {
+      "url": "https://github.com/transition-zero",
+      "label": "github"
+    },
+    {
+      "url": "https://www.linkedin.com/company/transitionzero",
+      "label": "linkedin"
+    },
+    {
+      "url": "https://www.mintlify.com/",
+      "label": "Powered by This documentation is built and hosted on Mintlify, a developer documentation platform"
+    },
+    {
+      "url": "https://docs.transitionzero.org/llms.txt",
+      "label": "/llms.txt"
+    },
+    {
+      "url": "https://www.transitionzero.org/",
+      "label": "TransitionZero  home page"
+    },
+    {
+      "url": "https://www.transitionzero.org/newsletter",
+      "label": "Newsletter"
+    },
+    {
+      "url": "https://builder.transitionzero.org/",
+      "label": "Platform"
+    },
+    {
+      "url": "https://www.transitionzero.org/about-us",
+      "label": "About Us"
+    },
+    {
+      "url": "https://www.transitionzero.org/case-studies",
+      "label": "Case Studies"
+    },
+    {
+      "url": "https://www.transitionzero.org/contact",
+      "label": "Contact Us"
+    },
+    {
+      "url": "https://docs.transitionzero.org/platform/creating-a-scenario",
+      "label": "Creating a Scenario"
+    },
+    {
+      "url": "https://docs.transitionzero.org/platform/editing-scenarios",
+      "label": "Editing Scenarios"
+    },
+    {
+      "url": "https://docs.transitionzero.org/platform/viewing-results",
+      "label": "Viewing Results"
+    },
+    {
+      "url": "https://docs.transitionzero.org/platform/research-question-catalogue",
+      "label": "Research Question Catalogue"
+    },
+    {
+      "url": "https://docs.transitionzero.org/platform/input-types",
+      "label": "Input Data Types"
+    },
+    {
+      "url": "https://docs.transitionzero.org/platform/technologies",
+      "label": "Technologies"
+    },
+    {
+      "url": "https://docs.transitionzero.org/platform/interconnectors",
+      "label": "Interconnectors"
+    },
+    {
+      "url": "https://docs.transitionzero.org/platform/data-privacy-faqs",
+      "label": "Data Privacy FAQs"
+    },
+    {
+      "url": "https://docs.transitionzero.org/platform/infeasibilities",
+      "label": "Understanding Infeasibilities"
+    },
+    {
+      "url": "https://docs.transitionzero.org/platform/amp-ai-assistant",
+      "label": "AMP AI Assistant"
+    },
+    {
+      "url": "https://docs.transitionzero.org/platform/run-statuses",
+      "label": "Run Statuses"
+    },
+    {
+      "url": "https://docs.transitionzero.org/methodology/model-methodology",
+      "label": "Model methodology"
+    },
+    {
+      "url": "https://docs.transitionzero.org/methodology/model-frameworks",
+      "label": "Model frameworks"
+    },
+    {
+      "url": "https://docs.transitionzero.org/methodology/model-resolution",
+      "label": "Model resolution"
+    },
+    {
+      "url": "https://docs.transitionzero.org/methodology/existing-assets",
+      "label": "Existing assets"
+    },
+    {
+      "url": "https://docs.transitionzero.org/methodology/future-assets",
+      "label": "Future assets"
+    },
+    {
+      "url": "https://docs.transitionzero.org/methodology/techno-economic-inputs",
+      "label": "Techno-economic inputs"
+    },
+    {
+      "url": "https://docs.transitionzero.org/methodology/commodity-prices",
+      "label": "Commodity (fuel) prices"
+    },
+    {
+      "url": "https://docs.transitionzero.org/methodology/financial-inputs",
+      "label": "Financial inputs"
+    },
+    {
+      "url": "https://docs.transitionzero.org/methodology/renewable-potentials",
+      "label": "Renewable energy potentials"
+    },
+    {
+      "url": "https://docs.transitionzero.org/methodology/renewable-profiles",
+      "label": "Renewable energy profiles"
+    },
+    {
+      "url": "https://docs.transitionzero.org/methodology/demand-projections",
+      "label": "Demand"
+    },
+    {
+      "url": "https://docs.transitionzero.org/methodology/demand-profiles",
+      "label": "Demand profiles"
+    },
+    {
+      "url": "https://docs.transitionzero.org/methodology/model-calibration",
+      "label": "Model calibration"
+    },
+    {
+      "url": "https://docs.transitionzero.org/getintouch",
+      "label": "Get in touch with TransitionZero"
+    }
+  ],
+  "body_sha256": "cfc49f44fd427e206b9f7c0e5e8426b93738ce7433e94a7defa5854a058a1907",
+  "status": 200,
+  "origin": "frozen-corpus",
+  "retrieved_at": "2026-09-24T22:49:19.749578+00:00"
+}

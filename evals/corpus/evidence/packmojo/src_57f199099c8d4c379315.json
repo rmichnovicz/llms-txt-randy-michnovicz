@@ -1,0 +1,16 @@
+{
+  "url": "https://packmojo.com/samples/",
+  "retrieved_at": "2026-09-24T22:49:23.541039+00:00",
+  "source": {
+    "id": "src_57f199099c8d4c379315",
+    "url": "https://packmojo.com/samples/",
+    "title": "Packaging Samples | Sample Boxes | PackMojo PackMojo",
+    "description": "Get a sample of your packaging before mass production. Explore the different types of packaging samples available and choose one that meets your needs.",
+    "content": "Packaging Samples\nWe recommend getting a sample of your packaging before placing your first production order. Whether you'd like to test the size of your packaging with your products, or get a visual representation of your artwork printed on a box, we've got you covered. Explore our range of sampling options and choose a sample type that best meets your needs.\nCustom sample options\nGet custom samples to test size, structure, artwork and finishes. Custom samples are reimbursable when ordering at least 500 units.\nSample Recommendations\nNot sure which sample to go with? Here's what we recommend.",
+    "markdownUrl": null
+  },
+  "status": 200,
+  "final_url": "https://packmojo.com/samples/",
+  "sha256": "34100d127af0fa5378f5efd121ef911e9116fd292552c80565e39fad058d045f",
+  "content_type": "text/html; charset=utf-8"
+}

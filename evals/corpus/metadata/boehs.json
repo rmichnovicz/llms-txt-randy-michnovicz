@@ -1,0 +1,17 @@
+{
+  "id": "boehs",
+  "url": "https://boehs.org/llms.txt",
+  "category": "publisher-personal",
+  "kind": "actual",
+  "split": "development",
+  "discovery": "https://llmstxt.site/",
+  "retrieved_at": "2026-09-24T22:46:25.182160+00:00",
+  "accepted": true,
+  "status": 200,
+  "final_url": "https://boehs.org/llms.txt",
+  "content_type": "text/plain; charset=utf-8",
+  "sha256": "ff537f43e8370240355a088b3fc50b6fc75d1b00de907313ccf129451b9f58fc",
+  "bytes": 789,
+  "decode_replacements": 0,
+  "raw_path": "raw/boehs.txt"
+}

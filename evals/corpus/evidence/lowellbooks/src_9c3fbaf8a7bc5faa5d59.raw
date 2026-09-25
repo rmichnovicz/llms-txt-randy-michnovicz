@@ -1,0 +1,2637 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Lowell Books is a boutique online bookstore based in London, offering a curated selection of unique and inspiring books. With a focus on quality and discovery, we connect readers with titles that spark imagination and broaden horizons.">
+
+    <!-- Open Graph tags -->
+    <meta property="og:site_name" content="Lowell Books">
+    <meta property="og:locale" content="en_GB">
+    <meta property="og:title" content="Lowell Books">
+    <meta property="og:description" content="Lowell Books is a boutique online bookstore based in London, offering a curated selection of unique and inspiring books. With a focus on quality and discovery, we connect readers with titles that spark imagination and broaden horizons.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://lowellbooks.com/">
+    <meta property="og:image" content="https://static.lowellbooks.com/img/default_cover.webp">
+    <meta property="og:image:alt" content="Lowell Books">
+    <!-- Google Merchant Center -->
+    <meta name="google-site-verification" content="IYbCRpmy8-EZDBau2qKsj1lepL5l4cwP91Ac3PBIpwM" />
+
+    <title>Lowell Books | Online Bookstore. Buy books, puzzles, board games, gifts</title>
+    
+    <link rel="canonical" href="https://lowellbooks.com/" />
+    <link rel="alternate" hreflang="x-default" href="https://lowellbooks.com/">
+    <link rel="alternate" hreflang="en" href="https://lowellbooks.com/">
+    <link rel="alternate" hreflang="es" href="https://lowellbooks.com/es/">
+    
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"/>
+    <link rel="stylesheet" href="https://static.lowellbooks.com/css/lowell.css?v=5.24.0">
+    <link rel="apple-touch-icon" sizes="180x180" href="https://static.lowellbooks.com/img/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="64x64" href="https://static.lowellbooks.com/img/favicon/favicon-64x64.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="https://static.lowellbooks.com/img/favicon/favicon-16x16.png">
+    <link rel="manifest" href="https://static.lowellbooks.com/site.webmanifest">
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-D8P2DYV55E" data-cookie-consent="tracking"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'G-D8P2DYV55E');
+    </script>
+    <!-- Google tag (gtag.js) -->
+    <!-- Meta Pixel Code -->
+    <script>
+        !function(f,b,e,v,n,t,s)
+        {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+            n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+            if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+            n.queue=[];t=b.createElement(e);t.async=!0;
+            t.src=v;s=b.getElementsByTagName(e)[0];
+            s.parentNode.insertBefore(t,s)}(window, document,'script',
+            'https://connect.facebook.net/en_GB/fbevents.js');
+        fbq('init', '991421409487165');
+        fbq('track', 'PageView');
+    </script>
+    <noscript><img height="1" width="1" style="display:none"
+                   src="https://www.facebook.com/tr?id=991421409487165&ev=PageView&noscript=1"
+    /></noscript>
+    <!-- End Meta Pixel Code -->
+    <!-- TrustBox script -->
+    <script type="text/javascript" src="//widget.trustpilot.com/bootstrap/v5/tp.widget.bootstrap.min.js" async></script>
+    <!-- End TrustBox script -->
+    <script type="application/ld+json">
+        {
+            "@context": "https://schema.org",
+            "@type": "Organization",
+            "name": "Lowell Books LTD",
+            "url": "https://lowellbooks.com",
+            "logo": "https://lowellbooks.com/static/img/lowellbooks_logo_horizontal.svg",
+            "address": {
+            "@type": "PostalAddress",
+                "addressLocality": "London",
+                "addressCountry": "United Kingdom"
+        },
+            "contactPoint": {
+            "@type": "ContactPoint",
+                "telephone": "+44 7551 339174",
+                "contactType": "Customer Service",
+                "email": "hello@lowellbooks.com"
+        },
+            "sameAs": [
+            "https://www.instagram.com/lowell.books",
+            "https://www.facebook.com/lowellbooks",
+            "https://x.com/lowellbooks",
+            "https://tiktok.com/@lowellbooks",
+            "https://www.threads.net/@lowell.books"
+        ],
+            "description": "Online Boutique BookStore",
+            "foundingDate": "2024",
+            "currenciesAccepted": "GBP",
+            "paymentAccepted": "Credit Card, Stripe, PayPal",
+            "priceRange": "$",
+            "makesOffer": {
+            "@type": "OfferCatalog",
+                "name": "Books",
+                "itemListElement": [
+                {
+                    "@type": "Offer",
+                    "itemOffered": {
+                        "@type": "Product",
+                        "name": "Books"
+                    }
+                }
+            ]
+        }
+    }
+    </script>
+    <meta name="google-site-verification" content="YksfPun0w694nqz6vaYL-G7JwToYyABziP9lWbfhJf8" />
+</head>
+<body>
+<!-- Facebook SDK -->
+<div id="fb-root"></div>
+<script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v19.0" nonce="random123"></script>
+<!-- End Facebook SDK -->
+
+<header> 
+<nav class="navbar navbar-expand-lg navbar-dark sticky-top">
+    <div class="container">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <a class="navbar-brand" href="/">
+            <img src="https://static.lowellbooks.com/img/lowellbooks_logo_horizontal.webp" width="159" height="40" alt="Lowell Books">
+        </a>
+
+        <!-- Search form always visible -->
+        <form class="d-flex flex-grow-1 mx-4" method="get" action="/search/">
+            <input type="hidden" name="csrfmiddlewaretoken" value="ZBkXkVa6vMYUs7RYIM579bcG8LqvAkcYue8K6nlLQWJ7awVxzmzqpRKaeVRoIUGt">
+            <input type="search" name="q" id="q" value="" placeholder="Search by Title, Author, keyword, ISBN" aria-label="Search" class="form-control me-2">
+            <button type="submit" class="btn btn-outline-light">Search</button>
+        </form>
+
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item dropdown">
+                    <a href="#" class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        <img src="https://flagicons.lipis.dev/flags/4x3/gb.svg" alt="English" title="English" width="24">
+                    </a>
+                    <ul class="dropdown-menu">
+                        <li><a href="/" class="dropdown-item"><img src="https://flagicons.lipis.dev/flags/4x3/gb.svg" alt="English" title="English" width="24"> English</a></li>
+                        <li><a href="/es" class="dropdown-item"><img src="https://flagicons.lipis.dev/flags/4x3/es.svg" alt="Español" title="Español" width="24"> Spanish</a></li>
+                    </ul>
+                </li>
+                
+                <li class="nav-item">
+                    <a class="nav-link" href="/register" title="Account">Join</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/login">Sign In</a>
+                </li>
+                
+            </ul>
+
+            <!-- Mobile categories menu -->
+            <ul class="navbar-nav d-lg-none">
+                
+                <li class="nav-item">
+                    
+                    <a class="nav-link" href="/category/bestseller">Bestseller</a>
+                    
+                </li>
+                
+                <li class="nav-item">
+                    
+                    <a class="nav-link" href="/category/romance">Romance</a>
+                    
+                </li>
+                
+                <li class="nav-item">
+                    
+                    <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown" role="button" aria-expanded="false">
+                        Non-Book
+                    </a>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="/category/non-book">All Non-Book</a></li>
+                        
+                        <li>
+                            <a class="dropdown-item" href="/category/non-book/notebooks">Notebooks</a>
+                        </li>
+                        
+                        <li>
+                            <a class="dropdown-item" href="/category/non-book/toys">Toys</a>
+                        </li>
+                        
+                        <li>
+                            <a class="dropdown-item" href="/category/non-book/board-games-puzzles">Board Games / Puzzles</a>
+                        </li>
+                        
+                        <li>
+                            <a class="dropdown-item" href="/category/non-book/gifts">Gifts</a>
+                        </li>
+                        
+                        <li>
+                            <a class="dropdown-item" href="/category/non-book/backpacks">Backpacks</a>
+                        </li>
+                        
+                        <li>
+                            <a class="dropdown-item" href="/category/non-book/bookmarks">Bookmarks</a>
+                        </li>
+                        
+                        <li>
+                            <a class="dropdown-item" href="/category/non-book/mugs">Mugs</a>
+                        </li>
+                        
+                        <li>
+                            <a class="dropdown-item" href="/category/non-book/journal">Journal</a>
+                        </li>
+                        
+                        <li>
+                            <a class="dropdown-item" href="/category/non-book/glasses-case">Glasses case</a>
+                        </li>
+                        
+                        <li>
+                            <a class="dropdown-item" href="/category/non-book/candles">Candles</a>
+                        </li>
+                        
+                        <li>
+                            <a class="dropdown-item" href="/category/non-book/calendars">Calendars</a>
+                        </li>
+                        
+                    </ul>
+                    
+                </li>
+                
+                <li class="nav-item">
+                    
+                    <a class="nav-link" href="/category/cooking">Cooking</a>
+                    
+                </li>
+                
+                <li class="nav-item">
+                    
+                    <a class="nav-link" href="/category/young-adult">Young Adult</a>
+                    
+                </li>
+                
+                <li class="nav-item">
+                    
+                    <a class="nav-link" href="/category/business">Business</a>
+                    
+                </li>
+                
+                <li class="nav-item">
+                    
+                    <a class="nav-link" href="/category/crime">Crime</a>
+                    
+                </li>
+                
+                <li class="nav-item">
+                    
+                    <a class="nav-link" href="/category/manga">Manga</a>
+                    
+                </li>
+                
+                <li class="nav-item">
+                    
+                    <a class="nav-link" href="/category/mystery">Mystery</a>
+                    
+                </li>
+                
+                <li class="nav-item">
+                    
+                    <a class="nav-link" href="/category/technology">Technology</a>
+                    
+                </li>
+                
+                <li class="nav-item">
+                    
+                    <a class="nav-link" href="/category/education">Education</a>
+                    
+                </li>
+                
+                <li class="nav-item">
+                    
+                    <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown" role="button" aria-expanded="false">
+                        Fiction
+                    </a>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="/category/fiction">All Fiction</a></li>
+                        
+                        <li>
+                            <a class="dropdown-item" href="/category/fiction/classics">Classics</a>
+                        </li>
+                        
+                        <li>
+                            <a class="dropdown-item" href="/category/fiction/romance">Romance</a>
+                        </li>
+                        
+                    </ul>
+                    
+                </li>
+                
+                <li class="nav-item">
+                    
+                    <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown" role="button" aria-expanded="false">
+                        Children
+                    </a>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="/category/children">All Children</a></li>
+                        
+                        <li>
+                            <a class="dropdown-item" href="/category/children/ages-9-12">Ages 9-12</a>
+                        </li>
+                        
+                        <li>
+                            <a class="dropdown-item" href="/category/children/ages-5-8">Ages 5-8</a>
+                        </li>
+                        
+                        <li>
+                            <a class="dropdown-item" href="/category/children/baby-toddler-pre-school">Baby, Toddler &amp; Pre-School</a>
+                        </li>
+                        
+                        <li>
+                            <a class="dropdown-item" href="/category/children/picture-books">Picture books</a>
+                        </li>
+                        
+                        <li>
+                            <a class="dropdown-item" href="/category/children/children-classics">Children Classics</a>
+                        </li>
+                        
+                        <li>
+                            <a class="dropdown-item" href="/category/children/children-education">Children Education</a>
+                        </li>
+                        
+                    </ul>
+                    
+                </li>
+                
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<!-- Desktop categories menu remains unchanged -->
+<nav class="navbar navbar-expand-lg navbar-light justify-content-center d-none d-lg-flex">
+    <ul class="nav">
+        
+        <li class="nav-item ">
+            <a href="/category/bestseller"
+               class="nav-link "
+               
+            >Bestseller</a>
+            
+        </li>
+        
+        <li class="nav-item ">
+            <a href="/category/romance"
+               class="nav-link "
+               
+            >Romance</a>
+            
+        </li>
+        
+        <li class="nav-item dropdown">
+            <a href="/category/non-book"
+               class="nav-link dropdown-toggle"
+               
+               data-bs-toggle="dropdown"
+               
+            >Non-Book</a>
+            
+            <ul class="dropdown-menu text-small">
+                
+                <li>
+                    <a href="/category/non-book/notebooks" class="dropdown-item">Notebooks</a>
+                </li>
+                
+                <li>
+                    <a href="/category/non-book/toys" class="dropdown-item">Toys</a>
+                </li>
+                
+                <li>
+                    <a href="/category/non-book/board-games-puzzles" class="dropdown-item">Board Games / Puzzles</a>
+                </li>
+                
+                <li>
+                    <a href="/category/non-book/gifts" class="dropdown-item">Gifts</a>
+                </li>
+                
+                <li>
+                    <a href="/category/non-book/backpacks" class="dropdown-item">Backpacks</a>
+                </li>
+                
+                <li>
+                    <a href="/category/non-book/bookmarks" class="dropdown-item">Bookmarks</a>
+                </li>
+                
+                <li>
+                    <a href="/category/non-book/mugs" class="dropdown-item">Mugs</a>
+                </li>
+                
+                <li>
+                    <a href="/category/non-book/journal" class="dropdown-item">Journal</a>
+                </li>
+                
+                <li>
+                    <a href="/category/non-book/glasses-case" class="dropdown-item">Glasses case</a>
+                </li>
+                
+                <li>
+                    <a href="/category/non-book/candles" class="dropdown-item">Candles</a>
+                </li>
+                
+                <li>
+                    <a href="/category/non-book/calendars" class="dropdown-item">Calendars</a>
+                </li>
+                
+            </ul>
+            
+        </li>
+        
+        <li class="nav-item ">
+            <a href="/category/cooking"
+               class="nav-link "
+               
+            >Cooking</a>
+            
+        </li>
+        
+        <li class="nav-item ">
+            <a href="/category/young-adult"
+               class="nav-link "
+               
+            >Young Adult</a>
+            
+        </li>
+        
+        <li class="nav-item ">
+            <a href="/category/business"
+               class="nav-link "
+               
+            >Business</a>
+            
+        </li>
+        
+        <li class="nav-item ">
+            <a href="/category/crime"
+               class="nav-link "
+               
+            >Crime</a>
+            
+        </li>
+        
+        <li class="nav-item ">
+            <a href="/category/manga"
+               class="nav-link "
+               
+            >Manga</a>
+            
+        </li>
+        
+        <li class="nav-item ">
+            <a href="/category/mystery"
+               class="nav-link "
+               
+            >Mystery</a>
+            
+        </li>
+        
+        <li class="nav-item ">
+            <a href="/category/technology"
+               class="nav-link "
+               
+            >Technology</a>
+            
+        </li>
+        
+        <li class="nav-item ">
+            <a href="/category/education"
+               class="nav-link "
+               
+            >Education</a>
+            
+        </li>
+        
+        <li class="nav-item dropdown">
+            <a href="/category/fiction"
+               class="nav-link dropdown-toggle"
+               
+               data-bs-toggle="dropdown"
+               
+            >Fiction</a>
+            
+            <ul class="dropdown-menu text-small">
+                
+                <li>
+                    <a href="/category/fiction/classics" class="dropdown-item">Classics</a>
+                </li>
+                
+                <li>
+                    <a href="/category/fiction/romance" class="dropdown-item">Romance</a>
+                </li>
+                
+            </ul>
+            
+        </li>
+        
+        <li class="nav-item dropdown">
+            <a href="/category/children"
+               class="nav-link dropdown-toggle"
+               
+               data-bs-toggle="dropdown"
+               
+            >Children</a>
+            
+            <ul class="dropdown-menu text-small">
+                
+                <li>
+                    <a href="/category/children/ages-9-12" class="dropdown-item">Ages 9-12</a>
+                </li>
+                
+                <li>
+                    <a href="/category/children/ages-5-8" class="dropdown-item">Ages 5-8</a>
+                </li>
+                
+                <li>
+                    <a href="/category/children/baby-toddler-pre-school" class="dropdown-item">Baby, Toddler &amp; Pre-School</a>
+                </li>
+                
+                <li>
+                    <a href="/category/children/picture-books" class="dropdown-item">Picture books</a>
+                </li>
+                
+                <li>
+                    <a href="/category/children/children-classics" class="dropdown-item">Children Classics</a>
+                </li>
+                
+                <li>
+                    <a href="/category/children/children-education" class="dropdown-item">Children Education</a>
+                </li>
+                
+            </ul>
+            
+        </li>
+        
+    </ul>
+</nav>
+
+<nav class="navbar-expand-lg navbar-light navbar-ribbon justify-content-center text-center scrolling-text">
+    <p>Enjoy FREE UK delivery on purchases over £25</p>
+</nav>
+</header>
+
+
+<!-- Add response messages here -->
+
+
+<main>
+    
+
+<!-- Carousel -->
+<div id="HomeCarousel" class="carousel slide" data-bs-ride="carousel" data-bs-interval="5000">
+  <div class="carousel-inner">
+    <!-- item -->
+    <!--
+     <div class="carousel-item">
+      <a href="/category/christmas">
+          <img src="https://static.lowellbooks.com/img/banner/home/christmas_specials_banner_1400x469.webp" class="d-block img-fluid mx-auto" alt="Christmas Specials">
+      </a>
+    </div>
+    -->
+    <!-- /item -->
+    <!-- item -->
+    <div class="carousel-item active">
+      <a href="https://libro.fm?bookstore=lowellbooks" target="_blank" rel="noopener">
+          <img src="https://static.lowellbooks.com/img/banner/home/audiobooks_libro_fm1500x400.webp" class="d-block img-fluid mx-auto" alt="Get two free audiobooks!">
+      </a>
+    </div>
+    <!-- /item -->
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#HomeCarousel" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#HomeCarousel" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+<!-- Carousel -->
+<main class="container">
+
+    <div class="row">
+       <div class="col">
+           <h2 class="h4">Bestsellers</h2>
+
+           <div class="container">
+                <div class="row product-slide">
+                   
+                   <div class="col-6 col-md-4">
+                       
+<div class="card mb-2 product-box book-box">
+    <a href="/book/9781529530841/the-thing-about-giants/">
+        
+            <img src="https://media.lowellbooks.com/covers/thumb/2026/9781529530841.webp" alt="The Thing About Giants" width="154" height="240" loading="lazy" class="card-img-top">
+        
+    </a>
+    <div class="card-body p-2">
+        <h2 class="card-title">
+            <a href="/book/9781529530841/the-thing-about-giants/" class="product-link">The Thing About Giants</a>
+        </h2>
+        
+        <h3 class="card-title product-subtitle">Legend, fantasy and adventure combine in the BIGGEST debut of the year. A fast-paced tale of bravery and unlikely friendship for age 9-12.</h3>
+        
+
+        <div class="text-center text-secondary">
+            <small>Christopher Galvin</small>
+        </div>
+
+        
+        <div class="text-center">
+            <small><strong>HardCover</strong></small>
+        </div>
+        
+
+        
+        <div class="text-center">
+            <small>
+                <span>Published:</span>
+                <span>2026</span>
+            </small>
+        </div>
+        
+    </div><!--./card-body-->
+    <div class="card-footer text-center">
+        
+        <span class="old-price">
+            <small>12.99</small>
+        </span>
+        
+
+        <span class="new-price">£9.50</span>
+
+        
+        <span class="badge text-bg-warning discount">27%</span>
+        
+
+        
+    </div>
+</div><!--./card-->
+
+                   </div>
+                   
+                   <div class="col-6 col-md-4">
+                       
+<div class="card mb-2 product-box book-box">
+    <a href="/book/9780349436418/king-of-gluttony/">
+        
+            <img src="https://media.lowellbooks.com/covers/thumb/2026/9780349436418.webp" alt="King of Gluttony" width="154" height="240" loading="lazy" class="card-img-top">
+        
+    </a>
+    <div class="card-body p-2">
+        <h2 class="card-title">
+            <a href="/book/9780349436418/king-of-gluttony/" class="product-link">King of Gluttony</a>
+        </h2>
+        
+
+        <div class="text-center text-secondary">
+            <small>Ana Huang</small>
+        </div>
+
+        
+        <div class="text-center">
+            <small><strong>Paperback</strong></small>
+        </div>
+        
+
+        
+        <div class="text-center">
+            <small>
+                <span>Published:</span>
+                <span>2026</span>
+            </small>
+        </div>
+        
+    </div><!--./card-body-->
+    <div class="card-footer text-center">
+        
+        <span class="old-price">
+            <small>10.99</small>
+        </span>
+        
+
+        <span class="new-price">£10.14</span>
+
+        
+        <span class="badge text-bg-warning discount">8%</span>
+        
+
+        
+    </div>
+</div><!--./card-->
+
+                   </div>
+                   
+                   <div class="col-6 col-md-4">
+                       
+<div class="card mb-2 product-box book-box">
+    <a href="/book/9781496759146/burn-down-masters-house/">
+        
+            <img src="https://media.lowellbooks.com/covers/thumb/2026/9781496759146.webp" alt="Burn Down Master&#x27;s House" width="154" height="240" loading="lazy" class="card-img-top">
+        
+    </a>
+    <div class="card-body p-2">
+        <h2 class="card-title">
+            <a href="/book/9781496759146/burn-down-masters-house/" class="product-link">Burn Down Master&#x27;s House</a>
+        </h2>
+        
+        <h3 class="card-title product-subtitle">A Novel</h3>
+        
+
+        <div class="text-center text-secondary">
+            <small>Clay Cane</small>
+        </div>
+
+        
+        <div class="text-center">
+            <small><strong>HardCover</strong></small>
+        </div>
+        
+
+        
+        <div class="text-center">
+            <small>
+                <span>Published:</span>
+                <span>2026</span>
+            </small>
+        </div>
+        
+    </div><!--./card-body-->
+    <div class="card-footer text-center">
+        
+        <span class="old-price">
+            <small>24.99</small>
+        </span>
+        
+
+        <span class="new-price">£19.24</span>
+
+        
+        <span class="badge text-bg-warning discount">23%</span>
+        
+
+        
+    </div>
+</div><!--./card-->
+
+                   </div>
+                   
+                   <div class="col-6 col-md-4">
+                       
+<div class="card mb-2 product-box book-box">
+    <a href="/book/9781399624046/the-names/">
+        
+            <img src="https://media.lowellbooks.com/covers/thumb/2026/9781399624046.webp" alt="The Names" width="154" height="240" loading="lazy" class="card-img-top">
+        
+    </a>
+    <div class="card-body p-2">
+        <h2 class="card-title">
+            <a href="/book/9781399624046/the-names/" class="product-link">The Names</a>
+        </h2>
+        
+        <h3 class="card-title product-subtitle">&#x27;The best debut novel in years&#x27; Sunday Times</h3>
+        
+
+        <div class="text-center text-secondary">
+            <small>Florence Knapp</small>
+        </div>
+
+        
+        <div class="text-center">
+            <small><strong>Paperback</strong></small>
+        </div>
+        
+
+        
+        <div class="text-center">
+            <small>
+                <span>Published:</span>
+                <span>2026</span>
+            </small>
+        </div>
+        
+    </div><!--./card-body-->
+    <div class="card-footer text-center">
+        
+        <span class="old-price">
+            <small>10.99</small>
+        </span>
+        
+
+        <span class="new-price">£10.14</span>
+
+        
+        <span class="badge text-bg-warning discount">8%</span>
+        
+
+        
+    </div>
+</div><!--./card-->
+
+                   </div>
+                   
+                   <div class="col-6 col-md-4">
+                       
+<div class="card mb-2 product-box book-box">
+    <a href="/book/9780241797075/bbq/">
+        
+            <img src="https://media.lowellbooks.com/covers/thumb/2026/9780241797075.webp" alt="BBQ" width="154" height="240" loading="lazy" class="card-img-top">
+        
+    </a>
+    <div class="card-body p-2">
+        <h2 class="card-title">
+            <a href="/book/9780241797075/bbq/" class="product-link">BBQ</a>
+        </h2>
+        
+
+        <div class="text-center text-secondary">
+            <small>Jamie Oliver</small>
+        </div>
+
+        
+        <div class="text-center">
+            <small><strong>HardCover</strong></small>
+        </div>
+        
+
+        
+        <div class="text-center">
+            <small>
+                <span>Published:</span>
+                <span>2026</span>
+            </small>
+        </div>
+        
+    </div><!--./card-body-->
+    <div class="card-footer text-center">
+        
+        <span class="old-price">
+            <small>30.00</small>
+        </span>
+        
+
+        <span class="new-price">£27.99</span>
+
+        
+        <span class="badge text-bg-warning discount">7%</span>
+        
+
+        
+    </div>
+</div><!--./card-->
+
+                   </div>
+                   
+                   <div class="col-6 col-md-4">
+                       
+<div class="card mb-2 product-box book-box">
+    <a href="/book/9781035056279/london-falling/">
+        
+            <img src="https://media.lowellbooks.com/covers/thumb/2026/9781035056279.webp" alt="London Falling" width="154" height="240" loading="lazy" class="card-img-top">
+        
+    </a>
+    <div class="card-body p-2">
+        <h2 class="card-title">
+            <a href="/book/9781035056279/london-falling/" class="product-link">London Falling</a>
+        </h2>
+        
+        <h3 class="card-title product-subtitle">A Mysterious Death in a Gilded City, and a Family’s Search for Truth</h3>
+        
+
+        <div class="text-center text-secondary">
+            <small>Patrick Radden Keefe</small>
+        </div>
+
+        
+        <div class="text-center">
+            <small><strong>HardCover</strong></small>
+        </div>
+        
+
+        
+        <div class="text-center">
+            <small>
+                <span>Published:</span>
+                <span>2026</span>
+            </small>
+        </div>
+        
+    </div><!--./card-body-->
+    <div class="card-footer text-center">
+        
+        <span class="old-price">
+            <small>22.00</small>
+        </span>
+        
+
+        <span class="new-price">£17.30</span>
+
+        
+        <span class="badge text-bg-warning discount">21%</span>
+        
+
+        
+    </div>
+</div><!--./card-->
+
+                   </div>
+                   
+                   <div class="col-6 col-md-4">
+                       
+<div class="card mb-2 product-box book-box">
+    <a href="/book/9780356525884/the-book-of-fallen-leaves/">
+        
+            <img src="https://media.lowellbooks.com/covers/thumb/2026/9780356525884.webp" alt="The Book of Fallen Leaves" width="154" height="240" loading="lazy" class="card-img-top">
+        
+    </a>
+    <div class="card-body p-2">
+        <h2 class="card-title">
+            <a href="/book/9780356525884/the-book-of-fallen-leaves/" class="product-link">The Book of Fallen Leaves</a>
+        </h2>
+        
+        <h3 class="card-title product-subtitle">Book One of the Autumn Empire</h3>
+        
+
+        <div class="text-center text-secondary">
+            <small>A.S. Tamaki</small>
+        </div>
+
+        
+        <div class="text-center">
+            <small><strong>HardCover</strong></small>
+        </div>
+        
+
+        
+        <div class="text-center">
+            <small>
+                <span>Published:</span>
+                <span>2026</span>
+            </small>
+        </div>
+        
+    </div><!--./card-body-->
+    <div class="card-footer text-center">
+        
+        <span class="old-price">
+            <small>22.00</small>
+        </span>
+        
+
+        <span class="new-price">£17.30</span>
+
+        
+        <span class="badge text-bg-warning discount">21%</span>
+        
+
+        
+    </div>
+</div><!--./card-->
+
+                   </div>
+                   
+                   <div class="col-6 col-md-4">
+                       
+<div class="card mb-2 product-box book-box">
+    <a href="/book/9781836431473/fruit-fly/">
+        
+            <img src="https://media.lowellbooks.com/covers/thumb/2026/9781836431473.webp" alt="Fruit Fly" width="154" height="240" loading="lazy" class="card-img-top">
+        
+    </a>
+    <div class="card-body p-2">
+        <h2 class="card-title">
+            <a href="/book/9781836431473/fruit-fly/" class="product-link">Fruit Fly</a>
+        </h2>
+        
+        <h3 class="card-title product-subtitle">&#x27;Savage and darkly hilarious&#x27; Juno Dawson</h3>
+        
+
+        <div class="text-center text-secondary">
+            <small>Josh Silver</small>
+        </div>
+
+        
+        <div class="text-center">
+            <small><strong>HardCover</strong></small>
+        </div>
+        
+
+        
+        <div class="text-center">
+            <small>
+                <span>Published:</span>
+                <span>2026</span>
+            </small>
+        </div>
+        
+    </div><!--./card-body-->
+    <div class="card-footer text-center">
+        
+        <span class="old-price">
+            <small>16.99</small>
+        </span>
+        
+
+        <span class="new-price">£14.04</span>
+
+        
+        <span class="badge text-bg-warning discount">17%</span>
+        
+
+        
+    </div>
+</div><!--./card-->
+
+                   </div>
+                   
+                   <div class="col-6 col-md-4">
+                       
+<div class="card mb-2 product-box book-box">
+    <a href="/book/9780702349072/sunrise-on-the-reaping-pb/">
+        
+            <img src="https://media.lowellbooks.com/covers/thumb/2026/9780702349072.webp" alt="Sunrise on the Reaping PB" width="154" height="240" loading="lazy" class="card-img-top">
+        
+    </a>
+    <div class="card-body p-2">
+        <h2 class="card-title">
+            <a href="/book/9780702349072/sunrise-on-the-reaping-pb/" class="product-link">Sunrise on the Reaping PB</a>
+        </h2>
+        
+
+        <div class="text-center text-secondary">
+            <small>Suzanne Collins</small>
+        </div>
+
+        
+        <div class="text-center">
+            <small><strong>Paperback</strong></small>
+        </div>
+        
+
+        
+        <div class="text-center">
+            <small>
+                <span>Published:</span>
+                <span>2026</span>
+            </small>
+        </div>
+        
+    </div><!--./card-body-->
+    <div class="card-footer text-center">
+        
+        <span class="old-price">
+            <small>9.99</small>
+        </span>
+        
+
+        <span class="new-price">£9.49</span>
+
+        
+        <span class="badge text-bg-warning discount">5%</span>
+        
+
+        
+    </div>
+</div><!--./card-->
+
+                   </div>
+                   
+                   <div class="col-6 col-md-4">
+                       
+<div class="card mb-2 product-box book-box">
+    <a href="/book/9781444974881/heartstopper-volume-6/">
+        
+            <img src="https://media.lowellbooks.com/covers/thumb/2026/9781444974881.webp" alt="Heartstopper Volume 6" width="154" height="240" loading="lazy" class="card-img-top">
+        
+    </a>
+    <div class="card-body p-2">
+        <h2 class="card-title">
+            <a href="/book/9781444974881/heartstopper-volume-6/" class="product-link">Heartstopper Volume 6</a>
+        </h2>
+        
+        <h3 class="card-title product-subtitle">Boy meets boy in the final installment of the phenomenal graphic novel series, also on Netflix!</h3>
+        
+
+        <div class="text-center text-secondary">
+            <small>Alice Oseman</small>
+        </div>
+
+        
+        <div class="text-center">
+            <small><strong>Paperback</strong></small>
+        </div>
+        
+
+        
+        <div class="text-center">
+            <small>
+                <span>Published:</span>
+                <span>2026</span>
+            </small>
+        </div>
+        
+    </div><!--./card-body-->
+    <div class="card-footer text-center">
+        
+        <span class="old-price">
+            <small>14.99</small>
+        </span>
+        
+
+        <span class="new-price">£12.74</span>
+
+        
+        <span class="badge text-bg-warning discount">15%</span>
+        
+
+        
+    </div>
+</div><!--./card-->
+
+                   </div>
+                   
+                   <div class="col-6 col-md-4">
+                       
+<div class="card mb-2 product-box book-box">
+    <a href="/book/9781399610834/mrs-dickens/">
+        
+            <img src="https://media.lowellbooks.com/covers/thumb/2026/9781399610834.webp" alt="Mrs. Dickens" width="154" height="240" loading="lazy" class="card-img-top">
+        
+    </a>
+    <div class="card-body p-2">
+        <h2 class="card-title">
+            <a href="/book/9781399610834/mrs-dickens/" class="product-link">Mrs. Dickens</a>
+        </h2>
+        
+        <h3 class="card-title product-subtitle">From the award-winning author of The Painter&#x27;s Daughters</h3>
+        
+
+        <div class="text-center text-secondary">
+            <small>Emily Howes</small>
+        </div>
+
+        
+        <div class="text-center">
+            <small><strong>HardCover</strong></small>
+        </div>
+        
+
+        
+        <div class="text-center">
+            <small>
+                <span>Published:</span>
+                <span>2026</span>
+            </small>
+        </div>
+        
+    </div><!--./card-body-->
+    <div class="card-footer text-center">
+        
+        <span class="old-price">
+            <small>20.00</small>
+        </span>
+        
+
+        <span class="new-price">£15.99</span>
+
+        
+        <span class="badge text-bg-warning discount">20%</span>
+        
+
+        
+    </div>
+</div><!--./card-->
+
+                   </div>
+                   
+                   <div class="col-6 col-md-4">
+                       
+<div class="card mb-2 product-box book-box">
+    <a href="/book/9781472289087/land/">
+        
+            <img src="https://media.lowellbooks.com/covers/thumb/2026/9781472289087.webp" alt="Land" width="154" height="240" loading="lazy" class="card-img-top">
+        
+    </a>
+    <div class="card-body p-2">
+        <h2 class="card-title">
+            <a href="/book/9781472289087/land/" class="product-link">Land</a>
+        </h2>
+        
+        <h3 class="card-title product-subtitle">From the no. 1 bestselling author of Hamnet, a multigenerational epic of loss, hope and reunion</h3>
+        
+
+        <div class="text-center text-secondary">
+            <small>Maggie O&#x27;Farrell</small>
+        </div>
+
+        
+        <div class="text-center">
+            <small><strong>HardCover</strong></small>
+        </div>
+        
+
+        
+        <div class="text-center">
+            <small>
+                <span>Published:</span>
+                <span>2026</span>
+            </small>
+        </div>
+        
+    </div><!--./card-body-->
+    <div class="card-footer text-center">
+        
+        <span class="old-price">
+            <small>25.00</small>
+        </span>
+        
+
+        <span class="new-price">£24.23</span>
+
+        
+        <span class="badge text-bg-warning discount">3%</span>
+        
+
+        
+    </div>
+</div><!--./card-->
+
+                   </div>
+                   
+               </div>
+           </div>
+       </div>
+    </div><!--./row-->
+
+    <div class="row">
+        <div class="col">
+            <h2 class="h4">Childrens</h2>
+
+            <div class="container">
+                <div class="row product-slide">
+                    
+                    <div class="col-6 col-md-4">
+                        
+<div class="card mb-2 product-box book-box">
+    <a href="/book/9781805790310/sunday-reset/">
+        
+            <img src="https://media.lowellbooks.com/covers/thumb/2026/9781805790310.webp" alt="Sunday Reset" width="154" height="240" loading="lazy" class="card-img-top">
+        
+    </a>
+    <div class="card-body p-2">
+        <h2 class="card-title">
+            <a href="/book/9781805790310/sunday-reset/" class="product-link">Sunday Reset</a>
+        </h2>
+        
+
+        <div class="text-center text-secondary">
+            <small>Sam Jayne, Sunny Vibes</small>
+        </div>
+
+        
+        <div class="text-center">
+            <small><strong>Paperback</strong></small>
+        </div>
+        
+
+        
+        <div class="text-center">
+            <small>
+                <span>Published:</span>
+                <span>2026</span>
+            </small>
+        </div>
+        
+    </div><!--./card-body-->
+    <div class="card-footer text-center">
+        
+        <span class="old-price">
+            <small>7.99</small>
+        </span>
+        
+
+        <span class="new-price">£7.75</span>
+
+        
+        <span class="badge text-bg-warning discount">3%</span>
+        
+
+        
+    </div>
+</div><!--./card-->
+
+                    </div>
+                    
+                    <div class="col-6 col-md-4">
+                        
+<div class="card mb-2 product-box book-box">
+    <a href="/book/9780241671993/peppa-pig-peppa-loves-unicorns-and-mermaids/">
+        
+            <img src="https://media.lowellbooks.com/covers/thumb/2025/9780241671993.webp" alt="Peppa Pig" width="154" height="240" loading="lazy" class="card-img-top">
+        
+    </a>
+    <div class="card-body p-2">
+        <h2 class="card-title">
+            <a href="/book/9780241671993/peppa-pig-peppa-loves-unicorns-and-mermaids/" class="product-link">Peppa Pig</a>
+        </h2>
+        
+        <h3 class="card-title product-subtitle">Peppa Loves Unicorns and Mermaids</h3>
+        
+
+        <div class="text-center text-secondary">
+            <small>Peppa Pig</small>
+        </div>
+
+        
+        <div class="text-center">
+            <small><strong>Paperback</strong></small>
+        </div>
+        
+
+        
+        <div class="text-center">
+            <small>
+                <span>Published:</span>
+                <span>2025</span>
+            </small>
+        </div>
+        
+    </div><!--./card-body-->
+    <div class="card-footer text-center">
+        
+        <span class="old-price">
+            <small>7.99</small>
+        </span>
+        
+
+        <span class="new-price">£7.75</span>
+
+        
+        <span class="badge text-bg-warning discount">3%</span>
+        
+
+        
+    </div>
+</div><!--./card-->
+
+                    </div>
+                    
+                    <div class="col-6 col-md-4">
+                        
+<div class="card mb-2 product-box book-box">
+    <a href="/book/9781035029075/chick-pea/">
+        
+            <img src="https://media.lowellbooks.com/covers/thumb/2025/9781035029075.webp" alt="Chick Pea" width="154" height="240" loading="lazy" class="card-img-top">
+        
+    </a>
+    <div class="card-body p-2">
+        <h2 class="card-title">
+            <a href="/book/9781035029075/chick-pea/" class="product-link">Chick Pea</a>
+        </h2>
+        
+
+        <div class="text-center text-secondary">
+            <small>Steve Antony</small>
+        </div>
+
+        
+        <div class="text-center">
+            <small><strong>Paperback</strong></small>
+        </div>
+        
+
+        
+        <div class="text-center">
+            <small>
+                <span>Published:</span>
+                <span>2025</span>
+            </small>
+        </div>
+        
+    </div><!--./card-body-->
+    <div class="card-footer text-center">
+        
+        <span class="old-price">
+            <small>7.99</small>
+        </span>
+        
+
+        <span class="new-price">£7.75</span>
+
+        
+        <span class="badge text-bg-warning discount">3%</span>
+        
+
+        
+    </div>
+</div><!--./card-->
+
+                    </div>
+                    
+                    <div class="col-6 col-md-4">
+                        
+<div class="card mb-2 product-box book-box">
+    <a href="/book/9781035029105/hippo-potty/">
+        
+            <img src="https://media.lowellbooks.com/covers/thumb/2025/9781035029105.webp" alt="Hippo Potty" width="154" height="240" loading="lazy" class="card-img-top">
+        
+    </a>
+    <div class="card-body p-2">
+        <h2 class="card-title">
+            <a href="/book/9781035029105/hippo-potty/" class="product-link">Hippo Potty</a>
+        </h2>
+        
+
+        <div class="text-center text-secondary">
+            <small>Steve Antony</small>
+        </div>
+
+        
+        <div class="text-center">
+            <small><strong>Paperback</strong></small>
+        </div>
+        
+
+        
+        <div class="text-center">
+            <small>
+                <span>Published:</span>
+                <span>2025</span>
+            </small>
+        </div>
+        
+    </div><!--./card-body-->
+    <div class="card-footer text-center">
+        
+        <span class="old-price">
+            <small>7.99</small>
+        </span>
+        
+
+        <span class="new-price">£7.75</span>
+
+        
+        <span class="badge text-bg-warning discount">3%</span>
+        
+
+        
+    </div>
+</div><!--./card-->
+
+                    </div>
+                    
+                    <div class="col-6 col-md-4">
+                        
+<div class="card mb-2 product-box book-box">
+    <a href="/book/9780316564526/knight-owl-and-early-bird/">
+        
+            <img src="https://media.lowellbooks.com/covers/thumb/2024/9780316564526.webp" alt="Knight Owl and Early Bird" width="154" height="240" loading="lazy" class="card-img-top">
+        
+    </a>
+    <div class="card-body p-2">
+        <h2 class="card-title">
+            <a href="/book/9780316564526/knight-owl-and-early-bird/" class="product-link">Knight Owl and Early Bird</a>
+        </h2>
+        
+
+        <div class="text-center text-secondary">
+            <small>Christopher Denise, Denise Christopher</small>
+        </div>
+
+        
+        <div class="text-center">
+            <small><strong>HardCover</strong></small>
+        </div>
+        
+
+        
+        <div class="text-center">
+            <small>
+                <span>Published:</span>
+                <span>2024</span>
+            </small>
+        </div>
+        
+    </div><!--./card-body-->
+    <div class="card-footer text-center">
+        
+        <span class="old-price">
+            <small>14.99</small>
+        </span>
+        
+
+        <span class="new-price">£11.99</span>
+
+        
+        <span class="badge text-bg-warning discount">20%</span>
+        
+
+        
+    </div>
+</div><!--./card-->
+
+                    </div>
+                    
+                    <div class="col-6 col-md-4">
+                        
+<div class="card mb-2 product-box book-box">
+    <a href="/book/9780241583166/diary-of-a-wimpy-kid-hot-mess-book-19/">
+        
+            <img src="https://media.lowellbooks.com/covers/thumb/2024/9780241583166.webp" alt="Diary of a Wimpy Kid" width="154" height="240" loading="lazy" class="card-img-top">
+        
+    </a>
+    <div class="card-body p-2">
+        <h2 class="card-title">
+            <a href="/book/9780241583166/diary-of-a-wimpy-kid-hot-mess-book-19/" class="product-link">Diary of a Wimpy Kid</a>
+        </h2>
+        
+        <h3 class="card-title product-subtitle">Hot Mess (Book 19)</h3>
+        
+
+        <div class="text-center text-secondary">
+            <small>Jeff Kinney, Kinney Jeff</small>
+        </div>
+
+        
+        <div class="text-center">
+            <small><strong>HardCover</strong></small>
+        </div>
+        
+
+        
+        <div class="text-center">
+            <small>
+                <span>Published:</span>
+                <span>2024</span>
+            </small>
+        </div>
+        
+    </div><!--./card-body-->
+    <div class="card-footer text-center">
+        
+        <span class="old-price">
+            <small>14.99</small>
+        </span>
+        
+
+        <span class="new-price">£12.74</span>
+
+        
+        <span class="badge text-bg-warning discount">15%</span>
+        
+
+        
+    </div>
+</div><!--./card-->
+
+                    </div>
+                    
+                    <div class="col-6 col-md-4">
+                        
+<div class="card mb-2 product-box book-box">
+    <a href="/book/9781444971811/oi-dinosaurs/">
+        
+            <img src="https://media.lowellbooks.com/covers/thumb/2024/9781444971811.webp" alt="Oi Dinosaurs!" width="154" height="240" loading="lazy" class="card-img-top">
+        
+    </a>
+    <div class="card-body p-2">
+        <h2 class="card-title">
+            <a href="/book/9781444971811/oi-dinosaurs/" class="product-link">Oi Dinosaurs!</a>
+        </h2>
+        
+
+        <div class="text-center text-secondary">
+            <small>Kes Gray</small>
+        </div>
+
+        
+        <div class="text-center">
+            <small><strong>HardCover</strong></small>
+        </div>
+        
+
+        
+        <div class="text-center">
+            <small>
+                <span>Published:</span>
+                <span>2024</span>
+            </small>
+        </div>
+        
+    </div><!--./card-body-->
+    <div class="card-footer text-center">
+        
+        <span class="old-price">
+            <small>12.99</small>
+        </span>
+        
+
+        <span class="new-price">£11.44</span>
+
+        
+        <span class="badge text-bg-warning discount">12%</span>
+        
+
+        
+    </div>
+</div><!--./card-->
+
+                    </div>
+                    
+                    <div class="col-6 col-md-4">
+                        
+<div class="card mb-2 product-box book-box">
+    <a href="/book/9781035028993/bird-bath/">
+        
+            <img src="https://media.lowellbooks.com/covers/thumb/2024/9781035028993.webp" alt="Bird Bath" width="154" height="240" loading="lazy" class="card-img-top">
+        
+    </a>
+    <div class="card-body p-2">
+        <h2 class="card-title">
+            <a href="/book/9781035028993/bird-bath/" class="product-link">Bird Bath</a>
+        </h2>
+        
+
+        <div class="text-center text-secondary">
+            <small>Steve Antony</small>
+        </div>
+
+        
+        <div class="text-center">
+            <small><strong>Paperback</strong></small>
+        </div>
+        
+
+        
+        <div class="text-center">
+            <small>
+                <span>Published:</span>
+                <span>2024</span>
+            </small>
+        </div>
+        
+    </div><!--./card-body-->
+    <div class="card-footer text-center">
+        
+        <span class="old-price">
+            <small>7.99</small>
+        </span>
+        
+
+        <span class="new-price">£7.75</span>
+
+        
+        <span class="badge text-bg-warning discount">3%</span>
+        
+
+        
+    </div>
+</div><!--./card-->
+
+                    </div>
+                    
+                    <div class="col-6 col-md-4">
+                        
+<div class="card mb-2 product-box book-box">
+    <a href="/book/9781035035793/the-gruffalo-and-other-stories-treasury-with-3-classic-stories-plus-extra-activities-and-games/">
+        
+            <img src="https://media.lowellbooks.com/covers/thumb/2024/9781035035793.webp" alt="The Gruffalo and Other Stories Treasury" width="154" height="240" loading="lazy" class="card-img-top">
+        
+    </a>
+    <div class="card-body p-2">
+        <h2 class="card-title">
+            <a href="/book/9781035035793/the-gruffalo-and-other-stories-treasury-with-3-classic-stories-plus-extra-activities-and-games/" class="product-link">The Gruffalo and Other Stories Treasury</a>
+        </h2>
+        
+        <h3 class="card-title product-subtitle">With 3 classic stories plus extra activities and games!</h3>
+        
+
+        <div class="text-center text-secondary">
+            <small>Julia Donaldson</small>
+        </div>
+
+        
+        <div class="text-center">
+            <small><strong>HardCover</strong></small>
+        </div>
+        
+
+        
+        <div class="text-center">
+            <small>
+                <span>Published:</span>
+                <span>2024</span>
+            </small>
+        </div>
+        
+    </div><!--./card-body-->
+    <div class="card-footer text-center">
+        
+        <span class="old-price">
+            <small>16.99</small>
+        </span>
+        
+
+        <span class="new-price">£14.04</span>
+
+        
+        <span class="badge text-bg-warning discount">17%</span>
+        
+
+        
+    </div>
+</div><!--./card-->
+
+                    </div>
+                    
+                    <div class="col-6 col-md-4">
+                        
+<div class="card mb-2 product-box book-box">
+    <a href="/book/9781529084740/the-complete-alice-alices-adventures-in-wonderland-and-through-the-looking-glass-and-what-alice-found-there/">
+        
+            <img src="https://media.lowellbooks.com/covers/thumb/2024/9781529084740.webp" alt="The Complete Alice" width="154" height="240" loading="lazy" class="card-img-top">
+        
+    </a>
+    <div class="card-body p-2">
+        <h2 class="card-title">
+            <a href="/book/9781529084740/the-complete-alice-alices-adventures-in-wonderland-and-through-the-looking-glass-and-what-alice-found-there/" class="product-link">The Complete Alice</a>
+        </h2>
+        
+        <h3 class="card-title product-subtitle">Alice&#x27;s Adventures in Wonderland and Through the Looking-Glass and What Alice Found There</h3>
+        
+
+        <div class="text-center text-secondary">
+            <small>Lewis Carroll</small>
+        </div>
+
+        
+        <div class="text-center">
+            <small><strong>HardCover</strong></small>
+        </div>
+        
+
+        
+        <div class="text-center">
+            <small>
+                <span>Published:</span>
+                <span>2024</span>
+            </small>
+        </div>
+        
+    </div><!--./card-body-->
+    <div class="card-footer text-center">
+        
+        <span class="old-price">
+            <small>40.00</small>
+        </span>
+        
+
+        <span class="new-price">£35.99</span>
+
+        
+        <span class="badge text-bg-warning discount">10%</span>
+        
+
+        
+    </div>
+</div><!--./card-->
+
+                    </div>
+                    
+                    <div class="col-6 col-md-4">
+                        
+<div class="card mb-2 product-box book-box">
+    <a href="/book/9781958803424/all-the-things-how-to-draw-books-for-kids-with-cars-unicorns-dragons-cupcakes-and-more-stocking-stuffers-for-kids-mini/">
+        
+            <img src="https://media.lowellbooks.com/covers/thumb/2024/9781958803424.webp" alt="All the Things" width="154" height="240" loading="lazy" class="card-img-top">
+        
+    </a>
+    <div class="card-body p-2">
+        <h2 class="card-title">
+            <a href="/book/9781958803424/all-the-things-how-to-draw-books-for-kids-with-cars-unicorns-dragons-cupcakes-and-more-stocking-stuffers-for-kids-mini/" class="product-link">All the Things</a>
+        </h2>
+        
+        <h3 class="card-title product-subtitle">How to Draw Books for Kids with Cars, Unicorns, Dragons, Cupcakes, and More (Stocking Stuffers for kids) (Mini)</h3>
+        
+
+        <div class="text-center text-secondary">
+            <small>Alli Koch</small>
+        </div>
+
+        
+        <div class="text-center">
+            <small><strong>Paperback</strong></small>
+        </div>
+        
+
+        
+        <div class="text-center">
+            <small>
+                <span>Published:</span>
+                <span>2024</span>
+            </small>
+        </div>
+        
+    </div><!--./card-body-->
+    <div class="card-footer text-center">
+        
+        <span class="old-price">
+            <small>8.99</small>
+        </span>
+        
+
+        <span class="new-price">£8.72</span>
+
+        
+        <span class="badge text-bg-warning discount">3%</span>
+        
+
+        
+    </div>
+</div><!--./card-->
+
+                    </div>
+                    
+                    <div class="col-6 col-md-4">
+                        
+<div class="card mb-2 product-box book-box">
+    <a href="/book/9781035029020/cat-nap/">
+        
+            <img src="https://media.lowellbooks.com/covers/thumb/2024/9781035029020.webp" alt="Cat Nap" width="154" height="240" loading="lazy" class="card-img-top">
+        
+    </a>
+    <div class="card-body p-2">
+        <h2 class="card-title">
+            <a href="/book/9781035029020/cat-nap/" class="product-link">Cat Nap</a>
+        </h2>
+        
+
+        <div class="text-center text-secondary">
+            <small>Steve Antony</small>
+        </div>
+
+        
+        <div class="text-center">
+            <small><strong>Paperback</strong></small>
+        </div>
+        
+
+        
+        <div class="text-center">
+            <small>
+                <span>Published:</span>
+                <span>2024</span>
+            </small>
+        </div>
+        
+    </div><!--./card-body-->
+    <div class="card-footer text-center">
+        
+        <span class="old-price">
+            <small>7.99</small>
+        </span>
+        
+
+        <span class="new-price">£7.75</span>
+
+        
+        <span class="badge text-bg-warning discount">3%</span>
+        
+
+        
+    </div>
+</div><!--./card-->
+
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+    </div><!--./row-->
+
+    <!--
+    <div class="row">
+        <div class="col">
+            <a href="/category/non-book/board-games-puzzles">
+                <i class="bi bi-dice-6-fill"></i>
+                <div>Board Games and Puzzles</div>
+            </a>
+        </div>
+        <div class="col">
+            <a href="/category/crafts/">
+                <i class="bi bi-scissors"></i>
+                <div>Crafts</div>
+            </a>
+        </div>
+        <div class="col">
+            <a href="/category/children/">
+                <i class="bi bi-scissors "></i>
+                <div>Children</div>
+            </a>
+        </div>
+    </div>
+    -->
+
+    <div class="row">
+        <div class="col">
+            <h2 class="h4">Toys</h2>
+
+            <div class="container">
+                <div class="row product-slide">
+                    
+                    <div class="col-6 col-md-3">
+                        
+<div class="card mb-2 product-box ">
+    <a href="/non-book/9781805131618/animal-actions-stomp-like-an-elephant/">
+        
+            <img src="https://media.lowellbooks.com/covers/thumb/2025/9781805131618.webp" alt="Animal Actions" width="154" height="240" loading="lazy" class="card-img-top">
+        
+    </a>
+    <div class="card-body p-2">
+        <h2 class="card-title">
+            <a href="/non-book/9781805131618/animal-actions-stomp-like-an-elephant/" class="product-link">Animal Actions</a>
+        </h2>
+        
+        <h3 class="card-title product-subtitle">Stomp Like an Elephant</h3>
+        
+
+        <div class="text-center text-secondary">
+            <small>Guilherme Karsten</small>
+        </div>
+
+        
+
+        
+    </div><!--./card-body-->
+    <div class="card-footer text-center">
+        
+        <span class="old-price">
+            <small>7.99</small>
+        </span>
+        
+
+        <span class="new-price">£7.75</span>
+
+        
+        <span class="badge text-bg-warning discount">3%</span>
+        
+
+        
+    </div>
+</div><!--./card-->
+
+                    </div>
+                    
+                    <div class="col-6 col-md-3">
+                        
+<div class="card mb-2 product-box ">
+    <a href="/non-book/0794764091724/rocky-horror-show-board-game/">
+        
+            <img src="https://media.lowellbooks.com/covers/thumb/2025/0794764091724.webp" alt="Rocky Horror Show Board Game" width="154" height="240" loading="lazy" class="card-img-top">
+        
+    </a>
+    <div class="card-body p-2">
+        <h2 class="card-title">
+            <a href="/non-book/0794764091724/rocky-horror-show-board-game/" class="product-link">Rocky Horror Show Board Game</a>
+        </h2>
+        
+
+        <div class="text-center text-secondary">
+            <small></small>
+        </div>
+
+        
+
+        
+    </div><!--./card-body-->
+    <div class="card-footer text-center">
+        
+        <span class="old-price">
+            <small>19.99</small>
+        </span>
+        
+
+        <span class="new-price">£15.99</span>
+
+        
+        <span class="badge text-bg-warning discount">20%</span>
+        
+
+        
+    </div>
+</div><!--./card-->
+
+                    </div>
+                    
+                    <div class="col-6 col-md-3">
+                        
+<div class="card mb-2 product-box ">
+    <a href="/non-book/5036905058551/naruto-cluedo-game/">
+        
+            <img src="https://media.lowellbooks.com/covers/thumb/2024/5036905058551.webp" alt="Naruto Cluedo Game" width="154" height="240" loading="lazy" class="card-img-top">
+        
+    </a>
+    <div class="card-body p-2">
+        <h2 class="card-title">
+            <a href="/non-book/5036905058551/naruto-cluedo-game/" class="product-link">Naruto Cluedo Game</a>
+        </h2>
+        
+
+        <div class="text-center text-secondary">
+            <small></small>
+        </div>
+
+        
+
+        
+    </div><!--./card-body-->
+    <div class="card-footer text-center">
+        
+        <span class="old-price">
+            <small>34.99</small>
+        </span>
+        
+
+        <span class="new-price">£33.94</span>
+
+        
+        <span class="badge text-bg-warning discount">3%</span>
+        
+
+        
+    </div>
+</div><!--./card-->
+
+                    </div>
+                    
+                    <div class="col-6 col-md-3">
+                        
+<div class="card mb-2 product-box ">
+    <a href="/non-book/9781647229238/harry-potter-ollivanders-accessory-pouch-and-elder-wand-pen-set/">
+        
+            <img src="https://media.lowellbooks.com/covers/thumb/2023/9781647229238.webp" alt="Harry Potter" width="154" height="240" loading="lazy" class="card-img-top">
+        
+    </a>
+    <div class="card-body p-2">
+        <h2 class="card-title">
+            <a href="/non-book/9781647229238/harry-potter-ollivanders-accessory-pouch-and-elder-wand-pen-set/" class="product-link">Harry Potter</a>
+        </h2>
+        
+        <h3 class="card-title product-subtitle">Ollivanders Accessory Pouch and Elder Wand Pen Set</h3>
+        
+
+        <div class="text-center text-secondary">
+            <small></small>
+        </div>
+
+        
+
+        
+    </div><!--./card-body-->
+    <div class="card-footer text-center">
+        
+        <span class="old-price">
+            <small>25.00</small>
+        </span>
+        
+
+        <span class="new-price">£24.23</span>
+
+        
+        <span class="badge text-bg-warning discount">3%</span>
+        
+
+        
+    </div>
+</div><!--./card-->
+
+                    </div>
+                    
+                    <div class="col-6 col-md-3">
+                        
+<div class="card mb-2 product-box ">
+    <a href="/non-book/0794764018516/anti-monopoly-board-game/">
+        
+            <img src="https://media.lowellbooks.com/covers/thumb/2023/0794764018516.webp" alt="Anti Monopoly Board Game" width="154" height="240" loading="lazy" class="card-img-top">
+        
+    </a>
+    <div class="card-body p-2">
+        <h2 class="card-title">
+            <a href="/non-book/0794764018516/anti-monopoly-board-game/" class="product-link">Anti Monopoly Board Game</a>
+        </h2>
+        
+
+        <div class="text-center text-secondary">
+            <small></small>
+        </div>
+
+        
+
+        
+    </div><!--./card-body-->
+    <div class="card-footer text-center">
+        
+        <span class="old-price">
+            <small>24.99</small>
+        </span>
+        
+
+        <span class="new-price">£16.99</span>
+
+        
+        <span class="badge text-bg-warning discount">32%</span>
+        
+
+        
+    </div>
+</div><!--./card-->
+
+                    </div>
+                    
+                    <div class="col-6 col-md-3">
+                        
+<div class="card mb-2 product-box ">
+    <a href="/non-book/0889698602082/funko-popsies-harry-potter-hermione/">
+        
+            <img src="https://media.lowellbooks.com/covers/thumb/2022/0889698602082.webp" alt="Funko POPsies Harry Potter - Hermione" width="154" height="240" loading="lazy" class="card-img-top">
+        
+    </a>
+    <div class="card-body p-2">
+        <h2 class="card-title">
+            <a href="/non-book/0889698602082/funko-popsies-harry-potter-hermione/" class="product-link">Funko POPsies Harry Potter - Hermione</a>
+        </h2>
+        
+
+        <div class="text-center text-secondary">
+            <small></small>
+        </div>
+
+        
+
+        
+    </div><!--./card-body-->
+    <div class="card-footer text-center">
+        
+        <span class="old-price">
+            <small>6.99</small>
+        </span>
+        
+
+        <span class="new-price">£6.14</span>
+
+        
+        <span class="badge text-bg-warning discount">12%</span>
+        
+
+        
+    </div>
+</div><!--./card-->
+
+                    </div>
+                    
+                    <div class="col-6 col-md-3">
+                        
+<div class="card mb-2 product-box ">
+    <a href="/non-book/0889698601603/funko-pop-felix-the-cat-felix-the-cat-flocked/">
+        
+            <img src="https://media.lowellbooks.com/covers/thumb/2022/0889698601603.webp" alt="Funko Pop! Felix the Cat - Felix the Cat Flocked" width="154" height="240" loading="lazy" class="card-img-top">
+        
+    </a>
+    <div class="card-body p-2">
+        <h2 class="card-title">
+            <a href="/non-book/0889698601603/funko-pop-felix-the-cat-felix-the-cat-flocked/" class="product-link">Funko Pop! Felix the Cat - Felix the Cat Flocked</a>
+        </h2>
+        
+
+        <div class="text-center text-secondary">
+            <small></small>
+        </div>
+
+        
+
+        
+    </div><!--./card-body-->
+    <div class="card-footer text-center">
+        
+        <span class="old-price">
+            <small>19.99</small>
+        </span>
+        
+
+        <span class="new-price">£11.99</span>
+
+        
+        <span class="badge text-bg-warning discount">40%</span>
+        
+
+        
+    </div>
+</div><!--./card-->
+
+                    </div>
+                    
+                    <div class="col-6 col-md-3">
+                        
+<div class="card mb-2 product-box ">
+    <a href="/non-book/0889698601702/funko-popsies-dc-batman/">
+        
+            <img src="https://media.lowellbooks.com/covers/thumb/2022/0889698601702.webp" alt="Funko POPsies DC - Batman" width="154" height="240" loading="lazy" class="card-img-top">
+        
+    </a>
+    <div class="card-body p-2">
+        <h2 class="card-title">
+            <a href="/non-book/0889698601702/funko-popsies-dc-batman/" class="product-link">Funko POPsies DC - Batman</a>
+        </h2>
+        
+
+        <div class="text-center text-secondary">
+            <small></small>
+        </div>
+
+        
+
+        
+    </div><!--./card-body-->
+    <div class="card-footer text-center">
+        
+        <span class="old-price">
+            <small>6.99</small>
+        </span>
+        
+
+        <span class="new-price">£6.14</span>
+
+        
+        <span class="badge text-bg-warning discount">12%</span>
+        
+
+        
+    </div>
+</div><!--./card-->
+
+                    </div>
+                    
+                    <div class="col-6 col-md-3">
+                        
+<div class="card mb-2 product-box ">
+    <a href="/non-book/5056297207429/the-queens-guards-giant-playing-cards/">
+        
+            <img src="https://media.lowellbooks.com/covers/thumb/2020/5056297207429.webp" alt="The Queen&#x27;s Guards Giant Playing Cards" width="154" height="240" loading="lazy" class="card-img-top">
+        
+    </a>
+    <div class="card-body p-2">
+        <h2 class="card-title">
+            <a href="/non-book/5056297207429/the-queens-guards-giant-playing-cards/" class="product-link">The Queen&#x27;s Guards Giant Playing Cards</a>
+        </h2>
+        
+
+        <div class="text-center text-secondary">
+            <small></small>
+        </div>
+
+        
+
+        
+    </div><!--./card-body-->
+    <div class="card-footer text-center">
+        
+        <span class="old-price">
+            <small>9.99</small>
+        </span>
+        
+
+        <span class="new-price">£9.69</span>
+
+        
+        <span class="badge text-bg-warning discount">3%</span>
+        
+
+        
+    </div>
+</div><!--./card-->
+
+                    </div>
+                    
+                    <div class="col-6 col-md-3">
+                        
+<div class="card mb-2 product-box ">
+    <a href="/non-book/9781472837318/undaunted-north-africa-sequel-to-the-board-game-geek-award-winning-wwii-deckbuilding-game/">
+        
+            <img src="https://media.lowellbooks.com/covers/thumb/2020/9781472837318.webp" alt="Undaunted" width="154" height="240" loading="lazy" class="card-img-top">
+        
+    </a>
+    <div class="card-body p-2">
+        <h2 class="card-title">
+            <a href="/non-book/9781472837318/undaunted-north-africa-sequel-to-the-board-game-geek-award-winning-wwii-deckbuilding-game/" class="product-link">Undaunted</a>
+        </h2>
+        
+        <h3 class="card-title product-subtitle">North Africa : Sequel to the Board Game Geek Award-Winning WWII Deckbuilding Game</h3>
+        
+
+        <div class="text-center text-secondary">
+            <small>David Thompson</small>
+        </div>
+
+        
+
+        
+    </div><!--./card-body-->
+    <div class="card-footer text-center">
+        
+        <span class="old-price">
+            <small>35.00</small>
+        </span>
+        
+
+        <span class="new-price">£30.24</span>
+
+        
+        <span class="badge text-bg-warning discount">14%</span>
+        
+
+        
+    </div>
+</div><!--./card-->
+
+                    </div>
+                    
+                    <div class="col-6 col-md-3">
+                        
+<div class="card mb-2 product-box ">
+    <a href="/non-book/5034566606739/moomin-backpack/">
+        
+            <img src="https://media.lowellbooks.com/covers/thumb/2019/5034566606739.webp" alt="Moomin Backpack" width="154" height="240" loading="lazy" class="card-img-top">
+        
+    </a>
+    <div class="card-body p-2">
+        <h2 class="card-title">
+            <a href="/non-book/5034566606739/moomin-backpack/" class="product-link">Moomin Backpack</a>
+        </h2>
+        
+
+        <div class="text-center text-secondary">
+            <small></small>
+        </div>
+
+        
+
+        
+    </div><!--./card-body-->
+    <div class="card-footer text-center">
+        
+        <span class="old-price">
+            <small>34.99</small>
+        </span>
+        
+
+        <span class="new-price">£28.49</span>
+
+        
+        <span class="badge text-bg-warning discount">19%</span>
+        
+
+        
+    </div>
+</div><!--./card-->
+
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+    </div><!--./row-->
+
+</main>
+
+</main>
+
+<footer class="footer py-4">
+    <div class="container py-4">
+        <div class="row">
+            <div class="col-12 col-md-6">
+                <form method="post" action="/subscribe-newsletter/" class="">
+                    <input type="hidden" name="csrfmiddlewaretoken" value="ZBkXkVa6vMYUs7RYIM579bcG8LqvAkcYue8K6nlLQWJ7awVxzmzqpRKaeVRoIUGt">
+                    <div>
+                        <label for="subscribe_email" class="form-label text-white">Join our newsletter</label>
+                    </div>
+                    <div class="row">
+                        <div class="col">
+                            <input type="text" name="subscribe_name" id="subscribe_name" placeholder="Your name" autocomplete="given-name" class="form-control">
+                        </div>
+                        <div class="col">
+                            <input type="email" name="subscribe_email" id="subscribe_email" placeholder="Your email" autocomplete="email" class="form-control">
+                        </div>
+                        <div class="col">
+                            <button type="submit" class="btn btn-secondary">Subscribe</button>
+                        </div>
+                    </div>
+                </form>
+            </div><!--./col-->
+            <div class="col-12 col-md-2 mt-3 mt-md-0">
+                <div>
+                    <label for="currency" class="form-label text-white">Currency</label>
+                </div>
+                <select name="currency" id="currency" class="form-select">
+                    <option value=""></option>
+                    <option value="GBP" selected>£ (Pound)</option>
+                    <option value="EUR" >€ (Euro)</option>
+                    <option value="USD" >$ (Dollar)</option>
+                </select>
+            </div>
+            <div class="col-12 col-md-2 mt-3 mt-md-0">
+                <div class="row">
+                    <div class="form-label text-white">Follow us</div>
+                </div>
+                <div class="social-icons d-flex justify-content-between">
+                    <a href="https://www.instagram.com/lowell.books" target="_blank" class="text-white fs-2"><i class="bi bi-instagram"></i></a>
+                    <a href="https://www.facebook.com/lowellbooks" target="_blank" class="text-white fs-2"><i class="bi bi-facebook"></i></a>
+                    <a href="https://x.com/lowellbooks" target="_blank" class="text-white fs-2"><i class="bi bi-twitter-x"></i></a>
+                    <a href="https://tiktok.com/@lowellbooks" target="_blank" class="text-white fs-2"><i class="bi bi-tiktok"></i></a>
+                    <a href="https://www.threads.net/@lowell.books" target="_blank" class="text-white fs-2"><i class="bi bi-threads"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="row mt-4">
+            <div class="col">
+                <h4 class="text-white fs-5">Customer service</h4>
+                <ul class="nav flex-column">
+                    <li class="nav-item">
+                        <a href="/contact/" class="nav-link">Contact us</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a href="/pages/return-policy/" class="nav-link">Return policy</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a href="/pages/terms-and-conditions/" class="nav-link">Terms & conditions</a>
+                    </li>
+
+                    <li>
+                        <a href="/pages/privacy-policy/" class="nav-link">Privacy policy</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="col">
+                <h4 class="text-white fs-5">Shop</h4>
+                <ul class="nav flex-column">
+                    <li class="nav-item">
+                        <a href="/pages/about-us/" class="nav-link">About us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">Delivery</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="/category" class="nav-link">Categories</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="/author/" class="nav-link">Authors</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="https://libro.fm?bookstore=lowellbooks" target="_blank" rel="noopener" class="nav-link">Audiobooks</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="/pages/app/" class="nav-link">Lowell Books App</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="col">
+                <h4 class="text-white fs-5">Help</h4>
+                <ul class="nav flex-column">
+                    <li class="nav-item">
+                        <a href="/pages/gpsr/" class="nav-link">EU General Product Safety Regulation (GPSR)</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="/pages/gdpr/" class="nav-link">General Data Protection Regulation (GDPR)</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="/track-order/" class="nav-link">Track your order</a>
+                    </li>
+                    <li>
+                        <a href="#" id="open_preferences_center" class="nav-link">Update cookies preferences</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="col">
+                <h4 class="text-white fs-5">We accept</h4>
+                <div>
+                    <img src="https://static.lowellbooks.com/img/icons/payment/visa.svg" alt="VISA" width="48" height="48">
+                    <img src="https://static.lowellbooks.com/img/icons/payment/mastercard.svg" alt="MasterCard" width="48" height="48">
+                    <img src="https://static.lowellbooks.com/img/icons/payment/american-express.svg" alt="AMEX" width="48" height="48">
+                    <img src="https://static.lowellbooks.com/img/icons/payment/stripe.svg" alt="Stripe" width="48" height="48">
+                    <img src="https://static.lowellbooks.com/img/icons/payment/paypal.svg" alt="PayPal" width="48" height="48">
+                </div>
+
+                <!-- TrustBox widget - Review Collector -->
+                <div class="trustpilot-widget" data-locale="en-GB" data-template-id="56278e9abfbbba0bdcd568bc" data-businessunit-id="670978d9508a2a56ff7d887c" data-style-height="52px" data-style-width="100%">
+                  <a href="https://uk.trustpilot.com/review/lowellbooks.com" target="_blank" rel="noopener">Trustpilot</a>
+                </div>
+                <!-- End TrustBox widget -->
+                <whatsapp-icon position="bottom-left" phone="+447551339174" title="Chat with us on WhatsApp!"></whatsapp-icon>
+            </div>
+        </div>
+        <div class="row mt-4">
+            <div class="col">
+                <p class="text-center text-white">&copy; 2024 - 2025 LOWELL BOOK LTD. Registered in England and Wales. Company number: 16003373</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <p class="text-center text-white">
+                    Made with <i class="bi bi-heart-fill heart text-danger" aria-hidden="true"></i> &amp;
+                    <i class="shake-slow bi bi-book-fill text-warning" aria-hidden="true"></i>
+                    in
+                    London, UK
+                </p>
+                <p class="text-center text-white">Version: 5.24.0</p>
+            </div>
+        </div>
+        <!-- Powered by Roskus -->
+<div class="text-center">
+    <a href="https://roskus.com" target="_blank" rel="noopener">
+        <picture>
+            <source srcset="https://static.roskus.com/asset/img/roskus_powered.webp" type="image/webp">
+            <img src="https://static.roskus.com/asset/img/roskus_powered.png" width="112" height="44" alt="Powered by Roskus">
+        </picture>
+    </a>
+</div>
+<!-- Powered by Roskus -->
+
+    </div>
+</footer>
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+    let currencySelect = document.getElementById('currency');
+    if (currencySelect) {
+        currencySelect.addEventListener('change', function() {
+            let value = this.value;
+            if (value) {
+                fetch('/set-currency/', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/x-www-form-urlencoded',
+                        'X-CSRFToken': 'ZBkXkVa6vMYUs7RYIM579bcG8LqvAkcYue8K6nlLQWJ7awVxzmzqpRKaeVRoIUGt'
+                    },
+                    body: 'currency=' + encodeURIComponent(value)
+                })
+                .then(function(response) { return response.json(); })
+                .then(function(data) {
+                    if (data.status === 'ok') {
+                        window.location.reload();
+                    }
+                });
+            }
+        });
+    }
+});
+</script>
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+<script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+<!--
+<script>
+    const myCarouselElement = document.querySelector('#HomeCarousel')
+
+    const carousel = new bootstrap.Carousel(myCarouselElement, {
+      interval: 2000,
+      touch: false
+    })
+</script>
+-->
+<script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+<script>
+$('.product-slide').slick({
+    dots: true,
+    infinite: false,
+    arrows: true,
+    speed: 300,
+    slidesToShow: 6,
+    slidesToScroll: 6,
+    responsive: [
+        {
+            breakpoint: 1600, // Bigscreen resolutions
+            settings: {
+                slidesToShow: 6,
+                slidesToScroll: 6,
+                infinite: true,
+                dots: true
+            }
+        },
+        {
+            breakpoint: 1024,
+            settings: {
+                slidesToShow: 3,
+                slidesToScroll: 3,
+                infinite: true,
+                dots: true
+            }
+        },
+        {
+            breakpoint: 600,
+            settings: {
+                slidesToShow: 2,
+                slidesToScroll: 2
+            }
+        },
+        {
+            breakpoint: 480,
+            settings: {
+                slidesToShow: 1,
+                slidesToScroll: 1
+            }
+        }
+        // You can unslick at a given breakpoint now by adding:
+        // settings: "unslick"
+        // instead of a settings object
+    ]
+});
+</script>
+<script type="module" src="https://static.lowellbooks.com/js/whatsapp-icon-component/src/WhatsAppIcon.js"></script>
+<!-- Cookie Consent by TermsFeed https://www.TermsFeed.com -->
+<script type="text/javascript" src="https://www.termsfeed.com/public/cookie-consent/4.2.0/cookie-consent.js" charset="UTF-8"></script>
+<script type="text/javascript" charset="UTF-8">
+document.addEventListener('DOMContentLoaded', function () {
+cookieconsent.run({"notice_banner_type":"simple","consent_type":"express","palette":"dark","language":"en","page_load_consent_levels":["strictly-necessary"],"notice_banner_reject_button_hide":false,"preferences_center_close_button_hide":false,"page_refresh_confirmation_buttons":false,"website_name":"Lowell Books","website_privacy_policy_url":"https://lowellbooks.com/privacy-policy"});
+});
+</script>
+<noscript>Free cookie consent management tool by <a href="https://www.termsfeed.com/">TermsFeed</a></noscript>
+<!-- End Cookie Consent by TermsFeed https://www.TermsFeed.com -->
+<script type="module" src="https://static.cloudflareinsights.com/beacon.min.js/v31edd6df95cf4e85bb4c19e7a9bdbcba1788362987495" integrity="sha512-iIg7k2xntmwu6/uSb5tpc/hySgZc4eoL31yB29W6tJFo2akwjPWcEqnCEdJvGexCL0KEQwVYv5BlowfhVz26hg==" data-cf-beacon='{"version":"2024.11.0","token":"9a8b679801af465d87ae60c6c141a3f8","r":1,"spa":2}' crossorigin="anonymous"></script>
+<script>(function(){function c(){var b=a.contentDocument||(a.contentWindow&&a.contentWindow.document);if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'a405574dcd7399a0',t:'MTc5MDI5MDE1Mg=='};var a=document.createElement('script');a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script></body>
+</html>

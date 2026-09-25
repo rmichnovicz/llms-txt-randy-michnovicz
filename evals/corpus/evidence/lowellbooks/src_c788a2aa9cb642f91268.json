@@ -1,0 +1,16 @@
+{
+  "url": "https://lowellbooks.com/search",
+  "retrieved_at": "2026-09-24T22:49:18.135052+00:00",
+  "source": {
+    "id": "src_c788a2aa9cb642f91268",
+    "url": "https://lowellbooks.com/search/",
+    "title": "Search results",
+    "description": "Online Boutique BookStore",
+    "content": "Search results\nShowing recent books:\nFilter\nKPop Demon Hunters\nCouch, Couch, Colour!: Official Colouring Book\n            KPop Demon Hunters\n        \n        \n        \n            Paperback\n        \n        \n        \n        \n            \n                Published:\n                2026",
+    "markdownUrl": null
+  },
+  "status": 200,
+  "final_url": "https://lowellbooks.com/search/",
+  "sha256": "2fd3c3007f0c564cc507436e350f352579d508e62bc5ec0dff25c54dda0ff6ba",
+  "content_type": "text/html; charset=utf-8"
+}

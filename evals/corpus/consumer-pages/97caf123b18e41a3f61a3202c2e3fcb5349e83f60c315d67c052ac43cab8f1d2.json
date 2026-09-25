@@ -1,0 +1,155 @@
+{
+  "url": "https://www.fastht.ml/docs/ref/live_reload.html",
+  "title": "Live Reloading – fasthtml",
+  "content": "When building your app it can be useful to view your changes in a web browser as you make them. FastHTML supports live reloading which means that it watches for any changes to your code and automatically refreshes the webpage in your browser.\nTo enable live reloading simply replace FastHTML in your app with FastHTMLWithLiveReload.\nfrom fasthtml.common import *\napp = FastHTMLWithLiveReload()\nThen in your terminal run uvicorn with reloading enabled.\nuvicorn main:app --reload\n⚠️ Gotchas - A reload is only triggered when you save your changes. - FastHTMLWithLiveReload should only be used during development. - If your app spans multiple directories you might need to use the --reload-dir flag to watch all files in each directory. See the uvicorn docs for more info. - The live reload script is only injected into the page when rendering ft components.\nLive reloading with fast_app\nIn development the fast_app function provides the same functionality. It instantiates the FastHTMLWithLiveReload class if you pass live=True:\n- 1\n- \nfast_app() instantiates theFastHTMLWithLiveReload class.\n- 2\n- \nserve() is a wrapper around auvicorn call.\nTo run main.py in live reload mode, just do python main.py. We recommend turning off live reload when deploying your app to production.",
+  "links": [
+    {
+      "url": "https://www.fastht.ml/docs/ref/concise_guide.html",
+      "label": "Reference"
+    },
+    {
+      "url": "https://www.fastht.ml/docs/ref/live_reload.html",
+      "label": "Live Reloading"
+    },
+    {
+      "url": "https://www.fastht.ml/docs/api/core.html",
+      "label": "Core"
+    },
+    {
+      "url": "https://www.uvicorn.org/settings/",
+      "label": "docs"
+    },
+    {
+      "url": "https://www.fastht.ml/docs/explains/explaining_xt_components.html",
+      "label": "FT  Components"
+    },
+    {
+      "url": "https://www.fastht.ml/docs/index.html",
+      "label": ""
+    },
+    {
+      "url": "https://fastht.ml/",
+      "label": "Home"
+    },
+    {
+      "url": "https://fastht.ml/about",
+      "label": "Learn"
+    },
+    {
+      "url": "https://github.com/answerdotai/fasthtml",
+      "label": ""
+    },
+    {
+      "url": "https://x.com/answerdotai",
+      "label": ""
+    },
+    {
+      "url": "https://www.fastht.ml/docs/tutorials/index.html",
+      "label": "Tutorials"
+    },
+    {
+      "url": "https://www.fastht.ml/docs/tutorials/by_example.html",
+      "label": "FastHTML By Example"
+    },
+    {
+      "url": "https://www.fastht.ml/docs/tutorials/quickstart_for_web_devs.html",
+      "label": "Web Devs Quickstart"
+    },
+    {
+      "url": "https://www.fastht.ml/docs/tutorials/e2e.html",
+      "label": "JS App Walkthrough"
+    },
+    {
+      "url": "https://www.fastht.ml/docs/tutorials/jupyter_and_fasthtml.html",
+      "label": "Using Jupyter to write FastHTML"
+    },
+    {
+      "url": "https://www.fastht.ml/docs/explains/background_tasks.html",
+      "label": "Background Tasks"
+    },
+    {
+      "url": "https://www.fastht.ml/docs/explains/faq.html",
+      "label": "FAQ"
+    },
+    {
+      "url": "https://www.fastht.ml/docs/explains/minidataapi.html",
+      "label": "MiniDataAPI Spec"
+    },
+    {
+      "url": "https://www.fastht.ml/docs/explains/oauth.html",
+      "label": "OAuth"
+    },
+    {
+      "url": "https://www.fastht.ml/docs/explains/routes.html",
+      "label": "Routes"
+    },
+    {
+      "url": "https://www.fastht.ml/docs/explains/stripe.html",
+      "label": "Stripe"
+    },
+    {
+      "url": "https://www.fastht.ml/docs/explains/websockets.html",
+      "label": "WebSockets"
+    },
+    {
+      "url": "https://www.fastht.ml/docs/ref/best_practice.html",
+      "label": "FastHTML Best Practices"
+    },
+    {
+      "url": "https://www.fastht.ml/docs/ref/defining_xt_component.html",
+      "label": "Custom Components"
+    },
+    {
+      "url": "https://www.fastht.ml/docs/ref/handlers.html",
+      "label": "Handling handlers"
+    },
+    {
+      "url": "https://www.fastht.ml/docs/ref/response_types.html",
+      "label": "Response Types"
+    },
+    {
+      "url": "https://www.fastht.ml/docs/api/components.html",
+      "label": "Components"
+    },
+    {
+      "url": "https://www.fastht.ml/docs/api/xtend.html",
+      "label": "Component extensions"
+    },
+    {
+      "url": "https://www.fastht.ml/docs/api/js.html",
+      "label": "Javascript examples"
+    },
+    {
+      "url": "https://www.fastht.ml/docs/api/pico.html",
+      "label": "Pico.css components"
+    },
+    {
+      "url": "https://www.fastht.ml/docs/api/svg.html",
+      "label": "SVG"
+    },
+    {
+      "url": "https://www.fastht.ml/docs/api/jupyter.html",
+      "label": "Jupyter compatibility"
+    },
+    {
+      "url": "https://www.fastht.ml/docs/api/oauth.html",
+      "label": "OAuth"
+    },
+    {
+      "url": "https://www.fastht.ml/docs/api/cli.html",
+      "label": "Command Line Tools"
+    },
+    {
+      "url": "https://github.com/AnswerDotAI/fasthtml/issues/new",
+      "label": "Report an issue"
+    },
+    {
+      "url": "https://www.fastht.ml/docs/ref/live_reload.html.md",
+      "label": "CommonMark"
+    }
+  ],
+  "body_sha256": "1184e986fce44da578230dfe4976feb4286e94f270890fd66994843b760d7ecb",
+  "status": 200,
+  "origin": "live-capture",
+  "retrieved_at": "2026-09-24T23:09:26.730225+00:00"
+}

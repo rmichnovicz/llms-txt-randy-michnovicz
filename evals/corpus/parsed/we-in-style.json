@@ -1,0 +1,208 @@
+{
+  "parser_version": "corpus-v2",
+  "headings": [
+    {
+      "level": 1,
+      "text": "Agent Instructions — WE IN STYLE",
+      "line": 1
+    },
+    {
+      "level": 2,
+      "text": "For Personal Shopping Assistants and Agents Acting On Behalf of a User",
+      "line": 5
+    },
+    {
+      "level": 2,
+      "text": "Commerce Protocol (UCP)",
+      "line": 23
+    },
+    {
+      "level": 3,
+      "text": "Typical Agent Flow",
+      "line": 30
+    },
+    {
+      "level": 3,
+      "text": "Supported UCP Versions",
+      "line": 39
+    },
+    {
+      "level": 3,
+      "text": "Important Rules",
+      "line": 44
+    },
+    {
+      "level": 2,
+      "text": "Read-Only Browsing (No Authentication Required)",
+      "line": 52
+    },
+    {
+      "level": 3,
+      "text": "Product Data",
+      "line": 56
+    },
+    {
+      "level": 3,
+      "text": "Store Metadata",
+      "line": 64
+    },
+    {
+      "level": 2,
+      "text": "Store Policies",
+      "line": 69
+    },
+    {
+      "level": 2,
+      "text": "Platform",
+      "line": 78
+    }
+  ],
+  "links": [
+    {
+      "label": "https://shop.app/SKILL.md",
+      "url": "https://shop.app/SKILL.md",
+      "canonical": "https://shop.app/SKILL.md",
+      "raw_url": "https://shop.app/SKILL.md",
+      "description": "",
+      "line": 7
+    },
+    {
+      "label": "Universal Commerce Protocol",
+      "url": "https://ucp.dev",
+      "canonical": "https://ucp.dev/",
+      "raw_url": "https://ucp.dev",
+      "description": "",
+      "line": 25
+    },
+    {
+      "label": "https://shop.app/SKILL.md",
+      "url": "https://shop.app/SKILL.md",
+      "canonical": "https://shop.app/SKILL.md",
+      "raw_url": "https://shop.app/SKILL.md",
+      "description": "",
+      "line": 46
+    },
+    {
+      "label": "Shopify",
+      "url": "https://www.shopify.com",
+      "canonical": "https://www.shopify.com/",
+      "raw_url": "https://www.shopify.com",
+      "description": "",
+      "line": 80
+    },
+    {
+      "label": "https://shop.app/SKILL.md",
+      "url": "https://shop.app/SKILL.md",
+      "canonical": "https://shop.app/SKILL.md",
+      "raw_url": "https://shop.app/SKILL.md",
+      "description": "",
+      "line": 80
+    }
+  ],
+  "bare_links": [
+    {
+      "url": "https://we-in-style.com",
+      "label": "This document describes how AI agents can interact with WE IN STYLE's online store at https://we-in-style.com.",
+      "description": "",
+      "line": 3,
+      "canonical": "https://we-in-style.com",
+      "raw_url": "https://we-in-style.com"
+    },
+    {
+      "url": "https://shop.app/SKILL.md`",
+      "label": "The Shop skill (`https://shop.app/SKILL.md`) is the recommended way for browser-using agents, \"buy-for-me\"",
+      "description": "",
+      "line": 12,
+      "canonical": "https://shop.app/SKILL.md`",
+      "raw_url": "https://shop.app/SKILL.md`"
+    },
+    {
+      "url": "https://we-in-style.com/.well-known/ucp`",
+      "label": "- **Discovery** — `GET https://we-in-style.com/.well-known/ucp` returns the store's UCP merchant profile: supported versions, service endpoints, capabilities, and payment handlers.",
+      "description": "",
+      "line": 27,
+      "canonical": "https://we-in-style.com/.well-known/ucp`",
+      "raw_url": "https://we-in-style.com/.well-known/ucp`"
+    },
+    {
+      "url": "https://we-in-style.com/api/ucp/mcp`",
+      "label": "- **MCP endpoint** — `POST https://we-in-style.com/api/ucp/mcp` with `Content-Type: application/json`. Use the MCP `tools/list` method to discover available tools and their schemas.",
+      "description": "",
+      "line": 28,
+      "canonical": "https://we-in-style.com/api/ucp/mcp`",
+      "raw_url": "https://we-in-style.com/api/ucp/mcp`"
+    },
+    {
+      "url": "https://we-in-style.com/policies/privacy-policy",
+      "label": "- **Privacy policy**: https://we-in-style.com/policies/privacy-policy",
+      "description": "",
+      "line": 70,
+      "canonical": "https://we-in-style.com/policies/privacy-policy",
+      "raw_url": "https://we-in-style.com/policies/privacy-policy"
+    },
+    {
+      "url": "https://we-in-style.com/policies/terms-of-service",
+      "label": "- **Terms of service**: https://we-in-style.com/policies/terms-of-service",
+      "description": "",
+      "line": 71,
+      "canonical": "https://we-in-style.com/policies/terms-of-service",
+      "raw_url": "https://we-in-style.com/policies/terms-of-service"
+    },
+    {
+      "url": "https://we-in-style.com/policies/refund-policy",
+      "label": "- **Refund policy**: https://we-in-style.com/policies/refund-policy",
+      "description": "",
+      "line": 72,
+      "canonical": "https://we-in-style.com/policies/refund-policy",
+      "raw_url": "https://we-in-style.com/policies/refund-policy"
+    },
+    {
+      "url": "https://we-in-style.com/policies/shipping-policy",
+      "label": "- **Shipping policy**: https://we-in-style.com/policies/shipping-policy",
+      "description": "",
+      "line": 73,
+      "canonical": "https://we-in-style.com/policies/shipping-policy",
+      "raw_url": "https://we-in-style.com/policies/shipping-policy"
+    },
+    {
+      "url": "https://www.shopify.com/start",
+      "label": "- Start your own store: https://www.shopify.com/start",
+      "description": "",
+      "line": 84,
+      "canonical": "https://www.shopify.com/start",
+      "raw_url": "https://www.shopify.com/start"
+    },
+    {
+      "url": "https://shopify.dev",
+      "label": "- Shopify developer platform: https://shopify.dev",
+      "description": "",
+      "line": 85,
+      "canonical": "https://shopify.dev",
+      "raw_url": "https://shopify.dev"
+    },
+    {
+      "url": "https://mock.shop",
+      "label": "- Build and test against sample data: https://mock.shop (free mock Storefront GraphQL API, no store or auth needed)",
+      "description": "",
+      "line": 86,
+      "canonical": "https://mock.shop",
+      "raw_url": "https://mock.shop"
+    }
+  ],
+  "metrics": {
+    "bytes": 4503,
+    "words": 568,
+    "lines": 88,
+    "approx_tokens_chars_div_4": 1121,
+    "h1_count": 1,
+    "link_count": 5,
+    "bare_url_count": 11,
+    "described_links": 0,
+    "unique_destinations": 3,
+    "markdown_destinations": 3
+  },
+  "flags": [
+    "duplicate-destinations-review",
+    "sparse-link-descriptions"
+  ]
+}

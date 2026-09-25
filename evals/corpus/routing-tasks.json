@@ -1,0 +1,1104 @@
+[
+  {
+    "id": "stripe-1",
+    "file_id": "stripe",
+    "category": "developer-docs",
+    "split": "development",
+    "query": "How do I verify webhook signatures?",
+    "acceptable_urls": [
+      "https://docs.stripe.com/climate/orders/webhooks.md",
+      "https://docs.stripe.com/connect/webhooks.md",
+      "https://docs.stripe.com/webhooks.md"
+    ],
+    "rationale": "A published entry point directly addressing the requested task; routing relevance only, not verification of destination facts."
+  },
+  {
+    "id": "stripe-2",
+    "file_id": "stripe",
+    "category": "developer-docs",
+    "split": "development",
+    "query": "How can I test payments without real money?",
+    "acceptable_urls": [
+      "https://docs.stripe.com/financial-connections/testing.md",
+      "https://docs.stripe.com/invoicing/integration/testing.md",
+      "https://docs.stripe.com/issuing/testing.md",
+      "https://docs.stripe.com/radar/testing.md",
+      "https://docs.stripe.com/sandboxes.md",
+      "https://docs.stripe.com/tax/testing.md",
+      "https://docs.stripe.com/testing.md"
+    ],
+    "rationale": "A published entry point directly addressing the requested task; routing relevance only, not verification of destination facts."
+  },
+  {
+    "id": "cloudflare-1",
+    "file_id": "cloudflare",
+    "category": "developer-docs",
+    "split": "development",
+    "query": "Where do I deploy serverless application code?",
+    "acceptable_urls": [
+      "https://developers.cloudflare.com/workers/llms.txt"
+    ],
+    "rationale": "A published entry point directly addressing the requested task; routing relevance only, not verification of destination facts."
+  },
+  {
+    "id": "cloudflare-2",
+    "file_id": "cloudflare",
+    "category": "developer-docs",
+    "split": "development",
+    "query": "Where is the relational SQL database documentation?",
+    "acceptable_urls": [
+      "https://developers.cloudflare.com/d1/llms.txt"
+    ],
+    "rationale": "A published entry point directly addressing the requested task; routing relevance only, not verification of destination facts."
+  },
+  {
+    "id": "anthropic-1",
+    "file_id": "anthropic",
+    "category": "developer-docs",
+    "split": "development",
+    "query": "How do I send my first API request?",
+    "acceptable_urls": [
+      "https://platform.claude.com/docs/en/agents-and-tools/agent-skills/quickstart.md",
+      "https://platform.claude.com/docs/en/agents-and-tools/mcp-tunnels/quickstart.md",
+      "https://platform.claude.com/docs/en/cli-sdks-libraries/cli/quickstart.md",
+      "https://platform.claude.com/docs/en/get-started.md",
+      "https://platform.claude.com/docs/en/managed-agents/quickstart.md"
+    ],
+    "rationale": "A published entry point directly addressing the requested task; routing relevance only, not verification of destination facts."
+  },
+  {
+    "id": "anthropic-2",
+    "file_id": "anthropic",
+    "category": "developer-docs",
+    "split": "development",
+    "query": "How do prompt caching and cache reads work?",
+    "acceptable_urls": [
+      "https://platform.claude.com/docs/en/agents-and-tools/tool-use/tool-use-with-prompt-caching.md",
+      "https://platform.claude.com/docs/en/build-with-claude/prompt-caching.md"
+    ],
+    "rationale": "A published entry point directly addressing the requested task; routing relevance only, not verification of destination facts."
+  },
+  {
+    "id": "nextjs-1",
+    "file_id": "nextjs",
+    "category": "developer-docs",
+    "split": "development",
+    "query": "How do I deploy a Next.js app?",
+    "acceptable_urls": [
+      "https://nextjs.org/docs/app/getting-started/deploying",
+      "https://nextjs.org/docs/app/guides/deploying-to-platforms"
+    ],
+    "rationale": "A published entry point directly addressing the requested task; routing relevance only, not verification of destination facts."
+  },
+  {
+    "id": "nextjs-2",
+    "file_id": "nextjs",
+    "category": "developer-docs",
+    "split": "development",
+    "query": "How do I install a new application?",
+    "acceptable_urls": [
+      "https://nextjs.org/docs/app/getting-started/installation"
+    ],
+    "rationale": "A published entry point directly addressing the requested task; routing relevance only, not verification of destination facts."
+  },
+  {
+    "id": "svelte-1",
+    "file_id": "svelte",
+    "category": "developer-docs",
+    "split": "development",
+    "query": "I have a small context budget; which documentation should I load?",
+    "acceptable_urls": [
+      "https://svelte.dev/llms-small.txt"
+    ],
+    "rationale": "A published entry point directly addressing the requested task; routing relevance only, not verification of destination facts."
+  },
+  {
+    "id": "svelte-2",
+    "file_id": "svelte",
+    "category": "developer-docs",
+    "split": "development",
+    "query": "I need SvelteKit-specific documentation.",
+    "acceptable_urls": [
+      "https://svelte.dev/docs/kit/llms.txt"
+    ],
+    "rationale": "A published entry point directly addressing the requested task; routing relevance only, not verification of destination facts."
+  },
+  {
+    "id": "vite-1",
+    "file_id": "vite",
+    "category": "developer-docs",
+    "split": "development",
+    "query": "How do I configure the development server?",
+    "acceptable_urls": [
+      "https://vite.dev/config/server-options.md"
+    ],
+    "rationale": "A published entry point directly addressing the requested task; routing relevance only, not verification of destination facts."
+  },
+  {
+    "id": "vite-2",
+    "file_id": "vite",
+    "category": "developer-docs",
+    "split": "development",
+    "query": "How do I migrate an older application?",
+    "acceptable_urls": [
+      "https://vite.dev/guide/migration.md"
+    ],
+    "rationale": "A published entry point directly addressing the requested task; routing relevance only, not verification of destination facts."
+  },
+  {
+    "id": "fasthtml-1",
+    "file_id": "fasthtml",
+    "category": "developer-docs",
+    "split": "development",
+    "query": "I am new; where is a concise introduction?",
+    "acceptable_urls": [
+      "https://www.fastht.ml/docs/ref/concise_guide.html.md"
+    ],
+    "rationale": "A published entry point directly addressing the requested task; routing relevance only, not verification of destination facts."
+  },
+  {
+    "id": "fasthtml-2",
+    "file_id": "fasthtml",
+    "category": "developer-docs",
+    "split": "development",
+    "query": "How does live reloading work?",
+    "acceptable_urls": [
+      "https://www.fastht.ml/docs/ref/live_reload.html.md"
+    ],
+    "rationale": "A published entry point directly addressing the requested task; routing relevance only, not verification of destination facts."
+  },
+  {
+    "id": "llmstxt-1",
+    "file_id": "llmstxt",
+    "category": "developer-docs",
+    "split": "holdout",
+    "query": "Where is the file format defined?",
+    "acceptable_urls": [
+      "https://llmstxt.org/index.md"
+    ],
+    "rationale": "A published entry point directly addressing the requested task; routing relevance only, not verification of destination facts."
+  },
+  {
+    "id": "llmstxt-2",
+    "file_id": "llmstxt",
+    "category": "developer-docs",
+    "split": "holdout",
+    "query": "Where is the Python parser documented?",
+    "acceptable_urls": [
+      "https://llmstxt.org/intro.html.md"
+    ],
+    "rationale": "A published entry point directly addressing the requested task; routing relevance only, not verification of destination facts."
+  },
+  {
+    "id": "framer-1",
+    "file_id": "framer",
+    "category": "saas",
+    "split": "development",
+    "query": "What do plans cost and what are their limits?",
+    "acceptable_urls": [
+      "https://www.framer.com/pricing?md"
+    ],
+    "rationale": "A published entry point directly addressing the requested task; routing relevance only, not verification of destination facts."
+  },
+  {
+    "id": "framer-2",
+    "file_id": "framer",
+    "category": "saas",
+    "split": "development",
+    "query": "How can an external coding assistant work inside my project?",
+    "acceptable_urls": [
+      "https://www.framer.com/agents/external/?md"
+    ],
+    "rationale": "A published entry point directly addressing the requested task; routing relevance only, not verification of destination facts."
+  },
+  {
+    "id": "taskade-1",
+    "file_id": "taskade",
+    "category": "saas",
+    "split": "development",
+    "query": "How do I authenticate API calls?",
+    "acceptable_urls": [
+      "https://www.taskade.com/docs/getting-started/authentication"
+    ],
+    "rationale": "A published entry point directly addressing the requested task; routing relevance only, not verification of destination facts."
+  },
+  {
+    "id": "taskade-2",
+    "file_id": "taskade",
+    "category": "saas",
+    "split": "development",
+    "query": "Which MCP integration should I use?",
+    "acceptable_urls": [
+      "https://www.taskade.com/docs/mcp/which-mcp"
+    ],
+    "rationale": "A published entry point directly addressing the requested task; routing relevance only, not verification of destination facts."
+  },
+  {
+    "id": "tidio-1",
+    "file_id": "tidio",
+    "category": "saas",
+    "split": "development",
+    "query": "What does the support product cost?",
+    "acceptable_urls": [
+      "https://www.tidio.com/pricing/"
+    ],
+    "rationale": "A published entry point directly addressing the requested task; routing relevance only, not verification of destination facts."
+  },
+  {
+    "id": "tidio-2",
+    "file_id": "tidio",
+    "category": "saas",
+    "split": "development",
+    "query": "Where can I try the AI agent before buying?",
+    "acceptable_urls": [
+      "https://www.tidio.com/ai-agent/playground/"
+    ],
+    "rationale": "A published entry point directly addressing the requested task; routing relevance only, not verification of destination facts."
+  },
+  {
+    "id": "mailmodo-1",
+    "file_id": "mailmodo",
+    "category": "saas",
+    "split": "development",
+    "query": "Where is current product pricing?",
+    "acceptable_urls": [],
+    "rationale": "A published entry point directly addressing the requested task; routing relevance only, not verification of destination facts."
+  },
+  {
+    "id": "mailmodo-2",
+    "file_id": "mailmodo",
+    "category": "saas",
+    "split": "development",
+    "query": "Where can I read about email automation?",
+    "acceptable_urls": [
+      "https://www.mailmodo.com/docs/features/email-automation-platform.md"
+    ],
+    "rationale": "A published entry point directly addressing the requested task; routing relevance only, not verification of destination facts."
+  },
+  {
+    "id": "picflow-1",
+    "file_id": "picflow",
+    "category": "saas",
+    "split": "holdout",
+    "query": "How much does this photo review service cost?",
+    "acceptable_urls": [
+      "https://picflow.com/pricing"
+    ],
+    "rationale": "A published entry point directly addressing the requested task; routing relevance only, not verification of destination facts."
+  },
+  {
+    "id": "picflow-2",
+    "file_id": "picflow",
+    "category": "saas",
+    "split": "holdout",
+    "query": "How do I install the Lightroom integration?",
+    "acceptable_urls": [
+      "https://help.picflow.com/en/articles/8587606-how-to-install-the-lightroom-plugin"
+    ],
+    "rationale": "A published entry point directly addressing the requested task; routing relevance only, not verification of destination facts."
+  },
+  {
+    "id": "carparts-1",
+    "file_id": "carparts",
+    "category": "ecommerce",
+    "split": "development",
+    "query": "Where are the return rules?",
+    "acceptable_urls": [
+      "https://help.carparts.com/en_us/need-to-return-an-item-r1yr91ReC"
+    ],
+    "rationale": "A published entry point directly addressing the requested task; routing relevance only, not verification of destination facts."
+  },
+  {
+    "id": "carparts-2",
+    "file_id": "carparts",
+    "category": "ecommerce",
+    "split": "development",
+    "query": "Where can I shop for headlights?",
+    "acceptable_urls": [
+      "https://www.carparts.com/headlights-and-lighting",
+      "https://www.carparts.com/headlights-components-and-accessories"
+    ],
+    "rationale": "A published entry point directly addressing the requested task; routing relevance only, not verification of destination facts."
+  },
+  {
+    "id": "lowellbooks-1",
+    "file_id": "lowellbooks",
+    "category": "ecommerce",
+    "split": "development",
+    "query": "Where can I search for a book?",
+    "acceptable_urls": [
+      "https://lowellbooks.com/search"
+    ],
+    "rationale": "A published entry point directly addressing the requested task; routing relevance only, not verification of destination facts."
+  },
+  {
+    "id": "lowellbooks-2",
+    "file_id": "lowellbooks",
+    "category": "ecommerce",
+    "split": "development",
+    "query": "Where are computer programming books?",
+    "acceptable_urls": [
+      "https://lowellbooks.com/category/computer-programming-software-engineering/"
+    ],
+    "rationale": "A published entry point directly addressing the requested task; routing relevance only, not verification of destination facts."
+  },
+  {
+    "id": "we-in-style-1",
+    "file_id": "we-in-style",
+    "category": "ecommerce",
+    "split": "holdout",
+    "query": "Where are refund terms?",
+    "acceptable_urls": [
+      "https://we-in-style.com/policies/refund-policy"
+    ],
+    "rationale": "A published entry point directly addressing the requested task; routing relevance only, not verification of destination facts."
+  },
+  {
+    "id": "we-in-style-2",
+    "file_id": "we-in-style",
+    "category": "ecommerce",
+    "split": "holdout",
+    "query": "Where are delivery policies?",
+    "acceptable_urls": [
+      "https://we-in-style.com/policies/shipping-policy"
+    ],
+    "rationale": "A published entry point directly addressing the requested task; routing relevance only, not verification of destination facts."
+  },
+  {
+    "id": "mollieaspen-1",
+    "file_id": "mollieaspen",
+    "category": "hospitality",
+    "split": "development",
+    "query": "What accommodation can I book?",
+    "acceptable_urls": [
+      "https://mollieaspen.com/rooms/"
+    ],
+    "rationale": "A published entry point directly addressing the requested task; routing relevance only, not verification of destination facts."
+  },
+  {
+    "id": "mollieaspen-2",
+    "file_id": "mollieaspen",
+    "category": "hospitality",
+    "split": "development",
+    "query": "Where can I see dining options?",
+    "acceptable_urls": [
+      "https://mollieaspen.com/dine-drink/"
+    ],
+    "rationale": "A published entry point directly addressing the requested task; routing relevance only, not verification of destination facts."
+  },
+  {
+    "id": "thebrando-1",
+    "file_id": "thebrando",
+    "category": "hospitality",
+    "split": "development",
+    "query": "What activities can visitors do?",
+    "acceptable_urls": [
+      "https://thebrando.com/experiences/"
+    ],
+    "rationale": "A published entry point directly addressing the requested task; routing relevance only, not verification of destination facts."
+  },
+  {
+    "id": "thebrando-2",
+    "file_id": "thebrando",
+    "category": "hospitality",
+    "split": "development",
+    "query": "How do I contact the resort?",
+    "acceptable_urls": [
+      "https://thebrando.com/contact/"
+    ],
+    "rationale": "A published entry point directly addressing the requested task; routing relevance only, not verification of destination facts."
+  },
+  {
+    "id": "afterhoursplumbing-1",
+    "file_id": "afterhoursplumbing",
+    "category": "local-services",
+    "split": "development",
+    "query": "How do I contact a plumber?",
+    "acceptable_urls": [
+      "https://afterhoursplumbing.com.au/contact/",
+      "https://afterhoursplumbing.com.au/services/24-hour-emergency-plumbing/"
+    ],
+    "rationale": "A published entry point directly addressing the requested task; routing relevance only, not verification of destination facts."
+  },
+  {
+    "id": "afterhoursplumbing-2",
+    "file_id": "afterhoursplumbing",
+    "category": "local-services",
+    "split": "development",
+    "query": "Where is help for a blocked drain?",
+    "acceptable_urls": [
+      "https://afterhoursplumbing.com.au/services/blocked-pipes-and-drains/"
+    ],
+    "rationale": "A published entry point directly addressing the requested task; routing relevance only, not verification of destination facts."
+  },
+  {
+    "id": "bensplumbing-1",
+    "file_id": "bensplumbing",
+    "category": "local-services",
+    "split": "development",
+    "query": "Where is the complete technical business profile?",
+    "acceptable_urls": [
+      "https://bens.plumbing/llms-full.txt"
+    ],
+    "rationale": "A published entry point directly addressing the requested task; routing relevance only, not verification of destination facts."
+  },
+  {
+    "id": "salazarroofing-1",
+    "file_id": "salazarroofing",
+    "category": "local-services",
+    "split": "development",
+    "query": "Do you work on commercial roofs?",
+    "acceptable_urls": [
+      "https://www.salazarroofing.com/commercial-roofing-contractors-okc"
+    ],
+    "rationale": "A published entry point directly addressing the requested task; routing relevance only, not verification of destination facts."
+  },
+  {
+    "id": "salazarroofing-2",
+    "file_id": "salazarroofing",
+    "category": "local-services",
+    "split": "development",
+    "query": "Where do you operate?",
+    "acceptable_urls": [
+      "https://www.salazarroofing.com/locations"
+    ],
+    "rationale": "A published entry point directly addressing the requested task; routing relevance only, not verification of destination facts."
+  },
+  {
+    "id": "neonelectrical-1",
+    "file_id": "neonelectrical",
+    "category": "local-services",
+    "split": "holdout",
+    "query": "Where can I verify qualifications?",
+    "acceptable_urls": [
+      "https://www.neonelectrical.co.nz/qualifications/"
+    ],
+    "rationale": "A published entry point directly addressing the requested task; routing relevance only, not verification of destination facts."
+  },
+  {
+    "id": "neonelectrical-2",
+    "file_id": "neonelectrical",
+    "category": "local-services",
+    "split": "holdout",
+    "query": "How can I contact the electrician?",
+    "acceptable_urls": [
+      "https://www.neonelectrical.co.nz/contact/"
+    ],
+    "rationale": "A published entry point directly addressing the requested task; routing relevance only, not verification of destination facts."
+  },
+  {
+    "id": "tau-1",
+    "file_id": "tau",
+    "category": "education",
+    "split": "development",
+    "query": "What are the tuition fees?",
+    "acceptable_urls": [
+      "https://tau.edu.gy/tuition-and-aid/"
+    ],
+    "rationale": "A published entry point directly addressing the requested task; routing relevance only, not verification of destination facts."
+  },
+  {
+    "id": "tau-2",
+    "file_id": "tau",
+    "category": "education",
+    "split": "development",
+    "query": "What recognition does the institution claim?",
+    "acceptable_urls": [
+      "https://tau.edu.gy/accreditation-and-recognition/"
+    ],
+    "rationale": "A published entry point directly addressing the requested task; routing relevance only, not verification of destination facts."
+  },
+  {
+    "id": "samiolearning-1",
+    "file_id": "samiolearning",
+    "category": "education",
+    "split": "development",
+    "query": "What safeguards cover children in schools?",
+    "acceptable_urls": [
+      "https://samiolearning.com/schools/privacy"
+    ],
+    "rationale": "A published entry point directly addressing the requested task; routing relevance only, not verification of destination facts."
+  },
+  {
+    "id": "samiolearning-2",
+    "file_id": "samiolearning",
+    "category": "education",
+    "split": "development",
+    "query": "Where is the teacher interface?",
+    "acceptable_urls": [
+      "https://samiolearning.com/schools/teacher-dashboard"
+    ],
+    "rationale": "A published entry point directly addressing the requested task; routing relevance only, not verification of destination facts."
+  },
+  {
+    "id": "filmconnection-1",
+    "file_id": "filmconnection",
+    "category": "education",
+    "split": "development",
+    "query": "What does the apprenticeship cost?",
+    "acceptable_urls": [
+      "https://filmconnection.com/film-school-tuition/"
+    ],
+    "rationale": "A published entry point directly addressing the requested task; routing relevance only, not verification of destination facts."
+  },
+  {
+    "id": "filmconnection-2",
+    "file_id": "filmconnection",
+    "category": "education",
+    "split": "development",
+    "query": "Where can I study?",
+    "acceptable_urls": [
+      "https://filmconnection.com/locations/"
+    ],
+    "rationale": "A published entry point directly addressing the requested task; routing relevance only, not verification of destination facts."
+  },
+  {
+    "id": "elitelearning-1",
+    "file_id": "elitelearning",
+    "category": "education",
+    "split": "holdout",
+    "query": "Where is continuing education for California nurses?",
+    "acceptable_urls": [
+      "https://www.elitelearning.com/nursing/california/"
+    ],
+    "rationale": "A published entry point directly addressing the requested task; routing relevance only, not verification of destination facts."
+  },
+  {
+    "id": "elitelearning-2",
+    "file_id": "elitelearning",
+    "category": "education",
+    "split": "holdout",
+    "query": "Where is Florida nursing education?",
+    "acceptable_urls": [
+      "https://www.elitelearning.com/nursing/cna/florida/",
+      "https://www.elitelearning.com/nursing/florida/"
+    ],
+    "rationale": "A published entry point directly addressing the requested task; routing relevance only, not verification of destination facts."
+  },
+  {
+    "id": "uams-1",
+    "file_id": "uams",
+    "category": "health",
+    "split": "development",
+    "query": "Where can I find clinical care rather than academic courses?",
+    "acceptable_urls": [
+      "https://uamshealth.com/llms.txt"
+    ],
+    "rationale": "A published entry point directly addressing the requested task; routing relevance only, not verification of destination facts."
+  },
+  {
+    "id": "uams-2",
+    "file_id": "uams",
+    "category": "health",
+    "split": "development",
+    "query": "Where can I find educational programs?",
+    "acceptable_urls": [
+      "https://medicine.uams.edu/llms.txt"
+    ],
+    "rationale": "A published entry point directly addressing the requested task; routing relevance only, not verification of destination facts."
+  },
+  {
+    "id": "uamshealth-1",
+    "file_id": "uamshealth",
+    "category": "health",
+    "split": "development",
+    "query": "How do I find a doctor?",
+    "acceptable_urls": [
+      "https://uamshealth.com/provider/"
+    ],
+    "rationale": "A published entry point directly addressing the requested task; routing relevance only, not verification of destination facts."
+  },
+  {
+    "id": "uamshealth-2",
+    "file_id": "uamshealth",
+    "category": "health",
+    "split": "development",
+    "query": "Where are care locations?",
+    "acceptable_urls": [
+      "https://uamshealth.com/location/"
+    ],
+    "rationale": "A published entry point directly addressing the requested task; routing relevance only, not verification of destination facts."
+  },
+  {
+    "id": "garydriver-1",
+    "file_id": "garydriver",
+    "category": "health",
+    "split": "development",
+    "query": "Where can I learn about the surgeon?",
+    "acceptable_urls": [
+      "https://www.drgarydriver.com/about-dr-gary-driver/"
+    ],
+    "rationale": "A published entry point directly addressing the requested task; routing relevance only, not verification of destination facts."
+  },
+  {
+    "id": "garydriver-2",
+    "file_id": "garydriver",
+    "category": "health",
+    "split": "development",
+    "query": "Where can I contact the practice?",
+    "acceptable_urls": [
+      "https://www.drgarydriver.com/contact-us/"
+    ],
+    "rationale": "A published entry point directly addressing the requested task; routing relevance only, not verification of destination facts."
+  },
+  {
+    "id": "healthcare-lk-1",
+    "file_id": "healthcare-lk",
+    "category": "health",
+    "split": "holdout",
+    "query": "Where is the privacy policy?",
+    "acceptable_urls": [
+      "https://healthcare.lk/privacy-policy/"
+    ],
+    "rationale": "A published entry point directly addressing the requested task; routing relevance only, not verification of destination facts."
+  },
+  {
+    "id": "healthcare-lk-2",
+    "file_id": "healthcare-lk",
+    "category": "health",
+    "split": "holdout",
+    "query": "How do I request a demo?",
+    "acceptable_urls": [
+      "https://healthcare.lk/request-free-demo/"
+    ],
+    "rationale": "A published entry point directly addressing the requested task; routing relevance only, not verification of destination facts."
+  },
+  {
+    "id": "cake-1",
+    "file_id": "cake",
+    "category": "finance",
+    "split": "development",
+    "query": "Tôi muốn xem phí dịch vụ ngân hàng.",
+    "acceptable_urls": [
+      "https://cake.vn/bieu-phi"
+    ],
+    "rationale": "A published entry point directly addressing the requested task; routing relevance only, not verification of destination facts."
+  },
+  {
+    "id": "cake-2",
+    "file_id": "cake",
+    "category": "finance",
+    "split": "development",
+    "query": "Where is the data privacy policy?",
+    "acceptable_urls": [
+      "https://cake.vn/bao-mat"
+    ],
+    "rationale": "A published entry point directly addressing the requested task; routing relevance only, not verification of destination facts."
+  },
+  {
+    "id": "bitcoin-1",
+    "file_id": "bitcoin",
+    "category": "finance",
+    "split": "holdout",
+    "query": "How do I learn what Bitcoin is?",
+    "acceptable_urls": [
+      "https://www.bitcoin.com/what-is-bitcoin/"
+    ],
+    "rationale": "A published entry point directly addressing the requested task; routing relevance only, not verification of destination facts."
+  },
+  {
+    "id": "bitcoin-2",
+    "file_id": "bitcoin",
+    "category": "finance",
+    "split": "holdout",
+    "query": "Where do I learn about self custody?",
+    "acceptable_urls": [
+      "https://www.bitcoin.com/wallet/bitcoin/"
+    ],
+    "rationale": "A published entry point directly addressing the requested task; routing relevance only, not verification of destination facts."
+  },
+  {
+    "id": "gilesthomas-1",
+    "file_id": "gilesthomas",
+    "category": "publisher-personal",
+    "split": "development",
+    "query": "Where is current information about the author?",
+    "acceptable_urls": [
+      "https://www.gilesthomas.com/about.md"
+    ],
+    "rationale": "A published entry point directly addressing the requested task; routing relevance only, not verification of destination facts."
+  },
+  {
+    "id": "gilesthomas-2",
+    "file_id": "gilesthomas",
+    "category": "publisher-personal",
+    "split": "development",
+    "query": "How does the author use AI for the blog?",
+    "acceptable_urls": [
+      "https://www.gilesthomas.com/2025/02/blogging-in-the-age-of-ai.md",
+      "https://www.gilesthomas.com/2026/07/ai-use.md"
+    ],
+    "rationale": "A published entry point directly addressing the requested task; routing relevance only, not verification of destination facts."
+  },
+  {
+    "id": "ketofocus-1",
+    "file_id": "ketofocus",
+    "category": "publisher-personal",
+    "split": "development",
+    "query": "Where can I browse recipes?",
+    "acceptable_urls": [
+      "https://www.ketofocus.com/recipes/"
+    ],
+    "rationale": "A published entry point directly addressing the requested task; routing relevance only, not verification of destination facts."
+  },
+  {
+    "id": "ketofocus-2",
+    "file_id": "ketofocus",
+    "category": "publisher-personal",
+    "split": "development",
+    "query": "Who created the site?",
+    "acceptable_urls": [
+      "https://www.ketofocus.com/about/"
+    ],
+    "rationale": "A published entry point directly addressing the requested task; routing relevance only, not verification of destination facts."
+  },
+  {
+    "id": "boehs-1",
+    "file_id": "boehs",
+    "category": "publisher-personal",
+    "split": "development",
+    "query": "Where can I browse the author’s blog?",
+    "acceptable_urls": [
+      "https://boehs.org/in/blog"
+    ],
+    "rationale": "A published entry point directly addressing the requested task; routing relevance only, not verification of destination facts."
+  },
+  {
+    "id": "backpackbed-1",
+    "file_id": "backpackbed",
+    "category": "nonprofit-research",
+    "split": "development",
+    "query": "Where is the Australian charity’s main website?",
+    "acceptable_urls": [
+      "https://backpackbed.org/au/"
+    ],
+    "rationale": "A published entry point directly addressing the requested task; routing relevance only, not verification of destination facts."
+  },
+  {
+    "id": "webrecorder-1",
+    "file_id": "webrecorder",
+    "category": "nonprofit-research",
+    "split": "development",
+    "query": "How can I embed an archive on a web page?",
+    "acceptable_urls": [
+      "https://oembed.link/",
+      "https://replayweb.page/docs/embedding/"
+    ],
+    "rationale": "A published entry point directly addressing the requested task; routing relevance only, not verification of destination facts."
+  },
+  {
+    "id": "webrecorder-2",
+    "file_id": "webrecorder",
+    "category": "nonprofit-research",
+    "split": "development",
+    "query": "Where are automated crawler instructions?",
+    "acceptable_urls": [
+      "https://crawler.docs.browsertrix.com/user-guide/",
+      "https://docs.browsertrix.com/user-guide/browser-profiles/",
+      "https://docs.browsertrix.com/user-guide/workflow-setup/"
+    ],
+    "rationale": "A published entry point directly addressing the requested task; routing relevance only, not verification of destination facts."
+  },
+  {
+    "id": "answerai-1",
+    "file_id": "answerai",
+    "category": "nonprofit-research",
+    "split": "development",
+    "query": "What research projects does the lab work on?",
+    "acceptable_urls": [
+      "https://www.answer.ai/overview.md"
+    ],
+    "rationale": "A published entry point directly addressing the requested task; routing relevance only, not verification of destination facts."
+  },
+  {
+    "id": "answerai-2",
+    "file_id": "answerai",
+    "category": "nonprofit-research",
+    "split": "development",
+    "query": "What is the lab’s mission?",
+    "acceptable_urls": [
+      "https://www.answer.ai/posts/2023-12-12-launch.md"
+    ],
+    "rationale": "A published entry point directly addressing the requested task; routing relevance only, not verification of destination facts."
+  },
+  {
+    "id": "transitionzero-1",
+    "file_id": "transitionzero",
+    "category": "nonprofit-research",
+    "split": "holdout",
+    "query": "How do I create my first energy scenario?",
+    "acceptable_urls": [
+      "https://docs.transitionzero.org/platform/creating-a-scenario.md"
+    ],
+    "rationale": "A published entry point directly addressing the requested task; routing relevance only, not verification of destination facts."
+  },
+  {
+    "id": "transitionzero-2",
+    "file_id": "transitionzero",
+    "category": "nonprofit-research",
+    "split": "holdout",
+    "query": "How do I diagnose an infeasible energy model?",
+    "acceptable_urls": [
+      "https://docs.transitionzero.org/platform/infeasibilities.md"
+    ],
+    "rationale": "A published entry point directly addressing the requested task; routing relevance only, not verification of destination facts."
+  },
+  {
+    "id": "trailofbits-1",
+    "file_id": "trailofbits",
+    "category": "professional-services",
+    "split": "development",
+    "query": "Where can I find security reports?",
+    "acceptable_urls": [
+      "https://trailofbits.com/reports/"
+    ],
+    "rationale": "A published entry point directly addressing the requested task; routing relevance only, not verification of destination facts."
+  },
+  {
+    "id": "trailofbits-2",
+    "file_id": "trailofbits",
+    "category": "professional-services",
+    "split": "development",
+    "query": "Where can I browse open source security tools?",
+    "acceptable_urls": [
+      "https://trailofbits.com/tools/"
+    ],
+    "rationale": "A published entry point directly addressing the requested task; routing relevance only, not verification of destination facts."
+  },
+  {
+    "id": "wheelhouse-1",
+    "file_id": "wheelhouse",
+    "category": "professional-services",
+    "split": "development",
+    "query": "How can I contact the agency?",
+    "acceptable_urls": [
+      "https://www.wheelhousedmg.com/contact/"
+    ],
+    "rationale": "A published entry point directly addressing the requested task; routing relevance only, not verification of destination facts."
+  },
+  {
+    "id": "wheelhouse-2",
+    "file_id": "wheelhouse",
+    "category": "professional-services",
+    "split": "development",
+    "query": "Where are examples of previous work?",
+    "acceptable_urls": [
+      "https://www.wheelhousedmg.com/case-studies/",
+      "https://www.wheelhousedmg.com/case-studies/fred-hutch-increasing-awareness-and-donations-for-cancer-research/",
+      "https://www.wheelhousedmg.com/case-studies/medical-device-brand-revenue-growth/",
+      "https://www.wheelhousedmg.com/case-studies/mmm-unlocks-72-net-profit-growth/",
+      "https://www.wheelhousedmg.com/case-studies/navigating-nasas-digital-universe-unlocking-billions/",
+      "https://www.wheelhousedmg.com/case-studies/providence-appointment-bookings-soar-with-one-wheelhouse-approach/",
+      "https://www.wheelhousedmg.com/case-studies/real-time-propensity-modeling-for-medtech/"
+    ],
+    "rationale": "A published entry point directly addressing the requested task; routing relevance only, not verification of destination facts."
+  },
+  {
+    "id": "axelerant-1",
+    "file_id": "axelerant",
+    "category": "professional-services",
+    "split": "development",
+    "query": "Where is company background?",
+    "acceptable_urls": [
+      "https://www.axelerant.com/about"
+    ],
+    "rationale": "A published entry point directly addressing the requested task; routing relevance only, not verification of destination facts."
+  },
+  {
+    "id": "axelerant-2",
+    "file_id": "axelerant",
+    "category": "professional-services",
+    "split": "development",
+    "query": "How does the delivery process work?",
+    "acceptable_urls": [
+      "https://www.axelerant.com/approach"
+    ],
+    "rationale": "A published entry point directly addressing the requested task; routing relevance only, not verification of destination facts."
+  },
+  {
+    "id": "elogic-1",
+    "file_id": "elogic",
+    "category": "professional-services",
+    "split": "holdout",
+    "query": "Where can I verify company background?",
+    "acceptable_urls": [
+      "https://elogic.co/about-us/"
+    ],
+    "rationale": "A published entry point directly addressing the requested task; routing relevance only, not verification of destination facts."
+  },
+  {
+    "id": "elogic-2",
+    "file_id": "elogic",
+    "category": "professional-services",
+    "split": "holdout",
+    "query": "Where can I contact the consultancy?",
+    "acceptable_urls": [
+      "https://elogic.co/contacts/"
+    ],
+    "rationale": "A published entry point directly addressing the requested task; routing relevance only, not verification of destination facts."
+  },
+  {
+    "id": "greyhound-1",
+    "file_id": "greyhound",
+    "category": "directory-travel",
+    "split": "development",
+    "query": "What luggage may I bring?",
+    "acceptable_urls": [
+      "https://www.greyhound.com.au/travel-information/faq"
+    ],
+    "rationale": "A published entry point directly addressing the requested task; routing relevance only, not verification of destination facts."
+  },
+  {
+    "id": "greyhound-2",
+    "file_id": "greyhound",
+    "category": "directory-travel",
+    "split": "development",
+    "query": "How can I cancel a trip?",
+    "acceptable_urls": [
+      "https://www.greyhound.com.au/travel-information/faq"
+    ],
+    "rationale": "A published entry point directly addressing the requested task; routing relevance only, not verification of destination facts."
+  },
+  {
+    "id": "himalayas-1",
+    "file_id": "himalayas",
+    "category": "directory-travel",
+    "split": "development",
+    "query": "Where can I find remote job openings?",
+    "acceptable_urls": [
+      "https://himalayas.app/jobs"
+    ],
+    "rationale": "A published entry point directly addressing the requested task; routing relevance only, not verification of destination facts."
+  },
+  {
+    "id": "himalayas-2",
+    "file_id": "himalayas",
+    "category": "directory-travel",
+    "split": "development",
+    "query": "Where is the agent integration?",
+    "acceptable_urls": [
+      "https://himalayas.app/mcp"
+    ],
+    "rationale": "A published entry point directly addressing the requested task; routing relevance only, not verification of destination facts."
+  },
+  {
+    "id": "openalternative-1",
+    "file_id": "openalternative",
+    "category": "directory-travel",
+    "split": "development",
+    "query": "Where can I find an open source alternative to Notion?",
+    "acceptable_urls": [
+      "https://openalternative.co/affine",
+      "https://openalternative.co/appflowy",
+      "https://openalternative.co/outline"
+    ],
+    "rationale": "A published entry point directly addressing the requested task; routing relevance only, not verification of destination facts."
+  },
+  {
+    "id": "openalternative-2",
+    "file_id": "openalternative",
+    "category": "directory-travel",
+    "split": "development",
+    "query": "Where is an alternative to Google Analytics?",
+    "acceptable_urls": [
+      "https://openalternative.co/plausible",
+      "https://openalternative.co/umami"
+    ],
+    "rationale": "A published entry point directly addressing the requested task; routing relevance only, not verification of destination facts."
+  },
+  {
+    "id": "terminaltrove-1",
+    "file_id": "terminaltrove",
+    "category": "directory-travel",
+    "split": "holdout",
+    "query": "Where is the full terminal tool catalogue?",
+    "acceptable_urls": [
+      "https://terminaltrove.com/list/"
+    ],
+    "rationale": "A published entry point directly addressing the requested task; routing relevance only, not verification of destination facts."
+  },
+  {
+    "id": "terminaltrove-2",
+    "file_id": "terminaltrove",
+    "category": "directory-travel",
+    "split": "holdout",
+    "query": "Where can I browse text UI tools?",
+    "acceptable_urls": [
+      "https://terminaltrove.com/categories/tui/"
+    ],
+    "rationale": "A published entry point directly addressing the requested task; routing relevance only, not verification of destination facts."
+  },
+  {
+    "id": "barco-1",
+    "file_id": "barco",
+    "category": "manufacturing",
+    "split": "development",
+    "query": "Where is product support?",
+    "acceptable_urls": [
+      "https://www.barco.com/en/support",
+      "https://www.barco.com/en/support/knowledge-base",
+      "https://www.barco.com/en/support/training"
+    ],
+    "rationale": "A published entry point directly addressing the requested task; routing relevance only, not verification of destination facts."
+  },
+  {
+    "id": "barco-2",
+    "file_id": "barco",
+    "category": "manufacturing",
+    "split": "development",
+    "query": "Where is investor information?",
+    "acceptable_urls": [
+      "https://www.barco.com/en/about/investors"
+    ],
+    "rationale": "A published entry point directly addressing the requested task; routing relevance only, not verification of destination facts."
+  },
+  {
+    "id": "solitek-1",
+    "file_id": "solitek",
+    "category": "manufacturing",
+    "split": "development",
+    "query": "Where is English information on solar panels?",
+    "acceptable_urls": [
+      "https://www.solitek.eu/en/solar-panels"
+    ],
+    "rationale": "A published entry point directly addressing the requested task; routing relevance only, not verification of destination facts."
+  },
+  {
+    "id": "solitek-2",
+    "file_id": "solitek",
+    "category": "manufacturing",
+    "split": "development",
+    "query": "Where is German information on batteries?",
+    "acceptable_urls": [
+      "https://www.solitek.eu/de/aktuelle-liste-der-solitek-batterielosungen",
+      "https://www.solitek.eu/de/batteriespeichercontainer-bess",
+      "https://www.solitek.eu/de/batteriespeicherlosung-solitek-lite",
+      "https://www.solitek.eu/de/ci-hochspannungsbatterie-solitek-vega",
+      "https://www.solitek.eu/de/industrielle-energiespeicherung-tera",
+      "https://www.solitek.eu/de/solitek-gruppe-solarmodule-und-batterien-aus-europa"
+    ],
+    "rationale": "A published entry point directly addressing the requested task; routing relevance only, not verification of destination facts."
+  },
+  {
+    "id": "packmojo-1",
+    "file_id": "packmojo",
+    "category": "manufacturing",
+    "split": "holdout",
+    "query": "Where can I order packaging samples?",
+    "acceptable_urls": [
+      "https://packmojo.com/samples/"
+    ],
+    "rationale": "A published entry point directly addressing the requested task; routing relevance only, not verification of destination facts."
+  },
+  {
+    "id": "packmojo-2",
+    "file_id": "packmojo",
+    "category": "manufacturing",
+    "split": "holdout",
+    "query": "Where can I find mailer boxes?",
+    "acceptable_urls": [
+      "https://packmojo.com/custom-packaging/mailer-boxes/"
+    ],
+    "rationale": "A published entry point directly addressing the requested task; routing relevance only, not verification of destination facts."
+  }
+]

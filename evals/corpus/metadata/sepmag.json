@@ -1,0 +1,17 @@
+{
+  "id": "sepmag",
+  "url": "https://www.sepmag.eu/llms.txt",
+  "category": "manufacturing",
+  "kind": "actual",
+  "split": "development",
+  "discovery": "https://llmstxt.site/",
+  "retrieved_at": "2026-09-24T22:46:27.262854+00:00",
+  "accepted": false,
+  "status": 404,
+  "final_url": "https://sepmag.eu/llms.txt/",
+  "content_type": "text/html; charset=UTF-8",
+  "sha256": "607aa0d402819db5ffb875808dfa6240d5b5aca0adbc2a61db2d0da19a95310f",
+  "bytes": 270656,
+  "decode_replacements": 0,
+  "raw_path": "raw/sepmag.txt"
+}

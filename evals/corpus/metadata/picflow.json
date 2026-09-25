@@ -1,0 +1,17 @@
+{
+  "id": "picflow",
+  "url": "https://picflow.com/llms.txt",
+  "category": "saas",
+  "kind": "actual",
+  "split": "holdout",
+  "discovery": "https://llmstxt.site/",
+  "retrieved_at": "2026-09-24T22:46:20.757841+00:00",
+  "accepted": true,
+  "status": 200,
+  "final_url": "https://picflow.com/llms.txt",
+  "content_type": "text/plain",
+  "sha256": "fb007beb4424ddce7b25269433b8a351b5551b057e2eb4b7848e9b63c75c6e4d",
+  "bytes": 4347,
+  "decode_replacements": 0,
+  "raw_path": "raw/picflow.txt"
+}

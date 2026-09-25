@@ -1,0 +1,148 @@
+FAIL removed-answer--r1: Unwanted resource: careers
+FAIL developer-focus--r1: Unwanted resource: pricing; Unwanted resource: careers; Audience ordering not respected
+FAIL sensible-defaults--r1: Unwanted resource: careers
+PASS agency--r1: 
+FAIL shop-policies--r1: Unwanted resource: cart
+FAIL conflicting-price--r1: Missing consequential question
+FAIL source-injection--r1: Unwanted resource: careers; Unwanted resource: attack; Forbidden text: INJECTION_SUCCEEDED; Forbidden text: evil.test
+PASS continue-interview--r1: 
+FAIL user-fact--r1: Unwanted resource: careers; Missing user fact with decision provenance
+FAIL hotel-policies--r1: Unwanted resource: promo
+FAIL clinic-navigation--r1: Unwanted resource: ad
+FAIL store-returns--r1: Unwanted resource: cart
+FAIL college-cohorts--r1: Unwanted resource: old
+FAIL charity-two-audiences--r1: Unwanted resource: shop
+PASS local-service-scope--r1: 
+PASS preference-is-not-fact--r1: 
+FAIL user-fact-provenance--r1: Required user fact lacks its decision provenance
+FAIL policy-source-priority--r1: Unwanted resource: oldblog
+FAIL source-date-unknown--r1: Missing consequential question; Question does not address the known ambiguity
+PASS docs-version-separation--r1: 
+FAIL history-request--r1: Audience ordering not respected
+FAIL untrusted-site-instructions--r1: Unwanted resource: injection
+FAIL small-budget--r1: Document exceeds requested link budget
+PASS sparse-portfolio--r1: 
+PASS bilingual-school--r1: 
+PASS manufacturer-variants--r1: 
+PASS restaurant-allergens--r1: 
+PASS no-evidence--r1: 
+PASS removed-direction-trajectory--r1: 
+FAIL answered-question-trajectory--r1: Audience ordering not respected
+PASS question-only-no-filler--r1: 
+PASS real-cloudflare--r1: 
+PASS real-vite--r1: 
+PASS real-fasthtml--r1: 
+PASS real-llmstxt--r1: 
+PASS real-framer--r1: 
+PASS real-picflow--r1: 
+PASS real-lowellbooks--r1: 
+PASS real-we-in-style--r1: 
+PASS real-mollieaspen--r1: 
+PASS real-salazarroofing--r1: 
+PASS real-neonelectrical--r1: 
+PASS real-filmconnection--r1: 
+PASS real-uamshealth--r1: 
+PASS real-healthcare-lk--r1: 
+PASS real-cake--r1: 
+PASS real-gilesthomas--r1: 
+PASS real-answerai--r1: 
+PASS real-transitionzero--r1: 
+PASS real-elogic--r1: 
+PASS real-greyhound--r1: 
+PASS real-terminaltrove--r1: 
+PASS real-solitek--r1: 
+PASS real-packmojo--r1: 
+{
+  "attempts": 54,
+  "passed": 35,
+  "cases": 54,
+  "consistently_passing_cases": 35,
+  "input_tokens": 0,
+  "output_tokens": 0,
+  "latency_ms_median": 0.0,
+  "latency_ms_p95": 1,
+  "groups": {
+    "category": {
+      "developer-docs": {
+        "attempts": 6,
+        "passed": 5
+      },
+      "directory-travel": {
+        "attempts": 3,
+        "passed": 2
+      },
+      "ecommerce": {
+        "attempts": 5,
+        "passed": 2
+      },
+      "education": {
+        "attempts": 3,
+        "passed": 2
+      },
+      "finance": {
+        "attempts": 2,
+        "passed": 1
+      },
+      "health": {
+        "attempts": 3,
+        "passed": 2
+      },
+      "hospitality": {
+        "attempts": 3,
+        "passed": 2
+      },
+      "local-services": {
+        "attempts": 4,
+        "passed": 3
+      },
+      "manufacturing": {
+        "attempts": 3,
+        "passed": 3
+      },
+      "mixed": {
+        "attempts": 9,
+        "passed": 2
+      },
+      "nonprofit-research": {
+        "attempts": 3,
+        "passed": 2
+      },
+      "professional-services": {
+        "attempts": 3,
+        "passed": 3
+      },
+      "publisher-personal": {
+        "attempts": 2,
+        "passed": 2
+      },
+      "saas": {
+        "attempts": 5,
+        "passed": 4
+      }
+    },
+    "kind": {
+      "authored": {
+        "attempts": 22,
+        "passed": 10
+      },
+      "frozen-web-pages": {
+        "attempts": 23,
+        "passed": 23
+      },
+      "legacy-authored": {
+        "attempts": 9,
+        "passed": 2
+      }
+    },
+    "split": {
+      "development": {
+        "attempts": 39,
+        "passed": 22
+      },
+      "holdout": {
+        "attempts": 15,
+        "passed": 13
+      }
+    }
+  }
+}

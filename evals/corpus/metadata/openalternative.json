@@ -1,0 +1,17 @@
+{
+  "id": "openalternative",
+  "url": "https://openalternative.co/llms.txt",
+  "category": "directory-travel",
+  "kind": "actual",
+  "split": "development",
+  "discovery": "https://llmstxt.site/",
+  "retrieved_at": "2026-09-24T22:46:26.815943+00:00",
+  "accepted": true,
+  "status": 200,
+  "final_url": "https://openalternative.co/llms.txt",
+  "content_type": "text/plain",
+  "sha256": "51b25f7ac07cfc6b5979188966a4d29434b7d610c121569e1840201ddda11882",
+  "bytes": 89380,
+  "decode_replacements": 0,
+  "raw_path": "raw/openalternative.txt"
+}

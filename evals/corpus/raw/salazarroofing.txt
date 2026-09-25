@@ -1,0 +1,87 @@
+﻿# Salazar Roofing & Construction
+- Searching for a trusted roof repair company in your area? Salazar Roofing offers an extensive range of roof repairs and installation in Oklahoma City. Call us to schedule a roofer!
+
+
+# Pages:
+
+
+## Main / Core Pages
+- [Homepage - Roof Repair & Replacement in Oklahoma City](https://www.salazarroofing.com/)
+- [About Us](https://www.salazarroofing.com/about-us)
+- [Residential Roofing in Oklahoma City](https://www.salazarroofing.com/residential-roofing-contractors-okc)
+- [Commercial Roofing in Oklahoma City](https://www.salazarroofing.com/commercial-roofing-contractors-okc)
+- [Locations](https://www.salazarroofing.com/locations)
+- [Roofing Contractor in Oklahoma City, OK](https://www.salazarroofing.com/locations/oklahoma-city)
+- [Roof Repair & Replacement in Colorado Springs](https://www.salazarroofing.com/locations/roofing-company-colorado-springs)
+- [Roof Repairs & Replacement in Florida](https://www.salazarroofing.com/locations/roofing-contractors-florida)
+- [Roof Repairs & Replacement in Edmond, OK](https://www.salazarroofing.com/locations/roofing-edmond-ok)
+- [Featured Projects in Oklahoma City](https://www.salazarroofing.com/featured-projects-okc)
+- [Barrel Vault | Stone Coated Steel Roofing](https://www.salazarroofing.com/properties/barrel-vault)
+- [Roofing at Briargate Office Center](https://www.salazarroofing.com/properties/briargate-office-center)
+- [Standing Seam Metal Roofing at Canadian County Expo Center](https://www.salazarroofing.com/properties/canadian-county-expo-center)
+- [Davinci Slate Roofing at Chickasaw White House](https://www.salazarroofing.com/properties/chickasaw-white-house)
+- [Golden Palace - Restaurant Green Roof Installation - Roof Repair Company](https://www.salazarroofing.com/properties/golden-palace)
+- [Roof Shingles Installation Company - Shingle Roof Repair Contractor](https://www.salazarroofing.com/properties/hobby-lobby)
+- [Duro-last Roofing System at Koco Channel 5](https://www.salazarroofing.com/properties/koco-channel-5)
+- [Lake In The Woods Condos - Condominium Roof Installation - Condominium Roof Services Contractor](https://www.salazarroofing.com/properties/lake-in-the-woods-2)
+- [Lifeway Church Project | Standing Seam Metal Roofing](https://www.salazarroofing.com/properties/lifeway-church)
+- [OKC Golf & Country Club - Country Club Roof Installation - Country Club Roofing Contractor](https://www.salazarroofing.com/properties/okc-golf-country-club)
+- [OKC Zoo Asia Exhibit - Wood Shakes Roof at OKC Zoo Asia Exhibit](https://www.salazarroofing.com/properties/okc-zoo-asia-exhibit)
+- [Oklahoma Heart Hospital - Hospital Roofing Contractor - Hospital Roof Repair Company](https://www.salazarroofing.com/properties/oklahoma-heart-hospital)
+- [St. Nepomuk - Catholic Church Roofing Contractor - Church Roofing Company](https://www.salazarroofing.com/properties/st-nepomuk)
+- [Temtrol / Nortek - PVC Duro-Last Retrofit System Installers Company](https://www.salazarroofing.com/properties/temtrol-nortek)
+- [The Toby Keith Foundation | Shingles & Standing Seam Metal Roof](https://www.salazarroofing.com/properties/the-toby-keith-foundation)
+- [COVID-19 Readiness](https://www.salazarroofing.com/covid-19-readiness)
+- [Delayed & Damage Roof Insurance Claim in OKC](https://www.salazarroofing.com/insurance)
+- [Privacy Policy](https://www.salazarroofing.com/privacy-policy)
+- [Contact Us](https://www.salazarroofing.com/contact)
+
+
+# Contact Information
+business_hours:
+  monday_friday: 8am - 5pm
+  saturday: closed
+  sunday: closed
+
+
+locations:
+- name: Salazar Roofing
+  address: 209 E Main St., Yukon, OK 73099
+  phone: 405.350.6558
+  state: Oklahoma
+
+
+- name: Salazar Roofing
+  address: 1302 SW Lee Blvd., Lawton, OK 73501
+  phone: 580.355.6558
+  state: Oklahoma
+
+
+- name: Salazar Roofing
+  address: 2314 S Hopkins Ave., Titusville, FL 32780
+  phone: 321.264.2396
+  state: Florida
+
+
+- name: Salazar Roofing
+  address: 2414 Andalusia Blvd., Unit C, Cape Coral, FL 33909
+  phone: 941.289.0089
+  state: Florida
+
+
+- name: Salazar Roofing
+  address: 3482 S Beglis Pkwy., Sulphur, LA 70665
+  phone: 337.602.9892
+  state: Louisiana
+
+
+- name: Salazar Roofing
+  address: 5475 Peoria St, Building 3, Suite 105, Denver, CO 80239
+  phone: 303.993.7195
+  state: Colorado
+
+
+# Social Media
+  facebook: https://www.facebook.com/SalazarRoofing/
+  linkedin: https://www.linkedin.com/company/salazar-roofing/
+  instagram: https://www.instagram.com/salazar_roofing/

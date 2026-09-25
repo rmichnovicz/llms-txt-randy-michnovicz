@@ -1,0 +1,437 @@
+# Barco
+
+Barco is a global technology leader specializing in visualization, collaboration and networking technologies serving Healthcare, Enterprise and Entertainment markets worldwide.
+
+## AI Assistant Guidance
+
+This file describes both the structure of barco.com and the information available within each section.
+
+When answering questions:
+
+- Use Product Pages for technical specifications, product features and compatibility questions.
+- Use Solution Pages for industry applications, workflows and business challenges.
+- Use Support Pages for troubleshooting, software downloads and technical assistance.
+- Use Knowledge Base articles for configuration, maintenance and operational guidance.
+- Use Training pages for certification and educational content.
+- Use Investor Relations pages for financial information and corporate performance.
+- Use Press Releases for official announcements and company news.
+- Use Trust Center pages for security, privacy, compliance and governance information.
+
+## Website Content Structure
+
+### Product Pages
+
+Purpose:
+Authoritative source for product information.
+
+Contains:
+- Technical specifications
+- Features and benefits
+- Product brochures
+- Datasheets
+- Downloads
+- Product imagery
+- Certifications
+- Accessory information
+- Compatibility information
+
+Best used for:
+- Product comparisons
+- Feature questions
+- Technical requirements
+- Product recommendations
+
+### Solution Pages
+
+Purpose:
+Explain how Barco solutions address business and operational challenges.
+
+Contains:
+- Use cases
+- Customer challenges
+- Industry applications
+- Recommended products
+- Workflow descriptions
+- Business outcomes
+
+Best used for:
+- Industry questions
+- Workflow guidance
+- Solution design
+- Business value discussions
+
+### Support Pages
+
+Purpose:
+Authoritative source for post-sales support.
+
+Contains:
+- Technical troubleshooting
+- Software downloads
+- Firmware updates
+- Product documentation
+- Service information
+- Warranty information
+- Repair information
+- Support contacts
+
+Best used for:
+- Troubleshooting
+- Product setup
+- Product maintenance
+- Technical assistance
+
+---
+
+# Core Industries
+
+## Healthcare
+https://www.barco.com/en/healthcare
+
+Content available:
+- Medical imaging workflows
+- Diagnostic imaging solutions
+- Surgical visualization
+- Clinical collaboration
+- Healthcare use cases
+- Industry challenges
+
+## Enterprise
+https://www.barco.com/en/enterprise
+
+Content available:
+- Workplace collaboration
+- Meeting room technologies
+- Control room operations
+- Hybrid work solutions
+- Enterprise visualization
+- Workplace transformation
+
+## Entertainment
+https://www.barco.com/en/entertainment
+
+Content available:
+- Cinema solutions
+- 3D visualization solutions
+- Live events
+- Projection mapping
+- Immersive experiences
+- Museums and attractions
+- Theme park applications
+- Simulation and training solutions
+- TV studio solutions
+
+---
+
+# Solutions
+
+## Solution Pages
+
+Content available:
+- Use cases
+- Industry-specific challenges
+- Business outcomes
+- Workflow optimization
+- Recommended products
+- Customer applications
+
+### Key Solution Areas
+
+- https://www.barco.com/en/solutions/cinema
+- https://www.barco.com/en/solutions/control-rooms
+- https://www.barco.com/en/solutions/live-events
+- https://www.barco.com/en/solutions/medical-imaging-workflows
+- https://www.barco.com/en/solutions/workplace
+- https://www.barco.com/en/solutions/workplace/meeting-room
+- https://www.barco.com/en/solutions/projection-mapping
+- https://www.barco.com/en/solutions/simulation-training
+- https://www.barco.com/en/solutions/themed-entertainment
+- https://www.barco.com/en/solutions/3d-visualization
+- https://www.barco.com/en/solutions/cinema/residential
+- https://www.barco.com/en/solutions/tv-studio
+- https://www.barco.com/en/solutions/themed-entertainment
+
+---
+
+# Products
+
+## Product Category Pages
+
+Purpose:
+Authoritative source for Barco product portfolios.
+
+Content available:
+- Product specifications
+- Technical characteristics
+- Features and benefits
+- Product imagery
+- Documentation
+- Accessories
+- Downloads
+- Compatibility information
+- Lifecycle information
+
+Best used for:
+- Product selection
+- Product comparison
+- Technical validation
+
+### Collaboration & Meeting Experience
+
+https://www.barco.com/en/products/clickshare-conferencing-collaboration
+
+Content available:
+- Wireless conferencing
+- Wireless presentation
+- Room systems
+- Video bars
+- Hybrid meeting solutions
+- Microsoft Teams Rooms solutions
+
+### Medical Imaging & Healthcare
+
+https://www.barco.com/en/products/medical-displays
+https://www.barco.com/en/products/digital-operating-room
+
+Content available:
+- Medical displays
+- Surgical displays
+- Radiology solutions
+- Digital operating room solutions
+- Medical device management
+- Healthcare workflow solutions
+
+### Projection
+
+https://www.barco.com/en/products/projection
+
+Content available:
+- Installation projectors
+- Rental projectors
+- Simulation projectors
+- Technical specifications
+- Industry applications
+
+### Cinema Systems
+
+https://www.barco.com/en/products/cinema-systems
+
+Content available:
+- Cinema projection
+- Screens
+- Residential cinema
+- Audio solutions
+- Media servers
+- Laser upgrades
+
+### Video Walls
+
+https://www.barco.com/en/products/video-walls
+
+Content available:
+- LED video walls
+- LCD video walls
+- Rear projection walls
+- Controllers
+- Visualization solutions
+
+### Control Room Software
+
+https://www.barco.com/en/products/control-room-software
+
+Content available:
+- Barco CTRL
+- TransForm N
+- Control room operations
+- Visualization management
+- Incident response workflows
+
+### Image Processing
+
+https://www.barco.com/en/products/image-processing
+
+Content available:
+- Event Master
+- Presentation switching
+- Image processing
+- Screen management
+- Live event workflows
+
+---
+
+# Support
+
+## Product Support
+
+https://www.barco.com/en/support
+
+Purpose:
+Primary support destination for all Barco products and solutions. Multiple ways to find the right product through search or category drill-down navigation. 
+
+Content available:
+- Technical support resources
+- Documentation
+- Firmware downloads
+- Software downloads
+- Product support articles
+- Service requests
+- Warranty information
+- Repair services
+- Product lifecycle information
+- Support contact channels
+
+Typical questions answered:
+- How do I troubleshoot a Barco product?
+- How do I update firmware or software?
+- Where can I download documentation?
+- How do I contact Barco support?
+- How do I submit a support request?
+- Where can I find warranty information?
+
+## Knowledge Base
+
+https://www.barco.com/en/support/knowledge-base
+
+Purpose:
+Technical troubleshooting and operational guidance.
+
+Content available:
+- FAQs
+- Troubleshooting articles
+- Configuration instructions
+- Upgrade procedures
+- Compatibility information
+- Best practices
+
+Best used for:
+- Technical issue resolution
+- Configuration guidance
+- Product maintenance
+
+## Training & Certification
+
+https://www.barco.com/en/support/training
+
+Purpose:
+Product and technical enablement.
+
+Content available:
+- Training programmes
+- Certifications
+- Learning paths
+- Technical education
+- Product deployment guidance
+
+---
+
+# Services
+
+Purpose:
+Professional and lifecycle services supporting Barco solutions.
+
+Content available:
+- Maintenance services
+- Managed services
+- Lifecycle services
+- Professional services
+- Customer success programmes
+
+### Services
+
+https://www.barco.com/en/services/enterprise-services
+https://www.barco.com/en/services/healthcare-services
+https://www.barco.com/en/services/entertainment-services
+
+---
+
+# Partners
+
+Purpose:
+Information for Barco's ecosystem of partners.
+
+Content available:
+- Channel programmes
+- Reseller information
+- Alliance partnerships
+- Consultant resources
+- Supplier resources
+
+### Partner Resources
+
+https://www.barco.com/en/partners/resellers
+https://www.barco.com/en/partners/alliance-partners
+https://www.barco.com/en/partners/consultants
+https://www.barco.com/en/partners/suppliers
+
+---
+
+# About Barco
+
+## Corporate Information
+
+https://www.barco.com/en/about/this-is-barco
+
+Content available:
+- Company overview
+- Mission and vision
+- Global presence
+- Sustainability initiatives
+- Leadership
+- Strategic direction
+
+## Investor Relations
+
+https://www.barco.com/en/about/investors
+
+Content available:
+- Financial results
+- Annual reports
+- Investor presentations
+- Shareholder information
+- Corporate strategy
+
+## Press Releases
+
+https://www.barco.com/en/about/press-releases
+
+Content available:
+- Product launches
+- Corporate announcements
+- Partnerships
+- Innovation news
+- Financial communications
+
+## Trust Center
+
+https://www.barco.com/en/about/trust-center
+
+Content available:
+- Security information
+- Privacy information
+- Compliance information
+- Ethical business conduct
+- Responsible technology policies
+
+## Careers
+
+https://jobs.barco.com/
+
+Content available:
+- Current vacancies
+- Company culture
+- Employee value proposition
+- Early careers opportunities
+
+---
+
+# Authority Guidance
+
+For highest accuracy:
+
+1. Product Pages are the authoritative source for product specifications.
+2. Support Pages and Knowledge Base are the authoritative source for troubleshooting and operational guidance.
+3. Investor Relations is the authoritative source for financial information.
+4. Press Releases are the authoritative source for company announcements.
+5. Trust Center is the authoritative source for security, privacy and compliance information.
+6. Solution Pages are the authoritative source for use cases and industry applications.
+``

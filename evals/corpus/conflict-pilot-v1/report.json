@@ -1,0 +1,547 @@
+{
+  "summary": {
+    "attempts": 13,
+    "passed": 6,
+    "cases": 13,
+    "consistently_passing_cases": 6,
+    "input_tokens": 12985,
+    "output_tokens": 5531,
+    "latency_ms_median": 6726,
+    "latency_ms_p95": 10130,
+    "groups": {
+      "category": {
+        "conflict-resolution": {
+          "attempts": 13,
+          "passed": 6
+        }
+      },
+      "kind": {
+        "authored-conflict": {
+          "attempts": 13,
+          "passed": 6
+        }
+      },
+      "split": {
+        "development": {
+          "attempts": 13,
+          "passed": 6
+        }
+      }
+    }
+  },
+  "evaluation": "deterministic invariants and editorial expectations; not a factual accuracy score",
+  "human_review_completed": false,
+  "results": [
+    {
+      "id": "conflict-active-owner-answers--r1",
+      "caseId": "conflict-active-owner-answers",
+      "repeat": 1,
+      "category": "conflict-resolution",
+      "kind": "authored-conflict",
+      "split": "development",
+      "case_sha256": "74a788ff3ba42883b6618031767a426afab1ebb49ef7675a3b7ba3b1e3aa37b0",
+      "request_sha256": "87b24ab5d1cd37fd9702a0d1ceba8449be135534b92ecd40238dcae6b876336f",
+      "result": {
+        "passed": true,
+        "failures": [],
+        "markdown": "# Parcel Shop\n\n> Parcel Shop offers home delivery, but the current free-delivery threshold is unresolved.\n\nThe homepage states €300 and the shipping policy states €600. Two active owner corrections instead state €450 and €750, so no amount is presented as current.\n\n## Shop\n\n- [Parcel Shop homepage](<https://parcel.example/>): Shop homepage; its delivery threshold conflicts with other supplied information.\n\n## Delivery\n\n- [Shipping policy](<https://parcel.example/shipping>): Shipping policy; its free-delivery threshold is not confirmed as current.\n"
+      },
+      "modelMetadata": {
+        "provider": "openai",
+        "model": "gpt-6-sol",
+        "reasoning": "medium",
+        "prompt_version": "brief-generation-v2",
+        "response_id": "resp_0bacaed502230982016ab5b1c3546087d0912f0df218132509",
+        "duration_ms": 10130,
+        "usage": {
+          "input_tokens": 1041,
+          "input_tokens_details": {
+            "cache_write_tokens": 1038,
+            "cached_tokens": 0
+          },
+          "output_tokens": 717,
+          "output_tokens_details": {
+            "reasoning_tokens": 326
+          },
+          "total_tokens": 1758
+        },
+        "max_output_tokens": 12000,
+        "attempts": 1
+      },
+      "durationMs": 10130
+    },
+    {
+      "id": "conflict-active-owner-answers-reversed--r1",
+      "caseId": "conflict-active-owner-answers-reversed",
+      "repeat": 1,
+      "category": "conflict-resolution",
+      "kind": "authored-conflict",
+      "split": "development",
+      "case_sha256": "f28601b07fc9bca857715bbdb527db54ef190f20ba55f0bd87d74118d71bcf48",
+      "request_sha256": "2c82f15b09cce63c78a7725d224798505b19a38292b09350662e100cf686d18b",
+      "result": {
+        "passed": false,
+        "failures": [
+          "Missing required resource: home"
+        ],
+        "markdown": "# Parcel Shop\n\n> Parcel Shop provides home delivery; its published pages and active corrections give conflicting free-delivery thresholds.\n\nThe homepage states €300 and the shipping policy states €600. Active corrections state €750 and €450; the €450 correction explicitly supersedes the website, but does not resolve the conflict with the €750 correction.\n\n## Delivery\n\n- [Shipping policy](<https://parcel.example/shipping>): Published home-delivery information; its free-delivery threshold conflicts with other supplied evidence.\n"
+      },
+      "modelMetadata": {
+        "provider": "openai",
+        "model": "gpt-6-sol",
+        "reasoning": "medium",
+        "prompt_version": "brief-generation-v2",
+        "response_id": "resp_0787b5267992a842016ab5b1c4055c87d08c45f06f0d9f7c14",
+        "duration_ms": 6513,
+        "usage": {
+          "input_tokens": 1041,
+          "input_tokens_details": {
+            "cache_write_tokens": 1038,
+            "cached_tokens": 0
+          },
+          "output_tokens": 488,
+          "output_tokens_details": {
+            "reasoning_tokens": 137
+          },
+          "total_tokens": 1529
+        },
+        "max_output_tokens": 12000,
+        "attempts": 1
+      },
+      "durationMs": 6514
+    },
+    {
+      "id": "conflict-defer-resolution--r1",
+      "caseId": "conflict-defer-resolution",
+      "repeat": 1,
+      "category": "conflict-resolution",
+      "kind": "authored-conflict",
+      "split": "development",
+      "case_sha256": "250f9ba24eeed5ef6872d78556b9a933fdb25a91e3a32954a6a304a878cb89b2",
+      "request_sha256": "1667af204d205e5df7ec0b21873dab8f7c18eaeccc172875f98e16a2735baaf6",
+      "result": {
+        "passed": true,
+        "failures": [],
+        "markdown": "# Parcel Shop\n\n> Parcel Shop’s shipping policy is linked below; the free-delivery threshold is omitted because the site gives conflicting amounts.\n\n## Shopping\n\n- [Parcel Shop home](<https://parcel.example/>): Store home page.\n\n## Shipping\n\n- [Shipping policy](<https://parcel.example/shipping>): Shipping information; consult the policy for delivery terms.\n"
+      },
+      "modelMetadata": {
+        "provider": "openai",
+        "model": "gpt-6-sol",
+        "reasoning": "medium",
+        "prompt_version": "brief-generation-v2",
+        "response_id": "resp_0845245310c680d5016ab5b1d1469087d08c1c925298420dec",
+        "duration_ms": 6745,
+        "usage": {
+          "input_tokens": 1003,
+          "input_tokens_details": {
+            "cache_write_tokens": 0,
+            "cached_tokens": 0
+          },
+          "output_tokens": 406,
+          "output_tokens_details": {
+            "reasoning_tokens": 252
+          },
+          "total_tokens": 1409
+        },
+        "max_output_tokens": 12000,
+        "attempts": 1
+      },
+      "durationMs": 6746
+    },
+    {
+      "id": "conflict-different-scope--r1",
+      "caseId": "conflict-different-scope",
+      "repeat": 1,
+      "category": "conflict-resolution",
+      "kind": "authored-conflict",
+      "split": "development",
+      "case_sha256": "4254853023e75428a63acf64fbe3066222c40ce91f11e5cf52ed83b45019fb52",
+      "request_sha256": "f93dda65f067d10dced9d70f4b273b4ff907106cb1ac2ece38915248b05c9d71",
+      "result": {
+        "passed": true,
+        "failures": [],
+        "markdown": "# Parcel Shop\n\n> Parcel Shop lists delivery offers for France and Germany, with different methods and order thresholds.\n\nThe site states that pickup-point delivery in France is free with no minimum order.\n\nThe shipping policy states that home delivery in Germany is free on orders over €600.\n\n## Shop and delivery\n\n- [Parcel Shop home](<https://parcel.example/>): States the pickup-point delivery offer for France.\n- [Shipping policy](<https://parcel.example/shipping>): States the home-delivery threshold for Germany.\n"
+      },
+      "modelMetadata": {
+        "provider": "openai",
+        "model": "gpt-6-sol",
+        "reasoning": "medium",
+        "prompt_version": "brief-generation-v2",
+        "response_id": "resp_09ac382c2ffe7881016ab5b1bcc9a487d0a886e0932bd75e8c",
+        "duration_ms": 6962,
+        "usage": {
+          "input_tokens": 955,
+          "input_tokens_details": {
+            "cache_write_tokens": 0,
+            "cached_tokens": 0
+          },
+          "output_tokens": 306,
+          "output_tokens_details": {
+            "reasoning_tokens": 117
+          },
+          "total_tokens": 1261
+        },
+        "max_output_tokens": 12000,
+        "attempts": 1
+      },
+      "durationMs": 6963
+    },
+    {
+      "id": "conflict-dismiss-is-not-fact--r1",
+      "caseId": "conflict-dismiss-is-not-fact",
+      "repeat": 1,
+      "category": "conflict-resolution",
+      "kind": "authored-conflict",
+      "split": "development",
+      "case_sha256": "796e6bd9c1fcd72826cceb539fa4fbf4b0ef32cb193c3740728d6dd44f24e002",
+      "request_sha256": "5d3cd22c79c016ce59da1639839a5b4767751681f00bb5a56a4fdf58370bb5e6",
+      "result": {
+        "passed": false,
+        "failures": [
+          "Missing required resource: home"
+        ],
+        "markdown": "# Parcel Shop\n\nThe homepage and shipping policy give conflicting, undated free home-delivery thresholds; this guide does not identify a current threshold.\n\n## Shopping information\n\n- [Shipping policy](<https://parcel.example/shipping>): Home-delivery policy; its stated threshold differs from the homepage.\n"
+      },
+      "modelMetadata": {
+        "provider": "openai",
+        "model": "gpt-6-sol",
+        "reasoning": "medium",
+        "prompt_version": "brief-generation-v2",
+        "response_id": "resp_07b53843534cbf35016ab5b1d245e087d097fb49edb5dbad20",
+        "duration_ms": 7119,
+        "usage": {
+          "input_tokens": 1005,
+          "input_tokens_details": {
+            "cache_write_tokens": 0,
+            "cached_tokens": 0
+          },
+          "output_tokens": 460,
+          "output_tokens_details": {
+            "reasoning_tokens": 333
+          },
+          "total_tokens": 1465
+        },
+        "max_output_tokens": 12000,
+        "attempts": 1
+      },
+      "durationMs": 7120
+    },
+    {
+      "id": "conflict-explicit-supersession--r1",
+      "caseId": "conflict-explicit-supersession",
+      "repeat": 1,
+      "category": "conflict-resolution",
+      "kind": "authored-conflict",
+      "split": "development",
+      "case_sha256": "d76c506de39109fc1f0b44333d53c583c7bf2ced436e532f4ddeaf1cbe1e562f",
+      "request_sha256": "adebb8256fa498ec88faa63c8e10d0fea0a6465e9d61500ef1d0ea049098ce54",
+      "result": {
+        "passed": false,
+        "failures": [
+          "Missing required resource: home"
+        ],
+        "markdown": "# Parcel Shop\n\n> The shipping policy effective September 1, 2026 states that home delivery is free for orders over €600.\n\nThe archived 2024 threshold of €300 was superseded by the 2026 shipping policy.\n\n## Shipping\n\n- [Shipping policy](<https://parcel.example/shipping>): Effective September 1, 2026; states the free home delivery threshold.\n"
+      },
+      "modelMetadata": {
+        "provider": "openai",
+        "model": "gpt-6-sol",
+        "reasoning": "medium",
+        "prompt_version": "brief-generation-v2",
+        "response_id": "resp_06d471d85a888021016ab5b1bccb3087d08bddde7fb26ea79c",
+        "duration_ms": 5874,
+        "usage": {
+          "input_tokens": 987,
+          "input_tokens_details": {
+            "cache_write_tokens": 0,
+            "cached_tokens": 0
+          },
+          "output_tokens": 353,
+          "output_tokens_details": {
+            "reasoning_tokens": 201
+          },
+          "total_tokens": 1340
+        },
+        "max_output_tokens": 12000,
+        "attempts": 1
+      },
+      "durationMs": 5875
+    },
+    {
+      "id": "conflict-incompatible-constraints--r1",
+      "caseId": "conflict-incompatible-constraints",
+      "repeat": 1,
+      "category": "conflict-resolution",
+      "kind": "authored-conflict",
+      "split": "development",
+      "case_sha256": "fb984e05e418ee72260b64625180bdc90d419ce12e3b2d7a81f775550d9427a8",
+      "request_sha256": "5de31e5230a29edcae50f76b3650c11c3b66f629a5ab2307d17720f7b54872e6",
+      "result": {
+        "passed": false,
+        "failures": [
+          "Missing required resource: home"
+        ],
+        "markdown": "# Parcel Shop\n\n> The homepage and shipping policy report different thresholds for free home delivery; neither states a date.\n\n## Shipping\n\n- [Shipping policy](<https://parcel.example/shipping>): Reports free home delivery over €600; the homepage reports a different threshold.\n"
+      },
+      "modelMetadata": {
+        "provider": "openai",
+        "model": "gpt-6-sol",
+        "reasoning": "medium",
+        "prompt_version": "brief-generation-v2",
+        "response_id": "resp_0ead323b88b8ccba016ab5b1d3a9a487d0931b551dba1f0cb0",
+        "duration_ms": 8960,
+        "usage": {
+          "input_tokens": 1022,
+          "input_tokens_details": {
+            "cache_write_tokens": 0,
+            "cached_tokens": 0
+          },
+          "output_tokens": 632,
+          "output_tokens_details": {
+            "reasoning_tokens": 260
+          },
+          "total_tokens": 1654
+        },
+        "max_output_tokens": 12000,
+        "attempts": 1
+      },
+      "durationMs": 8960
+    },
+    {
+      "id": "conflict-owner-replacement--r1",
+      "caseId": "conflict-owner-replacement",
+      "repeat": 1,
+      "category": "conflict-resolution",
+      "kind": "authored-conflict",
+      "split": "development",
+      "case_sha256": "a9755ae97eb36d74fee37488493294aef77714028647e2e194ed153eeb8ff56d",
+      "request_sha256": "77e556f40383cc4152ba495622f5705389fb9559ba350d97b65061dc8b6ca6dc",
+      "result": {
+        "passed": true,
+        "failures": [],
+        "markdown": "# Parcel Shop\n\n> The current free home-delivery threshold is €750, according to the supplied site-owner fact.\n\nThe undated website pages disagree with that threshold: the homepage says €300 and the shipping policy says €600. Confirm the current terms before relying on either page.\n\n## Shopping and delivery\n\n- [Shipping policy](<https://parcel.example/shipping>): Delivery policy page; its stated free home-delivery threshold conflicts with the supplied current figure.\n- [Parcel Shop homepage](<https://parcel.example/>): Shop homepage; its stated free home-delivery threshold also conflicts with the supplied current figure.\n"
+      },
+      "modelMetadata": {
+        "provider": "openai",
+        "model": "gpt-6-sol",
+        "reasoning": "medium",
+        "prompt_version": "brief-generation-v2",
+        "response_id": "resp_0e22ae064cd1b22b016ab5b1c7837887d0bf3ae81343e245b2",
+        "duration_ms": 5542,
+        "usage": {
+          "input_tokens": 995,
+          "input_tokens_details": {
+            "cache_write_tokens": 0,
+            "cached_tokens": 0
+          },
+          "output_tokens": 358,
+          "output_tokens_details": {
+            "reasoning_tokens": 156
+          },
+          "total_tokens": 1353
+        },
+        "max_output_tokens": 12000,
+        "attempts": 1
+      },
+      "durationMs": 5543
+    },
+    {
+      "id": "conflict-owner-resolution--r1",
+      "caseId": "conflict-owner-resolution",
+      "repeat": 1,
+      "category": "conflict-resolution",
+      "kind": "authored-conflict",
+      "split": "development",
+      "case_sha256": "66006a532b97781b74e5ca4d1958ec271e392b02ce39564b5db7675b04b6f770",
+      "request_sha256": "22988cfe259f027b13203eed5f86218cf10e81a9930c5dcecebe05e007174246",
+      "result": {
+        "passed": false,
+        "failures": [
+          "Missing required resource: home"
+        ],
+        "markdown": "# Parcel Shop\n\n> The current home-delivery threshold is €450, according to an owner correction that supersedes the website until it is updated.\n\nThe website gives conflicting, undated thresholds: €300 on the homepage and €600 on the shipping policy page. Neither reflects the owner-supplied current threshold.\n\n## Shipping information\n\n- [Shipping policy](<https://parcel.example/shipping>): The published page states an undated €600 free-home-delivery threshold; the owner correction says the current threshold is €450.\n"
+      },
+      "modelMetadata": {
+        "provider": "openai",
+        "model": "gpt-6-sol",
+        "reasoning": "medium",
+        "prompt_version": "brief-generation-v2",
+        "response_id": "resp_0c8e52a497c71939016ab5b1c29aac87d0ab1c27ef635028ce",
+        "duration_ms": 5279,
+        "usage": {
+          "input_tokens": 1007,
+          "input_tokens_details": {
+            "cache_write_tokens": 0,
+            "cached_tokens": 0
+          },
+          "output_tokens": 266,
+          "output_tokens_details": {
+            "reasoning_tokens": 86
+          },
+          "total_tokens": 1273
+        },
+        "max_output_tokens": 12000,
+        "attempts": 1
+      },
+      "durationMs": 5280
+    },
+    {
+      "id": "conflict-refresh-dismissed-topic--r1",
+      "caseId": "conflict-refresh-dismissed-topic",
+      "repeat": 1,
+      "category": "conflict-resolution",
+      "kind": "authored-conflict",
+      "split": "development",
+      "case_sha256": "7f3f698f3b5506bb45938bde5b9523336220b5e7b207971164bb48ec866739c5",
+      "request_sha256": "f7716fc2219818a6fb90dab660d35fb26a31097ba8c8a75da9d021d1a0dfce45",
+      "result": {
+        "passed": false,
+        "failures": [
+          "Missing consequential question",
+          "Question does not address the known ambiguity"
+        ],
+        "markdown": "# Parcel Shop\n\n> The owner confirms free home delivery over €450 until the website is corrected; the website currently states €600.\n\nThe shipping policy, updated September 24, 2026, lists a €600 threshold. This conflicts with the owner's correction, so treat the published threshold as pending correction.\n\n## Shop and delivery\n\n- [Parcel Shop](<https://parcel.example/>): Shop homepage; currently displays the €600 delivery threshold.\n- [Shipping policy](<https://parcel.example/shipping>): Published delivery policy; currently lists €600, which conflicts with the owner's €450 correction.\n"
+      },
+      "modelMetadata": {
+        "provider": "openai",
+        "model": "gpt-6-sol",
+        "reasoning": "medium",
+        "prompt_version": "brief-generation-v2",
+        "response_id": "resp_0aa57ffb62271ee9016ab5b1cd780887d09c21cc2364e1e3ce",
+        "duration_ms": 4803,
+        "usage": {
+          "input_tokens": 1004,
+          "input_tokens_details": {
+            "cache_write_tokens": 0,
+            "cached_tokens": 0
+          },
+          "output_tokens": 326,
+          "output_tokens_details": {
+            "reasoning_tokens": 117
+          },
+          "total_tokens": 1330
+        },
+        "max_output_tokens": 12000,
+        "attempts": 1
+      },
+      "durationMs": 4804
+    },
+    {
+      "id": "conflict-refresh-vs-owner--r1",
+      "caseId": "conflict-refresh-vs-owner",
+      "repeat": 1,
+      "category": "conflict-resolution",
+      "kind": "authored-conflict",
+      "split": "development",
+      "case_sha256": "43db2d443a80e518665a343f46dbfc0f13077a5c4ebf12d15447d595941cf20b",
+      "request_sha256": "a385cf3e7081211927e354c1f02b537a9a8a5ffa76378b72b8135310432b524c",
+      "result": {
+        "passed": false,
+        "failures": [
+          "Missing required resource: home",
+          "Missing consequential question",
+          "Question does not address the known ambiguity"
+        ],
+        "markdown": "# Parcel Shop\n\n> The owner-confirmed threshold for free home delivery is over €450 until the website is corrected.\n\nThe homepage and shipping policy currently state a threshold of over €600, conflicting with the owner correction. The shipping policy is dated September 24, 2026.\n\n## Delivery\n\n- [Shipping policy](<https://parcel.example/shipping>): States a €600 free home delivery threshold; the owner-confirmed threshold is over €450 until the page is corrected.\n"
+      },
+      "modelMetadata": {
+        "provider": "openai",
+        "model": "gpt-6-sol",
+        "reasoning": "medium",
+        "prompt_version": "brief-generation-v2",
+        "response_id": "resp_07079c93347f3c02016ab5b1cd10fc87d08b6cff3f97d42c9e",
+        "duration_ms": 6575,
+        "usage": {
+          "input_tokens": 1001,
+          "input_tokens_details": {
+            "cache_write_tokens": 0,
+            "cached_tokens": 0
+          },
+          "output_tokens": 401,
+          "output_tokens_details": {
+            "reasoning_tokens": 227
+          },
+          "total_tokens": 1402
+        },
+        "max_output_tokens": 12000,
+        "attempts": 1
+      },
+      "durationMs": 6576
+    },
+    {
+      "id": "conflict-remove-all-overrides--r1",
+      "caseId": "conflict-remove-all-overrides",
+      "repeat": 1,
+      "category": "conflict-resolution",
+      "kind": "authored-conflict",
+      "split": "development",
+      "case_sha256": "2d0f4aa9a2681405df5584a3f36a19c4996f755dcaae9979f2c2263955094fe6",
+      "request_sha256": "681c5905b6cdf36ad455b386218bb8715935c5252e65b1d8fcab169bd0d404b3",
+      "result": {
+        "passed": true,
+        "failures": [],
+        "markdown": "# Parcel Shop\n\n> Parcel Shop publishes home-delivery information, but its pages disagree on the free-delivery threshold.\n\nThe home page says home delivery is free over €300; the shipping policy says over €600. Neither statement is dated, so the current threshold is unclear.\n\n## Delivery information\n\n- [Shipping policy](<https://parcel.example/shipping>): States a free home-delivery threshold of €600; this conflicts with the home page.\n- [Home page](<https://parcel.example/>): States a free home-delivery threshold of €300; this conflicts with the shipping policy.\n"
+      },
+      "modelMetadata": {
+        "provider": "openai",
+        "model": "gpt-6-sol",
+        "reasoning": "medium",
+        "prompt_version": "brief-generation-v2",
+        "response_id": "resp_004e312777d0e7d0016ab5b1ca822887d080d301183658f0cd",
+        "duration_ms": 6725,
+        "usage": {
+          "input_tokens": 962,
+          "input_tokens_details": {
+            "cache_write_tokens": 0,
+            "cached_tokens": 0
+          },
+          "output_tokens": 424,
+          "output_tokens_details": {
+            "reasoning_tokens": 132
+          },
+          "total_tokens": 1386
+        },
+        "max_output_tokens": 12000,
+        "attempts": 1
+      },
+      "durationMs": 6726
+    },
+    {
+      "id": "conflict-undated--r1",
+      "caseId": "conflict-undated",
+      "repeat": 1,
+      "category": "conflict-resolution",
+      "kind": "authored-conflict",
+      "split": "development",
+      "case_sha256": "bb128c9f9bfa6f9bb1a01b8d6a45528627601b3d9f3c41a9a9e6ace1dd25a221",
+      "request_sha256": "681c5905b6cdf36ad455b386218bb8715935c5252e65b1d8fcab169bd0d404b3",
+      "result": {
+        "passed": true,
+        "failures": [],
+        "markdown": "# Parcel Shop\n\n> The homepage and shipping policy report different thresholds for free home delivery; neither page supplies a date.\n\n## Shop and delivery\n\n- [Parcel Shop homepage](<https://parcel.example/>): Reports free home delivery over €300.\n- [Shipping policy](<https://parcel.example/shipping>): Reports free home delivery over €600, conflicting with the homepage.\n"
+      },
+      "modelMetadata": {
+        "provider": "openai",
+        "model": "gpt-6-sol",
+        "reasoning": "medium",
+        "prompt_version": "brief-generation-v2",
+        "response_id": "resp_0ad9ea8546792699016ab5b1bccd7887d0acdbf88e92f1fc80",
+        "duration_ms": 7635,
+        "usage": {
+          "input_tokens": 962,
+          "input_tokens_details": {
+            "cache_write_tokens": 0,
+            "cached_tokens": 0
+          },
+          "output_tokens": 394,
+          "output_tokens_details": {
+            "reasoning_tokens": 171
+          },
+          "total_tokens": 1356
+        },
+        "max_output_tokens": 12000,
+        "attempts": 1
+      },
+      "durationMs": 7637
+    }
+  ]
+}

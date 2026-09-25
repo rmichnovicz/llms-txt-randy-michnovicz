@@ -1,0 +1,17 @@
+{
+  "id": "nextjs",
+  "url": "https://nextjs.org/docs/llms.txt",
+  "category": "developer-docs",
+  "kind": "actual",
+  "split": "development",
+  "discovery": "https://llmstxt.site/",
+  "retrieved_at": "2026-09-24T22:46:20.110753+00:00",
+  "accepted": true,
+  "status": 200,
+  "final_url": "https://nextjs.org/docs/llms.txt",
+  "content_type": "text/plain;charset=UTF-8",
+  "sha256": "cefb5f4dbe0cce21c4fca344b4da6630829e73cb29429766a5d881570d6f1390",
+  "bytes": 48355,
+  "decode_replacements": 0,
+  "raw_path": "raw/nextjs.txt"
+}

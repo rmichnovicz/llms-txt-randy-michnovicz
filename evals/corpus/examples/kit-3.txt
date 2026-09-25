@@ -1,0 +1,16 @@
+# Example Docs
+
+> Example Docs explains how to build and deploy apps with the Example framework.
+
+Important notes:
+- Versioned docs should be interpreted by their version path.
+- The changelog lists breaking changes.
+
+## Core pages
+- [Quickstart](https://example.com/docs/quickstart): First setup path
+- [API reference](https://example.com/docs/api): Public API methods and options
+- [Deployment](https://example.com/docs/deploy): Production deployment guidance
+- [Changelog](https://example.com/changelog): Releases and breaking changes
+
+## Optional
+- [Examples](https://example.com/examples): Sample apps and recipes

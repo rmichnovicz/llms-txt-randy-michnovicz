@@ -1,0 +1,17 @@
+{
+  "id": "barco",
+  "url": "https://www.barco.com/en/llms.txt",
+  "category": "manufacturing",
+  "kind": "actual",
+  "split": "development",
+  "discovery": "https://llmstxt.site/",
+  "retrieved_at": "2026-09-24T22:46:27.100190+00:00",
+  "accepted": true,
+  "status": 200,
+  "final_url": "https://www.barco.com/en/llms.txt",
+  "content_type": "text/plain",
+  "sha256": "3bdca631c3c1baf77652dc928ce48181e3be63c07d03977adebe40d1d29983f1",
+  "bytes": 9948,
+  "decode_replacements": 0,
+  "raw_path": "raw/barco.txt"
+}

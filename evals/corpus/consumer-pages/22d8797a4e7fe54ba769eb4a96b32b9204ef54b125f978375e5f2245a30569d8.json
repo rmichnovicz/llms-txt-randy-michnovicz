@@ -1,0 +1,91 @@
+{
+  "url": "https://help.picflow.com/en/articles/8587606-lightroom-plugin-installation-guide",
+  "title": "Lightroom Plugin Installation Guide | Picflow Knowledge Base Fin",
+  "content": "The Lightroom Plugin allows you to upload your photos and videos directly from Lightroom Classic to Picflow. Keep your work in sync by managing your media inside Lightroom and simply Publish any updates to Picflow.\n1. Download & Preparation\nDownload the latest version of the plugin and move the \"Picflow.lrplugin\" file to a safe location. We recommend saving it somewhere close to your Lightroom Catalog.\n2. Installing the Plug-in\nTo install the plugin we need to launch the Plug-in Manager. To do this, open Lightroom Classic and then select \"File → Plug-in Manager...\".\nClick \"Add\" on the bottom left of the Plug-in Manager and select the \"Picflow.lrplugin\" file in the location you saved it. Click \"Done\" to complete the installation.\n3. Plug-in Setup & Connection\nIn your Lightroom Classic Library, there should be a new Publish Service called \"Picflow\". Click the \"Set Up...\" button to open the Publishing Manager.\nIn the Publishing Manager, click the \"Authorize\" button. This will open your browser and ask you to log in to Picflow, if you're not logged in already.\nSelect the workspace you want to connect and click \"Connect Lightroom\". You will be taken back to Lightroom. Press \"Ok\" in the popup to confirm the connection. Finally, press \"Save\" to finish the setup and close the Publishing Manager.\n4. You're Done!\nThe Lightroom Plug-in is now successfully installed and you can create galleries within Lightroom and upload your media to Picflow. To learn more about this, visit:\nUpdating the Lightroom Plugin\nWe regularly release new versions of the plugin to improve reliability, fix bugs, and add new features. Please make sure you use the latest version:\n- Replace the old \"Picflow.lrplugin\" file with the new one.\n- Restart Lightroom Classic.\nPlugin Settings\nYou can always update the plug-in settings by right-clicking on the Picflow Publish Services and choose \"Edit Settings\". There are a couple of settings that you can configure in the Lightroom Plugin:\n- File Settings \nDefine the output quality or limit the maximum file size.\n- Image Sizing \nChoose from various resizing options before exporting images to Picflow.\n- Output Sharpening \nYou can enable sharpening options on your images.\n- Metadata \nInclude or exclude certain metadata before exporting to Picflow.\nMulti-Workspace Setup\nThe Lightroom Plugin supports connections to multiple Picflow workspaces. To connect to a new workspace, simply \"Right-Click\" on an existing Picflow connection and then choose \"Create Another Publish Service via \"Picflow\"...\". You then have to go through the authorization steps again, where you can choose your new workspace.\nQuestions or suggestions? Get in touch!",
+  "links": [
+    {
+      "url": "https://help.picflow.com/en/",
+      "label": ""
+    },
+    {
+      "url": "https://help.picflow.com/en/collections/7108440-apps-integrations",
+      "label": "Apps & Integrations"
+    },
+    {
+      "url": "https://help.picflow.com/en/collections/16617950-photography",
+      "label": "Photography"
+    },
+    {
+      "url": "https://help.picflow.com/en/articles/8587606-lightroom-plugin-installation-guide",
+      "label": "Skip to main content"
+    },
+    {
+      "url": "https://help.picflow.com/en/articles/8630456-how-to-use-the-lightroom-plugin",
+      "label": "How to Use the Lightroom Plugin"
+    },
+    {
+      "url": "https://picflow.com/a/settings/integrations",
+      "label": "Download Plugin"
+    },
+    {
+      "url": "https://downloads.intercomcdn.com/i/o/892388044/5602953fa829ad9e9801d120/image.png?expires=1790291700&req=fCklFcF2nYVbFb4f3HP0gK79rfSUEz8fK%2BECG7Cw%2F9NVi%2BGhj30zjQG2rR7k%0A5DO0ZP42yI%2FV8NHTMw%3D%3D%0A&signature=d92def6e1abd166771a4d870de7ead954b288a382b6b1c66735dfdbca3bd1a3c",
+      "label": ""
+    },
+    {
+      "url": "https://downloads.intercomcdn.com/i/o/892388299/27e735c96020eb43dc73d368/image.png?expires=1790291700&req=fCklFcF2n4hWFb4f3HP0gPlqnDzSRdd883VXz6m7dzMRkXsAgKqm%2FqB7bFV8%0A%2BF%2B%2B9ALfNj8apJCyvA%3D%3D%0A&signature=becdc619e01c9b9dc8c95f6df3e7c282983dd5c394e3a2cfe7b8be30a216c4d2",
+      "label": ""
+    },
+    {
+      "url": "https://downloads.intercomcdn.com/i/o/892395618/bf59d5c626c1e4ced04078c3/image.png?expires=1790291700&req=fCklFcB7m4BXFb4f3HP0gP6Dwb53tjGMzfkY7LdEosnY65Su%2BcaogiSW75Q%2B%0A9ykPJHKPMkzBnHBShQ%3D%3D%0A&signature=ea1174f61fa1663755950c339155f9333cab0ff481541842775a9d7a4b0dff80",
+      "label": ""
+    },
+    {
+      "url": "https://downloads.intercomcdn.com/i/o/893866797/ccc41fbb98e2756031b92c6b/image.png?expires=1790291700&req=fCkkHs94mohYFb4f3HP0gGgELOyRy1gPPmoC5eSMan37XAWIDXiKEhvB7oJM%0AOJa50j3GEIpUPco2eQ%3D%3D%0A&signature=65edf77e1df603a34d6146c9b0eac0ac65a7f2256aef8b37431113bc40a9c358",
+      "label": ""
+    },
+    {
+      "url": "https://downloads.intercomcdn.com/i/o/892401961/6ae1348bdd19c700431ac2f4/image.png?expires=1790291700&req=fCklEsl%2FlIdeFb4f3HP0gAfO1yw36a6Rtvgvcnk%2FYQ9EQ5Wb6FmQWgG5a%2BMq%0AVVRttpBvznHbV4p4zw%3D%3D%0A&signature=d18c2976e758aad8503c4ff95b2cc553e40e23e5c19008c245e252a77c8ba078",
+      "label": ""
+    },
+    {
+      "url": "https://downloads.intercomcdn.com/i/o/892535116/be2d07bcc93134cd11b6a88c/image.png?expires=1790291700&req=fCklE8p7nIBZFb4f3HP0gOjbiqBd85W5xTFoySmRIn4ckGFg%2BjAaU2m1Y%2F8m%0AXah8Mk%2BHhcv18fYVeQ%3D%3D%0A&signature=50e7dd8229c6a4efcf1874389e2d99c0e8a7ae416c9dade6ca30279ef322b9a8",
+      "label": ""
+    },
+    {
+      "url": "https://downloads.intercomcdn.com/i/o/892540700/b741a139b02f08c2b6ab9951/image.png?expires=1790291700&req=fCklE81%2BmoFfFb4f3HP0gCsPbHUVWDDqdYIfaMNc95cBC%2BAMCBLCa9ImF0wM%0ACfGX2d8OxgPH3MaUdg%3D%3D%0A&signature=711eb2506815ab6517dba44842aa6a4c2f26b2d33fc0e6ac32cf88a30568a9d0",
+      "label": ""
+    },
+    {
+      "url": "https://help.picflow.com/en/articles/7260633-invite-members",
+      "label": "Invite Members"
+    },
+    {
+      "url": "https://help.picflow.com/en/articles/9862944-viewing-selections-in-lightroom",
+      "label": "Viewing Selections in Lightroom"
+    },
+    {
+      "url": "https://help.picflow.com/en/articles/11593246-workflow-credits",
+      "label": "Workflow Credits"
+    },
+    {
+      "url": "https://help.picflow.com/en/articles/12818325-picflow-desktop-app-for-macos-beta",
+      "label": "Picflow Desktop App for macOS (Beta)"
+    },
+    {
+      "url": "https://feedback.picflow.com/",
+      "label": "Feature Requests"
+    },
+    {
+      "url": "https://picflow.com/a/bugs",
+      "label": "Bug Reports"
+    },
+    {
+      "url": "https://www.intercom.com/intercom-link?company=Picflow&solution=customer-support",
+      "label": "We run on Fin"
+    }
+  ],
+  "body_sha256": "7e6d43d4c5080dd16fb13184cc1c80e868fbdbd3931c338a78ab0d07924a36ea",
+  "status": 200,
+  "origin": "frozen-corpus",
+  "retrieved_at": "2026-09-24T22:49:13.199744+00:00"
+}

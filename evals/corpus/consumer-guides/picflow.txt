@@ -1,0 +1,16 @@
+# Picflow
+
+> Picflow provides client galleries for sharing media and collecting feedback and approvals from creative teams and clients.
+
+Picflow supports common image formats, RAW files from major camera brands, video, and audio; it converts RAW files into previews.
+
+The pricing FAQ says the free plan has no time limit, paid plans offer a seven-day trial, and reviewers do not need a user license.
+
+## Galleries and plans
+
+- [Picflow overview](<https://picflow.com/>): Client galleries, proofing, and supported media formats.
+- [Pricing and plan FAQ](<https://picflow.com/pricing>): Plan terms, trials, storage limits, reviewer access, and billing questions.
+
+## Lightroom Classic workflow
+
+- [Lightroom Classic plugin installation](<https://help.picflow.com/en/articles/8587606-lightroom-plugin-installation-guide>): Install and connect the plugin to publish media from Lightroom Classic to Picflow.

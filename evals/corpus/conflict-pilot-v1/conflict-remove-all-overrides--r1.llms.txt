@@ -1,0 +1,10 @@
+# Parcel Shop
+
+> Parcel Shop publishes home-delivery information, but its pages disagree on the free-delivery threshold.
+
+The home page says home delivery is free over €300; the shipping policy says over €600. Neither statement is dated, so the current threshold is unclear.
+
+## Delivery information
+
+- [Shipping policy](<https://parcel.example/shipping>): States a free home-delivery threshold of €600; this conflicts with the home page.
+- [Home page](<https://parcel.example/>): States a free home-delivery threshold of €300; this conflicts with the shipping policy.

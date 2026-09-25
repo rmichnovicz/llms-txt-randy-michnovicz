@@ -1,0 +1,17 @@
+{
+  "id": "taskade",
+  "url": "https://www.taskade.com/llms.txt",
+  "category": "saas",
+  "kind": "actual",
+  "split": "development",
+  "discovery": "https://llmstxt.site/",
+  "retrieved_at": "2026-09-24T22:46:20.564821+00:00",
+  "accepted": true,
+  "status": 200,
+  "final_url": "https://www.taskade.com/llms.txt",
+  "content_type": "text/plain; charset=UTF-8",
+  "sha256": "e87ec166a2369aeac28495df5cf58b0b15795866526b872815ff40f08b8c1ff7",
+  "bytes": 36115,
+  "decode_replacements": 0,
+  "raw_path": "raw/taskade.txt"
+}

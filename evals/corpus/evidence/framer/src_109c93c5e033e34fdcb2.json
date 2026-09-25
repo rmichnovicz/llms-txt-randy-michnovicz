@@ -1,0 +1,16 @@
+{
+  "url": "https://www.framer.com/agents/external/?md",
+  "retrieved_at": "2026-09-24T22:49:12.921315+00:00",
+  "source": {
+    "id": "src_109c93c5e033e34fdcb2",
+    "url": "https://www.framer.com/agents/external/",
+    "title": "Framer: Connect Claude, Cursor, Codex, Grok, and more to Framer",
+    "description": "Use Framer with Claude Code, Cursor, Codex in ChatGPT, and other AI tools. Connect directly to build and update sites. No MCP setup required.",
+    "content": "Learn how to Connect Framer to Claude, Codex, Cursor, and more\nOpus 4.7 · Claude Max\n/Users/paul\n> npx @framer/agent setup\n- Run the install prompt\nOpus 4.7 · Claude Max\n/Users/paul\n> npx @framer/agent setup\n- Run the install prompt\n> npx @framer/agent setup\n⏺ Bash (npx @framer/agent setup)\\ Installed 2 skills to /Users/paul/.agents/skills, /Users/paul/.claude/skills\n> /framer\n- Connect to your projects\nIn your AI agent, run the /framer skill to connect it to your Framer project and grant access to the project from your browser. This establishes the connection between your external AI and your Framer project.\n⏺ Bash (npx @framer/agent setup)\\ Installed 2 skills to /Users/paul/.agents/skills, /Users/paul/.claude/skills\nConnected to your Site project (session 6). What would you like me to help you with?\n> List all the blogposts in my project\n- Write your first prompt\nTell your agent what to build, change, or fix. It works directly in your Framer project without the need to have it open. This means you can update anything in your project and even publish remotely.\nFrequently asked questions\nLearn how to Connect Framer to Claude, Codex, Cursor, and more\nOpus 4.7 · Claude Max\n/Users/paul\n> npx @framer/agent setup\n- Run the install prompt\n> npx @framer/agent setup\n⏺ Bash (npx @framer/agent setup)\\ Installed 2 skills to /Users/paul/.agents/skills, /Users/paul/.claude/skills\n> /framer\n- Connect to your projects\nIn your AI agent, run the /framer skill to connect it to your Framer project and grant access to the project from your browser. This establishes the connection between your external AI and your Framer project.\n⏺ Bash (npx @framer/agent setup)\\ Installed 2 skills to /Users/paul/.agents/skills, /Users/paul/.claude/skills\nConnected to your Site project (session 6). What would you like me to help you with?\n> List all the blogposts in my project\n- Write your first prompt\nTell your agent what to build, change, or fix. It works directly in your Framer project without the need to have it open. This means you can update anything in your project and even publish remotely.",
+    "markdownUrl": null
+  },
+  "status": 200,
+  "final_url": "https://www.framer.com/agents/external/",
+  "sha256": "f68303accb3dafacb3482d92414a3ba40f30379649ba598577378818e2cca6dd",
+  "content_type": "text/html"
+}

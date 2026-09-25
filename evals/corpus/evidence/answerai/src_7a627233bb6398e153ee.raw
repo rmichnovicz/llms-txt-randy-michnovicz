@@ -1,0 +1,231 @@
+
+
+# Answer.AI - Practical AI R&D
+
+Answer.AI is a new kind of AI R&D lab which creates practical end-user
+products based on foundational research breakthroughs. To learn more
+about the research agenda and background behind our work, see our launch
+post and an independent analysis of our lab. See below for a complete
+list of published articles.
+
+------------------------------------------------------------------------
+
+### /llms.txt—a proposal to provide information to help LLMs use websites
+
+We propose that those interested in providing LLM-friendly content add a
+/llms.txt file to their site. This is a markdown file that provides
+brief background information and guidance, along with links to markdown
+files providing more detailed information.
+
+Sep 3, 2024
+
+Jeremy Howard
+
+### Small but Mighty: Introducing answerai-colbert-small
+
+Say hello to answerai-colbert-small-v1, a tiny ColBERT model that
+punches well above its weight.
+
+Aug 13, 2024
+
+Benjamin Clavié
+
+### How HTMX is Revolutionizing Web Development — Interview with Carson Gross
+
+We recently sat down with Carson Gross, the creator of HTMX, to discuss
+how it’s changing the web.
+
+Aug 4, 2024
+
+Elizabeth Creason
+
+### FastHTML: Modern web applications in pure Python
+
+FastHTML is a new way to create modern interactive web apps. It scales
+down to a 6-line python file, and scales up to complex production apps.
+
+Aug 3, 2024
+
+Jeremy Howard
+
+### JaColBERTv2.5🇯🇵: Optimising Retrieval Training for Lower-Resources Languages
+
+Introducing JaColBERTv2.5🇯🇵, the new best Japanese retrieval model.
+Through this release, we present a thorough analysis to better
+understand what helps in training a good multi-vector retrieval model.
+
+Aug 2, 2024
+
+Benjamin Clavié
+
+### Cold-Compress 1.0: A Hackable Toolkit for KV-Cache Compression
+
+Blog
+
+Answer.AI is proud to publicly release **Cold Compress 1.0** , a toolkit
+for creating and benchmarking state-of-the-art KV cache compression
+methods. Built on top of GPT-Fast, it…\*\*
+**\*\*\*\***\*\*\*\***\*\*\*\***\*\*\*\*\_\_\*\*
+
+Aug 1, 2024
+
+Griffin Adams, Faisal Ladhak
+
+### Faith and Fate: Transformers as fuzzy pattern matchers
+
+Are GPT-like models thinking? Unclear. But the *Faith and Fate* paper
+(Dziri, 2023) points out they are often “just” pattern matching.
+
+Jul 25, 2024
+
+Alexis Gallagher
+
+### gpu.cpp: portable GPU compute for C++ with WebGPU
+
+We’re thrilled to announce the release of gpu.cpp. gpu.cpp is a
+lightweight, open-source library that makes portable GPU compute with
+C++ simple.
+
+Jul 13, 2024
+
+Austin Huang
+
+### Politicians can’t change math
+
+It is not possible to provide assurance that a released model can’t be
+used to cause harm, because a released model can be changed.
+
+Jun 28, 2024
+
+Jeremy Howard
+
+### A little pooling goes a long way for multi-vector representations
+
+We’re releasing an early version of a simple token pooling trick for
+ColBERT. This allows for considerable memory&disk footprint reduction
+with very minimal retrieval…
+
+Jun 27, 2024
+
+Benjamin Clavié
+
+### A new kind of literate program – Claudette
+
+Claudette is the first ever ‘literate nbdev’ project. Its source is a
+rendered Notebook with callout notes and tips, HTML tables and images,
+detailed explanations. It explains how and why the code is written the
+way it is, along with how to use the libraries it depends on.
+
+Jun 23, 2024
+
+Jeremy Howard
+
+### Introducing Claudette, a new friend that makes Claude 3.5 Sonnet even nicer
+
+Today, Anthropic launched the most powerful language model available:
+Claude 3.5 Sonnet. And today, we are making it ever better, with the
+launch of *Claudette*.
+
+Jun 21, 2024
+
+Jeremy Howard
+
+### The definition of ‘Artificial Intelligence’ in SB 1047 was actually meant for systems, not models
+
+SB 1047 defines “AI Model” using a definition designed for “AI Systems”,
+and as a result fails to cover anything.
+
+Jun 19, 2024
+
+Jeremy Howard
+
+### What policy makers need to know about AI (and what goes wrong if they don’t)
+
+Policy makers need to understand how AI really works. Otherwise bills
+like SB 1047 totally fail to achieve their stated goals.
+
+Jun 17, 2024
+
+Jeremy Howard
+
+### More=Better?
+
+In this post I want to share a few quick experiments to show something
+that is both obvious and also perhaps underappreciated: you can get a
+sizeable quality boost from a…
+
+May 17, 2024
+
+Jonathan Whitaker
+
+### SB-1047 will stifle open-source AI and decrease safety
+
+By imposing the restrictions on open-source AI, SB-1047 could reduce AI
+safety, through reducing transparency, collaboration, diversity, and
+resilience.
+
+Apr 29, 2024
+
+Jeremy Howard
+
+### Efficient finetuning of Llama 3 with FSDP QDoRA
+
+We’re releasing FSDP QDoRA, a scalable and memory-efficient method to
+close the gap between parameter efficient finetuning and full
+finetuning.
+
+Apr 22, 2024
+
+Kerem Turgutlu
+
+### A few tips for working on high-surface-area problems
+
+What do you do when there are too many pieces to fit in your head?
+
+A few tips for working on things that involve a lot of moving pieces,
+that have a high “surface area”.
+
+Apr 12, 2024
+
+Johno Whitaker
+
+### Enabling 70B Finetuning on Consumer GPUs
+
+A Technical Deep Dive into FSDP+QLoRA
+
+A detailed guide for adding FSDP and QLoRA support to quantization
+libraries and training frameworks.
+
+Mar 14, 2024
+
+Benjamin Warner, Johno Whitaker, Kerem Turgutlu
+
+### You can now train a 70b language model at home
+
+We’re releasing an open source system, based on FSDP and QLoRA, that can
+train a 70b model on two 24GB GPUs.
+
+Mar 6, 2024
+
+### Lessons from history’s greatest R&D labs
+
+A historical analysis of what the earliest electrical and great applied
+R&D labs can teach Answer.AI, and potential pitfalls
+
+Jan 26, 2024
+
+Eric Gilliam
+
+### A new old kind of R&D lab
+
+Answer.AI will figure out the fundamental research needed to tame AI,
+and the development path needed to make it useful in practice
+
+Dec 12, 2023
+
+Jeremy Howard
+
+A new old kind of R&D lab
+
+Answer.AI will figure out the fundamental research needed to tame AI,
+and the development path needed to make it useful in practice

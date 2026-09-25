@@ -1,0 +1,16 @@
+{
+  "url": "https://www.gilesthomas.com/about.md",
+  "retrieved_at": "2026-09-24T22:49:18.993039+00:00",
+  "source": {
+    "id": "src_35db9955a645ec140f21",
+    "url": "https://www.gilesthomas.com/2026/07/about.md",
+    "title": "About",
+    "description": "",
+    "content": "> This is a post from [Giles' Blog](https://www.gilesthomas.com/llms.txt).  All relative URLs below\n> are relative to https://www.gilesthomas.com/.\n\n# About\n\nPosted on 2026-07-15T19:30:00+00:00\n\n\n![Me](/images/giles-2024.jpg)\n\nHi! I'm Giles Thomas, a founder and coder -- originally from the UK, but now\nliving in Lisbon, Portugal.\n\nThis blog is mostly where I [learn in public](/2025/02/20250223-til-deep-dive-posts),\nworking through projects and writing the blog post that I wished I'd found when\nI started.  It's a collection of detailed explainers on things I've learned, public\nlab notes on experiments, and the occasional post/rant/musing on startups, systems,\nor whatever else has caught my attention.\n\nOver the last couple of years, my focus has been on\n[learning large language models from first principles](/llm-from-scratch),\nmost recently [building and training GPT-2 small from scratch in JAX](/2026/07/llm-from-scratch-34b-building-and-training-gpt-2-small-in-jax).\nI'm building out from there to cover as much of the internals of modern LLMs as I\ncan, and also exploring the practicalities of building and running useful locally-hosted\nmodels.\n\nIf you dig into the archives, you’ll find\nother fun stuff I've investigated over (*checks calendar, blanches*)\nnearly 20 years of posting, from [Linux internals](/2021/03/fun-with-network-namespaces) to\n[the interaction of EU VAT legislation and Bitcoin](/2014/12/euvat-accepting-bitcoins-impractical-eu-businesses).\n\nAside from my research and writing, I'm currently advising a small number of\nearly-stage companies and projects on AI, drawing both on my recent work and on\na couple of decades of shipping software products, while continuing to explore what I might build next.\n\nPreviously, I founded and led [PythonAnywhere](http://www.pythonanywhere.com/), a\nplatform-as-a-service for Python developers (sold to Anaconda in 2022).  The\nPython Software Foundation were kind enough to make me a [PSF Fellow](https://www.python.org/psf/fellows-roster/)\nalong the way.\n\nIf you're interested in how I use AI on this blog,\n[here's the current summary](/ai-use).\n\n[Previously on this about page...](/2025/06/about)\n\n",
+    "markdownUrl": "https://www.gilesthomas.com/2026/07/about.md"
+  },
+  "status": 200,
+  "final_url": "https://www.gilesthomas.com/2026/07/about.md",
+  "sha256": "15750a93d27ce93b5e770c5b748797789e844fef0dde571d3bb612000b15a6b8",
+  "content_type": "text/markdown"
+}

@@ -1,0 +1,16 @@
+{
+  "url": "https://www.neonelectrical.co.nz/contact/",
+  "retrieved_at": "2026-09-24T22:49:17.436460+00:00",
+  "source": {
+    "id": "src_88dcbeed4b68306ec35b",
+    "url": "https://www.neonelectrical.co.nz/contact/",
+    "title": "Contact - Neon Electrical",
+    "description": "Got a job or a question?",
+    "content": "Contact\nMenu\nElectrician Auckland\nHome\nReviews\nQualifications\nServices\nPower And Lighting Installation\nSmartVent Installation Auckland\nLED Lighting Upgrades\nSwitchboard Upgrades\nElectrical Home Assessments\nElectrical Fault Diagnosis\nSafety Compliance Checks\nEarthing Checks\nUnderground Cable Checks\nAbout\nArticles\nContact\njosh@neonelectrical.com",
+    "markdownUrl": null
+  },
+  "status": 200,
+  "final_url": "https://www.neonelectrical.co.nz/contact/",
+  "sha256": "cb1c5a21e928dc97d73e21a8d57598945449644ea3be19bb38afd07670fa2721",
+  "content_type": "text/html; charset=UTF-8"
+}

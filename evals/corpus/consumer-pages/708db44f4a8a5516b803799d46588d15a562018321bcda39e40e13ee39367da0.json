@@ -1,0 +1,255 @@
+{
+  "url": "https://www.fastht.ml/docs/",
+  "title": "FastHTML – fasthtml",
+  "content": "Welcome to the official FastHTML documentation.\nFastHTML is a new next-generation web framework for fast, scalable web applications with minimal, compact code. It’s designed to be:\n- Powerful and expressive enough to build the most advanced, interactive web apps you can imagine.\n- Fast and lightweight, so you can write less code and get more done.\n- Easy to learn and use, with a simple, intuitive syntax that makes it easy to build complex apps quickly.\nFastHTML apps are just Python code, so you can use FastHTML with the full power of the Python language and ecosystem. FastHTML’s functionality maps 1:1 directly to HTML and HTTP, but allows them to be encapsulated using good software engineering practices—so you’ll need to understand these foundations to use this library fully. To understand how and why this works, please read this first: fastht.ml/about.\nInstallation\nSince fasthtml is a Python library, you can install it with:\npip install python-fasthtml\nIn the near future, we hope to add component libraries that can likewise be installed via pip.\nUsage\nFor a minimal app, create a file “main.py” as follows:\nmain.py\nfrom fasthtml.common import *\napp,rt = fast_app()\n@rt('/')\ndef get(): return Div(P('Hello World!'), hx_get=\"/change\")\nserve()\nRunning the app with python main.py prints out a link to your running app: http://localhost:5001. Visit that link in your browser and you should see a page with the text “Hello World!”. Congratulations, you’ve just created your first FastHTML app!\nAdding interactivity is surprisingly easy, thanks to HTMX. Modify the file to add this function:\nmain.py\n@rt('/change')\ndef get(): return P('Nice to be here!')\nYou now have a page with a clickable element that changes the text when clicked. When clicking on this link, the server will respond with an “HTML partial”—that is, just a snippet of HTML which will be inserted into the existing page. In this case, the returned element will replace the original P element (since that’s the default behavior of HTMX) with the new version returned by the second route.\nThis “hypermedia-based” approach to web development is a powerful way to build web applications.\nGetting help from AI\nBecause FastHTML is newer than most LLMs, AI systems like Cursor, ChatGPT, Claude, and Copilot won’t give useful answers about it. To fix that problem, we’ve provided an LLM-friendly guide that teaches them how to use FastHTML. To use it, add this link for your AI helper to use:\nThis example is in a format based on recommendations from Anthropic for use with Claude Projects. This works so well that we’ve actually found that Claude can provide even better information than our own documentation! For instance, read through this annotated Claude chat for some great getting-started information, entirely generated from a project using the above text file as context.\nIf you use Cursor, type @doc then choose “Add new doc”, and use the /llms-ctx.txt link above. The context file is auto-generated from our llms.txt (our proposed standard for providing AI-friendly information)—you can generate alternative versions suitable for other models as needed.\nNext Steps\nStart with the official sources to learn more about FastHTML:\n- About: Learn about the core ideas behind FastHTML\n- Documentation: Learn from examples how to write FastHTML code\n- Idiomatic app: Heavily commented source code walking through a complete application, including custom authentication, JS library connections, and database use.\nWe also have a 1-hour intro video:\nThe capabilities of FastHTML are vast and growing, and not all the features and patterns have been documented yet. Be prepared to invest time into studying and modifying source code, such as the main FastHTML repo’s notebooks and the official FastHTML examples repo:\nThen explore the small but growing third-party ecosystem of FastHTML tutorials, notebooks, libraries, and components:\n- FastHTML Gallery: Learn from minimal examples of components (ie chat bubbles, click-to-edit, infinite scroll, etc)\n- Creating Custom FastHTML Tags for Markdown Rendering by Isaac Flath\n- How to Build a Simple Login System in FastHTML by Marius Vach\n- Your tutorial here!\nFinally, join the FastHTML community to ask questions, share your work, and learn from others:",
+  "links": [
+    {
+      "url": "https://fastht.ml/about",
+      "label": "Learn"
+    },
+    {
+      "url": "https://www.fastht.ml/docs/",
+      "label": "Installation"
+    },
+    {
+      "url": "https://www.fastht.ml/docs/llms-ctx.txt",
+      "label": "/llms-ctx.txt"
+    },
+    {
+      "url": "https://support.anthropic.com/en/articles/9517075-what-are-projects",
+      "label": "Claude Projects"
+    },
+    {
+      "url": "https://gist.github.com/jph00/9559b0a563f6a370029bec1d1cc97b74",
+      "label": "this annotated Claude chat"
+    },
+    {
+      "url": "https://llmstxt.org/",
+      "label": "llms.txt"
+    },
+    {
+      "url": "https://www.fastht.ml/docs",
+      "label": "Documentation"
+    },
+    {
+      "url": "https://github.com/AnswerDotAI/fasthtml/blob/main/examples/adv_app.py",
+      "label": "Idiomatic app"
+    },
+    {
+      "url": "https://github.com/AnswerDotAI/fasthtml-example",
+      "label": "FastHTML Examples Repo on GitHub"
+    },
+    {
+      "url": "https://github.com/AnswerDotAI/fasthtml",
+      "label": "FastHTML Repo on GitHub"
+    },
+    {
+      "url": "https://gallery.fastht.ml/",
+      "label": "FastHTML Gallery"
+    },
+    {
+      "url": "https://isaac-flath.github.io/website/posts/boots/FasthtmlTutorial.html",
+      "label": "Creating Custom FastHTML Tags for Markdown Rendering"
+    },
+    {
+      "url": "https://blog.mariusvach.com/posts/login-fasthtml",
+      "label": "How to Build a Simple Login System in FastHTML"
+    },
+    {
+      "url": "https://discord.gg/qcXvcxMhdP",
+      "label": "Discord"
+    },
+    {
+      "url": "https://htmgo.dev/",
+      "label": "htmgo"
+    },
+    {
+      "url": "https://fastcore.fast.ai/xml.html",
+      "label": "fastcore.xml.FT"
+    },
+    {
+      "url": "https://htpy.dev/",
+      "label": "htpy"
+    },
+    {
+      "url": "https://package.elm-lang.org/packages/elm/html/latest/",
+      "label": "elm-html"
+    },
+    {
+      "url": "https://github.com/weavejester/hiccup",
+      "label": "hiccup"
+    },
+    {
+      "url": "https://github.com/garlic0x1/hiccl",
+      "label": "hiccl"
+    },
+    {
+      "url": "https://github.com/pimbrouwers/Falco",
+      "label": "Falco.Markup"
+    },
+    {
+      "url": "https://github.com/chrisdone/lucid",
+      "label": "Lucid"
+    },
+    {
+      "url": "https://github.com/aantron/dream",
+      "label": "dream-html"
+    },
+    {
+      "url": "https://turbo.hotwired.dev/",
+      "label": "Hotwire/Turbo"
+    },
+    {
+      "url": "https://hexdocs.pm/phoenix_live_view/Phoenix.LiveView.html",
+      "label": "LiveView"
+    },
+    {
+      "url": "https://unpoly.com/",
+      "label": "Unpoly"
+    },
+    {
+      "url": "https://laravel-livewire.com/",
+      "label": "Livewire"
+    },
+    {
+      "url": "https://www.fastht.ml/docs/index.html",
+      "label": ""
+    },
+    {
+      "url": "https://fastht.ml/",
+      "label": "Home"
+    },
+    {
+      "url": "https://github.com/answerdotai/fasthtml",
+      "label": ""
+    },
+    {
+      "url": "https://x.com/answerdotai",
+      "label": ""
+    },
+    {
+      "url": "https://www.fastht.ml/docs/tutorials/index.html",
+      "label": "Tutorials"
+    },
+    {
+      "url": "https://www.fastht.ml/docs/tutorials/by_example.html",
+      "label": "FastHTML By Example"
+    },
+    {
+      "url": "https://www.fastht.ml/docs/tutorials/quickstart_for_web_devs.html",
+      "label": "Web Devs Quickstart"
+    },
+    {
+      "url": "https://www.fastht.ml/docs/tutorials/e2e.html",
+      "label": "JS App Walkthrough"
+    },
+    {
+      "url": "https://www.fastht.ml/docs/tutorials/jupyter_and_fasthtml.html",
+      "label": "Using Jupyter to write FastHTML"
+    },
+    {
+      "url": "https://www.fastht.ml/docs/explains/background_tasks.html",
+      "label": "Background Tasks"
+    },
+    {
+      "url": "https://www.fastht.ml/docs/explains/explaining_xt_components.html",
+      "label": "FT  Components"
+    },
+    {
+      "url": "https://www.fastht.ml/docs/explains/faq.html",
+      "label": "FAQ"
+    },
+    {
+      "url": "https://www.fastht.ml/docs/explains/minidataapi.html",
+      "label": "MiniDataAPI Spec"
+    },
+    {
+      "url": "https://www.fastht.ml/docs/explains/oauth.html",
+      "label": "OAuth"
+    },
+    {
+      "url": "https://www.fastht.ml/docs/explains/routes.html",
+      "label": "Routes"
+    },
+    {
+      "url": "https://www.fastht.ml/docs/explains/stripe.html",
+      "label": "Stripe"
+    },
+    {
+      "url": "https://www.fastht.ml/docs/explains/websockets.html",
+      "label": "WebSockets"
+    },
+    {
+      "url": "https://www.fastht.ml/docs/ref/concise_guide.html",
+      "label": "Concise reference"
+    },
+    {
+      "url": "https://www.fastht.ml/docs/ref/best_practice.html",
+      "label": "FastHTML Best Practices"
+    },
+    {
+      "url": "https://www.fastht.ml/docs/ref/defining_xt_component.html",
+      "label": "Custom Components"
+    },
+    {
+      "url": "https://www.fastht.ml/docs/ref/handlers.html",
+      "label": "Handling handlers"
+    },
+    {
+      "url": "https://www.fastht.ml/docs/ref/live_reload.html",
+      "label": "Live Reloading"
+    },
+    {
+      "url": "https://www.fastht.ml/docs/ref/response_types.html",
+      "label": "Response Types"
+    },
+    {
+      "url": "https://www.fastht.ml/docs/api/core.html",
+      "label": "Core"
+    },
+    {
+      "url": "https://www.fastht.ml/docs/api/components.html",
+      "label": "Components"
+    },
+    {
+      "url": "https://www.fastht.ml/docs/api/xtend.html",
+      "label": "Component extensions"
+    },
+    {
+      "url": "https://www.fastht.ml/docs/api/js.html",
+      "label": "Javascript examples"
+    },
+    {
+      "url": "https://www.fastht.ml/docs/api/pico.html",
+      "label": "Pico.css components"
+    },
+    {
+      "url": "https://www.fastht.ml/docs/api/svg.html",
+      "label": "SVG"
+    },
+    {
+      "url": "https://www.fastht.ml/docs/api/jupyter.html",
+      "label": "Jupyter compatibility"
+    },
+    {
+      "url": "https://www.fastht.ml/docs/api/oauth.html",
+      "label": "OAuth"
+    },
+    {
+      "url": "https://www.fastht.ml/docs/api/cli.html",
+      "label": "Command Line Tools"
+    },
+    {
+      "url": "https://github.com/AnswerDotAI/fasthtml/issues/new",
+      "label": "Report an issue"
+    },
+    {
+      "url": "https://www.fastht.ml/docs/index.html.md",
+      "label": "CommonMark"
+    }
+  ],
+  "body_sha256": "31d99806af95672bc16386678a613f700556cbff9e8df6061dfd1a59d74ef568",
+  "status": 200,
+  "origin": "live-capture",
+  "retrieved_at": "2026-09-24T23:09:24.346118+00:00"
+}

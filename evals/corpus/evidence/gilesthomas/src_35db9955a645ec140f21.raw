@@ -1,0 +1,45 @@
+> This is a post from [Giles' Blog](https://www.gilesthomas.com/llms.txt).  All relative URLs below
+> are relative to https://www.gilesthomas.com/.
+
+# About
+
+Posted on 2026-07-15T19:30:00+00:00
+
+
+![Me](/images/giles-2024.jpg)
+
+Hi! I'm Giles Thomas, a founder and coder -- originally from the UK, but now
+living in Lisbon, Portugal.
+
+This blog is mostly where I [learn in public](/2025/02/20250223-til-deep-dive-posts),
+working through projects and writing the blog post that I wished I'd found when
+I started.  It's a collection of detailed explainers on things I've learned, public
+lab notes on experiments, and the occasional post/rant/musing on startups, systems,
+or whatever else has caught my attention.
+
+Over the last couple of years, my focus has been on
+[learning large language models from first principles](/llm-from-scratch),
+most recently [building and training GPT-2 small from scratch in JAX](/2026/07/llm-from-scratch-34b-building-and-training-gpt-2-small-in-jax).
+I'm building out from there to cover as much of the internals of modern LLMs as I
+can, and also exploring the practicalities of building and running useful locally-hosted
+models.
+
+If you dig into the archives, you’ll find
+other fun stuff I've investigated over (*checks calendar, blanches*)
+nearly 20 years of posting, from [Linux internals](/2021/03/fun-with-network-namespaces) to
+[the interaction of EU VAT legislation and Bitcoin](/2014/12/euvat-accepting-bitcoins-impractical-eu-businesses).
+
+Aside from my research and writing, I'm currently advising a small number of
+early-stage companies and projects on AI, drawing both on my recent work and on
+a couple of decades of shipping software products, while continuing to explore what I might build next.
+
+Previously, I founded and led [PythonAnywhere](http://www.pythonanywhere.com/), a
+platform-as-a-service for Python developers (sold to Anaconda in 2022).  The
+Python Software Foundation were kind enough to make me a [PSF Fellow](https://www.python.org/psf/fellows-roster/)
+along the way.
+
+If you're interested in how I use AI on this blog,
+[here's the current summary](/ai-use).
+
+[Previously on this about page...](/2025/06/about)
+

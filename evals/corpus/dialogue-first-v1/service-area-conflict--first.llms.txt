@@ -1,0 +1,14 @@
+# Bay Electric
+
+> Bay Electric advertises electrical repairs in Oakland and Berkeley. Its pages disagree about whether it serves San Francisco.
+
+Appointments are Monday through Friday, 9–5. Emergency callouts are not offered.
+
+## Services and coverage
+
+- [Electrical repairs](<https://local-service-scope.example/home>): Describes repairs in Oakland and Berkeley and says San Francisco is not served.
+- [Service area](<https://local-service-scope.example/area>): Lists Oakland, Berkeley, and San Francisco, conflicting with the home page.
+
+## Appointments
+
+- [Request an estimate](<https://local-service-scope.example/contact>): Gives weekday appointment hours and states that emergency callouts are unavailable.

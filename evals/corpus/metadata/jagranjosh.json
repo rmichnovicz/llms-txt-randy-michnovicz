@@ -1,0 +1,17 @@
+{
+  "id": "jagranjosh",
+  "url": "https://www.jagranjosh.com/llms.txt",
+  "category": "publisher-personal",
+  "kind": "actual",
+  "split": "holdout",
+  "discovery": "https://llmstxt.site/",
+  "retrieved_at": "2026-09-24T22:46:25.651251+00:00",
+  "accepted": false,
+  "status": 404,
+  "final_url": "https://www.jagranjosh.com/llms.txt",
+  "content_type": "text/html; charset=utf-8",
+  "sha256": "535ef98b2747b7fbbdf7656562eed019edd6dec52c809c30d0019131570ec433",
+  "bytes": 68842,
+  "decode_replacements": 0,
+  "raw_path": "raw/jagranjosh.txt"
+}

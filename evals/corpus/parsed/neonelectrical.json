@@ -1,0 +1,105 @@
+{
+  "parser_version": "corpus-v2",
+  "headings": [
+    {
+      "level": 1,
+      "text": "Neon Electrical",
+      "line": 1
+    },
+    {
+      "level": 2,
+      "text": "Site Information",
+      "line": 5
+    },
+    {
+      "level": 2,
+      "text": "Core Services",
+      "line": 15
+    },
+    {
+      "level": 2,
+      "text": "Key Pages",
+      "line": 21
+    }
+  ],
+  "links": [
+    {
+      "label": "Home",
+      "url": "https://www.neonelectrical.co.nz/",
+      "canonical": "https://www.neonelectrical.co.nz/",
+      "raw_url": "https://www.neonelectrical.co.nz/",
+      "description": "Overview of residential and commercial services.",
+      "line": 22
+    },
+    {
+      "label": "Services",
+      "url": "https://www.neonelectrical.co.nz/services/",
+      "canonical": "https://www.neonelectrical.co.nz/services/",
+      "raw_url": "https://www.neonelectrical.co.nz/services/",
+      "description": "Full list of electrical solutions and technical capabilities.",
+      "line": 23
+    },
+    {
+      "label": "Electrician Auckland",
+      "url": "https://www.neonelectrical.co.nz/electrician-auckland/",
+      "canonical": "https://www.neonelectrical.co.nz/electrician-auckland/",
+      "raw_url": "https://www.neonelectrical.co.nz/electrician-auckland/",
+      "description": "Specific local expertise and service area details.",
+      "line": 24
+    },
+    {
+      "label": "Qualifications",
+      "url": "https://www.neonelectrical.co.nz/qualifications/",
+      "canonical": "https://www.neonelectrical.co.nz/qualifications/",
+      "raw_url": "https://www.neonelectrical.co.nz/qualifications/",
+      "description": "Master Electrician status and insurance verification.",
+      "line": 25
+    },
+    {
+      "label": "About",
+      "url": "https://www.neonelectrical.co.nz/about/",
+      "canonical": "https://www.neonelectrical.co.nz/about/",
+      "raw_url": "https://www.neonelectrical.co.nz/about/",
+      "description": "Background on Josh Taylor and company values.",
+      "line": 26
+    },
+    {
+      "label": "Reviews",
+      "url": "https://www.neonelectrical.co.nz/reviews/",
+      "canonical": "https://www.neonelectrical.co.nz/reviews/",
+      "raw_url": "https://www.neonelectrical.co.nz/reviews/",
+      "description": "Verified customer testimonials.",
+      "line": 27
+    },
+    {
+      "label": "Contact",
+      "url": "https://www.neonelectrical.co.nz/contact/",
+      "canonical": "https://www.neonelectrical.co.nz/contact/",
+      "raw_url": "https://www.neonelectrical.co.nz/contact/",
+      "description": "Inquiries and booking information.",
+      "line": 28
+    },
+    {
+      "label": "llms-full.txt",
+      "url": "https://www.neonelectrical.co.nz/llms-full.txt",
+      "canonical": "https://www.neonelectrical.co.nz/llms-full.txt",
+      "raw_url": "https://www.neonelectrical.co.nz/llms-full.txt",
+      "description": "",
+      "line": 31
+    }
+  ],
+  "bare_links": [],
+  "metrics": {
+    "bytes": 1832,
+    "words": 187,
+    "lines": 31,
+    "approx_tokens_chars_div_4": 458,
+    "h1_count": 1,
+    "link_count": 8,
+    "bare_url_count": 0,
+    "described_links": 7,
+    "unique_destinations": 8,
+    "markdown_destinations": 0
+  },
+  "flags": []
+}

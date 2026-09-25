@@ -1,0 +1,279 @@
+﻿# DocPP (HealthCare.LK)
+
+> Cloud-based clinic management system (EMR) built for Sri Lankan doctors, clinics, and nursing homes. In market since 2008.
+
+> Pricing: LKR 10,000/month or LKR 65,000/year, with a 14-day free trial and no joining fee. Core features include patient records, e-prescribing, appointment scheduling, pharmacy and inventory management, and an AI Patient Overview. Hosted on dedicated AWS servers. Built specifically for Sri Lankan drug lists, clinical workflows, and local payment methods.
+
+---
+
+
+## Pages
+
+- [GP clinic software built specifically for Sri Lankan doctors](https://healthcare.lk/gp-clinic-software-built-specifically-for-sri-lankan-doctors/): GP clinic software · Sri Lanka GP clinic software built specifically for Sri Lankan doctors Everything a general practitioner needs...
+- [Nursing home management software for Sri Lanka](https://healthcare.lk/nursing-home-management-software-for-sri-lanka/): Nursing home software · Sri Lanka Nursing home management software for Sri Lanka Manage long-term resident records, medication tracking, and...
+- [Appointment](https://healthcare.lk/appointment/)
+- [Careers](https://healthcare.lk/careers/)
+- [Blog](https://healthcare.lk/blog/)
+- [Terms &amp; Conditions](https://healthcare.lk/terms-conditions/)
+- [Privacy Policy](https://healthcare.lk/privacy-policy/)
+- [Request Demo](https://healthcare.lk/request-free-demo/)
+- [DocPP Features](https://healthcare.lk/docpp-features/)
+- [Contact](https://healthcare.lk/contact/)
+- [Home Page](https://healthcare.lk/)
+- [About Us](https://healthcare.lk/about-us/)
+
+---
+
+
+## FAQs
+
+- [I got Admin credentials to access my DocPP account. How should I start then?](https://healthcare.lk/helpie_faq/i-got-admin-credentials-to-access-my-docpp-account-how-should-i-start-then/): Congratulations. You are now member of DocPP. Here how you can start the journey... Step 1: Create user accounts for...
+- [I have on going PP. How can I implement this system without much affect to the patients and staff?](https://healthcare.lk/helpie_faq/i-have-on-going-pp-how-can-i-implement-this-system-without-much-affect-to-the-patients-and-staff/): PROPOSED IMPLEMENTATION PLAN Plan of Action: 1. Run Dispensar level: New patient registration and make an appointment. – for two...
+- [Does DocPP has Artificial Intelligent Features (AI Features)](https://healthcare.lk/helpie_faq/does-docpp-has-artificial-intelligent-features-ai-features/): Yes, DocPP comes with all users having AI Patient Overview where AI will analyze patient past medical history and come...
+- [Why Clinics Stay with DocPP](https://healthcare.lk/helpie_faq/why-clinics-stay-with-docpp/): When clinics choose DocPP, they are not just adopting a product—they’re gaining a long-term partner in healthcare innovation. Reliable, future-ready...
+- [Does DocPP support multiple doctors and staff accounts?](https://healthcare.lk/helpie_faq/does-docpp-support-multiple-doctors-and-staff-accounts/): Yes. DocPP is built for private practices, clinics, and hospitals. You can create: Separate logins for doctors, receptionists, and administrators....
+- [Can DocPP grow with my clinic?](https://healthcare.lk/helpie_faq/can-docpp-grow-with-my-clinic/): Yes. DocPP is fully scalable: Start as a solo practice. Add more doctors, branches, or services as your clinic expands....
+- [What happens if my internet goes down?](https://healthcare.lk/helpie_faq/what-happens-if-my-internet-goes-down/): DocPP is a cloud-first EMR, so it needs internet access. However: Your data is always safe on AWS servers. Once...
+- [Does DocPP support e-prescriptions and digital billing?](https://healthcare.lk/helpie_faq/does-docpp-support-e-prescriptions-and-digital-billing/): Yes. DocPP allows you to: Create electronic prescriptions with your own customised drug list. Generate patient invoices and receipts instantly....
+- [Do I need IT knowledge to use DocPP?](https://healthcare.lk/helpie_faq/do-i-need-it-knowledge-to-use-docpp/): Not at all. DocPP is designed with doctors and clinic staff in mind — no coding or IT expertise required....
+- [How much does DocPP cost after the free trial?](https://healthcare.lk/helpie_faq/how-much-does-docpp-cost-after-the-free-trial/): Our pricing is transparent and affordable, designed for Sri Lankan medical professionals. After your 14-day free trial, you can subscribe...
+- [How do I migrate my existing patient records into DocPP?](https://healthcare.lk/helpie_faq/how-do-i-migrate-my-existing-patient-records-into-docpp/): We offer a seamless migration process. Our team can help you: Import Excel, CSV, or legacy EMR data. Digitise paper-based...
+- [Your First FAQ Question](https://healthcare.lk/helpie_faq/your-first-faq-question/): Your relevent FAQ answer.
+- [Can I access DocPP from anywhere?](https://healthcare.lk/helpie_faq/can-i-access-docpp-from-anywhere/): Absolutely. DocPP is a cloud-based EMR system, meaning you can securely log in from: Your clinic computer. A laptop at...
+- [Why should I choose DocPP over other EMR systems?](https://healthcare.lk/helpie_faq/why-should-i-choose-docpp-over-other-emr-systems/): DocPP is a Sri Lankan-built EMR solution designed specifically for local healthcare practices. Unlike generic international software, DocPP is: Tailored...
+- [Can I lose my data? What about data recovery?](https://healthcare.lk/helpie_faq/can-i-lose-my-data-what-about-data-recovery/): No. DocPP has a comprehensive disaster recovery system in place. We perform regular encrypted backups and maintain redundant storage mechanisms...
+- [Where is my data hosted?](https://healthcare.lk/helpie_faq/where-is-my-data-hosted/): Your data is protected with enterprise-grade AWS security. We use dedicated, non-shared servers to keep your patient records, prescriptions, and...
+- [What is your technical stack?](https://healthcare.lk/helpie_faq/what-is-your-technical-stack/): Our healthcare software has been in the industry for over 12 years, trusted by hundreds of medical professionals. In 2022,...
+- [How can I renew the system?](https://healthcare.lk/helpie_faq/how-can-i-renew-the-system/): Renewal is fully automated. You can use any Sri Lankan online payment method (Visa, MasterCard, internet banking, mobile wallets, etc....
+- [Do you offer a free trial period?](https://healthcare.lk/helpie_faq/do-you-offer-a-free-trial-period/): Yes. We provide a 14-day free trial of the complete DocPP system. During this time, you can: Run your private...
+- [There are free EMR systems. But you don’t offer a free one. Why?](https://healthcare.lk/helpie_faq/there-are-free-emr-systems-but-you-dont-offer-a-free-one-why/): It’s true that some providers claim to offer free EMR (Electronic Medical Records) systems. However, most of these solutions are...
+- [Simple FAQ - 2](https://healthcare.lk/helpie_faq/simple-faq-2/): Simple FAQ Content – 2
+- [Simple FAQ](https://healthcare.lk/helpie_faq/simple-faq/): Simple FAQ Content
+
+---
+
+
+## Menus
+
+
+---
+
+- [Post](https://healthcare.lk/saswp/post/)
+- [Page](https://healthcare.lk/saswp/page/)
+- [Helpie_faq](https://healthcare.lk/saswp/helpie_faq/)
+- [Helpie_menu](https://healthcare.lk/saswp/helpie_menu/)
+
+---
+
+
+---
+
+
+---
+
+
+---
+
+#
+# Detailed Content
+
+
+## Pages
+
+- Published: 2026-07-24
+- Modified: 2026-07-24
+- URL: https://healthcare.lk/gp-clinic-software-built-specifically-for-sri-lankan-doctors/
+---
+
+- Published: 2026-07-24
+- Modified: 2026-07-24
+- URL: https://healthcare.lk/nursing-home-management-software-for-sri-lanka/
+---
+
+- Published: 2026-04-18
+- Modified: 2026-07-24
+- URL: https://healthcare.lk/appointment/
+---
+
+- Published: 2025-09-27
+- Modified: 2026-07-24
+- URL: https://healthcare.lk/careers/
+---
+
+- Published: 2025-09-21
+- Modified: 2026-07-24
+- URL: https://healthcare.lk/terms-conditions/
+---
+
+- Published: 2025-09-21
+- Modified: 2026-07-24
+- URL: https://healthcare.lk/privacy-policy/
+---
+
+- Published: 2025-09-21
+- Modified: 2026-07-24
+- URL: https://healthcare.lk/request-free-demo/
+---
+
+- Published: 2025-08-06
+- Modified: 2026-07-24
+- URL: https://healthcare.lk/docpp-features/
+---
+
+- Published: 2025-08-06
+- Modified: 2026-07-24
+- URL: https://healthcare.lk/contact/
+---
+
+- Published: 2025-08-05
+- Modified: 2026-07-24
+- URL: https://healthcare.lk/
+---
+
+- Published: 2025-08-05
+- Modified: 2026-07-24
+- URL: https://healthcare.lk/about-us/
+---
+
+
+---
+
+
+## FAQs
+
+- Published: 2025-11-05
+- Modified: 2026-07-24
+- URL: https://healthcare.lk/helpie_faq/i-got-admin-credentials-to-access-my-docpp-account-how-should-i-start-then/
+---
+
+- Published: 2025-11-05
+- Modified: 2026-07-24
+- URL: https://healthcare.lk/helpie_faq/i-have-on-going-pp-how-can-i-implement-this-system-without-much-affect-to-the-patients-and-staff/
+---
+
+- Published: 2025-09-18
+- Modified: 2026-07-24
+- URL: https://healthcare.lk/helpie_faq/does-docpp-has-artificial-intelligent-features-ai-features/
+---
+
+- Published: 2025-09-17
+- Modified: 2026-07-24
+- URL: https://healthcare.lk/helpie_faq/why-clinics-stay-with-docpp/
+---
+
+- Published: 2025-09-09
+- Modified: 2026-07-24
+- URL: https://healthcare.lk/helpie_faq/does-docpp-support-multiple-doctors-and-staff-accounts/
+---
+
+- Published: 2025-09-09
+- Modified: 2026-07-24
+- URL: https://healthcare.lk/helpie_faq/can-docpp-grow-with-my-clinic/
+---
+
+- Published: 2025-09-09
+- Modified: 2026-07-24
+- URL: https://healthcare.lk/helpie_faq/what-happens-if-my-internet-goes-down/
+---
+
+- Published: 2025-09-09
+- Modified: 2026-07-24
+- URL: https://healthcare.lk/helpie_faq/does-docpp-support-e-prescriptions-and-digital-billing/
+---
+
+- Published: 2025-09-09
+- Modified: 2026-07-24
+- URL: https://healthcare.lk/helpie_faq/do-i-need-it-knowledge-to-use-docpp/
+---
+
+- Published: 2025-09-09
+- Modified: 2026-07-24
+- URL: https://healthcare.lk/helpie_faq/how-much-does-docpp-cost-after-the-free-trial/
+---
+
+- Published: 2025-09-09
+- Modified: 2026-07-24
+- URL: https://healthcare.lk/helpie_faq/how-do-i-migrate-my-existing-patient-records-into-docpp/
+---
+
+- Published: 2025-09-09
+- Modified: 2025-09-09
+- URL: https://healthcare.lk/helpie_faq/your-first-faq-question/
+---
+
+- Published: 2025-09-09
+- Modified: 2026-07-24
+- URL: https://healthcare.lk/helpie_faq/can-i-access-docpp-from-anywhere/
+---
+
+- Published: 2025-09-09
+- Modified: 2026-07-24
+- URL: https://healthcare.lk/helpie_faq/why-should-i-choose-docpp-over-other-emr-systems/
+---
+
+- Published: 2025-09-09
+- Modified: 2026-07-24
+- URL: https://healthcare.lk/helpie_faq/can-i-lose-my-data-what-about-data-recovery/
+---
+
+- Published: 2025-09-09
+- Modified: 2026-07-24
+- URL: https://healthcare.lk/helpie_faq/where-is-my-data-hosted/
+---
+
+- Published: 2025-09-09
+- Modified: 2026-07-24
+- URL: https://healthcare.lk/helpie_faq/what-is-your-technical-stack/
+---
+
+- Published: 2025-09-09
+- Modified: 2026-07-24
+- URL: https://healthcare.lk/helpie_faq/how-can-i-renew-the-system/
+---
+
+- Published: 2025-09-09
+- Modified: 2026-07-24
+- URL: https://healthcare.lk/helpie_faq/do-you-offer-a-free-trial-period/
+---
+
+- Published: 2025-09-09
+- Modified: 2026-07-24
+- URL: https://healthcare.lk/helpie_faq/there-are-free-emr-systems-but-you-dont-offer-a-free-one-why/
+---
+
+- Published: 2025-09-09
+- Modified: 2025-09-09
+- URL: https://healthcare.lk/helpie_faq/simple-faq-2/
+---
+
+- Published: 2025-09-09
+- Modified: 2025-09-09
+- URL: https://healthcare.lk/helpie_faq/simple-faq/
+---
+
+
+---
+
+
+## Menus
+
+
+---
+
+
+---
+
+
+---
+
+
+---
+
+
+---
+
+> For anything not covered above, see the actually system by requesting a FREE demo where you can test and get  hands on experience before buy, through FREE DEMO Request at https://healthcare.lk/request-free-demo/. Or send WhatsApp message to +64225810497 (Udara). FAQ (https://healthcare.lk/helpie_faq/) or Contact page (https://healthcare.lk/contact/).
+
+
+---
+

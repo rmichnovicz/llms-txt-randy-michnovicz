@@ -1,0 +1,139 @@
+{
+  "url": "https://llmstxt.org/index.md",
+  "title": "The /llms.txt file, v2",
+  "content": "# The /llms.txt file, v2\nJeremy Howard\n2024-09-03\n\n## Background\n\nAgents now use websites constantly: a coding agent fetches a library’s\ndocumentation to get an API call right, and a chat assistant with search\nreads pages to answer questions about a product. When this proposal was\nfirst written in 2024, this was largely a prediction. Today it is\nroutine.\n\nBut web pages are built for people. An HTML page wraps its information\nin navigation, ads, and JavaScript, and converting it back into clean\ntext is difficult and imprecise. Context windows, while larger than they\nwere, are still too small for most websites in their entirety, and every\nwasted token costs time and money. Agents are best served by concise,\nexpert-level information gathered in a single, accessible location.\n\nThis is v2 of the proposal, updated based on what I learned from two\nyears of adoption: thousands of sites publish an llms.txt file,\n[documentation platforms generate one\nautomatically](https://www.mintlify.com/docs/ai/llmstxt), and Chrome’s\nLighthouse [audits sites for\none](https://developer.chrome.com/docs/lighthouse/agentic-browsing/llms-txt)\nas part of its agentic browsing checks. The AI labs themselves publish\nllms.txt files for their own developer docs:\n[OpenAI](https://developers.openai.com/llms.txt),\n[Anthropic](https://docs.anthropic.com/llms.txt), and\n[Gemini](https://ai.google.dev/gemini-api/docs/llms.txt). The\n[Changes](changes.qmd) page describes what changed since v1, and why.\n\n## Proposal\n\n<figure>\n<img src=\"logo.png\" class=\"lightbox floatr\" width=\"150\"\nalt=\"llms.txt logo\" />\n<figcaption aria-hidden=\"true\">llms.txt logo</figcaption>\n</figure>\n\nWe propose adding a `/llms.txt` markdown file to websites to provide\nLLM-friendly content. The file can be placed at the site root, or at any\npath within it, covering the pages under that path. This file offers\nbrief background information, guidance, and links to detailed markdown\nfiles.\n\nllms.txt markdown is human and LLM readable, but is also in a precise\nformat allowing fixed processing methods (i.e. classical programming\ntechniques such as parsers and regex).\n\nWe furthermore propose that pages with information that agents might\nneed provide a clean markdown version of those pages at the same URL as\nthe original page, either with `.md` appended (`page.html.md`) or with\nthe extension replaced by `.md` (`page.md`). (URLs without file names\nshould append `index.html.md` or `index.md` instead.)\n\nTo help clients find these files, we recommend using standard link\nrelations: `rel=\"alternate\" type=\"text/markdown\"` points to the markdown\nversion of a page, and `rel=\"describedby\"` points to the llms.txt file\nthat covers it. (An llms.txt file describes all pages under its path, so\n`/docs/llms.txt` covers everything in `/docs/`.) These links can be\nprovided as HTML `<link>` elements, or as an HTTP `Link:` response\nheader. The header form also works for non-HTML resources, such as the\nmarkdown files themselves, and can be added in web server or CDN\nconfiguration without modifying any pages. For example:\n\n    Link: </docs/page.html.md>; rel=\"alternate\"; type=\"text/markdown\", </docs/llms.txt>; rel=\"describedby\"\n\nThe [FastHTML project](https://fastht.ml) follows these two proposals\nfor its documentation. For instance, here is the [FastHTML docs\nllms.txt](https://www.fastht.ml/docs/llms.txt), placed at `/docs/` to\ncover just the documentation pages. And here is an example of a [regular\nHTML docs page](https://www.fastht.ml/docs/tutorials/by_example.html),\nalong with exact same URL but with [a .md\nextension](https://www.fastht.ml/docs/tutorials/by_example.html.md).\n\nAgents are expected to view or search `llms.txt` to find the information\nthey need, then follow the relevant links. The links in an llms.txt file\nshould therefore point to LLM-friendly content, such as the markdown\nversions of pages described above. The file itself stays small enough to\nfit in context. The detail lives behind the links, and is fetched only\nwhen needed.\n\nllms.txt files are used most heavily for software documentation, where\ncoding agents follow them to find API references and tutorials. The same\nstructure works anywhere agents need a guided path into a site’s\ncontent: a business outlining its structure and policies, a personal\nsite answering questions about someone’s CV, or a school providing\naccess to course information.\n\nNote that all [nbdev](https://nbdev.fast.ai/) projects now create .md\nversions of all pages by default. All Answer.AI and fast.ai software\nprojects using nbdev have had their docs regenerated with this feature.\nFor an example, see the [markdown\nversion](https://fastcore.fast.ai/docments.html.md) of [fastcore’s\ndocments module](https://fastcore.fast.ai/docments.html).\n\n## Format\n\nAt the moment the most widely and easily understood format for language\nmodels is Markdown. Simply showing where key Markdown files can be found\nis a great first step. Providing some basic structure helps a language\nmodel to find where the information it needs can come from.\n\nThe `llms.txt` file is unusual in that it uses Markdown to structure the\ninformation rather than a classic structured format such as XML. The\nreason for this is that we expect many of these files to be read by\nlanguage models and agents. Having said that, the information in\nllms.txt follows a specific format and can be read using standard\nprogrammatic-based tools.\n\nThe llms.txt file spec is for files named `llms.txt`, at the root path\n`/llms.txt` of a website or at any subpath (e.g. `/docs/llms.txt`). A\nfile covers the URLs under its path, and where more than one file\napplies, agents should use the most specific one. A file following the\nspec contains the following sections as markdown, in the specific order:\n\n- An optional byte-order mark (BOM)\n- An H1 with the name of the project or site. This is the only required\n  section\n- A blockquote with a short summary of the project, containing key\n  information necessary for understanding the rest of the file\n- Zero or more markdown sections (e.g. paragraphs, lists, etc) of any\n  type except headings, containing more detailed information about the\n  project and how to interpret the provided files\n- Zero or more markdown sections delimited by H2 headers, containing\n  “file lists” of URLs where further detail is available\n  - Each “file list” is a markdown list, containing a required markdown\n    hyperlink `[name](url)`, then optionally a `:` and notes about the\n    file.\n\nHere is a mock example:\n\n``` markdown\n# Title\n\n> Optional description goes here\n\nOptional details go here\n\n## Section name\n\n- [Link title](https://link_url): Optional link details\n\n## Optional\n\n- [Link title](https://link_url)\n```\n\nThe “Optional” section is used, by convention, for secondary\ninformation: links an agent can skip when a shorter context is needed.\n\n## Existing standards\n\nllms.txt is designed to coexist with current web standards. While\nsitemaps list all pages for search engines, `llms.txt` offers a curated\noverview for LLMs. It can complement robots.txt by providing context for\nallowed content. The file can also reference structured data markup used\non the site, helping LLMs understand how to interpret this information\nin context.\n\nThe approach of using a standard filename follows `/robots.txt` and\n`/sitemap.xml` at the site root. And just as `index.html` gives any path\na conventional location for its human-readable entry point, `llms.txt`\ngives any path a conventional location for its LLM-readable overview.\nrobots.txt and `llms.txt` have different purposes. robots.txt lets\nautomated tools know what access to a site is considered acceptable,\nsuch as for search indexing bots. llms.txt information is instead used\non demand, when an agent needs information about a topic while assisting\na user. Our expectation was that llms.txt would mainly be useful for\n*inference* rather than *training*, and that is how it has been used,\nthough training runs could take advantage of the information too.\n\nAn alternative would be the Well-Known URIs standard (RFC 8615), which\nreserves the `/.well-known/` prefix for metadata files like this one.\nBut well-known URIs exist only at the origin root, and many authors\ncontrol only a path on a shared host: a GitHub Pages project site, for\nexample, can publish files in its own directory but can never add one to\nthe host’s `/.well-known/`. Like `index.html`, an `llms.txt` describes\nthe path where it sits, something a single root location cannot express.\nAnd anyone who can publish content at a path can provide one.\n\nsitemap.xml is a list of all the indexable human-readable information\navailable on a site. This isn’t a substitute for `llms.txt` since it:\n\n- Often won’t have the LLM-readable versions of pages listed\n- Doesn’t include URLs to external sites, even though they might be\n  helpful to understand the information\n- Will generally cover documents that in aggregate will be too large to\n  fit in an LLM context window, and will include a lot of information\n  that isn’t necessary to understand the site.\n\n## Example\n\nHere’s an example of `llms.txt`, in this case a cut down version of the\nfile used for the FastHTML project (see also the [full\nversion](https://www.fastht.ml/docs/llms.txt)):\n\n``` markdown\n# FastHTML\n\n> FastHTML is a python library which brings together Starlette, Uvicorn, HTMX, and fastcore's `FT` \"FastTags\" into a library for creating server-rendered hypermedia applications.\n\nImportant notes:\n\n- Although parts of its API are inspired by FastAPI, it is *not* compatible with FastAPI syntax and is not targeted at creating API services\n- FastHTML is compatible with JS-native web components and any vanilla JS library, but not with React, Vue, or Svelte.\n\n## Docs\n\n- [FastHTML quick start](https://fastht.ml/docs/tutorials/quickstart_for_web_devs.html.md): A brief overview of many FastHTML features\n- [HTMX reference](https://github.com/bigskysoftware/htmx/blob/master/www/content/reference.md): Brief description of all HTMX attributes, CSS classes, headers, events, extensions, js lib methods, and config options\n\n## Examples\n\n- [Todo list application](https://github.com/AnswerDotAI/fasthtml/blob/main/examples/adv_app.py): Detailed walk-thru of a complete CRUD app in FastHTML showing idiomatic use of FastHTML and HTMX patterns.\n\n## Optional\n\n- [Starlette full documentation](https://gist.githubusercontent.com/jph00/809e4a4808d4510be0e3dc9565e9cbd3/raw/9b717589ca44cedc8aaf00b2b8cacef922964c0f/starlette-sml.md): A subset of the Starlette documentation useful for FastHTML development. \n```\n\nTo create effective `llms.txt` files, consider these guidelines:\n\n- Use concise, clear language.\n- When linking to resources, include brief, informative descriptions.\n- Avoid ambiguous terms or unexplained jargon.\n- Test your file by asking an agent questions about your content, giving\n  it only your llms.txt as a starting point.\n\n## Directories\n\nHere are a few directories that list the `llms.txt` files available on\nthe web:\n\n- [llmstxt.site](https://llmstxt.site/)\n- [directory.llmstxt.cloud](https://directory.llmstxt.cloud/)\n- [llmstxthub.com](https://llmstxthub.com/)\n\n## Integrations\n\nMany documentation platforms and CMSs can generate an llms.txt file\nautomatically:\n\n- [Mintlify](https://www.mintlify.com/docs/ai/llmstxt) - Docs platform\n  that generates llms.txt and markdown page versions for every site it\n  hosts\n- [GitBook](https://www.gitbook.com/blog/what-is-llms-txt) - Serves an\n  llms.txt file for published docs sites\n- [Yoast SEO](https://yoast.com/features/llms-txt/) - WordPress plugin\n  that generates and maintains an llms.txt file\n- [AIOSEO](https://aioseo.com/features/llms-txt/) - WordPress plugin\n  with an llms.txt generator\n- [Wix](https://support.wix.com/en/article/understanding-your-sites-llmstxt-file) -\n  Generates an llms.txt file for every Wix site\n\nAnd various libraries and plugins are available to integrate the\nllms.txt specification into your workflow:\n\n- [JavaScript ",
+  "links": [
+    {
+      "url": "https://www.mintlify.com/docs/ai/llmstxt",
+      "label": "documentation platforms generate oneautomatically"
+    },
+    {
+      "url": "https://developer.chrome.com/docs/lighthouse/agentic-browsing/llms-txt",
+      "label": "audits sites forone"
+    },
+    {
+      "url": "https://developers.openai.com/llms.txt",
+      "label": "OpenAI"
+    },
+    {
+      "url": "https://docs.anthropic.com/llms.txt",
+      "label": "Anthropic"
+    },
+    {
+      "url": "https://ai.google.dev/gemini-api/docs/llms.txt",
+      "label": "Gemini"
+    },
+    {
+      "url": "https://llmstxt.org/changes.qmd",
+      "label": "Changes"
+    },
+    {
+      "url": "https://fastht.ml",
+      "label": "FastHTML project"
+    },
+    {
+      "url": "https://www.fastht.ml/docs/llms.txt",
+      "label": "FastHTML docsllms.txt"
+    },
+    {
+      "url": "https://www.fastht.ml/docs/tutorials/by_example.html",
+      "label": "regularHTML docs page"
+    },
+    {
+      "url": "https://www.fastht.ml/docs/tutorials/by_example.html.md",
+      "label": "a .mdextension"
+    },
+    {
+      "url": "https://nbdev.fast.ai/",
+      "label": "nbdev"
+    },
+    {
+      "url": "https://fastcore.fast.ai/docments.html.md",
+      "label": "markdownversion"
+    },
+    {
+      "url": "https://fastcore.fast.ai/docments.html",
+      "label": "fastcore’sdocments module"
+    },
+    {
+      "url": "https://www.fastht.ml/docs/llms.txt",
+      "label": "fullversion"
+    },
+    {
+      "url": "https://llmstxt.site/",
+      "label": "llmstxt.site"
+    },
+    {
+      "url": "https://directory.llmstxt.cloud/",
+      "label": "directory.llmstxt.cloud"
+    },
+    {
+      "url": "https://llmstxthub.com/",
+      "label": "llmstxthub.com"
+    },
+    {
+      "url": "https://www.mintlify.com/docs/ai/llmstxt",
+      "label": "Mintlify"
+    },
+    {
+      "url": "https://www.gitbook.com/blog/what-is-llms-txt",
+      "label": "GitBook"
+    },
+    {
+      "url": "https://yoast.com/features/llms-txt/",
+      "label": "Yoast SEO"
+    },
+    {
+      "url": "https://aioseo.com/features/llms-txt/",
+      "label": "AIOSEO"
+    },
+    {
+      "url": "https://support.wix.com/en/article/understanding-your-sites-llmstxt-file",
+      "label": "Wix"
+    },
+    {
+      "url": "https://llmstxt.org/llmstxt-js.html",
+      "label": "JavaScript Implementation"
+    },
+    {
+      "url": "https://github.com/okineadev/vitepress-plugin-llms",
+      "label": "vitepress-plugin-llms"
+    },
+    {
+      "url": "https://github.com/rachfop/docusaurus-plugin-llms",
+      "label": "docusaurus-plugin-llms"
+    },
+    {
+      "url": "https://www.drupal.org/project/llm_support",
+      "label": "Drupal LLM Support"
+    },
+    {
+      "url": "https://github.com/raphaelstolt/llms-txt-php",
+      "label": "llms-txt-php"
+    },
+    {
+      "url": "https://dmux.github.io/pagepilot",
+      "label": "VS Code PagePilot Extension"
+    },
+    {
+      "url": "https://github.com/mcp-get/community-servers/tree/main/src/server-llm-txt",
+      "label": "server-llm-txt"
+    },
+    {
+      "url": "https://github.com/AnswerDotAI/llms-txt",
+      "label": "GitHubrepository"
+    },
+    {
+      "url": "https://github.com/AnswerDotAI/llms-txt/blob/main/nbs/index.qmd",
+      "label": "thisinformaloverview"
+    },
+    {
+      "url": "https://discord.gg/aJPygMvPEN",
+      "label": "community discordchannel"
+    }
+  ],
+  "body_sha256": "fefa01ba0fb6a5618abd759d8e865d52313bbe29aa63604709c5668851e69fff",
+  "status": 200,
+  "origin": "frozen-corpus",
+  "retrieved_at": "2026-09-24T22:49:11.617310+00:00"
+}

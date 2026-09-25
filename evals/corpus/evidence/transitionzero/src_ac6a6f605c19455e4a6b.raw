@@ -1,0 +1,97 @@
+> ## Documentation Index
+> Fetch the complete documentation index at: https://docs.transitionzero.org/llms.txt
+> Use this file to discover all available pages before exploring further.
+
+# Creating a Scenario
+
+> How to create a project and configure a new scenario: geography, model type, timeline, and temporal resolution.
+
+In Scenario Builder, your work is organised into **projects** and **scenarios**:
+
+* A **project** is a container for related scenarios, for example all the scenarios exploring one research question or country
+* A **scenario** explores a single possible future for the electricity system, based on your assumptions about demand, technology, and policy
+
+## 1. Create a project
+
+From your workspace, click **New Project**, give it a name, and create it. You can rename or delete a project later from the project page.
+
+<Frame caption="Creating a project in Scenario Builder">
+  <video src="https://mintcdn.com/transitionzero/HSEawz0vTgacZg8o/videos/Create-Project-SB3.mp4?fit=max&auto=format&n=HSEawz0vTgacZg8o&q=85&s=e0d6778b00ea627e0ecfad7247bb9023" controls data-path="videos/Create-Project-SB3.mp4" />
+</Frame>
+
+## 2. Create a scenario
+
+Open your project and click **New Scenario**. The form has a few core fields plus a **Configuration** section that sets the shape of your model.
+
+<Frame caption="Creating a scenario in Scenario Builder">
+  <video src="https://mintcdn.com/transitionzero/HSEawz0vTgacZg8o/videos/SB3.0-Create-Scenario.mp4?fit=max&auto=format&n=HSEawz0vTgacZg8o&q=85&s=63e834ed578d4e3111f95983e987c366" controls data-path="videos/SB3.0-Create-Scenario.mp4" />
+</Frame>
+
+### Name and research question
+
+* **Name**: a unique name for the scenario (e.g. *Growth economy*)
+* **Research question** *(optional)*: a short description of what the scenario explores (e.g. *A high-growth economy with increased energy demand*). This is also a useful starting point for [AMP](/platform/amp-ai-assistant).
+
+### Geographies and spatial resolution
+
+Choose the **geographies** your scenario covers, then a **spatial resolution** that controls how finely those geographies are divided into nodes:
+
+| Resolution         | What it means                                                                                                                                             |
+| :----------------- | :-------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **National**       | The whole country is modelled as a single node.                                                                                                           |
+| **Regional**       | The country is split into multiple interconnected nodes (e.g. states, islands, or grid zones), so the model can represent electricity flows between them. |
+| **Multi-national** | Multiple countries are modelled together, with cross-border interconnectors.                                                                              |
+
+The available resolutions and node counts differ by country. See the [Country models](/countries/overview) section for what each model offers. For more on how spatial detail affects results, see [Model resolution](/methodology/model-resolution#spatial-resolution-geographical-detail).
+
+### Model type
+
+Choose the framework that fits your question:
+
+| Model type             | Best for                                                           | Framework                                    |
+| :--------------------- | :----------------------------------------------------------------- | :------------------------------------------- |
+| **Capacity Expansion** | Multi-year, long-term investment planning at lower time resolution | [TZ-OSeMOSYS](/methodology/model-frameworks) |
+| **Dispatch**           | A single year of operation at high time resolution                 | [PyPSA](/methodology/model-frameworks)       |
+
+See [Model frameworks](/methodology/model-frameworks) for a fuller comparison and guidance on choosing, and on *soft-linking* a capacity expansion plan into a dispatch model.
+
+### Timeline
+
+Set the years your scenario covers:
+
+* **Capacity Expansion** runs over a range: pick a **Start** and **End** year
+* **Dispatch** models a single year only
+
+### Temporal resolution
+
+Temporal resolution sets how many **time slices** the model uses to represent variation within a year. Each scenario's time slices are the product of *parts of a year* × *parts of a day*:
+
+| Resolution | Time slices | Detail                                  |
+| :--------- | :---------- | :-------------------------------------- |
+| **Low**    | 1           | A single annual average.                |
+| **Medium** | 32          | 4 parts of a year × 8 parts of a day.   |
+| **High**   | 8760        | Full hourly detail (used for Dispatch). |
+
+Higher resolution captures more demand and renewable variability but takes longer to solve. See [Model resolution](/methodology/model-resolution#time-slices) for the trade-offs.
+
+## 3. What happens next
+
+Every scenario starts from a **calibrated base model** with sensible default inputs, so you can run it immediately to get a least-cost baseline. From there you can:
+
+<Steps>
+  <Step title="Customise the inputs">
+    Adjust any of the model's [input data types](/platform/input-types) to reflect your assumptions. See [Editing Scenarios](/platform/editing-scenarios) for how.
+  </Step>
+
+  <Step title="Run the model">
+    Click **Run** and follow the [run statuses](/platform/run-statuses) through building, solving, and results.
+  </Step>
+
+  <Step title="Explore and compare">
+    View your results and compare scenarios side by side.
+  </Step>
+</Steps>
+
+<Tip>
+  Only **draft** scenarios can be edited. To change a scenario that has already been run, [duplicate it](/platform/editing-scenarios#duplicating-a-scenario) first.
+</Tip>

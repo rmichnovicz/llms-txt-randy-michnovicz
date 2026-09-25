@@ -1,0 +1,13 @@
+# Parcel Shop
+
+> Parcel Shop offers home delivery, but the current free-delivery threshold is unresolved.
+
+The homepage states €300 and the shipping policy states €600. Two active owner corrections instead state €450 and €750, so no amount is presented as current.
+
+## Shop
+
+- [Parcel Shop homepage](<https://parcel.example/>): Shop homepage; its delivery threshold conflicts with other supplied information.
+
+## Delivery
+
+- [Shipping policy](<https://parcel.example/shipping>): Shipping policy; its free-delivery threshold is not confirmed as current.

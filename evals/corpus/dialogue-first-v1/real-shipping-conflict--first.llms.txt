@@ -1,0 +1,15 @@
+# WE IN STYLE
+
+> WE IN STYLE features men's and women's fashion, including new arrivals and outlet items.
+
+The homepage says returns are accepted within 30 days of receipt.
+
+The homepage and shipping policy give different free-delivery thresholds. Confirm the applicable terms before relying on either amount.
+
+## Shop
+
+- [Fashion and new arrivals](<https://we-in-style.com/>): Explore men's and women's new arrivals and outlet highlights.
+
+## Delivery
+
+- [Shipping policy](<https://we-in-style.com/policies/shipping-policy>): Read about delivery charges, dispatch, tracking and possible customs charges on international orders.

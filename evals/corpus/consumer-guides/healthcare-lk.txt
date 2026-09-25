@@ -1,0 +1,17 @@
+# DocPP \| HealthCare.LK
+
+> DocPP is a cloud-based clinic management system presented for doctors, dispensers, and nurses in Sri Lanka.
+
+The site offers a 14-day free trial and describes standard and custom plans. Its reported subscription prices conflict, so this guide does not quote a price.
+
+## Product and plans
+
+- [DocPP overview](<https://healthcare.lk/>): Introduces clinic features, intended users, plan types, and a recorded demonstration from 2022.
+
+## Try DocPP
+
+- [Request a free demo](<https://healthcare.lk/request-free-demo/>): Describes the 14-day trial and provides the demo request page.
+
+## Data and privacy
+
+- [Privacy policy](<https://healthcare.lk/privacy-policy/>): Covers data collection, retention, disclosure, and the policy's stated limits on storage security.

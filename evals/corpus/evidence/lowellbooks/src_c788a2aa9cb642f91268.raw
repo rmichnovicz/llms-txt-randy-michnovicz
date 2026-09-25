@@ -1,0 +1,1870 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Online Boutique BookStore">
+
+    <!-- Open Graph tags -->
+    <meta property="og:site_name" content="Lowell Books">
+    <meta property="og:locale" content="en_GB">
+    <meta property="og:title" content="Lowell Books">
+    <meta property="og:description" content="Online Boutique BookStore">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://lowellbooks.com/search/">
+    <meta property="og:image" content="https://static.lowellbooks.com/img/default_cover.webp">
+    <meta property="og:image:alt" content="Lowell Books">
+    <!-- Google Merchant Center -->
+    <meta name="google-site-verification" content="IYbCRpmy8-EZDBau2qKsj1lepL5l4cwP91Ac3PBIpwM" />
+
+    <title>Search results</title>
+    
+    <link rel="canonical" href="https://lowellbooks.com/search/" />
+    <link rel="alternate" hreflang="x-default" href="https://lowellbooks.com/search/">
+    <link rel="alternate" hreflang="en" href="https://lowellbooks.com/search/">
+    <link rel="alternate" hreflang="es" href="https://lowellbooks.com/es/search/">
+    
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"/>
+    <link rel="stylesheet" href="https://static.lowellbooks.com/css/lowell.css?v=5.24.0">
+    <link rel="apple-touch-icon" sizes="180x180" href="https://static.lowellbooks.com/img/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="64x64" href="https://static.lowellbooks.com/img/favicon/favicon-64x64.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="https://static.lowellbooks.com/img/favicon/favicon-16x16.png">
+    <link rel="manifest" href="https://static.lowellbooks.com/site.webmanifest">
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-D8P2DYV55E" data-cookie-consent="tracking"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'G-D8P2DYV55E');
+    </script>
+    <!-- Google tag (gtag.js) -->
+    <!-- Meta Pixel Code -->
+    <script>
+        !function(f,b,e,v,n,t,s)
+        {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+            n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+            if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+            n.queue=[];t=b.createElement(e);t.async=!0;
+            t.src=v;s=b.getElementsByTagName(e)[0];
+            s.parentNode.insertBefore(t,s)}(window, document,'script',
+            'https://connect.facebook.net/en_GB/fbevents.js');
+        fbq('init', '991421409487165');
+        fbq('track', 'PageView');
+    </script>
+    <noscript><img height="1" width="1" style="display:none"
+                   src="https://www.facebook.com/tr?id=991421409487165&ev=PageView&noscript=1"
+    /></noscript>
+    <!-- End Meta Pixel Code -->
+    <!-- TrustBox script -->
+    <script type="text/javascript" src="//widget.trustpilot.com/bootstrap/v5/tp.widget.bootstrap.min.js" async></script>
+    <!-- End TrustBox script -->
+    <script type="application/ld+json">
+        {
+            "@context": "https://schema.org",
+            "@type": "Organization",
+            "name": "Lowell Books LTD",
+            "url": "https://lowellbooks.com",
+            "logo": "https://lowellbooks.com/static/img/lowellbooks_logo_horizontal.svg",
+            "address": {
+            "@type": "PostalAddress",
+                "addressLocality": "London",
+                "addressCountry": "United Kingdom"
+        },
+            "contactPoint": {
+            "@type": "ContactPoint",
+                "telephone": "+44 7551 339174",
+                "contactType": "Customer Service",
+                "email": "hello@lowellbooks.com"
+        },
+            "sameAs": [
+            "https://www.instagram.com/lowell.books",
+            "https://www.facebook.com/lowellbooks",
+            "https://x.com/lowellbooks",
+            "https://tiktok.com/@lowellbooks",
+            "https://www.threads.net/@lowell.books"
+        ],
+            "description": "Online Boutique BookStore",
+            "foundingDate": "2024",
+            "currenciesAccepted": "GBP",
+            "paymentAccepted": "Credit Card, Stripe, PayPal",
+            "priceRange": "$",
+            "makesOffer": {
+            "@type": "OfferCatalog",
+                "name": "Books",
+                "itemListElement": [
+                {
+                    "@type": "Offer",
+                    "itemOffered": {
+                        "@type": "Product",
+                        "name": "Books"
+                    }
+                }
+            ]
+        }
+    }
+    </script>
+    <meta name="google-site-verification" content="YksfPun0w694nqz6vaYL-G7JwToYyABziP9lWbfhJf8" />
+</head>
+<body>
+<!-- Facebook SDK -->
+<div id="fb-root"></div>
+<script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v19.0" nonce="random123"></script>
+<!-- End Facebook SDK -->
+
+<header> 
+<nav class="navbar navbar-expand-lg navbar-dark sticky-top">
+    <div class="container">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <a class="navbar-brand" href="/">
+            <img src="https://static.lowellbooks.com/img/lowellbooks_logo_horizontal.webp" width="159" height="40" alt="Lowell Books">
+        </a>
+
+        <!-- Search form always visible -->
+        <form class="d-flex flex-grow-1 mx-4" method="get" action="/search/">
+            <input type="hidden" name="csrfmiddlewaretoken" value="a8nnQ63caVobV1oLWvjzEYfuGo66YEfMw5ypfmePCOJdKIu6QoabArsfAH8bBqvg">
+            <input type="search" name="q" id="q" value="" placeholder="Search by Title, Author, keyword, ISBN" aria-label="Search" class="form-control me-2">
+            <button type="submit" class="btn btn-outline-light">Search</button>
+        </form>
+
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item dropdown">
+                    <a href="#" class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        <img src="https://flagicons.lipis.dev/flags/4x3/gb.svg" alt="English" title="English" width="24">
+                    </a>
+                    <ul class="dropdown-menu">
+                        <li><a href="/" class="dropdown-item"><img src="https://flagicons.lipis.dev/flags/4x3/gb.svg" alt="English" title="English" width="24"> English</a></li>
+                        <li><a href="/es" class="dropdown-item"><img src="https://flagicons.lipis.dev/flags/4x3/es.svg" alt="Español" title="Español" width="24"> Spanish</a></li>
+                    </ul>
+                </li>
+                
+                <li class="nav-item">
+                    <a class="nav-link" href="/register" title="Account">Join</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/login">Sign In</a>
+                </li>
+                
+            </ul>
+
+            <!-- Mobile categories menu -->
+            <ul class="navbar-nav d-lg-none">
+                
+                <li class="nav-item">
+                    
+                    <a class="nav-link" href="/category/bestseller">Bestseller</a>
+                    
+                </li>
+                
+                <li class="nav-item">
+                    
+                    <a class="nav-link" href="/category/romance">Romance</a>
+                    
+                </li>
+                
+                <li class="nav-item">
+                    
+                    <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown" role="button" aria-expanded="false">
+                        Non-Book
+                    </a>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="/category/non-book">All Non-Book</a></li>
+                        
+                        <li>
+                            <a class="dropdown-item" href="/category/non-book/notebooks">Notebooks</a>
+                        </li>
+                        
+                        <li>
+                            <a class="dropdown-item" href="/category/non-book/toys">Toys</a>
+                        </li>
+                        
+                        <li>
+                            <a class="dropdown-item" href="/category/non-book/board-games-puzzles">Board Games / Puzzles</a>
+                        </li>
+                        
+                        <li>
+                            <a class="dropdown-item" href="/category/non-book/gifts">Gifts</a>
+                        </li>
+                        
+                        <li>
+                            <a class="dropdown-item" href="/category/non-book/backpacks">Backpacks</a>
+                        </li>
+                        
+                        <li>
+                            <a class="dropdown-item" href="/category/non-book/bookmarks">Bookmarks</a>
+                        </li>
+                        
+                        <li>
+                            <a class="dropdown-item" href="/category/non-book/mugs">Mugs</a>
+                        </li>
+                        
+                        <li>
+                            <a class="dropdown-item" href="/category/non-book/journal">Journal</a>
+                        </li>
+                        
+                        <li>
+                            <a class="dropdown-item" href="/category/non-book/glasses-case">Glasses case</a>
+                        </li>
+                        
+                        <li>
+                            <a class="dropdown-item" href="/category/non-book/candles">Candles</a>
+                        </li>
+                        
+                        <li>
+                            <a class="dropdown-item" href="/category/non-book/calendars">Calendars</a>
+                        </li>
+                        
+                    </ul>
+                    
+                </li>
+                
+                <li class="nav-item">
+                    
+                    <a class="nav-link" href="/category/cooking">Cooking</a>
+                    
+                </li>
+                
+                <li class="nav-item">
+                    
+                    <a class="nav-link" href="/category/young-adult">Young Adult</a>
+                    
+                </li>
+                
+                <li class="nav-item">
+                    
+                    <a class="nav-link" href="/category/business">Business</a>
+                    
+                </li>
+                
+                <li class="nav-item">
+                    
+                    <a class="nav-link" href="/category/crime">Crime</a>
+                    
+                </li>
+                
+                <li class="nav-item">
+                    
+                    <a class="nav-link" href="/category/manga">Manga</a>
+                    
+                </li>
+                
+                <li class="nav-item">
+                    
+                    <a class="nav-link" href="/category/mystery">Mystery</a>
+                    
+                </li>
+                
+                <li class="nav-item">
+                    
+                    <a class="nav-link" href="/category/technology">Technology</a>
+                    
+                </li>
+                
+                <li class="nav-item">
+                    
+                    <a class="nav-link" href="/category/education">Education</a>
+                    
+                </li>
+                
+                <li class="nav-item">
+                    
+                    <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown" role="button" aria-expanded="false">
+                        Fiction
+                    </a>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="/category/fiction">All Fiction</a></li>
+                        
+                        <li>
+                            <a class="dropdown-item" href="/category/fiction/classics">Classics</a>
+                        </li>
+                        
+                        <li>
+                            <a class="dropdown-item" href="/category/fiction/romance">Romance</a>
+                        </li>
+                        
+                    </ul>
+                    
+                </li>
+                
+                <li class="nav-item">
+                    
+                    <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown" role="button" aria-expanded="false">
+                        Children
+                    </a>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="/category/children">All Children</a></li>
+                        
+                        <li>
+                            <a class="dropdown-item" href="/category/children/ages-9-12">Ages 9-12</a>
+                        </li>
+                        
+                        <li>
+                            <a class="dropdown-item" href="/category/children/ages-5-8">Ages 5-8</a>
+                        </li>
+                        
+                        <li>
+                            <a class="dropdown-item" href="/category/children/baby-toddler-pre-school">Baby, Toddler &amp; Pre-School</a>
+                        </li>
+                        
+                        <li>
+                            <a class="dropdown-item" href="/category/children/picture-books">Picture books</a>
+                        </li>
+                        
+                        <li>
+                            <a class="dropdown-item" href="/category/children/children-classics">Children Classics</a>
+                        </li>
+                        
+                        <li>
+                            <a class="dropdown-item" href="/category/children/children-education">Children Education</a>
+                        </li>
+                        
+                    </ul>
+                    
+                </li>
+                
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<!-- Desktop categories menu remains unchanged -->
+<nav class="navbar navbar-expand-lg navbar-light justify-content-center d-none d-lg-flex">
+    <ul class="nav">
+        
+        <li class="nav-item ">
+            <a href="/category/bestseller"
+               class="nav-link "
+               
+            >Bestseller</a>
+            
+        </li>
+        
+        <li class="nav-item ">
+            <a href="/category/romance"
+               class="nav-link "
+               
+            >Romance</a>
+            
+        </li>
+        
+        <li class="nav-item dropdown">
+            <a href="/category/non-book"
+               class="nav-link dropdown-toggle"
+               
+               data-bs-toggle="dropdown"
+               
+            >Non-Book</a>
+            
+            <ul class="dropdown-menu text-small">
+                
+                <li>
+                    <a href="/category/non-book/notebooks" class="dropdown-item">Notebooks</a>
+                </li>
+                
+                <li>
+                    <a href="/category/non-book/toys" class="dropdown-item">Toys</a>
+                </li>
+                
+                <li>
+                    <a href="/category/non-book/board-games-puzzles" class="dropdown-item">Board Games / Puzzles</a>
+                </li>
+                
+                <li>
+                    <a href="/category/non-book/gifts" class="dropdown-item">Gifts</a>
+                </li>
+                
+                <li>
+                    <a href="/category/non-book/backpacks" class="dropdown-item">Backpacks</a>
+                </li>
+                
+                <li>
+                    <a href="/category/non-book/bookmarks" class="dropdown-item">Bookmarks</a>
+                </li>
+                
+                <li>
+                    <a href="/category/non-book/mugs" class="dropdown-item">Mugs</a>
+                </li>
+                
+                <li>
+                    <a href="/category/non-book/journal" class="dropdown-item">Journal</a>
+                </li>
+                
+                <li>
+                    <a href="/category/non-book/glasses-case" class="dropdown-item">Glasses case</a>
+                </li>
+                
+                <li>
+                    <a href="/category/non-book/candles" class="dropdown-item">Candles</a>
+                </li>
+                
+                <li>
+                    <a href="/category/non-book/calendars" class="dropdown-item">Calendars</a>
+                </li>
+                
+            </ul>
+            
+        </li>
+        
+        <li class="nav-item ">
+            <a href="/category/cooking"
+               class="nav-link "
+               
+            >Cooking</a>
+            
+        </li>
+        
+        <li class="nav-item ">
+            <a href="/category/young-adult"
+               class="nav-link "
+               
+            >Young Adult</a>
+            
+        </li>
+        
+        <li class="nav-item ">
+            <a href="/category/business"
+               class="nav-link "
+               
+            >Business</a>
+            
+        </li>
+        
+        <li class="nav-item ">
+            <a href="/category/crime"
+               class="nav-link "
+               
+            >Crime</a>
+            
+        </li>
+        
+        <li class="nav-item ">
+            <a href="/category/manga"
+               class="nav-link "
+               
+            >Manga</a>
+            
+        </li>
+        
+        <li class="nav-item ">
+            <a href="/category/mystery"
+               class="nav-link "
+               
+            >Mystery</a>
+            
+        </li>
+        
+        <li class="nav-item ">
+            <a href="/category/technology"
+               class="nav-link "
+               
+            >Technology</a>
+            
+        </li>
+        
+        <li class="nav-item ">
+            <a href="/category/education"
+               class="nav-link "
+               
+            >Education</a>
+            
+        </li>
+        
+        <li class="nav-item dropdown">
+            <a href="/category/fiction"
+               class="nav-link dropdown-toggle"
+               
+               data-bs-toggle="dropdown"
+               
+            >Fiction</a>
+            
+            <ul class="dropdown-menu text-small">
+                
+                <li>
+                    <a href="/category/fiction/classics" class="dropdown-item">Classics</a>
+                </li>
+                
+                <li>
+                    <a href="/category/fiction/romance" class="dropdown-item">Romance</a>
+                </li>
+                
+            </ul>
+            
+        </li>
+        
+        <li class="nav-item dropdown">
+            <a href="/category/children"
+               class="nav-link dropdown-toggle"
+               
+               data-bs-toggle="dropdown"
+               
+            >Children</a>
+            
+            <ul class="dropdown-menu text-small">
+                
+                <li>
+                    <a href="/category/children/ages-9-12" class="dropdown-item">Ages 9-12</a>
+                </li>
+                
+                <li>
+                    <a href="/category/children/ages-5-8" class="dropdown-item">Ages 5-8</a>
+                </li>
+                
+                <li>
+                    <a href="/category/children/baby-toddler-pre-school" class="dropdown-item">Baby, Toddler &amp; Pre-School</a>
+                </li>
+                
+                <li>
+                    <a href="/category/children/picture-books" class="dropdown-item">Picture books</a>
+                </li>
+                
+                <li>
+                    <a href="/category/children/children-classics" class="dropdown-item">Children Classics</a>
+                </li>
+                
+                <li>
+                    <a href="/category/children/children-education" class="dropdown-item">Children Education</a>
+                </li>
+                
+            </ul>
+            
+        </li>
+        
+    </ul>
+</nav>
+
+<nav class="navbar-expand-lg navbar-light navbar-ribbon justify-content-center text-center scrolling-text">
+    <p>Enjoy FREE UK delivery on purchases over £25</p>
+</nav>
+</header>
+
+
+<!-- Add response messages here -->
+
+
+<main>
+    
+    <div class="container">
+        <h1>Search results</h1>
+        
+            <p>Showing recent books:</p>
+        
+
+        
+<div class="container-fluid">
+    <div class="row">
+        <!-- Filtro -->
+        <div class="col-12 col-md-2 mb-3 mb-md-0 ps-0">
+            <div class="card p-3">
+                <h5 class="card-title">Filter</h5>
+                <form method="GET" action="">
+                    <!-- Preserve existing search query -->
+                    
+                    
+                    <!-- Product Type Filter -->
+                    <div class="mb-3">
+                        <label class="form-label">Type</label>
+                        <div class="form-check">
+                            <input type="checkbox" name="type" id="typeBook" value="book"
+                                   
+                                   class="form-check-input">
+                            <label class="form-check-label" for="typeBook">Book</label>
+                        </div>
+                        <div class="form-check">
+                            <input type="checkbox" name="type" id="typeNonBook" value="non-book"
+                                   
+                            class="form-check-input">
+                            <label class="form-check-label" for="typeNonBook">Non-Book</label>
+                        </div>
+                    </div>
+                    
+                    <!-- Stock Filter -->
+                    <div class="mb-3">
+                        <div class="form-check">
+                            <input type="checkbox" class="form-check-input" name="stock_only" id="stockOnly"
+                                   >
+                            <label class="form-check-label" for="stockOnly">Only products in stock</label>
+                        </div>
+                    </div>
+                    
+                    <!-- NEW: Format Filter (for books) -->
+                    <div class="mb-3 book-filter">
+                        <label class="form-label">Format</label>
+                        <div class="form-check">
+                            <input type="checkbox" name="format" id="formatPaperback" value="paperback"
+                                   
+                                   class="form-check-input">
+                            <label class="form-check-label" for="formatPaperback">Paperback</label>
+                        </div>
+                        <div class="form-check">
+                            <input type="checkbox" name="format" id="formatHardcover" value="hardcover"
+                                   
+                                   class="form-check-input">
+                            <label class="form-check-label" for="formatHardcover">Hardcover</label>
+                        </div>
+                    </div>
+                    
+                    <!-- NEW: Language Filter (for books) -->
+                    <div class="mb-3 book-filter">
+                        <label class="form-label">Language</label>
+                        
+                        <div class="form-check">
+                            <input type="checkbox" name="language" id="languageen" value="en"
+                                   
+                                   class="form-check-input">
+                            <label class="form-check-label" for="languageen">English</label>
+                        </div>
+                        
+                        <div class="form-check">
+                            <input type="checkbox" name="language" id="languagees" value="es"
+                                   
+                                   class="form-check-input">
+                            <label class="form-check-label" for="languagees">Spanish</label>
+                        </div>
+                        
+                        <div class="form-check">
+                            <input type="checkbox" name="language" id="languagefr" value="fr"
+                                   
+                                   class="form-check-input">
+                            <label class="form-check-label" for="languagefr">French</label>
+                        </div>
+                        
+                        <div class="form-check">
+                            <input type="checkbox" name="language" id="languagede" value="de"
+                                   
+                                   class="form-check-input">
+                            <label class="form-check-label" for="languagede">German</label>
+                        </div>
+                        
+                        <div class="form-check">
+                            <input type="checkbox" name="language" id="languageit" value="it"
+                                   
+                                   class="form-check-input">
+                            <label class="form-check-label" for="languageit">Italian</label>
+                        </div>
+                        
+                        <div class="form-check">
+                            <input type="checkbox" name="language" id="languagept" value="pt"
+                                   
+                                   class="form-check-input">
+                            <label class="form-check-label" for="languagept">Portuguese</label>
+                        </div>
+                        
+                        <div class="form-check">
+                            <input type="checkbox" name="language" id="languageru" value="ru"
+                                   
+                                   class="form-check-input">
+                            <label class="form-check-label" for="languageru">Russian</label>
+                        </div>
+                        
+                        <div class="form-check">
+                            <input type="checkbox" name="language" id="languagezh" value="zh"
+                                   
+                                   class="form-check-input">
+                            <label class="form-check-label" for="languagezh">Chinese</label>
+                        </div>
+                        
+                        <div class="form-check">
+                            <input type="checkbox" name="language" id="languageja" value="ja"
+                                   
+                                   class="form-check-input">
+                            <label class="form-check-label" for="languageja">Japanese</label>
+                        </div>
+                        
+                        <div class="form-check">
+                            <input type="checkbox" name="language" id="languagear" value="ar"
+                                   
+                                   class="form-check-input">
+                            <label class="form-check-label" for="languagear">Arabic</label>
+                        </div>
+                        
+                        <div class="form-check">
+                            <input type="checkbox" name="language" id="languagehi" value="hi"
+                                   
+                                   class="form-check-input">
+                            <label class="form-check-label" for="languagehi">Hindi</label>
+                        </div>
+                        
+                        <div class="form-check">
+                            <input type="checkbox" name="language" id="languagebn" value="bn"
+                                   
+                                   class="form-check-input">
+                            <label class="form-check-label" for="languagebn">Bengali</label>
+                        </div>
+                        
+                        <div class="form-check">
+                            <input type="checkbox" name="language" id="languagepa" value="pa"
+                                   
+                                   class="form-check-input">
+                            <label class="form-check-label" for="languagepa">Punjabi</label>
+                        </div>
+                        
+                        <div class="form-check">
+                            <input type="checkbox" name="language" id="languagejv" value="jv"
+                                   
+                                   class="form-check-input">
+                            <label class="form-check-label" for="languagejv">Javanese</label>
+                        </div>
+                        
+                        <div class="form-check">
+                            <input type="checkbox" name="language" id="languageko" value="ko"
+                                   
+                                   class="form-check-input">
+                            <label class="form-check-label" for="languageko">Korean</label>
+                        </div>
+                        
+                        <div class="form-check">
+                            <input type="checkbox" name="language" id="languagevi" value="vi"
+                                   
+                                   class="form-check-input">
+                            <label class="form-check-label" for="languagevi">Vietnamese</label>
+                        </div>
+                        
+                        <div class="form-check">
+                            <input type="checkbox" name="language" id="languageta" value="ta"
+                                   
+                                   class="form-check-input">
+                            <label class="form-check-label" for="languageta">Tamil</label>
+                        </div>
+                        
+                        <div class="form-check">
+                            <input type="checkbox" name="language" id="languageur" value="ur"
+                                   
+                                   class="form-check-input">
+                            <label class="form-check-label" for="languageur">Urdu</label>
+                        </div>
+                        
+                        <div class="form-check">
+                            <input type="checkbox" name="language" id="languagetr" value="tr"
+                                   
+                                   class="form-check-input">
+                            <label class="form-check-label" for="languagetr">Turkish</label>
+                        </div>
+                        
+                        <div class="form-check">
+                            <input type="checkbox" name="language" id="languagepl" value="pl"
+                                   
+                                   class="form-check-input">
+                            <label class="form-check-label" for="languagepl">Polish</label>
+                        </div>
+                        
+                        <div class="form-check">
+                            <input type="checkbox" name="language" id="languageuk" value="uk"
+                                   
+                                   class="form-check-input">
+                            <label class="form-check-label" for="languageuk">Ukrainian</label>
+                        </div>
+                        
+                        <div class="form-check">
+                            <input type="checkbox" name="language" id="languagero" value="ro"
+                                   
+                                   class="form-check-input">
+                            <label class="form-check-label" for="languagero">Romanian</label>
+                        </div>
+                        
+                        <div class="form-check">
+                            <input type="checkbox" name="language" id="languagenl" value="nl"
+                                   
+                                   class="form-check-input">
+                            <label class="form-check-label" for="languagenl">Dutch</label>
+                        </div>
+                        
+                        <div class="form-check">
+                            <input type="checkbox" name="language" id="languagehu" value="hu"
+                                   
+                                   class="form-check-input">
+                            <label class="form-check-label" for="languagehu">Hungarian</label>
+                        </div>
+                        
+                        <div class="form-check">
+                            <input type="checkbox" name="language" id="languageel" value="el"
+                                   
+                                   class="form-check-input">
+                            <label class="form-check-label" for="languageel">Greek</label>
+                        </div>
+                        
+                        <div class="form-check">
+                            <input type="checkbox" name="language" id="languagecs" value="cs"
+                                   
+                                   class="form-check-input">
+                            <label class="form-check-label" for="languagecs">Czech</label>
+                        </div>
+                        
+                        <div class="form-check">
+                            <input type="checkbox" name="language" id="languagesv" value="sv"
+                                   
+                                   class="form-check-input">
+                            <label class="form-check-label" for="languagesv">Swedish</label>
+                        </div>
+                        
+                        <div class="form-check">
+                            <input type="checkbox" name="language" id="languageda" value="da"
+                                   
+                                   class="form-check-input">
+                            <label class="form-check-label" for="languageda">Danish</label>
+                        </div>
+                        
+                        <div class="form-check">
+                            <input type="checkbox" name="language" id="languagefi" value="fi"
+                                   
+                                   class="form-check-input">
+                            <label class="form-check-label" for="languagefi">Finnish</label>
+                        </div>
+                        
+                        <div class="form-check">
+                            <input type="checkbox" name="language" id="languageno" value="no"
+                                   
+                                   class="form-check-input">
+                            <label class="form-check-label" for="languageno">Norwegian</label>
+                        </div>
+                        
+                        <div class="form-check">
+                            <input type="checkbox" name="language" id="languagehe" value="he"
+                                   
+                                   class="form-check-input">
+                            <label class="form-check-label" for="languagehe">Hebrew</label>
+                        </div>
+                        
+                        <div class="form-check">
+                            <input type="checkbox" name="language" id="languageid" value="id"
+                                   
+                                   class="form-check-input">
+                            <label class="form-check-label" for="languageid">Indonesian</label>
+                        </div>
+                        
+                        <div class="form-check">
+                            <input type="checkbox" name="language" id="languagems" value="ms"
+                                   
+                                   class="form-check-input">
+                            <label class="form-check-label" for="languagems">Malay</label>
+                        </div>
+                        
+                        <div class="form-check">
+                            <input type="checkbox" name="language" id="languageth" value="th"
+                                   
+                                   class="form-check-input">
+                            <label class="form-check-label" for="languageth">Thai</label>
+                        </div>
+                        
+                        <div class="form-check">
+                            <input type="checkbox" name="language" id="languagefa" value="fa"
+                                   
+                                   class="form-check-input">
+                            <label class="form-check-label" for="languagefa">Persian</label>
+                        </div>
+                        
+                        <div class="form-check">
+                            <input type="checkbox" name="language" id="languagesw" value="sw"
+                                   
+                                   class="form-check-input">
+                            <label class="form-check-label" for="languagesw">Swahili</label>
+                        </div>
+                        
+                        <div class="form-check">
+                            <input type="checkbox" name="language" id="languagela" value="la"
+                                   
+                                   class="form-check-input">
+                            <label class="form-check-label" for="languagela">Latin</label>
+                        </div>
+                        
+                        <div class="form-check">
+                            <input type="checkbox" name="language" id="languageca" value="ca"
+                                   
+                                   class="form-check-input">
+                            <label class="form-check-label" for="languageca">Catalan</label>
+                        </div>
+                        
+                        <div class="form-check">
+                            <input type="checkbox" name="language" id="languagegl" value="gl"
+                                   
+                                   class="form-check-input">
+                            <label class="form-check-label" for="languagegl">Galician</label>
+                        </div>
+                        
+                        <div class="form-check">
+                            <input type="checkbox" name="language" id="languageeu" value="eu"
+                                   
+                                   class="form-check-input">
+                            <label class="form-check-label" for="languageeu">Basque</label>
+                        </div>
+                        
+                        <div class="form-check">
+                            <input type="checkbox" name="language" id="languagecy" value="cy"
+                                   
+                                   class="form-check-input">
+                            <label class="form-check-label" for="languagecy">Welsh</label>
+                        </div>
+                        
+                    </div>
+                    
+                    <!-- NEW: Price Range Filter -->
+                    <div class="mb-3">
+                        <label class="form-label">Price Range</label>
+                        <div class="d-flex">
+                            <div class="input-group me-1">
+                                <input type="number" min="0" step="1" class="form-control" name="min_price" 
+                                       placeholder="Min" value="">
+                            </div>
+                            <div class="input-group ms-1">
+                                <input type="number" min="0" step="5" class="form-control" name="max_price" 
+                                       placeholder="Max" value="">
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <button type="submit" class="btn btn-primary w-100">Apply Filters</button>
+                    
+                    
+                </form>
+            </div>
+        </div>
+        
+        <!-- Product Grid -->
+        <div class="col-12 col-md-10">
+            <div class="row">
+                
+                <div class="col-6 col-md-4 col-lg-3 mb-4">
+                    
+<div class="card mb-2 product-box book-box">
+    <a href="/book/9781069482969/the-tree-with-a-thousand-names/">
+        
+            <img src="https://media.lowellbooks.com/covers/thumb/2026/9781069482969.webp" alt="The Tree With a Thousand Names" width="154" height="240" loading="lazy" class="card-img-top">
+        
+    </a>
+    <div class="card-body p-2">
+        <h2 class="card-title">
+            <a href="/book/9781069482969/the-tree-with-a-thousand-names/" class="product-link">The Tree With a Thousand Names</a>
+        </h2>
+        
+
+        <div class="text-center text-secondary">
+            <small>Juliette Rimetz</small>
+        </div>
+
+        
+        <div class="text-center">
+            <small><strong></strong></small>
+        </div>
+        
+
+        
+        <div class="text-center">
+            <small>
+                <span>Published:</span>
+                <span>2026</span>
+            </small>
+        </div>
+        
+    </div><!--./card-body-->
+    <div class="card-footer text-center">
+        
+        <span class="old-price">
+            <small>16.99</small>
+        </span>
+        
+
+        <span class="new-price">£14.04</span>
+
+        
+        <span class="badge text-bg-warning discount">17%</span>
+        
+
+        
+    </div>
+</div><!--./card-->
+
+                </div>
+                
+                <div class="col-6 col-md-4 col-lg-3 mb-4">
+                    
+<div class="card mb-2 product-box book-box">
+    <a href="/book/9781919335902/my-adventures-in-london-look-find-tell-your-story/">
+        
+            <img src="https://media.lowellbooks.com/covers/thumb/2026/9781919335902.webp" alt="MY ADVENTURES IN LONDON. LOOK, FIND, TELL YOUR STORY" width="154" height="240" loading="lazy" class="card-img-top">
+        
+    </a>
+    <div class="card-body p-2">
+        <h2 class="card-title">
+            <a href="/book/9781919335902/my-adventures-in-london-look-find-tell-your-story/" class="product-link">MY ADVENTURES IN LONDON. LOOK, FIND, TELL YOUR STORY</a>
+        </h2>
+        
+
+        <div class="text-center text-secondary">
+            <small>Anna Pohlebaeva</small>
+        </div>
+
+        
+        <div class="text-center">
+            <small><strong>HardCover</strong></small>
+        </div>
+        
+
+        
+        <div class="text-center">
+            <small>
+                <span>Published:</span>
+                <span>2026</span>
+            </small>
+        </div>
+        
+    </div><!--./card-body-->
+    <div class="card-footer text-center">
+        
+        <span class="old-price">
+            <small>9.99</small>
+        </span>
+        
+
+        <span class="new-price">£9.49</span>
+
+        
+        <span class="badge text-bg-warning discount">5%</span>
+        
+
+        
+    </div>
+</div><!--./card-->
+
+                </div>
+                
+                <div class="col-6 col-md-4 col-lg-3 mb-4">
+                    
+<div class="card mb-2 product-box book-box">
+    <a href="/book/9780571403530/faber-poetry-diary-2027/">
+        
+            <img src="https://media.lowellbooks.com/covers/thumb/2026/9780571403530.webp" alt="Faber Poetry Diary 2027" width="154" height="240" loading="lazy" class="card-img-top">
+        
+    </a>
+    <div class="card-body p-2">
+        <h2 class="card-title">
+            <a href="/book/9780571403530/faber-poetry-diary-2027/" class="product-link">Faber Poetry Diary 2027</a>
+        </h2>
+        
+
+        <div class="text-center text-secondary">
+            <small>Various Poets</small>
+        </div>
+
+        
+        <div class="text-center">
+            <small><strong>HardCover</strong></small>
+        </div>
+        
+
+        
+        <div class="text-center">
+            <small>
+                <span>Published:</span>
+                <span>2026</span>
+            </small>
+        </div>
+        
+    </div><!--./card-body-->
+    <div class="card-footer text-center">
+        
+        <span class="old-price">
+            <small>14.99</small>
+        </span>
+        
+
+        <span class="new-price">£11.12</span>
+
+        
+        <span class="badge text-bg-warning discount">26%</span>
+        
+
+        
+    </div>
+</div><!--./card-->
+
+                </div>
+                
+                <div class="col-6 col-md-4 col-lg-3 mb-4">
+                    
+<div class="card mb-2 product-box book-box">
+    <a href="/book/9781783353316/what-a-time-to-be-alive/">
+        
+            <img src="https://media.lowellbooks.com/covers/thumb/2026/9781783353316.webp" alt="What a Time to be Alive!" width="154" height="240" loading="lazy" class="card-img-top">
+        
+    </a>
+    <div class="card-body p-2">
+        <h2 class="card-title">
+            <a href="/book/9781783353316/what-a-time-to-be-alive/" class="product-link">What a Time to be Alive!</a>
+        </h2>
+        
+        <h3 class="card-title product-subtitle">Scenes from a Strange Age</h3>
+        
+
+        <div class="text-center text-secondary">
+            <small>Marina Hyde</small>
+        </div>
+
+        
+        <div class="text-center">
+            <small><strong>HardCover</strong></small>
+        </div>
+        
+
+        
+        <div class="text-center">
+            <small>
+                <span>Published:</span>
+                <span>2026</span>
+            </small>
+        </div>
+        
+    </div><!--./card-body-->
+    <div class="card-footer text-center">
+        
+        <span class="old-price">
+            <small>20.00</small>
+        </span>
+        
+
+        <span class="new-price">£15.99</span>
+
+        
+        <span class="badge text-bg-warning discount">20%</span>
+        
+
+        
+    </div>
+</div><!--./card-->
+
+                </div>
+                
+                <div class="col-6 col-md-4 col-lg-3 mb-4">
+                    
+<div class="card mb-2 product-box book-box">
+    <a href="/book/9780241829912/the-gate-of-the-feral-gods/">
+        
+            <img src="https://media.lowellbooks.com/covers/thumb/2026/9780241829912.webp" alt="The Gate of the Feral Gods" width="154" height="240" loading="lazy" class="card-img-top">
+        
+    </a>
+    <div class="card-body p-2">
+        <h2 class="card-title">
+            <a href="/book/9780241829912/the-gate-of-the-feral-gods/" class="product-link">The Gate of the Feral Gods</a>
+        </h2>
+        
+
+        <div class="text-center text-secondary">
+            <small>Matt Dinniman</small>
+        </div>
+
+        
+        <div class="text-center">
+            <small><strong>HardCover</strong></small>
+        </div>
+        
+
+        
+        <div class="text-center">
+            <small>
+                <span>Published:</span>
+                <span>2026</span>
+            </small>
+        </div>
+        
+    </div><!--./card-body-->
+    <div class="card-footer text-center">
+        
+        <span class="old-price">
+            <small>22.00</small>
+        </span>
+        
+
+        <span class="new-price">£17.30</span>
+
+        
+        <span class="badge text-bg-warning discount">21%</span>
+        
+
+        
+    </div>
+</div><!--./card-->
+
+                </div>
+                
+                <div class="col-6 col-md-4 col-lg-3 mb-4">
+                    
+<div class="card mb-2 product-box book-box">
+    <a href="/book/9781836892434/colourblocks-annual-2027/">
+        
+            <img src="https://media.lowellbooks.com/covers/thumb/2026/9781836892434.webp" alt="Colourblocks Annual 2027" width="154" height="240" loading="lazy" class="card-img-top">
+        
+    </a>
+    <div class="card-body p-2">
+        <h2 class="card-title">
+            <a href="/book/9781836892434/colourblocks-annual-2027/" class="product-link">Colourblocks Annual 2027</a>
+        </h2>
+        
+
+        <div class="text-center text-secondary">
+            <small>Colourblocks </small>
+        </div>
+
+        
+        <div class="text-center">
+            <small><strong>HardCover</strong></small>
+        </div>
+        
+
+        
+        <div class="text-center">
+            <small>
+                <span>Published:</span>
+                <span>2026</span>
+            </small>
+        </div>
+        
+    </div><!--./card-body-->
+    <div class="card-footer text-center">
+        
+        <span class="old-price">
+            <small>8.99</small>
+        </span>
+        
+
+        <span class="new-price">£8.72</span>
+
+        
+        <span class="badge text-bg-warning discount">3%</span>
+        
+
+        
+    </div>
+</div><!--./card-->
+
+                </div>
+                
+                <div class="col-6 col-md-4 col-lg-3 mb-4">
+                    
+<div class="card mb-2 product-box book-box">
+    <a href="/book/9780702350207/the-hunger-games-classic-5-book-paperback-box-set/">
+        
+            <img src="https://media.lowellbooks.com/covers/thumb/2026/9780702350207.webp" alt="The Hunger Games Classic 5 Book Paperback Box Set" width="154" height="240" loading="lazy" class="card-img-top">
+        
+    </a>
+    <div class="card-body p-2">
+        <h2 class="card-title">
+            <a href="/book/9780702350207/the-hunger-games-classic-5-book-paperback-box-set/" class="product-link">The Hunger Games Classic 5 Book Paperback Box Set</a>
+        </h2>
+        
+
+        <div class="text-center text-secondary">
+            <small>Suzanne Collins</small>
+        </div>
+
+        
+        <div class="text-center">
+            <small><strong>Paperback</strong></small>
+        </div>
+        
+
+        
+        <div class="text-center">
+            <small>
+                <span>Published:</span>
+                <span>2026</span>
+            </small>
+        </div>
+        
+    </div><!--./card-body-->
+    <div class="card-footer text-center">
+        
+        <span class="old-price">
+            <small>49.95</small>
+        </span>
+        
+
+        <span class="new-price">£42.96</span>
+
+        
+        <span class="badge text-bg-warning discount">14%</span>
+        
+
+        
+    </div>
+</div><!--./card-->
+
+                </div>
+                
+                <div class="col-6 col-md-4 col-lg-3 mb-4">
+                    
+<div class="card mb-2 product-box book-box">
+    <a href="/book/9780241843611/kpop-demon-hunters/">
+        
+            <img src="https://media.lowellbooks.com/covers/thumb/2026/9780241843611.webp" alt="KPop Demon Hunters" width="154" height="240" loading="lazy" class="card-img-top">
+        
+    </a>
+    <div class="card-body p-2">
+        <h2 class="card-title">
+            <a href="/book/9780241843611/kpop-demon-hunters/" class="product-link">KPop Demon Hunters</a>
+        </h2>
+        
+        <h3 class="card-title product-subtitle">Couch, Couch, Colour!: Official Colouring Book</h3>
+        
+
+        <div class="text-center text-secondary">
+            <small>KPop Demon Hunters</small>
+        </div>
+
+        
+        <div class="text-center">
+            <small><strong>Paperback</strong></small>
+        </div>
+        
+
+        
+        <div class="text-center">
+            <small>
+                <span>Published:</span>
+                <span>2026</span>
+            </small>
+        </div>
+        
+    </div><!--./card-body-->
+    <div class="card-footer text-center">
+        
+        <span class="old-price">
+            <small>7.99</small>
+        </span>
+        
+
+        <span class="new-price">£7.75</span>
+
+        
+        <span class="badge text-bg-warning discount">3%</span>
+        
+
+        
+    </div>
+</div><!--./card-->
+
+                </div>
+                
+                <div class="col-6 col-md-4 col-lg-3 mb-4">
+                    
+<div class="card mb-2 product-box book-box">
+    <a href="/book/9781804952825/fires-which-burned-brightly/">
+        
+            <img src="https://media.lowellbooks.com/covers/thumb/2026/9781804952825.webp" alt="Fires Which Burned Brightly" width="154" height="240" loading="lazy" class="card-img-top">
+        
+    </a>
+    <div class="card-body p-2">
+        <h2 class="card-title">
+            <a href="/book/9781804952825/fires-which-burned-brightly/" class="product-link">Fires Which Burned Brightly</a>
+        </h2>
+        
+        <h3 class="card-title product-subtitle">A Life in Progress</h3>
+        
+
+        <div class="text-center text-secondary">
+            <small>Sebastian Faulks</small>
+        </div>
+
+        
+        <div class="text-center">
+            <small><strong>Paperback</strong></small>
+        </div>
+        
+
+        
+        <div class="text-center">
+            <small>
+                <span>Published:</span>
+                <span>2026</span>
+            </small>
+        </div>
+        
+    </div><!--./card-body-->
+    <div class="card-footer text-center">
+        
+        <span class="old-price">
+            <small>11.99</small>
+        </span>
+        
+
+        <span class="new-price">£10.79</span>
+
+        
+        <span class="badge text-bg-warning discount">10%</span>
+        
+
+        
+    </div>
+</div><!--./card-->
+
+                </div>
+                
+                <div class="col-6 col-md-4 col-lg-3 mb-4">
+                    
+<div class="card mb-2 product-box book-box">
+    <a href="/book/9780241458716/the-rose-field/">
+        
+            <img src="https://media.lowellbooks.com/covers/thumb/2026/9780241458716.webp" alt="The Rose Field" width="154" height="240" loading="lazy" class="card-img-top">
+        
+    </a>
+    <div class="card-body p-2">
+        <h2 class="card-title">
+            <a href="/book/9780241458716/the-rose-field/" class="product-link">The Rose Field</a>
+        </h2>
+        
+        <h3 class="card-title product-subtitle">The Book of Dust Volume Three</h3>
+        
+
+        <div class="text-center text-secondary">
+            <small>Philip Pullman</small>
+        </div>
+
+        
+        <div class="text-center">
+            <small><strong>Paperback</strong></small>
+        </div>
+        
+
+        
+        <div class="text-center">
+            <small>
+                <span>Published:</span>
+                <span>2026</span>
+            </small>
+        </div>
+        
+    </div><!--./card-body-->
+    <div class="card-footer text-center">
+        
+        <span class="old-price">
+            <small>10.99</small>
+        </span>
+        
+
+        <span class="new-price">£10.14</span>
+
+        
+        <span class="badge text-bg-warning discount">8%</span>
+        
+
+        
+    </div>
+</div><!--./card-->
+
+                </div>
+                
+                <div class="col-6 col-md-4 col-lg-3 mb-4">
+                    
+<div class="card mb-2 product-box book-box">
+    <a href="/book/9780241805855/cozy-season/">
+        
+            <img src="https://media.lowellbooks.com/covers/thumb/2026/9780241805855.webp" alt="Cozy Season" width="154" height="240" loading="lazy" class="card-img-top">
+        
+    </a>
+    <div class="card-body p-2">
+        <h2 class="card-title">
+            <a href="/book/9780241805855/cozy-season/" class="product-link">Cozy Season</a>
+        </h2>
+        
+
+        <div class="text-center text-secondary">
+            <small>Coco Wyo</small>
+        </div>
+
+        
+        <div class="text-center">
+            <small><strong>Paperback</strong></small>
+        </div>
+        
+
+        
+        <div class="text-center">
+            <small>
+                <span>Published:</span>
+                <span>2026</span>
+            </small>
+        </div>
+        
+    </div><!--./card-body-->
+    <div class="card-footer text-center">
+        
+        <span class="old-price">
+            <small>7.99</small>
+        </span>
+        
+
+        <span class="new-price">£7.75</span>
+
+        
+        <span class="badge text-bg-warning discount">3%</span>
+        
+
+        
+    </div>
+</div><!--./card-->
+
+                </div>
+                
+                <div class="col-6 col-md-4 col-lg-3 mb-4">
+                    
+<div class="card mb-2 product-box book-box">
+    <a href="/book/9781804960486/panic/">
+        
+            <img src="https://media.lowellbooks.com/covers/thumb/2026/9781804960486.webp" alt="Panic" width="154" height="240" loading="lazy" class="card-img-top">
+        
+    </a>
+    <div class="card-body p-2">
+        <h2 class="card-title">
+            <a href="/book/9781804960486/panic/" class="product-link">Panic</a>
+        </h2>
+        
+
+        <div class="text-center text-secondary">
+            <small>LJ Ross</small>
+        </div>
+
+        
+        <div class="text-center">
+            <small><strong>Paperback</strong></small>
+        </div>
+        
+
+        
+        <div class="text-center">
+            <small>
+                <span>Published:</span>
+                <span>2026</span>
+            </small>
+        </div>
+        
+    </div><!--./card-body-->
+    <div class="card-footer text-center">
+        
+        <span class="old-price">
+            <small>9.99</small>
+        </span>
+        
+
+        <span class="new-price">£9.49</span>
+
+        
+        <span class="badge text-bg-warning discount">5%</span>
+        
+
+        
+    </div>
+</div><!--./card-->
+
+                </div>
+                
+            </div>
+        </div>
+    </div>
+</div>
+
+<script>
+    // Toggle book-specific filters based on product type selection
+    document.addEventListener('DOMContentLoaded', function() {
+        const typeBookCheckbox = document.getElementById('typeBook');
+        const typeNonBookCheckbox = document.getElementById('typeNonBook');
+        const bookFilters = document.querySelectorAll('.book-filter');
+        
+        function updateBookFilters() {
+            const showBookFilters = typeBookCheckbox.checked && !typeNonBookCheckbox.checked;
+            bookFilters.forEach(filter => {
+                filter.style.display = showBookFilters ? 'block' : 'none';
+            });
+        }
+        
+        typeBookCheckbox.addEventListener('change', updateBookFilters);
+        typeNonBookCheckbox.addEventListener('change', updateBookFilters);
+        
+        // Initial state
+        updateBookFilters();
+    });
+</script>
+
+
+        <!-- Pagination -->
+        <div class="row justify-content-center">
+    <nav aria-label="Page navigation" class="col-md-6 offset-md-3">
+        <ul class="pagination mt-4">
+            
+            <li class="page-item disabled"><span class="page-link">Previous</span></li>
+            
+
+            <li class="page-item disabled"><span class="page-link">Page 1 of 77571</span></li>
+
+            
+            <li class="page-item">
+                <a class="page-link" href="?page=2">Next</a>
+            </li>
+            
+        </ul>
+    </nav>
+</div>
+
+    </div>
+
+</main>
+
+<footer class="footer py-4">
+    <div class="container py-4">
+        <div class="row">
+            <div class="col-12 col-md-6">
+                <form method="post" action="/subscribe-newsletter/" class="">
+                    <input type="hidden" name="csrfmiddlewaretoken" value="a8nnQ63caVobV1oLWvjzEYfuGo66YEfMw5ypfmePCOJdKIu6QoabArsfAH8bBqvg">
+                    <div>
+                        <label for="subscribe_email" class="form-label text-white">Join our newsletter</label>
+                    </div>
+                    <div class="row">
+                        <div class="col">
+                            <input type="text" name="subscribe_name" id="subscribe_name" placeholder="Your name" autocomplete="given-name" class="form-control">
+                        </div>
+                        <div class="col">
+                            <input type="email" name="subscribe_email" id="subscribe_email" placeholder="Your email" autocomplete="email" class="form-control">
+                        </div>
+                        <div class="col">
+                            <button type="submit" class="btn btn-secondary">Subscribe</button>
+                        </div>
+                    </div>
+                </form>
+            </div><!--./col-->
+            <div class="col-12 col-md-2 mt-3 mt-md-0">
+                <div>
+                    <label for="currency" class="form-label text-white">Currency</label>
+                </div>
+                <select name="currency" id="currency" class="form-select">
+                    <option value=""></option>
+                    <option value="GBP" selected>£ (Pound)</option>
+                    <option value="EUR" >€ (Euro)</option>
+                    <option value="USD" >$ (Dollar)</option>
+                </select>
+            </div>
+            <div class="col-12 col-md-2 mt-3 mt-md-0">
+                <div class="row">
+                    <div class="form-label text-white">Follow us</div>
+                </div>
+                <div class="social-icons d-flex justify-content-between">
+                    <a href="https://www.instagram.com/lowell.books" target="_blank" class="text-white fs-2"><i class="bi bi-instagram"></i></a>
+                    <a href="https://www.facebook.com/lowellbooks" target="_blank" class="text-white fs-2"><i class="bi bi-facebook"></i></a>
+                    <a href="https://x.com/lowellbooks" target="_blank" class="text-white fs-2"><i class="bi bi-twitter-x"></i></a>
+                    <a href="https://tiktok.com/@lowellbooks" target="_blank" class="text-white fs-2"><i class="bi bi-tiktok"></i></a>
+                    <a href="https://www.threads.net/@lowell.books" target="_blank" class="text-white fs-2"><i class="bi bi-threads"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="row mt-4">
+            <div class="col">
+                <h4 class="text-white fs-5">Customer service</h4>
+                <ul class="nav flex-column">
+                    <li class="nav-item">
+                        <a href="/contact/" class="nav-link">Contact us</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a href="/pages/return-policy/" class="nav-link">Return policy</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a href="/pages/terms-and-conditions/" class="nav-link">Terms & conditions</a>
+                    </li>
+
+                    <li>
+                        <a href="/pages/privacy-policy/" class="nav-link">Privacy policy</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="col">
+                <h4 class="text-white fs-5">Shop</h4>
+                <ul class="nav flex-column">
+                    <li class="nav-item">
+                        <a href="/pages/about-us/" class="nav-link">About us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">Delivery</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="/category" class="nav-link">Categories</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="/author/" class="nav-link">Authors</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="https://libro.fm?bookstore=lowellbooks" target="_blank" rel="noopener" class="nav-link">Audiobooks</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="/pages/app/" class="nav-link">Lowell Books App</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="col">
+                <h4 class="text-white fs-5">Help</h4>
+                <ul class="nav flex-column">
+                    <li class="nav-item">
+                        <a href="/pages/gpsr/" class="nav-link">EU General Product Safety Regulation (GPSR)</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="/pages/gdpr/" class="nav-link">General Data Protection Regulation (GDPR)</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="/track-order/" class="nav-link">Track your order</a>
+                    </li>
+                    <li>
+                        <a href="#" id="open_preferences_center" class="nav-link">Update cookies preferences</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="col">
+                <h4 class="text-white fs-5">We accept</h4>
+                <div>
+                    <img src="https://static.lowellbooks.com/img/icons/payment/visa.svg" alt="VISA" width="48" height="48">
+                    <img src="https://static.lowellbooks.com/img/icons/payment/mastercard.svg" alt="MasterCard" width="48" height="48">
+                    <img src="https://static.lowellbooks.com/img/icons/payment/american-express.svg" alt="AMEX" width="48" height="48">
+                    <img src="https://static.lowellbooks.com/img/icons/payment/stripe.svg" alt="Stripe" width="48" height="48">
+                    <img src="https://static.lowellbooks.com/img/icons/payment/paypal.svg" alt="PayPal" width="48" height="48">
+                </div>
+
+                <!-- TrustBox widget - Review Collector -->
+                <div class="trustpilot-widget" data-locale="en-GB" data-template-id="56278e9abfbbba0bdcd568bc" data-businessunit-id="670978d9508a2a56ff7d887c" data-style-height="52px" data-style-width="100%">
+                  <a href="https://uk.trustpilot.com/review/lowellbooks.com" target="_blank" rel="noopener">Trustpilot</a>
+                </div>
+                <!-- End TrustBox widget -->
+                <whatsapp-icon position="bottom-left" phone="+447551339174" title="Chat with us on WhatsApp!"></whatsapp-icon>
+            </div>
+        </div>
+        <div class="row mt-4">
+            <div class="col">
+                <p class="text-center text-white">&copy; 2024 - 2025 LOWELL BOOK LTD. Registered in England and Wales. Company number: 16003373</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <p class="text-center text-white">
+                    Made with <i class="bi bi-heart-fill heart text-danger" aria-hidden="true"></i> &amp;
+                    <i class="shake-slow bi bi-book-fill text-warning" aria-hidden="true"></i>
+                    in
+                    London, UK
+                </p>
+                <p class="text-center text-white">Version: 5.24.0</p>
+            </div>
+        </div>
+        <!-- Powered by Roskus -->
+<div class="text-center">
+    <a href="https://roskus.com" target="_blank" rel="noopener">
+        <picture>
+            <source srcset="https://static.roskus.com/asset/img/roskus_powered.webp" type="image/webp">
+            <img src="https://static.roskus.com/asset/img/roskus_powered.png" width="112" height="44" alt="Powered by Roskus">
+        </picture>
+    </a>
+</div>
+<!-- Powered by Roskus -->
+
+    </div>
+</footer>
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+    let currencySelect = document.getElementById('currency');
+    if (currencySelect) {
+        currencySelect.addEventListener('change', function() {
+            let value = this.value;
+            if (value) {
+                fetch('/set-currency/', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/x-www-form-urlencoded',
+                        'X-CSRFToken': 'a8nnQ63caVobV1oLWvjzEYfuGo66YEfMw5ypfmePCOJdKIu6QoabArsfAH8bBqvg'
+                    },
+                    body: 'currency=' + encodeURIComponent(value)
+                })
+                .then(function(response) { return response.json(); })
+                .then(function(data) {
+                    if (data.status === 'ok') {
+                        window.location.reload();
+                    }
+                });
+            }
+        });
+    }
+});
+</script>
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+<script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+<!--
+<script>
+    const myCarouselElement = document.querySelector('#HomeCarousel')
+
+    const carousel = new bootstrap.Carousel(myCarouselElement, {
+      interval: 2000,
+      touch: false
+    })
+</script>
+-->
+<script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+<script>
+$('.product-slide').slick({
+    dots: true,
+    infinite: false,
+    arrows: true,
+    speed: 300,
+    slidesToShow: 6,
+    slidesToScroll: 6,
+    responsive: [
+        {
+            breakpoint: 1600, // Bigscreen resolutions
+            settings: {
+                slidesToShow: 6,
+                slidesToScroll: 6,
+                infinite: true,
+                dots: true
+            }
+        },
+        {
+            breakpoint: 1024,
+            settings: {
+                slidesToShow: 3,
+                slidesToScroll: 3,
+                infinite: true,
+                dots: true
+            }
+        },
+        {
+            breakpoint: 600,
+            settings: {
+                slidesToShow: 2,
+                slidesToScroll: 2
+            }
+        },
+        {
+            breakpoint: 480,
+            settings: {
+                slidesToShow: 1,
+                slidesToScroll: 1
+            }
+        }
+        // You can unslick at a given breakpoint now by adding:
+        // settings: "unslick"
+        // instead of a settings object
+    ]
+});
+</script>
+<script type="module" src="https://static.lowellbooks.com/js/whatsapp-icon-component/src/WhatsAppIcon.js"></script>
+<!-- Cookie Consent by TermsFeed https://www.TermsFeed.com -->
+<script type="text/javascript" src="https://www.termsfeed.com/public/cookie-consent/4.2.0/cookie-consent.js" charset="UTF-8"></script>
+<script type="text/javascript" charset="UTF-8">
+document.addEventListener('DOMContentLoaded', function () {
+cookieconsent.run({"notice_banner_type":"simple","consent_type":"express","palette":"dark","language":"en","page_load_consent_levels":["strictly-necessary"],"notice_banner_reject_button_hide":false,"preferences_center_close_button_hide":false,"page_refresh_confirmation_buttons":false,"website_name":"Lowell Books","website_privacy_policy_url":"https://lowellbooks.com/privacy-policy"});
+});
+</script>
+<noscript>Free cookie consent management tool by <a href="https://www.termsfeed.com/">TermsFeed</a></noscript>
+<!-- End Cookie Consent by TermsFeed https://www.TermsFeed.com -->
+<script>(function(){function c(){var b=a.contentDocument||(a.contentWindow&&a.contentWindow.document);if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'a405577c1c9899a0',t:'MTc5MDI5MDE2MA=='};var a=document.createElement('script');a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script><script type="module" src="https://static.cloudflareinsights.com/beacon.min.js/v31edd6df95cf4e85bb4c19e7a9bdbcba1788362987495" integrity="sha512-iIg7k2xntmwu6/uSb5tpc/hySgZc4eoL31yB29W6tJFo2akwjPWcEqnCEdJvGexCL0KEQwVYv5BlowfhVz26hg==" data-cf-beacon='{"version":"2024.11.0","token":"9a8b679801af465d87ae60c6c141a3f8","r":1,"spa":2}' crossorigin="anonymous"></script>
+</body>
+</html>

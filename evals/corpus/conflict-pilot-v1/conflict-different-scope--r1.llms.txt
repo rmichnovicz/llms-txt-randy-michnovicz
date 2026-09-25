@@ -1,0 +1,12 @@
+# Parcel Shop
+
+> Parcel Shop lists delivery offers for France and Germany, with different methods and order thresholds.
+
+The site states that pickup-point delivery in France is free with no minimum order.
+
+The shipping policy states that home delivery in Germany is free on orders over €600.
+
+## Shop and delivery
+
+- [Parcel Shop home](<https://parcel.example/>): States the pickup-point delivery offer for France.
+- [Shipping policy](<https://parcel.example/shipping>): States the home-delivery threshold for Germany.

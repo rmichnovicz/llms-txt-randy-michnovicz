@@ -1,0 +1,78 @@
+{
+  "parser_version": "corpus-v2",
+  "headings": [
+    {
+      "level": 1,
+      "text": "Example Store",
+      "line": 1
+    },
+    {
+      "level": 2,
+      "text": "Core pages",
+      "line": 9
+    },
+    {
+      "level": 2,
+      "text": "Optional",
+      "line": 15
+    }
+  ],
+  "links": [
+    {
+      "label": "All products",
+      "url": "https://example.com/products",
+      "canonical": "https://example.com/products",
+      "raw_url": "https://example.com/products",
+      "description": "Current product catalog",
+      "line": 10
+    },
+    {
+      "label": "Carry-on backpack",
+      "url": "https://example.com/products/carry-on-backpack",
+      "canonical": "https://example.com/products/carry-on-backpack",
+      "raw_url": "https://example.com/products/carry-on-backpack",
+      "description": "Product details and specifications",
+      "line": 11
+    },
+    {
+      "label": "Shipping policy",
+      "url": "https://example.com/shipping",
+      "canonical": "https://example.com/shipping",
+      "raw_url": "https://example.com/shipping",
+      "description": "Shipping regions, delivery timing, and fees",
+      "line": 12
+    },
+    {
+      "label": "Returns",
+      "url": "https://example.com/returns",
+      "canonical": "https://example.com/returns",
+      "raw_url": "https://example.com/returns",
+      "description": "Return window and eligibility",
+      "line": 13
+    },
+    {
+      "label": "Packing guides",
+      "url": "https://example.com/blog/packing",
+      "canonical": "https://example.com/blog/packing",
+      "raw_url": "https://example.com/blog/packing",
+      "description": "Travel packing advice",
+      "line": 16
+    }
+  ],
+  "bare_links": [],
+  "metrics": {
+    "bytes": 701,
+    "words": 75,
+    "lines": 16,
+    "approx_tokens_chars_div_4": 176,
+    "h1_count": 1,
+    "link_count": 5,
+    "bare_url_count": 0,
+    "described_links": 5,
+    "unique_destinations": 5,
+    "markdown_destinations": 0
+  },
+  "flags": [
+    "placeholder-review"
+  ]
+}

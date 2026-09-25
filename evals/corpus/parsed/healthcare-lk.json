@@ -1,0 +1,381 @@
+{
+  "parser_version": "corpus-v2",
+  "headings": [
+    {
+      "level": 1,
+      "text": "DocPP (HealthCare.LK)",
+      "line": 1
+    },
+    {
+      "level": 2,
+      "text": "Pages",
+      "line": 10
+    },
+    {
+      "level": 2,
+      "text": "FAQs",
+      "line": 28
+    },
+    {
+      "level": 2,
+      "text": "Menus",
+      "line": 56
+    },
+    {
+      "level": 1,
+      "text": "",
+      "line": 77
+    },
+    {
+      "level": 1,
+      "text": "Detailed Content",
+      "line": 78
+    },
+    {
+      "level": 2,
+      "text": "Pages",
+      "line": 81
+    },
+    {
+      "level": 2,
+      "text": "FAQs",
+      "line": 142
+    },
+    {
+      "level": 2,
+      "text": "Menus",
+      "line": 258
+    }
+  ],
+  "links": [
+    {
+      "label": "GP clinic software built specifically for Sri Lankan doctors",
+      "url": "https://healthcare.lk/gp-clinic-software-built-specifically-for-sri-lankan-doctors/",
+      "canonical": "https://healthcare.lk/gp-clinic-software-built-specifically-for-sri-lankan-doctors/",
+      "raw_url": "https://healthcare.lk/gp-clinic-software-built-specifically-for-sri-lankan-doctors/",
+      "description": "GP clinic software · Sri Lanka GP clinic software built specifically for Sri Lankan doctors Everything a general practitioner needs...",
+      "line": 12
+    },
+    {
+      "label": "Nursing home management software for Sri Lanka",
+      "url": "https://healthcare.lk/nursing-home-management-software-for-sri-lanka/",
+      "canonical": "https://healthcare.lk/nursing-home-management-software-for-sri-lanka/",
+      "raw_url": "https://healthcare.lk/nursing-home-management-software-for-sri-lanka/",
+      "description": "Nursing home software · Sri Lanka Nursing home management software for Sri Lanka Manage long-term resident records, medication tracking, and...",
+      "line": 13
+    },
+    {
+      "label": "Appointment",
+      "url": "https://healthcare.lk/appointment/",
+      "canonical": "https://healthcare.lk/appointment/",
+      "raw_url": "https://healthcare.lk/appointment/",
+      "description": "",
+      "line": 14
+    },
+    {
+      "label": "Careers",
+      "url": "https://healthcare.lk/careers/",
+      "canonical": "https://healthcare.lk/careers/",
+      "raw_url": "https://healthcare.lk/careers/",
+      "description": "",
+      "line": 15
+    },
+    {
+      "label": "Blog",
+      "url": "https://healthcare.lk/blog/",
+      "canonical": "https://healthcare.lk/blog/",
+      "raw_url": "https://healthcare.lk/blog/",
+      "description": "",
+      "line": 16
+    },
+    {
+      "label": "Terms & Conditions",
+      "url": "https://healthcare.lk/terms-conditions/",
+      "canonical": "https://healthcare.lk/terms-conditions/",
+      "raw_url": "https://healthcare.lk/terms-conditions/",
+      "description": "",
+      "line": 17
+    },
+    {
+      "label": "Privacy Policy",
+      "url": "https://healthcare.lk/privacy-policy/",
+      "canonical": "https://healthcare.lk/privacy-policy/",
+      "raw_url": "https://healthcare.lk/privacy-policy/",
+      "description": "",
+      "line": 18
+    },
+    {
+      "label": "Request Demo",
+      "url": "https://healthcare.lk/request-free-demo/",
+      "canonical": "https://healthcare.lk/request-free-demo/",
+      "raw_url": "https://healthcare.lk/request-free-demo/",
+      "description": "",
+      "line": 19
+    },
+    {
+      "label": "DocPP Features",
+      "url": "https://healthcare.lk/docpp-features/",
+      "canonical": "https://healthcare.lk/docpp-features/",
+      "raw_url": "https://healthcare.lk/docpp-features/",
+      "description": "",
+      "line": 20
+    },
+    {
+      "label": "Contact",
+      "url": "https://healthcare.lk/contact/",
+      "canonical": "https://healthcare.lk/contact/",
+      "raw_url": "https://healthcare.lk/contact/",
+      "description": "",
+      "line": 21
+    },
+    {
+      "label": "Home Page",
+      "url": "https://healthcare.lk/",
+      "canonical": "https://healthcare.lk/",
+      "raw_url": "https://healthcare.lk/",
+      "description": "",
+      "line": 22
+    },
+    {
+      "label": "About Us",
+      "url": "https://healthcare.lk/about-us/",
+      "canonical": "https://healthcare.lk/about-us/",
+      "raw_url": "https://healthcare.lk/about-us/",
+      "description": "",
+      "line": 23
+    },
+    {
+      "label": "I got Admin credentials to access my DocPP account. How should I start then?",
+      "url": "https://healthcare.lk/helpie_faq/i-got-admin-credentials-to-access-my-docpp-account-how-should-i-start-then/",
+      "canonical": "https://healthcare.lk/helpie_faq/i-got-admin-credentials-to-access-my-docpp-account-how-should-i-start-then/",
+      "raw_url": "https://healthcare.lk/helpie_faq/i-got-admin-credentials-to-access-my-docpp-account-how-should-i-start-then/",
+      "description": "Congratulations. You are now member of DocPP. Here how you can start the journey... Step 1: Create user accounts for...",
+      "line": 30
+    },
+    {
+      "label": "I have on going PP. How can I implement this system without much affect to the patients and staff?",
+      "url": "https://healthcare.lk/helpie_faq/i-have-on-going-pp-how-can-i-implement-this-system-without-much-affect-to-the-patients-and-staff/",
+      "canonical": "https://healthcare.lk/helpie_faq/i-have-on-going-pp-how-can-i-implement-this-system-without-much-affect-to-the-patients-and-staff/",
+      "raw_url": "https://healthcare.lk/helpie_faq/i-have-on-going-pp-how-can-i-implement-this-system-without-much-affect-to-the-patients-and-staff/",
+      "description": "PROPOSED IMPLEMENTATION PLAN Plan of Action: 1. Run Dispensar level: New patient registration and make an appointment. – for two...",
+      "line": 31
+    },
+    {
+      "label": "Does DocPP has Artificial Intelligent Features (AI Features)",
+      "url": "https://healthcare.lk/helpie_faq/does-docpp-has-artificial-intelligent-features-ai-features/",
+      "canonical": "https://healthcare.lk/helpie_faq/does-docpp-has-artificial-intelligent-features-ai-features/",
+      "raw_url": "https://healthcare.lk/helpie_faq/does-docpp-has-artificial-intelligent-features-ai-features/",
+      "description": "Yes, DocPP comes with all users having AI Patient Overview where AI will analyze patient past medical history and come...",
+      "line": 32
+    },
+    {
+      "label": "Why Clinics Stay with DocPP",
+      "url": "https://healthcare.lk/helpie_faq/why-clinics-stay-with-docpp/",
+      "canonical": "https://healthcare.lk/helpie_faq/why-clinics-stay-with-docpp/",
+      "raw_url": "https://healthcare.lk/helpie_faq/why-clinics-stay-with-docpp/",
+      "description": "When clinics choose DocPP, they are not just adopting a product—they’re gaining a long-term partner in healthcare innovation. Reliable, future-ready...",
+      "line": 33
+    },
+    {
+      "label": "Does DocPP support multiple doctors and staff accounts?",
+      "url": "https://healthcare.lk/helpie_faq/does-docpp-support-multiple-doctors-and-staff-accounts/",
+      "canonical": "https://healthcare.lk/helpie_faq/does-docpp-support-multiple-doctors-and-staff-accounts/",
+      "raw_url": "https://healthcare.lk/helpie_faq/does-docpp-support-multiple-doctors-and-staff-accounts/",
+      "description": "Yes. DocPP is built for private practices, clinics, and hospitals. You can create: Separate logins for doctors, receptionists, and administrators....",
+      "line": 34
+    },
+    {
+      "label": "Can DocPP grow with my clinic?",
+      "url": "https://healthcare.lk/helpie_faq/can-docpp-grow-with-my-clinic/",
+      "canonical": "https://healthcare.lk/helpie_faq/can-docpp-grow-with-my-clinic/",
+      "raw_url": "https://healthcare.lk/helpie_faq/can-docpp-grow-with-my-clinic/",
+      "description": "Yes. DocPP is fully scalable: Start as a solo practice. Add more doctors, branches, or services as your clinic expands....",
+      "line": 35
+    },
+    {
+      "label": "What happens if my internet goes down?",
+      "url": "https://healthcare.lk/helpie_faq/what-happens-if-my-internet-goes-down/",
+      "canonical": "https://healthcare.lk/helpie_faq/what-happens-if-my-internet-goes-down/",
+      "raw_url": "https://healthcare.lk/helpie_faq/what-happens-if-my-internet-goes-down/",
+      "description": "DocPP is a cloud-first EMR, so it needs internet access. However: Your data is always safe on AWS servers. Once...",
+      "line": 36
+    },
+    {
+      "label": "Does DocPP support e-prescriptions and digital billing?",
+      "url": "https://healthcare.lk/helpie_faq/does-docpp-support-e-prescriptions-and-digital-billing/",
+      "canonical": "https://healthcare.lk/helpie_faq/does-docpp-support-e-prescriptions-and-digital-billing/",
+      "raw_url": "https://healthcare.lk/helpie_faq/does-docpp-support-e-prescriptions-and-digital-billing/",
+      "description": "Yes. DocPP allows you to: Create electronic prescriptions with your own customised drug list. Generate patient invoices and receipts instantly....",
+      "line": 37
+    },
+    {
+      "label": "Do I need IT knowledge to use DocPP?",
+      "url": "https://healthcare.lk/helpie_faq/do-i-need-it-knowledge-to-use-docpp/",
+      "canonical": "https://healthcare.lk/helpie_faq/do-i-need-it-knowledge-to-use-docpp/",
+      "raw_url": "https://healthcare.lk/helpie_faq/do-i-need-it-knowledge-to-use-docpp/",
+      "description": "Not at all. DocPP is designed with doctors and clinic staff in mind — no coding or IT expertise required....",
+      "line": 38
+    },
+    {
+      "label": "How much does DocPP cost after the free trial?",
+      "url": "https://healthcare.lk/helpie_faq/how-much-does-docpp-cost-after-the-free-trial/",
+      "canonical": "https://healthcare.lk/helpie_faq/how-much-does-docpp-cost-after-the-free-trial/",
+      "raw_url": "https://healthcare.lk/helpie_faq/how-much-does-docpp-cost-after-the-free-trial/",
+      "description": "Our pricing is transparent and affordable, designed for Sri Lankan medical professionals. After your 14-day free trial, you can subscribe...",
+      "line": 39
+    },
+    {
+      "label": "How do I migrate my existing patient records into DocPP?",
+      "url": "https://healthcare.lk/helpie_faq/how-do-i-migrate-my-existing-patient-records-into-docpp/",
+      "canonical": "https://healthcare.lk/helpie_faq/how-do-i-migrate-my-existing-patient-records-into-docpp/",
+      "raw_url": "https://healthcare.lk/helpie_faq/how-do-i-migrate-my-existing-patient-records-into-docpp/",
+      "description": "We offer a seamless migration process. Our team can help you: Import Excel, CSV, or legacy EMR data. Digitise paper-based...",
+      "line": 40
+    },
+    {
+      "label": "Your First FAQ Question",
+      "url": "https://healthcare.lk/helpie_faq/your-first-faq-question/",
+      "canonical": "https://healthcare.lk/helpie_faq/your-first-faq-question/",
+      "raw_url": "https://healthcare.lk/helpie_faq/your-first-faq-question/",
+      "description": "Your relevent FAQ answer.",
+      "line": 41
+    },
+    {
+      "label": "Can I access DocPP from anywhere?",
+      "url": "https://healthcare.lk/helpie_faq/can-i-access-docpp-from-anywhere/",
+      "canonical": "https://healthcare.lk/helpie_faq/can-i-access-docpp-from-anywhere/",
+      "raw_url": "https://healthcare.lk/helpie_faq/can-i-access-docpp-from-anywhere/",
+      "description": "Absolutely. DocPP is a cloud-based EMR system, meaning you can securely log in from: Your clinic computer. A laptop at...",
+      "line": 42
+    },
+    {
+      "label": "Why should I choose DocPP over other EMR systems?",
+      "url": "https://healthcare.lk/helpie_faq/why-should-i-choose-docpp-over-other-emr-systems/",
+      "canonical": "https://healthcare.lk/helpie_faq/why-should-i-choose-docpp-over-other-emr-systems/",
+      "raw_url": "https://healthcare.lk/helpie_faq/why-should-i-choose-docpp-over-other-emr-systems/",
+      "description": "DocPP is a Sri Lankan-built EMR solution designed specifically for local healthcare practices. Unlike generic international software, DocPP is: Tailored...",
+      "line": 43
+    },
+    {
+      "label": "Can I lose my data? What about data recovery?",
+      "url": "https://healthcare.lk/helpie_faq/can-i-lose-my-data-what-about-data-recovery/",
+      "canonical": "https://healthcare.lk/helpie_faq/can-i-lose-my-data-what-about-data-recovery/",
+      "raw_url": "https://healthcare.lk/helpie_faq/can-i-lose-my-data-what-about-data-recovery/",
+      "description": "No. DocPP has a comprehensive disaster recovery system in place. We perform regular encrypted backups and maintain redundant storage mechanisms...",
+      "line": 44
+    },
+    {
+      "label": "Where is my data hosted?",
+      "url": "https://healthcare.lk/helpie_faq/where-is-my-data-hosted/",
+      "canonical": "https://healthcare.lk/helpie_faq/where-is-my-data-hosted/",
+      "raw_url": "https://healthcare.lk/helpie_faq/where-is-my-data-hosted/",
+      "description": "Your data is protected with enterprise-grade AWS security. We use dedicated, non-shared servers to keep your patient records, prescriptions, and...",
+      "line": 45
+    },
+    {
+      "label": "What is your technical stack?",
+      "url": "https://healthcare.lk/helpie_faq/what-is-your-technical-stack/",
+      "canonical": "https://healthcare.lk/helpie_faq/what-is-your-technical-stack/",
+      "raw_url": "https://healthcare.lk/helpie_faq/what-is-your-technical-stack/",
+      "description": "Our healthcare software has been in the industry for over 12 years, trusted by hundreds of medical professionals. In 2022,...",
+      "line": 46
+    },
+    {
+      "label": "How can I renew the system?",
+      "url": "https://healthcare.lk/helpie_faq/how-can-i-renew-the-system/",
+      "canonical": "https://healthcare.lk/helpie_faq/how-can-i-renew-the-system/",
+      "raw_url": "https://healthcare.lk/helpie_faq/how-can-i-renew-the-system/",
+      "description": "Renewal is fully automated. You can use any Sri Lankan online payment method (Visa, MasterCard, internet banking, mobile wallets, etc....",
+      "line": 47
+    },
+    {
+      "label": "Do you offer a free trial period?",
+      "url": "https://healthcare.lk/helpie_faq/do-you-offer-a-free-trial-period/",
+      "canonical": "https://healthcare.lk/helpie_faq/do-you-offer-a-free-trial-period/",
+      "raw_url": "https://healthcare.lk/helpie_faq/do-you-offer-a-free-trial-period/",
+      "description": "Yes. We provide a 14-day free trial of the complete DocPP system. During this time, you can: Run your private...",
+      "line": 48
+    },
+    {
+      "label": "There are free EMR systems. But you don’t offer a free one. Why?",
+      "url": "https://healthcare.lk/helpie_faq/there-are-free-emr-systems-but-you-dont-offer-a-free-one-why/",
+      "canonical": "https://healthcare.lk/helpie_faq/there-are-free-emr-systems-but-you-dont-offer-a-free-one-why/",
+      "raw_url": "https://healthcare.lk/helpie_faq/there-are-free-emr-systems-but-you-dont-offer-a-free-one-why/",
+      "description": "It’s true that some providers claim to offer free EMR (Electronic Medical Records) systems. However, most of these solutions are...",
+      "line": 49
+    },
+    {
+      "label": "Simple FAQ - 2",
+      "url": "https://healthcare.lk/helpie_faq/simple-faq-2/",
+      "canonical": "https://healthcare.lk/helpie_faq/simple-faq-2/",
+      "raw_url": "https://healthcare.lk/helpie_faq/simple-faq-2/",
+      "description": "Simple FAQ Content – 2",
+      "line": 50
+    },
+    {
+      "label": "Simple FAQ",
+      "url": "https://healthcare.lk/helpie_faq/simple-faq/",
+      "canonical": "https://healthcare.lk/helpie_faq/simple-faq/",
+      "raw_url": "https://healthcare.lk/helpie_faq/simple-faq/",
+      "description": "Simple FAQ Content",
+      "line": 51
+    },
+    {
+      "label": "Post",
+      "url": "https://healthcare.lk/saswp/post/",
+      "canonical": "https://healthcare.lk/saswp/post/",
+      "raw_url": "https://healthcare.lk/saswp/post/",
+      "description": "",
+      "line": 61
+    },
+    {
+      "label": "Page",
+      "url": "https://healthcare.lk/saswp/page/",
+      "canonical": "https://healthcare.lk/saswp/page/",
+      "raw_url": "https://healthcare.lk/saswp/page/",
+      "description": "",
+      "line": 62
+    },
+    {
+      "label": "Helpie_faq",
+      "url": "https://healthcare.lk/saswp/helpie_faq/",
+      "canonical": "https://healthcare.lk/saswp/helpie_faq/",
+      "raw_url": "https://healthcare.lk/saswp/helpie_faq/",
+      "description": "",
+      "line": 63
+    },
+    {
+      "label": "Helpie_menu",
+      "url": "https://healthcare.lk/saswp/helpie_menu/",
+      "canonical": "https://healthcare.lk/saswp/helpie_menu/",
+      "raw_url": "https://healthcare.lk/saswp/helpie_menu/",
+      "description": "",
+      "line": 64
+    }
+  ],
+  "bare_links": [
+    {
+      "url": "https://healthcare.lk/helpie_faq/",
+      "label": "> For anything not covered above, see the actually system by requesting a FREE demo where you can test and get  hands on experience before buy, through FREE DEMO Request at https://healthcare.lk/request-free-demo/. Or send WhatsApp message to +64225810497 (Udara). FAQ (https://healthcare.lk/helpie_faq/) or Contact page (https://healthcare.lk/contact/).",
+      "description": "",
+      "line": 275,
+      "canonical": "https://healthcare.lk/helpie_faq/",
+      "raw_url": "https://healthcare.lk/helpie_faq/"
+    }
+  ],
+  "metrics": {
+    "bytes": 11745,
+    "words": 1158,
+    "lines": 279,
+    "approx_tokens_chars_div_4": 2933,
+    "h1_count": 3,
+    "link_count": 38,
+    "bare_url_count": 1,
+    "described_links": 24,
+    "unique_destinations": 38,
+    "markdown_destinations": 0
+  },
+  "flags": [
+    "multiple-h1-review"
+  ]
+}

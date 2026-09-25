@@ -1,0 +1,17 @@
+{
+  "id": "we-in-style",
+  "url": "https://we-in-style.com/llms.txt",
+  "category": "ecommerce",
+  "kind": "actual",
+  "split": "holdout",
+  "discovery": "https://llmstxt.site/",
+  "retrieved_at": "2026-09-24T22:46:21.499746+00:00",
+  "accepted": true,
+  "status": 200,
+  "final_url": "https://we-in-style.com/llms.txt",
+  "content_type": "text/markdown; charset=utf-8",
+  "sha256": "d49789cd78af2afd472ec0bf38ace40512e94a21f4bc246c89e1d92699dfb140",
+  "bytes": 4503,
+  "decode_replacements": 0,
+  "raw_path": "raw/we-in-style.txt"
+}

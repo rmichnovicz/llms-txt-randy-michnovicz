@@ -1,0 +1,17 @@
+{
+  "id": "stripe",
+  "url": "https://docs.stripe.com/llms.txt",
+  "category": "developer-docs",
+  "kind": "actual",
+  "split": "development",
+  "discovery": "https://llmstxt.site/",
+  "retrieved_at": "2026-09-24T22:46:20.109632+00:00",
+  "accepted": true,
+  "status": 200,
+  "final_url": "https://docs.stripe.com/llms.txt",
+  "content_type": "text/markdown; charset=utf-8",
+  "sha256": "81831f8f1fac958b88ae9d85d0778457e88b19226ec973e9fddfb72e4b46ffec",
+  "bytes": 92181,
+  "decode_replacements": 0,
+  "raw_path": "raw/stripe.txt"
+}

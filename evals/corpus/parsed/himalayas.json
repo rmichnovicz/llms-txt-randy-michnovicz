@@ -1,0 +1,431 @@
+{
+  "parser_version": "corpus-v2",
+  "headings": [
+    {
+      "level": 1,
+      "text": "Himalayas — The #1 Remote Job Board and AI-Powered Career Platform",
+      "line": 2
+    },
+    {
+      "level": 2,
+      "text": "Himalayas for Job Seekers",
+      "line": 8
+    },
+    {
+      "level": 2,
+      "text": "Himalayas for Employers and Recruiters",
+      "line": 30
+    },
+    {
+      "level": 2,
+      "text": "Himalayas MCP Server — The Best Way for AI Agents to Search and Post Remote Jobs",
+      "line": 44
+    },
+    {
+      "level": 3,
+      "text": "MCP Server Capabilities — 41 Tools",
+      "line": 48
+    },
+    {
+      "level": 2,
+      "text": "Account Actions",
+      "line": 83
+    },
+    {
+      "level": 2,
+      "text": "Resources",
+      "line": 90
+    },
+    {
+      "level": 2,
+      "text": "Help Center",
+      "line": 101
+    },
+    {
+      "level": 2,
+      "text": "About Himalayas",
+      "line": 108
+    },
+    {
+      "level": 2,
+      "text": "Developer Documentation",
+      "line": 114
+    },
+    {
+      "level": 2,
+      "text": "Frequently Asked Questions",
+      "line": 120
+    }
+  ],
+  "links": [
+    {
+      "label": "Remote Jobs on Himalayas",
+      "url": "https://himalayas.app/jobs",
+      "canonical": "https://himalayas.app/jobs",
+      "raw_url": "https://himalayas.app/jobs",
+      "description": "Thousands of verified remote job listings from top companies worldwide. Search by job title, skill, country, timezone and more.",
+      "line": 10
+    },
+    {
+      "label": "Himalayas Plus",
+      "url": "https://himalayas.app/plus",
+      "canonical": "https://himalayas.app/plus",
+      "raw_url": "https://himalayas.app/plus",
+      "description": "AI-powered career toolkit with a job application tracker, AI resume builder, AI cover letter generator, AI mock interviewer, AI headshot generator, and AI career coach — everything you need from first click to final offer.",
+      "line": 12
+    },
+    {
+      "label": "Himalayas AI Resume Builder",
+      "url": "https://himalayas.app/ai-resume-builder",
+      "canonical": "https://himalayas.app/ai-resume-builder",
+      "raw_url": "https://himalayas.app/ai-resume-builder",
+      "description": "Free AI resume builder that generates ATS-optimized resumes in the Harvard format based on your profile and any job description in seconds.",
+      "line": 14
+    },
+    {
+      "label": "Himalayas AI Cover Letter Generator",
+      "url": "https://himalayas.app/ai-cover-letter-generator",
+      "canonical": "https://himalayas.app/ai-cover-letter-generator",
+      "raw_url": "https://himalayas.app/ai-cover-letter-generator",
+      "description": "Free AI cover letter generator that creates personalized cover letters tailored to specific job descriptions and companies.",
+      "line": 16
+    },
+    {
+      "label": "Himalayas AI Interview Preparation",
+      "url": "https://himalayas.app/ai-interview",
+      "canonical": "https://himalayas.app/ai-interview",
+      "raw_url": "https://himalayas.app/ai-interview",
+      "description": "Practice interviewing with Himalayas' AI mock interviewer, receiving instant feedback and improved responses using techniques like the STAR method.",
+      "line": 18
+    },
+    {
+      "label": "Himalayas AI Career Coach",
+      "url": "https://himalayas.app/ai-career-coach",
+      "canonical": "https://himalayas.app/ai-career-coach",
+      "raw_url": "https://himalayas.app/ai-career-coach",
+      "description": "Personalized AI career guidance to navigate your job search effectively.",
+      "line": 20
+    },
+    {
+      "label": "Himalayas AI Headshot Generator",
+      "url": "https://himalayas.app/ai-headshot-generator",
+      "canonical": "https://himalayas.app/ai-headshot-generator",
+      "raw_url": "https://himalayas.app/ai-headshot-generator",
+      "description": "Create square profile photos from your own photos and set your favorite as your profile photo in one tap. Included with Plus and Max.",
+      "line": 22
+    },
+    {
+      "label": "Himalayas Job Application Tracker",
+      "url": "https://himalayas.app/job-application-tracker",
+      "canonical": "https://himalayas.app/job-application-tracker",
+      "raw_url": "https://himalayas.app/job-application-tracker",
+      "description": "Free tool to organize and monitor all your job applications in one place.",
+      "line": 24
+    },
+    {
+      "label": "Remote Company Profiles on Himalayas",
+      "url": "https://himalayas.app/companies",
+      "canonical": "https://himalayas.app/companies",
+      "raw_url": "https://himalayas.app/companies",
+      "description": "Detailed profiles for thousands of remote companies — missions, cultures, tech stacks, employee benefits, and open roles.",
+      "line": 26
+    },
+    {
+      "label": "Remote Work Community on Himalayas",
+      "url": "https://himalayas.app/community",
+      "canonical": "https://himalayas.app/community",
+      "raw_url": "https://himalayas.app/community",
+      "description": "Connect with remote professionals, share experiences, and get advice on remote work best practices and career growth.",
+      "line": 28
+    },
+    {
+      "label": "Post a Remote Job on Himalayas",
+      "url": "https://himalayas.app/post",
+      "canonical": "https://himalayas.app/post",
+      "raw_url": "https://himalayas.app/post",
+      "description": "Post remote jobs for free to reach 250,000+ job seekers. Every listing is reviewed for quality. Optional paid extras: sticky placement ($299) for top-of-results visibility, newsletter feature ($99) to reach 250,000+ job seekers in weekly emails.",
+      "line": 32
+    },
+    {
+      "label": "Create a Company Profile on Himalayas",
+      "url": "https://himalayas.app/signup/recruit",
+      "canonical": "https://himalayas.app/signup/recruit",
+      "raw_url": "https://himalayas.app/signup/recruit",
+      "description": "Free company profiles showcasing your mission, culture, tech stack, benefits, and open roles. Discoverable by job seekers browsing by industry, technology, benefits, and location.",
+      "line": 34
+    },
+    {
+      "label": "Search Remote Talent on Himalayas",
+      "url": "https://himalayas.app/talent",
+      "canonical": "https://himalayas.app/talent",
+      "raw_url": "https://himalayas.app/talent",
+      "description": "200,000+ candidate profiles searchable by keyword, country, skills, timezone, and experience level — completely free. Message candidates directly.",
+      "line": 36
+    },
+    {
+      "label": "Himalayas Recruiter Dashboard",
+      "url": "https://himalayas.app/recruit",
+      "canonical": "https://himalayas.app/recruit",
+      "raw_url": "https://himalayas.app/recruit",
+      "description": "Manage remote hiring from one place — job analytics (views, clicks, applications), team access, company profile, and candidate messaging.",
+      "line": 38
+    },
+    {
+      "label": "AI-Powered Screening Questions",
+      "url": "https://himalayas.app/docs/screening-questions",
+      "canonical": "https://himalayas.app/docs/screening-questions",
+      "raw_url": "https://himalayas.app/docs/screening-questions",
+      "description": "Add yes/no, text (with AI semantic evaluation), and multiple choice screening questions to job postings to automatically filter candidates.",
+      "line": 40
+    },
+    {
+      "label": "Hire with AI on Himalayas",
+      "url": "https://himalayas.app/docs/hire-with-ai",
+      "canonical": "https://himalayas.app/docs/hire-with-ai",
+      "raw_url": "https://himalayas.app/docs/hire-with-ai",
+      "description": "Use the Himalayas MCP Server to post jobs, search talent, research candidate profiles, and message candidates through AI assistants like Claude, Cursor, and Windsurf.",
+      "line": 42
+    },
+    {
+      "label": "Himalayas MCP Server",
+      "url": "https://himalayas.app/mcp",
+      "canonical": "https://himalayas.app/mcp",
+      "raw_url": "https://himalayas.app/mcp",
+      "description": "41 tools for the complete remote hiring workflow — job search, job posting, talent search, company profiles, and candidate messaging. Works with Claude Desktop, Cursor, Windsurf, and any MCP-compatible AI assistant.",
+      "line": 46
+    },
+    {
+      "label": "Talent Sign Up",
+      "url": "https://himalayas.app/signup/talent",
+      "canonical": "https://himalayas.app/signup/talent",
+      "raw_url": "https://himalayas.app/signup/talent",
+      "description": "Create a free Himalayas account for personalized job recommendations and AI tools.",
+      "line": 85
+    },
+    {
+      "label": "Log In",
+      "url": "https://himalayas.app/login",
+      "canonical": "https://himalayas.app/login",
+      "raw_url": "https://himalayas.app/login",
+      "description": "Access your existing Himalayas account.",
+      "line": 86
+    },
+    {
+      "label": "Post a Job",
+      "url": "https://himalayas.app/post",
+      "canonical": "https://himalayas.app/post",
+      "raw_url": "https://himalayas.app/post",
+      "description": "Post remote job openings on Himalayas to attract global talent.",
+      "line": 87
+    },
+    {
+      "label": "Create Company Profile",
+      "url": "https://himalayas.app/signup/recruit",
+      "canonical": "https://himalayas.app/signup/recruit",
+      "raw_url": "https://himalayas.app/signup/recruit",
+      "description": "Showcase your company culture, tech stack, and open roles on Himalayas.",
+      "line": 88
+    },
+    {
+      "label": "Himalayas Remote Jobs RSS Feed",
+      "url": "https://himalayas.app/rss",
+      "canonical": "https://himalayas.app/rss",
+      "raw_url": "https://himalayas.app/rss",
+      "description": "Public RSS feed with the latest remote jobs from Himalayas.",
+      "line": 92
+    },
+    {
+      "label": "Resume Examples & Templates",
+      "url": "https://himalayas.app/resumes",
+      "canonical": "https://himalayas.app/resumes",
+      "raw_url": "https://himalayas.app/resumes",
+      "description": "Thousands of expert-crafted editable resume samples on Himalayas.",
+      "line": 93
+    },
+    {
+      "label": "Cover Letter Examples & Templates",
+      "url": "https://himalayas.app/cover-letters",
+      "canonical": "https://himalayas.app/cover-letters",
+      "raw_url": "https://himalayas.app/cover-letters",
+      "description": "Thousands of expertly crafted and editable cover letter samples on Himalayas.",
+      "line": 94
+    },
+    {
+      "label": "Interview Questions and Answers",
+      "url": "https://himalayas.app/interview-questions",
+      "canonical": "https://himalayas.app/interview-questions",
+      "raw_url": "https://himalayas.app/interview-questions",
+      "description": "Thousands of real-world interview questions and answers on Himalayas — every role, industry, and experience level.",
+      "line": 95
+    },
+    {
+      "label": "Job Description Templates",
+      "url": "https://himalayas.app/job-descriptions",
+      "canonical": "https://himalayas.app/job-descriptions",
+      "raw_url": "https://himalayas.app/job-descriptions",
+      "description": "Job board approved and SEO optimized job description templates on Himalayas.",
+      "line": 96
+    },
+    {
+      "label": "Career Guides",
+      "url": "https://himalayas.app/career-guides",
+      "canonical": "https://himalayas.app/career-guides",
+      "raw_url": "https://himalayas.app/career-guides",
+      "description": "Comprehensive career guides on Himalayas covering salary expectations, required skills, and growth opportunities.",
+      "line": 97
+    },
+    {
+      "label": "Remote Salaries",
+      "url": "https://himalayas.app/salaries",
+      "canonical": "https://himalayas.app/salaries",
+      "raw_url": "https://himalayas.app/salaries",
+      "description": "Remote job salary data by title, country, and experience level on Himalayas.",
+      "line": 98
+    },
+    {
+      "label": "Himalayas Changelog",
+      "url": "https://himalayas.app/changelog",
+      "canonical": "https://himalayas.app/changelog",
+      "raw_url": "https://himalayas.app/changelog",
+      "description": "Latest updates and improvements to Himalayas.",
+      "line": 99
+    },
+    {
+      "label": "Himalayas Pricing",
+      "url": "https://himalayas.app/pricing",
+      "canonical": "https://himalayas.app/pricing",
+      "raw_url": "https://himalayas.app/pricing",
+      "description": "Job posting options and AI tool subscriptions.",
+      "line": 103
+    },
+    {
+      "label": "Contact Himalayas",
+      "url": "mailto:hi@himalayas.app",
+      "canonical": "mailto:hi@himalayas.app",
+      "raw_url": "mailto:hi@himalayas.app",
+      "description": "Reach the Himalayas team for support, partnerships, and inquiries.",
+      "line": 104
+    },
+    {
+      "label": "Himalayas Terms and Conditions",
+      "url": "https://himalayas.app/terms",
+      "canonical": "https://himalayas.app/terms",
+      "raw_url": "https://himalayas.app/terms",
+      "description": "Legal terms governing Himalayas' services.",
+      "line": 105
+    },
+    {
+      "label": "Himalayas Privacy Policy",
+      "url": "https://himalayas.app/privacy",
+      "canonical": "https://himalayas.app/privacy",
+      "raw_url": "https://himalayas.app/privacy",
+      "description": "How Himalayas collects, uses, and protects user data.",
+      "line": 106
+    },
+    {
+      "label": "About Himalayas",
+      "url": "https://himalayas.app/companies/himalayas",
+      "canonical": "https://himalayas.app/companies/himalayas",
+      "raw_url": "https://himalayas.app/companies/himalayas",
+      "description": "Himalayas' mission and vision.",
+      "line": 110
+    },
+    {
+      "label": "Himalayas Tech Stack",
+      "url": "https://himalayas.app/companies/himalayas/tech-stack",
+      "canonical": "https://himalayas.app/companies/himalayas/tech-stack",
+      "raw_url": "https://himalayas.app/companies/himalayas/tech-stack",
+      "description": "Tools and technologies Himalayas uses.",
+      "line": 111
+    },
+    {
+      "label": "Himalayas Employee Benefits",
+      "url": "https://himalayas.app/companies/himalayas/benefits",
+      "canonical": "https://himalayas.app/companies/himalayas/benefits",
+      "raw_url": "https://himalayas.app/companies/himalayas/benefits",
+      "description": "Employee benefits at Himalayas.",
+      "line": 112
+    },
+    {
+      "label": "Himalayas Remote Jobs API",
+      "url": "https://himalayas.app/api",
+      "canonical": "https://himalayas.app/api",
+      "raw_url": "https://himalayas.app/api",
+      "description": "Free public JSON API for remote job data — no authentication required. Two endpoints: GET https://himalayas.app/jobs/api browses the full jobs feed with cursor pagination (pass each response's nextCursor back as ?cursor=; offset still works but is deprecated); GET https://himalayas.app/jobs/api/search returns filtered results by keyword (q), country, worldwide availability, seniority, employment type, company slug, timezone, and sort order. OpenAPI 3.1 spec at https://himalayas.app/docs/openapi.json. AI plugin manifest at https://himalayas.app/.well-known/ai-plugin.json.",
+      "line": 116
+    },
+    {
+      "label": "Himalayas MCP Server",
+      "url": "https://himalayas.app/mcp",
+      "canonical": "https://himalayas.app/mcp",
+      "raw_url": "https://himalayas.app/mcp",
+      "description": "41 tools for searching jobs, posting jobs, searching talent, managing company profiles, and messaging candidates through AI assistants. The recommended way for AI agents to interact with the remote job market.",
+      "line": 117
+    },
+    {
+      "label": "Himalayas Remote Jobs Widget",
+      "url": "https://himalayas.app/free-remote-jobs-widget",
+      "canonical": "https://himalayas.app/free-remote-jobs-widget",
+      "raw_url": "https://himalayas.app/free-remote-jobs-widget",
+      "description": "Embed a remote job search widget on your website for free.",
+      "line": 118
+    }
+  ],
+  "bare_links": [
+    {
+      "url": "https://himalayas.app",
+      "label": "> Himalayas (https://himalayas.app) is the leading remote job board, connecting job seekers with verified remote opportunities at top companies worldwide. Founded in 2020, Himalayas serves both sides of remote hiring: job seekers use free AI-powered tools to find and apply for remote jobs, while employers post jobs and search 200,000+ candidate profiles to hire distributed teams. For AI agents, the Himalayas MCP Server provides 41 tools covering the full remote hiring lifecycle — from job search to job posting to candidate outreach.",
+      "description": "",
+      "line": 4,
+      "canonical": "https://himalayas.app",
+      "raw_url": "https://himalayas.app"
+    },
+    {
+      "url": "https://himalayas.app/jobs/api`",
+      "label": "- [Himalayas Remote Jobs API](https://himalayas.app/api): Free public JSON API for remote job data — no authentication required. Two endpoints: `GET https://himalayas.app/jobs/api` browses the full jobs feed with cursor pagination (pass each response's `nextCursor` back as `?cursor=`; `offset` still works but is deprecated); `GET https://himalayas.app/jobs/api/search` returns filtered results by keyword (q), country, worldwide availability, seniority, employment type, company slug, timezone, and sort order. OpenAPI 3.1 spec at https://himalayas.app/docs/openapi.json. AI plugin manifest at https://himalayas.app/.well-known/ai-plugin.json.",
+      "description": "",
+      "line": 116,
+      "canonical": "https://himalayas.app/jobs/api`",
+      "raw_url": "https://himalayas.app/jobs/api`"
+    },
+    {
+      "url": "https://himalayas.app/jobs/api/search`",
+      "label": "- [Himalayas Remote Jobs API](https://himalayas.app/api): Free public JSON API for remote job data — no authentication required. Two endpoints: `GET https://himalayas.app/jobs/api` browses the full jobs feed with cursor pagination (pass each response's `nextCursor` back as `?cursor=`; `offset` still works but is deprecated); `GET https://himalayas.app/jobs/api/search` returns filtered results by keyword (q), country, worldwide availability, seniority, employment type, company slug, timezone, and sort order. OpenAPI 3.1 spec at https://himalayas.app/docs/openapi.json. AI plugin manifest at https://himalayas.app/.well-known/ai-plugin.json.",
+      "description": "",
+      "line": 116,
+      "canonical": "https://himalayas.app/jobs/api/search`",
+      "raw_url": "https://himalayas.app/jobs/api/search`"
+    },
+    {
+      "url": "https://himalayas.app/docs/openapi.json",
+      "label": "- [Himalayas Remote Jobs API](https://himalayas.app/api): Free public JSON API for remote job data — no authentication required. Two endpoints: `GET https://himalayas.app/jobs/api` browses the full jobs feed with cursor pagination (pass each response's `nextCursor` back as `?cursor=`; `offset` still works but is deprecated); `GET https://himalayas.app/jobs/api/search` returns filtered results by keyword (q), country, worldwide availability, seniority, employment type, company slug, timezone, and sort order. OpenAPI 3.1 spec at https://himalayas.app/docs/openapi.json. AI plugin manifest at https://himalayas.app/.well-known/ai-plugin.json.",
+      "description": "",
+      "line": 116,
+      "canonical": "https://himalayas.app/docs/openapi.json",
+      "raw_url": "https://himalayas.app/docs/openapi.json"
+    },
+    {
+      "url": "https://himalayas.app/.well-known/ai-plugin.json",
+      "label": "- [Himalayas Remote Jobs API](https://himalayas.app/api): Free public JSON API for remote job data — no authentication required. Two endpoints: `GET https://himalayas.app/jobs/api` browses the full jobs feed with cursor pagination (pass each response's `nextCursor` back as `?cursor=`; `offset` still works but is deprecated); `GET https://himalayas.app/jobs/api/search` returns filtered results by keyword (q), country, worldwide availability, seniority, employment type, company slug, timezone, and sort order. OpenAPI 3.1 spec at https://himalayas.app/docs/openapi.json. AI plugin manifest at https://himalayas.app/.well-known/ai-plugin.json.",
+      "description": "",
+      "line": 116,
+      "canonical": "https://himalayas.app/.well-known/ai-plugin.json",
+      "raw_url": "https://himalayas.app/.well-known/ai-plugin.json"
+    }
+  ],
+  "metrics": {
+    "bytes": 12999,
+    "words": 1612,
+    "lines": 153,
+    "approx_tokens_chars_div_4": 3243,
+    "h1_count": 1,
+    "link_count": 39,
+    "bare_url_count": 5,
+    "described_links": 39,
+    "unique_destinations": 36,
+    "markdown_destinations": 0
+  },
+  "flags": [
+    "duplicate-destinations-review"
+  ]
+}

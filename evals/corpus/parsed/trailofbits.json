@@ -1,0 +1,611 @@
+{
+  "parser_version": "corpus-v2",
+  "headings": [
+    {
+      "level": 1,
+      "text": "Trail of Bits",
+      "line": 1
+    },
+    {
+      "level": 2,
+      "text": "Key pages",
+      "line": 9
+    },
+    {
+      "level": 2,
+      "text": "Services",
+      "line": 17
+    },
+    {
+      "level": 2,
+      "text": "Open-source tools",
+      "line": 26
+    },
+    {
+      "level": 2,
+      "text": "Machine-readable endpoints",
+      "line": 72
+    },
+    {
+      "level": 2,
+      "text": "Optional",
+      "line": 80
+    }
+  ],
+  "links": [
+    {
+      "label": "Explore — full library",
+      "url": "https://trailofbits.com/library/",
+      "canonical": "https://trailofbits.com/library/",
+      "raw_url": "https://trailofbits.com/library/",
+      "description": "every report, paper, talk, podcast, and policy comment, searchable.",
+      "line": 10
+    },
+    {
+      "label": "Open-source tools",
+      "url": "https://trailofbits.com/tools/",
+      "canonical": "https://trailofbits.com/tools/",
+      "raw_url": "https://trailofbits.com/tools/",
+      "description": "the tool catalog, organized by the problem each solves.",
+      "line": 11
+    },
+    {
+      "label": "Reports",
+      "url": "https://trailofbits.com/reports/",
+      "canonical": "https://trailofbits.com/reports/",
+      "raw_url": "https://trailofbits.com/reports/",
+      "description": "security reviews with cover thumbnails.",
+      "line": 12
+    },
+    {
+      "label": "Talks",
+      "url": "https://trailofbits.com/talks/",
+      "canonical": "https://trailofbits.com/talks/",
+      "raw_url": "https://trailofbits.com/talks/",
+      "description": "conference talks and presentations.",
+      "line": 13
+    },
+    {
+      "label": "Services",
+      "url": "https://trailofbits.com/services/",
+      "canonical": "https://trailofbits.com/services/",
+      "raw_url": "https://trailofbits.com/services/",
+      "description": "how engagements work.",
+      "line": 14
+    },
+    {
+      "label": "Team",
+      "url": "https://trailofbits.com/team/",
+      "canonical": "https://trailofbits.com/team/",
+      "raw_url": "https://trailofbits.com/team/",
+      "description": "the people and the firm's history.",
+      "line": 15
+    },
+    {
+      "label": "Software Assurance",
+      "url": "https://trailofbits.com/services/software-assurance/",
+      "canonical": "https://trailofbits.com/services/software-assurance/",
+      "raw_url": "https://trailofbits.com/services/software-assurance/",
+      "description": "Multi-disciplinary security reviews across the whole SDLC, with a team sized to your threat model rather than a fixed template.",
+      "line": 18
+    },
+    {
+      "label": "AI/ML Security",
+      "url": "https://trailofbits.com/services/ai-ml/",
+      "canonical": "https://trailofbits.com/services/ai-ml/",
+      "raw_url": "https://trailofbits.com/services/ai-ml/",
+      "description": "We review AI systems end to end, from training data and MLOps pipelines to model artifacts, inference hardware, and deployed agent loops.",
+      "line": 19
+    },
+    {
+      "label": "Application Security",
+      "url": "https://trailofbits.com/services/application-security/",
+      "canonical": "https://trailofbits.com/services/application-security/",
+      "raw_url": "https://trailofbits.com/services/application-security/",
+      "description": "Deep code, cloud, and architecture review that finds the root cause and the fix that retires the whole bug class.",
+      "line": 20
+    },
+    {
+      "label": "Blockchain",
+      "url": "https://trailofbits.com/services/blockchain/",
+      "canonical": "https://trailofbits.com/services/blockchain/",
+      "raw_url": "https://trailofbits.com/services/blockchain/",
+      "description": "We review every layer of a blockchain system, from smart contracts to nodes and bridges, backed by Slither, Echidna, and Medusa.",
+      "line": 21
+    },
+    {
+      "label": "Cryptography",
+      "url": "https://trailofbits.com/services/cryptography/",
+      "canonical": "https://trailofbits.com/services/cryptography/",
+      "raw_url": "https://trailofbits.com/services/cryptography/",
+      "description": "PhD-level cryptographers who build and break real protocols, from zero-knowledge proofs and MPC to post-quantum migrations.",
+      "line": 22
+    },
+    {
+      "label": "Security Engineering",
+      "url": "https://trailofbits.com/services/security-engineering/",
+      "canonical": "https://trailofbits.com/services/security-engineering/",
+      "raw_url": "https://trailofbits.com/services/security-engineering/",
+      "description": "An embedded team that builds custom security tooling and remediates vulnerabilities across your pipeline, from development through deployment.",
+      "line": 23
+    },
+    {
+      "label": "Research & Development",
+      "url": "https://trailofbits.com/services/research-and-development/",
+      "canonical": "https://trailofbits.com/services/research-and-development/",
+      "raw_url": "https://trailofbits.com/services/research-and-development/",
+      "description": "Multi-year research that uncovers Internet-scale vulnerabilities and turns the findings into open-source tools, papers, and standards.",
+      "line": 24
+    },
+    {
+      "label": "Slither",
+      "url": "https://trailofbits.com/tools/slither/",
+      "canonical": "https://trailofbits.com/tools/slither/",
+      "raw_url": "https://trailofbits.com/tools/slither/",
+      "description": "Static analysis for Solidity and Vyper with built-in detectors and an API for custom checks.",
+      "line": 27
+    },
+    {
+      "label": "Echidna",
+      "url": "https://trailofbits.com/tools/echidna/",
+      "canonical": "https://trailofbits.com/tools/echidna/",
+      "raw_url": "https://trailofbits.com/tools/echidna/",
+      "description": "Property-based fuzzer that throws grammar-driven inputs at Ethereum contracts to falsify your invariants.",
+      "line": 28
+    },
+    {
+      "label": "Medusa",
+      "url": "https://trailofbits.com/tools/medusa/",
+      "canonical": "https://trailofbits.com/tools/medusa/",
+      "raw_url": "https://trailofbits.com/tools/medusa/",
+      "description": "Parallel smart-contract fuzzing built on go-ethereum and designed for large-scale test campaigns.",
+      "line": 29
+    },
+    {
+      "label": "Etheno",
+      "url": "https://trailofbits.com/tools/etheno/",
+      "canonical": "https://trailofbits.com/tools/etheno/",
+      "raw_url": "https://trailofbits.com/tools/etheno/",
+      "description": "JSON-RPC multiplexer and test-integration layer for contract analysis tools.",
+      "line": 30
+    },
+    {
+      "label": "Tealer",
+      "url": "https://trailofbits.com/tools/tealer/",
+      "canonical": "https://trailofbits.com/tools/tealer/",
+      "raw_url": "https://trailofbits.com/tools/tealer/",
+      "description": "Static analysis for Algorand TEAL programs with CFG construction and vulnerability detectors.",
+      "line": 31
+    },
+    {
+      "label": "Circomspect",
+      "url": "https://trailofbits.com/tools/circomspect/",
+      "canonical": "https://trailofbits.com/tools/circomspect/",
+      "raw_url": "https://trailofbits.com/tools/circomspect/",
+      "description": "Static analysis and linting for Circom circuits, aimed at catching risky patterns in zero-knowledge code.",
+      "line": 32
+    },
+    {
+      "label": "Remill",
+      "url": "https://trailofbits.com/tools/remill/",
+      "canonical": "https://trailofbits.com/tools/remill/",
+      "raw_url": "https://trailofbits.com/tools/remill/",
+      "description": "Machine-code lifter that translates instructions into LLVM bitcode for later analysis and transformation.",
+      "line": 33
+    },
+    {
+      "label": "Anvill",
+      "url": "https://trailofbits.com/tools/anvill/",
+      "canonical": "https://trailofbits.com/tools/anvill/",
+      "raw_url": "https://trailofbits.com/tools/anvill/",
+      "description": "Lifting primitives that aim for Clang-like bitcode quality so decompiled output is easier to reason about.",
+      "line": 34
+    },
+    {
+      "label": "VMill",
+      "url": "https://trailofbits.com/tools/vmill/",
+      "canonical": "https://trailofbits.com/tools/vmill/",
+      "raw_url": "https://trailofbits.com/tools/vmill/",
+      "description": "Snapshot-based process emulator for executing lifted binaries and instrumenting them in LLVM form.",
+      "line": 35
+    },
+    {
+      "label": "Manticore",
+      "url": "https://trailofbits.com/tools/manticore/",
+      "canonical": "https://trailofbits.com/tools/manticore/",
+      "raw_url": "https://trailofbits.com/tools/manticore/",
+      "description": "Symbolic execution engine for binaries, smart contracts, and WebAssembly programs.",
+      "line": 36
+    },
+    {
+      "label": "Maat",
+      "url": "https://trailofbits.com/tools/maat/",
+      "canonical": "https://trailofbits.com/tools/maat/",
+      "raw_url": "https://trailofbits.com/tools/maat/",
+      "description": "Dynamic symbolic execution and binary-analysis framework with taint analysis, environment simulation, and constraint solving.",
+      "line": 37
+    },
+    {
+      "label": "Codex Decompiler",
+      "url": "https://trailofbits.com/tools/codex-decompiler/",
+      "canonical": "https://trailofbits.com/tools/codex-decompiler/",
+      "raw_url": "https://trailofbits.com/tools/codex-decompiler/",
+      "description": "Ghidra plugin that uses language models to improve decompilation and reverse-engineering workflows.",
+      "line": 38
+    },
+    {
+      "label": "DeepState",
+      "url": "https://trailofbits.com/tools/deepstate/",
+      "canonical": "https://trailofbits.com/tools/deepstate/",
+      "raw_url": "https://trailofbits.com/tools/deepstate/",
+      "description": "Common interface for C and C++ tests across multiple fuzzing and symbolic-execution backends.",
+      "line": 39
+    },
+    {
+      "label": "gosentry",
+      "url": "https://trailofbits.com/tools/gosentry/",
+      "canonical": "https://trailofbits.com/tools/gosentry/",
+      "raw_url": "https://trailofbits.com/tools/gosentry/",
+      "description": "Security-focused Go toolchain fork that adds LibAFL fuzzing, structured inputs, grammar mode, and fuzz-time bug detectors.",
+      "line": 40
+    },
+    {
+      "label": "zfuzz",
+      "url": "https://trailofbits.com/tools/zfuzz/",
+      "canonical": "https://trailofbits.com/tools/zfuzz/",
+      "raw_url": "https://trailofbits.com/tools/zfuzz/",
+      "description": "Emulation-based snapshot fuzzer that can load arbitrary memory dumps and attack them directly.",
+      "line": 41
+    },
+    {
+      "label": "KRF",
+      "url": "https://trailofbits.com/tools/krf/",
+      "canonical": "https://trailofbits.com/tools/krf/",
+      "raw_url": "https://trailofbits.com/tools/krf/",
+      "description": "Kernel fault-injection tool for Linux and FreeBSD designed to force error paths and expose weak handling.",
+      "line": 42
+    },
+    {
+      "label": "ProtoFuzz",
+      "url": "https://trailofbits.com/tools/protofuzz/",
+      "canonical": "https://trailofbits.com/tools/protofuzz/",
+      "raw_url": "https://trailofbits.com/tools/protofuzz/",
+      "description": "Grammar-aware fuzzer for Protocol Buffers that derives inputs from format definitions rather than hand-written generators.",
+      "line": 43
+    },
+    {
+      "label": "test-fuzz",
+      "url": "https://trailofbits.com/tools/test-fuzz/",
+      "canonical": "https://trailofbits.com/tools/test-fuzz/",
+      "raw_url": "https://trailofbits.com/tools/test-fuzz/",
+      "description": "Rust macros and Cargo tooling that automate corpus creation and harness setup for fuzzing.",
+      "line": 44
+    },
+    {
+      "label": "Necessist",
+      "url": "https://trailofbits.com/tools/necessist/",
+      "canonical": "https://trailofbits.com/tools/necessist/",
+      "raw_url": "https://trailofbits.com/tools/necessist/",
+      "description": "Mutation-style tool that removes statements and calls to uncover tests that look healthy but are actually weak.",
+      "line": 45
+    },
+    {
+      "label": "Mewt",
+      "url": "https://trailofbits.com/tools/mewt/",
+      "canonical": "https://trailofbits.com/tools/mewt/",
+      "raw_url": "https://trailofbits.com/tools/mewt/",
+      "description": "Mutation testing framework that makes small source-code changes and runs your test suite to show whether tests catch real behavioral changes.",
+      "line": 46
+    },
+    {
+      "label": "rekor-monitor",
+      "url": "https://trailofbits.com/tools/rekor-monitor/",
+      "canonical": "https://trailofbits.com/tools/rekor-monitor/",
+      "raw_url": "https://trailofbits.com/tools/rekor-monitor/",
+      "description": "Transparency-log monitoring for Sigstore's Rekor so maintainers can watch for suspicious signing events.",
+      "line": 47
+    },
+    {
+      "label": "It-Depends",
+      "url": "https://trailofbits.com/tools/it-depends/",
+      "canonical": "https://trailofbits.com/tools/it-depends/",
+      "raw_url": "https://trailofbits.com/tools/it-depends/",
+      "description": "Dependency-graph and SBOM builder for packages and arbitrary source repositories.",
+      "line": 48
+    },
+    {
+      "label": "cargo-unmaintained",
+      "url": "https://trailofbits.com/tools/cargo-unmaintained/",
+      "canonical": "https://trailofbits.com/tools/cargo-unmaintained/",
+      "raw_url": "https://trailofbits.com/tools/cargo-unmaintained/",
+      "description": "Identifies unmaintained packages in Rust projects before they quietly become inherited risk.",
+      "line": 49
+    },
+    {
+      "label": "Dylint",
+      "url": "https://trailofbits.com/tools/dylint/",
+      "canonical": "https://trailofbits.com/tools/dylint/",
+      "raw_url": "https://trailofbits.com/tools/dylint/",
+      "description": "Runs custom Rust lints from dynamic libraries rather than a single fixed lint set.",
+      "line": 50
+    },
+    {
+      "label": "semgrep-rules",
+      "url": "https://trailofbits.com/tools/semgrep-rules/",
+      "canonical": "https://trailofbits.com/tools/semgrep-rules/",
+      "raw_url": "https://trailofbits.com/tools/semgrep-rules/",
+      "description": "Public Semgrep queries developed during audits, research, and internal engineering work.",
+      "line": 51
+    },
+    {
+      "label": "codeql-queries",
+      "url": "https://trailofbits.com/tools/codeql-queries/",
+      "canonical": "https://trailofbits.com/tools/codeql-queries/",
+      "raw_url": "https://trailofbits.com/tools/codeql-queries/",
+      "description": "Public CodeQL query packs used to express deeper code and data-flow policies.",
+      "line": 52
+    },
+    {
+      "label": "Linuxevents",
+      "url": "https://trailofbits.com/tools/linuxevents/",
+      "canonical": "https://trailofbits.com/tools/linuxevents/",
+      "raw_url": "https://trailofbits.com/tools/linuxevents/",
+      "description": "eBPF-based monitoring without shipping kernel headers or a stack of environment-specific bytecode artifacts.",
+      "line": 53
+    },
+    {
+      "label": "ebpfpub",
+      "url": "https://trailofbits.com/tools/ebpfpub/",
+      "canonical": "https://trailofbits.com/tools/ebpfpub/",
+      "raw_url": "https://trailofbits.com/tools/ebpfpub/",
+      "description": "Monitors system and library calls across multiple kernel versions with minimal runtime dependencies.",
+      "line": 54
+    },
+    {
+      "label": "ebpf-verifier",
+      "url": "https://trailofbits.com/tools/ebpf-verifier/",
+      "canonical": "https://trailofbits.com/tools/ebpf-verifier/",
+      "raw_url": "https://trailofbits.com/tools/ebpf-verifier/",
+      "description": "Research prototype for running the eBPF verifier outside the live kernel to make cross-version testing practical.",
+      "line": 55
+    },
+    {
+      "label": "mquire",
+      "url": "https://trailofbits.com/tools/mquire/",
+      "canonical": "https://trailofbits.com/tools/mquire/",
+      "raw_url": "https://trailofbits.com/tools/mquire/",
+      "description": "Memory-forensics tool that queries Linux kernel snapshots over SQL, using BTF and kallsyms embedded in the dump so no external debug symbols are needed.",
+      "line": 56
+    },
+    {
+      "label": "winchecksec",
+      "url": "https://trailofbits.com/tools/winchecksec/",
+      "canonical": "https://trailofbits.com/tools/winchecksec/",
+      "raw_url": "https://trailofbits.com/tools/winchecksec/",
+      "description": "Static inspection of Windows binaries for mitigations like DEP, ASLR, and code integrity.",
+      "line": 57
+    },
+    {
+      "label": "pe-parse",
+      "url": "https://trailofbits.com/tools/pe-parse/",
+      "canonical": "https://trailofbits.com/tools/pe-parse/",
+      "raw_url": "https://trailofbits.com/tools/pe-parse/",
+      "description": "Minimal, security-focused parser for Portable Executable files built to survive malicious or malformed inputs.",
+      "line": 58
+    },
+    {
+      "label": "osquery-extensions",
+      "url": "https://trailofbits.com/tools/osquery-extensions/",
+      "canonical": "https://trailofbits.com/tools/osquery-extensions/",
+      "raw_url": "https://trailofbits.com/tools/osquery-extensions/",
+      "description": "Collection of Trail of Bits extensions that expand what osquery can inspect and expose.",
+      "line": 59
+    },
+    {
+      "label": "Graphtage",
+      "url": "https://trailofbits.com/tools/graphtage/",
+      "canonical": "https://trailofbits.com/tools/graphtage/",
+      "raw_url": "https://trailofbits.com/tools/graphtage/",
+      "description": "Semantic diff and merge tooling for tree-shaped data such as JSON, YAML, HTML, plist, and CSS.",
+      "line": 60
+    },
+    {
+      "label": "Polyfile",
+      "url": "https://trailofbits.com/tools/polyfile/",
+      "canonical": "https://trailofbits.com/tools/polyfile/",
+      "raw_url": "https://trailofbits.com/tools/polyfile/",
+      "description": "Maps the semantic structure of files, including polyglots and other intentionally confusing inputs.",
+      "line": 61
+    },
+    {
+      "label": "PolyTracker",
+      "url": "https://trailofbits.com/tools/polytracker/",
+      "canonical": "https://trailofbits.com/tools/polytracker/",
+      "raw_url": "https://trailofbits.com/tools/polytracker/",
+      "description": "LLVM-based data-flow and control-flow analysis that records how program logic touches specific input bytes.",
+      "line": 62
+    },
+    {
+      "label": "Umberto",
+      "url": "https://trailofbits.com/tools/umberto/",
+      "canonical": "https://trailofbits.com/tools/umberto/",
+      "raw_url": "https://trailofbits.com/tools/umberto/",
+      "description": "Structured-data mutator for JSON, XML, X.509, and other grammar-shaped inputs.",
+      "line": 63
+    },
+    {
+      "label": "mishegos",
+      "url": "https://trailofbits.com/tools/mishegos/",
+      "canonical": "https://trailofbits.com/tools/mishegos/",
+      "raw_url": "https://trailofbits.com/tools/mishegos/",
+      "description": "Differential fuzzer for x86 decoders built to expose disagreements between analysis tools.",
+      "line": 64
+    },
+    {
+      "label": "Honeybee",
+      "url": "https://trailofbits.com/tools/honeybee/",
+      "canonical": "https://trailofbits.com/tools/honeybee/",
+      "raw_url": "https://trailofbits.com/tools/honeybee/",
+      "description": "Intel Processor Trace capture and decoding suite tuned for high-throughput source and blackbox fuzzing.",
+      "line": 65
+    },
+    {
+      "label": "Fickling",
+      "url": "https://trailofbits.com/tools/fickling/",
+      "canonical": "https://trailofbits.com/tools/fickling/",
+      "raw_url": "https://trailofbits.com/tools/fickling/",
+      "description": "Decompiles, statically analyzes, and rewrites Python pickle files to catch code hidden in ML model artifacts.",
+      "line": 66
+    },
+    {
+      "label": "PrivacyRaven",
+      "url": "https://trailofbits.com/tools/privacyraven/",
+      "canonical": "https://trailofbits.com/tools/privacyraven/",
+      "raw_url": "https://trailofbits.com/tools/privacyraven/",
+      "description": "Privacy-testing library for deep-learning systems and privacy-preserving ML techniques.",
+      "line": 67
+    },
+    {
+      "label": "MPC-learning",
+      "url": "https://trailofbits.com/tools/mpc-learning/",
+      "canonical": "https://trailofbits.com/tools/mpc-learning/",
+      "raw_url": "https://trailofbits.com/tools/mpc-learning/",
+      "description": "Multi-party computation library for machine-learning workflows built around a three-party protocol.",
+      "line": 68
+    },
+    {
+      "label": "abi3audit",
+      "url": "https://trailofbits.com/tools/abi3audit/",
+      "canonical": "https://trailofbits.com/tools/abi3audit/",
+      "raw_url": "https://trailofbits.com/tools/abi3audit/",
+      "description": "Scans Python extensions and wheels for abi3 compatibility violations across package histories.",
+      "line": 69
+    },
+    {
+      "label": "CVEdb",
+      "url": "https://trailofbits.com/tools/cvedb/",
+      "canonical": "https://trailofbits.com/tools/cvedb/",
+      "raw_url": "https://trailofbits.com/tools/cvedb/",
+      "description": "Library and CLI for consuming NVD data directly without leaning on third-party APIs.",
+      "line": 70
+    },
+    {
+      "label": "Full library JSON",
+      "url": "https://trailofbits.com/api/library.json",
+      "canonical": "https://trailofbits.com/api/library.json",
+      "raw_url": "https://trailofbits.com/api/library.json",
+      "description": "",
+      "line": 73
+    },
+    {
+      "label": "Reports JSON",
+      "url": "https://trailofbits.com/api/reports.json",
+      "canonical": "https://trailofbits.com/api/reports.json",
+      "raw_url": "https://trailofbits.com/api/reports.json",
+      "description": "",
+      "line": 74
+    },
+    {
+      "label": "Papers JSON",
+      "url": "https://trailofbits.com/api/papers.json",
+      "canonical": "https://trailofbits.com/api/papers.json",
+      "raw_url": "https://trailofbits.com/api/papers.json",
+      "description": "",
+      "line": 75
+    },
+    {
+      "label": "Tools JSON",
+      "url": "https://trailofbits.com/api/tools.json",
+      "canonical": "https://trailofbits.com/api/tools.json",
+      "raw_url": "https://trailofbits.com/api/tools.json",
+      "description": "",
+      "line": 76
+    },
+    {
+      "label": "Full content for LLMs",
+      "url": "https://trailofbits.com/llms-full.txt",
+      "canonical": "https://trailofbits.com/llms-full.txt",
+      "raw_url": "https://trailofbits.com/llms-full.txt",
+      "description": "",
+      "line": 77
+    },
+    {
+      "label": "Sitemap",
+      "url": "https://trailofbits.com/sitemap-index.xml",
+      "canonical": "https://trailofbits.com/sitemap-index.xml",
+      "raw_url": "https://trailofbits.com/sitemap-index.xml",
+      "description": "",
+      "line": 78
+    },
+    {
+      "label": "Trail of Bits (GitHub)",
+      "url": "https://github.com/trailofbits",
+      "canonical": "https://github.com/trailofbits",
+      "raw_url": "https://github.com/trailofbits",
+      "description": "The main organization for tools, guides, publications, and ongoing engineering work.",
+      "line": 81
+    },
+    {
+      "label": "Crytic (GitHub)",
+      "url": "https://github.com/crytic",
+      "canonical": "https://github.com/crytic",
+      "raw_url": "https://github.com/crytic",
+      "description": "Blockchain and smart-contract tooling, including Slither, Echidna, and Medusa.",
+      "line": 82
+    },
+    {
+      "label": "Lifting Bits (GitHub)",
+      "url": "https://github.com/lifting-bits",
+      "canonical": "https://github.com/lifting-bits",
+      "raw_url": "https://github.com/lifting-bits",
+      "description": "Binary lifting, LLVM-based translation, and reverse-engineering infrastructure.",
+      "line": 83
+    },
+    {
+      "label": "Publications datasets (GitHub)",
+      "url": "https://github.com/trailofbits/publications/tree/master/datasets",
+      "canonical": "https://github.com/trailofbits/publications/tree/master/datasets",
+      "raw_url": "https://github.com/trailofbits/publications/tree/master/datasets",
+      "description": "Structured public research assets, including audit-findings datasets that belong next to the tool catalog.",
+      "line": 84
+    },
+    {
+      "label": "Blog",
+      "url": "https://blog.trailofbits.com/",
+      "canonical": "https://blog.trailofbits.com/",
+      "raw_url": "https://blog.trailofbits.com/",
+      "description": "the technical blog — research writeups, disclosures, and tooling.",
+      "line": 85
+    },
+    {
+      "label": "X / Twitter",
+      "url": "https://x.com/trailofbits",
+      "canonical": "https://x.com/trailofbits",
+      "raw_url": "https://x.com/trailofbits",
+      "description": "",
+      "line": 86
+    },
+    {
+      "label": "LinkedIn",
+      "url": "https://www.linkedin.com/company/trail-of-bits",
+      "canonical": "https://www.linkedin.com/company/trail-of-bits",
+      "raw_url": "https://www.linkedin.com/company/trail-of-bits",
+      "description": "",
+      "line": 87
+    }
+  ],
+  "bare_links": [],
+  "metrics": {
+    "bytes": 10834,
+    "words": 1094,
+    "lines": 87,
+    "approx_tokens_chars_div_4": 2707,
+    "h1_count": 1,
+    "link_count": 70,
+    "bare_url_count": 0,
+    "described_links": 62,
+    "unique_destinations": 70,
+    "markdown_destinations": 0
+  },
+  "flags": []
+}

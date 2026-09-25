@@ -1,0 +1,551 @@
+{
+  "parser_version": "corpus-v2",
+  "headings": [
+    {
+      "level": 1,
+      "text": "Framer",
+      "line": 1
+    },
+    {
+      "level": 2,
+      "text": "Product",
+      "line": 9
+    },
+    {
+      "level": 2,
+      "text": "AI and agents",
+      "line": 23
+    },
+    {
+      "level": 2,
+      "text": "Learning and support",
+      "line": 31
+    },
+    {
+      "level": 2,
+      "text": "Developers",
+      "line": 42
+    },
+    {
+      "level": 2,
+      "text": "Solutions and programs",
+      "line": 51
+    },
+    {
+      "level": 2,
+      "text": "Compare",
+      "line": 61
+    },
+    {
+      "level": 2,
+      "text": "Marketplace",
+      "line": 74
+    },
+    {
+      "level": 2,
+      "text": "Contact, security, and privacy",
+      "line": 81
+    },
+    {
+      "level": 2,
+      "text": "Optional",
+      "line": 87
+    }
+  ],
+  "links": [
+    {
+      "label": "Homepage",
+      "url": "https://www.framer.com/",
+      "canonical": "https://www.framer.com/",
+      "raw_url": "https://www.framer.com/",
+      "description": "Overview of Framer’s visual canvas, AI agents, CMS, and website publishing.",
+      "line": 11
+    },
+    {
+      "label": "Pricing",
+      "url": "https://www.framer.com/pricing?md",
+      "canonical": "https://www.framer.com/pricing?md",
+      "raw_url": "https://www.framer.com/pricing?md",
+      "description": "Current plans, billing options, AI credits, editor fees, limits, and add-ons.",
+      "line": 12
+    },
+    {
+      "label": "Design",
+      "url": "https://www.framer.com/design/?md",
+      "canonical": "https://www.framer.com/design/?md",
+      "raw_url": "https://www.framer.com/design/?md",
+      "description": "Responsive layouts, visual editing, components, effects, and freeform design work.",
+      "line": 13
+    },
+    {
+      "label": "CMS",
+      "url": "https://www.framer.com/cms/?md",
+      "canonical": "https://www.framer.com/cms/?md",
+      "raw_url": "https://www.framer.com/cms/?md",
+      "description": "Collections, fields, detail pages, content imports, and bulk updates with agents.",
+      "line": 14
+    },
+    {
+      "label": "Hosting",
+      "url": "https://www.framer.com/hosting/?md",
+      "canonical": "https://www.framer.com/hosting/?md",
+      "raw_url": "https://www.framer.com/hosting/?md",
+      "description": "Custom domains, SSL, security, global delivery, redirects, and advanced hosting options.",
+      "line": 15
+    },
+    {
+      "label": "Publishing",
+      "url": "https://www.framer.com/publish/?md",
+      "canonical": "https://www.framer.com/publish/?md",
+      "raw_url": "https://www.framer.com/publish/?md",
+      "description": "Staging, production deployments, password protection, version history, and rollback.",
+      "line": 16
+    },
+    {
+      "label": "Collaboration",
+      "url": "https://www.framer.com/collaborate/?md",
+      "canonical": "https://www.framer.com/collaborate/?md",
+      "raw_url": "https://www.framer.com/collaborate/?md",
+      "description": "Branching, preview links, comments, team roles, and review before publishing.",
+      "line": 17
+    },
+    {
+      "label": "SEO",
+      "url": "https://www.framer.com/seo/?md",
+      "canonical": "https://www.framer.com/seo/?md",
+      "raw_url": "https://www.framer.com/seo/?md",
+      "description": "Page metadata, sitemaps, indexing, structured data, redirects, and SEO audits.",
+      "line": 18
+    },
+    {
+      "label": "Performance",
+      "url": "https://www.framer.com/performance/?md",
+      "canonical": "https://www.framer.com/performance/?md",
+      "raw_url": "https://www.framer.com/performance/?md",
+      "description": "Pre-rendering, image optimization, predictive loading, and page-performance techniques.",
+      "line": 19
+    },
+    {
+      "label": "Analytics",
+      "url": "https://www.framer.com/analytics?md",
+      "canonical": "https://www.framer.com/analytics?md",
+      "raw_url": "https://www.framer.com/analytics?md",
+      "description": "Cookie-free visitor analytics, traffic sources, page reports, and filters.",
+      "line": 20
+    },
+    {
+      "label": "Convert",
+      "url": "https://www.framer.com/convert/?md",
+      "canonical": "https://www.framer.com/convert/?md",
+      "raw_url": "https://www.framer.com/convert/?md",
+      "description": "Conversion funnels, A/B tests, and visitor-triggered experiences through the Convert add-on.",
+      "line": 21
+    },
+    {
+      "label": "Framer AI",
+      "url": "https://www.framer.com/ai/?md",
+      "canonical": "https://www.framer.com/ai/?md",
+      "raw_url": "https://www.framer.com/ai/?md",
+      "description": "Create and refine sites from prompts, then edit the result on the canvas.",
+      "line": 25
+    },
+    {
+      "label": "Framer Agents",
+      "url": "https://www.framer.com/agents/?md",
+      "canonical": "https://www.framer.com/agents/?md",
+      "raw_url": "https://www.framer.com/agents/?md",
+      "description": "Examples for updating layouts, managing CMS content, building components, and auditing sites.",
+      "line": 26
+    },
+    {
+      "label": "External Agents",
+      "url": "https://www.framer.com/agents/external/?md",
+      "canonical": "https://www.framer.com/agents/external/?md",
+      "raw_url": "https://www.framer.com/agents/external/?md",
+      "description": "Connect Claude Code, Codex, Cursor, and other AI tools to a Framer project.",
+      "line": 27
+    },
+    {
+      "label": "Skills",
+      "url": "https://www.framer.com/skills?md",
+      "canonical": "https://www.framer.com/skills?md",
+      "raw_url": "https://www.framer.com/skills?md",
+      "description": "Create reusable instructions for design systems, writing, CMS work, and repeated tasks.",
+      "line": 28
+    },
+    {
+      "label": "Make your site readable by AI agents",
+      "url": "https://www.framer.com/help/articles/make-site-readable-by-ai-agents/",
+      "canonical": "https://www.framer.com/help/articles/make-site-readable-by-ai-agents/",
+      "raw_url": "https://www.framer.com/help/articles/make-site-readable-by-ai-agents/",
+      "description": "How Framer serves HTML and Markdown to AI tools, including access through ?md.",
+      "line": 29
+    },
+    {
+      "label": "Help Center",
+      "url": "https://www.framer.com/help/?md",
+      "canonical": "https://www.framer.com/help/?md",
+      "raw_url": "https://www.framer.com/help/?md",
+      "description": "Support articles for site setup, the canvas, CMS, publishing, billing, and troubleshooting.",
+      "line": 33
+    },
+    {
+      "label": "Academy",
+      "url": "https://www.framer.com/academy/?md",
+      "canonical": "https://www.framer.com/academy/?md",
+      "raw_url": "https://www.framer.com/academy/?md",
+      "description": "Lessons on agents, responsive layouts, CMS, publishing, SEO, and design systems.",
+      "line": 34
+    },
+    {
+      "label": "Build your first site",
+      "url": "https://www.framer.com/academy/lessons/build-your-first-site?md",
+      "canonical": "https://www.framer.com/academy/lessons/build-your-first-site?md",
+      "raw_url": "https://www.framer.com/academy/lessons/build-your-first-site?md",
+      "description": "Start with a prompt, refine the canvas, check responsive layouts, and publish.",
+      "line": 35
+    },
+    {
+      "label": "Build your CMS",
+      "url": "https://www.framer.com/academy/lessons/getting-started-with-the-framer-cms?md",
+      "canonical": "https://www.framer.com/academy/lessons/getting-started-with-the-framer-cms?md",
+      "raw_url": "https://www.framer.com/academy/lessons/getting-started-with-the-framer-cms?md",
+      "description": "Set up collections and fields, then connect content to detail pages and lists.",
+      "line": 36
+    },
+    {
+      "label": "Connect a custom domain",
+      "url": "https://www.framer.com/help/articles/how-to-connect-a-custom-domain/?md",
+      "canonical": "https://www.framer.com/help/articles/how-to-connect-a-custom-domain/?md",
+      "raw_url": "https://www.framer.com/help/articles/how-to-connect-a-custom-domain/?md",
+      "description": "Publish a project and connect a domain or subdomain with the required DNS settings.",
+      "line": 37
+    },
+    {
+      "label": "Localization",
+      "url": "https://www.framer.com/help/localization/?md",
+      "canonical": "https://www.framer.com/help/localization/?md",
+      "raw_url": "https://www.framer.com/help/localization/?md",
+      "description": "Guides to locales, translations, language routing, localized content, and right-to-left layouts.",
+      "line": 38
+    },
+    {
+      "label": "Accessibility",
+      "url": "https://www.framer.com/help/articles/guide-to-web-accessibility-in-framer/?md",
+      "canonical": "https://www.framer.com/help/articles/guide-to-web-accessibility-in-framer/?md",
+      "raw_url": "https://www.framer.com/help/articles/guide-to-web-accessibility-in-framer/?md",
+      "description": "Semantic tags, image alt text, tab order, contrast, and reduced-motion settings.",
+      "line": 39
+    },
+    {
+      "label": "Add an llms.txt file",
+      "url": "https://www.framer.com/help/articles/llms-txt-framer/?md",
+      "canonical": "https://www.framer.com/help/articles/llms-txt-framer/?md",
+      "raw_url": "https://www.framer.com/help/articles/llms-txt-framer/?md",
+      "description": "Upload an llms.txt file through Hosting Files and check its published address.",
+      "line": 40
+    },
+    {
+      "label": "Developer documentation",
+      "url": "https://www.framer.com/developers/?md",
+      "canonical": "https://www.framer.com/developers/?md",
+      "raw_url": "https://www.framer.com/developers/?md",
+      "description": "Entry points for plugins, React components, overrides, Fetch, and the Server API.",
+      "line": 44
+    },
+    {
+      "label": "Code components",
+      "url": "https://www.framer.com/developers/components-introduction?md",
+      "canonical": "https://www.framer.com/developers/components-introduction?md",
+      "raw_url": "https://www.framer.com/developers/components-introduction?md",
+      "description": "Build React components with visual controls for the canvas, previews, and published sites.",
+      "line": 45
+    },
+    {
+      "label": "Code overrides",
+      "url": "https://www.framer.com/developers/overrides-introduction?md",
+      "canonical": "https://www.framer.com/developers/overrides-introduction?md",
+      "raw_url": "https://www.framer.com/developers/overrides-introduction?md",
+      "description": "Add behavior to existing elements, with guidance on when built-in features are preferable.",
+      "line": 46
+    },
+    {
+      "label": "Plugins",
+      "url": "https://www.framer.com/developers/plugins-introduction?md",
+      "canonical": "https://www.framer.com/developers/plugins-introduction?md",
+      "raw_url": "https://www.framer.com/developers/plugins-introduction?md",
+      "description": "Build editor extensions that work with canvas elements, components, assets, and CMS collections.",
+      "line": 47
+    },
+    {
+      "label": "Fetch",
+      "url": "https://www.framer.com/developers/fetch-introduction?md",
+      "canonical": "https://www.framer.com/developers/fetch-introduction?md",
+      "raw_url": "https://www.framer.com/developers/fetch-introduction?md",
+      "description": "Connect site content to APIs and prepare backend endpoints for Framer’s Fetch feature.",
+      "line": 48
+    },
+    {
+      "label": "Server API quick start",
+      "url": "https://www.framer.com/developers/server-api-quick-start?md",
+      "canonical": "https://www.framer.com/developers/server-api-quick-start?md",
+      "raw_url": "https://www.framer.com/developers/server-api-quick-start?md",
+      "description": "Authenticate with a project API key, install the package, and run a script.",
+      "line": 49
+    },
+    {
+      "label": "Landing pages",
+      "url": "https://www.framer.com/solutions/landing-pages/?md",
+      "canonical": "https://www.framer.com/solutions/landing-pages/?md",
+      "raw_url": "https://www.framer.com/solutions/landing-pages/?md",
+      "description": "Build campaign pages with responsive layouts, forms, analytics, and experiments.",
+      "line": 53
+    },
+    {
+      "label": "Portfolio websites",
+      "url": "https://www.framer.com/solutions/portfolio-website/?md",
+      "canonical": "https://www.framer.com/solutions/portfolio-website/?md",
+      "raw_url": "https://www.framer.com/solutions/portfolio-website/?md",
+      "description": "Create project galleries and CMS-powered case studies for creative portfolios.",
+      "line": 54
+    },
+    {
+      "label": "Figma to website",
+      "url": "https://www.framer.com/solutions/figma-to-html/?md",
+      "canonical": "https://www.framer.com/solutions/figma-to-html/?md",
+      "raw_url": "https://www.framer.com/solutions/figma-to-html/?md",
+      "description": "Import Figma layouts, refine them in Framer, and publish without exporting static code.",
+      "line": 55
+    },
+    {
+      "label": "Agency program",
+      "url": "https://www.framer.com/agencies/?md",
+      "canonical": "https://www.framer.com/agencies/?md",
+      "raw_url": "https://www.framer.com/agencies/?md",
+      "description": "Agency access, referral benefits, team training, and support for client work.",
+      "line": 56
+    },
+    {
+      "label": "Startup program",
+      "url": "https://www.framer.com/startups/?md",
+      "canonical": "https://www.framer.com/startups/?md",
+      "raw_url": "https://www.framer.com/startups/?md",
+      "description": "Startup website workflows, program benefits, and the application process.",
+      "line": 57
+    },
+    {
+      "label": "Enterprise",
+      "url": "https://www.framer.com/enterprise/?md",
+      "canonical": "https://www.framer.com/enterprise/?md",
+      "raw_url": "https://www.framer.com/enterprise/?md",
+      "description": "Custom limits, team access, SSO, SCIM, security, and support for larger sites.",
+      "line": 58
+    },
+    {
+      "label": "Switch to Framer",
+      "url": "https://www.framer.com/switch/?md",
+      "canonical": "https://www.framer.com/switch/?md",
+      "raw_url": "https://www.framer.com/switch/?md",
+      "description": "Application process and support for moving active company or client sites to Framer.",
+      "line": 59
+    },
+    {
+      "label": "Comparison overview",
+      "url": "https://www.framer.com/compare?md",
+      "canonical": "https://www.framer.com/compare?md",
+      "raw_url": "https://www.framer.com/compare?md",
+      "description": "Find comparisons with visual builders, AI app builders, coding tools, and content platforms.",
+      "line": 63
+    },
+    {
+      "label": "Framer vs Webflow",
+      "url": "https://www.framer.com/compare/framer-vs-webflow?md",
+      "canonical": "https://www.framer.com/compare/framer-vs-webflow?md",
+      "raw_url": "https://www.framer.com/compare/framer-vs-webflow?md",
+      "description": "Compare design workflows, agents, CMS, hosting, collaboration, code export, and pricing.",
+      "line": 64
+    },
+    {
+      "label": "Framer vs Figma Sites",
+      "url": "https://www.framer.com/compare/framer-vs-figma?md",
+      "canonical": "https://www.framer.com/compare/framer-vs-figma?md",
+      "raw_url": "https://www.framer.com/compare/framer-vs-figma?md",
+      "description": "Compare visual editing, responsive pages, CMS, SEO, collaboration, and hosted publishing.",
+      "line": 65
+    },
+    {
+      "label": "Framer vs Wix",
+      "url": "https://www.framer.com/compare/framer-vs-wix?md",
+      "canonical": "https://www.framer.com/compare/framer-vs-wix?md",
+      "raw_url": "https://www.framer.com/compare/framer-vs-wix?md",
+      "description": "Compare visual website workflows with business features such as ecommerce and bookings.",
+      "line": 66
+    },
+    {
+      "label": "Framer vs Squarespace",
+      "url": "https://www.framer.com/compare/framer-vs-squarespace?md",
+      "canonical": "https://www.framer.com/compare/framer-vs-squarespace?md",
+      "raw_url": "https://www.framer.com/compare/framer-vs-squarespace?md",
+      "description": "Compare responsive design control, templates, content, commerce, scheduling, and site ownership.",
+      "line": 67
+    },
+    {
+      "label": "Framer vs WordPress",
+      "url": "https://www.framer.com/compare/framer-vs-wordpress?md",
+      "canonical": "https://www.framer.com/compare/framer-vs-wordpress?md",
+      "raw_url": "https://www.framer.com/compare/framer-vs-wordpress?md",
+      "description": "Compare website editing, CMS, hosting, SEO, and theme or plugin maintenance.",
+      "line": 68
+    },
+    {
+      "label": "Framer vs Lovable",
+      "url": "https://www.framer.com/compare/framer-vs-lovable?md",
+      "canonical": "https://www.framer.com/compare/framer-vs-lovable?md",
+      "raw_url": "https://www.framer.com/compare/framer-vs-lovable?md",
+      "description": "Compare marketing-site workflows with full-stack apps, databases, and authentication.",
+      "line": 69
+    },
+    {
+      "label": "Framer vs v0",
+      "url": "https://www.framer.com/compare/framer-vs-v0?md",
+      "canonical": "https://www.framer.com/compare/framer-vs-v0?md",
+      "raw_url": "https://www.framer.com/compare/framer-vs-v0?md",
+      "description": "Compare a visual website platform with generated application code and Vercel deployment.",
+      "line": 70
+    },
+    {
+      "label": "Framer vs Claude Code",
+      "url": "https://www.framer.com/compare/framer-vs-claude-code?md",
+      "canonical": "https://www.framer.com/compare/framer-vs-claude-code?md",
+      "raw_url": "https://www.framer.com/compare/framer-vs-claude-code?md",
+      "description": "Compare visual site management with repository-based coding, testing, and engineering work.",
+      "line": 71
+    },
+    {
+      "label": "Framer vs Codex",
+      "url": "https://www.framer.com/compare/framer-vs-codex?md",
+      "canonical": "https://www.framer.com/compare/framer-vs-codex?md",
+      "raw_url": "https://www.framer.com/compare/framer-vs-codex?md",
+      "description": "Compare website ownership and publishing with agent workflows across code and tools.",
+      "line": 72
+    },
+    {
+      "label": "Templates",
+      "url": "https://www.framer.com/marketplace/templates/?md",
+      "canonical": "https://www.framer.com/marketplace/templates/?md",
+      "raw_url": "https://www.framer.com/marketplace/templates/?md",
+      "description": "Free and paid website templates to customize as a starting point.",
+      "line": 76
+    },
+    {
+      "label": "Components",
+      "url": "https://www.framer.com/marketplace/components/?md",
+      "canonical": "https://www.framer.com/marketplace/components/?md",
+      "raw_url": "https://www.framer.com/marketplace/components/?md",
+      "description": "Reusable interface elements, interactions, and visual effects for Framer sites.",
+      "line": 77
+    },
+    {
+      "label": "Plugins",
+      "url": "https://www.framer.com/marketplace/plugins/?md",
+      "canonical": "https://www.framer.com/marketplace/plugins/?md",
+      "raw_url": "https://www.framer.com/marketplace/plugins/?md",
+      "description": "Editor tools and integrations that extend Framer workflows.",
+      "line": 78
+    },
+    {
+      "label": "Vectors",
+      "url": "https://www.framer.com/marketplace/vectors/?md",
+      "canonical": "https://www.framer.com/marketplace/vectors/?md",
+      "raw_url": "https://www.framer.com/marketplace/vectors/?md",
+      "description": "Icon sets, illustrations, and shapes to add and restyle in a project.",
+      "line": 79
+    },
+    {
+      "label": "Contact",
+      "url": "https://www.framer.com/contact/?md",
+      "canonical": "https://www.framer.com/contact/?md",
+      "raw_url": "https://www.framer.com/contact/?md",
+      "description": "Ways to reach support, billing, emergency help, sales, and abuse reporting.",
+      "line": 83
+    },
+    {
+      "label": "Security",
+      "url": "https://www.framer.com/legal/security?md",
+      "canonical": "https://www.framer.com/legal/security?md",
+      "raw_url": "https://www.framer.com/legal/security?md",
+      "description": "Security controls, compliance reports, infrastructure practices, and Trust Center access.",
+      "line": 84
+    },
+    {
+      "label": "Privacy statement",
+      "url": "https://www.framer.com/legal/privacy-statement?md",
+      "canonical": "https://www.framer.com/legal/privacy-statement?md",
+      "raw_url": "https://www.framer.com/legal/privacy-statement?md",
+      "description": "How Framer handles personal data and defines customer and user responsibilities.",
+      "line": 85
+    },
+    {
+      "label": "Updates",
+      "url": "https://www.framer.com/updates?md",
+      "canonical": "https://www.framer.com/updates?md",
+      "raw_url": "https://www.framer.com/updates?md",
+      "description": "Product releases, improvements, and changes to Framer’s features.",
+      "line": 89
+    },
+    {
+      "label": "Blog",
+      "url": "https://www.framer.com/blog/?md",
+      "canonical": "https://www.framer.com/blog/?md",
+      "raw_url": "https://www.framer.com/blog/?md",
+      "description": "Product news, engineering articles, tutorials, and company updates.",
+      "line": 90
+    },
+    {
+      "label": "Customer stories",
+      "url": "https://www.framer.com/stories/?md",
+      "canonical": "https://www.framer.com/stories/?md",
+      "raw_url": "https://www.framer.com/stories/?md",
+      "description": "Examples of how companies and agencies build and manage their Framer sites.",
+      "line": 91
+    },
+    {
+      "label": "Gallery",
+      "url": "https://www.framer.com/community/gallery/?md",
+      "canonical": "https://www.framer.com/community/gallery/?md",
+      "raw_url": "https://www.framer.com/community/gallery/?md",
+      "description": "Published Framer websites for design examples and inspiration.",
+      "line": 92
+    },
+    {
+      "label": "AEO scanner",
+      "url": "https://www.framer.com/aeo?md",
+      "canonical": "https://www.framer.com/aeo?md",
+      "raw_url": "https://www.framer.com/aeo?md",
+      "description": "Scan one URL for AI-readability issues; use its report as guidance, not a guarantee.",
+      "line": 93
+    },
+    {
+      "label": "Build answer-oriented pages",
+      "url": "https://www.framer.com/guides/answer-oriented-pages/?md",
+      "canonical": "https://www.framer.com/guides/answer-oriented-pages/?md",
+      "raw_url": "https://www.framer.com/guides/answer-oriented-pages/?md",
+      "description": "A page structure using clear questions, short answers, supporting sections, FAQs, and schema.",
+      "line": 94
+    }
+  ],
+  "bare_links": [],
+  "metrics": {
+    "bytes": 9636,
+    "words": 972,
+    "lines": 94,
+    "approx_tokens_chars_div_4": 2408,
+    "h1_count": 1,
+    "link_count": 60,
+    "bare_url_count": 0,
+    "described_links": 60,
+    "unique_destinations": 60,
+    "markdown_destinations": 0
+  },
+  "flags": []
+}

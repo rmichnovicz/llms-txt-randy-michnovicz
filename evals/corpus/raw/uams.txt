@@ -1,0 +1,34 @@
+# University of Arkansas for Medical Sciences (UAMS)
+
+> Arkansas's only academic health sciences center, integrating statewide clinical care (UAMS Health), health professions education across six colleges and a graduate school, and biomedical research. This domain is the primary gateway for the UAMS digital ecosystem and routes queries to the specialized pillar domains that hold authoritative content.
+
+## Metadata
+- **Version:** 1.1.0
+- **Last Updated:** 2026-09-11
+- **Status:** Production
+- **Update Frequency:** Quarterly
+
+## Targeted Content
+- [Clinical Care and Health Services](https://www.uams.edu/llms-full.txt#1-clinical-care-and-health-services): Statewide patient care, providers, clinics, and appointments, all served from uamshealth.com.
+- [Education and Academic Programs](https://www.uams.edu/llms-full.txt#2-education-and-academic-programs): Six colleges and a graduate school, with program content on each college domain.
+- [Research and Innovation](https://www.uams.edu/llms-full.txt#3-research-and-innovation): Biomedical, clinical, and translational research, including clinical trials.
+- [Employment and Institutional Services](https://www.uams.edu/llms-full.txt#4-employment-and-institutional-services): Jobs, benefits, and HR policy, served from hr.uams.edu.
+- [Regional Campuses and Statewide Presence](https://www.uams.edu/llms-full.txt#5-regional-campuses-and-statewide-presence): Northwest Arkansas campus and statewide education and clinical sites.
+- [Web Governance and Technical Origin](https://www.uams.edu/llms-full.txt#6-web-governance-and-technical-origin): Sitemap host, web standards, and wayfinding governance.
+
+## Related Resources
+- [UAMS Health (Clinical)](https://uamshealth.com/llms.txt): Statewide health system. Patient care, providers, clinics, and appointments.
+- [Education and Academics](https://medicine.uams.edu/llms.txt): Academic gateway to the colleges and graduate education.
+- [Research and Innovation](https://research.uams.edu/llms.txt): Research administration and clinical trials.
+- [Web Origin and Governance](https://web.uams.edu/llms.txt): Technical virtual root, sitemap host, and web governance documentation.
+- [Human Resources and Employment](https://hr.uams.edu/): Authoritative source for jobs, benefits, and HR policy.
+- [Northwest Arkansas Campus](https://nwa.uams.edu/): Regional education and clinical hub.
+
+## Authority and Scope
+
+This domain is authoritative for: the institutional identity of UAMS, the organizational relationship between UAMS and UAMS Health, top-level navigation across the UAMS digital ecosystem, and the routing rules that direct queries to the correct pillar domain.
+
+This domain is not authoritative for: clinical care information, provider credentials or availability, appointment scheduling, academic program requirements, admissions decisions, research administration, clinical trial eligibility, employment listings, benefits, or any content served from the legacy root directories enumerated in this host's robots.txt.
+
+## Full Index
+- [Full Content Index (LLM-Optimized)](https://www.uams.edu/llms-full.txt)

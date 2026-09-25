@@ -1,0 +1,588 @@
+{
+  "parser_version": "corpus-v2",
+  "headings": [
+    {
+      "level": 1,
+      "text": "Tidio",
+      "line": 1
+    },
+    {
+      "level": 2,
+      "text": "About Tidio",
+      "line": 8
+    },
+    {
+      "level": 2,
+      "text": "Access",
+      "line": 16
+    },
+    {
+      "level": 2,
+      "text": "Demos",
+      "line": 21
+    },
+    {
+      "level": 2,
+      "text": "Tidio Comparisons",
+      "line": 26
+    },
+    {
+      "level": 2,
+      "text": "Features",
+      "line": 33
+    },
+    {
+      "level": 3,
+      "text": "Core Features",
+      "line": 37
+    },
+    {
+      "level": 3,
+      "text": "Additional Features",
+      "line": 45
+    },
+    {
+      "level": 3,
+      "text": "Features by Use Case",
+      "line": 50
+    },
+    {
+      "level": 2,
+      "text": "Integrations",
+      "line": 56
+    },
+    {
+      "level": 3,
+      "text": "Channel Integrations",
+      "line": 60
+    },
+    {
+      "level": 3,
+      "text": "Platform Integrations",
+      "line": 68
+    },
+    {
+      "level": 2,
+      "text": "Pricing",
+      "line": 80
+    },
+    {
+      "level": 3,
+      "text": "\"Lyro AI conversations\" upgrade",
+      "line": 191
+    },
+    {
+      "level": 3,
+      "text": "\"Visitors reached with Flows\" upgrade",
+      "line": 203
+    },
+    {
+      "level": 2,
+      "text": "Resources",
+      "line": 221
+    },
+    {
+      "level": 2,
+      "text": "Contact",
+      "line": 231
+    },
+    {
+      "level": 2,
+      "text": "Help",
+      "line": 236
+    },
+    {
+      "level": 2,
+      "text": "Partnerships",
+      "line": 242
+    },
+    {
+      "level": 2,
+      "text": "Legal",
+      "line": 248
+    }
+  ],
+  "links": [
+    {
+      "label": "Tidio Homepage",
+      "url": "https://www.tidio.com/",
+      "canonical": "https://www.tidio.com/",
+      "raw_url": "https://www.tidio.com/",
+      "description": "",
+      "line": 9
+    },
+    {
+      "label": "About Tidio",
+      "url": "https://www.tidio.com/about/",
+      "canonical": "https://www.tidio.com/about/",
+      "raw_url": "https://www.tidio.com/about/",
+      "description": "Learn about Tidio, the B2B SaaS company behind customer service software.",
+      "line": 10
+    },
+    {
+      "label": "About Lyro",
+      "url": "https://www.tidio.com/blog/lyro-conversational-ai/",
+      "canonical": "https://www.tidio.com/blog/lyro-conversational-ai/",
+      "raw_url": "https://www.tidio.com/blog/lyro-conversational-ai/",
+      "description": "Meet Lyro, the AI agent for customer service",
+      "line": 11
+    },
+    {
+      "label": "Tidio Pricing",
+      "url": "https://www.tidio.com/pricing/",
+      "canonical": "https://www.tidio.com/pricing/",
+      "raw_url": "https://www.tidio.com/pricing/",
+      "description": "See how much Tidio costs.",
+      "line": 12
+    },
+    {
+      "label": "Tidio Premium Plans",
+      "url": "https://www.tidio.com/tidio-premium/",
+      "canonical": "https://www.tidio.com/tidio-premium/",
+      "raw_url": "https://www.tidio.com/tidio-premium/",
+      "description": "Find out more about Tidio Premium.",
+      "line": 13
+    },
+    {
+      "label": "Log In",
+      "url": "https://www.tidio.com/panel/login",
+      "canonical": "https://www.tidio.com/panel/login",
+      "raw_url": "https://www.tidio.com/panel/login",
+      "description": "Log into your Tidio account.",
+      "line": 17
+    },
+    {
+      "label": "Sign Up",
+      "url": "https://www.tidio.com/panel/register",
+      "canonical": "https://www.tidio.com/panel/register",
+      "raw_url": "https://www.tidio.com/panel/register",
+      "description": "Register a new Tidio account.",
+      "line": 18
+    },
+    {
+      "label": "Lyro AI Agent Playground",
+      "url": "https://www.tidio.com/ai-agent/playground/",
+      "canonical": "https://www.tidio.com/ai-agent/playground/",
+      "raw_url": "https://www.tidio.com/ai-agent/playground/",
+      "description": "Experience Lyro, Tidio’s AI agent in action.",
+      "line": 22
+    },
+    {
+      "label": "Watch Tidio Demo",
+      "url": "https://www.tidio.com/watch-demo/",
+      "canonical": "https://www.tidio.com/watch-demo/",
+      "raw_url": "https://www.tidio.com/watch-demo/",
+      "description": "Watch a video demo of Tidio.",
+      "line": 23
+    },
+    {
+      "label": "Tidio vs. Gorgias",
+      "url": "https://www.tidio.com/vs/gorgias/",
+      "canonical": "https://www.tidio.com/vs/gorgias/",
+      "raw_url": "https://www.tidio.com/vs/gorgias/",
+      "description": "",
+      "line": 27
+    },
+    {
+      "label": "Tidio vs. Intercom",
+      "url": "https://www.tidio.com/vs/intercom/",
+      "canonical": "https://www.tidio.com/vs/intercom/",
+      "raw_url": "https://www.tidio.com/vs/intercom/",
+      "description": "",
+      "line": 28
+    },
+    {
+      "label": "Tidio vs. LiveChat",
+      "url": "https://www.tidio.com/vs/live-chat/",
+      "canonical": "https://www.tidio.com/vs/live-chat/",
+      "raw_url": "https://www.tidio.com/vs/live-chat/",
+      "description": "",
+      "line": 29
+    },
+    {
+      "label": "Tidio vs. Zendesk",
+      "url": "https://www.tidio.com/vs/zendesk/",
+      "canonical": "https://www.tidio.com/vs/zendesk/",
+      "raw_url": "https://www.tidio.com/vs/zendesk/",
+      "description": "",
+      "line": 30
+    },
+    {
+      "label": "All Features Overview",
+      "url": "https://www.tidio.com/features/",
+      "canonical": "https://www.tidio.com/features/",
+      "raw_url": "https://www.tidio.com/features/",
+      "description": "",
+      "line": 34
+    },
+    {
+      "label": "Lyro",
+      "url": "https://www.tidio.com/ai-agent/",
+      "canonical": "https://www.tidio.com/ai-agent/",
+      "raw_url": "https://www.tidio.com/ai-agent/",
+      "description": "AI agent for customer service and conversational AI chatbot",
+      "line": 38
+    },
+    {
+      "label": "Flows",
+      "url": "https://www.tidio.com/flows/",
+      "canonical": "https://www.tidio.com/flows/",
+      "raw_url": "https://www.tidio.com/flows/",
+      "description": "Automation and rule-based chatbot builder",
+      "line": 39
+    },
+    {
+      "label": "Help Desk",
+      "url": "https://www.tidio.com/help-desk/",
+      "canonical": "https://www.tidio.com/help-desk/",
+      "raw_url": "https://www.tidio.com/help-desk/",
+      "description": "Help desk software",
+      "line": 40
+    },
+    {
+      "label": "Live Chat",
+      "url": "https://www.tidio.com/live-chat/",
+      "canonical": "https://www.tidio.com/live-chat/",
+      "raw_url": "https://www.tidio.com/live-chat/",
+      "description": "Live chat software for websites",
+      "line": 41
+    },
+    {
+      "label": "Ticketing System",
+      "url": "https://www.tidio.com/ticketing/",
+      "canonical": "https://www.tidio.com/ticketing/",
+      "raw_url": "https://www.tidio.com/ticketing/",
+      "description": "",
+      "line": 42
+    },
+    {
+      "label": "Analytics Dashboard",
+      "url": "https://www.tidio.com/analytics/",
+      "canonical": "https://www.tidio.com/analytics/",
+      "raw_url": "https://www.tidio.com/analytics/",
+      "description": "",
+      "line": 46
+    },
+    {
+      "label": "Visitors List Tool",
+      "url": "https://www.tidio.com/visitors-list/",
+      "canonical": "https://www.tidio.com/visitors-list/",
+      "raw_url": "https://www.tidio.com/visitors-list/",
+      "description": "",
+      "line": 47
+    },
+    {
+      "label": "Tidio for Ecommerce",
+      "url": "https://www.tidio.com/industry/ecommerce/",
+      "canonical": "https://www.tidio.com/industry/ecommerce/",
+      "raw_url": "https://www.tidio.com/industry/ecommerce/",
+      "description": "",
+      "line": 51
+    },
+    {
+      "label": "Tidio for Customer Service",
+      "url": "https://www.tidio.com/solutions/customer-service/",
+      "canonical": "https://www.tidio.com/solutions/customer-service/",
+      "raw_url": "https://www.tidio.com/solutions/customer-service/",
+      "description": "",
+      "line": 52
+    },
+    {
+      "label": "Tidio for Marketing and Sales",
+      "url": "https://www.tidio.com/solutions/marketing-and-sales/",
+      "canonical": "https://www.tidio.com/solutions/marketing-and-sales/",
+      "raw_url": "https://www.tidio.com/solutions/marketing-and-sales/",
+      "description": "",
+      "line": 53
+    },
+    {
+      "label": "All Integrations",
+      "url": "https://www.tidio.com/integrations/",
+      "canonical": "https://www.tidio.com/integrations/",
+      "raw_url": "https://www.tidio.com/integrations/",
+      "description": "See how Tidio can integrate with your technology stack.",
+      "line": 57
+    },
+    {
+      "label": "Instagram Integration",
+      "url": "https://www.tidio.com/integrations/instagram/",
+      "canonical": "https://www.tidio.com/integrations/instagram/",
+      "raw_url": "https://www.tidio.com/integrations/instagram/",
+      "description": "",
+      "line": 61
+    },
+    {
+      "label": "Messenger Integration",
+      "url": "https://www.tidio.com/integrations/messenger/",
+      "canonical": "https://www.tidio.com/integrations/messenger/",
+      "raw_url": "https://www.tidio.com/integrations/messenger/",
+      "description": "",
+      "line": 62
+    },
+    {
+      "label": "WhatsApp Integration",
+      "url": "https://www.tidio.com/integrations/whatsapp/",
+      "canonical": "https://www.tidio.com/integrations/whatsapp/",
+      "raw_url": "https://www.tidio.com/integrations/whatsapp/",
+      "description": "",
+      "line": 63
+    },
+    {
+      "label": "Shared Inbox",
+      "url": "https://www.tidio.com/shared-inbox/",
+      "canonical": "https://www.tidio.com/shared-inbox/",
+      "raw_url": "https://www.tidio.com/shared-inbox/",
+      "description": "",
+      "line": 64
+    },
+    {
+      "label": "Multichannel Communication",
+      "url": "https://www.tidio.com/multichannel/",
+      "canonical": "https://www.tidio.com/multichannel/",
+      "raw_url": "https://www.tidio.com/multichannel/",
+      "description": "",
+      "line": 65
+    },
+    {
+      "label": "BigCommerce Integration",
+      "url": "https://www.tidio.com/integrations/bigcommerce/",
+      "canonical": "https://www.tidio.com/integrations/bigcommerce/",
+      "raw_url": "https://www.tidio.com/integrations/bigcommerce/",
+      "description": "",
+      "line": 69
+    },
+    {
+      "label": "Ecwid Integration",
+      "url": "https://www.tidio.com/integrations/ecwid/",
+      "canonical": "https://www.tidio.com/integrations/ecwid/",
+      "raw_url": "https://www.tidio.com/integrations/ecwid/",
+      "description": "",
+      "line": 70
+    },
+    {
+      "label": "Shopify Integration",
+      "url": "https://www.tidio.com/integrations/shopify/",
+      "canonical": "https://www.tidio.com/integrations/shopify/",
+      "raw_url": "https://www.tidio.com/integrations/shopify/",
+      "description": "",
+      "line": 71
+    },
+    {
+      "label": "WordPress Integration",
+      "url": "https://www.tidio.com/integrations/wordpress/",
+      "canonical": "https://www.tidio.com/integrations/wordpress/",
+      "raw_url": "https://www.tidio.com/integrations/wordpress/",
+      "description": "",
+      "line": 72
+    },
+    {
+      "label": "PrestaShop Integration",
+      "url": "https://www.tidio.com/integrations/prestashop/",
+      "canonical": "https://www.tidio.com/integrations/prestashop/",
+      "raw_url": "https://www.tidio.com/integrations/prestashop/",
+      "description": "",
+      "line": 73
+    },
+    {
+      "label": "Shopware Integration",
+      "url": "https://www.tidio.com/integrations/shopware/",
+      "canonical": "https://www.tidio.com/integrations/shopware/",
+      "raw_url": "https://www.tidio.com/integrations/shopware/",
+      "description": "",
+      "line": 74
+    },
+    {
+      "label": "Squarespace Integration",
+      "url": "https://www.tidio.com/integrations/squarespace/",
+      "canonical": "https://www.tidio.com/integrations/squarespace/",
+      "raw_url": "https://www.tidio.com/integrations/squarespace/",
+      "description": "",
+      "line": 75
+    },
+    {
+      "label": "Weebly Integration",
+      "url": "https://www.tidio.com/integrations/weebly/",
+      "canonical": "https://www.tidio.com/integrations/weebly/",
+      "raw_url": "https://www.tidio.com/integrations/weebly/",
+      "description": "",
+      "line": 76
+    },
+    {
+      "label": "Wix Integration",
+      "url": "https://www.tidio.com/integrations/wix/",
+      "canonical": "https://www.tidio.com/integrations/wix/",
+      "raw_url": "https://www.tidio.com/integrations/wix/",
+      "description": "",
+      "line": 77
+    },
+    {
+      "label": "Tidio Blog",
+      "url": "https://www.tidio.com/blog/",
+      "canonical": "https://www.tidio.com/blog/",
+      "raw_url": "https://www.tidio.com/blog/",
+      "description": "",
+      "line": 222
+    },
+    {
+      "label": "Resources",
+      "url": "https://www.tidio.com/resources/",
+      "canonical": "https://www.tidio.com/resources/",
+      "raw_url": "https://www.tidio.com/resources/",
+      "description": "",
+      "line": 223
+    },
+    {
+      "label": "ROI and Automation Calculators",
+      "url": "https://www.tidio.com/resources/calculators/",
+      "canonical": "https://www.tidio.com/resources/calculators/",
+      "raw_url": "https://www.tidio.com/resources/calculators/",
+      "description": "",
+      "line": 224
+    },
+    {
+      "label": "Flow Builder Calculator",
+      "url": "https://www.tidio.com/resources/calculators/flows/",
+      "canonical": "https://www.tidio.com/resources/calculators/flows/",
+      "raw_url": "https://www.tidio.com/resources/calculators/flows/",
+      "description": "",
+      "line": 225
+    },
+    {
+      "label": "Tidio ROI Calculator",
+      "url": "https://roi-calculator.tidio.com/",
+      "canonical": "https://roi-calculator.tidio.com/",
+      "raw_url": "https://roi-calculator.tidio.com/",
+      "description": "",
+      "line": 226
+    },
+    {
+      "label": "Case Studies",
+      "url": "https://www.tidio.com/customers/",
+      "canonical": "https://www.tidio.com/customers/",
+      "raw_url": "https://www.tidio.com/customers/",
+      "description": "",
+      "line": 227
+    },
+    {
+      "label": "Ebooks",
+      "url": "https://www.tidio.com/resources/ebooks/",
+      "canonical": "https://www.tidio.com/resources/ebooks/",
+      "raw_url": "https://www.tidio.com/resources/ebooks/",
+      "description": "",
+      "line": 228
+    },
+    {
+      "label": "Contact",
+      "url": "https://www.tidio.com/contact/",
+      "canonical": "https://www.tidio.com/contact/",
+      "raw_url": "https://www.tidio.com/contact/",
+      "description": "Get in touch with Tidio and its support team.",
+      "line": 232
+    },
+    {
+      "label": "Contact Sales",
+      "url": "https://www.tidio.com/contact-sales/",
+      "canonical": "https://www.tidio.com/contact-sales/",
+      "raw_url": "https://www.tidio.com/contact-sales/",
+      "description": "Book a demo and talk to sales.",
+      "line": 233
+    },
+    {
+      "label": "Help Center",
+      "url": "https://help.tidio.com/hc/en-us",
+      "canonical": "https://help.tidio.com/hc/en-us",
+      "raw_url": "https://help.tidio.com/hc/en-us",
+      "description": "Help articles and frequently asked questions.",
+      "line": 237
+    },
+    {
+      "label": "Tidio Academy",
+      "url": "https://academy.tidio.com/",
+      "canonical": "https://academy.tidio.com/",
+      "raw_url": "https://academy.tidio.com/",
+      "description": "Courses on Tidio and customer support.",
+      "line": 238
+    },
+    {
+      "label": "Resources for Developers",
+      "url": "https://academy.tidio.com/",
+      "canonical": "https://academy.tidio.com/",
+      "raw_url": "https://academy.tidio.com/",
+      "description": "API, SDK, and other documentation.",
+      "line": 239
+    },
+    {
+      "label": "Affiliate Program",
+      "url": "https://www.tidio.com/partners/affiliate/",
+      "canonical": "https://www.tidio.com/partners/affiliate/",
+      "raw_url": "https://www.tidio.com/partners/affiliate/",
+      "description": "",
+      "line": 243
+    },
+    {
+      "label": "Referral Program",
+      "url": "https://www.tidio.com/partner-referral/",
+      "canonical": "https://www.tidio.com/partner-referral/",
+      "raw_url": "https://www.tidio.com/partner-referral/",
+      "description": "",
+      "line": 244
+    },
+    {
+      "label": "Partner Program",
+      "url": "https://www.tidio.com/partners/",
+      "canonical": "https://www.tidio.com/partners/",
+      "raw_url": "https://www.tidio.com/partners/",
+      "description": "",
+      "line": 245
+    },
+    {
+      "label": "Privacy Policy",
+      "url": "https://www.tidio.com/privacy-policy/",
+      "canonical": "https://www.tidio.com/privacy-policy/",
+      "raw_url": "https://www.tidio.com/privacy-policy/",
+      "description": "",
+      "line": 249
+    },
+    {
+      "label": "Security Policy",
+      "url": "https://www.tidio.com/security-policy/",
+      "canonical": "https://www.tidio.com/security-policy/",
+      "raw_url": "https://www.tidio.com/security-policy/",
+      "description": "",
+      "line": 250
+    },
+    {
+      "label": "Security Practices",
+      "url": "https://www.tidio.com/security/",
+      "canonical": "https://www.tidio.com/security/",
+      "raw_url": "https://www.tidio.com/security/",
+      "description": "",
+      "line": 251
+    },
+    {
+      "label": "Terms of Service",
+      "url": "https://www.tidio.com/terms/",
+      "canonical": "https://www.tidio.com/terms/",
+      "raw_url": "https://www.tidio.com/terms/",
+      "description": "",
+      "line": 252
+    }
+  ],
+  "bare_links": [],
+  "metrics": {
+    "bytes": 13121,
+    "words": 2261,
+    "lines": 252,
+    "approx_tokens_chars_div_4": 3050,
+    "h1_count": 1,
+    "link_count": 58,
+    "bare_url_count": 0,
+    "described_links": 18,
+    "unique_destinations": 57,
+    "markdown_destinations": 0
+  },
+  "flags": [
+    "duplicate-destinations-review",
+    "sparse-link-descriptions"
+  ]
+}

@@ -1,0 +1,98 @@
+[
+  {
+    "site": "https://plausible.io/docs/",
+    "legacy": {
+      "eligible_urls": 0,
+      "fetches": 1,
+      "bytes": 18445,
+      "recorded_fetch_seconds": 0.087,
+      "remaining_sitemaps": 0
+    },
+    "ranked": {
+      "eligible_urls": 0,
+      "fetches": 1,
+      "bytes": 18445,
+      "recorded_fetch_seconds": 0.087,
+      "remaining_sitemaps": 0
+    },
+    "scoped": {
+      "eligible_urls": 0,
+      "fetches": 1,
+      "bytes": 18445,
+      "recorded_fetch_seconds": 0.087,
+      "remaining_sitemaps": 0
+    }
+  },
+  {
+    "site": "https://tally.so/help/",
+    "legacy": {
+      "eligible_urls": 198,
+      "fetches": 1,
+      "bytes": 73529,
+      "recorded_fetch_seconds": 0.533,
+      "remaining_sitemaps": 0
+    },
+    "ranked": {
+      "eligible_urls": 198,
+      "fetches": 1,
+      "bytes": 73529,
+      "recorded_fetch_seconds": 0.533,
+      "remaining_sitemaps": 0
+    },
+    "scoped": {
+      "eligible_urls": 198,
+      "fetches": 1,
+      "bytes": 73529,
+      "recorded_fetch_seconds": 0.533,
+      "remaining_sitemaps": 0
+    }
+  },
+  {
+    "site": "https://vercel.com/docs/",
+    "legacy": {
+      "eligible_urls": 304,
+      "fetches": 1,
+      "bytes": 1030897,
+      "recorded_fetch_seconds": 0.511,
+      "remaining_sitemaps": 0
+    },
+    "ranked": {
+      "eligible_urls": 304,
+      "fetches": 1,
+      "bytes": 1030897,
+      "recorded_fetch_seconds": 0.511,
+      "remaining_sitemaps": 0
+    },
+    "scoped": {
+      "eligible_urls": 1000,
+      "fetches": 1,
+      "bytes": 1030897,
+      "recorded_fetch_seconds": 0.511,
+      "remaining_sitemaps": 0
+    }
+  },
+  {
+    "site": "https://www.shopify.com/blog/",
+    "legacy": {
+      "eligible_urls": 8,
+      "fetches": 3,
+      "bytes": 156376,
+      "recorded_fetch_seconds": 0.568,
+      "remaining_sitemaps": 1
+    },
+    "ranked": {
+      "eligible_urls": 325,
+      "fetches": 28,
+      "bytes": 3232537,
+      "recorded_fetch_seconds": 10.094,
+      "remaining_sitemaps": 541
+    },
+    "scoped": {
+      "eligible_urls": 1000,
+      "fetches": 4,
+      "bytes": 1415436,
+      "recorded_fetch_seconds": 2.507,
+      "remaining_sitemaps": 565
+    }
+  }
+]

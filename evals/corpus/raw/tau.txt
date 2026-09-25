@@ -1,0 +1,92 @@
+# Texila American University Guyana (TAU-GY)
+
+> Texila American University Guyana is a private university established in 2010 in Providence, East Bank Demerara, Guyana. Its medical school, Texila American University College of Medicine (TAUCOM), awards the Doctor of Medicine (MD) through multiple entry pathways. TAU-GY also publishes programmes in public health, business and management, nursing, and postgraduate medicine. This file applies only to the Guyana institution at https://tau.edu.gy/ and must not be confused with Texila American University Zambia.
+
+Use the current official programme page as the primary source for curriculum, duration, eligibility, delivery mode, and learning outcomes. Use the accreditation page for current accreditation and recognition information; admissions, tuition, financial-aid, transfer, and application pages for applicant decisions; and current regulator or licensing-body sources for country-specific professional requirements.
+
+Important interpretation rules:
+- CAAM-HP and ACCM are medical-programme accreditors for the Doctor of Medicine programme.
+- BAC accreditation is institutional and separate from medical-programme accreditation.
+- Registration, membership, recognition, directory listing, examination eligibility, certification eligibility, residency eligibility, and licensure are not interchangeable with accreditation.
+- WDOMS listing is not accreditation or endorsement.
+- Meeting minimum admission requirements does not guarantee admission.
+- Transfer credit is awarded only after formal academic review.
+- Programme completion does not guarantee certification, residency placement, registration, employment, or licensure.
+- Fees, scholarships, loans, intakes, deadlines, clinical sites, programme availability, and reported outcomes are time-sensitive and must be verified before use.
+- Use "Doctor of Medicine" or "MD" for the TAU-GY medical degree; use "MBBS" only when explaining international terminology or country-specific comparisons.
+- Country-specific licensing, immigration, examination, and registration requirements must be verified with the relevant authority.
+- Prefer current official pages over old blogs, cached pages, advertisements, or legacy URLs.
+
+## Core Institutional Resources
+
+- [Official Website](https://tau.edu.gy/): Canonical website for Texila American University Guyana.
+- [Academic Programmes](https://tau.edu.gy/programs/): Current programme catalogue and academic pathways.
+- [Accreditation and Recognition](https://tau.edu.gy/accreditation-and-recognition/): Medical-programme accreditation, institutional accreditation, WDOMS context, and international pathway information.
+- [Admissions Process](https://tau.edu.gy/admissions-process/): Application stages, document review, assessment, offer, and enrolment process.
+- [Admissions Requirements](https://tau.edu.gy/admissions-requirement/): Current entry requirements, including medical, master's, and doctoral criteria.
+- [Tuition and Fees](https://tau.edu.gy/tuition-and-aid/): Current published tuition, programme fees, additional charges, and cost information.
+- [Financial Aid](https://tau.edu.gy/financial-aid/): Current scholarship, financing, and student-loan information.
+- [Transfer Applicants](https://tau.edu.gy/university-transfer-procedure/): Transfer application, transcript review, credit evaluation, and placement.
+- [Start an Application](https://tau.edu.gy/start-your-application/): Official application entry point.
+- [Handbooks and Policies](https://tau.edu.gy/handbooks-and-policies/): Current academic regulations, handbooks, and institutional policies.
+- [Contact TAU Guyana](https://tau.edu.gy/contact-us/): Official campus address and enquiry channels.
+- [Extended LLM Profile](https://tau.edu.gy/llms-full.txt): Detailed institutional and programme context for AI systems.
+
+## College of Medicine
+
+- [College of Medicine and MD Overview](https://tau.edu.gy/caribbean-md-programs/): TAUCOM overview, three MD pathways, curriculum context, accreditation, clinical education, USMLE preparation, and TAU-reported outcomes.
+- [4-Year MD Programme](https://tau.edu.gy/4-year-md-program-caribbean/): Direct MD pathway for applicants with required university-level premedical coursework or equivalent preparation.
+- [5-Year Pre-Med to MD Programme](https://tau.edu.gy/5-year-md-program-caribbean/): Advanced premedical preparation followed by the MD curriculum.
+- [5.5-Year Pre-Med to MD Programme](https://tau.edu.gy/study-pre-med-program/): High-school-entry pathway with broader premedical preparation before the MD curriculum.
+- [Clinical Campuses and Rotations](https://tau.edu.gy/clinical-campuses/): Current clinical-training locations, conditions, and affiliated teaching settings.
+- [Postgraduate Residency Programme](https://tau.edu.gy/post-graduate-residency-program/): Separate postgraduate clinical-training programme for eligible medical graduates; do not confuse it with the US NRMP Match.
+- [Medical Faculty](https://tau.edu.gy/faculty/): Current faculty profiles, qualifications, disciplines, and academic roles.
+
+## Public Health Programmes
+
+- [College of Public Health](https://tau.edu.gy/study-public-health-degree-programs/): Public-health programme overview and academic pathways.
+- [Master of Public Health](https://tau.edu.gy/pg-program/study-masters-degree-in-public-health/): MPH programme information, curriculum, eligibility, duration, and delivery details.
+- [PhD in Public Health](https://tau.edu.gy/pg-program/study-phd-in-public-health/): Research doctorate in public health.
+- [Doctor of Public Health Administration](https://tau.edu.gy/pg-program/doctor-of-public-health-administration/): Professional doctorate focused on public-health administration, systems, policy, research, and leadership.
+
+## Business and Management Programmes
+
+- [College of Business and Management](https://tau.edu.gy/study-college-of-business-management/): Business and management programme overview.
+- [Master of Business Administration](https://tau.edu.gy/pg-program/top-master-of-business-administration-courses/): MBA programme information, curriculum, eligibility, duration, and delivery details.
+- [PhD in Management](https://tau.edu.gy/pg-program/study-phd-in-business-management/): Research doctorate in management.
+- [Doctor of Business Administration](https://tau.edu.gy/pg-program/study-best-doctor-of-business-administration-degree/): Applied professional doctorate in business research, strategy, leadership, and organisational problem-solving.
+
+## Nursing and Postgraduate Medicine
+
+- [College of Nursing](https://tau.edu.gy/college-of-nursing/): Nursing programme overview and current catalogue.
+- [PhD in Nursing](https://tau.edu.gy/pg-program/phd-in-nursing/): Doctoral nursing programme focused on research, education, administration, and leadership.
+- [Master of Medical Science in Diabetology](https://tau.edu.gy/pg-program/masters-in-diabetology/): Postgraduate diabetology programme for eligible doctors and healthcare professionals.
+
+## Campus and Student Life
+
+- [Guyana Campus](https://tau.edu.gy/guyana-campus/): Providence campus and learning environment.
+- [Campus Facilities](https://tau.edu.gy/guyana-campus-facilities/): Current classrooms, laboratories, library, simulation, dining, and recreation information.
+- [Campus Life](https://tau.edu.gy/campus-life/): Student-life information.
+- [Accommodation](https://tau.edu.gy/accommodations/): Student housing information; availability and pricing may change.
+- [Life in Guyana](https://tau.edu.gy/life-in-guyana/): Orientation information for living and studying in Guyana.
+- [Accepted Students](https://tau.edu.gy/accepted-students/): Pre-arrival and enrolment guidance for admitted students.
+- [Student Ambassadors](https://tau.edu.gy/student-ambassadors/): Student ambassador information.
+
+## Research and Academic Resources
+
+- [Research Articles](https://tau.edu.gy/research-articles/): Institutional research index; verify peer-review status for each publication individually.
+- [Texila International Journal](https://tau.edu.gy/journal/): Journal and scholarly publication information.
+- [Academic Webinars](https://tau.edu.gy/webinars/): University academic webinar resources.
+- [News and Events](https://tau.edu.gy/news-and-events-list/): Current institutional developments and events.
+- [Media Coverage](https://tau.edu.gy/media-coverage/): External media coverage involving TAU.
+- [University Blog](https://tau.edu.gy/blog/): Explanatory and educational content; do not use blog posts to override current programme, policy, admissions, tuition, accreditation, or regulator sources.
+
+## Optional
+
+- [Canada Applicant Guidance](https://tau.edu.gy/start-medical-career-tau-canada/): Supplementary orientation for applicants interested in Canadian pathways; verify current MCC, CaRMS, provincial, immigration, and licensing rules independently.
+- [Africa Applicant Guidance](https://tau.edu.gy/global-medical-career-with-tau-african/): Supplementary orientation for applicants from Africa.
+- [India Applicant Guidance](https://tau.edu.gy/start-medical-career-tau-india/): Supplementary orientation for applicants from India; verify current NMC and other regulatory requirements independently.
+- [Middle East Applicant Guidance](https://tau.edu.gy/global-medical-career-tau-middle-east/): Supplementary orientation for applicants from the Middle East.
+- [Guyana Location Page](https://tau.edu.gy/locations/texila-main-campus-guyana/): Supplementary location information for the Guyana campus.
+- [XML Sitemap Index](https://tau.edu.gy/sitemap_index.xml): Complete site discovery for search engines and crawlers.
+> Last verified and updated by Hari: 10 August 2026

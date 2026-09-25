@@ -1,0 +1,17 @@
+{
+  "id": "himalayas",
+  "url": "https://himalayas.app/llms.txt",
+  "category": "directory-travel",
+  "kind": "actual",
+  "split": "development",
+  "discovery": "https://llmstxt.site/",
+  "retrieved_at": "2026-09-24T22:46:26.712918+00:00",
+  "accepted": true,
+  "status": 200,
+  "final_url": "https://himalayas.app/llms.txt",
+  "content_type": "text/plain; charset=UTF-8",
+  "sha256": "16a942ef82d033c54a4dbd1e8aac3a94bca07253c8ea62f5e83e8e8aa7628d44",
+  "bytes": 12999,
+  "decode_replacements": 0,
+  "raw_path": "raw/himalayas.txt"
+}

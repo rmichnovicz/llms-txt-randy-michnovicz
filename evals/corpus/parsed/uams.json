@@ -1,0 +1,155 @@
+{
+  "parser_version": "corpus-v2",
+  "headings": [
+    {
+      "level": 1,
+      "text": "University of Arkansas for Medical Sciences (UAMS)",
+      "line": 1
+    },
+    {
+      "level": 2,
+      "text": "Metadata",
+      "line": 5
+    },
+    {
+      "level": 2,
+      "text": "Targeted Content",
+      "line": 11
+    },
+    {
+      "level": 2,
+      "text": "Related Resources",
+      "line": 19
+    },
+    {
+      "level": 2,
+      "text": "Authority and Scope",
+      "line": 27
+    },
+    {
+      "level": 2,
+      "text": "Full Index",
+      "line": 33
+    }
+  ],
+  "links": [
+    {
+      "label": "Clinical Care and Health Services",
+      "url": "https://www.uams.edu/llms-full.txt#1-clinical-care-and-health-services",
+      "canonical": "https://www.uams.edu/llms-full.txt#1-clinical-care-and-health-services",
+      "raw_url": "https://www.uams.edu/llms-full.txt#1-clinical-care-and-health-services",
+      "description": "Statewide patient care, providers, clinics, and appointments, all served from uamshealth.com.",
+      "line": 12
+    },
+    {
+      "label": "Education and Academic Programs",
+      "url": "https://www.uams.edu/llms-full.txt#2-education-and-academic-programs",
+      "canonical": "https://www.uams.edu/llms-full.txt#2-education-and-academic-programs",
+      "raw_url": "https://www.uams.edu/llms-full.txt#2-education-and-academic-programs",
+      "description": "Six colleges and a graduate school, with program content on each college domain.",
+      "line": 13
+    },
+    {
+      "label": "Research and Innovation",
+      "url": "https://www.uams.edu/llms-full.txt#3-research-and-innovation",
+      "canonical": "https://www.uams.edu/llms-full.txt#3-research-and-innovation",
+      "raw_url": "https://www.uams.edu/llms-full.txt#3-research-and-innovation",
+      "description": "Biomedical, clinical, and translational research, including clinical trials.",
+      "line": 14
+    },
+    {
+      "label": "Employment and Institutional Services",
+      "url": "https://www.uams.edu/llms-full.txt#4-employment-and-institutional-services",
+      "canonical": "https://www.uams.edu/llms-full.txt#4-employment-and-institutional-services",
+      "raw_url": "https://www.uams.edu/llms-full.txt#4-employment-and-institutional-services",
+      "description": "Jobs, benefits, and HR policy, served from hr.uams.edu.",
+      "line": 15
+    },
+    {
+      "label": "Regional Campuses and Statewide Presence",
+      "url": "https://www.uams.edu/llms-full.txt#5-regional-campuses-and-statewide-presence",
+      "canonical": "https://www.uams.edu/llms-full.txt#5-regional-campuses-and-statewide-presence",
+      "raw_url": "https://www.uams.edu/llms-full.txt#5-regional-campuses-and-statewide-presence",
+      "description": "Northwest Arkansas campus and statewide education and clinical sites.",
+      "line": 16
+    },
+    {
+      "label": "Web Governance and Technical Origin",
+      "url": "https://www.uams.edu/llms-full.txt#6-web-governance-and-technical-origin",
+      "canonical": "https://www.uams.edu/llms-full.txt#6-web-governance-and-technical-origin",
+      "raw_url": "https://www.uams.edu/llms-full.txt#6-web-governance-and-technical-origin",
+      "description": "Sitemap host, web standards, and wayfinding governance.",
+      "line": 17
+    },
+    {
+      "label": "UAMS Health (Clinical)",
+      "url": "https://uamshealth.com/llms.txt",
+      "canonical": "https://uamshealth.com/llms.txt",
+      "raw_url": "https://uamshealth.com/llms.txt",
+      "description": "Statewide health system. Patient care, providers, clinics, and appointments.",
+      "line": 20
+    },
+    {
+      "label": "Education and Academics",
+      "url": "https://medicine.uams.edu/llms.txt",
+      "canonical": "https://medicine.uams.edu/llms.txt",
+      "raw_url": "https://medicine.uams.edu/llms.txt",
+      "description": "Academic gateway to the colleges and graduate education.",
+      "line": 21
+    },
+    {
+      "label": "Research and Innovation",
+      "url": "https://research.uams.edu/llms.txt",
+      "canonical": "https://research.uams.edu/llms.txt",
+      "raw_url": "https://research.uams.edu/llms.txt",
+      "description": "Research administration and clinical trials.",
+      "line": 22
+    },
+    {
+      "label": "Web Origin and Governance",
+      "url": "https://web.uams.edu/llms.txt",
+      "canonical": "https://web.uams.edu/llms.txt",
+      "raw_url": "https://web.uams.edu/llms.txt",
+      "description": "Technical virtual root, sitemap host, and web governance documentation.",
+      "line": 23
+    },
+    {
+      "label": "Human Resources and Employment",
+      "url": "https://hr.uams.edu/",
+      "canonical": "https://hr.uams.edu/",
+      "raw_url": "https://hr.uams.edu/",
+      "description": "Authoritative source for jobs, benefits, and HR policy.",
+      "line": 24
+    },
+    {
+      "label": "Northwest Arkansas Campus",
+      "url": "https://nwa.uams.edu/",
+      "canonical": "https://nwa.uams.edu/",
+      "raw_url": "https://nwa.uams.edu/",
+      "description": "Regional education and clinical hub.",
+      "line": 25
+    },
+    {
+      "label": "Full Content Index (LLM-Optimized)",
+      "url": "https://www.uams.edu/llms-full.txt",
+      "canonical": "https://www.uams.edu/llms-full.txt",
+      "raw_url": "https://www.uams.edu/llms-full.txt",
+      "description": "",
+      "line": 34
+    }
+  ],
+  "bare_links": [],
+  "metrics": {
+    "bytes": 3148,
+    "words": 328,
+    "lines": 34,
+    "approx_tokens_chars_div_4": 787,
+    "h1_count": 1,
+    "link_count": 13,
+    "bare_url_count": 0,
+    "described_links": 12,
+    "unique_destinations": 13,
+    "markdown_destinations": 0
+  },
+  "flags": []
+}

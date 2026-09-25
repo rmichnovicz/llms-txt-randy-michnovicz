@@ -1,0 +1,2383 @@
+{
+  "parser_version": "corpus-v2",
+  "headings": [
+    {
+      "level": 1,
+      "text": "Next.js Documentation",
+      "line": 1
+    },
+    {
+      "level": 2,
+      "text": "[Getting Started](https://nextjs.org/docs/app/getting-started)",
+      "line": 9
+    },
+    {
+      "level": 2,
+      "text": "[Guides](https://nextjs.org/docs/app/guides)",
+      "line": 32
+    },
+    {
+      "level": 2,
+      "text": "[API Reference](https://nextjs.org/docs/app/api-reference)",
+      "line": 114
+    },
+    {
+      "level": 2,
+      "text": "[Glossary](https://nextjs.org/docs/app/glossary)",
+      "line": 301
+    },
+    {
+      "level": 2,
+      "text": "[Architecture](https://nextjs.org/docs/architecture)",
+      "line": 306
+    },
+    {
+      "level": 2,
+      "text": "[Community](https://nextjs.org/docs/community)",
+      "line": 315
+    },
+    {
+      "level": 2,
+      "text": "Optional",
+      "line": 322
+    }
+  ],
+  "links": [
+    {
+      "label": "Getting Started",
+      "url": "https://nextjs.org/docs/app/getting-started",
+      "canonical": "https://nextjs.org/docs/app/getting-started",
+      "raw_url": "https://nextjs.org/docs/app/getting-started",
+      "description": "",
+      "line": 9
+    },
+    {
+      "label": "Installation",
+      "url": "https://nextjs.org/docs/app/getting-started/installation",
+      "canonical": "https://nextjs.org/docs/app/getting-started/installation",
+      "raw_url": "https://nextjs.org/docs/app/getting-started/installation",
+      "description": "Learn how to create a new Next.js application with the create-next-app CLI, and set up TypeScript, ESLint, and Module Path Aliases.",
+      "line": 13
+    },
+    {
+      "label": "Project Structure",
+      "url": "https://nextjs.org/docs/app/getting-started/project-structure",
+      "canonical": "https://nextjs.org/docs/app/getting-started/project-structure",
+      "raw_url": "https://nextjs.org/docs/app/getting-started/project-structure",
+      "description": "Learn the folder and file conventions in Next.js, and how to organize your project.",
+      "line": 14
+    },
+    {
+      "label": "Layouts and Pages",
+      "url": "https://nextjs.org/docs/app/getting-started/layouts-and-pages",
+      "canonical": "https://nextjs.org/docs/app/getting-started/layouts-and-pages",
+      "raw_url": "https://nextjs.org/docs/app/getting-started/layouts-and-pages",
+      "description": "Learn how to create your first pages and layouts, and link between them with the Link component.",
+      "line": 15
+    },
+    {
+      "label": "Linking and Navigating",
+      "url": "https://nextjs.org/docs/app/getting-started/linking-and-navigating",
+      "canonical": "https://nextjs.org/docs/app/getting-started/linking-and-navigating",
+      "raw_url": "https://nextjs.org/docs/app/getting-started/linking-and-navigating",
+      "description": "Learn how the built-in navigation optimizations work, including prefetching, prerendering, and client-side navigation, and how to optimize navigation for dynamic routes and slow networks.",
+      "line": 16
+    },
+    {
+      "label": "Server and Client Components",
+      "url": "https://nextjs.org/docs/app/getting-started/server-and-client-components",
+      "canonical": "https://nextjs.org/docs/app/getting-started/server-and-client-components",
+      "raw_url": "https://nextjs.org/docs/app/getting-started/server-and-client-components",
+      "description": "Learn how you can use React Server and Client Components to render parts of your application on the server or the client.",
+      "line": 17
+    },
+    {
+      "label": "Fetching Data",
+      "url": "https://nextjs.org/docs/app/getting-started/fetching-data",
+      "canonical": "https://nextjs.org/docs/app/getting-started/fetching-data",
+      "raw_url": "https://nextjs.org/docs/app/getting-started/fetching-data",
+      "description": "Learn how to fetch data and stream content that depends on data.",
+      "line": 18
+    },
+    {
+      "label": "Mutating Data",
+      "url": "https://nextjs.org/docs/app/getting-started/mutating-data",
+      "canonical": "https://nextjs.org/docs/app/getting-started/mutating-data",
+      "raw_url": "https://nextjs.org/docs/app/getting-started/mutating-data",
+      "description": "Learn how to mutate data using Server Functions and Server Actions in Next.js.",
+      "line": 19
+    },
+    {
+      "label": "Caching",
+      "url": "https://nextjs.org/docs/app/getting-started/caching",
+      "canonical": "https://nextjs.org/docs/app/getting-started/caching",
+      "raw_url": "https://nextjs.org/docs/app/getting-started/caching",
+      "description": "Learn how to cache data and UI in Next.js",
+      "line": 20
+    },
+    {
+      "label": "Revalidating",
+      "url": "https://nextjs.org/docs/app/getting-started/revalidating",
+      "canonical": "https://nextjs.org/docs/app/getting-started/revalidating",
+      "raw_url": "https://nextjs.org/docs/app/getting-started/revalidating",
+      "description": "Learn how to revalidate cached data using time-based and on-demand strategies.",
+      "line": 21
+    },
+    {
+      "label": "Error Handling",
+      "url": "https://nextjs.org/docs/app/getting-started/error-handling",
+      "canonical": "https://nextjs.org/docs/app/getting-started/error-handling",
+      "raw_url": "https://nextjs.org/docs/app/getting-started/error-handling",
+      "description": "Learn how to display expected errors and handle uncaught exceptions.",
+      "line": 22
+    },
+    {
+      "label": "CSS",
+      "url": "https://nextjs.org/docs/app/getting-started/css",
+      "canonical": "https://nextjs.org/docs/app/getting-started/css",
+      "raw_url": "https://nextjs.org/docs/app/getting-started/css",
+      "description": "Learn about the different ways to add CSS to your application, including Tailwind CSS, CSS Modules, Global CSS, and more.",
+      "line": 23
+    },
+    {
+      "label": "Image Optimization",
+      "url": "https://nextjs.org/docs/app/getting-started/images",
+      "canonical": "https://nextjs.org/docs/app/getting-started/images",
+      "raw_url": "https://nextjs.org/docs/app/getting-started/images",
+      "description": "Learn how to optimize images in Next.js",
+      "line": 24
+    },
+    {
+      "label": "Font Optimization",
+      "url": "https://nextjs.org/docs/app/getting-started/fonts",
+      "canonical": "https://nextjs.org/docs/app/getting-started/fonts",
+      "raw_url": "https://nextjs.org/docs/app/getting-started/fonts",
+      "description": "Learn how to optimize fonts in Next.js",
+      "line": 25
+    },
+    {
+      "label": "Metadata and OG images",
+      "url": "https://nextjs.org/docs/app/getting-started/metadata-and-og-images",
+      "canonical": "https://nextjs.org/docs/app/getting-started/metadata-and-og-images",
+      "raw_url": "https://nextjs.org/docs/app/getting-started/metadata-and-og-images",
+      "description": "Learn how to add metadata to your pages and create dynamic OG images.",
+      "line": 26
+    },
+    {
+      "label": "Route Handlers",
+      "url": "https://nextjs.org/docs/app/getting-started/route-handlers",
+      "canonical": "https://nextjs.org/docs/app/getting-started/route-handlers",
+      "raw_url": "https://nextjs.org/docs/app/getting-started/route-handlers",
+      "description": "Create custom request handlers with Next.js Route Handlers using the Web Request and Response APIs.",
+      "line": 27
+    },
+    {
+      "label": "Proxy",
+      "url": "https://nextjs.org/docs/app/getting-started/proxy",
+      "canonical": "https://nextjs.org/docs/app/getting-started/proxy",
+      "raw_url": "https://nextjs.org/docs/app/getting-started/proxy",
+      "description": "Use Next.js Proxy to rewrite, redirect, modify headers, or respond directly before a request completes.",
+      "line": 28
+    },
+    {
+      "label": "Deploying",
+      "url": "https://nextjs.org/docs/app/getting-started/deploying",
+      "canonical": "https://nextjs.org/docs/app/getting-started/deploying",
+      "raw_url": "https://nextjs.org/docs/app/getting-started/deploying",
+      "description": "Learn how to deploy your Next.js application.",
+      "line": 29
+    },
+    {
+      "label": "Upgrading",
+      "url": "https://nextjs.org/docs/app/getting-started/upgrading",
+      "canonical": "https://nextjs.org/docs/app/getting-started/upgrading",
+      "raw_url": "https://nextjs.org/docs/app/getting-started/upgrading",
+      "description": "Learn how to upgrade your Next.js application to the latest version or canary.",
+      "line": 30
+    },
+    {
+      "label": "Guides",
+      "url": "https://nextjs.org/docs/app/guides",
+      "canonical": "https://nextjs.org/docs/app/guides",
+      "raw_url": "https://nextjs.org/docs/app/guides",
+      "description": "",
+      "line": 32
+    },
+    {
+      "label": "Adopting Partial Prefetching",
+      "url": "https://nextjs.org/docs/app/guides/adopting-partial-prefetching",
+      "canonical": "https://nextjs.org/docs/app/guides/adopting-partial-prefetching",
+      "raw_url": "https://nextjs.org/docs/app/guides/adopting-partial-prefetching",
+      "description": "Learn how to enable Partial Prefetching and what changes for <Link>.",
+      "line": 36
+    },
+    {
+      "label": "AI Coding Agents",
+      "url": "https://nextjs.org/docs/app/guides/ai-agents",
+      "canonical": "https://nextjs.org/docs/app/guides/ai-agents",
+      "raw_url": "https://nextjs.org/docs/app/guides/ai-agents",
+      "description": "Learn how to configure your Next.js project so AI coding agents use up-to-date documentation instead of outdated training data.",
+      "line": 37
+    },
+    {
+      "label": "Analytics",
+      "url": "https://nextjs.org/docs/app/guides/analytics",
+      "canonical": "https://nextjs.org/docs/app/guides/analytics",
+      "raw_url": "https://nextjs.org/docs/app/guides/analytics",
+      "description": "Measure and track page performance using Next.js Speed Insights",
+      "line": 38
+    },
+    {
+      "label": "Authentication",
+      "url": "https://nextjs.org/docs/app/guides/authentication",
+      "canonical": "https://nextjs.org/docs/app/guides/authentication",
+      "raw_url": "https://nextjs.org/docs/app/guides/authentication",
+      "description": "Learn how to implement authentication in your Next.js application.",
+      "line": 39
+    },
+    {
+      "label": "Authentication with Cache Components",
+      "url": "https://nextjs.org/docs/app/guides/authentication-with-cache-components",
+      "canonical": "https://nextjs.org/docs/app/guides/authentication-with-cache-components",
+      "raw_url": "https://nextjs.org/docs/app/guides/authentication-with-cache-components",
+      "description": "Learn how to read the user session, show authenticated UI without slowing down the page, and cache data derived from the session when Cache Components is enabled.",
+      "line": 40
+    },
+    {
+      "label": "Backend for Frontend",
+      "url": "https://nextjs.org/docs/app/guides/backend-for-frontend",
+      "canonical": "https://nextjs.org/docs/app/guides/backend-for-frontend",
+      "raw_url": "https://nextjs.org/docs/app/guides/backend-for-frontend",
+      "description": "Learn how to use Next.js as a backend framework",
+      "line": 41
+    },
+    {
+      "label": "Building",
+      "url": "https://nextjs.org/docs/app/guides/building",
+      "canonical": "https://nextjs.org/docs/app/guides/building",
+      "raw_url": "https://nextjs.org/docs/app/guides/building",
+      "description": "Learn what happens when you run next build and how to read the build output.",
+      "line": 42
+    },
+    {
+      "label": "Caching (Previous Model)",
+      "url": "https://nextjs.org/docs/app/guides/caching-without-cache-components",
+      "canonical": "https://nextjs.org/docs/app/guides/caching-without-cache-components",
+      "raw_url": "https://nextjs.org/docs/app/guides/caching-without-cache-components",
+      "description": "Learn how to cache and revalidate data using fetch options, unstable_cache, and route segment configs for projects not using Cache Components.",
+      "line": 43
+    },
+    {
+      "label": "CDN Caching",
+      "url": "https://nextjs.org/docs/app/guides/cdn-caching",
+      "canonical": "https://nextjs.org/docs/app/guides/cdn-caching",
+      "raw_url": "https://nextjs.org/docs/app/guides/cdn-caching",
+      "description": "Learn how CDN caching works with Next.js, including what works today, cache variability, and the direction toward pathname-based cache keying.",
+      "line": 44
+    },
+    {
+      "label": "CI Build Caching",
+      "url": "https://nextjs.org/docs/app/guides/ci-build-caching",
+      "canonical": "https://nextjs.org/docs/app/guides/ci-build-caching",
+      "raw_url": "https://nextjs.org/docs/app/guides/ci-build-caching",
+      "description": "Learn how to configure CI to cache Next.js builds",
+      "line": 45
+    },
+    {
+      "label": "Client-side data fetching",
+      "url": "https://nextjs.org/docs/app/guides/client-side-data-fetching",
+      "canonical": "https://nextjs.org/docs/app/guides/client-side-data-fetching",
+      "raw_url": "https://nextjs.org/docs/app/guides/client-side-data-fetching",
+      "description": "Fetch data in Client Components with a data-fetching library, optionally provide initial data from a Server Component, and coordinate server and client caches.",
+      "line": 46
+    },
+    {
+      "label": "SWR",
+      "url": "https://nextjs.org/docs/app/guides/client-side-data-fetching/swr",
+      "canonical": "https://nextjs.org/docs/app/guides/client-side-data-fetching/swr",
+      "raw_url": "https://nextjs.org/docs/app/guides/client-side-data-fetching/swr",
+      "description": "Fetch client-side data with SWR, optionally provide initial data from a Server Component, and coordinate server and client caches.",
+      "line": 47
+    },
+    {
+      "label": "TanStack Query",
+      "url": "https://nextjs.org/docs/app/guides/client-side-data-fetching/tanstack-query",
+      "canonical": "https://nextjs.org/docs/app/guides/client-side-data-fetching/tanstack-query",
+      "raw_url": "https://nextjs.org/docs/app/guides/client-side-data-fetching/tanstack-query",
+      "description": "Fetch client-side data with TanStack Query, optionally provide initial data from a Server Component, and coordinate server and client caches.",
+      "line": 48
+    },
+    {
+      "label": "Content Security Policy",
+      "url": "https://nextjs.org/docs/app/guides/content-security-policy",
+      "canonical": "https://nextjs.org/docs/app/guides/content-security-policy",
+      "raw_url": "https://nextjs.org/docs/app/guides/content-security-policy",
+      "description": "Learn how to set a Content Security Policy (CSP) for your Next.js application.",
+      "line": 49
+    },
+    {
+      "label": "CSS-in-JS",
+      "url": "https://nextjs.org/docs/app/guides/css-in-js",
+      "canonical": "https://nextjs.org/docs/app/guides/css-in-js",
+      "raw_url": "https://nextjs.org/docs/app/guides/css-in-js",
+      "description": "Use CSS-in-JS libraries with Next.js",
+      "line": 50
+    },
+    {
+      "label": "Custom Server",
+      "url": "https://nextjs.org/docs/app/guides/custom-server",
+      "canonical": "https://nextjs.org/docs/app/guides/custom-server",
+      "raw_url": "https://nextjs.org/docs/app/guides/custom-server",
+      "description": "Start a Next.js app programmatically using a custom server.",
+      "line": 51
+    },
+    {
+      "label": "Data Security",
+      "url": "https://nextjs.org/docs/app/guides/data-security",
+      "canonical": "https://nextjs.org/docs/app/guides/data-security",
+      "raw_url": "https://nextjs.org/docs/app/guides/data-security",
+      "description": "Learn the built-in data security features in Next.js and learn best practices for protecting your application's data.",
+      "line": 52
+    },
+    {
+      "label": "Debugging",
+      "url": "https://nextjs.org/docs/app/guides/debugging",
+      "canonical": "https://nextjs.org/docs/app/guides/debugging",
+      "raw_url": "https://nextjs.org/docs/app/guides/debugging",
+      "description": "Learn how to debug your Next.js application with VS Code, Chrome DevTools, or Firefox DevTools.",
+      "line": 53
+    },
+    {
+      "label": "Deploying to Platforms",
+      "url": "https://nextjs.org/docs/app/guides/deploying-to-platforms",
+      "canonical": "https://nextjs.org/docs/app/guides/deploying-to-platforms",
+      "raw_url": "https://nextjs.org/docs/app/guides/deploying-to-platforms",
+      "description": "Understand which Next.js features require specific platform capabilities and how to choose the right deployment target.",
+      "line": 54
+    },
+    {
+      "label": "Draft Mode",
+      "url": "https://nextjs.org/docs/app/guides/draft-mode",
+      "canonical": "https://nextjs.org/docs/app/guides/draft-mode",
+      "raw_url": "https://nextjs.org/docs/app/guides/draft-mode",
+      "description": "Bypass Next.js caching for a request so editors can preview unpublished content from a headless CMS.",
+      "line": 55
+    },
+    {
+      "label": "Environment Variables",
+      "url": "https://nextjs.org/docs/app/guides/environment-variables",
+      "canonical": "https://nextjs.org/docs/app/guides/environment-variables",
+      "raw_url": "https://nextjs.org/docs/app/guides/environment-variables",
+      "description": "Learn to add and access environment variables in your Next.js application.",
+      "line": 56
+    },
+    {
+      "label": "Forms",
+      "url": "https://nextjs.org/docs/app/guides/forms",
+      "canonical": "https://nextjs.org/docs/app/guides/forms",
+      "raw_url": "https://nextjs.org/docs/app/guides/forms",
+      "description": "Learn how to create forms in Next.js with React Server Actions.",
+      "line": 57
+    },
+    {
+      "label": "How Revalidation Works",
+      "url": "https://nextjs.org/docs/app/guides/how-revalidation-works",
+      "canonical": "https://nextjs.org/docs/app/guides/how-revalidation-works",
+      "raw_url": "https://nextjs.org/docs/app/guides/how-revalidation-works",
+      "description": "A deep dive into how Next.js revalidates cached content, including the tag system, cache consistency, and multi-instance coordination.",
+      "line": 58
+    },
+    {
+      "label": "ISR",
+      "url": "https://nextjs.org/docs/app/guides/incremental-static-regeneration",
+      "canonical": "https://nextjs.org/docs/app/guides/incremental-static-regeneration",
+      "raw_url": "https://nextjs.org/docs/app/guides/incremental-static-regeneration",
+      "description": "Learn how to create or update static pages at runtime with Incremental Static Regeneration.",
+      "line": 59
+    },
+    {
+      "label": "ISR with Cache Components",
+      "url": "https://nextjs.org/docs/app/guides/incremental-static-regeneration-cache-components",
+      "canonical": "https://nextjs.org/docs/app/guides/incremental-static-regeneration-cache-components",
+      "raw_url": "https://nextjs.org/docs/app/guides/incremental-static-regeneration-cache-components",
+      "description": "Learn how to prerender a subset of dynamic routes, serve App Shells for the rest, and upgrade them after the first visit.",
+      "line": 60
+    },
+    {
+      "label": "Instant navigation",
+      "url": "https://nextjs.org/docs/app/guides/instant-navigation",
+      "canonical": "https://nextjs.org/docs/app/guides/instant-navigation",
+      "raw_url": "https://nextjs.org/docs/app/guides/instant-navigation",
+      "description": "Learn how to structure your app to prefetch and prerender more content, providing instant page loads and client navigations.",
+      "line": 61
+    },
+    {
+      "label": "Instrumentation",
+      "url": "https://nextjs.org/docs/app/guides/instrumentation",
+      "canonical": "https://nextjs.org/docs/app/guides/instrumentation",
+      "raw_url": "https://nextjs.org/docs/app/guides/instrumentation",
+      "description": "Learn how to use instrumentation to run code at server startup in your Next.js app",
+      "line": 62
+    },
+    {
+      "label": "Interactive apps",
+      "url": "https://nextjs.org/docs/app/guides/interactive-apps",
+      "canonical": "https://nextjs.org/docs/app/guides/interactive-apps",
+      "raw_url": "https://nextjs.org/docs/app/guides/interactive-apps",
+      "description": "Learn how to build responsive interactions with Server Functions, transitions, optimistic UI, and pending feedback.",
+      "line": 63
+    },
+    {
+      "label": "Internationalization",
+      "url": "https://nextjs.org/docs/app/guides/internationalization",
+      "canonical": "https://nextjs.org/docs/app/guides/internationalization",
+      "raw_url": "https://nextjs.org/docs/app/guides/internationalization",
+      "description": "Add support for multiple languages with internationalized routing and localized content.",
+      "line": 64
+    },
+    {
+      "label": "JSON-LD",
+      "url": "https://nextjs.org/docs/app/guides/json-ld",
+      "canonical": "https://nextjs.org/docs/app/guides/json-ld",
+      "raw_url": "https://nextjs.org/docs/app/guides/json-ld",
+      "description": "Learn how to add JSON-LD to your Next.js application to describe your content to search engines and AI.",
+      "line": 65
+    },
+    {
+      "label": "Lazy Loading",
+      "url": "https://nextjs.org/docs/app/guides/lazy-loading",
+      "canonical": "https://nextjs.org/docs/app/guides/lazy-loading",
+      "raw_url": "https://nextjs.org/docs/app/guides/lazy-loading",
+      "description": "Lazy load imported libraries and React Components to improve your application's loading performance.",
+      "line": 66
+    },
+    {
+      "label": "Development Environment",
+      "url": "https://nextjs.org/docs/app/guides/local-development",
+      "canonical": "https://nextjs.org/docs/app/guides/local-development",
+      "raw_url": "https://nextjs.org/docs/app/guides/local-development",
+      "description": "Learn how to optimize your local development environment with Next.js.",
+      "line": 67
+    },
+    {
+      "label": "Next.js MCP Server",
+      "url": "https://nextjs.org/docs/app/guides/mcp",
+      "canonical": "https://nextjs.org/docs/app/guides/mcp",
+      "raw_url": "https://nextjs.org/docs/app/guides/mcp",
+      "description": "Learn how to use Next.js MCP support to allow coding agents access to your application state",
+      "line": 68
+    },
+    {
+      "label": "MDX",
+      "url": "https://nextjs.org/docs/app/guides/mdx",
+      "canonical": "https://nextjs.org/docs/app/guides/mdx",
+      "raw_url": "https://nextjs.org/docs/app/guides/mdx",
+      "description": "Learn how to configure MDX and use it in your Next.js apps.",
+      "line": 69
+    },
+    {
+      "label": "Memory Usage",
+      "url": "https://nextjs.org/docs/app/guides/memory-usage",
+      "canonical": "https://nextjs.org/docs/app/guides/memory-usage",
+      "raw_url": "https://nextjs.org/docs/app/guides/memory-usage",
+      "description": "Optimize memory used by your application in development and production.",
+      "line": 70
+    },
+    {
+      "label": "Migrating",
+      "url": "https://nextjs.org/docs/app/guides/migrating",
+      "canonical": "https://nextjs.org/docs/app/guides/migrating",
+      "raw_url": "https://nextjs.org/docs/app/guides/migrating",
+      "description": "Learn how to migrate from popular frameworks to Next.js",
+      "line": 71
+    },
+    {
+      "label": "App Router",
+      "url": "https://nextjs.org/docs/app/guides/migrating/app-router-migration",
+      "canonical": "https://nextjs.org/docs/app/guides/migrating/app-router-migration",
+      "raw_url": "https://nextjs.org/docs/app/guides/migrating/app-router-migration",
+      "description": "Learn how to upgrade your existing Next.js application from the Pages Router to the App Router.",
+      "line": 72
+    },
+    {
+      "label": "Create React App",
+      "url": "https://nextjs.org/docs/app/guides/migrating/from-create-react-app",
+      "canonical": "https://nextjs.org/docs/app/guides/migrating/from-create-react-app",
+      "raw_url": "https://nextjs.org/docs/app/guides/migrating/from-create-react-app",
+      "description": "Learn how to migrate your existing React application from Create React App to Next.js.",
+      "line": 73
+    },
+    {
+      "label": "Vite",
+      "url": "https://nextjs.org/docs/app/guides/migrating/from-vite",
+      "canonical": "https://nextjs.org/docs/app/guides/migrating/from-vite",
+      "raw_url": "https://nextjs.org/docs/app/guides/migrating/from-vite",
+      "description": "Learn how to migrate your existing React application from Vite to Next.js.",
+      "line": 74
+    },
+    {
+      "label": "Migrating to Cache Components",
+      "url": "https://nextjs.org/docs/app/guides/migrating-to-cache-components",
+      "canonical": "https://nextjs.org/docs/app/guides/migrating-to-cache-components",
+      "raw_url": "https://nextjs.org/docs/app/guides/migrating-to-cache-components",
+      "description": "Learn how to migrate from route segment configs to Cache Components in Next.js.",
+      "line": 75
+    },
+    {
+      "label": "Multi-tenant",
+      "url": "https://nextjs.org/docs/app/guides/multi-tenant",
+      "canonical": "https://nextjs.org/docs/app/guides/multi-tenant",
+      "raw_url": "https://nextjs.org/docs/app/guides/multi-tenant",
+      "description": "Learn how to build multi-tenant apps with the App Router.",
+      "line": 76
+    },
+    {
+      "label": "Multi-zones",
+      "url": "https://nextjs.org/docs/app/guides/multi-zones",
+      "canonical": "https://nextjs.org/docs/app/guides/multi-zones",
+      "raw_url": "https://nextjs.org/docs/app/guides/multi-zones",
+      "description": "Learn how to build micro-frontends using Next.js Multi-Zones to deploy multiple Next.js apps under a single domain.",
+      "line": 77
+    },
+    {
+      "label": "Offline support",
+      "url": "https://nextjs.org/docs/app/guides/offline-support",
+      "canonical": "https://nextjs.org/docs/app/guides/offline-support",
+      "raw_url": "https://nextjs.org/docs/app/guides/offline-support",
+      "description": "How a Next.js app can recover when the network drops mid-fetch or mid-Server Action, and how to communicate that state to the user.",
+      "line": 78
+    },
+    {
+      "label": "OpenTelemetry",
+      "url": "https://nextjs.org/docs/app/guides/open-telemetry",
+      "canonical": "https://nextjs.org/docs/app/guides/open-telemetry",
+      "raw_url": "https://nextjs.org/docs/app/guides/open-telemetry",
+      "description": "Learn how to instrument your Next.js app with OpenTelemetry.",
+      "line": 79
+    },
+    {
+      "label": "Optimizing prefetching",
+      "url": "https://nextjs.org/docs/app/guides/optimizing-prefetching",
+      "canonical": "https://nextjs.org/docs/app/guides/optimizing-prefetching",
+      "raw_url": "https://nextjs.org/docs/app/guides/optimizing-prefetching",
+      "description": "Resolve per-link URL data with the prefetch prop, or include session data in the App Shell.",
+      "line": 80
+    },
+    {
+      "label": "Package Bundling",
+      "url": "https://nextjs.org/docs/app/guides/package-bundling",
+      "canonical": "https://nextjs.org/docs/app/guides/package-bundling",
+      "raw_url": "https://nextjs.org/docs/app/guides/package-bundling",
+      "description": "Learn how to analyze and optimize your application's server and client bundles with the Next.js Bundle Analyzer for Turbopack, and the @next/bundle-analyzer plugin for Webpack.",
+      "line": 81
+    },
+    {
+      "label": "PPR Platform Guide",
+      "url": "https://nextjs.org/docs/app/guides/ppr-platform-guide",
+      "canonical": "https://nextjs.org/docs/app/guides/ppr-platform-guide",
+      "raw_url": "https://nextjs.org/docs/app/guides/ppr-platform-guide",
+      "description": "A guide for platform engineers on implementing PPR support, from basic origin rendering to optimized CDN integration.",
+      "line": 82
+    },
+    {
+      "label": "Prefetching",
+      "url": "https://nextjs.org/docs/app/guides/prefetching",
+      "canonical": "https://nextjs.org/docs/app/guides/prefetching",
+      "raw_url": "https://nextjs.org/docs/app/guides/prefetching",
+      "description": "Learn how to configure prefetching in Next.js",
+      "line": 83
+    },
+    {
+      "label": "Preserving UI state",
+      "url": "https://nextjs.org/docs/app/guides/preserving-ui-state",
+      "canonical": "https://nextjs.org/docs/app/guides/preserving-ui-state",
+      "raw_url": "https://nextjs.org/docs/app/guides/preserving-ui-state",
+      "description": "Learn how React's Activity component preserves UI state across navigations in Next.js and how to control what resets.",
+      "line": 84
+    },
+    {
+      "label": "Preventing Flash",
+      "url": "https://nextjs.org/docs/app/guides/preventing-flash-before-hydration",
+      "canonical": "https://nextjs.org/docs/app/guides/preventing-flash-before-hydration",
+      "raw_url": "https://nextjs.org/docs/app/guides/preventing-flash-before-hydration",
+      "description": "Learn how to correct server-rendered content before the browser paints, avoiding visible flash when the page hydrates.",
+      "line": 85
+    },
+    {
+      "label": "Production",
+      "url": "https://nextjs.org/docs/app/guides/production-checklist",
+      "canonical": "https://nextjs.org/docs/app/guides/production-checklist",
+      "raw_url": "https://nextjs.org/docs/app/guides/production-checklist",
+      "description": "Recommendations to ensure the best performance and user experience before taking your Next.js application to production.",
+      "line": 86
+    },
+    {
+      "label": "PWAs",
+      "url": "https://nextjs.org/docs/app/guides/progressive-web-apps",
+      "canonical": "https://nextjs.org/docs/app/guides/progressive-web-apps",
+      "raw_url": "https://nextjs.org/docs/app/guides/progressive-web-apps",
+      "description": "Learn how to build a Progressive Web Application (PWA) with Next.js.",
+      "line": 87
+    },
+    {
+      "label": "Public pages",
+      "url": "https://nextjs.org/docs/app/guides/public-static-pages",
+      "canonical": "https://nextjs.org/docs/app/guides/public-static-pages",
+      "raw_url": "https://nextjs.org/docs/app/guides/public-static-pages",
+      "description": "Learn how to build public, \"static\" pages that share data across users, such as landing pages, list pages (products, blogs, etc.), marketing and news sites.",
+      "line": 88
+    },
+    {
+      "label": "Redirecting",
+      "url": "https://nextjs.org/docs/app/guides/redirecting",
+      "canonical": "https://nextjs.org/docs/app/guides/redirecting",
+      "raw_url": "https://nextjs.org/docs/app/guides/redirecting",
+      "description": "Learn the different ways to handle redirects in Next.js.",
+      "line": 89
+    },
+    {
+      "label": "Rendering Philosophy",
+      "url": "https://nextjs.org/docs/app/guides/rendering-philosophy",
+      "canonical": "https://nextjs.org/docs/app/guides/rendering-philosophy",
+      "raw_url": "https://nextjs.org/docs/app/guides/rendering-philosophy",
+      "description": "Learn how Next.js treats static and dynamic rendering as a spectrum at the component level, and what this means for deployment.",
+      "line": 90
+    },
+    {
+      "label": "Sass",
+      "url": "https://nextjs.org/docs/app/guides/sass",
+      "canonical": "https://nextjs.org/docs/app/guides/sass",
+      "raw_url": "https://nextjs.org/docs/app/guides/sass",
+      "description": "Style your Next.js application using Sass.",
+      "line": 91
+    },
+    {
+      "label": "Scripts",
+      "url": "https://nextjs.org/docs/app/guides/scripts",
+      "canonical": "https://nextjs.org/docs/app/guides/scripts",
+      "raw_url": "https://nextjs.org/docs/app/guides/scripts",
+      "description": "Optimize 3rd party scripts with the built-in Script component.",
+      "line": 92
+    },
+    {
+      "label": "Self-Hosting",
+      "url": "https://nextjs.org/docs/app/guides/self-hosting",
+      "canonical": "https://nextjs.org/docs/app/guides/self-hosting",
+      "raw_url": "https://nextjs.org/docs/app/guides/self-hosting",
+      "description": "Learn how to self-host your Next.js application on a Node.js server, Docker image, or static HTML files (static exports).",
+      "line": 93
+    },
+    {
+      "label": "Server Actions",
+      "url": "https://nextjs.org/docs/app/guides/server-actions",
+      "canonical": "https://nextjs.org/docs/app/guides/server-actions",
+      "raw_url": "https://nextjs.org/docs/app/guides/server-actions",
+      "description": "How Server Actions work in Next.js, including the single-roundtrip response model, sequential dispatch, security, and caching integration.",
+      "line": 94
+    },
+    {
+      "label": "Server and Client Boundary",
+      "url": "https://nextjs.org/docs/app/guides/server-and-client-boundary",
+      "canonical": "https://nextjs.org/docs/app/guides/server-and-client-boundary",
+      "raw_url": "https://nextjs.org/docs/app/guides/server-and-client-boundary",
+      "description": "Learn where Server and Client Components run in the App Router and how the boundary between them works.",
+      "line": 95
+    },
+    {
+      "label": "SPAs",
+      "url": "https://nextjs.org/docs/app/guides/single-page-applications",
+      "canonical": "https://nextjs.org/docs/app/guides/single-page-applications",
+      "raw_url": "https://nextjs.org/docs/app/guides/single-page-applications",
+      "description": "Next.js fully supports building Single-Page Applications (SPAs).",
+      "line": 96
+    },
+    {
+      "label": "Static Exports",
+      "url": "https://nextjs.org/docs/app/guides/static-exports",
+      "canonical": "https://nextjs.org/docs/app/guides/static-exports",
+      "raw_url": "https://nextjs.org/docs/app/guides/static-exports",
+      "description": "Next.js enables starting as a static site or Single-Page Application (SPA), then later optionally upgrading to use features that require a server.",
+      "line": 97
+    },
+    {
+      "label": "Streaming",
+      "url": "https://nextjs.org/docs/app/guides/streaming",
+      "canonical": "https://nextjs.org/docs/app/guides/streaming",
+      "raw_url": "https://nextjs.org/docs/app/guides/streaming",
+      "description": "Learn how streaming works in Next.js and how to use it to progressively render UI as data becomes available.",
+      "line": 98
+    },
+    {
+      "label": "Tailwind CSS v3",
+      "url": "https://nextjs.org/docs/app/guides/tailwind-v3-css",
+      "canonical": "https://nextjs.org/docs/app/guides/tailwind-v3-css",
+      "raw_url": "https://nextjs.org/docs/app/guides/tailwind-v3-css",
+      "description": "Style your Next.js Application using Tailwind CSS v3 for broader browser support.",
+      "line": 99
+    },
+    {
+      "label": "Testing",
+      "url": "https://nextjs.org/docs/app/guides/testing",
+      "canonical": "https://nextjs.org/docs/app/guides/testing",
+      "raw_url": "https://nextjs.org/docs/app/guides/testing",
+      "description": "Learn how to set up Next.js with four commonly used testing tools — Cypress, Playwright, Vitest, and Jest.",
+      "line": 100
+    },
+    {
+      "label": "Cypress",
+      "url": "https://nextjs.org/docs/app/guides/testing/cypress",
+      "canonical": "https://nextjs.org/docs/app/guides/testing/cypress",
+      "raw_url": "https://nextjs.org/docs/app/guides/testing/cypress",
+      "description": "Learn how to set up Cypress with Next.js for End-to-End (E2E) and Component Testing.",
+      "line": 101
+    },
+    {
+      "label": "Jest",
+      "url": "https://nextjs.org/docs/app/guides/testing/jest",
+      "canonical": "https://nextjs.org/docs/app/guides/testing/jest",
+      "raw_url": "https://nextjs.org/docs/app/guides/testing/jest",
+      "description": "Learn how to set up Jest with Next.js for Unit Testing and Snapshot Testing.",
+      "line": 102
+    },
+    {
+      "label": "Playwright",
+      "url": "https://nextjs.org/docs/app/guides/testing/playwright",
+      "canonical": "https://nextjs.org/docs/app/guides/testing/playwright",
+      "raw_url": "https://nextjs.org/docs/app/guides/testing/playwright",
+      "description": "Learn how to set up Playwright with Next.js for End-to-End (E2E) Testing.",
+      "line": 103
+    },
+    {
+      "label": "Vitest",
+      "url": "https://nextjs.org/docs/app/guides/testing/vitest",
+      "canonical": "https://nextjs.org/docs/app/guides/testing/vitest",
+      "raw_url": "https://nextjs.org/docs/app/guides/testing/vitest",
+      "description": "Learn how to set up Vitest with Next.js for Unit Testing.",
+      "line": 104
+    },
+    {
+      "label": "Third Party Libraries",
+      "url": "https://nextjs.org/docs/app/guides/third-party-libraries",
+      "canonical": "https://nextjs.org/docs/app/guides/third-party-libraries",
+      "raw_url": "https://nextjs.org/docs/app/guides/third-party-libraries",
+      "description": "Optimize the performance of third-party libraries in your application with the @next/third-parties package.",
+      "line": 105
+    },
+    {
+      "label": "Upgrading",
+      "url": "https://nextjs.org/docs/app/guides/upgrading",
+      "canonical": "https://nextjs.org/docs/app/guides/upgrading",
+      "raw_url": "https://nextjs.org/docs/app/guides/upgrading",
+      "description": "Learn how to upgrade to the latest versions of Next.js.",
+      "line": 106
+    },
+    {
+      "label": "Codemods",
+      "url": "https://nextjs.org/docs/app/guides/upgrading/codemods",
+      "canonical": "https://nextjs.org/docs/app/guides/upgrading/codemods",
+      "raw_url": "https://nextjs.org/docs/app/guides/upgrading/codemods",
+      "description": "Use codemods to upgrade your Next.js codebase when new features are released.",
+      "line": 107
+    },
+    {
+      "label": "Version 14",
+      "url": "https://nextjs.org/docs/app/guides/upgrading/version-14",
+      "canonical": "https://nextjs.org/docs/app/guides/upgrading/version-14",
+      "raw_url": "https://nextjs.org/docs/app/guides/upgrading/version-14",
+      "description": "Upgrade your Next.js Application from Version 13 to 14.",
+      "line": 108
+    },
+    {
+      "label": "Version 15",
+      "url": "https://nextjs.org/docs/app/guides/upgrading/version-15",
+      "canonical": "https://nextjs.org/docs/app/guides/upgrading/version-15",
+      "raw_url": "https://nextjs.org/docs/app/guides/upgrading/version-15",
+      "description": "Upgrade your Next.js Application from Version 14 to 15.",
+      "line": 109
+    },
+    {
+      "label": "Version 16",
+      "url": "https://nextjs.org/docs/app/guides/upgrading/version-16",
+      "canonical": "https://nextjs.org/docs/app/guides/upgrading/version-16",
+      "raw_url": "https://nextjs.org/docs/app/guides/upgrading/version-16",
+      "description": "Upgrade your Next.js Application from Version 15 to 16.",
+      "line": 110
+    },
+    {
+      "label": "Videos",
+      "url": "https://nextjs.org/docs/app/guides/videos",
+      "canonical": "https://nextjs.org/docs/app/guides/videos",
+      "raw_url": "https://nextjs.org/docs/app/guides/videos",
+      "description": "Recommendations and best practices for optimizing videos in your Next.js application.",
+      "line": 111
+    },
+    {
+      "label": "View transitions",
+      "url": "https://nextjs.org/docs/app/guides/view-transitions",
+      "canonical": "https://nextjs.org/docs/app/guides/view-transitions",
+      "raw_url": "https://nextjs.org/docs/app/guides/view-transitions",
+      "description": "Learn how to use view transitions to communicate meaning during navigation, loading, and content changes in a Next.js app.",
+      "line": 112
+    },
+    {
+      "label": "API Reference",
+      "url": "https://nextjs.org/docs/app/api-reference",
+      "canonical": "https://nextjs.org/docs/app/api-reference",
+      "raw_url": "https://nextjs.org/docs/app/api-reference",
+      "description": "",
+      "line": 114
+    },
+    {
+      "label": "Directives",
+      "url": "https://nextjs.org/docs/app/api-reference/directives",
+      "canonical": "https://nextjs.org/docs/app/api-reference/directives",
+      "raw_url": "https://nextjs.org/docs/app/api-reference/directives",
+      "description": "Learn how React and Next.js directives define client entry points, Server Functions, and cached output.",
+      "line": 118
+    },
+    {
+      "label": "use cache",
+      "url": "https://nextjs.org/docs/app/api-reference/directives/use-cache",
+      "canonical": "https://nextjs.org/docs/app/api-reference/directives/use-cache",
+      "raw_url": "https://nextjs.org/docs/app/api-reference/directives/use-cache",
+      "description": "Learn how to use the \"use cache\" directive to cache data in your Next.js application.",
+      "line": 119
+    },
+    {
+      "label": "use cache: private",
+      "url": "https://nextjs.org/docs/app/api-reference/directives/use-cache-private",
+      "canonical": "https://nextjs.org/docs/app/api-reference/directives/use-cache-private",
+      "raw_url": "https://nextjs.org/docs/app/api-reference/directives/use-cache-private",
+      "description": "Learn how to use the \"use cache: private\" directive to cache functions that access runtime request APIs.",
+      "line": 120
+    },
+    {
+      "label": "use cache: remote",
+      "url": "https://nextjs.org/docs/app/api-reference/directives/use-cache-remote",
+      "canonical": "https://nextjs.org/docs/app/api-reference/directives/use-cache-remote",
+      "raw_url": "https://nextjs.org/docs/app/api-reference/directives/use-cache-remote",
+      "description": "Learn how to use the \"use cache: remote\" directive for persistent, shared caching using remote cache handlers.",
+      "line": 121
+    },
+    {
+      "label": "use client",
+      "url": "https://nextjs.org/docs/app/api-reference/directives/use-client",
+      "canonical": "https://nextjs.org/docs/app/api-reference/directives/use-client",
+      "raw_url": "https://nextjs.org/docs/app/api-reference/directives/use-client",
+      "description": "Learn how to use the use client directive to render a component on the client.",
+      "line": 122
+    },
+    {
+      "label": "use server",
+      "url": "https://nextjs.org/docs/app/api-reference/directives/use-server",
+      "canonical": "https://nextjs.org/docs/app/api-reference/directives/use-server",
+      "raw_url": "https://nextjs.org/docs/app/api-reference/directives/use-server",
+      "description": "Learn how to use the use server directive to execute code on the server.",
+      "line": 123
+    },
+    {
+      "label": "Components",
+      "url": "https://nextjs.org/docs/app/api-reference/components",
+      "canonical": "https://nextjs.org/docs/app/api-reference/components",
+      "raw_url": "https://nextjs.org/docs/app/api-reference/components",
+      "description": "API Reference for Next.js built-in components.",
+      "line": 124
+    },
+    {
+      "label": "Font",
+      "url": "https://nextjs.org/docs/app/api-reference/components/font",
+      "canonical": "https://nextjs.org/docs/app/api-reference/components/font",
+      "raw_url": "https://nextjs.org/docs/app/api-reference/components/font",
+      "description": "Optimizing loading web fonts with the built-in next/font loaders.",
+      "line": 125
+    },
+    {
+      "label": "Form Component",
+      "url": "https://nextjs.org/docs/app/api-reference/components/form",
+      "canonical": "https://nextjs.org/docs/app/api-reference/components/form",
+      "raw_url": "https://nextjs.org/docs/app/api-reference/components/form",
+      "description": "Learn how to use the <Form> component to handle form submissions and search params updates with client-side navigation.",
+      "line": 126
+    },
+    {
+      "label": "Image Component",
+      "url": "https://nextjs.org/docs/app/api-reference/components/image",
+      "canonical": "https://nextjs.org/docs/app/api-reference/components/image",
+      "raw_url": "https://nextjs.org/docs/app/api-reference/components/image",
+      "description": "Optimize Images in your Next.js Application using the built-in next/image Component.",
+      "line": 127
+    },
+    {
+      "label": "Link Component",
+      "url": "https://nextjs.org/docs/app/api-reference/components/link",
+      "canonical": "https://nextjs.org/docs/app/api-reference/components/link",
+      "raw_url": "https://nextjs.org/docs/app/api-reference/components/link",
+      "description": "Enable fast client-side navigation with the built-in next/link component.",
+      "line": 128
+    },
+    {
+      "label": "Script Component",
+      "url": "https://nextjs.org/docs/app/api-reference/components/script",
+      "canonical": "https://nextjs.org/docs/app/api-reference/components/script",
+      "raw_url": "https://nextjs.org/docs/app/api-reference/components/script",
+      "description": "Optimize third-party scripts in your Next.js application using the built-in next/script Component.",
+      "line": 129
+    },
+    {
+      "label": "File-system conventions",
+      "url": "https://nextjs.org/docs/app/api-reference/file-conventions",
+      "canonical": "https://nextjs.org/docs/app/api-reference/file-conventions",
+      "raw_url": "https://nextjs.org/docs/app/api-reference/file-conventions",
+      "description": "API Reference for Next.js file-system conventions.",
+      "line": 130
+    },
+    {
+      "label": "default.js",
+      "url": "https://nextjs.org/docs/app/api-reference/file-conventions/default",
+      "canonical": "https://nextjs.org/docs/app/api-reference/file-conventions/default",
+      "raw_url": "https://nextjs.org/docs/app/api-reference/file-conventions/default",
+      "description": "API Reference for the default.js file.",
+      "line": 131
+    },
+    {
+      "label": "Dynamic Segments",
+      "url": "https://nextjs.org/docs/app/api-reference/file-conventions/dynamic-routes",
+      "canonical": "https://nextjs.org/docs/app/api-reference/file-conventions/dynamic-routes",
+      "raw_url": "https://nextjs.org/docs/app/api-reference/file-conventions/dynamic-routes",
+      "description": "Use Dynamic Segments to read URL path params and generate routes from dynamic data.",
+      "line": 132
+    },
+    {
+      "label": "error.js",
+      "url": "https://nextjs.org/docs/app/api-reference/file-conventions/error",
+      "canonical": "https://nextjs.org/docs/app/api-reference/file-conventions/error",
+      "raw_url": "https://nextjs.org/docs/app/api-reference/file-conventions/error",
+      "description": "API reference for the error.js special file.",
+      "line": 133
+    },
+    {
+      "label": "forbidden.js",
+      "url": "https://nextjs.org/docs/app/api-reference/file-conventions/forbidden",
+      "canonical": "https://nextjs.org/docs/app/api-reference/file-conventions/forbidden",
+      "raw_url": "https://nextjs.org/docs/app/api-reference/file-conventions/forbidden",
+      "description": "API reference for the forbidden.js special file.",
+      "line": 134
+    },
+    {
+      "label": "instrumentation.js",
+      "url": "https://nextjs.org/docs/app/api-reference/file-conventions/instrumentation",
+      "canonical": "https://nextjs.org/docs/app/api-reference/file-conventions/instrumentation",
+      "raw_url": "https://nextjs.org/docs/app/api-reference/file-conventions/instrumentation",
+      "description": "API reference for the instrumentation.js file.",
+      "line": 135
+    },
+    {
+      "label": "instrumentation-client.js",
+      "url": "https://nextjs.org/docs/app/api-reference/file-conventions/instrumentation-client",
+      "canonical": "https://nextjs.org/docs/app/api-reference/file-conventions/instrumentation-client",
+      "raw_url": "https://nextjs.org/docs/app/api-reference/file-conventions/instrumentation-client",
+      "description": "Learn how to add client-side instrumentation to track and monitor your Next.js application's frontend performance.",
+      "line": 136
+    },
+    {
+      "label": "Intercepting Routes",
+      "url": "https://nextjs.org/docs/app/api-reference/file-conventions/intercepting-routes",
+      "canonical": "https://nextjs.org/docs/app/api-reference/file-conventions/intercepting-routes",
+      "raw_url": "https://nextjs.org/docs/app/api-reference/file-conventions/intercepting-routes",
+      "description": "Use intercepting routes to load a new route within the current layout while masking the browser URL, useful for advanced routing patterns such as modals.",
+      "line": 137
+    },
+    {
+      "label": "layout.js",
+      "url": "https://nextjs.org/docs/app/api-reference/file-conventions/layout",
+      "canonical": "https://nextjs.org/docs/app/api-reference/file-conventions/layout",
+      "raw_url": "https://nextjs.org/docs/app/api-reference/file-conventions/layout",
+      "description": "API reference for the layout.js file.",
+      "line": 138
+    },
+    {
+      "label": "loading.js",
+      "url": "https://nextjs.org/docs/app/api-reference/file-conventions/loading",
+      "canonical": "https://nextjs.org/docs/app/api-reference/file-conventions/loading",
+      "raw_url": "https://nextjs.org/docs/app/api-reference/file-conventions/loading",
+      "description": "API reference for the loading.js file.",
+      "line": 139
+    },
+    {
+      "label": "mdx-components.js",
+      "url": "https://nextjs.org/docs/app/api-reference/file-conventions/mdx-components",
+      "canonical": "https://nextjs.org/docs/app/api-reference/file-conventions/mdx-components",
+      "raw_url": "https://nextjs.org/docs/app/api-reference/file-conventions/mdx-components",
+      "description": "API reference for the mdx-components.js file.",
+      "line": 140
+    },
+    {
+      "label": "not-found.js",
+      "url": "https://nextjs.org/docs/app/api-reference/file-conventions/not-found",
+      "canonical": "https://nextjs.org/docs/app/api-reference/file-conventions/not-found",
+      "raw_url": "https://nextjs.org/docs/app/api-reference/file-conventions/not-found",
+      "description": "API reference for the not-found.js file.",
+      "line": 141
+    },
+    {
+      "label": "page.js",
+      "url": "https://nextjs.org/docs/app/api-reference/file-conventions/page",
+      "canonical": "https://nextjs.org/docs/app/api-reference/file-conventions/page",
+      "raw_url": "https://nextjs.org/docs/app/api-reference/file-conventions/page",
+      "description": "API reference for the page.js file.",
+      "line": 142
+    },
+    {
+      "label": "Parallel Routes",
+      "url": "https://nextjs.org/docs/app/api-reference/file-conventions/parallel-routes",
+      "canonical": "https://nextjs.org/docs/app/api-reference/file-conventions/parallel-routes",
+      "raw_url": "https://nextjs.org/docs/app/api-reference/file-conventions/parallel-routes",
+      "description": "Simultaneously render one or more pages in the same view that can be navigated independently. A pattern for highly dynamic applications.",
+      "line": 143
+    },
+    {
+      "label": "proxy.js",
+      "url": "https://nextjs.org/docs/app/api-reference/file-conventions/proxy",
+      "canonical": "https://nextjs.org/docs/app/api-reference/file-conventions/proxy",
+      "raw_url": "https://nextjs.org/docs/app/api-reference/file-conventions/proxy",
+      "description": "API reference for the proxy.js file.",
+      "line": 144
+    },
+    {
+      "label": "public",
+      "url": "https://nextjs.org/docs/app/api-reference/file-conventions/public-folder",
+      "canonical": "https://nextjs.org/docs/app/api-reference/file-conventions/public-folder",
+      "raw_url": "https://nextjs.org/docs/app/api-reference/file-conventions/public-folder",
+      "description": "Next.js allows you to serve static files, like images, in the public directory. You can learn how it works here.",
+      "line": 145
+    },
+    {
+      "label": "route.js",
+      "url": "https://nextjs.org/docs/app/api-reference/file-conventions/route",
+      "canonical": "https://nextjs.org/docs/app/api-reference/file-conventions/route",
+      "raw_url": "https://nextjs.org/docs/app/api-reference/file-conventions/route",
+      "description": "API reference for the route.js special file.",
+      "line": 146
+    },
+    {
+      "label": "Route Groups",
+      "url": "https://nextjs.org/docs/app/api-reference/file-conventions/route-groups",
+      "canonical": "https://nextjs.org/docs/app/api-reference/file-conventions/route-groups",
+      "raw_url": "https://nextjs.org/docs/app/api-reference/file-conventions/route-groups",
+      "description": "Route Groups can be used to partition your Next.js application into different sections.",
+      "line": 147
+    },
+    {
+      "label": "src",
+      "url": "https://nextjs.org/docs/app/api-reference/file-conventions/src-folder",
+      "canonical": "https://nextjs.org/docs/app/api-reference/file-conventions/src-folder",
+      "raw_url": "https://nextjs.org/docs/app/api-reference/file-conventions/src-folder",
+      "description": "Save pages under the src folder as an alternative to the root pages directory.",
+      "line": 148
+    },
+    {
+      "label": "template.js",
+      "url": "https://nextjs.org/docs/app/api-reference/file-conventions/template",
+      "canonical": "https://nextjs.org/docs/app/api-reference/file-conventions/template",
+      "raw_url": "https://nextjs.org/docs/app/api-reference/file-conventions/template",
+      "description": "API Reference for the template.js file.",
+      "line": 149
+    },
+    {
+      "label": "unauthorized.js",
+      "url": "https://nextjs.org/docs/app/api-reference/file-conventions/unauthorized",
+      "canonical": "https://nextjs.org/docs/app/api-reference/file-conventions/unauthorized",
+      "raw_url": "https://nextjs.org/docs/app/api-reference/file-conventions/unauthorized",
+      "description": "API reference for the unauthorized.js special file.",
+      "line": 150
+    },
+    {
+      "label": "Metadata Files",
+      "url": "https://nextjs.org/docs/app/api-reference/file-conventions/metadata",
+      "canonical": "https://nextjs.org/docs/app/api-reference/file-conventions/metadata",
+      "raw_url": "https://nextjs.org/docs/app/api-reference/file-conventions/metadata",
+      "description": "API documentation for the metadata file conventions.",
+      "line": 151
+    },
+    {
+      "label": "favicon, icon, and apple-icon",
+      "url": "https://nextjs.org/docs/app/api-reference/file-conventions/metadata/app-icons",
+      "canonical": "https://nextjs.org/docs/app/api-reference/file-conventions/metadata/app-icons",
+      "raw_url": "https://nextjs.org/docs/app/api-reference/file-conventions/metadata/app-icons",
+      "description": "API Reference for the Favicon, Icon and Apple Icon file conventions.",
+      "line": 152
+    },
+    {
+      "label": "manifest.json",
+      "url": "https://nextjs.org/docs/app/api-reference/file-conventions/metadata/manifest",
+      "canonical": "https://nextjs.org/docs/app/api-reference/file-conventions/metadata/manifest",
+      "raw_url": "https://nextjs.org/docs/app/api-reference/file-conventions/metadata/manifest",
+      "description": "API Reference for manifest.json file.",
+      "line": 153
+    },
+    {
+      "label": "opengraph-image and twitter-image",
+      "url": "https://nextjs.org/docs/app/api-reference/file-conventions/metadata/opengraph-image",
+      "canonical": "https://nextjs.org/docs/app/api-reference/file-conventions/metadata/opengraph-image",
+      "raw_url": "https://nextjs.org/docs/app/api-reference/file-conventions/metadata/opengraph-image",
+      "description": "API Reference for the Open Graph Image and Twitter Image file conventions.",
+      "line": 154
+    },
+    {
+      "label": "robots.txt",
+      "url": "https://nextjs.org/docs/app/api-reference/file-conventions/metadata/robots",
+      "canonical": "https://nextjs.org/docs/app/api-reference/file-conventions/metadata/robots",
+      "raw_url": "https://nextjs.org/docs/app/api-reference/file-conventions/metadata/robots",
+      "description": "API Reference for robots.txt file.",
+      "line": 155
+    },
+    {
+      "label": "sitemap.xml",
+      "url": "https://nextjs.org/docs/app/api-reference/file-conventions/metadata/sitemap",
+      "canonical": "https://nextjs.org/docs/app/api-reference/file-conventions/metadata/sitemap",
+      "raw_url": "https://nextjs.org/docs/app/api-reference/file-conventions/metadata/sitemap",
+      "description": "API Reference for the sitemap.xml file.",
+      "line": 156
+    },
+    {
+      "label": "Route Segment Config",
+      "url": "https://nextjs.org/docs/app/api-reference/file-conventions/route-segment-config",
+      "canonical": "https://nextjs.org/docs/app/api-reference/file-conventions/route-segment-config",
+      "raw_url": "https://nextjs.org/docs/app/api-reference/file-conventions/route-segment-config",
+      "description": "Learn about how to configure options for Next.js route segments.",
+      "line": 157
+    },
+    {
+      "label": "dynamicParams",
+      "url": "https://nextjs.org/docs/app/api-reference/file-conventions/route-segment-config/dynamicParams",
+      "canonical": "https://nextjs.org/docs/app/api-reference/file-conventions/route-segment-config/dynamicParams",
+      "raw_url": "https://nextjs.org/docs/app/api-reference/file-conventions/route-segment-config/dynamicParams",
+      "description": "API reference for the dynamicParams route segment config option.",
+      "line": 158
+    },
+    {
+      "label": "instant",
+      "url": "https://nextjs.org/docs/app/api-reference/file-conventions/route-segment-config/instant",
+      "canonical": "https://nextjs.org/docs/app/api-reference/file-conventions/route-segment-config/instant",
+      "raw_url": "https://nextjs.org/docs/app/api-reference/file-conventions/route-segment-config/instant",
+      "description": "API reference for the instant route segment config.",
+      "line": 159
+    },
+    {
+      "label": "maxDuration",
+      "url": "https://nextjs.org/docs/app/api-reference/file-conventions/route-segment-config/maxDuration",
+      "canonical": "https://nextjs.org/docs/app/api-reference/file-conventions/route-segment-config/maxDuration",
+      "raw_url": "https://nextjs.org/docs/app/api-reference/file-conventions/route-segment-config/maxDuration",
+      "description": "API reference for the maxDuration route segment config option.",
+      "line": 160
+    },
+    {
+      "label": "preferredRegion (deprecated)",
+      "url": "https://nextjs.org/docs/app/api-reference/file-conventions/route-segment-config/preferredRegion",
+      "canonical": "https://nextjs.org/docs/app/api-reference/file-conventions/route-segment-config/preferredRegion",
+      "raw_url": "https://nextjs.org/docs/app/api-reference/file-conventions/route-segment-config/preferredRegion",
+      "description": "API reference for the preferredRegion route segment config option.",
+      "line": 161
+    },
+    {
+      "label": "prefetch",
+      "url": "https://nextjs.org/docs/app/api-reference/file-conventions/route-segment-config/prefetch",
+      "canonical": "https://nextjs.org/docs/app/api-reference/file-conventions/route-segment-config/prefetch",
+      "raw_url": "https://nextjs.org/docs/app/api-reference/file-conventions/route-segment-config/prefetch",
+      "description": "API reference for the prefetch route segment config.",
+      "line": 162
+    },
+    {
+      "label": "runtime",
+      "url": "https://nextjs.org/docs/app/api-reference/file-conventions/route-segment-config/runtime",
+      "canonical": "https://nextjs.org/docs/app/api-reference/file-conventions/route-segment-config/runtime",
+      "raw_url": "https://nextjs.org/docs/app/api-reference/file-conventions/route-segment-config/runtime",
+      "description": "API reference for the runtime route segment config option.",
+      "line": 163
+    },
+    {
+      "label": "Functions",
+      "url": "https://nextjs.org/docs/app/api-reference/functions",
+      "canonical": "https://nextjs.org/docs/app/api-reference/functions",
+      "raw_url": "https://nextjs.org/docs/app/api-reference/functions",
+      "description": "API Reference for Next.js Functions and Hooks.",
+      "line": 164
+    },
+    {
+      "label": "after",
+      "url": "https://nextjs.org/docs/app/api-reference/functions/after",
+      "canonical": "https://nextjs.org/docs/app/api-reference/functions/after",
+      "raw_url": "https://nextjs.org/docs/app/api-reference/functions/after",
+      "description": "API Reference for the after function.",
+      "line": 165
+    },
+    {
+      "label": "cacheLife",
+      "url": "https://nextjs.org/docs/app/api-reference/functions/cacheLife",
+      "canonical": "https://nextjs.org/docs/app/api-reference/functions/cacheLife",
+      "raw_url": "https://nextjs.org/docs/app/api-reference/functions/cacheLife",
+      "description": "Learn how to use the cacheLife function to set the cache expiration time for a cached function or component.",
+      "line": 166
+    },
+    {
+      "label": "cacheTag",
+      "url": "https://nextjs.org/docs/app/api-reference/functions/cacheTag",
+      "canonical": "https://nextjs.org/docs/app/api-reference/functions/cacheTag",
+      "raw_url": "https://nextjs.org/docs/app/api-reference/functions/cacheTag",
+      "description": "Learn how to use the cacheTag function to manage cache invalidation in your Next.js application.",
+      "line": 167
+    },
+    {
+      "label": "catchError",
+      "url": "https://nextjs.org/docs/app/api-reference/functions/catchError",
+      "canonical": "https://nextjs.org/docs/app/api-reference/functions/catchError",
+      "raw_url": "https://nextjs.org/docs/app/api-reference/functions/catchError",
+      "description": "API Reference for the catchError function.",
+      "line": 168
+    },
+    {
+      "label": "connection",
+      "url": "https://nextjs.org/docs/app/api-reference/functions/connection",
+      "canonical": "https://nextjs.org/docs/app/api-reference/functions/connection",
+      "raw_url": "https://nextjs.org/docs/app/api-reference/functions/connection",
+      "description": "API Reference for the connection function.",
+      "line": 169
+    },
+    {
+      "label": "cookies",
+      "url": "https://nextjs.org/docs/app/api-reference/functions/cookies",
+      "canonical": "https://nextjs.org/docs/app/api-reference/functions/cookies",
+      "raw_url": "https://nextjs.org/docs/app/api-reference/functions/cookies",
+      "description": "API Reference for the cookies function.",
+      "line": 170
+    },
+    {
+      "label": "draftMode",
+      "url": "https://nextjs.org/docs/app/api-reference/functions/draft-mode",
+      "canonical": "https://nextjs.org/docs/app/api-reference/functions/draft-mode",
+      "raw_url": "https://nextjs.org/docs/app/api-reference/functions/draft-mode",
+      "description": "API Reference for the draftMode function.",
+      "line": 171
+    },
+    {
+      "label": "fetch",
+      "url": "https://nextjs.org/docs/app/api-reference/functions/fetch",
+      "canonical": "https://nextjs.org/docs/app/api-reference/functions/fetch",
+      "raw_url": "https://nextjs.org/docs/app/api-reference/functions/fetch",
+      "description": "API reference for the extended fetch function.",
+      "line": 172
+    },
+    {
+      "label": "forbidden",
+      "url": "https://nextjs.org/docs/app/api-reference/functions/forbidden",
+      "canonical": "https://nextjs.org/docs/app/api-reference/functions/forbidden",
+      "raw_url": "https://nextjs.org/docs/app/api-reference/functions/forbidden",
+      "description": "API Reference for the forbidden function.",
+      "line": 173
+    },
+    {
+      "label": "generateImageMetadata",
+      "url": "https://nextjs.org/docs/app/api-reference/functions/generate-image-metadata",
+      "canonical": "https://nextjs.org/docs/app/api-reference/functions/generate-image-metadata",
+      "raw_url": "https://nextjs.org/docs/app/api-reference/functions/generate-image-metadata",
+      "description": "Learn how to generate multiple images in a single Metadata API special file.",
+      "line": 174
+    },
+    {
+      "label": "generateMetadata",
+      "url": "https://nextjs.org/docs/app/api-reference/functions/generate-metadata",
+      "canonical": "https://nextjs.org/docs/app/api-reference/functions/generate-metadata",
+      "raw_url": "https://nextjs.org/docs/app/api-reference/functions/generate-metadata",
+      "description": "Learn how to add Metadata to your Next.js application for improved search engine optimization (SEO) and web shareability.",
+      "line": 175
+    },
+    {
+      "label": "generateSitemaps",
+      "url": "https://nextjs.org/docs/app/api-reference/functions/generate-sitemaps",
+      "canonical": "https://nextjs.org/docs/app/api-reference/functions/generate-sitemaps",
+      "raw_url": "https://nextjs.org/docs/app/api-reference/functions/generate-sitemaps",
+      "description": "Learn how to use the generateSiteMaps function to create multiple sitemaps for your application.",
+      "line": 176
+    },
+    {
+      "label": "generateStaticParams",
+      "url": "https://nextjs.org/docs/app/api-reference/functions/generate-static-params",
+      "canonical": "https://nextjs.org/docs/app/api-reference/functions/generate-static-params",
+      "raw_url": "https://nextjs.org/docs/app/api-reference/functions/generate-static-params",
+      "description": "API reference for the generateStaticParams function.",
+      "line": 177
+    },
+    {
+      "label": "generateViewport",
+      "url": "https://nextjs.org/docs/app/api-reference/functions/generate-viewport",
+      "canonical": "https://nextjs.org/docs/app/api-reference/functions/generate-viewport",
+      "raw_url": "https://nextjs.org/docs/app/api-reference/functions/generate-viewport",
+      "description": "API Reference for the generateViewport function.",
+      "line": 178
+    },
+    {
+      "label": "headers",
+      "url": "https://nextjs.org/docs/app/api-reference/functions/headers",
+      "canonical": "https://nextjs.org/docs/app/api-reference/functions/headers",
+      "raw_url": "https://nextjs.org/docs/app/api-reference/functions/headers",
+      "description": "API reference for the headers function.",
+      "line": 179
+    },
+    {
+      "label": "ImageResponse",
+      "url": "https://nextjs.org/docs/app/api-reference/functions/image-response",
+      "canonical": "https://nextjs.org/docs/app/api-reference/functions/image-response",
+      "raw_url": "https://nextjs.org/docs/app/api-reference/functions/image-response",
+      "description": "API Reference for the ImageResponse constructor.",
+      "line": 180
+    },
+    {
+      "label": "io",
+      "url": "https://nextjs.org/docs/app/api-reference/functions/io",
+      "canonical": "https://nextjs.org/docs/app/api-reference/functions/io",
+      "raw_url": "https://nextjs.org/docs/app/api-reference/functions/io",
+      "description": "API Reference for the io function.",
+      "line": 181
+    },
+    {
+      "label": "NextRequest",
+      "url": "https://nextjs.org/docs/app/api-reference/functions/next-request",
+      "canonical": "https://nextjs.org/docs/app/api-reference/functions/next-request",
+      "raw_url": "https://nextjs.org/docs/app/api-reference/functions/next-request",
+      "description": "API Reference for NextRequest.",
+      "line": 182
+    },
+    {
+      "label": "NextResponse",
+      "url": "https://nextjs.org/docs/app/api-reference/functions/next-response",
+      "canonical": "https://nextjs.org/docs/app/api-reference/functions/next-response",
+      "raw_url": "https://nextjs.org/docs/app/api-reference/functions/next-response",
+      "description": "API Reference for NextResponse.",
+      "line": 183
+    },
+    {
+      "label": "root-params",
+      "url": "https://nextjs.org/docs/app/api-reference/functions/next-root-params",
+      "canonical": "https://nextjs.org/docs/app/api-reference/functions/next-root-params",
+      "raw_url": "https://nextjs.org/docs/app/api-reference/functions/next-root-params",
+      "description": "API Reference for the next/root-params module that provides access to root-level route parameters.",
+      "line": 184
+    },
+    {
+      "label": "notFound",
+      "url": "https://nextjs.org/docs/app/api-reference/functions/not-found",
+      "canonical": "https://nextjs.org/docs/app/api-reference/functions/not-found",
+      "raw_url": "https://nextjs.org/docs/app/api-reference/functions/not-found",
+      "description": "API Reference for the notFound function.",
+      "line": 185
+    },
+    {
+      "label": "permanentRedirect",
+      "url": "https://nextjs.org/docs/app/api-reference/functions/permanentRedirect",
+      "canonical": "https://nextjs.org/docs/app/api-reference/functions/permanentRedirect",
+      "raw_url": "https://nextjs.org/docs/app/api-reference/functions/permanentRedirect",
+      "description": "API Reference for the permanentRedirect function.",
+      "line": 186
+    },
+    {
+      "label": "redirect",
+      "url": "https://nextjs.org/docs/app/api-reference/functions/redirect",
+      "canonical": "https://nextjs.org/docs/app/api-reference/functions/redirect",
+      "raw_url": "https://nextjs.org/docs/app/api-reference/functions/redirect",
+      "description": "API Reference for the redirect function.",
+      "line": 187
+    },
+    {
+      "label": "refresh",
+      "url": "https://nextjs.org/docs/app/api-reference/functions/refresh",
+      "canonical": "https://nextjs.org/docs/app/api-reference/functions/refresh",
+      "raw_url": "https://nextjs.org/docs/app/api-reference/functions/refresh",
+      "description": "API Reference for the refresh function.",
+      "line": 188
+    },
+    {
+      "label": "revalidatePath",
+      "url": "https://nextjs.org/docs/app/api-reference/functions/revalidatePath",
+      "canonical": "https://nextjs.org/docs/app/api-reference/functions/revalidatePath",
+      "raw_url": "https://nextjs.org/docs/app/api-reference/functions/revalidatePath",
+      "description": "API Reference for the revalidatePath function.",
+      "line": 189
+    },
+    {
+      "label": "revalidateTag",
+      "url": "https://nextjs.org/docs/app/api-reference/functions/revalidateTag",
+      "canonical": "https://nextjs.org/docs/app/api-reference/functions/revalidateTag",
+      "raw_url": "https://nextjs.org/docs/app/api-reference/functions/revalidateTag",
+      "description": "API Reference for the revalidateTag function.",
+      "line": 190
+    },
+    {
+      "label": "unauthorized",
+      "url": "https://nextjs.org/docs/app/api-reference/functions/unauthorized",
+      "canonical": "https://nextjs.org/docs/app/api-reference/functions/unauthorized",
+      "raw_url": "https://nextjs.org/docs/app/api-reference/functions/unauthorized",
+      "description": "API Reference for the unauthorized function.",
+      "line": 191
+    },
+    {
+      "label": "unstable_cache",
+      "url": "https://nextjs.org/docs/app/api-reference/functions/unstable_cache",
+      "canonical": "https://nextjs.org/docs/app/api-reference/functions/unstable_cache",
+      "raw_url": "https://nextjs.org/docs/app/api-reference/functions/unstable_cache",
+      "description": "API Reference for the unstable_cache function.",
+      "line": 192
+    },
+    {
+      "label": "unstable_noStore",
+      "url": "https://nextjs.org/docs/app/api-reference/functions/unstable_noStore",
+      "canonical": "https://nextjs.org/docs/app/api-reference/functions/unstable_noStore",
+      "raw_url": "https://nextjs.org/docs/app/api-reference/functions/unstable_noStore",
+      "description": "API Reference for the unstable_noStore function.",
+      "line": 193
+    },
+    {
+      "label": "unstable_rethrow",
+      "url": "https://nextjs.org/docs/app/api-reference/functions/unstable_rethrow",
+      "canonical": "https://nextjs.org/docs/app/api-reference/functions/unstable_rethrow",
+      "raw_url": "https://nextjs.org/docs/app/api-reference/functions/unstable_rethrow",
+      "description": "API Reference for the unstable_rethrow function.",
+      "line": 194
+    },
+    {
+      "label": "updateTag",
+      "url": "https://nextjs.org/docs/app/api-reference/functions/updateTag",
+      "canonical": "https://nextjs.org/docs/app/api-reference/functions/updateTag",
+      "raw_url": "https://nextjs.org/docs/app/api-reference/functions/updateTag",
+      "description": "API Reference for the updateTag function.",
+      "line": 195
+    },
+    {
+      "label": "useLinkStatus",
+      "url": "https://nextjs.org/docs/app/api-reference/functions/use-link-status",
+      "canonical": "https://nextjs.org/docs/app/api-reference/functions/use-link-status",
+      "raw_url": "https://nextjs.org/docs/app/api-reference/functions/use-link-status",
+      "description": "API Reference for the useLinkStatus hook.",
+      "line": 196
+    },
+    {
+      "label": "useOffline",
+      "url": "https://nextjs.org/docs/app/api-reference/functions/use-offline",
+      "canonical": "https://nextjs.org/docs/app/api-reference/functions/use-offline",
+      "raw_url": "https://nextjs.org/docs/app/api-reference/functions/use-offline",
+      "description": "API Reference for the useOffline hook.",
+      "line": 197
+    },
+    {
+      "label": "useParams",
+      "url": "https://nextjs.org/docs/app/api-reference/functions/use-params",
+      "canonical": "https://nextjs.org/docs/app/api-reference/functions/use-params",
+      "raw_url": "https://nextjs.org/docs/app/api-reference/functions/use-params",
+      "description": "API Reference for the useParams hook.",
+      "line": 198
+    },
+    {
+      "label": "usePathname",
+      "url": "https://nextjs.org/docs/app/api-reference/functions/use-pathname",
+      "canonical": "https://nextjs.org/docs/app/api-reference/functions/use-pathname",
+      "raw_url": "https://nextjs.org/docs/app/api-reference/functions/use-pathname",
+      "description": "API Reference for the usePathname hook.",
+      "line": 199
+    },
+    {
+      "label": "useReportWebVitals",
+      "url": "https://nextjs.org/docs/app/api-reference/functions/use-report-web-vitals",
+      "canonical": "https://nextjs.org/docs/app/api-reference/functions/use-report-web-vitals",
+      "raw_url": "https://nextjs.org/docs/app/api-reference/functions/use-report-web-vitals",
+      "description": "API Reference for the useReportWebVitals function.",
+      "line": 200
+    },
+    {
+      "label": "useRouter",
+      "url": "https://nextjs.org/docs/app/api-reference/functions/use-router",
+      "canonical": "https://nextjs.org/docs/app/api-reference/functions/use-router",
+      "raw_url": "https://nextjs.org/docs/app/api-reference/functions/use-router",
+      "description": "API reference for the useRouter hook.",
+      "line": 201
+    },
+    {
+      "label": "useSearchParams",
+      "url": "https://nextjs.org/docs/app/api-reference/functions/use-search-params",
+      "canonical": "https://nextjs.org/docs/app/api-reference/functions/use-search-params",
+      "raw_url": "https://nextjs.org/docs/app/api-reference/functions/use-search-params",
+      "description": "API Reference for the useSearchParams hook.",
+      "line": 202
+    },
+    {
+      "label": "useSelectedLayoutSegment",
+      "url": "https://nextjs.org/docs/app/api-reference/functions/use-selected-layout-segment",
+      "canonical": "https://nextjs.org/docs/app/api-reference/functions/use-selected-layout-segment",
+      "raw_url": "https://nextjs.org/docs/app/api-reference/functions/use-selected-layout-segment",
+      "description": "API Reference for the useSelectedLayoutSegment hook.",
+      "line": 203
+    },
+    {
+      "label": "useSelectedLayoutSegments",
+      "url": "https://nextjs.org/docs/app/api-reference/functions/use-selected-layout-segments",
+      "canonical": "https://nextjs.org/docs/app/api-reference/functions/use-selected-layout-segments",
+      "raw_url": "https://nextjs.org/docs/app/api-reference/functions/use-selected-layout-segments",
+      "description": "API Reference for the useSelectedLayoutSegments hook.",
+      "line": 204
+    },
+    {
+      "label": "userAgent",
+      "url": "https://nextjs.org/docs/app/api-reference/functions/userAgent",
+      "canonical": "https://nextjs.org/docs/app/api-reference/functions/userAgent",
+      "raw_url": "https://nextjs.org/docs/app/api-reference/functions/userAgent",
+      "description": "The userAgent helper extends the Web Request API with additional properties and methods to interact with the user agent object from the request.",
+      "line": 205
+    },
+    {
+      "label": "Configuration",
+      "url": "https://nextjs.org/docs/app/api-reference/config",
+      "canonical": "https://nextjs.org/docs/app/api-reference/config",
+      "raw_url": "https://nextjs.org/docs/app/api-reference/config",
+      "description": "Learn how to configure Next.js applications.",
+      "line": 206
+    },
+    {
+      "label": "next.config.js",
+      "url": "https://nextjs.org/docs/app/api-reference/config/next-config-js",
+      "canonical": "https://nextjs.org/docs/app/api-reference/config/next-config-js",
+      "raw_url": "https://nextjs.org/docs/app/api-reference/config/next-config-js",
+      "description": "Learn how to configure your application with next.config.js.",
+      "line": 207
+    },
+    {
+      "label": "adapterPath",
+      "url": "https://nextjs.org/docs/app/api-reference/config/next-config-js/adapterPath",
+      "canonical": "https://nextjs.org/docs/app/api-reference/config/next-config-js/adapterPath",
+      "raw_url": "https://nextjs.org/docs/app/api-reference/config/next-config-js/adapterPath",
+      "description": "Configure a custom adapter for Next.js to hook into the build process.",
+      "line": 208
+    },
+    {
+      "label": "allowedDevOrigins",
+      "url": "https://nextjs.org/docs/app/api-reference/config/next-config-js/allowedDevOrigins",
+      "canonical": "https://nextjs.org/docs/app/api-reference/config/next-config-js/allowedDevOrigins",
+      "raw_url": "https://nextjs.org/docs/app/api-reference/config/next-config-js/allowedDevOrigins",
+      "description": "Use allowedDevOrigins to configure additional origins that can request the dev server.",
+      "line": 209
+    },
+    {
+      "label": "appDir",
+      "url": "https://nextjs.org/docs/app/api-reference/config/next-config-js/appDir",
+      "canonical": "https://nextjs.org/docs/app/api-reference/config/next-config-js/appDir",
+      "raw_url": "https://nextjs.org/docs/app/api-reference/config/next-config-js/appDir",
+      "description": "Enable the App Router to use layouts, streaming, and more.",
+      "line": 210
+    },
+    {
+      "label": "assetPrefix",
+      "url": "https://nextjs.org/docs/app/api-reference/config/next-config-js/assetPrefix",
+      "canonical": "https://nextjs.org/docs/app/api-reference/config/next-config-js/assetPrefix",
+      "raw_url": "https://nextjs.org/docs/app/api-reference/config/next-config-js/assetPrefix",
+      "description": "Learn how to use the assetPrefix config option to configure your CDN.",
+      "line": 211
+    },
+    {
+      "label": "authInterrupts",
+      "url": "https://nextjs.org/docs/app/api-reference/config/next-config-js/authInterrupts",
+      "canonical": "https://nextjs.org/docs/app/api-reference/config/next-config-js/authInterrupts",
+      "raw_url": "https://nextjs.org/docs/app/api-reference/config/next-config-js/authInterrupts",
+      "description": "Learn how to enable the experimental authInterrupts configuration option to use forbidden and unauthorized.",
+      "line": 212
+    },
+    {
+      "label": "basePath",
+      "url": "https://nextjs.org/docs/app/api-reference/config/next-config-js/basePath",
+      "canonical": "https://nextjs.org/docs/app/api-reference/config/next-config-js/basePath",
+      "raw_url": "https://nextjs.org/docs/app/api-reference/config/next-config-js/basePath",
+      "description": "Use basePath to deploy a Next.js application under a sub-path of a domain.",
+      "line": 213
+    },
+    {
+      "label": "cacheComponents",
+      "url": "https://nextjs.org/docs/app/api-reference/config/next-config-js/cacheComponents",
+      "canonical": "https://nextjs.org/docs/app/api-reference/config/next-config-js/cacheComponents",
+      "raw_url": "https://nextjs.org/docs/app/api-reference/config/next-config-js/cacheComponents",
+      "description": "Learn how to enable the cacheComponents flag in Next.js.",
+      "line": 214
+    },
+    {
+      "label": "cacheHandlers",
+      "url": "https://nextjs.org/docs/app/api-reference/config/next-config-js/cacheHandlers",
+      "canonical": "https://nextjs.org/docs/app/api-reference/config/next-config-js/cacheHandlers",
+      "raw_url": "https://nextjs.org/docs/app/api-reference/config/next-config-js/cacheHandlers",
+      "description": "Configure custom cache handlers for use cache directives in Next.js.",
+      "line": 215
+    },
+    {
+      "label": "cacheLife",
+      "url": "https://nextjs.org/docs/app/api-reference/config/next-config-js/cacheLife",
+      "canonical": "https://nextjs.org/docs/app/api-reference/config/next-config-js/cacheLife",
+      "raw_url": "https://nextjs.org/docs/app/api-reference/config/next-config-js/cacheLife",
+      "description": "Learn how to set up cacheLife configurations in Next.js.",
+      "line": 216
+    },
+    {
+      "label": "cacheMaxMemorySize",
+      "url": "https://nextjs.org/docs/app/api-reference/config/next-config-js/cacheMaxMemorySize",
+      "canonical": "https://nextjs.org/docs/app/api-reference/config/next-config-js/cacheMaxMemorySize",
+      "raw_url": "https://nextjs.org/docs/app/api-reference/config/next-config-js/cacheMaxMemorySize",
+      "description": "Configure the size of the in-memory cache that Next.js keeps in each server instance.",
+      "line": 217
+    },
+    {
+      "label": "compress",
+      "url": "https://nextjs.org/docs/app/api-reference/config/next-config-js/compress",
+      "canonical": "https://nextjs.org/docs/app/api-reference/config/next-config-js/compress",
+      "raw_url": "https://nextjs.org/docs/app/api-reference/config/next-config-js/compress",
+      "description": "Next.js provides gzip compression to compress rendered content and static files, it only works with the server target. Learn more about it here.",
+      "line": 218
+    },
+    {
+      "label": "crossOrigin",
+      "url": "https://nextjs.org/docs/app/api-reference/config/next-config-js/crossOrigin",
+      "canonical": "https://nextjs.org/docs/app/api-reference/config/next-config-js/crossOrigin",
+      "raw_url": "https://nextjs.org/docs/app/api-reference/config/next-config-js/crossOrigin",
+      "description": "Use the crossOrigin option to add a crossOrigin tag on the script tags generated by next/script.",
+      "line": 219
+    },
+    {
+      "label": "cssChunking",
+      "url": "https://nextjs.org/docs/app/api-reference/config/next-config-js/cssChunking",
+      "canonical": "https://nextjs.org/docs/app/api-reference/config/next-config-js/cssChunking",
+      "raw_url": "https://nextjs.org/docs/app/api-reference/config/next-config-js/cssChunking",
+      "description": "Use the cssChunking option to control how CSS files are chunked in your Next.js application.",
+      "line": 220
+    },
+    {
+      "label": "deploymentId",
+      "url": "https://nextjs.org/docs/app/api-reference/config/next-config-js/deploymentId",
+      "canonical": "https://nextjs.org/docs/app/api-reference/config/next-config-js/deploymentId",
+      "raw_url": "https://nextjs.org/docs/app/api-reference/config/next-config-js/deploymentId",
+      "description": "Configure a deployment identifier used for version skew protection and cache busting.",
+      "line": 221
+    },
+    {
+      "label": "devIndicators",
+      "url": "https://nextjs.org/docs/app/api-reference/config/next-config-js/devIndicators",
+      "canonical": "https://nextjs.org/docs/app/api-reference/config/next-config-js/devIndicators",
+      "raw_url": "https://nextjs.org/docs/app/api-reference/config/next-config-js/devIndicators",
+      "description": "Configuration options for the on-screen indicator that gives context about the current route you're viewing during development.",
+      "line": 222
+    },
+    {
+      "label": "distDir",
+      "url": "https://nextjs.org/docs/app/api-reference/config/next-config-js/distDir",
+      "canonical": "https://nextjs.org/docs/app/api-reference/config/next-config-js/distDir",
+      "raw_url": "https://nextjs.org/docs/app/api-reference/config/next-config-js/distDir",
+      "description": "Set a custom build directory to use instead of the default .next directory.",
+      "line": 223
+    },
+    {
+      "label": "env",
+      "url": "https://nextjs.org/docs/app/api-reference/config/next-config-js/env",
+      "canonical": "https://nextjs.org/docs/app/api-reference/config/next-config-js/env",
+      "raw_url": "https://nextjs.org/docs/app/api-reference/config/next-config-js/env",
+      "description": "Learn to add and access environment variables in your Next.js application at build time.",
+      "line": 224
+    },
+    {
+      "label": "expireTime",
+      "url": "https://nextjs.org/docs/app/api-reference/config/next-config-js/expireTime",
+      "canonical": "https://nextjs.org/docs/app/api-reference/config/next-config-js/expireTime",
+      "raw_url": "https://nextjs.org/docs/app/api-reference/config/next-config-js/expireTime",
+      "description": "Customize stale-while-revalidate expire time for ISR enabled pages.",
+      "line": 225
+    },
+    {
+      "label": "exportPathMap",
+      "url": "https://nextjs.org/docs/app/api-reference/config/next-config-js/exportPathMap",
+      "canonical": "https://nextjs.org/docs/app/api-reference/config/next-config-js/exportPathMap",
+      "raw_url": "https://nextjs.org/docs/app/api-reference/config/next-config-js/exportPathMap",
+      "description": "Customize the pages that will be exported as HTML files when using next export.",
+      "line": 226
+    },
+    {
+      "label": "generateBuildId",
+      "url": "https://nextjs.org/docs/app/api-reference/config/next-config-js/generateBuildId",
+      "canonical": "https://nextjs.org/docs/app/api-reference/config/next-config-js/generateBuildId",
+      "raw_url": "https://nextjs.org/docs/app/api-reference/config/next-config-js/generateBuildId",
+      "description": "Configure the build id, which is used to identify the current build in which your application is being served.",
+      "line": 227
+    },
+    {
+      "label": "generateEtags",
+      "url": "https://nextjs.org/docs/app/api-reference/config/next-config-js/generateEtags",
+      "canonical": "https://nextjs.org/docs/app/api-reference/config/next-config-js/generateEtags",
+      "raw_url": "https://nextjs.org/docs/app/api-reference/config/next-config-js/generateEtags",
+      "description": "Next.js will generate etags for every page by default. Learn more about how to disable etag generation here.",
+      "line": 228
+    },
+    {
+      "label": "headers",
+      "url": "https://nextjs.org/docs/app/api-reference/config/next-config-js/headers",
+      "canonical": "https://nextjs.org/docs/app/api-reference/config/next-config-js/headers",
+      "raw_url": "https://nextjs.org/docs/app/api-reference/config/next-config-js/headers",
+      "description": "Add custom HTTP headers to your Next.js app.",
+      "line": 229
+    },
+    {
+      "label": "htmlLimitedBots",
+      "url": "https://nextjs.org/docs/app/api-reference/config/next-config-js/htmlLimitedBots",
+      "canonical": "https://nextjs.org/docs/app/api-reference/config/next-config-js/htmlLimitedBots",
+      "raw_url": "https://nextjs.org/docs/app/api-reference/config/next-config-js/htmlLimitedBots",
+      "description": "Specify a list of user agents that should receive blocking metadata.",
+      "line": 230
+    },
+    {
+      "label": "httpAgentOptions",
+      "url": "https://nextjs.org/docs/app/api-reference/config/next-config-js/httpAgentOptions",
+      "canonical": "https://nextjs.org/docs/app/api-reference/config/next-config-js/httpAgentOptions",
+      "raw_url": "https://nextjs.org/docs/app/api-reference/config/next-config-js/httpAgentOptions",
+      "description": "Next.js will automatically use HTTP Keep-Alive by default. Learn more about how to disable HTTP Keep-Alive here.",
+      "line": 231
+    },
+    {
+      "label": "images",
+      "url": "https://nextjs.org/docs/app/api-reference/config/next-config-js/images",
+      "canonical": "https://nextjs.org/docs/app/api-reference/config/next-config-js/images",
+      "raw_url": "https://nextjs.org/docs/app/api-reference/config/next-config-js/images",
+      "description": "Custom configuration for the next/image loader",
+      "line": 232
+    },
+    {
+      "label": "cacheHandler",
+      "url": "https://nextjs.org/docs/app/api-reference/config/next-config-js/incrementalCacheHandlerPath",
+      "canonical": "https://nextjs.org/docs/app/api-reference/config/next-config-js/incrementalCacheHandlerPath",
+      "raw_url": "https://nextjs.org/docs/app/api-reference/config/next-config-js/incrementalCacheHandlerPath",
+      "description": "Configure the Next.js cache used for storing and revalidating data to use any external service like Redis, Memcached, or others.",
+      "line": 233
+    },
+    {
+      "label": "inlineCss",
+      "url": "https://nextjs.org/docs/app/api-reference/config/next-config-js/inlineCss",
+      "canonical": "https://nextjs.org/docs/app/api-reference/config/next-config-js/inlineCss",
+      "raw_url": "https://nextjs.org/docs/app/api-reference/config/next-config-js/inlineCss",
+      "description": "Enable inline CSS support.",
+      "line": 234
+    },
+    {
+      "label": "instrumentationClientInject",
+      "url": "https://nextjs.org/docs/app/api-reference/config/next-config-js/instrumentationClientInject",
+      "canonical": "https://nextjs.org/docs/app/api-reference/config/next-config-js/instrumentationClientInject",
+      "raw_url": "https://nextjs.org/docs/app/api-reference/config/next-config-js/instrumentationClientInject",
+      "description": "Inject additional client-side instrumentation modules before the user's instrumentation-client.{js,ts} file.",
+      "line": 235
+    },
+    {
+      "label": "logging",
+      "url": "https://nextjs.org/docs/app/api-reference/config/next-config-js/logging",
+      "canonical": "https://nextjs.org/docs/app/api-reference/config/next-config-js/logging",
+      "raw_url": "https://nextjs.org/docs/app/api-reference/config/next-config-js/logging",
+      "description": "Configure logging behavior in the terminal when running Next.js in development mode, including fetch logging, incoming requests, and forwarding browser console logs to the terminal.",
+      "line": 236
+    },
+    {
+      "label": "mdxRs",
+      "url": "https://nextjs.org/docs/app/api-reference/config/next-config-js/mdxRs",
+      "canonical": "https://nextjs.org/docs/app/api-reference/config/next-config-js/mdxRs",
+      "raw_url": "https://nextjs.org/docs/app/api-reference/config/next-config-js/mdxRs",
+      "description": "Use the new Rust compiler to compile MDX files in the App Router.",
+      "line": 237
+    },
+    {
+      "label": "onDemandEntries",
+      "url": "https://nextjs.org/docs/app/api-reference/config/next-config-js/onDemandEntries",
+      "canonical": "https://nextjs.org/docs/app/api-reference/config/next-config-js/onDemandEntries",
+      "raw_url": "https://nextjs.org/docs/app/api-reference/config/next-config-js/onDemandEntries",
+      "description": "Configure how Next.js will dispose and keep in memory pages created in development.",
+      "line": 238
+    },
+    {
+      "label": "optimizePackageImports",
+      "url": "https://nextjs.org/docs/app/api-reference/config/next-config-js/optimizePackageImports",
+      "canonical": "https://nextjs.org/docs/app/api-reference/config/next-config-js/optimizePackageImports",
+      "raw_url": "https://nextjs.org/docs/app/api-reference/config/next-config-js/optimizePackageImports",
+      "description": "API Reference for optimizePackageImports Next.js Config Option",
+      "line": 239
+    },
+    {
+      "label": "output",
+      "url": "https://nextjs.org/docs/app/api-reference/config/next-config-js/output",
+      "canonical": "https://nextjs.org/docs/app/api-reference/config/next-config-js/output",
+      "raw_url": "https://nextjs.org/docs/app/api-reference/config/next-config-js/output",
+      "description": "Next.js automatically traces which files are needed by each page to allow for easy deployment of your application. Learn how it works here.",
+      "line": 240
+    },
+    {
+      "label": "outputHashSalt",
+      "url": "https://nextjs.org/docs/app/api-reference/config/next-config-js/outputHashSalt",
+      "canonical": "https://nextjs.org/docs/app/api-reference/config/next-config-js/outputHashSalt",
+      "raw_url": "https://nextjs.org/docs/app/api-reference/config/next-config-js/outputHashSalt",
+      "description": "Learn how to incorporate a custom salt string into content-addressed output filenames.",
+      "line": 241
+    },
+    {
+      "label": "pageExtensions",
+      "url": "https://nextjs.org/docs/app/api-reference/config/next-config-js/pageExtensions",
+      "canonical": "https://nextjs.org/docs/app/api-reference/config/next-config-js/pageExtensions",
+      "raw_url": "https://nextjs.org/docs/app/api-reference/config/next-config-js/pageExtensions",
+      "description": "Extend the default page extensions used by Next.js when resolving pages in the Pages Router.",
+      "line": 242
+    },
+    {
+      "label": "partialPrefetching",
+      "url": "https://nextjs.org/docs/app/api-reference/config/next-config-js/partialPrefetching",
+      "canonical": "https://nextjs.org/docs/app/api-reference/config/next-config-js/partialPrefetching",
+      "raw_url": "https://nextjs.org/docs/app/api-reference/config/next-config-js/partialPrefetching",
+      "description": "Configure the default link prefetch behavior to fetch only the static parts of each route.",
+      "line": 243
+    },
+    {
+      "label": "poweredByHeader",
+      "url": "https://nextjs.org/docs/app/api-reference/config/next-config-js/poweredByHeader",
+      "canonical": "https://nextjs.org/docs/app/api-reference/config/next-config-js/poweredByHeader",
+      "raw_url": "https://nextjs.org/docs/app/api-reference/config/next-config-js/poweredByHeader",
+      "description": "Next.js will add the x-powered-by header by default. Learn to opt-out of it here.",
+      "line": 244
+    },
+    {
+      "label": "prefetchInlining",
+      "url": "https://nextjs.org/docs/app/api-reference/config/next-config-js/prefetchInlining",
+      "canonical": "https://nextjs.org/docs/app/api-reference/config/next-config-js/prefetchInlining",
+      "raw_url": "https://nextjs.org/docs/app/api-reference/config/next-config-js/prefetchInlining",
+      "description": "Override how the App Router bundles small prefetch responses together.",
+      "line": 245
+    },
+    {
+      "label": "productionBrowserSourceMaps",
+      "url": "https://nextjs.org/docs/app/api-reference/config/next-config-js/productionBrowserSourceMaps",
+      "canonical": "https://nextjs.org/docs/app/api-reference/config/next-config-js/productionBrowserSourceMaps",
+      "raw_url": "https://nextjs.org/docs/app/api-reference/config/next-config-js/productionBrowserSourceMaps",
+      "description": "Enables browser source map generation during the production build.",
+      "line": 246
+    },
+    {
+      "label": "proxyClientMaxBodySize",
+      "url": "https://nextjs.org/docs/app/api-reference/config/next-config-js/proxyClientMaxBodySize",
+      "canonical": "https://nextjs.org/docs/app/api-reference/config/next-config-js/proxyClientMaxBodySize",
+      "raw_url": "https://nextjs.org/docs/app/api-reference/config/next-config-js/proxyClientMaxBodySize",
+      "description": "Configure the maximum request body size when using proxy.",
+      "line": 247
+    },
+    {
+      "label": "reactCompiler",
+      "url": "https://nextjs.org/docs/app/api-reference/config/next-config-js/reactCompiler",
+      "canonical": "https://nextjs.org/docs/app/api-reference/config/next-config-js/reactCompiler",
+      "raw_url": "https://nextjs.org/docs/app/api-reference/config/next-config-js/reactCompiler",
+      "description": "Enable the React Compiler to automatically optimize component rendering.",
+      "line": 248
+    },
+    {
+      "label": "reactMaxHeadersLength",
+      "url": "https://nextjs.org/docs/app/api-reference/config/next-config-js/reactMaxHeadersLength",
+      "canonical": "https://nextjs.org/docs/app/api-reference/config/next-config-js/reactMaxHeadersLength",
+      "raw_url": "https://nextjs.org/docs/app/api-reference/config/next-config-js/reactMaxHeadersLength",
+      "description": "The maximum length of the headers that are emitted by React and added to the response.",
+      "line": 249
+    },
+    {
+      "label": "reactStrictMode",
+      "url": "https://nextjs.org/docs/app/api-reference/config/next-config-js/reactStrictMode",
+      "canonical": "https://nextjs.org/docs/app/api-reference/config/next-config-js/reactStrictMode",
+      "raw_url": "https://nextjs.org/docs/app/api-reference/config/next-config-js/reactStrictMode",
+      "description": "The complete Next.js runtime is now Strict Mode-compliant, learn how to opt-in",
+      "line": 250
+    },
+    {
+      "label": "redirects",
+      "url": "https://nextjs.org/docs/app/api-reference/config/next-config-js/redirects",
+      "canonical": "https://nextjs.org/docs/app/api-reference/config/next-config-js/redirects",
+      "raw_url": "https://nextjs.org/docs/app/api-reference/config/next-config-js/redirects",
+      "description": "Add redirects to your Next.js app.",
+      "line": 251
+    },
+    {
+      "label": "rewrites",
+      "url": "https://nextjs.org/docs/app/api-reference/config/next-config-js/rewrites",
+      "canonical": "https://nextjs.org/docs/app/api-reference/config/next-config-js/rewrites",
+      "raw_url": "https://nextjs.org/docs/app/api-reference/config/next-config-js/rewrites",
+      "description": "Add rewrites to your Next.js app.",
+      "line": 252
+    },
+    {
+      "label": "sassOptions",
+      "url": "https://nextjs.org/docs/app/api-reference/config/next-config-js/sassOptions",
+      "canonical": "https://nextjs.org/docs/app/api-reference/config/next-config-js/sassOptions",
+      "raw_url": "https://nextjs.org/docs/app/api-reference/config/next-config-js/sassOptions",
+      "description": "Configure Sass options.",
+      "line": 253
+    },
+    {
+      "label": "serverActions",
+      "url": "https://nextjs.org/docs/app/api-reference/config/next-config-js/serverActions",
+      "canonical": "https://nextjs.org/docs/app/api-reference/config/next-config-js/serverActions",
+      "raw_url": "https://nextjs.org/docs/app/api-reference/config/next-config-js/serverActions",
+      "description": "Configure Server Actions behavior in your Next.js application.",
+      "line": 254
+    },
+    {
+      "label": "serverComponentsHmrCache",
+      "url": "https://nextjs.org/docs/app/api-reference/config/next-config-js/serverComponentsHmrCache",
+      "canonical": "https://nextjs.org/docs/app/api-reference/config/next-config-js/serverComponentsHmrCache",
+      "raw_url": "https://nextjs.org/docs/app/api-reference/config/next-config-js/serverComponentsHmrCache",
+      "description": "Configure whether fetch responses in Server Components are cached across HMR refresh requests.",
+      "line": 255
+    },
+    {
+      "label": "serverExternalPackages",
+      "url": "https://nextjs.org/docs/app/api-reference/config/next-config-js/serverExternalPackages",
+      "canonical": "https://nextjs.org/docs/app/api-reference/config/next-config-js/serverExternalPackages",
+      "raw_url": "https://nextjs.org/docs/app/api-reference/config/next-config-js/serverExternalPackages",
+      "description": "Opt-out specific dependencies from the Server Components bundling and use native Node.js require.",
+      "line": 256
+    },
+    {
+      "label": "skipProxyUrlNormalize",
+      "url": "https://nextjs.org/docs/app/api-reference/config/next-config-js/skipProxyUrlNormalize",
+      "canonical": "https://nextjs.org/docs/app/api-reference/config/next-config-js/skipProxyUrlNormalize",
+      "raw_url": "https://nextjs.org/docs/app/api-reference/config/next-config-js/skipProxyUrlNormalize",
+      "description": "Let Proxy see the original request instead of Next.js's normalized version. Formerly skipMiddlewareUrlNormalize.",
+      "line": 257
+    },
+    {
+      "label": "skipTrailingSlashRedirect",
+      "url": "https://nextjs.org/docs/app/api-reference/config/next-config-js/skipTrailingSlashRedirect",
+      "canonical": "https://nextjs.org/docs/app/api-reference/config/next-config-js/skipTrailingSlashRedirect",
+      "raw_url": "https://nextjs.org/docs/app/api-reference/config/next-config-js/skipTrailingSlashRedirect",
+      "description": "Disable the automatic trailing slash redirects so you can handle trailing slashes yourself in Proxy.",
+      "line": 258
+    },
+    {
+      "label": "staleTimes",
+      "url": "https://nextjs.org/docs/app/api-reference/config/next-config-js/staleTimes",
+      "canonical": "https://nextjs.org/docs/app/api-reference/config/next-config-js/staleTimes",
+      "raw_url": "https://nextjs.org/docs/app/api-reference/config/next-config-js/staleTimes",
+      "description": "Learn how to override the invalidation time of the client cache.",
+      "line": 259
+    },
+    {
+      "label": "staticGeneration*",
+      "url": "https://nextjs.org/docs/app/api-reference/config/next-config-js/staticGeneration",
+      "canonical": "https://nextjs.org/docs/app/api-reference/config/next-config-js/staticGeneration",
+      "raw_url": "https://nextjs.org/docs/app/api-reference/config/next-config-js/staticGeneration",
+      "description": "Learn how to configure static generation in your Next.js application.",
+      "line": 260
+    },
+    {
+      "label": "supportsImmutableAssets",
+      "url": "https://nextjs.org/docs/app/api-reference/config/next-config-js/supportsImmutableAssets",
+      "canonical": "https://nextjs.org/docs/app/api-reference/config/next-config-js/supportsImmutableAssets",
+      "raw_url": "https://nextjs.org/docs/app/api-reference/config/next-config-js/supportsImmutableAssets",
+      "description": "Configure support for immutable static assets",
+      "line": 261
+    },
+    {
+      "label": "taint",
+      "url": "https://nextjs.org/docs/app/api-reference/config/next-config-js/taint",
+      "canonical": "https://nextjs.org/docs/app/api-reference/config/next-config-js/taint",
+      "raw_url": "https://nextjs.org/docs/app/api-reference/config/next-config-js/taint",
+      "description": "Enable tainting Objects and Values.",
+      "line": 262
+    },
+    {
+      "label": "trailingSlash",
+      "url": "https://nextjs.org/docs/app/api-reference/config/next-config-js/trailingSlash",
+      "canonical": "https://nextjs.org/docs/app/api-reference/config/next-config-js/trailingSlash",
+      "raw_url": "https://nextjs.org/docs/app/api-reference/config/next-config-js/trailingSlash",
+      "description": "Configure Next.js pages to resolve with or without a trailing slash.",
+      "line": 263
+    },
+    {
+      "label": "transpilePackages",
+      "url": "https://nextjs.org/docs/app/api-reference/config/next-config-js/transpilePackages",
+      "canonical": "https://nextjs.org/docs/app/api-reference/config/next-config-js/transpilePackages",
+      "raw_url": "https://nextjs.org/docs/app/api-reference/config/next-config-js/transpilePackages",
+      "description": "Transpile and bundle dependencies from monorepo workspace packages or node_modules libraries that ship TypeScript, JSX, or modern syntax.",
+      "line": 264
+    },
+    {
+      "label": "turbopack",
+      "url": "https://nextjs.org/docs/app/api-reference/config/next-config-js/turbopack",
+      "canonical": "https://nextjs.org/docs/app/api-reference/config/next-config-js/turbopack",
+      "raw_url": "https://nextjs.org/docs/app/api-reference/config/next-config-js/turbopack",
+      "description": "Configure Next.js with Turbopack-specific options",
+      "line": 265
+    },
+    {
+      "label": "turbopackChunking",
+      "url": "https://nextjs.org/docs/app/api-reference/config/next-config-js/turbopackChunking",
+      "canonical": "https://nextjs.org/docs/app/api-reference/config/next-config-js/turbopackChunking",
+      "raw_url": "https://nextjs.org/docs/app/api-reference/config/next-config-js/turbopackChunking",
+      "description": "Configure how Turbopack splits your client-side JavaScript into chunks in production.",
+      "line": 266
+    },
+    {
+      "label": "turbopackFileSystemCache",
+      "url": "https://nextjs.org/docs/app/api-reference/config/next-config-js/turbopackFileSystemCache",
+      "canonical": "https://nextjs.org/docs/app/api-reference/config/next-config-js/turbopackFileSystemCache",
+      "raw_url": "https://nextjs.org/docs/app/api-reference/config/next-config-js/turbopackFileSystemCache",
+      "description": "Learn how to enable and configure FileSystem Caching for Turbopack builds",
+      "line": 267
+    },
+    {
+      "label": "turbopack.ignoreIssue",
+      "url": "https://nextjs.org/docs/app/api-reference/config/next-config-js/turbopackIgnoreIssue",
+      "canonical": "https://nextjs.org/docs/app/api-reference/config/next-config-js/turbopackIgnoreIssue",
+      "raw_url": "https://nextjs.org/docs/app/api-reference/config/next-config-js/turbopackIgnoreIssue",
+      "description": "Suppress specific Turbopack errors and warnings from the CLI output and error overlay.",
+      "line": 268
+    },
+    {
+      "label": "turbopackLocalPostcssConfig",
+      "url": "https://nextjs.org/docs/app/api-reference/config/next-config-js/turbopackLocalPostcssConfig",
+      "canonical": "https://nextjs.org/docs/app/api-reference/config/next-config-js/turbopackLocalPostcssConfig",
+      "raw_url": "https://nextjs.org/docs/app/api-reference/config/next-config-js/turbopackLocalPostcssConfig",
+      "description": "Enable per-directory PostCSS config resolution in Turbopack so that the config closest to each CSS file takes precedence over the project root config.",
+      "line": 269
+    },
+    {
+      "label": "turbopackMemoryEviction",
+      "url": "https://nextjs.org/docs/app/api-reference/config/next-config-js/turbopackMemoryEviction",
+      "canonical": "https://nextjs.org/docs/app/api-reference/config/next-config-js/turbopackMemoryEviction",
+      "raw_url": "https://nextjs.org/docs/app/api-reference/config/next-config-js/turbopackMemoryEviction",
+      "description": "Learn how to control Turbopack's memory eviction strategy for the persistent cache.",
+      "line": 270
+    },
+    {
+      "label": "turbopackRustReactCompiler",
+      "url": "https://nextjs.org/docs/app/api-reference/config/next-config-js/turbopackRustReactCompiler",
+      "canonical": "https://nextjs.org/docs/app/api-reference/config/next-config-js/turbopackRustReactCompiler",
+      "raw_url": "https://nextjs.org/docs/app/api-reference/config/next-config-js/turbopackRustReactCompiler",
+      "description": "Use the native Rust port of the React Compiler with Turbopack instead of the Babel transform.",
+      "line": 271
+    },
+    {
+      "label": "typedRoutes",
+      "url": "https://nextjs.org/docs/app/api-reference/config/next-config-js/typedRoutes",
+      "canonical": "https://nextjs.org/docs/app/api-reference/config/next-config-js/typedRoutes",
+      "raw_url": "https://nextjs.org/docs/app/api-reference/config/next-config-js/typedRoutes",
+      "description": "Enable support for statically typed links.",
+      "line": 272
+    },
+    {
+      "label": "typescript",
+      "url": "https://nextjs.org/docs/app/api-reference/config/next-config-js/typescript",
+      "canonical": "https://nextjs.org/docs/app/api-reference/config/next-config-js/typescript",
+      "raw_url": "https://nextjs.org/docs/app/api-reference/config/next-config-js/typescript",
+      "description": "Configure how Next.js handles TypeScript errors during production builds and specify a custom tsconfig file.",
+      "line": 273
+    },
+    {
+      "label": "urlImports",
+      "url": "https://nextjs.org/docs/app/api-reference/config/next-config-js/urlImports",
+      "canonical": "https://nextjs.org/docs/app/api-reference/config/next-config-js/urlImports",
+      "raw_url": "https://nextjs.org/docs/app/api-reference/config/next-config-js/urlImports",
+      "description": "Configure Next.js to allow importing modules from external URLs.",
+      "line": 274
+    },
+    {
+      "label": "useLightningcss",
+      "url": "https://nextjs.org/docs/app/api-reference/config/next-config-js/useLightningcss",
+      "canonical": "https://nextjs.org/docs/app/api-reference/config/next-config-js/useLightningcss",
+      "raw_url": "https://nextjs.org/docs/app/api-reference/config/next-config-js/useLightningcss",
+      "description": "Enable experimental support for Lightning CSS.",
+      "line": 275
+    },
+    {
+      "label": "useOffline",
+      "url": "https://nextjs.org/docs/app/api-reference/config/next-config-js/useOffline",
+      "canonical": "https://nextjs.org/docs/app/api-reference/config/next-config-js/useOffline",
+      "raw_url": "https://nextjs.org/docs/app/api-reference/config/next-config-js/useOffline",
+      "description": "Learn how to enable the experimental useOffline configuration option to detect connectivity and retry failed requests automatically.",
+      "line": 276
+    },
+    {
+      "label": "useTypeScriptCli",
+      "url": "https://nextjs.org/docs/app/api-reference/config/next-config-js/useTypeScriptCli",
+      "canonical": "https://nextjs.org/docs/app/api-reference/config/next-config-js/useTypeScriptCli",
+      "raw_url": "https://nextjs.org/docs/app/api-reference/config/next-config-js/useTypeScriptCli",
+      "description": "Run the project-local TypeScript CLI for type checking during production builds.",
+      "line": 277
+    },
+    {
+      "label": "webpack",
+      "url": "https://nextjs.org/docs/app/api-reference/config/next-config-js/webpack",
+      "canonical": "https://nextjs.org/docs/app/api-reference/config/next-config-js/webpack",
+      "raw_url": "https://nextjs.org/docs/app/api-reference/config/next-config-js/webpack",
+      "description": "Learn how to customize the webpack config used by Next.js",
+      "line": 278
+    },
+    {
+      "label": "webVitalsAttribution",
+      "url": "https://nextjs.org/docs/app/api-reference/config/next-config-js/webVitalsAttribution",
+      "canonical": "https://nextjs.org/docs/app/api-reference/config/next-config-js/webVitalsAttribution",
+      "raw_url": "https://nextjs.org/docs/app/api-reference/config/next-config-js/webVitalsAttribution",
+      "description": "Learn how to use the webVitalsAttribution option to pinpoint the source of Web Vitals issues.",
+      "line": 279
+    },
+    {
+      "label": "TypeScript",
+      "url": "https://nextjs.org/docs/app/api-reference/config/typescript",
+      "canonical": "https://nextjs.org/docs/app/api-reference/config/typescript",
+      "raw_url": "https://nextjs.org/docs/app/api-reference/config/typescript",
+      "description": "Next.js provides a TypeScript-first development experience for building your React application.",
+      "line": 280
+    },
+    {
+      "label": "ESLint",
+      "url": "https://nextjs.org/docs/app/api-reference/config/eslint",
+      "canonical": "https://nextjs.org/docs/app/api-reference/config/eslint",
+      "raw_url": "https://nextjs.org/docs/app/api-reference/config/eslint",
+      "description": "Learn how to use and configure the ESLint plugin to catch common issues and problems in a Next.js application.",
+      "line": 281
+    },
+    {
+      "label": "CLI",
+      "url": "https://nextjs.org/docs/app/api-reference/cli",
+      "canonical": "https://nextjs.org/docs/app/api-reference/cli",
+      "raw_url": "https://nextjs.org/docs/app/api-reference/cli",
+      "description": "API Reference for the Next.js Command Line Interface (CLI) tools.",
+      "line": 282
+    },
+    {
+      "label": "create-next-app",
+      "url": "https://nextjs.org/docs/app/api-reference/cli/create-next-app",
+      "canonical": "https://nextjs.org/docs/app/api-reference/cli/create-next-app",
+      "raw_url": "https://nextjs.org/docs/app/api-reference/cli/create-next-app",
+      "description": "Create Next.js apps using one command with the create-next-app CLI.",
+      "line": 283
+    },
+    {
+      "label": "next CLI",
+      "url": "https://nextjs.org/docs/app/api-reference/cli/next",
+      "canonical": "https://nextjs.org/docs/app/api-reference/cli/next",
+      "raw_url": "https://nextjs.org/docs/app/api-reference/cli/next",
+      "description": "Learn how to run and build your application with the Next.js CLI.",
+      "line": 284
+    },
+    {
+      "label": "Adapters",
+      "url": "https://nextjs.org/docs/app/api-reference/adapters",
+      "canonical": "https://nextjs.org/docs/app/api-reference/adapters",
+      "raw_url": "https://nextjs.org/docs/app/api-reference/adapters",
+      "description": "Build deployment adapters for Next.js platforms and infrastructure.",
+      "line": 285
+    },
+    {
+      "label": "Configuration",
+      "url": "https://nextjs.org/docs/app/api-reference/adapters/configuration",
+      "canonical": "https://nextjs.org/docs/app/api-reference/adapters/configuration",
+      "raw_url": "https://nextjs.org/docs/app/api-reference/adapters/configuration",
+      "description": "Configure adapterPath or NEXT_ADAPTER_PATH to use a custom deployment adapter.",
+      "line": 286
+    },
+    {
+      "label": "Creating an Adapter",
+      "url": "https://nextjs.org/docs/app/api-reference/adapters/creating-an-adapter",
+      "canonical": "https://nextjs.org/docs/app/api-reference/adapters/creating-an-adapter",
+      "raw_url": "https://nextjs.org/docs/app/api-reference/adapters/creating-an-adapter",
+      "description": "Create an adapter module that implements the NextAdapter interface.",
+      "line": 287
+    },
+    {
+      "label": "API Reference",
+      "url": "https://nextjs.org/docs/app/api-reference/adapters/api-reference",
+      "canonical": "https://nextjs.org/docs/app/api-reference/adapters/api-reference",
+      "raw_url": "https://nextjs.org/docs/app/api-reference/adapters/api-reference",
+      "description": "Reference for modifyConfig and onBuildComplete in the NextAdapter interface.",
+      "line": 288
+    },
+    {
+      "label": "Testing Adapters",
+      "url": "https://nextjs.org/docs/app/api-reference/adapters/testing-adapters",
+      "canonical": "https://nextjs.org/docs/app/api-reference/adapters/testing-adapters",
+      "raw_url": "https://nextjs.org/docs/app/api-reference/adapters/testing-adapters",
+      "description": "Validate adapters with the Next.js compatibility test harness and custom lifecycle scripts.",
+      "line": 289
+    },
+    {
+      "label": "Routing with @next/routing",
+      "url": "https://nextjs.org/docs/app/api-reference/adapters/routing-with-next-routing",
+      "canonical": "https://nextjs.org/docs/app/api-reference/adapters/routing-with-next-routing",
+      "raw_url": "https://nextjs.org/docs/app/api-reference/adapters/routing-with-next-routing",
+      "description": "Use @next/routing to apply Next.js route matching behavior in adapters.",
+      "line": 290
+    },
+    {
+      "label": "Implementing PPR in an Adapter",
+      "url": "https://nextjs.org/docs/app/api-reference/adapters/implementing-ppr-in-an-adapter",
+      "canonical": "https://nextjs.org/docs/app/api-reference/adapters/implementing-ppr-in-an-adapter",
+      "raw_url": "https://nextjs.org/docs/app/api-reference/adapters/implementing-ppr-in-an-adapter",
+      "description": "Implement Partial Prerendering support in an adapter using fallback output and cache hooks.",
+      "line": 291
+    },
+    {
+      "label": "Runtime Integration",
+      "url": "https://nextjs.org/docs/app/api-reference/adapters/runtime-integration",
+      "canonical": "https://nextjs.org/docs/app/api-reference/adapters/runtime-integration",
+      "raw_url": "https://nextjs.org/docs/app/api-reference/adapters/runtime-integration",
+      "description": "Understand how build-time adapters and runtime cache interfaces work together.",
+      "line": 292
+    },
+    {
+      "label": "Invoking Entrypoints",
+      "url": "https://nextjs.org/docs/app/api-reference/adapters/invoking-entrypoints",
+      "canonical": "https://nextjs.org/docs/app/api-reference/adapters/invoking-entrypoints",
+      "raw_url": "https://nextjs.org/docs/app/api-reference/adapters/invoking-entrypoints",
+      "description": "Invoke Node.js and Edge build entrypoints with adapter runtime context.",
+      "line": 293
+    },
+    {
+      "label": "Output Types",
+      "url": "https://nextjs.org/docs/app/api-reference/adapters/output-types",
+      "canonical": "https://nextjs.org/docs/app/api-reference/adapters/output-types",
+      "raw_url": "https://nextjs.org/docs/app/api-reference/adapters/output-types",
+      "description": "Reference for all build output types exposed to adapters.",
+      "line": 294
+    },
+    {
+      "label": "Routing Information",
+      "url": "https://nextjs.org/docs/app/api-reference/adapters/routing-information",
+      "canonical": "https://nextjs.org/docs/app/api-reference/adapters/routing-information",
+      "raw_url": "https://nextjs.org/docs/app/api-reference/adapters/routing-information",
+      "description": "Reference for routing phases and route fields exposed in onBuildComplete.",
+      "line": 295
+    },
+    {
+      "label": "Use Cases",
+      "url": "https://nextjs.org/docs/app/api-reference/adapters/use-cases",
+      "canonical": "https://nextjs.org/docs/app/api-reference/adapters/use-cases",
+      "raw_url": "https://nextjs.org/docs/app/api-reference/adapters/use-cases",
+      "description": "Common patterns and examples for deployment adapter implementations.",
+      "line": 296
+    },
+    {
+      "label": "Supporting Immutable Static Assets",
+      "url": "https://nextjs.org/docs/app/api-reference/adapters/immutable-static-assets",
+      "canonical": "https://nextjs.org/docs/app/api-reference/adapters/immutable-static-assets",
+      "raw_url": "https://nextjs.org/docs/app/api-reference/adapters/immutable-static-assets",
+      "description": "Support immutable static assets in an adapter",
+      "line": 297
+    },
+    {
+      "label": "Edge Runtime",
+      "url": "https://nextjs.org/docs/app/api-reference/edge",
+      "canonical": "https://nextjs.org/docs/app/api-reference/edge",
+      "raw_url": "https://nextjs.org/docs/app/api-reference/edge",
+      "description": "API Reference for the Edge Runtime.",
+      "line": 298
+    },
+    {
+      "label": "Turbopack",
+      "url": "https://nextjs.org/docs/app/api-reference/turbopack",
+      "canonical": "https://nextjs.org/docs/app/api-reference/turbopack",
+      "raw_url": "https://nextjs.org/docs/app/api-reference/turbopack",
+      "description": "Turbopack is an incremental bundler optimized for JavaScript and TypeScript, written in Rust, and built into Next.js.",
+      "line": 299
+    },
+    {
+      "label": "Glossary",
+      "url": "https://nextjs.org/docs/app/glossary",
+      "canonical": "https://nextjs.org/docs/app/glossary",
+      "raw_url": "https://nextjs.org/docs/app/glossary",
+      "description": "",
+      "line": 301
+    },
+    {
+      "label": "Architecture",
+      "url": "https://nextjs.org/docs/architecture",
+      "canonical": "https://nextjs.org/docs/architecture",
+      "raw_url": "https://nextjs.org/docs/architecture",
+      "description": "",
+      "line": 306
+    },
+    {
+      "label": "Accessibility",
+      "url": "https://nextjs.org/docs/architecture/accessibility",
+      "canonical": "https://nextjs.org/docs/architecture/accessibility",
+      "raw_url": "https://nextjs.org/docs/architecture/accessibility",
+      "description": "The built-in accessibility features of Next.js.",
+      "line": 310
+    },
+    {
+      "label": "Fast Refresh",
+      "url": "https://nextjs.org/docs/architecture/fast-refresh",
+      "canonical": "https://nextjs.org/docs/architecture/fast-refresh",
+      "raw_url": "https://nextjs.org/docs/architecture/fast-refresh",
+      "description": "Fast Refresh is a hot module reloading experience that gives you instantaneous feedback on edits made to your React components.",
+      "line": 311
+    },
+    {
+      "label": "Next.js Compiler",
+      "url": "https://nextjs.org/docs/architecture/nextjs-compiler",
+      "canonical": "https://nextjs.org/docs/architecture/nextjs-compiler",
+      "raw_url": "https://nextjs.org/docs/architecture/nextjs-compiler",
+      "description": "Next.js Compiler, written in Rust, which transforms and minifies your Next.js application.",
+      "line": 312
+    },
+    {
+      "label": "Supported Browsers",
+      "url": "https://nextjs.org/docs/architecture/supported-browsers",
+      "canonical": "https://nextjs.org/docs/architecture/supported-browsers",
+      "raw_url": "https://nextjs.org/docs/architecture/supported-browsers",
+      "description": "Browser support and which JavaScript features are supported by Next.js.",
+      "line": 313
+    },
+    {
+      "label": "Community",
+      "url": "https://nextjs.org/docs/community",
+      "canonical": "https://nextjs.org/docs/community",
+      "raw_url": "https://nextjs.org/docs/community",
+      "description": "",
+      "line": 315
+    },
+    {
+      "label": "Contribution Guide",
+      "url": "https://nextjs.org/docs/community/contribution-guide",
+      "canonical": "https://nextjs.org/docs/community/contribution-guide",
+      "raw_url": "https://nextjs.org/docs/community/contribution-guide",
+      "description": "Learn how to contribute to Next.js Documentation",
+      "line": 319
+    },
+    {
+      "label": "Rspack",
+      "url": "https://nextjs.org/docs/community/rspack",
+      "canonical": "https://nextjs.org/docs/community/rspack",
+      "raw_url": "https://nextjs.org/docs/community/rspack",
+      "description": "Use the next-rspack plugin to bundle your Next.js with Rspack.",
+      "line": 320
+    },
+    {
+      "label": "Pages Router",
+      "url": "https://nextjs.org/docs/pages/llms.txt",
+      "canonical": "https://nextjs.org/docs/pages/llms.txt",
+      "raw_url": "https://nextjs.org/docs/pages/llms.txt",
+      "description": "Index of all Pages Router documentation",
+      "line": 324
+    }
+  ],
+  "bare_links": [],
+  "metrics": {
+    "bytes": 48355,
+    "words": 4146,
+    "lines": 324,
+    "approx_tokens_chars_div_4": 12088,
+    "h1_count": 1,
+    "link_count": 290,
+    "bare_url_count": 0,
+    "described_links": 284,
+    "unique_destinations": 290,
+    "markdown_destinations": 0
+  },
+  "flags": [
+    "large-index-test-task-routing"
+  ]
+}

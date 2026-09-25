@@ -1,0 +1,62 @@
+{
+  "parser_version": "corpus-v2",
+  "headings": [
+    {
+      "level": 1,
+      "text": "Example Store",
+      "line": 1
+    },
+    {
+      "level": 2,
+      "text": "Shopping",
+      "line": 5
+    },
+    {
+      "level": 2,
+      "text": "Support",
+      "line": 10
+    }
+  ],
+  "links": [
+    {
+      "label": "Backpacks",
+      "url": "https://example.com/collections/backpacks",
+      "canonical": "https://example.com/collections/backpacks",
+      "raw_url": "https://example.com/collections/backpacks",
+      "description": "Main product category.",
+      "line": 7
+    },
+    {
+      "label": "Shipping policy",
+      "url": "https://example.com/policies/shipping",
+      "canonical": "https://example.com/policies/shipping",
+      "raw_url": "https://example.com/policies/shipping",
+      "description": "Delivery times and regions.",
+      "line": 8
+    },
+    {
+      "label": "Returns",
+      "url": "https://example.com/policies/returns",
+      "canonical": "https://example.com/policies/returns",
+      "raw_url": "https://example.com/policies/returns",
+      "description": "Return window and refund process.",
+      "line": 12
+    }
+  ],
+  "bare_links": [],
+  "metrics": {
+    "bytes": 370,
+    "words": 36,
+    "lines": 12,
+    "approx_tokens_chars_div_4": 93,
+    "h1_count": 1,
+    "link_count": 3,
+    "bare_url_count": 0,
+    "described_links": 3,
+    "unique_destinations": 3,
+    "markdown_destinations": 0
+  },
+  "flags": [
+    "placeholder-review"
+  ]
+}

@@ -1,0 +1,57 @@
+# Picflow
+
+> Picflow is a modern client gallery and collaboration platform for photographers and creative teams to share, proof, and deliver images and videos. Create branded galleries, collect precise feedback, track approvals, and manage reviews end-to-end.
+
+## Key Features
+- Best online proofing platform for professional photographers and creative professionals.
+- Boost the approval process and save time with streamlined feedback and real-time notifications.
+- Advanced gallery designer with themes, presets and unlimited design options.
+- Upload any type of creative assets, including video, RAW photos, PDF, audio, and more.
+- Embed online galleries directly on any website with native HTML embeds.
+- Loved by customers for its modern design and user experience.
+- Digital Asset Management (DAM) platform optimized for simplicity.
+
+## Resources
+
+- [Pricing](https://picflow.com/pricing): Detailed pricing plans and options.
+- [Reviews](https://picflow.com/love): Testimonials and feedback from Picflow users.
+- [Customers](https://picflow.com/): Case studies and success stories.
+- [Blog](https://picflow.com/blog): Articles on creative workflows, online proofing, and digital asset management.
+- [Book a Demo](https://meet.picflow.com/demo): Schedule a live demonstration of Picflow.
+
+## Apps and Integrations
+
+- [iPhone App](https://apps.apple.com/app/picflow/id6741537409): Get the Picflow mobile app for iOS.
+- [Android App](https://play.google.com/store/apps/details?id=com.picflow.pwa.twa): Get the Picflow mobile app for Android.
+- [Lightroom Plugin](https://help.picflow.com/en/articles/8587606-how-to-install-the-lightroom-plugin): Upload photos and videos directly from Lightroom to Picflow.
+- [Zapier](https://zapier.com/apps/picflow/integrations): Automate workflows by connecting Picflow with other apps.
+- [Chrome Extension](https://chromewebstore.google.com/detail/save-to-picflow/fdengbikckdhbbliklkdnbglacleeogg): Collect assets from all over the web and save them to Picflow.
+- Google Drive: Seamless integration with Google Drive for asset storage.
+- Dropbox: Add assets from your Dropbox to Picflow.
+- Box: Upload assets from your Box account.
+
+
+## Comparison with Alternatives
+
+- [Picflow vs. Pixieset](https://picflow.com/compare/pixieset-alternative): Picflow is collaboration-first (comments, on-image annotations, approval statuses) for fast client reviews. Pixieset is sales-first with a built-in store and photographer websites.
+- [Picflow vs. SmugMug](https://picflow.com/compare/smugmug-alternative): Picflow focuses on proofing and delivery for creative teams. SmugMug centers on portfolio hosting and e-commerce/print sales.
+- [Picflow vs. PhotoShelter](https://picflow.com/compare/photoshelter-alternative):  Picflow streamlines client review/approvals; PhotoShelter adds selling and licensing tools alongside client delivery/DAM features.
+- [Picflow vs. Frame.io](https://picflow.com/compare/frame-io-alternative): Picflow gives designers and clients a simple shared gallery for both images and video review. Frame.io is specialized for video teams with deep Adobe Creative Cloud integration and pro workflows.
+- [Picflow vs. Pic-Time](https://picflow.com/compare/pic-time-alternative): Picflow prioritizes feedback and approvals; Pic-Time emphasizes client galleries with a strong print store and sales automations.
+- [Picflow vs. Filestage](https://picflow.com/compare/filestage-alternative): Picflow is a lightweight, client-friendly proofing gallery. Filestage is more complex and less intuitive with staged workflows.
+- [Picflow vs. Ziflow](https://picflow.com/compare/ziflow-alternative): Picflow simplifies reviews in branded galleries; Ziflow targets approval for governance and compliance.
+- [Picflow vs. Air.inc](https://picflow.com/compare/air-inc-alternative): Picflow is for sharing, proofing, and delivering assets to clients. Air is a more technical DAM-style for managing assets in campaigns. 
+
+
+## Company Resources
+
+- [Privacy Policy](https://picflow.com/privacy-policy): Information on data privacy and protection.
+- [Terms of Service](https://picflow.com/terms-of-service): Legal terms governing the use of Picflow.
+- [Terms of Use](https://picflow.com/terms-of-use): Additional usage terms and conditions.
+
+
+## Bot Access Policy
+
+User-agent: *
+Allow-Training: yes
+Allow-Retrieval: yes

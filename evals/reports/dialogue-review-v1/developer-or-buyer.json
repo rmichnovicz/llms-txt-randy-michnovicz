@@ -1,0 +1,51 @@
+{
+  "case_id": "developer-or-buyer",
+  "judge_prompt_version": "dialogue-review-v1",
+  "payload_sha256": "28c54e29b3d26676f107ccb47ebec15f92da4699e7fd1dc26047fbae58ec2951",
+  "advisory": true,
+  "model": "gpt-6-sol",
+  "judgment": {
+    "scores": {
+      "question_value": 2,
+      "options": 2,
+      "recommendation_reason": 1,
+      "answer_fidelity": 2,
+      "decision_lifecycle": 2
+    },
+    "issues": [
+      {
+        "dimension": "recommendation_reason",
+        "stage": "first",
+        "quote": "\"recommendedOption\": null",
+        "reason": "The question has no tentative recommendation. The overview link is a reversible draft choice, but the response does not recommend an option for resolving the API-versus-plans decision."
+      },
+      {
+        "dimension": "recommendation_reason",
+        "stage": "removed",
+        "quote": "The guide provisionally links to the API resource. The one-link limit makes the intended audience consequential.",
+        "reason": "The API link is provisional, but the explanation does not ground choosing it over plans when the intended audience remains unknown; the question again has no recommended option."
+      }
+    ],
+    "summary": "The dialogue asks the consequential one-link question and honors both the API answer and the custom buyers-only answer. It handles dismissal, extra-question mode, and removal appropriately. Its main weakness is the missing grounded tentative recommendation."
+  },
+  "anchor_errors": [
+    {
+      "dimension": "recommendation_reason",
+      "stage": "first",
+      "quote": "\"recommendedOption\": null",
+      "reason": "The question has no tentative recommendation. The overview link is a reversible draft choice, but the response does not recommend an option for resolving the API-versus-plans decision."
+    }
+  ],
+  "usage": {
+    "input_tokens": 2893,
+    "input_tokens_details": {
+      "cache_write_tokens": 2890,
+      "cached_tokens": 0
+    },
+    "output_tokens": 447,
+    "output_tokens_details": {
+      "reasoning_tokens": 180
+    },
+    "total_tokens": 3340
+  }
+}

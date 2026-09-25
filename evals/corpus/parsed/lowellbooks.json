@@ -1,0 +1,951 @@
+{
+  "parser_version": "corpus-v2",
+  "headings": [
+    {
+      "level": 1,
+      "text": "Lowell Books",
+      "line": 1
+    },
+    {
+      "level": 2,
+      "text": "Site:",
+      "line": 5
+    },
+    {
+      "level": 2,
+      "text": "Legal:",
+      "line": 12
+    },
+    {
+      "level": 2,
+      "text": "Metadata:",
+      "line": 18
+    },
+    {
+      "level": 2,
+      "text": "Shipping:",
+      "line": 26
+    },
+    {
+      "level": 2,
+      "text": "Categories:",
+      "line": 32
+    }
+  ],
+  "links": [
+    {
+      "label": "Accounting",
+      "url": "https://lowellbooks.com/category/accounting/",
+      "canonical": "https://lowellbooks.com/category/accounting/",
+      "raw_url": "https://lowellbooks.com/category/accounting/",
+      "description": "",
+      "line": 33
+    },
+    {
+      "label": "Adventure",
+      "url": "https://lowellbooks.com/category/adventure/",
+      "canonical": "https://lowellbooks.com/category/adventure/",
+      "raw_url": "https://lowellbooks.com/category/adventure/",
+      "description": "",
+      "line": 34
+    },
+    {
+      "label": "Annuals",
+      "url": "https://lowellbooks.com/category/annuals/",
+      "canonical": "https://lowellbooks.com/category/annuals/",
+      "raw_url": "https://lowellbooks.com/category/annuals/",
+      "description": "",
+      "line": 35
+    },
+    {
+      "label": "Antiques & Collecting",
+      "url": "https://lowellbooks.com/category/antiques-collecting/",
+      "canonical": "https://lowellbooks.com/category/antiques-collecting/",
+      "raw_url": "https://lowellbooks.com/category/antiques-collecting/",
+      "description": "",
+      "line": 36
+    },
+    {
+      "label": "Architecture",
+      "url": "https://lowellbooks.com/category/architecture/",
+      "canonical": "https://lowellbooks.com/category/architecture/",
+      "raw_url": "https://lowellbooks.com/category/architecture/",
+      "description": "",
+      "line": 37
+    },
+    {
+      "label": "Art & Design",
+      "url": "https://lowellbooks.com/category/art-design/",
+      "canonical": "https://lowellbooks.com/category/art-design/",
+      "raw_url": "https://lowellbooks.com/category/art-design/",
+      "description": "",
+      "line": 38
+    },
+    {
+      "label": "Astrology",
+      "url": "https://lowellbooks.com/category/astrology/",
+      "canonical": "https://lowellbooks.com/category/astrology/",
+      "raw_url": "https://lowellbooks.com/category/astrology/",
+      "description": "",
+      "line": 39
+    },
+    {
+      "label": "Astronomy",
+      "url": "https://lowellbooks.com/category/astronomy/",
+      "canonical": "https://lowellbooks.com/category/astronomy/",
+      "raw_url": "https://lowellbooks.com/category/astronomy/",
+      "description": "",
+      "line": 40
+    },
+    {
+      "label": "Beauty & Fashion",
+      "url": "https://lowellbooks.com/category/beauty-fashion/",
+      "canonical": "https://lowellbooks.com/category/beauty-fashion/",
+      "raw_url": "https://lowellbooks.com/category/beauty-fashion/",
+      "description": "",
+      "line": 41
+    },
+    {
+      "label": "Bestseller",
+      "url": "https://lowellbooks.com/category/bestseller/",
+      "canonical": "https://lowellbooks.com/category/bestseller/",
+      "raw_url": "https://lowellbooks.com/category/bestseller/",
+      "description": "",
+      "line": 42
+    },
+    {
+      "label": "Biography",
+      "url": "https://lowellbooks.com/category/biography/",
+      "canonical": "https://lowellbooks.com/category/biography/",
+      "raw_url": "https://lowellbooks.com/category/biography/",
+      "description": "",
+      "line": 43
+    },
+    {
+      "label": "Biology",
+      "url": "https://lowellbooks.com/category/biology/",
+      "canonical": "https://lowellbooks.com/category/biology/",
+      "raw_url": "https://lowellbooks.com/category/biology/",
+      "description": "",
+      "line": 44
+    },
+    {
+      "label": "Board Games / Puzzles",
+      "url": "https://lowellbooks.com/category/board-games-puzzles/",
+      "canonical": "https://lowellbooks.com/category/board-games-puzzles/",
+      "raw_url": "https://lowellbooks.com/category/board-games-puzzles/",
+      "description": "",
+      "line": 45
+    },
+    {
+      "label": "Books for Babies",
+      "url": "https://lowellbooks.com/category/books-for-babies/",
+      "canonical": "https://lowellbooks.com/category/books-for-babies/",
+      "raw_url": "https://lowellbooks.com/category/books-for-babies/",
+      "description": "",
+      "line": 46
+    },
+    {
+      "label": "Business",
+      "url": "https://lowellbooks.com/category/business/",
+      "canonical": "https://lowellbooks.com/category/business/",
+      "raw_url": "https://lowellbooks.com/category/business/",
+      "description": "",
+      "line": 47
+    },
+    {
+      "label": "Business & Economics",
+      "url": "https://lowellbooks.com/category/business-economics/",
+      "canonical": "https://lowellbooks.com/category/business-economics/",
+      "raw_url": "https://lowellbooks.com/category/business-economics/",
+      "description": "",
+      "line": 48
+    },
+    {
+      "label": "Chemistry",
+      "url": "https://lowellbooks.com/category/chemistry/",
+      "canonical": "https://lowellbooks.com/category/chemistry/",
+      "raw_url": "https://lowellbooks.com/category/chemistry/",
+      "description": "",
+      "line": 49
+    },
+    {
+      "label": "Child Care",
+      "url": "https://lowellbooks.com/category/child-care/",
+      "canonical": "https://lowellbooks.com/category/child-care/",
+      "raw_url": "https://lowellbooks.com/category/child-care/",
+      "description": "",
+      "line": 50
+    },
+    {
+      "label": "Children",
+      "url": "https://lowellbooks.com/category/children/",
+      "canonical": "https://lowellbooks.com/category/children/",
+      "raw_url": "https://lowellbooks.com/category/children/",
+      "description": "",
+      "line": 51
+    },
+    {
+      "label": "Christmas",
+      "url": "https://lowellbooks.com/category/christmas/",
+      "canonical": "https://lowellbooks.com/category/christmas/",
+      "raw_url": "https://lowellbooks.com/category/christmas/",
+      "description": "",
+      "line": 52
+    },
+    {
+      "label": "Classics",
+      "url": "https://lowellbooks.com/category/classics/",
+      "canonical": "https://lowellbooks.com/category/classics/",
+      "raw_url": "https://lowellbooks.com/category/classics/",
+      "description": "",
+      "line": 53
+    },
+    {
+      "label": "Computer Programming / Software Engineering",
+      "url": "https://lowellbooks.com/category/computer-programming-software-engineering/",
+      "canonical": "https://lowellbooks.com/category/computer-programming-software-engineering/",
+      "raw_url": "https://lowellbooks.com/category/computer-programming-software-engineering/",
+      "description": "",
+      "line": 54
+    },
+    {
+      "label": "Computers",
+      "url": "https://lowellbooks.com/category/computers/",
+      "canonical": "https://lowellbooks.com/category/computers/",
+      "raw_url": "https://lowellbooks.com/category/computers/",
+      "description": "",
+      "line": 55
+    },
+    {
+      "label": "Cooking",
+      "url": "https://lowellbooks.com/category/cooking/",
+      "canonical": "https://lowellbooks.com/category/cooking/",
+      "raw_url": "https://lowellbooks.com/category/cooking/",
+      "description": "",
+      "line": 56
+    },
+    {
+      "label": "Crafts",
+      "url": "https://lowellbooks.com/category/crafts/",
+      "canonical": "https://lowellbooks.com/category/crafts/",
+      "raw_url": "https://lowellbooks.com/category/crafts/",
+      "description": "",
+      "line": 57
+    },
+    {
+      "label": "Crime",
+      "url": "https://lowellbooks.com/category/crime/",
+      "canonical": "https://lowellbooks.com/category/crime/",
+      "raw_url": "https://lowellbooks.com/category/crime/",
+      "description": "",
+      "line": 58
+    },
+    {
+      "label": "Dance",
+      "url": "https://lowellbooks.com/category/dance/",
+      "canonical": "https://lowellbooks.com/category/dance/",
+      "raw_url": "https://lowellbooks.com/category/dance/",
+      "description": "",
+      "line": 59
+    },
+    {
+      "label": "Do It Yourself",
+      "url": "https://lowellbooks.com/category/do-it-yourself/",
+      "canonical": "https://lowellbooks.com/category/do-it-yourself/",
+      "raw_url": "https://lowellbooks.com/category/do-it-yourself/",
+      "description": "",
+      "line": 60
+    },
+    {
+      "label": "Drama",
+      "url": "https://lowellbooks.com/category/drama/",
+      "canonical": "https://lowellbooks.com/category/drama/",
+      "raw_url": "https://lowellbooks.com/category/drama/",
+      "description": "",
+      "line": 61
+    },
+    {
+      "label": "Drawing & Painting",
+      "url": "https://lowellbooks.com/category/drawing-painting/",
+      "canonical": "https://lowellbooks.com/category/drawing-painting/",
+      "raw_url": "https://lowellbooks.com/category/drawing-painting/",
+      "description": "",
+      "line": 62
+    },
+    {
+      "label": "Early Learning",
+      "url": "https://lowellbooks.com/category/early-learning/",
+      "canonical": "https://lowellbooks.com/category/early-learning/",
+      "raw_url": "https://lowellbooks.com/category/early-learning/",
+      "description": "",
+      "line": 63
+    },
+    {
+      "label": "Economics",
+      "url": "https://lowellbooks.com/category/economics/",
+      "canonical": "https://lowellbooks.com/category/economics/",
+      "raw_url": "https://lowellbooks.com/category/economics/",
+      "description": "",
+      "line": 64
+    },
+    {
+      "label": "Education",
+      "url": "https://lowellbooks.com/category/education/",
+      "canonical": "https://lowellbooks.com/category/education/",
+      "raw_url": "https://lowellbooks.com/category/education/",
+      "description": "",
+      "line": 65
+    },
+    {
+      "label": "Engineering",
+      "url": "https://lowellbooks.com/category/engineering/",
+      "canonical": "https://lowellbooks.com/category/engineering/",
+      "raw_url": "https://lowellbooks.com/category/engineering/",
+      "description": "",
+      "line": 66
+    },
+    {
+      "label": "Fairy Tales",
+      "url": "https://lowellbooks.com/category/fairy-tales/",
+      "canonical": "https://lowellbooks.com/category/fairy-tales/",
+      "raw_url": "https://lowellbooks.com/category/fairy-tales/",
+      "description": "",
+      "line": 67
+    },
+    {
+      "label": "Fantasy",
+      "url": "https://lowellbooks.com/category/fantasy/",
+      "canonical": "https://lowellbooks.com/category/fantasy/",
+      "raw_url": "https://lowellbooks.com/category/fantasy/",
+      "description": "",
+      "line": 68
+    },
+    {
+      "label": "Fantasy and Magic",
+      "url": "https://lowellbooks.com/category/fantasy-and-magic/",
+      "canonical": "https://lowellbooks.com/category/fantasy-and-magic/",
+      "raw_url": "https://lowellbooks.com/category/fantasy-and-magic/",
+      "description": "",
+      "line": 69
+    },
+    {
+      "label": "Fiction",
+      "url": "https://lowellbooks.com/category/fiction/",
+      "canonical": "https://lowellbooks.com/category/fiction/",
+      "raw_url": "https://lowellbooks.com/category/fiction/",
+      "description": "",
+      "line": 70
+    },
+    {
+      "label": "Finance",
+      "url": "https://lowellbooks.com/category/finance/",
+      "canonical": "https://lowellbooks.com/category/finance/",
+      "raw_url": "https://lowellbooks.com/category/finance/",
+      "description": "",
+      "line": 71
+    },
+    {
+      "label": "Fortune-telling & Divination",
+      "url": "https://lowellbooks.com/category/fortune-telling-divination/",
+      "canonical": "https://lowellbooks.com/category/fortune-telling-divination/",
+      "raw_url": "https://lowellbooks.com/category/fortune-telling-divination/",
+      "description": "",
+      "line": 72
+    },
+    {
+      "label": "Games",
+      "url": "https://lowellbooks.com/category/games/",
+      "canonical": "https://lowellbooks.com/category/games/",
+      "raw_url": "https://lowellbooks.com/category/games/",
+      "description": "",
+      "line": 73
+    },
+    {
+      "label": "Gardening & Farming",
+      "url": "https://lowellbooks.com/category/gardening-farming/",
+      "canonical": "https://lowellbooks.com/category/gardening-farming/",
+      "raw_url": "https://lowellbooks.com/category/gardening-farming/",
+      "description": "",
+      "line": 74
+    },
+    {
+      "label": "GCSE",
+      "url": "https://lowellbooks.com/category/gcse/",
+      "canonical": "https://lowellbooks.com/category/gcse/",
+      "raw_url": "https://lowellbooks.com/category/gcse/",
+      "description": "",
+      "line": 75
+    },
+    {
+      "label": "Geography",
+      "url": "https://lowellbooks.com/category/geography/",
+      "canonical": "https://lowellbooks.com/category/geography/",
+      "raw_url": "https://lowellbooks.com/category/geography/",
+      "description": "",
+      "line": 76
+    },
+    {
+      "label": "Gifts & Toys",
+      "url": "https://lowellbooks.com/category/gifts-toys/",
+      "canonical": "https://lowellbooks.com/category/gifts-toys/",
+      "raw_url": "https://lowellbooks.com/category/gifts-toys/",
+      "description": "",
+      "line": 77
+    },
+    {
+      "label": "Graphic Novels",
+      "url": "https://lowellbooks.com/category/graphic-novels/",
+      "canonical": "https://lowellbooks.com/category/graphic-novels/",
+      "raw_url": "https://lowellbooks.com/category/graphic-novels/",
+      "description": "",
+      "line": 78
+    },
+    {
+      "label": "Health & Fitness",
+      "url": "https://lowellbooks.com/category/health-fitness/",
+      "canonical": "https://lowellbooks.com/category/health-fitness/",
+      "raw_url": "https://lowellbooks.com/category/health-fitness/",
+      "description": "",
+      "line": 79
+    },
+    {
+      "label": "History",
+      "url": "https://lowellbooks.com/category/history/",
+      "canonical": "https://lowellbooks.com/category/history/",
+      "raw_url": "https://lowellbooks.com/category/history/",
+      "description": "",
+      "line": 80
+    },
+    {
+      "label": "Horror",
+      "url": "https://lowellbooks.com/category/horror/",
+      "canonical": "https://lowellbooks.com/category/horror/",
+      "raw_url": "https://lowellbooks.com/category/horror/",
+      "description": "",
+      "line": 81
+    },
+    {
+      "label": "Humour",
+      "url": "https://lowellbooks.com/category/humour/",
+      "canonical": "https://lowellbooks.com/category/humour/",
+      "raw_url": "https://lowellbooks.com/category/humour/",
+      "description": "",
+      "line": 82
+    },
+    {
+      "label": "Industry",
+      "url": "https://lowellbooks.com/category/industry/",
+      "canonical": "https://lowellbooks.com/category/industry/",
+      "raw_url": "https://lowellbooks.com/category/industry/",
+      "description": "",
+      "line": 83
+    },
+    {
+      "label": "Language",
+      "url": "https://lowellbooks.com/category/languages/",
+      "canonical": "https://lowellbooks.com/category/languages/",
+      "raw_url": "https://lowellbooks.com/category/languages/",
+      "description": "",
+      "line": 84
+    },
+    {
+      "label": "Law",
+      "url": "https://lowellbooks.com/category/law/",
+      "canonical": "https://lowellbooks.com/category/law/",
+      "raw_url": "https://lowellbooks.com/category/law/",
+      "description": "",
+      "line": 85
+    },
+    {
+      "label": "LGBTQ+ Interest",
+      "url": "https://lowellbooks.com/category/lgbtq-interest/",
+      "canonical": "https://lowellbooks.com/category/lgbtq-interest/",
+      "raw_url": "https://lowellbooks.com/category/lgbtq-interest/",
+      "description": "",
+      "line": 86
+    },
+    {
+      "label": "Literature",
+      "url": "https://lowellbooks.com/category/literature/",
+      "canonical": "https://lowellbooks.com/category/literature/",
+      "raw_url": "https://lowellbooks.com/category/literature/",
+      "description": "",
+      "line": 87
+    },
+    {
+      "label": "Manga",
+      "url": "https://lowellbooks.com/category/manga/",
+      "canonical": "https://lowellbooks.com/category/manga/",
+      "raw_url": "https://lowellbooks.com/category/manga/",
+      "description": "",
+      "line": 88
+    },
+    {
+      "label": "Mathematics",
+      "url": "https://lowellbooks.com/category/mathematics/",
+      "canonical": "https://lowellbooks.com/category/mathematics/",
+      "raw_url": "https://lowellbooks.com/category/mathematics/",
+      "description": "",
+      "line": 89
+    },
+    {
+      "label": "Medical",
+      "url": "https://lowellbooks.com/category/medical/",
+      "canonical": "https://lowellbooks.com/category/medical/",
+      "raw_url": "https://lowellbooks.com/category/medical/",
+      "description": "",
+      "line": 90
+    },
+    {
+      "label": "Music",
+      "url": "https://lowellbooks.com/category/music/",
+      "canonical": "https://lowellbooks.com/category/music/",
+      "raw_url": "https://lowellbooks.com/category/music/",
+      "description": "",
+      "line": 91
+    },
+    {
+      "label": "Mystery",
+      "url": "https://lowellbooks.com/category/mystery/",
+      "canonical": "https://lowellbooks.com/category/mystery/",
+      "raw_url": "https://lowellbooks.com/category/mystery/",
+      "description": "",
+      "line": 92
+    },
+    {
+      "label": "Mysticism & Occult",
+      "url": "https://lowellbooks.com/category/mysticism-occult/",
+      "canonical": "https://lowellbooks.com/category/mysticism-occult/",
+      "raw_url": "https://lowellbooks.com/category/mysticism-occult/",
+      "description": "",
+      "line": 93
+    },
+    {
+      "label": "Nature",
+      "url": "https://lowellbooks.com/category/nature/",
+      "canonical": "https://lowellbooks.com/category/nature/",
+      "raw_url": "https://lowellbooks.com/category/nature/",
+      "description": "",
+      "line": 94
+    },
+    {
+      "label": "Non-Fiction",
+      "url": "https://lowellbooks.com/category/non-fiction/",
+      "canonical": "https://lowellbooks.com/category/non-fiction/",
+      "raw_url": "https://lowellbooks.com/category/non-fiction/",
+      "description": "",
+      "line": 95
+    },
+    {
+      "label": "Non-Fiction 5+",
+      "url": "https://lowellbooks.com/category/non-fiction-5/",
+      "canonical": "https://lowellbooks.com/category/non-fiction-5/",
+      "raw_url": "https://lowellbooks.com/category/non-fiction-5/",
+      "description": "",
+      "line": 96
+    },
+    {
+      "label": "Non-Fiction 7+",
+      "url": "https://lowellbooks.com/category/non-fiction-7/",
+      "canonical": "https://lowellbooks.com/category/non-fiction-7/",
+      "raw_url": "https://lowellbooks.com/category/non-fiction-7/",
+      "description": "",
+      "line": 97
+    },
+    {
+      "label": "Non-Fiction 9+",
+      "url": "https://lowellbooks.com/category/non-fiction-9/",
+      "canonical": "https://lowellbooks.com/category/non-fiction-9/",
+      "raw_url": "https://lowellbooks.com/category/non-fiction-9/",
+      "description": "",
+      "line": 98
+    },
+    {
+      "label": "Non-Fiction 11+",
+      "url": "https://lowellbooks.com/category/non-fiction-11/",
+      "canonical": "https://lowellbooks.com/category/non-fiction-11/",
+      "raw_url": "https://lowellbooks.com/category/non-fiction-11/",
+      "description": "",
+      "line": 99
+    },
+    {
+      "label": "Novel",
+      "url": "https://lowellbooks.com/category/novel/",
+      "canonical": "https://lowellbooks.com/category/novel/",
+      "raw_url": "https://lowellbooks.com/category/novel/",
+      "description": "",
+      "line": 100
+    },
+    {
+      "label": "Paranormal",
+      "url": "https://lowellbooks.com/category/paranormal/",
+      "canonical": "https://lowellbooks.com/category/paranormal/",
+      "raw_url": "https://lowellbooks.com/category/paranormal/",
+      "description": "",
+      "line": 101
+    },
+    {
+      "label": "Personal Development",
+      "url": "https://lowellbooks.com/category/personal-development/",
+      "canonical": "https://lowellbooks.com/category/personal-development/",
+      "raw_url": "https://lowellbooks.com/category/personal-development/",
+      "description": "",
+      "line": 102
+    },
+    {
+      "label": "Pets",
+      "url": "https://lowellbooks.com/category/pets/",
+      "canonical": "https://lowellbooks.com/category/pets/",
+      "raw_url": "https://lowellbooks.com/category/pets/",
+      "description": "",
+      "line": 103
+    },
+    {
+      "label": "Philosophy",
+      "url": "https://lowellbooks.com/category/philosophy/",
+      "canonical": "https://lowellbooks.com/category/philosophy/",
+      "raw_url": "https://lowellbooks.com/category/philosophy/",
+      "description": "",
+      "line": 104
+    },
+    {
+      "label": "Photography",
+      "url": "https://lowellbooks.com/category/photography/",
+      "canonical": "https://lowellbooks.com/category/photography/",
+      "raw_url": "https://lowellbooks.com/category/photography/",
+      "description": "",
+      "line": 105
+    },
+    {
+      "label": "Physics",
+      "url": "https://lowellbooks.com/category/physics/",
+      "canonical": "https://lowellbooks.com/category/physics/",
+      "raw_url": "https://lowellbooks.com/category/physics/",
+      "description": "",
+      "line": 106
+    },
+    {
+      "label": "Picture Books",
+      "url": "https://lowellbooks.com/category/picture-books/",
+      "canonical": "https://lowellbooks.com/category/picture-books/",
+      "raw_url": "https://lowellbooks.com/category/picture-books/",
+      "description": "",
+      "line": 107
+    },
+    {
+      "label": "Poetry",
+      "url": "https://lowellbooks.com/category/poetry/",
+      "canonical": "https://lowellbooks.com/category/poetry/",
+      "raw_url": "https://lowellbooks.com/category/poetry/",
+      "description": "",
+      "line": 108
+    },
+    {
+      "label": "Political Science",
+      "url": "https://lowellbooks.com/category/political-science/",
+      "canonical": "https://lowellbooks.com/category/political-science/",
+      "raw_url": "https://lowellbooks.com/category/political-science/",
+      "description": "",
+      "line": 109
+    },
+    {
+      "label": "Politics",
+      "url": "https://lowellbooks.com/category/politics/",
+      "canonical": "https://lowellbooks.com/category/politics/",
+      "raw_url": "https://lowellbooks.com/category/politics/",
+      "description": "",
+      "line": 110
+    },
+    {
+      "label": "Psychology",
+      "url": "https://lowellbooks.com/category/psychology/",
+      "canonical": "https://lowellbooks.com/category/psychology/",
+      "raw_url": "https://lowellbooks.com/category/psychology/",
+      "description": "",
+      "line": 111
+    },
+    {
+      "label": "Religion",
+      "url": "https://lowellbooks.com/category/religion/",
+      "canonical": "https://lowellbooks.com/category/religion/",
+      "raw_url": "https://lowellbooks.com/category/religion/",
+      "description": "",
+      "line": 112
+    },
+    {
+      "label": "Romance",
+      "url": "https://lowellbooks.com/category/romance/",
+      "canonical": "https://lowellbooks.com/category/romance/",
+      "raw_url": "https://lowellbooks.com/category/romance/",
+      "description": "",
+      "line": 113
+    },
+    {
+      "label": "Royalty",
+      "url": "https://lowellbooks.com/category/royalty/",
+      "canonical": "https://lowellbooks.com/category/royalty/",
+      "raw_url": "https://lowellbooks.com/category/royalty/",
+      "description": "",
+      "line": 114
+    },
+    {
+      "label": "Science",
+      "url": "https://lowellbooks.com/category/science/",
+      "canonical": "https://lowellbooks.com/category/science/",
+      "raw_url": "https://lowellbooks.com/category/science/",
+      "description": "",
+      "line": 115
+    },
+    {
+      "label": "Science Fiction",
+      "url": "https://lowellbooks.com/category/science-fiction/",
+      "canonical": "https://lowellbooks.com/category/science-fiction/",
+      "raw_url": "https://lowellbooks.com/category/science-fiction/",
+      "description": "",
+      "line": 116
+    },
+    {
+      "label": "Self Help",
+      "url": "https://lowellbooks.com/category/self-help/",
+      "canonical": "https://lowellbooks.com/category/self-help/",
+      "raw_url": "https://lowellbooks.com/category/self-help/",
+      "description": "",
+      "line": 117
+    },
+    {
+      "label": "Short Stories",
+      "url": "https://lowellbooks.com/category/short-stories/",
+      "canonical": "https://lowellbooks.com/category/short-stories/",
+      "raw_url": "https://lowellbooks.com/category/short-stories/",
+      "description": "",
+      "line": 118
+    },
+    {
+      "label": "Soccer",
+      "url": "https://lowellbooks.com/category/soccer/",
+      "canonical": "https://lowellbooks.com/category/soccer/",
+      "raw_url": "https://lowellbooks.com/category/soccer/",
+      "description": "",
+      "line": 119
+    },
+    {
+      "label": "Social Science",
+      "url": "https://lowellbooks.com/category/social-science/",
+      "canonical": "https://lowellbooks.com/category/social-science/",
+      "raw_url": "https://lowellbooks.com/category/social-science/",
+      "description": "",
+      "line": 120
+    },
+    {
+      "label": "Society",
+      "url": "https://lowellbooks.com/category/society/",
+      "canonical": "https://lowellbooks.com/category/society/",
+      "raw_url": "https://lowellbooks.com/category/society/",
+      "description": "",
+      "line": 121
+    },
+    {
+      "label": "Sociology",
+      "url": "https://lowellbooks.com/category/sociology/",
+      "canonical": "https://lowellbooks.com/category/sociology/",
+      "raw_url": "https://lowellbooks.com/category/sociology/",
+      "description": "",
+      "line": 122
+    },
+    {
+      "label": "Spirituality & Beliefs",
+      "url": "https://lowellbooks.com/category/spirituality-beliefs/",
+      "canonical": "https://lowellbooks.com/category/spirituality-beliefs/",
+      "raw_url": "https://lowellbooks.com/category/spirituality-beliefs/",
+      "description": "",
+      "line": 123
+    },
+    {
+      "label": "Sport",
+      "url": "https://lowellbooks.com/category/sport/",
+      "canonical": "https://lowellbooks.com/category/sport/",
+      "raw_url": "https://lowellbooks.com/category/sport/",
+      "description": "",
+      "line": 124
+    },
+    {
+      "label": "Suspense",
+      "url": "https://lowellbooks.com/category/suspense/",
+      "canonical": "https://lowellbooks.com/category/suspense/",
+      "raw_url": "https://lowellbooks.com/category/suspense/",
+      "description": "",
+      "line": 125
+    },
+    {
+      "label": "Technology",
+      "url": "https://lowellbooks.com/category/technology/",
+      "canonical": "https://lowellbooks.com/category/technology/",
+      "raw_url": "https://lowellbooks.com/category/technology/",
+      "description": "",
+      "line": 126
+    },
+    {
+      "label": "Teenage Fiction",
+      "url": "https://lowellbooks.com/category/teenage-fiction/",
+      "canonical": "https://lowellbooks.com/category/teenage-fiction/",
+      "raw_url": "https://lowellbooks.com/category/teenage-fiction/",
+      "description": "",
+      "line": 127
+    },
+    {
+      "label": "Theatre",
+      "url": "https://lowellbooks.com/category/theatre/",
+      "canonical": "https://lowellbooks.com/category/theatre/",
+      "raw_url": "https://lowellbooks.com/category/theatre/",
+      "description": "",
+      "line": 128
+    },
+    {
+      "label": "Thriller",
+      "url": "https://lowellbooks.com/category/thriller/",
+      "canonical": "https://lowellbooks.com/category/thriller/",
+      "raw_url": "https://lowellbooks.com/category/thriller/",
+      "description": "",
+      "line": 129
+    },
+    {
+      "label": "Transport",
+      "url": "https://lowellbooks.com/category/transport/",
+      "canonical": "https://lowellbooks.com/category/transport/",
+      "raw_url": "https://lowellbooks.com/category/transport/",
+      "description": "",
+      "line": 130
+    },
+    {
+      "label": "Travel",
+      "url": "https://lowellbooks.com/category/travel/",
+      "canonical": "https://lowellbooks.com/category/travel/",
+      "raw_url": "https://lowellbooks.com/category/travel/",
+      "description": "",
+      "line": 131
+    },
+    {
+      "label": "Travel Guides",
+      "url": "https://lowellbooks.com/category/travel-guides/",
+      "canonical": "https://lowellbooks.com/category/travel-guides/",
+      "raw_url": "https://lowellbooks.com/category/travel-guides/",
+      "description": "",
+      "line": 132
+    },
+    {
+      "label": "True Crime",
+      "url": "https://lowellbooks.com/category/true-crime/",
+      "canonical": "https://lowellbooks.com/category/true-crime/",
+      "raw_url": "https://lowellbooks.com/category/true-crime/",
+      "description": "",
+      "line": 133
+    },
+    {
+      "label": "True Stories",
+      "url": "https://lowellbooks.com/category/true-stories/",
+      "canonical": "https://lowellbooks.com/category/true-stories/",
+      "raw_url": "https://lowellbooks.com/category/true-stories/",
+      "description": "",
+      "line": 134
+    },
+    {
+      "label": "Warfare and Defence",
+      "url": "https://lowellbooks.com/category/warfare-and-defence/",
+      "canonical": "https://lowellbooks.com/category/warfare-and-defence/",
+      "raw_url": "https://lowellbooks.com/category/warfare-and-defence/",
+      "description": "",
+      "line": 135
+    },
+    {
+      "label": "Western",
+      "url": "https://lowellbooks.com/category/western/",
+      "canonical": "https://lowellbooks.com/category/western/",
+      "raw_url": "https://lowellbooks.com/category/western/",
+      "description": "",
+      "line": 136
+    },
+    {
+      "label": "Wildlife",
+      "url": "https://lowellbooks.com/category/wildlife/",
+      "canonical": "https://lowellbooks.com/category/wildlife/",
+      "raw_url": "https://lowellbooks.com/category/wildlife/",
+      "description": "",
+      "line": 137
+    },
+    {
+      "label": "Witchcraft",
+      "url": "https://lowellbooks.com/category/witchcraft/",
+      "canonical": "https://lowellbooks.com/category/witchcraft/",
+      "raw_url": "https://lowellbooks.com/category/witchcraft/",
+      "description": "",
+      "line": 138
+    },
+    {
+      "label": "Young Adult",
+      "url": "https://lowellbooks.com/category/young-adult/",
+      "canonical": "https://lowellbooks.com/category/young-adult/",
+      "raw_url": "https://lowellbooks.com/category/young-adult/",
+      "description": "",
+      "line": 139
+    }
+  ],
+  "bare_links": [
+    {
+      "url": "https://lowellbooks.com",
+      "label": "- URL: https://lowellbooks.com",
+      "description": "",
+      "line": 6,
+      "canonical": "https://lowellbooks.com",
+      "raw_url": "https://lowellbooks.com"
+    },
+    {
+      "url": "https://lowellbooks.com/search",
+      "label": "- Search: https://lowellbooks.com/search",
+      "description": "",
+      "line": 7,
+      "canonical": "https://lowellbooks.com/search",
+      "raw_url": "https://lowellbooks.com/search"
+    },
+    {
+      "url": "https://lowellbooks.com/author/",
+      "label": "- Browse authors A–Z: https://lowellbooks.com/author/",
+      "description": "",
+      "line": 8,
+      "canonical": "https://lowellbooks.com/author/",
+      "raw_url": "https://lowellbooks.com/author/"
+    },
+    {
+      "url": "https://lowellbooks.com/serie/",
+      "label": "- Browse series: https://lowellbooks.com/serie/",
+      "description": "",
+      "line": 9,
+      "canonical": "https://lowellbooks.com/serie/",
+      "raw_url": "https://lowellbooks.com/serie/"
+    },
+    {
+      "url": "https://lowellbooks.com/sitemap.xml",
+      "label": "- Sitemap: https://lowellbooks.com/sitemap.xml",
+      "description": "",
+      "line": 10,
+      "canonical": "https://lowellbooks.com/sitemap.xml",
+      "raw_url": "https://lowellbooks.com/sitemap.xml"
+    }
+  ],
+  "metrics": {
+    "bytes": 7912,
+    "words": 441,
+    "lines": 139,
+    "approx_tokens_chars_div_4": 1978,
+    "h1_count": 1,
+    "link_count": 107,
+    "bare_url_count": 5,
+    "described_links": 0,
+    "unique_destinations": 107,
+    "markdown_destinations": 0
+  },
+  "flags": [
+    "large-index-test-task-routing",
+    "sparse-link-descriptions"
+  ]
+}

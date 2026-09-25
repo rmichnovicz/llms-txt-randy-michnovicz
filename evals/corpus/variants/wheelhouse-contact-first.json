@@ -1,0 +1,7 @@
+{
+  "kind": "analyst-derived-variant",
+  "parent": "wheelhouse",
+  "parent_sha256": "38a7dc8184655575d7a7735a16fdf70d9245251a914ab2b8f9dc4f589101d55c",
+  "sha256": "5cbf8de6d580b63b2c857ff3ad94a2596301a79ca6cced39a2548c8ef8c9b4e6",
+  "change": "Move the existing contact link into a short first section; preserve its exact wording and all other entries."
+}

@@ -1,0 +1,62 @@
+{
+  "parser_version": "corpus-v2",
+  "headings": [
+    {
+      "level": 1,
+      "text": "Nate the Great's Grill",
+      "line": 1
+    },
+    {
+      "level": 2,
+      "text": "Menus",
+      "line": 11
+    },
+    {
+      "level": 2,
+      "text": "Optional",
+      "line": 16
+    }
+  ],
+  "links": [
+    {
+      "label": "Lunch Menu",
+      "url": "https://host/lunch.html.md",
+      "canonical": "https://host/lunch.html.md",
+      "raw_url": "https://host/lunch.html.md",
+      "description": "Our lunch menu served from 11am to 4pm every day.",
+      "line": 13
+    },
+    {
+      "label": "Dinner Menu",
+      "url": "https://host/dinner.html.md",
+      "canonical": "https://host/dinner.html.md",
+      "raw_url": "https://host/dinner.html.md",
+      "description": "Our dinner menu served from 4pm to 9pm every day.",
+      "line": 14
+    },
+    {
+      "label": "Dessert Menu",
+      "url": "https://host/dessert.md",
+      "canonical": "https://host/dessert.md",
+      "raw_url": "https://host/dessert.md",
+      "description": "A subset of the Starlette docs",
+      "line": 18
+    }
+  ],
+  "bare_links": [],
+  "metrics": {
+    "bytes": 580,
+    "words": 96,
+    "lines": 18,
+    "approx_tokens_chars_div_4": 145,
+    "h1_count": 1,
+    "link_count": 3,
+    "bare_url_count": 0,
+    "described_links": 3,
+    "unique_destinations": 3,
+    "markdown_destinations": 3
+  },
+  "flags": [
+    "placeholder-review"
+  ]
+}

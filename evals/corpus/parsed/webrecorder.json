@@ -1,0 +1,190 @@
+{
+  "parser_version": "corpus-v2",
+  "headings": [
+    {
+      "level": 1,
+      "text": "Webrecorder",
+      "line": 1
+    },
+    {
+      "level": 2,
+      "text": "Key Tools",
+      "line": 12
+    },
+    {
+      "level": 2,
+      "text": "Documentation",
+      "line": 18
+    },
+    {
+      "level": 2,
+      "text": "Command-Line Tools",
+      "line": 28
+    },
+    {
+      "level": 2,
+      "text": "Optional",
+      "line": 35
+    }
+  ],
+  "links": [
+    {
+      "label": "Browsertrix",
+      "url": "https://webrecorder.net/browsertrix/",
+      "canonical": "https://webrecorder.net/browsertrix/",
+      "raw_url": "https://webrecorder.net/browsertrix/",
+      "description": "Webrecorder's cloud-based web archiving and curation platform offered as SaaS.",
+      "line": 14
+    },
+    {
+      "label": "ArchiveWeb.page",
+      "url": "https://webrecorder.net/archivewebpage/",
+      "canonical": "https://webrecorder.net/archivewebpage/",
+      "raw_url": "https://webrecorder.net/archivewebpage/",
+      "description": "A free browser extension for archiving webpages as you browse the web.",
+      "line": 15
+    },
+    {
+      "label": "ReplayWeb.page",
+      "url": "https://webrecorder.net/replaywebpage/",
+      "canonical": "https://webrecorder.net/replaywebpage/",
+      "raw_url": "https://webrecorder.net/replaywebpage/",
+      "description": "Webrecorder's embeddable archive viewer, available as a browser-based web app or standalone desktop application.",
+      "line": 16
+    },
+    {
+      "label": "WACZ File Format",
+      "url": "https://specs.webrecorder.net/wacz/latest/",
+      "canonical": "https://specs.webrecorder.net/wacz/latest/",
+      "raw_url": "https://specs.webrecorder.net/wacz/latest/",
+      "description": "The open specification for implementing the WACZ file format.",
+      "line": 20
+    },
+    {
+      "label": "Browsertrix Workflow Settings Guide",
+      "url": "https://docs.browsertrix.com/user-guide/workflow-setup/",
+      "canonical": "https://docs.browsertrix.com/user-guide/workflow-setup/",
+      "raw_url": "https://docs.browsertrix.com/user-guide/workflow-setup/",
+      "description": "A complete list of all Browsertrix's workflow settings including detailed descriptions about their functions.",
+      "line": 21
+    },
+    {
+      "label": "Browsertrix Browser Profile Creation",
+      "url": "https://docs.browsertrix.com/user-guide/browser-profiles/",
+      "canonical": "https://docs.browsertrix.com/user-guide/browser-profiles/",
+      "raw_url": "https://docs.browsertrix.com/user-guide/browser-profiles/",
+      "description": "Instructions for creating and using browser profiles to capture websites with specific browser settings (like logins or popups) pre-configured prior to crawling.",
+      "line": 22
+    },
+    {
+      "label": "ReplayWeb.page Embedding Guide",
+      "url": "https://replayweb.page/docs/embedding/",
+      "canonical": "https://replayweb.page/docs/embedding/",
+      "raw_url": "https://replayweb.page/docs/embedding/",
+      "description": "Instructions for embedding ReplayWeb.page to build a web archive viewer into your own projects.",
+      "line": 23
+    },
+    {
+      "label": "ReplayWeb.page User Guide",
+      "url": "https://replayweb.page/docs/user-guide/",
+      "canonical": "https://replayweb.page/docs/user-guide/",
+      "raw_url": "https://replayweb.page/docs/user-guide/",
+      "description": "Instructions for viewing and navigating web archives with ReplayWeb.page",
+      "line": 24
+    },
+    {
+      "label": "ArchiveWeb.page User Guide",
+      "url": "https://archiveweb.page/guide",
+      "canonical": "https://archiveweb.page/guide",
+      "raw_url": "https://archiveweb.page/guide",
+      "description": "Instructions for creating web archives using ArchiveWeb.page",
+      "line": 25
+    },
+    {
+      "label": "Browsertrix Crawler User Guide",
+      "url": "https://crawler.docs.browsertrix.com/user-guide/",
+      "canonical": "https://crawler.docs.browsertrix.com/user-guide/",
+      "raw_url": "https://crawler.docs.browsertrix.com/user-guide/",
+      "description": "Instructions for using to Browsertrix Crawler command line tool with Docker to crawl a website.",
+      "line": 26
+    },
+    {
+      "label": "Browsertrix Crawler",
+      "url": "https://github.com/webrecorder/browsertrix-crawler",
+      "canonical": "https://github.com/webrecorder/browsertrix-crawler",
+      "raw_url": "https://github.com/webrecorder/browsertrix-crawler",
+      "description": "The key crawling component of Browsertrix responsible for capturing web archives.",
+      "line": 30
+    },
+    {
+      "label": "WARCIT",
+      "url": "https://github.com/webrecorder/warcit",
+      "canonical": "https://github.com/webrecorder/warcit",
+      "raw_url": "https://github.com/webrecorder/warcit",
+      "description": "Package a local directory into a WARC file",
+      "line": 31
+    },
+    {
+      "label": "CDXJ Indexer",
+      "url": "https://github.com/webrecorder/cdxj-indexer",
+      "canonical": "https://github.com/webrecorder/cdxj-indexer",
+      "raw_url": "https://github.com/webrecorder/cdxj-indexer",
+      "description": "A command-line tool for generating CDXJ (and CDX) indexes from WARC and ARC files.",
+      "line": 32
+    },
+    {
+      "label": "har2warc",
+      "url": "https://github.com/webrecorder/har2warc",
+      "canonical": "https://github.com/webrecorder/har2warc",
+      "raw_url": "https://github.com/webrecorder/har2warc",
+      "description": "Convert HAR web archives to WARC files.",
+      "line": 33
+    },
+    {
+      "label": "OldWeb.Today",
+      "url": "https://oldweb.today/",
+      "canonical": "https://oldweb.today/",
+      "raw_url": "https://oldweb.today/",
+      "description": "A website that runs virtual machines of old operating systems and browsers to view archived websites using period accurate software.",
+      "line": 36
+    },
+    {
+      "label": "Webrecorder Forum",
+      "url": "https://forum.webrecorder.net/",
+      "canonical": "https://forum.webrecorder.net/",
+      "raw_url": "https://forum.webrecorder.net/",
+      "description": "Webrecorder's forum is a great place to go to give feedback or get help for specific software problems.",
+      "line": 37
+    },
+    {
+      "label": "PYWB",
+      "url": "https://github.com/webrecorder/pywb",
+      "canonical": "https://github.com/webrecorder/pywb",
+      "raw_url": "https://github.com/webrecorder/pywb",
+      "description": "Sometimes referred to as the PYWB Toolkit, PYWB is a collection of Python-based tools for capturing and replaying web archives. It generally receives updates and new features less frequently.",
+      "line": 38
+    },
+    {
+      "label": "oembed.link",
+      "url": "https://oembed.link/",
+      "canonical": "https://oembed.link/",
+      "raw_url": "https://oembed.link/",
+      "description": "Embeds a requested piece of content at a publicly accessible URL so that archivists may capture the embed as they would any other link.",
+      "line": 39
+    }
+  ],
+  "bare_links": [],
+  "metrics": {
+    "bytes": 4218,
+    "words": 514,
+    "lines": 39,
+    "approx_tokens_chars_div_4": 1054,
+    "h1_count": 1,
+    "link_count": 18,
+    "bare_url_count": 0,
+    "described_links": 18,
+    "unique_destinations": 18,
+    "markdown_destinations": 0
+  },
+  "flags": []
+}

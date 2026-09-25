@@ -1,0 +1,78 @@
+{
+  "parser_version": "corpus-v2",
+  "headings": [
+    {
+      "level": 1,
+      "text": "Example Repair Co",
+      "line": 1
+    },
+    {
+      "level": 2,
+      "text": "Core pages",
+      "line": 9
+    },
+    {
+      "level": 2,
+      "text": "Optional",
+      "line": 15
+    }
+  ],
+  "links": [
+    {
+      "label": "Services",
+      "url": "https://example.com/services",
+      "canonical": "https://example.com/services",
+      "raw_url": "https://example.com/services",
+      "description": "Appliance repair services offered",
+      "line": 10
+    },
+    {
+      "label": "Service areas",
+      "url": "https://example.com/areas",
+      "canonical": "https://example.com/areas",
+      "raw_url": "https://example.com/areas",
+      "description": "Neighborhoods and cities served",
+      "line": 11
+    },
+    {
+      "label": "Booking",
+      "url": "https://example.com/book",
+      "canonical": "https://example.com/book",
+      "raw_url": "https://example.com/book",
+      "description": "Public booking and contact options",
+      "line": 12
+    },
+    {
+      "label": "Reviews",
+      "url": "https://example.com/reviews",
+      "canonical": "https://example.com/reviews",
+      "raw_url": "https://example.com/reviews",
+      "description": "Customer testimonials and proof points",
+      "line": 13
+    },
+    {
+      "label": "Troubleshooting guides",
+      "url": "https://example.com/guides",
+      "canonical": "https://example.com/guides",
+      "raw_url": "https://example.com/guides",
+      "description": "DIY checks before booking",
+      "line": 16
+    }
+  ],
+  "bare_links": [],
+  "metrics": {
+    "bytes": 658,
+    "words": 77,
+    "lines": 16,
+    "approx_tokens_chars_div_4": 165,
+    "h1_count": 1,
+    "link_count": 5,
+    "bare_url_count": 0,
+    "described_links": 5,
+    "unique_destinations": 5,
+    "markdown_destinations": 0
+  },
+  "flags": [
+    "placeholder-review"
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "url": "https://terminaltrove.com/",
+  "retrieved_at": "2026-09-24T22:49:21.572736+00:00",
+  "source": {
+    "id": "src_73c4fd5cee64d82b8af7",
+    "url": "https://terminaltrove.com/",
+    "title": "Terminal Trove - The $HOME of all things in the terminal.",
+    "description": "Terminal Trove showcases the best of the terminal, Discover a collection of CLI, TUI, and more developer tools at Terminal Trove.",
+    "content": "Sponsored By\nBrowse By Categories\nTerminal Tool of The Week\nRun tasks and workflows from Markdown.\nBrowse Newly Added Tools\nAn interactive redis client with autocompletion and syntax highlighting.\nLike btop, but for your AI coding agents.\nA text calculator for natural language expressions with a vim-style TUI.\nA reverse engineering CLI and TUI for PE, ELF and Mach-O binaries.\nRun tasks and workflows from Markdown.\nA terminal file explorer with deep Git integration.\nLike btop, but for your AI coding agents.\nRun tasks and workflows from Markdown.\nBrowse By Language\nConfirm your email to receive updates from Terminal Trove.",
+    "markdownUrl": null
+  },
+  "status": 200,
+  "final_url": "https://terminaltrove.com/",
+  "sha256": "aef12130f7c08c30965487a35cb005b70055569dfb059c09c1134b288fcf8cbd",
+  "content_type": "text/html; charset=utf-8"
+}

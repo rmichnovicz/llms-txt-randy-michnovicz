@@ -1,0 +1,523 @@
+{
+  "url": "https://www.framer.com/agents/external/",
+  "title": "Framer: Connect Claude, Cursor, Codex, Grok, and more to Framer",
+  "content": "Learn how to Connect Framer to Claude, Codex, Cursor, and more\nOpus 4.7 · Claude Max\n/Users/paul\n> npx @framer/agent setup\n- Run the install prompt\nOpus 4.7 · Claude Max\n/Users/paul\n> npx @framer/agent setup\n- Run the install prompt\n> npx @framer/agent setup\n⏺ Bash (npx @framer/agent setup)\\ Installed 2 skills to /Users/paul/.agents/skills, /Users/paul/.claude/skills\n> /framer\n- Connect to your projects\nIn your AI agent, run the /framer skill to connect it to your Framer project and grant access to the project from your browser. This establishes the connection between your external AI and your Framer project.\n⏺ Bash (npx @framer/agent setup)\\ Installed 2 skills to /Users/paul/.agents/skills, /Users/paul/.claude/skills\nConnected to your Site project (session 6). What would you like me to help you with?\n> List all the blogposts in my project\n- Write your first prompt\nTell your agent what to build, change, or fix. It works directly in your Framer project without the need to have it open. This means you can update anything in your project and even publish remotely.\nFrequently asked questions\nLearn how to Connect Framer to Claude, Codex, Cursor, and more\nOpus 4.7 · Claude Max\n/Users/paul\n> npx @framer/agent setup\n- Run the install prompt\n> npx @framer/agent setup\n⏺ Bash (npx @framer/agent setup)\\ Installed 2 skills to /Users/paul/.agents/skills, /Users/paul/.claude/skills\n> /framer\n- Connect to your projects\nIn your AI agent, run the /framer skill to connect it to your Framer project and grant access to the project from your browser. This establishes the connection between your external AI and your Framer project.\n⏺ Bash (npx @framer/agent setup)\\ Installed 2 skills to /Users/paul/.agents/skills, /Users/paul/.claude/skills\nConnected to your Site project (session 6). What would you like me to help you with?\n> List all the blogposts in my project\n- Write your first prompt\nTell your agent what to build, change, or fix. It works directly in your Framer project without the need to have it open. This means you can update anything in your project and even publish remotely.",
+  "links": [
+    {
+      "url": "https://www.framer.com/agents/external/",
+      "label": "install prompt"
+    },
+    {
+      "url": "https://www.anthropic.com/claude-code",
+      "label": "Claude Code"
+    },
+    {
+      "url": "https://cursor.com/",
+      "label": "Get Cursor."
+    },
+    {
+      "url": "https://openai.com/codex/",
+      "label": "Get Codex in ChatGPT"
+    },
+    {
+      "url": "https://antigravity.google/",
+      "label": "Get Antigravity"
+    },
+    {
+      "url": "https://windsurf.com/",
+      "label": "Windsurf"
+    },
+    {
+      "url": "https://www.framer.com/collaborate/",
+      "label": "branching"
+    },
+    {
+      "url": "https://www.framer.com/",
+      "label": "Framer"
+    },
+    {
+      "url": "https://www.framer.com/enterprise/",
+      "label": "Enterprise"
+    },
+    {
+      "url": "https://www.framer.com/pricing",
+      "label": "Pricing"
+    },
+    {
+      "url": "https://framer.com/r/login",
+      "label": "Log in"
+    },
+    {
+      "url": "https://www.framer.com/r/signup/",
+      "label": "Sign up"
+    },
+    {
+      "url": "https://www.framer.com/brand",
+      "label": "Brand guidelines"
+    },
+    {
+      "url": "https://www.framer.com/developers/",
+      "label": "Overview"
+    },
+    {
+      "url": "https://www.framer.com/developers/comparison",
+      "label": "Compare"
+    },
+    {
+      "url": "https://www.framer.com/developers/faq",
+      "label": "FAQ"
+    },
+    {
+      "url": "https://www.framer.com/developers/plugins-introduction",
+      "label": "Introduction"
+    },
+    {
+      "url": "https://www.framer.com/developers/plugins-quick-start",
+      "label": "Quick Start"
+    },
+    {
+      "url": "https://www.framer.com/developers/publishing",
+      "label": "Publishing"
+    },
+    {
+      "url": "https://www.framer.com/developers/changelog",
+      "label": "Changelog"
+    },
+    {
+      "url": "https://www.framer.com/developers/reference",
+      "label": "Reference"
+    },
+    {
+      "url": "https://www.framer.com/developers/server-api-introduction",
+      "label": "Introduction"
+    },
+    {
+      "url": "https://www.framer.com/developers/server-api-quick-start",
+      "label": "Quick Start"
+    },
+    {
+      "url": "https://www.framer.com/developers/server-api-reference",
+      "label": "Reference"
+    },
+    {
+      "url": "https://www.framer.com/developers/server-api-faq",
+      "label": "FAQ"
+    },
+    {
+      "url": "https://www.framer.com/developers/fetch-introduction",
+      "label": "Introduction"
+    },
+    {
+      "url": "https://www.framer.com/developers/fetch-examples",
+      "label": "Examples"
+    },
+    {
+      "url": "https://www.framer.com/developers/components-introduction",
+      "label": "Introduction"
+    },
+    {
+      "url": "https://www.framer.com/developers/component-examples",
+      "label": "Examples"
+    },
+    {
+      "url": "https://www.framer.com/developers/component-sharing",
+      "label": "Asset Sharing"
+    },
+    {
+      "url": "https://www.framer.com/developers/auto-sizing",
+      "label": "Auto-Sizing"
+    },
+    {
+      "url": "https://www.framer.com/developers/property-controls",
+      "label": "Property Controls"
+    },
+    {
+      "url": "https://www.framer.com/developers/components-reference",
+      "label": "Reference"
+    },
+    {
+      "url": "https://www.framer.com/developers/overrides-introduction",
+      "label": "Introduction"
+    },
+    {
+      "url": "https://www.framer.com/developers/overrides-examples",
+      "label": "Examples"
+    },
+    {
+      "url": "https://www.framer.com/agents/",
+      "label": "Try the Internal Agent"
+    },
+    {
+      "url": "https://chatgpt.com/codex/",
+      "label": "Get Codex in ChatGPT"
+    },
+    {
+      "url": "https://claude.com/product/claude-code",
+      "label": "Get Claude Code"
+    },
+    {
+      "url": "https://www.cursor.com/",
+      "label": "Get Cursor"
+    },
+    {
+      "url": "https://www.framer.com/publish/",
+      "label": "Publish Ship updates from design to a live site without leaving Framer."
+    },
+    {
+      "url": "https://www.framer.com/cms/",
+      "label": "CMS Structure dynamic content and let agents update it safely."
+    },
+    {
+      "url": "https://framer.com/r/signup",
+      "label": "Get started for free"
+    },
+    {
+      "url": "https://updates.framer.com/electron/darwin/arm64/Framer.zip?_ga=2.113395847.1447313862.1646043056-273660571.1642151053",
+      "label": "Download app"
+    },
+    {
+      "url": "https://framer.com/signup",
+      "label": "Start without AI"
+    },
+    {
+      "url": "https://www.framer.com/ai/",
+      "label": "AI"
+    },
+    {
+      "url": "https://www.framer.com/design/",
+      "label": "Design"
+    },
+    {
+      "url": "https://www.framer.com/hosting/",
+      "label": "Hosting"
+    },
+    {
+      "url": "https://www.framer.com/performance/",
+      "label": "Performance"
+    },
+    {
+      "url": "https://www.framer.com/seo/",
+      "label": "SEO"
+    },
+    {
+      "url": "https://www.framer.com/skills",
+      "label": "Skills New"
+    },
+    {
+      "url": "https://www.framer.com/convert/",
+      "label": "Convert"
+    },
+    {
+      "url": "https://www.framer.com/updates",
+      "label": "Updates"
+    },
+    {
+      "url": "https://www.framer.com/community/marketplace/templates/",
+      "label": "Templates"
+    },
+    {
+      "url": "https://www.framer.com/community/marketplace/components/",
+      "label": "Components"
+    },
+    {
+      "url": "https://www.framer.com/community/marketplace/plugins/",
+      "label": "Plugins"
+    },
+    {
+      "url": "https://www.framer.com/community/marketplace/vectors/",
+      "label": "Vectors"
+    },
+    {
+      "url": "https://www.framer.com/community/gallery/",
+      "label": "Gallery"
+    },
+    {
+      "url": "https://www.framer.com/community/members/",
+      "label": "Experts"
+    },
+    {
+      "url": "https://www.framer.com/switch/",
+      "label": "Switch"
+    },
+    {
+      "url": "https://www.framer.com/agencies/",
+      "label": "Agencies"
+    },
+    {
+      "url": "https://www.framer.com/startups/",
+      "label": "Startups"
+    },
+    {
+      "url": "https://www.framer.com/academy/",
+      "label": "Academy"
+    },
+    {
+      "url": "https://www.framer.com/downloads/",
+      "label": "Download App"
+    },
+    {
+      "url": "https://www.framer.com/guides",
+      "label": "Guides"
+    },
+    {
+      "url": "https://www.framer.com/blog/",
+      "label": "Blog"
+    },
+    {
+      "url": "https://www.framer.com/newsletter",
+      "label": "Newsletter"
+    },
+    {
+      "url": "https://www.framer.com/stories/",
+      "label": "Stories"
+    },
+    {
+      "url": "https://www.framer.com/creators",
+      "label": "Creators"
+    },
+    {
+      "url": "https://www.framer.com/expert/apply/",
+      "label": "Experts"
+    },
+    {
+      "url": "https://www.framer.com/education/students/",
+      "label": "Students"
+    },
+    {
+      "url": "https://www.framer.com/education/ambassadors/",
+      "label": "Ambassadors"
+    },
+    {
+      "url": "https://www.framer.com/help/",
+      "label": "Help Articles"
+    },
+    {
+      "url": "https://www.framer.com/contact/",
+      "label": "Contact"
+    },
+    {
+      "url": "https://www.framer.com/meetups/",
+      "label": "Meetups"
+    },
+    {
+      "url": "https://www.framer.com/solutions/designers/",
+      "label": "Designers"
+    },
+    {
+      "url": "https://www.framer.com/solutions/agencies/",
+      "label": "Agencies"
+    },
+    {
+      "url": "https://www.framer.com/solutions/marketers/",
+      "label": "Marketers"
+    },
+    {
+      "url": "https://www.framer.com/solutions/growth/",
+      "label": "Growth"
+    },
+    {
+      "url": "https://www.framer.com/solutions/builders/",
+      "label": "Builders"
+    },
+    {
+      "url": "https://www.framer.com/solutions/engineers/",
+      "label": "Engineers"
+    },
+    {
+      "url": "https://www.framer.com/solutions/site-teams/",
+      "label": "Site Teams"
+    },
+    {
+      "url": "https://www.framer.com/solutions/founders/",
+      "label": "Founders"
+    },
+    {
+      "url": "https://www.framer.com/solutions/ai-website-builder/",
+      "label": "AI website builder"
+    },
+    {
+      "url": "https://www.framer.com/solutions/ai-designer/",
+      "label": "AI design agent"
+    },
+    {
+      "url": "https://www.framer.com/solutions/website-builder/",
+      "label": "Website builder"
+    },
+    {
+      "url": "https://www.framer.com/solutions/landing-pages/",
+      "label": "Landing pages"
+    },
+    {
+      "url": "https://www.framer.com/solutions/portfolio-website/",
+      "label": "Portfolio maker"
+    },
+    {
+      "url": "https://www.framer.com/solutions/ui-ux-design/",
+      "label": "UI/UX design"
+    },
+    {
+      "url": "https://www.framer.com/solutions/figma-to-html/",
+      "label": "Figma to HTML"
+    },
+    {
+      "url": "https://www.framer.com/solutions/no-code-website-builder/",
+      "label": "No-code"
+    },
+    {
+      "url": "https://www.framer.com/compare",
+      "label": "Compare"
+    },
+    {
+      "url": "https://www.framer.com/compare/framer-vs-webflow",
+      "label": "Webflow"
+    },
+    {
+      "url": "https://www.framer.com/compare/framer-vs-figma",
+      "label": "Figma"
+    },
+    {
+      "url": "https://www.framer.com/compare/framer-vs-wix",
+      "label": "Wix"
+    },
+    {
+      "url": "https://www.framer.com/compare/framer-vs-squarespace",
+      "label": "Squarespace"
+    },
+    {
+      "url": "https://www.framer.com/compare/framer-vs-wordpress",
+      "label": "WordPress"
+    },
+    {
+      "url": "https://www.framer.com/compare/framer-vs-readymag",
+      "label": "Readymag"
+    },
+    {
+      "url": "https://www.framer.com/compare/framer-vs-ceros",
+      "label": "Ceros"
+    },
+    {
+      "url": "https://www.framer.com/compare/framer-vs-unbounce",
+      "label": "Unbounce"
+    },
+    {
+      "url": "https://www.framer.com/compare/framer-vs-lovable",
+      "label": "Lovable"
+    },
+    {
+      "url": "https://www.framer.com/compare/framer-vs-claude-code",
+      "label": "Claude Code"
+    },
+    {
+      "url": "https://www.framer.com/compare/framer-vs-chatgpt",
+      "label": "ChatGPT"
+    },
+    {
+      "url": "https://www.framer.com/compare/framer-vs-codex",
+      "label": "Codex"
+    },
+    {
+      "url": "https://www.framer.com/compare/framer-vs-contentful",
+      "label": "Contentful"
+    },
+    {
+      "url": "https://www.framer.com/compare/framer-vs-sanity",
+      "label": "Sanity"
+    },
+    {
+      "url": "https://www.framer.com/compare/framer-vs-adobe-experience-manager",
+      "label": "AEM"
+    },
+    {
+      "url": "https://www.framer.com/compare/framer-vs-replit",
+      "label": "Replit"
+    },
+    {
+      "url": "https://www.framer.com/compare/framer-vs-v0",
+      "label": "v0"
+    },
+    {
+      "url": "https://www.framer.com/careers/",
+      "label": "Careers"
+    },
+    {
+      "url": "https://www.framer.com/legal/security",
+      "label": "Security"
+    },
+    {
+      "url": "https://www.framer.com/legal/community-terms",
+      "label": "Legal"
+    },
+    {
+      "url": "https://app.eu.vanta.com/framer.com/trust/ow67ujg7iav0t6qtd1o6r2",
+      "label": "Trust"
+    },
+    {
+      "url": "https://www.framer.com/store",
+      "label": "Merch"
+    },
+    {
+      "url": "https://www.framer.com/f1",
+      "label": "Keyboard"
+    },
+    {
+      "url": "https://www.framer.com/stack-score/",
+      "label": "Stack Score"
+    },
+    {
+      "url": "https://www.framer.com/domains/",
+      "label": "Free domains"
+    },
+    {
+      "url": "https://www.framer.com/aeo",
+      "label": "AEO scanner"
+    },
+    {
+      "url": "https://www.framer.com/state-of-sites-2026/",
+      "label": "State of Sites"
+    },
+    {
+      "url": "https://www.framer.com/canvasbench/",
+      "label": "CanvasBench"
+    },
+    {
+      "url": "https://www.linkpreview.app/",
+      "label": "Link Preview"
+    },
+    {
+      "url": "https://x.com/framer",
+      "label": ""
+    },
+    {
+      "url": "https://www.youtube.com/@Framer",
+      "label": ""
+    },
+    {
+      "url": "https://www.instagram.com/framer/",
+      "label": ""
+    },
+    {
+      "url": "https://www.linkedin.com/company/framer/",
+      "label": ""
+    },
+    {
+      "url": "https://www.threads.com/@framer",
+      "label": ""
+    },
+    {
+      "url": "https://framer.com/llms.txt/",
+      "label": ""
+    },
+    {
+      "url": "https://www.framerstatus.com/",
+      "label": "Checking status"
+    },
+    {
+      "url": "https://www.framer.com/shortcuts",
+      "label": "Shortcuts"
+    }
+  ],
+  "body_sha256": "f68303accb3dafacb3482d92414a3ba40f30379649ba598577378818e2cca6dd",
+  "status": 200,
+  "origin": "frozen-corpus",
+  "retrieved_at": "2026-09-24T22:49:12.921315+00:00"
+}

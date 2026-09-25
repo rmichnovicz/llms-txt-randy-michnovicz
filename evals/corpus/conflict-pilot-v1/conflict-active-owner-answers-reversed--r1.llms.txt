@@ -1,0 +1,9 @@
+# Parcel Shop
+
+> Parcel Shop provides home delivery; its published pages and active corrections give conflicting free-delivery thresholds.
+
+The homepage states €300 and the shipping policy states €600. Active corrections state €750 and €450; the €450 correction explicitly supersedes the website, but does not resolve the conflict with the €750 correction.
+
+## Delivery
+
+- [Shipping policy](<https://parcel.example/shipping>): Published home-delivery information; its free-delivery threshold conflicts with other supplied evidence.

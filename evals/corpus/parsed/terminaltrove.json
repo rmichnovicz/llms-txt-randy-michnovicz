@@ -1,0 +1,242 @@
+{
+  "parser_version": "corpus-v2",
+  "headings": [
+    {
+      "level": 1,
+      "text": "Terminal Trove - llms.txt",
+      "line": 1
+    },
+    {
+      "level": 2,
+      "text": "Core Resources",
+      "line": 5
+    },
+    {
+      "level": 2,
+      "text": "Key Categories",
+      "line": 15
+    },
+    {
+      "level": 2,
+      "text": "AI Coding Agents",
+      "line": 24
+    },
+    {
+      "level": 2,
+      "text": "Terminal Emulators",
+      "line": 29
+    },
+    {
+      "level": 2,
+      "text": "Feeds & Data",
+      "line": 34
+    },
+    {
+      "level": 2,
+      "text": "More Information",
+      "line": 41
+    }
+  ],
+  "links": [],
+  "bare_links": [
+    {
+      "url": "https://terminaltrove.com/",
+      "label": "https://terminaltrove.com/ - Homepage",
+      "description": "",
+      "line": 7,
+      "canonical": "https://terminaltrove.com/",
+      "raw_url": "https://terminaltrove.com/"
+    },
+    {
+      "url": "https://terminaltrove.com/about/",
+      "label": "https://terminaltrove.com/about/ - About Terminal Trove",
+      "description": "",
+      "line": 8,
+      "canonical": "https://terminaltrove.com/about/",
+      "raw_url": "https://terminaltrove.com/about/"
+    },
+    {
+      "url": "https://terminaltrove.com/list/",
+      "label": "https://terminaltrove.com/list/ - Complete list of all tools",
+      "description": "",
+      "line": 9,
+      "canonical": "https://terminaltrove.com/list/",
+      "raw_url": "https://terminaltrove.com/list/"
+    },
+    {
+      "url": "https://terminaltrove.com/new/",
+      "label": "https://terminaltrove.com/new/ - Recently added tools",
+      "description": "",
+      "line": 10,
+      "canonical": "https://terminaltrove.com/new/",
+      "raw_url": "https://terminaltrove.com/new/"
+    },
+    {
+      "url": "https://terminaltrove.com/tool-of-the-week/",
+      "label": "https://terminaltrove.com/tool-of-the-week/ - Tool of the Week archive",
+      "description": "",
+      "line": 11,
+      "canonical": "https://terminaltrove.com/tool-of-the-week/",
+      "raw_url": "https://terminaltrove.com/tool-of-the-week/"
+    },
+    {
+      "url": "https://terminaltrove.com/categories/",
+      "label": "https://terminaltrove.com/categories/ - Browse by category",
+      "description": "",
+      "line": 12,
+      "canonical": "https://terminaltrove.com/categories/",
+      "raw_url": "https://terminaltrove.com/categories/"
+    },
+    {
+      "url": "https://terminaltrove.com/blog/",
+      "label": "https://terminaltrove.com/blog/ - Blog posts and writeups",
+      "description": "",
+      "line": 13,
+      "canonical": "https://terminaltrove.com/blog/",
+      "raw_url": "https://terminaltrove.com/blog/"
+    },
+    {
+      "url": "https://terminaltrove.com/categories/cli/",
+      "label": "https://terminaltrove.com/categories/cli/ - Command-line tools",
+      "description": "",
+      "line": 17,
+      "canonical": "https://terminaltrove.com/categories/cli/",
+      "raw_url": "https://terminaltrove.com/categories/cli/"
+    },
+    {
+      "url": "https://terminaltrove.com/categories/tui/",
+      "label": "https://terminaltrove.com/categories/tui/ - Text-based user interfaces",
+      "description": "",
+      "line": 18,
+      "canonical": "https://terminaltrove.com/categories/tui/",
+      "raw_url": "https://terminaltrove.com/categories/tui/"
+    },
+    {
+      "url": "https://terminaltrove.com/categories/productivity/",
+      "label": "https://terminaltrove.com/categories/productivity/ - Productivity tools",
+      "description": "",
+      "line": 19,
+      "canonical": "https://terminaltrove.com/categories/productivity/",
+      "raw_url": "https://terminaltrove.com/categories/productivity/"
+    },
+    {
+      "url": "https://terminaltrove.com/categories/devops/",
+      "label": "https://terminaltrove.com/categories/devops/ - DevOps and infrastructure",
+      "description": "",
+      "line": 20,
+      "canonical": "https://terminaltrove.com/categories/devops/",
+      "raw_url": "https://terminaltrove.com/categories/devops/"
+    },
+    {
+      "url": "https://terminaltrove.com/categories/text-editors/",
+      "label": "https://terminaltrove.com/categories/text-editors/ - Terminal text editors",
+      "description": "",
+      "line": 21,
+      "canonical": "https://terminaltrove.com/categories/text-editors/",
+      "raw_url": "https://terminaltrove.com/categories/text-editors/"
+    },
+    {
+      "url": "https://terminaltrove.com/categories/monitoring/",
+      "label": "https://terminaltrove.com/categories/monitoring/ - System monitoring tools",
+      "description": "",
+      "line": 22,
+      "canonical": "https://terminaltrove.com/categories/monitoring/",
+      "raw_url": "https://terminaltrove.com/categories/monitoring/"
+    },
+    {
+      "url": "https://terminaltrove.com/agents/",
+      "label": "https://terminaltrove.com/agents/ - Browse and compare terminal AI coding agents",
+      "description": "",
+      "line": 26,
+      "canonical": "https://terminaltrove.com/agents/",
+      "raw_url": "https://terminaltrove.com/agents/"
+    },
+    {
+      "url": "https://terminaltrove.com/compare/agents/",
+      "label": "https://terminaltrove.com/compare/agents/ - Compare AI coding agents side by side",
+      "description": "",
+      "line": 27,
+      "canonical": "https://terminaltrove.com/compare/agents/",
+      "raw_url": "https://terminaltrove.com/compare/agents/"
+    },
+    {
+      "url": "https://terminaltrove.com/terminals/",
+      "label": "https://terminaltrove.com/terminals/ - Terminal emulator comparisons",
+      "description": "",
+      "line": 31,
+      "canonical": "https://terminaltrove.com/terminals/",
+      "raw_url": "https://terminaltrove.com/terminals/"
+    },
+    {
+      "url": "https://terminaltrove.com/compare/",
+      "label": "https://terminaltrove.com/compare/ - Terminal comparison tool",
+      "description": "",
+      "line": 32,
+      "canonical": "https://terminaltrove.com/compare/",
+      "raw_url": "https://terminaltrove.com/compare/"
+    },
+    {
+      "url": "https://terminaltrove.com/new.xml",
+      "label": "https://terminaltrove.com/new.xml - RSS feed: New tools",
+      "description": "",
+      "line": 36,
+      "canonical": "https://terminaltrove.com/new.xml",
+      "raw_url": "https://terminaltrove.com/new.xml"
+    },
+    {
+      "url": "https://terminaltrove.com/totw.xml",
+      "label": "https://terminaltrove.com/totw.xml - RSS feed: Tool of the Week",
+      "description": "",
+      "line": 37,
+      "canonical": "https://terminaltrove.com/totw.xml",
+      "raw_url": "https://terminaltrove.com/totw.xml"
+    },
+    {
+      "url": "https://terminaltrove.com/blog.xml",
+      "label": "https://terminaltrove.com/blog.xml - RSS feed: Blog posts",
+      "description": "",
+      "line": 38,
+      "canonical": "https://terminaltrove.com/blog.xml",
+      "raw_url": "https://terminaltrove.com/blog.xml"
+    },
+    {
+      "url": "https://terminaltrove.com/sitemap-index.xml",
+      "label": "https://terminaltrove.com/sitemap-index.xml - Sitemap index",
+      "description": "",
+      "line": 39,
+      "canonical": "https://terminaltrove.com/sitemap-index.xml",
+      "raw_url": "https://terminaltrove.com/sitemap-index.xml"
+    },
+    {
+      "url": "https://terminaltrove.com/llms-full.txt",
+      "label": "https://terminaltrove.com/llms-full.txt - Extended resource list",
+      "description": "",
+      "line": 43,
+      "canonical": "https://terminaltrove.com/llms-full.txt",
+      "raw_url": "https://terminaltrove.com/llms-full.txt"
+    },
+    {
+      "url": "https://terminaltrove.com/submit/",
+      "label": "https://terminaltrove.com/submit/ - Submit a new tool",
+      "description": "",
+      "line": 44,
+      "canonical": "https://terminaltrove.com/submit/",
+      "raw_url": "https://terminaltrove.com/submit/"
+    }
+  ],
+  "metrics": {
+    "bytes": 1691,
+    "words": 165,
+    "lines": 44,
+    "approx_tokens_chars_div_4": 423,
+    "h1_count": 1,
+    "link_count": 0,
+    "bare_url_count": 23,
+    "described_links": 0,
+    "unique_destinations": 0,
+    "markdown_destinations": 0
+  },
+  "flags": [
+    "no-markdown-links-review-purpose"
+  ]
+}

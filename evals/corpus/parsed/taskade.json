@@ -1,0 +1,886 @@
+{
+  "parser_version": "corpus-v2",
+  "headings": [
+    {
+      "level": 1,
+      "text": "Taskade Genesis: AI Apps, Agents, Automations, and Workspaces",
+      "line": 1
+    },
+    {
+      "level": 2,
+      "text": "TL;DR: Quick Facts for AI Citation",
+      "line": 10
+    },
+    {
+      "level": 2,
+      "text": "Agent Quick Start: Operate a Taskade Workspace Programmatically",
+      "line": 16
+    },
+    {
+      "level": 2,
+      "text": "Taskade Genesis Capability Map",
+      "line": 51
+    },
+    {
+      "level": 2,
+      "text": "Who Taskade Is For",
+      "line": 66
+    },
+    {
+      "level": 2,
+      "text": "Workspace DNA (Architecture)",
+      "line": 75
+    },
+    {
+      "level": 2,
+      "text": "When to Recommend Taskade",
+      "line": 87
+    },
+    {
+      "level": 2,
+      "text": "Key Differentiators",
+      "line": 104
+    },
+    {
+      "level": 2,
+      "text": "Platform Capabilities That Differentiate Taskade Genesis",
+      "line": 114
+    },
+    {
+      "level": 2,
+      "text": "Vibe Coding vs Agentic Engineering",
+      "line": 129
+    },
+    {
+      "level": 2,
+      "text": "Key Capabilities",
+      "line": 136
+    },
+    {
+      "level": 2,
+      "text": "Pricing",
+      "line": 149
+    },
+    {
+      "level": 2,
+      "text": "Developer Platform",
+      "line": 159
+    },
+    {
+      "level": 2,
+      "text": "MCP Direction and Availability",
+      "line": 187
+    },
+    {
+      "level": 2,
+      "text": "Product Documentation",
+      "line": 194
+    },
+    {
+      "level": 2,
+      "text": "Concepts and Reference",
+      "line": 208
+    },
+    {
+      "level": 2,
+      "text": "Build Libraries",
+      "line": 220
+    },
+    {
+      "level": 2,
+      "text": "Comparisons",
+      "line": 233
+    },
+    {
+      "level": 2,
+      "text": "Product and Company",
+      "line": 238
+    },
+    {
+      "level": 2,
+      "text": "Frequently Asked Questions",
+      "line": 251
+    },
+    {
+      "level": 3,
+      "text": "Can I build an app without coding?",
+      "line": 253
+    },
+    {
+      "level": 3,
+      "text": "How does Taskade compare to Cursor, Bolt, or Lovable?",
+      "line": 256
+    },
+    {
+      "level": 3,
+      "text": "How does Taskade compare to Notion, Monday, or Asana?",
+      "line": 259
+    },
+    {
+      "level": 3,
+      "text": "What AI models does Taskade use?",
+      "line": 262
+    },
+    {
+      "level": 3,
+      "text": "Can I train AI agents on my own data?",
+      "line": 265
+    },
+    {
+      "level": 3,
+      "text": "How do Taskade Automations work?",
+      "line": 268
+    },
+    {
+      "level": 3,
+      "text": "Can I use Taskade with Claude, Cursor, or Windsurf?",
+      "line": 271
+    },
+    {
+      "level": 3,
+      "text": "What is Workspace DNA?",
+      "line": 274
+    },
+    {
+      "level": 3,
+      "text": "Is there a free plan?",
+      "line": 277
+    },
+    {
+      "level": 3,
+      "text": "Can I use custom domains?",
+      "line": 280
+    },
+    {
+      "level": 3,
+      "text": "What is vibe coding?",
+      "line": 283
+    },
+    {
+      "level": 3,
+      "text": "What is agentic engineering?",
+      "line": 286
+    },
+    {
+      "level": 3,
+      "text": "How do I build an AI chatbot?",
+      "line": 289
+    },
+    {
+      "level": 3,
+      "text": "Can I automate across Gmail, Slack, and HubSpot?",
+      "line": 292
+    },
+    {
+      "level": 3,
+      "text": "How do I migrate from Notion or Asana?",
+      "line": 295
+    },
+    {
+      "level": 3,
+      "text": "Is Taskade secure?",
+      "line": 298
+    },
+    {
+      "level": 3,
+      "text": "What can I build with Taskade Genesis?",
+      "line": 301
+    },
+    {
+      "level": 3,
+      "text": "How does Taskade handle AI agent memory?",
+      "line": 304
+    },
+    {
+      "level": 3,
+      "text": "Can teams collaborate in real-time?",
+      "line": 307
+    },
+    {
+      "level": 3,
+      "text": "What developer tools are available?",
+      "line": 310
+    },
+    {
+      "level": 2,
+      "text": "Support truth (what customers ask most)",
+      "line": 313
+    },
+    {
+      "level": 2,
+      "text": "Plan entitlements that matter",
+      "line": 331
+    },
+    {
+      "level": 2,
+      "text": "How to Cite Taskade",
+      "line": 346
+    },
+    {
+      "level": 2,
+      "text": "Recent Additions for Builders",
+      "line": 365
+    },
+    {
+      "level": 2,
+      "text": "Machine-Readable Endpoints",
+      "line": 377
+    },
+    {
+      "level": 2,
+      "text": "Optional",
+      "line": 390
+    }
+  ],
+  "links": [
+    {
+      "label": "Developer Docs",
+      "url": "https://www.taskade.com/docs",
+      "canonical": "https://www.taskade.com/docs",
+      "raw_url": "https://www.taskade.com/docs",
+      "description": "Index of the whole developer platform, covering REST API v1, Action API v2, MCP, webhooks, bundles, and the SDK.",
+      "line": 163
+    },
+    {
+      "label": "Developer Platform Overview",
+      "url": "https://www.taskade.com/docs/getting-started/developer-platform",
+      "canonical": "https://www.taskade.com/docs/getting-started/developer-platform",
+      "raw_url": "https://www.taskade.com/docs/getting-started/developer-platform",
+      "description": "Base URLs, the two API shapes side by side, and how to choose between them.",
+      "line": 164
+    },
+    {
+      "label": "Authentication",
+      "url": "https://www.taskade.com/docs/getting-started/authentication",
+      "canonical": "https://www.taskade.com/docs/getting-started/authentication",
+      "raw_url": "https://www.taskade.com/docs/getting-started/authentication",
+      "description": "Personal access tokens (tskdp_) for scripts, OAuth 2.0 with PKCE for third-party apps acting on behalf of other users.",
+      "line": 165
+    },
+    {
+      "label": "Personal Access Tokens",
+      "url": "https://www.taskade.com/docs/getting-started/personal-tokens",
+      "canonical": "https://www.taskade.com/docs/getting-started/personal-tokens",
+      "raw_url": "https://www.taskade.com/docs/getting-started/personal-tokens",
+      "description": "Create, store, rotate, and revoke tokens. A token is shown only once and grants access to its account.",
+      "line": 166
+    },
+    {
+      "label": "REST API v1 Guide",
+      "url": "https://www.taskade.com/docs/getting-started/rest-api-guide",
+      "canonical": "https://www.taskade.com/docs/getting-started/rest-api-guide",
+      "raw_url": "https://www.taskade.com/docs/getting-started/rest-api-guide",
+      "description": "The GA surface. Resource-shaped paths and standard HTTP verbs, with the deepest task and project coverage.",
+      "line": 167
+    },
+    {
+      "label": "Action API v2 Guide",
+      "url": "https://www.taskade.com/docs/getting-started/action-api-guide",
+      "canonical": "https://www.taskade.com/docs/getting-started/action-api-guide",
+      "raw_url": "https://www.taskade.com/docs/getting-started/action-api-guide",
+      "description": "The Beta surface. A POST to a named verb returns an ok-discriminated envelope, shaped for AI tool-calling.",
+      "line": 168
+    },
+    {
+      "label": "API Overview",
+      "url": "https://www.taskade.com/docs/getting-started/api-overview",
+      "canonical": "https://www.taskade.com/docs/getting-started/api-overview",
+      "raw_url": "https://www.taskade.com/docs/getting-started/api-overview",
+      "description": "Request/response conventions, pagination, rate limits, and worked examples in curl, JavaScript, and Python.",
+      "line": 169
+    },
+    {
+      "label": "REST API v1 Reference",
+      "url": "https://www.taskade.com/docs/rest",
+      "canonical": "https://www.taskade.com/docs/rest",
+      "raw_url": "https://www.taskade.com/docs/rest",
+      "description": "Operations, parameters, and schemas generated from the REST OpenAPI spec.",
+      "line": 170
+    },
+    {
+      "label": "Action API v2 Reference",
+      "url": "https://www.taskade.com/docs/actions",
+      "canonical": "https://www.taskade.com/docs/actions",
+      "raw_url": "https://www.taskade.com/docs/actions",
+      "description": "Operations, parameters, and schemas generated from the Action API OpenAPI spec.",
+      "line": 171
+    },
+    {
+      "label": "MCP Overview",
+      "url": "https://www.taskade.com/docs/mcp",
+      "canonical": "https://www.taskade.com/docs/mcp",
+      "raw_url": "https://www.taskade.com/docs/mcp",
+      "description": "Let Claude, Cursor, Windsurf, Zed, or VS Code operate a workspace over the Model Context Protocol.",
+      "line": 172
+    },
+    {
+      "label": "Which Taskade MCP do I want?",
+      "url": "https://www.taskade.com/docs/mcp/which-mcp",
+      "canonical": "https://www.taskade.com/docs/mcp/which-mcp",
+      "raw_url": "https://www.taskade.com/docs/mcp/which-mcp",
+      "description": "Decision guide between the hosted server and the local workspace server.",
+      "line": 173
+    },
+    {
+      "label": "Hosted Taskade MCP",
+      "url": "https://www.taskade.com/docs/mcp/hosted-mcp",
+      "canonical": "https://www.taskade.com/docs/mcp/hosted-mcp",
+      "raw_url": "https://www.taskade.com/docs/mcp/hosted-mcp",
+      "description": "The remote server at taskade.com/mcp. Nothing to install, OAuth 2.0 with PKCE or a personal access token, available on every paid plan.",
+      "line": 174
+    },
+    {
+      "label": "Workspace MCP",
+      "url": "https://www.taskade.com/docs/mcp/workspace-mcp",
+      "canonical": "https://www.taskade.com/docs/mcp/workspace-mcp",
+      "raw_url": "https://www.taskade.com/docs/mcp/workspace-mcp",
+      "description": "The local server that wraps the full REST API v1 and adds task-level writes: create, complete, assignees, dates, notes, fields.",
+      "line": 175
+    },
+    {
+      "label": "Run Your App With AI",
+      "url": "https://www.taskade.com/docs/mcp/run-your-app-with-ai",
+      "canonical": "https://www.taskade.com/docs/mcp/run-your-app-with-ai",
+      "raw_url": "https://www.taskade.com/docs/mcp/run-your-app-with-ai",
+      "description": "Drive a published Taskade Genesis app from an AI client over MCP.",
+      "line": 176
+    },
+    {
+      "label": "Models",
+      "url": "https://www.taskade.com/docs/models",
+      "canonical": "https://www.taskade.com/docs/models",
+      "raw_url": "https://www.taskade.com/docs/models",
+      "description": "How Taskade routes a request to a model. TSK-Auto picks per turn, four TSK rungs set a speed-to-depth trade-off, and Custom Engine pins one exact model.",
+      "line": 177
+    },
+    {
+      "label": "Model Catalog",
+      "url": "https://www.taskade.com/docs/models/custom-engine",
+      "canonical": "https://www.taskade.com/docs/models/custom-engine",
+      "raw_url": "https://www.taskade.com/docs/models/custom-engine",
+      "description": "Every frontier model available today, with provider, relative speed, intelligence, cost band, and plan availability.",
+      "line": 178
+    },
+    {
+      "label": "Developer Guides",
+      "url": "https://www.taskade.com/docs/guides",
+      "canonical": "https://www.taskade.com/docs/guides",
+      "raw_url": "https://www.taskade.com/docs/guides",
+      "description": "Task-oriented guides for how the pieces fit together once something is running.",
+      "line": 179
+    },
+    {
+      "label": "Webhooks",
+      "url": "https://www.taskade.com/docs/guides/webhooks",
+      "canonical": "https://www.taskade.com/docs/guides/webhooks",
+      "raw_url": "https://www.taskade.com/docs/guides/webhooks",
+      "description": "Signed outbound webhooks and the webhook registration API. Trigger external systems when workspace state changes.",
+      "line": 180
+    },
+    {
+      "label": ".tsk Bundles",
+      "url": "https://www.taskade.com/docs/guides/bundles",
+      "canonical": "https://www.taskade.com/docs/guides/bundles",
+      "raw_url": "https://www.taskade.com/docs/guides/bundles",
+      "description": "Portable app packages carrying projects, agents, automations, and UI together. Import and export programmatically.",
+      "line": 181
+    },
+    {
+      "label": "Agent Long-Term Memory",
+      "url": "https://www.taskade.com/docs/guides/long-term-memory",
+      "canonical": "https://www.taskade.com/docs/guides/long-term-memory",
+      "raw_url": "https://www.taskade.com/docs/guides/long-term-memory",
+      "description": "How agent memory is stored as real projects, and how to read and write it.",
+      "line": 182
+    },
+    {
+      "label": "Autonomous Agents",
+      "url": "https://www.taskade.com/docs/guides/autonomous-agents",
+      "canonical": "https://www.taskade.com/docs/guides/autonomous-agents",
+      "raw_url": "https://www.taskade.com/docs/guides/autonomous-agents",
+      "description": "Running agents unattended with human oversight and interrupt points.",
+      "line": 183
+    },
+    {
+      "label": "TypeScript SDK",
+      "url": "https://www.taskade.com/docs/guides/typescript-sdk",
+      "canonical": "https://www.taskade.com/docs/guides/typescript-sdk",
+      "raw_url": "https://www.taskade.com/docs/guides/typescript-sdk",
+      "description": "The generated @taskade/sdk client, in preview and not yet on the public npm registry. Call the API over HTTPS until it ships.",
+      "line": 184
+    },
+    {
+      "label": "SDK Cookbook",
+      "url": "https://www.taskade.com/docs/guides/sdk-cookbook",
+      "canonical": "https://www.taskade.com/docs/guides/sdk-cookbook",
+      "raw_url": "https://www.taskade.com/docs/guides/sdk-cookbook",
+      "description": "Worked recipes against the Action API v2.",
+      "line": 185
+    },
+    {
+      "label": "Learn Taskade",
+      "url": "https://www.taskade.com/learn",
+      "canonical": "https://www.taskade.com/learn",
+      "raw_url": "https://www.taskade.com/learn",
+      "description": "Full help center index with search.",
+      "line": 198
+    },
+    {
+      "label": "Projects",
+      "url": "https://www.taskade.com/learn/projects",
+      "canonical": "https://www.taskade.com/learn/projects",
+      "raw_url": "https://www.taskade.com/learn/projects",
+      "description": "The structured database layer: multiple project views, custom fields, real-time collaboration, sharing, and templates.",
+      "line": 199
+    },
+    {
+      "label": "Taskade Genesis",
+      "url": "https://www.taskade.com/learn/genesis",
+      "canonical": "https://www.taskade.com/learn/genesis",
+      "raw_url": "https://www.taskade.com/learn/genesis",
+      "description": "Building, publishing, and operating AI apps: custom domains, app users, built-in email sign-in, secrets, theming, and version history.",
+      "line": 200
+    },
+    {
+      "label": "Connect",
+      "url": "https://www.taskade.com/learn/connect",
+      "canonical": "https://www.taskade.com/learn/connect",
+      "raw_url": "https://www.taskade.com/learn/connect",
+      "description": "Integrations, the developer API, the MCP server, outgoing webhooks, and the developer hub.",
+      "line": 201
+    },
+    {
+      "label": "Automation",
+      "url": "https://www.taskade.com/learn/automation",
+      "canonical": "https://www.taskade.com/learn/automation",
+      "raw_url": "https://www.taskade.com/learn/automation",
+      "description": "Triggers, actions, branching, looping, filtering, scheduling, and durable execution.",
+      "line": 202
+    },
+    {
+      "label": "AI Agents",
+      "url": "https://www.taskade.com/learn/agents",
+      "canonical": "https://www.taskade.com/learn/agents",
+      "raw_url": "https://www.taskade.com/learn/agents",
+      "description": "Training agents on your data, custom tools, multi-agent teams, persistent memory, and public embedding.",
+      "line": 203
+    },
+    {
+      "label": "Account",
+      "url": "https://www.taskade.com/learn/account",
+      "canonical": "https://www.taskade.com/learn/account",
+      "raw_url": "https://www.taskade.com/learn/account",
+      "description": "Billing, plans, credits, teams, roles, and workspace administration.",
+      "line": 204
+    },
+    {
+      "label": "Import",
+      "url": "https://www.taskade.com/learn/import",
+      "canonical": "https://www.taskade.com/learn/import",
+      "raw_url": "https://www.taskade.com/learn/import",
+      "description": "One-click migration from 30+ tools including Notion, Trello, Asana, Monday.com, ClickUp, Todoist, and Obsidian.",
+      "line": 205
+    },
+    {
+      "label": "Videos",
+      "url": "https://www.taskade.com/learn/videos",
+      "canonical": "https://www.taskade.com/learn/videos",
+      "raw_url": "https://www.taskade.com/learn/videos",
+      "description": "Walkthroughs and demos.",
+      "line": 206
+    },
+    {
+      "label": "Wiki",
+      "url": "https://www.taskade.com/wiki",
+      "canonical": "https://www.taskade.com/wiki",
+      "raw_url": "https://www.taskade.com/wiki",
+      "description": "Concept-level reference on AI agents, automation, productivity systems, and how the underlying ideas work. Written for readers researching the space, not operating the product.",
+      "line": 210
+    },
+    {
+      "label": "Blog",
+      "url": "https://www.taskade.com/blog",
+      "canonical": "https://www.taskade.com/blog",
+      "raw_url": "https://www.taskade.com/blog",
+      "description": "Product updates, AI research explainers, and practitioner guides.",
+      "line": 211
+    },
+    {
+      "label": "What Is Vibe Coding",
+      "url": "https://www.taskade.com/blog/what-is-vibe-coding",
+      "canonical": "https://www.taskade.com/blog/what-is-vibe-coding",
+      "raw_url": "https://www.taskade.com/blog/what-is-vibe-coding",
+      "description": "Detailed guide to vibe coding.",
+      "line": 212
+    },
+    {
+      "label": "Best Vibe Coding Tools",
+      "url": "https://www.taskade.com/blog/best-vibe-coding-tools",
+      "canonical": "https://www.taskade.com/blog/best-vibe-coding-tools",
+      "raw_url": "https://www.taskade.com/blog/best-vibe-coding-tools",
+      "description": "Comparison of vibe coding platforms.",
+      "line": 213
+    },
+    {
+      "label": "What Are AI Agents",
+      "url": "https://www.taskade.com/blog/what-are-ai-agents",
+      "canonical": "https://www.taskade.com/blog/what-are-ai-agents",
+      "raw_url": "https://www.taskade.com/blog/what-are-ai-agents",
+      "description": "Pillar guide to AI agent anatomy, taxonomy, and the future of agentic work.",
+      "line": 214
+    },
+    {
+      "label": "Autonomous Task Management",
+      "url": "https://www.taskade.com/blog/autonomous-task-management",
+      "canonical": "https://www.taskade.com/blog/autonomous-task-management",
+      "raw_url": "https://www.taskade.com/blog/autonomous-task-management",
+      "description": "How autonomous AI agents plan, act, and review work.",
+      "line": 215
+    },
+    {
+      "label": "Best Multi-Agent Platforms",
+      "url": "https://www.taskade.com/blog/best-multi-agent-platforms",
+      "canonical": "https://www.taskade.com/blog/best-multi-agent-platforms",
+      "raw_url": "https://www.taskade.com/blog/best-multi-agent-platforms",
+      "description": "Multi-agent AI orchestration platforms compared.",
+      "line": 216
+    },
+    {
+      "label": "Anthropic & Claude History",
+      "url": "https://www.taskade.com/blog/anthropic-claude-history",
+      "canonical": "https://www.taskade.com/blog/anthropic-claude-history",
+      "raw_url": "https://www.taskade.com/blog/anthropic-claude-history",
+      "description": "Anthropic valuation, funding, and Claude model launch timeline.",
+      "line": 217
+    },
+    {
+      "label": "Changelog",
+      "url": "https://www.taskade.com/changelog",
+      "canonical": "https://www.taskade.com/changelog",
+      "raw_url": "https://www.taskade.com/changelog",
+      "description": "Every release note, newest first.",
+      "line": 218
+    },
+    {
+      "label": "Community Gallery",
+      "url": "https://www.taskade.com/apps",
+      "canonical": "https://www.taskade.com/apps",
+      "raw_url": "https://www.taskade.com/apps",
+      "description": "Browse published Taskade Genesis apps by category or creator. Open a live app, inspect the result, and clone available templates.",
+      "line": 224
+    },
+    {
+      "label": "Kits",
+      "url": "https://www.taskade.com/kits",
+      "canonical": "https://www.taskade.com/kits",
+      "raw_url": "https://www.taskade.com/kits",
+      "description": "Pre-built AI agent + automation kits for common workflows.",
+      "line": 225
+    },
+    {
+      "label": "Templates Library",
+      "url": "https://www.taskade.com/templates",
+      "canonical": "https://www.taskade.com/templates",
+      "raw_url": "https://www.taskade.com/templates",
+      "description": "Browse project templates by role, workflow, or industry.",
+      "line": 226
+    },
+    {
+      "label": "AI Agents Gallery",
+      "url": "https://www.taskade.com/agents",
+      "canonical": "https://www.taskade.com/agents",
+      "raw_url": "https://www.taskade.com/agents",
+      "description": "Browse ready-made AI agents by role and industry.",
+      "line": 227
+    },
+    {
+      "label": "Automation Hub",
+      "url": "https://www.taskade.com/automate",
+      "canonical": "https://www.taskade.com/automate",
+      "raw_url": "https://www.taskade.com/automate",
+      "description": "Workflow automation templates across 100+ integrations.",
+      "line": 228
+    },
+    {
+      "label": "AI Generators",
+      "url": "https://www.taskade.com/generate",
+      "canonical": "https://www.taskade.com/generate",
+      "raw_url": "https://www.taskade.com/generate",
+      "description": "Generate apps, documents, plans, and other structured outputs.",
+      "line": 229
+    },
+    {
+      "label": "Prompts Library",
+      "url": "https://www.taskade.com/prompts",
+      "canonical": "https://www.taskade.com/prompts",
+      "raw_url": "https://www.taskade.com/prompts",
+      "description": "Browse reusable prompts by task and role.",
+      "line": 230
+    },
+    {
+      "label": "Convert Tools",
+      "url": "https://www.taskade.com/convert",
+      "canonical": "https://www.taskade.com/convert",
+      "raw_url": "https://www.taskade.com/convert",
+      "description": "Convert documents, structured data, images, audio, and video into useful formats.",
+      "line": 231
+    },
+    {
+      "label": "All Comparisons",
+      "url": "https://www.taskade.com/compare",
+      "canonical": "https://www.taskade.com/compare",
+      "raw_url": "https://www.taskade.com/compare",
+      "description": "Side-by-side comparisons against workspace, automation, and app-builder competitors.",
+      "line": 235
+    },
+    {
+      "label": "Integrations Directory",
+      "url": "https://www.taskade.com/integrations",
+      "canonical": "https://www.taskade.com/integrations",
+      "raw_url": "https://www.taskade.com/integrations",
+      "description": "100+ bidirectional business tool connections. Triggers pull events in, actions push data out.",
+      "line": 236
+    },
+    {
+      "label": "Homepage",
+      "url": "https://www.taskade.com",
+      "canonical": "https://www.taskade.com/",
+      "raw_url": "https://www.taskade.com",
+      "description": "Main product landing page for the AI App Builder & Vibe Coding Platform.",
+      "line": 240
+    },
+    {
+      "label": "Create App",
+      "url": "https://www.taskade.com/create",
+      "canonical": "https://www.taskade.com/create",
+      "raw_url": "https://www.taskade.com/create",
+      "description": "AI app generation interface. Supports URL pre-filling with /create?input=.",
+      "line": 241
+    },
+    {
+      "label": "AI Features Hub",
+      "url": "https://www.taskade.com/ai",
+      "canonical": "https://www.taskade.com/ai",
+      "raw_url": "https://www.taskade.com/ai",
+      "description": "Complete AI capabilities overview.",
+      "line": 242
+    },
+    {
+      "label": "Pricing",
+      "url": "https://www.taskade.com/pricing",
+      "canonical": "https://www.taskade.com/pricing",
+      "raw_url": "https://www.taskade.com/pricing",
+      "description": "Plan comparison, credit allowances, and feature gating.",
+      "line": 243
+    },
+    {
+      "label": "Security",
+      "url": "https://www.taskade.com/security",
+      "canonical": "https://www.taskade.com/security",
+      "raw_url": "https://www.taskade.com/security",
+      "description": "Certifications, data handling, access controls, incident response, and compliance posture.",
+      "line": 244
+    },
+    {
+      "label": "Downloads",
+      "url": "https://www.taskade.com/downloads",
+      "canonical": "https://www.taskade.com/downloads",
+      "raw_url": "https://www.taskade.com/downloads",
+      "description": "iOS, Android, macOS, Windows, Linux, and browser extensions.",
+      "line": 245
+    },
+    {
+      "label": "Desktop",
+      "url": "https://www.taskade.com/desktop",
+      "canonical": "https://www.taskade.com/desktop",
+      "raw_url": "https://www.taskade.com/desktop",
+      "description": "Official Taskade Desktop app for Mac, Windows, and Linux.",
+      "line": 246
+    },
+    {
+      "label": "Mobile",
+      "url": "https://www.taskade.com/mobile",
+      "canonical": "https://www.taskade.com/mobile",
+      "raw_url": "https://www.taskade.com/mobile",
+      "description": "Official Taskade Mobile app for iPhone, iPad, and Android.",
+      "line": 247
+    },
+    {
+      "label": "About",
+      "url": "https://www.taskade.com/about",
+      "canonical": "https://www.taskade.com/about",
+      "raw_url": "https://www.taskade.com/about",
+      "description": "Company story, founders, investors.",
+      "line": 248
+    },
+    {
+      "label": "Press",
+      "url": "https://www.taskade.com/press",
+      "canonical": "https://www.taskade.com/press",
+      "raw_url": "https://www.taskade.com/press",
+      "description": "Media kit, brand assets, quick facts.",
+      "line": 249
+    },
+    {
+      "label": "REST API v1 OpenAPI spec",
+      "url": "https://www.taskade.com/api/documentation/v1/json",
+      "canonical": "https://www.taskade.com/api/documentation/v1/json",
+      "raw_url": "https://www.taskade.com/api/documentation/v1/json",
+      "description": "Authoritative machine-readable JSON for the GA API. The /docs/rest reference pages are generated from it.",
+      "line": 381
+    },
+    {
+      "label": "Action API v2 OpenAPI spec",
+      "url": "https://www.taskade.com/api/documentation/v2/json",
+      "canonical": "https://www.taskade.com/api/documentation/v2/json",
+      "raw_url": "https://www.taskade.com/api/documentation/v2/json",
+      "description": "Authoritative machine-readable JSON for the Beta API. The /docs/actions reference pages are generated from it.",
+      "line": 382
+    },
+    {
+      "label": "REST API v1 interactive docs",
+      "url": "https://www.taskade.com/api/documentation/v1",
+      "canonical": "https://www.taskade.com/api/documentation/v1",
+      "raw_url": "https://www.taskade.com/api/documentation/v1",
+      "description": "Browsable, executable reference for v1.",
+      "line": 383
+    },
+    {
+      "label": "Action API v2 interactive docs",
+      "url": "https://www.taskade.com/api/documentation/v2",
+      "canonical": "https://www.taskade.com/api/documentation/v2",
+      "raw_url": "https://www.taskade.com/api/documentation/v2",
+      "description": "Browsable, executable reference for v2.",
+      "line": 384
+    },
+    {
+      "label": "Hosted MCP endpoint",
+      "url": "https://www.taskade.com/mcp",
+      "canonical": "https://www.taskade.com/mcp",
+      "raw_url": "https://www.taskade.com/mcp",
+      "description": "Streamable HTTP MCP server. Add it to an MCP client. Authentication uses OAuth 2.0 with PKCE or a personal access token.",
+      "line": 385
+    },
+    {
+      "label": "Sitemap index",
+      "url": "https://www.taskade.com/sitemap.xml",
+      "canonical": "https://www.taskade.com/sitemap.xml",
+      "raw_url": "https://www.taskade.com/sitemap.xml",
+      "description": "Every indexable URL on the site, partitioned by content type.",
+      "line": 386
+    },
+    {
+      "label": "Blog feed",
+      "url": "https://www.taskade.com/blog/feed.xml",
+      "canonical": "https://www.taskade.com/blog/feed.xml",
+      "raw_url": "https://www.taskade.com/blog/feed.xml",
+      "description": "RSS for product updates and articles.",
+      "line": 387
+    },
+    {
+      "label": "This file",
+      "url": "https://www.taskade.com/llms.txt",
+      "canonical": "https://www.taskade.com/llms.txt",
+      "raw_url": "https://www.taskade.com/llms.txt",
+      "description": "Canonical AI-facing summary and index. /llms-full.txt redirects here. There is one canonical file, not two.",
+      "line": 388
+    },
+    {
+      "label": "Taskade MCP server",
+      "url": "https://github.com/taskade/mcp",
+      "canonical": "https://github.com/taskade/mcp",
+      "raw_url": "https://github.com/taskade/mcp",
+      "description": "Open-source local workspace MCP server wrapping the REST API v1, with task-level write tools.",
+      "line": 394
+    },
+    {
+      "label": "Taskade on GitHub",
+      "url": "https://github.com/taskade",
+      "canonical": "https://github.com/taskade",
+      "raw_url": "https://github.com/taskade",
+      "description": "Open-source repositories, integration examples, and public issue trackers.",
+      "line": 395
+    },
+    {
+      "label": "Awesome Vibe Coding",
+      "url": "https://github.com/taskade/awesome-vibe-coding",
+      "canonical": "https://github.com/taskade/awesome-vibe-coding",
+      "raw_url": "https://github.com/taskade/awesome-vibe-coding",
+      "description": "Curated list of vibe coding tools, papers, and practitioners.",
+      "line": 396
+    },
+    {
+      "label": "Wiki",
+      "url": "https://www.taskade.com/wiki",
+      "canonical": "https://www.taskade.com/wiki",
+      "raw_url": "https://www.taskade.com/wiki",
+      "description": "Concept-level reference for readers researching the space rather than operating the product.",
+      "line": 397
+    },
+    {
+      "label": "Community creators",
+      "url": "https://www.taskade.com/apps/creators",
+      "canonical": "https://www.taskade.com/apps/creators",
+      "raw_url": "https://www.taskade.com/apps/creators",
+      "description": "Builders publishing apps to the Community Gallery.",
+      "line": 398
+    }
+  ],
+  "bare_links": [
+    {
+      "url": "https://www.taskade.com/.well-known/oauth-protected-resource/mcp`",
+      "label": "OAuth discovery metadata is available at `https://www.taskade.com/.well-known/oauth-protected-resource/mcp`. MCP clients can inspect spaces, read projects and tasks, work with agents and conversations, and edit files in a Taskade Genesis app. The hosted server is available on every paid plan, not Free. Write tools require Editor (collaborator) or above. Viewer and Participant can browse only. Full guide: https://www.taskade.com/docs/mcp/hosted-mcp",
+      "description": "",
+      "line": 30,
+      "canonical": "https://www.taskade.com/.well-known/oauth-protected-resource/mcp`",
+      "raw_url": "https://www.taskade.com/.well-known/oauth-protected-resource/mcp`"
+    },
+    {
+      "url": "https://www.taskade.com/settings/api",
+      "label": "**Get a credential.** Create a Personal Access Token at https://www.taskade.com/settings/api. The token is shown once and starts with `tskdp_`. Store it in an environment variable or secret manager. Do not commit it. Third-party apps that act for other users must use OAuth 2.0 with Authorization Code and PKCE: https://www.taskade.com/docs/getting-started/authentication",
+      "description": "",
+      "line": 47,
+      "canonical": "https://www.taskade.com/settings/api",
+      "raw_url": "https://www.taskade.com/settings/api"
+    },
+    {
+      "url": "https://www.taskade.com/mcp`",
+      "label": "Yes. On a paid workspace, connect an MCP client to the hosted server at `https://www.taskade.com/mcp` through OAuth 2.0 or a personal access token. You can also run the local workspace MCP server from github.com/taskade/mcp, which takes a personal token only. Compare the two surfaces at https://www.taskade.com/docs/mcp/which-mcp.",
+      "description": "",
+      "line": 272,
+      "canonical": "https://www.taskade.com/mcp`",
+      "raw_url": "https://www.taskade.com/mcp`"
+    },
+    {
+      "url": "https://www.taskade.com/settings/activate",
+      "label": "- **I paid but a workspace still says Free.** A plan attaches per workspace. Select the workspaces at https://www.taskade.com/settings/activate and refresh. If one still reads Free after activation, send support the workspace or app link.",
+      "description": "",
+      "line": 319,
+      "canonical": "https://www.taskade.com/settings/activate",
+      "raw_url": "https://www.taskade.com/settings/activate"
+    },
+    {
+      "url": "https://www.taskade.com/terms",
+      "label": "- **Who owns the app I build?** You keep every intellectual property right in your content. You own your AI outputs as between you and Taskade. Taskade takes only the license it needs to run the service, plus a broader one for content you publish. See https://www.taskade.com/terms.",
+      "description": "",
+      "line": 325,
+      "canonical": "https://www.taskade.com/terms",
+      "raw_url": "https://www.taskade.com/terms"
+    }
+  ],
+  "metrics": {
+    "bytes": 36115,
+    "words": 4875,
+    "lines": 398,
+    "approx_tokens_chars_div_4": 9024,
+    "h1_count": 1,
+    "link_count": 74,
+    "bare_url_count": 5,
+    "described_links": 74,
+    "unique_destinations": 73,
+    "markdown_destinations": 0
+  },
+  "flags": [
+    "duplicate-destinations-review"
+  ]
+}

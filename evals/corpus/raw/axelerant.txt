@@ -1,0 +1,192 @@
+# Axelerant
+
+> Strategy, design, engineering, and revenue marketing run as one accountable team. AI-native delivery. Founded 2005, remote-first since 2012, 150+ people, 21 years of signed work.
+
+Axelerant is a technology execution partner. We work alongside client teams across four lenses: Strategy, Engineering, Design, and RevOps & Growth (revenue marketing). We do not white-label and we do not run behind the scenes. We ship measurable operational outputs that ladder into the client's business hypothesis.
+
+## How to read this site as an agent
+
+- Every blog post and engagement record has a markdown mirror. Append `.md` to the URL: `/blog/<slug>.md`, `/case/<slug>.md`, `/work/<slug>.md`. The markdown response includes YAML frontmatter (title, url, published date, author, industry, lenses) and the full body in commonmark.
+- HTML pages that have a markdown counterpart advertise it via `<link rel="alternate" type="text/markdown" href="...">` in the document head.
+- Full URL inventory: https://www.axelerant.com/sitemap.xml
+- Robots policy: https://www.axelerant.com/robots.txt
+
+## Core pages
+
+- [/](https://www.axelerant.com/): Home. Positioning, Foyer concierge agent, entry points by intent.
+- [/about](https://www.axelerant.com/about): Company history, leadership, culture, canonical facts.
+- [/approach](https://www.axelerant.com/approach): Four-layer delivery loop (Experience, Data, Activation, Optimization).
+- [/blog](https://www.axelerant.com/blog): Field notes on AI-native delivery.
+- [/careers](https://www.axelerant.com/careers): Open roles and how we hire.
+- [/contact](https://www.axelerant.com/contact): Start a conversation.
+- [/work](https://www.axelerant.com/work): Case study index by client, lens, and industry.
+
+## What we do
+
+- [/what-we-do](https://www.axelerant.com/what-we-do)
+- [/what-we-do/design](https://www.axelerant.com/what-we-do/design): Design lens: UX research, product and service design, UI and design systems, content, brand, accessibility.
+- [/what-we-do/design/accessibility-and-inclusive-design](https://www.axelerant.com/what-we-do/design/accessibility-and-inclusive-design)
+- [/what-we-do/design/brand-design](https://www.axelerant.com/what-we-do/design/brand-design)
+- [/what-we-do/design/content-design](https://www.axelerant.com/what-we-do/design/content-design)
+- [/what-we-do/design/product-and-service-design](https://www.axelerant.com/what-we-do/design/product-and-service-design)
+- [/what-we-do/design/ui-and-design-systems](https://www.axelerant.com/what-we-do/design/ui-and-design-systems)
+- [/what-we-do/design/ux-research](https://www.axelerant.com/what-we-do/design/ux-research)
+- [/what-we-do/engineering](https://www.axelerant.com/what-we-do/engineering): Engineering lens: AI, application, cloud, data, platform, and quality engineering.
+- [/what-we-do/engineering/ai](https://www.axelerant.com/what-we-do/engineering/ai)
+- [/what-we-do/engineering/application](https://www.axelerant.com/what-we-do/engineering/application)
+- [/what-we-do/engineering/cloud](https://www.axelerant.com/what-we-do/engineering/cloud)
+- [/what-we-do/engineering/data](https://www.axelerant.com/what-we-do/engineering/data)
+- [/what-we-do/engineering/platform](https://www.axelerant.com/what-we-do/engineering/platform)
+- [/what-we-do/engineering/quality](https://www.axelerant.com/what-we-do/engineering/quality)
+- [/what-we-do/revops-and-growth](https://www.axelerant.com/what-we-do/revops-and-growth): RevOps and Growth Marketing lens: analytics, CRO, CRM architecture, discoverability, journey orchestration, lead management, marketing automation, subscription lifecycle.
+- [/what-we-do/revops-and-growth/analytics-and-measurement](https://www.axelerant.com/what-we-do/revops-and-growth/analytics-and-measurement)
+- [/what-we-do/revops-and-growth/conversion-rate-optimization](https://www.axelerant.com/what-we-do/revops-and-growth/conversion-rate-optimization)
+- [/what-we-do/revops-and-growth/crm-implementation-and-architecture](https://www.axelerant.com/what-we-do/revops-and-growth/crm-implementation-and-architecture)
+- [/what-we-do/revops-and-growth/discoverability](https://www.axelerant.com/what-we-do/revops-and-growth/discoverability)
+- [/what-we-do/revops-and-growth/journey-orchestration](https://www.axelerant.com/what-we-do/revops-and-growth/journey-orchestration)
+- [/what-we-do/revops-and-growth/lead-management-and-routing](https://www.axelerant.com/what-we-do/revops-and-growth/lead-management-and-routing)
+- [/what-we-do/revops-and-growth/marketing-automation](https://www.axelerant.com/what-we-do/revops-and-growth/marketing-automation)
+- [/what-we-do/revops-and-growth/subscription-and-membership-lifecycle](https://www.axelerant.com/what-we-do/revops-and-growth/subscription-and-membership-lifecycle)
+- [/what-we-do/strategy](https://www.axelerant.com/what-we-do/strategy): Strategy lens: digital, tech, data, brand, and growth strategy.
+
+## Platforms
+
+- [/platforms](https://www.axelerant.com/platforms): Platform capabilities overview.
+- [/platforms/acquia](https://www.axelerant.com/platforms/acquia)
+- [/platforms/anthropic](https://www.axelerant.com/platforms/anthropic)
+- [/platforms/aws](https://www.axelerant.com/platforms/aws)
+- [/platforms/contentful](https://www.axelerant.com/platforms/contentful)
+- [/platforms/drupal](https://www.axelerant.com/platforms/drupal)
+- [/platforms/hubspot](https://www.axelerant.com/platforms/hubspot)
+- [/platforms/hubspot/mergers-acquisitions](https://www.axelerant.com/platforms/hubspot/mergers-acquisitions)
+- [/platforms/mautic](https://www.axelerant.com/platforms/mautic)
+- [/platforms/salesforce](https://www.axelerant.com/platforms/salesforce)
+
+## Industries
+
+- [/industries](https://www.axelerant.com/industries): Industries index.
+- [/industries/higher-ed](https://www.axelerant.com/industries/higher-ed): Higher-Ed industry page.
+- [/industries/private-equity](https://www.axelerant.com/industries/private-equity): Private-Equity industry page.
+
+## How we do
+
+- [/how-we-do](https://www.axelerant.com/how-we-do): The loop, not the line. Approach overview.
+- [/how-we-do/activation](https://www.axelerant.com/how-we-do/activation)
+- [/how-we-do/data](https://www.axelerant.com/how-we-do/data)
+- [/how-we-do/experience](https://www.axelerant.com/how-we-do/experience)
+- [/how-we-do/optimization](https://www.axelerant.com/how-we-do/optimization)
+
+## Other pages
+
+- [/ai-visibility-audit](https://www.axelerant.com/ai-visibility-audit)
+- [/ai-visibility-audit/compare](https://www.axelerant.com/ai-visibility-audit/compare)
+- [/ai-visibility-audit/history](https://www.axelerant.com/ai-visibility-audit/history)
+- [/drupal-continuous-development-and-maintenance](https://www.axelerant.com/drupal-continuous-development-and-maintenance)
+- [/event-website-redesign](https://www.axelerant.com/event-website-redesign)
+- [/health-nonprofit-website-redesign](https://www.axelerant.com/health-nonprofit-website-redesign)
+- [/lp/digital-estate-diligence-scoping](https://www.axelerant.com/lp/digital-estate-diligence-scoping)
+- [/meet/sachin](https://www.axelerant.com/meet/sachin)
+- [/member-experience-scorecard](https://www.axelerant.com/member-experience-scorecard)
+- [/partner-portal](https://www.axelerant.com/partner-portal)
+- [/pe-portco-modernization](https://www.axelerant.com/pe-portco-modernization)
+- [/privacy-policy](https://www.axelerant.com/privacy-policy)
+- [/services](https://www.axelerant.com/services)
+- [/uk-highered-ai-discoverability](https://www.axelerant.com/uk-highered-ai-discoverability)
+- [/vendor-partners](https://www.axelerant.com/vendor-partners)
+- [/web-estate-cost-reduction](https://www.axelerant.com/web-estate-cost-reduction)
+
+## Optional
+
+Every blog post and engagement record has a markdown mirror at the same path with a `.md` suffix. The full inventory lives in the sitemap; a sample is listed below.
+
+### Blog posts (sample)
+
+- [/blog/1-million-requests-hit-your-apis](https://www.axelerant.com/blog/1-million-requests-hit-your-apis)
+- [/blog/10-techniques-improving-frontend-performance](https://www.axelerant.com/blog/10-techniques-improving-frontend-performance)
+- [/blog/10-tips-to-help-you-succeed-as-a-remote-team-member](https://www.axelerant.com/blog/10-tips-to-help-you-succeed-as-a-remote-team-member)
+- [/blog/12-higher-education-website-features-new-age-marketers-need](https://www.axelerant.com/blog/12-higher-education-website-features-new-age-marketers-need)
+- [/blog/12-pain-points-fixed-drupal-ecommerce](https://www.axelerant.com/blog/12-pain-points-fixed-drupal-ecommerce)
+- [/blog/12-tips-for-drupalcon-barcelona-infographic](https://www.axelerant.com/blog/12-tips-for-drupalcon-barcelona-infographic)
+- [/blog/19-were-taking-another-look-at-performance-management-our-hiring-process](https://www.axelerant.com/blog/19-were-taking-another-look-at-performance-management-our-hiring-process)
+- [/blog/20-steps-life-without-drupaler-burnout](https://www.axelerant.com/blog/20-steps-life-without-drupaler-burnout)
+- [/blog/20-tools-distributed-staff-augmentation](https://www.axelerant.com/blog/20-tools-distributed-staff-augmentation)
+- [/blog/2026-insights-newsletters-edition-1](https://www.axelerant.com/blog/2026-insights-newsletters-edition-1)
+- [/blog/2026-insights-newsletters-edition-2](https://www.axelerant.com/blog/2026-insights-newsletters-edition-2)
+- [/blog/2026-insights-podcasts-bill-whitebone-ditching-the-comfort-zone-drupal-edtech-racing-cars](https://www.axelerant.com/blog/2026-insights-podcasts-bill-whitebone-ditching-the-comfort-zone-drupal-edtech-racing-cars)
+- [/blog/2026-insights-resources-podcast-episodes-dave-terry](https://www.axelerant.com/blog/2026-insights-resources-podcast-episodes-dave-terry)
+- [/blog/2026-insights-resources-podcast-episodes-george-demet](https://www.axelerant.com/blog/2026-insights-resources-podcast-episodes-george-demet)
+- [/blog/2026-insights-resources-podcast-episodes-george-demet-building-remote-first-sustainable-business](https://www.axelerant.com/blog/2026-insights-resources-podcast-episodes-george-demet-building-remote-first-sustainable-business)
+- [/blog/2026-insights-resources-podcast-episodes-humans-behind-dx-bill-whitebone](https://www.axelerant.com/blog/2026-insights-resources-podcast-episodes-humans-behind-dx-bill-whitebone)
+- [/blog/2026-insights-resources-podcast-episodes-humans-behind-dx-jessica-drislane](https://www.axelerant.com/blog/2026-insights-resources-podcast-episodes-humans-behind-dx-jessica-drislane)
+- [/blog/2026-insights-resources-podcast-episodes-humans-behind-dx-michael-meyers](https://www.axelerant.com/blog/2026-insights-resources-podcast-episodes-humans-behind-dx-michael-meyers)
+- [/blog/2026-insights-resources-podcast-episodes-humans-behind-dx-michael-meyers-work-ethic-startup-burn](https://www.axelerant.com/blog/2026-insights-resources-podcast-episodes-humans-behind-dx-michael-meyers-work-ethic-startup-burn)
+- [/blog/2026-insights-resources-podcast-episodes-humans-behind-dx-mitchell-lawson](https://www.axelerant.com/blog/2026-insights-resources-podcast-episodes-humans-behind-dx-mitchell-lawson)
+- [/blog/2026-insights-resources-podcast-episodes-jeff-walpole-telecom-sales](https://www.axelerant.com/blog/2026-insights-resources-podcast-episodes-jeff-walpole-telecom-sales)
+- [/blog/2026-insights-resources-podcast-episodes-teri-sun-wild-safari-rides-b2me-and-creating-augmented-](https://www.axelerant.com/blog/2026-insights-resources-podcast-episodes-teri-sun-wild-safari-rides-b2me-and-creating-augmented-)
+- [/blog/2026-insights-webinar-episodes-accessibility](https://www.axelerant.com/blog/2026-insights-webinar-episodes-accessibility)
+- [/blog/35-hour-work-week](https://www.axelerant.com/blog/35-hour-work-week)
+- [/blog/4-examples-of-behat-success](https://www.axelerant.com/blog/4-examples-of-behat-success)
+- [/blog/4-takeaways-drupal-engineers-acquia-engage](https://www.axelerant.com/blog/4-takeaways-drupal-engineers-acquia-engage)
+- [/blog/5-awkward-acquia-engage-london-questions-for-axelerant](https://www.axelerant.com/blog/5-awkward-acquia-engage-london-questions-for-axelerant)
+- [/blog/5-reasons-why-remote-work-challenges-are-the-worst](https://www.axelerant.com/blog/5-reasons-why-remote-work-challenges-are-the-worst)
+- [/blog/5-ways-drupal-devops-multiplies-production-capabilities](https://www.axelerant.com/blog/5-ways-drupal-devops-multiplies-production-capabilities)
+- [/blog/6-drupal-devops-engineer-skills-to-bank-on](https://www.axelerant.com/blog/6-drupal-devops-engineer-skills-to-bank-on)
+- [/blog/7-ways-thriving-open-source-organization-culture](https://www.axelerant.com/blog/7-ways-thriving-open-source-organization-culture)
+- [/blog/7-ways-win-mobile-application-testing](https://www.axelerant.com/blog/7-ways-win-mobile-application-testing)
+- [/blog/9-drupal-project-management-tips](https://www.axelerant.com/blog/9-drupal-project-management-tips)
+- [/blog/9-ways-drupal-quality-assurance-saved-projects](https://www.axelerant.com/blog/9-ways-drupal-quality-assurance-saved-projects)
+- [/blog/a-complete-checklist-for-hiring-a-drupal-developer](https://www.axelerant.com/blog/a-complete-checklist-for-hiring-a-drupal-developer)
+- [/blog/a-qa-engineers-perspective-to-accessibility-testing](https://www.axelerant.com/blog/a-qa-engineers-perspective-to-accessibility-testing)
+- [/blog/a-tale-of-three-camps-axelerant-at-goa-london-mountain-camp](https://www.axelerant.com/blog/a-tale-of-three-camps-axelerant-at-goa-london-mountain-camp)
+- [/blog/a-year-of-knowledge-sharing-at-axelerant](https://www.axelerant.com/blog/a-year-of-knowledge-sharing-at-axelerant)
+- [/blog/accessibility-compliance-acts-and-standards-guide](https://www.axelerant.com/blog/accessibility-compliance-acts-and-standards-guide)
+- [/blog/accessibility-statements-universities](https://www.axelerant.com/blog/accessibility-statements-universities)
+
+### Case studies (sample)
+
+`/case/<slug>` and `/work/<slug>` resolve to the same engagement record.
+
+- [/work/acquia](https://www.axelerant.com/work/acquia)
+- [/work/acquia-cloud](https://www.axelerant.com/work/acquia-cloud)
+- [/work/acquia-dam](https://www.axelerant.com/work/acquia-dam)
+- [/work/acquia-site-factory](https://www.axelerant.com/work/acquia-site-factory)
+- [/work/advance-velocity](https://www.axelerant.com/work/advance-velocity)
+- [/work/blue-state](https://www.axelerant.com/work/blue-state)
+- [/work/blue-state-v2](https://www.axelerant.com/work/blue-state-v2)
+- [/work/bringing-drupals-responsive-design-to-georgias-premier-medical-group](https://www.axelerant.com/work/bringing-drupals-responsive-design-to-georgias-premier-medical-group)
+- [/work/configero](https://www.axelerant.com/work/configero)
+- [/work/consolidating-digital-experience-for-retail-megalith](https://www.axelerant.com/work/consolidating-digital-experience-for-retail-megalith)
+- [/work/continuous-support-for-synduits-network-marketing-platform](https://www.axelerant.com/work/continuous-support-for-synduits-network-marketing-platform)
+- [/work/creating-a-community-based-wordpress-website-for-integrative-wellness](https://www.axelerant.com/work/creating-a-community-based-wordpress-website-for-integrative-wellness)
+- [/work/devops-financial-services-cloud-migration-and-adoption](https://www.axelerant.com/work/devops-financial-services-cloud-migration-and-adoption)
+- [/work/devops-healthcare-ai-ml-ops](https://www.axelerant.com/work/devops-healthcare-ai-ml-ops)
+- [/work/devops-high-tech-infrastructure-as-code](https://www.axelerant.com/work/devops-high-tech-infrastructure-as-code)
+- [/work/devops-hospitality-wunderman](https://www.axelerant.com/work/devops-hospitality-wunderman)
+- [/work/drupal-commerce-for-the-rich-and-famous](https://www.axelerant.com/work/drupal-commerce-for-the-rich-and-famous)
+- [/work/drupal-healthcare-build](https://www.axelerant.com/work/drupal-healthcare-build)
+- [/work/drupal-hospitality-wunderman](https://www.axelerant.com/work/drupal-hospitality-wunderman)
+- [/work/drupal-media-entertainment-migration](https://www.axelerant.com/work/drupal-media-entertainment-migration)
+- [/work/drupal-retail-partnership-portal-application-development](https://www.axelerant.com/work/drupal-retail-partnership-portal-application-development)
+- [/work/drupal-transformation-doctors-without-borders-website](https://www.axelerant.com/work/drupal-transformation-doctors-without-borders-website)
+- [/work/dxp-for-university-of-east-london](https://www.axelerant.com/work/dxp-for-university-of-east-london)
+- [/work/east-west-center-platform-modernization-user-engagement](https://www.axelerant.com/work/east-west-center-platform-modernization-user-engagement)
+- [/work/elevating-idmcs-user-experience](https://www.axelerant.com/work/elevating-idmcs-user-experience)
+- [/work/energy-safety-canada-member-experience](https://www.axelerant.com/work/energy-safety-canada-member-experience)
+- [/work/engineering-a-real-time-betting-platform](https://www.axelerant.com/work/engineering-a-real-time-betting-platform)
+- [/work/engineering-plugins-for-acquia-campaign-studio-mautic](https://www.axelerant.com/work/engineering-plugins-for-acquia-campaign-studio-mautic)
+- [/work/exceptional-customer-support-through-salesforce-einstein-chatbot](https://www.axelerant.com/work/exceptional-customer-support-through-salesforce-einstein-chatbot)
+- [/work/fortune-500-financial-services-decoupled-drupal](https://www.axelerant.com/work/fortune-500-financial-services-decoupled-drupal)
+- [/work/frontend-high-tech-jamstack](https://www.axelerant.com/work/frontend-high-tech-jamstack)
+- [/work/frontend-high-tech-javascript](https://www.axelerant.com/work/frontend-high-tech-javascript)
+- [/work/frontend-retail-accessibility](https://www.axelerant.com/work/frontend-retail-accessibility)
+- [/work/global-non-profit-hubspot-marketing-ops](https://www.axelerant.com/work/global-non-profit-hubspot-marketing-ops)
+- [/work/global-retail-franchise-empowers-ecommerce](https://www.axelerant.com/work/global-retail-franchise-empowers-ecommerce)
+- [/work/land-grant-university-acquia-blueprint](https://www.axelerant.com/work/land-grant-university-acquia-blueprint)
+- [/work/learningdesigned-cast-drupal-audit](https://www.axelerant.com/work/learningdesigned-cast-drupal-audit)
+- [/work/marketing-automation-campaign-factory-mdg-axelerant](https://www.axelerant.com/work/marketing-automation-campaign-factory-mdg-axelerant)
+- [/work/modernizing-wrap-website-for-global-audience](https://www.axelerant.com/work/modernizing-wrap-website-for-global-audience)
+- [/work/moving-sharepoint-drupal8](https://www.axelerant.com/work/moving-sharepoint-drupal8)
+
+## Sitemap
+
+- https://www.axelerant.com/sitemap.xml

@@ -1,0 +1,17 @@
+{
+  "id": "attainloans",
+  "url": "https://attainloans.com.au/llms.txt",
+  "category": "finance",
+  "kind": "actual",
+  "split": "development",
+  "discovery": "https://llmstxt.site/",
+  "retrieved_at": "2026-09-24T22:46:24.638272+00:00",
+  "accepted": true,
+  "status": 200,
+  "final_url": "https://attainloans.com.au/llms.txt",
+  "content_type": "text/plain; charset=UTF-8",
+  "sha256": "a4c8803bfaf00b173d83f9169a4fdb2d0b3dfa9c40d0fe6d0d6627e1157d5f3f",
+  "bytes": 1926363,
+  "decode_replacements": 0,
+  "raw_path": "raw/attainloans.txt"
+}

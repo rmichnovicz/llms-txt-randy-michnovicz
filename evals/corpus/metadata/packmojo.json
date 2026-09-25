@@ -1,0 +1,17 @@
+{
+  "id": "packmojo",
+  "url": "https://packmojo.com/llms.txt",
+  "category": "manufacturing",
+  "kind": "actual",
+  "split": "holdout",
+  "discovery": "https://llmstxt.site/",
+  "retrieved_at": "2026-09-24T22:46:27.903528+00:00",
+  "accepted": true,
+  "status": 200,
+  "final_url": "https://packmojo.com/llms.txt",
+  "content_type": "text/plain; charset=UTF-8",
+  "sha256": "c93e317f2ebe41cfc3663d83a801ecb91e9d31c75724fe29ce7d8b40dae47fcf",
+  "bytes": 7622,
+  "decode_replacements": 0,
+  "raw_path": "raw/packmojo.txt"
+}

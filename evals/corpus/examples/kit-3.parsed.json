@@ -1,0 +1,78 @@
+{
+  "parser_version": "corpus-v2",
+  "headings": [
+    {
+      "level": 1,
+      "text": "Example Docs",
+      "line": 1
+    },
+    {
+      "level": 2,
+      "text": "Core pages",
+      "line": 9
+    },
+    {
+      "level": 2,
+      "text": "Optional",
+      "line": 15
+    }
+  ],
+  "links": [
+    {
+      "label": "Quickstart",
+      "url": "https://example.com/docs/quickstart",
+      "canonical": "https://example.com/docs/quickstart",
+      "raw_url": "https://example.com/docs/quickstart",
+      "description": "First setup path",
+      "line": 10
+    },
+    {
+      "label": "API reference",
+      "url": "https://example.com/docs/api",
+      "canonical": "https://example.com/docs/api",
+      "raw_url": "https://example.com/docs/api",
+      "description": "Public API methods and options",
+      "line": 11
+    },
+    {
+      "label": "Deployment",
+      "url": "https://example.com/docs/deploy",
+      "canonical": "https://example.com/docs/deploy",
+      "raw_url": "https://example.com/docs/deploy",
+      "description": "Production deployment guidance",
+      "line": 12
+    },
+    {
+      "label": "Changelog",
+      "url": "https://example.com/changelog",
+      "canonical": "https://example.com/changelog",
+      "raw_url": "https://example.com/changelog",
+      "description": "Releases and breaking changes",
+      "line": 13
+    },
+    {
+      "label": "Examples",
+      "url": "https://example.com/examples",
+      "canonical": "https://example.com/examples",
+      "raw_url": "https://example.com/examples",
+      "description": "Sample apps and recipes",
+      "line": 16
+    }
+  ],
+  "bare_links": [],
+  "metrics": {
+    "bytes": 619,
+    "words": 70,
+    "lines": 16,
+    "approx_tokens_chars_div_4": 155,
+    "h1_count": 1,
+    "link_count": 5,
+    "bare_url_count": 0,
+    "described_links": 5,
+    "unique_destinations": 5,
+    "markdown_destinations": 0
+  },
+  "flags": [
+    "placeholder-review"
+  ]
+}

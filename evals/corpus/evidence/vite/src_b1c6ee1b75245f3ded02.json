@@ -1,0 +1,16 @@
+{
+  "url": "https://vite.dev/",
+  "retrieved_at": "2026-09-24T22:49:10.519202+00:00",
+  "source": {
+    "id": "src_b1c6ee1b75245f3ded02",
+    "url": "https://vite.dev/",
+    "title": "Vite | Next Generation Frontend Tooling",
+    "description": "Next Generation Frontend Tooling",
+    "content": "Vite makes web development enjoyable again\nOn demand source file serving over native ESM, with blazing fast dependency pre-bundling.\nInstantly reflect changes as you save, no matter how big your app is.\nTypeScript, JSX, CSS, Workers, WebAssembly... and more just a plugin away.\nAdvanced tree-shaking, built-in minification, fine-grained chunking control powered by Rolldown.\nVite plugins extends Rollup's well-designed plugin interface with a few extra Vite-specific options.\nDesigned to be built on top of.\nIt's never been easier to setup custom SSR (Server-Side Rendering), or build your own SSR framework.\nOur CI continuously tests Vite changes against downstream projects, allowing us to improve Vite with stability and confidence.\nDon't take our word for it - listen to what Vite community members have to say.\nGithub Stars\nWeekly NPM downloads",
+    "markdownUrl": null
+  },
+  "status": 200,
+  "final_url": "https://vite.dev/",
+  "sha256": "04797a62b5b7e1b71ca542a734ee9196e33473412e97f205ae9986c004ab9764",
+  "content_type": "text/html; charset=UTF-8"
+}

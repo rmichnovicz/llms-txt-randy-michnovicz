@@ -1,0 +1,17 @@
+{
+  "id": "bitcoin",
+  "url": "https://www.bitcoin.com/llms.txt",
+  "category": "finance",
+  "kind": "actual",
+  "split": "holdout",
+  "discovery": "https://llmstxt.site/",
+  "retrieved_at": "2026-09-24T22:46:24.716800+00:00",
+  "accepted": true,
+  "status": 200,
+  "final_url": "https://www.bitcoin.com/llms.txt",
+  "content_type": "text/plain; charset=utf-8",
+  "sha256": "d01d04999643ed0108ad79177cb897a64f4a32d1d6202535d5f662ec29ec4044",
+  "bytes": 9019,
+  "decode_replacements": 0,
+  "raw_path": "raw/bitcoin.txt"
+}

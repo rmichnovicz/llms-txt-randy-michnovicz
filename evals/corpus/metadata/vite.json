@@ -1,0 +1,17 @@
+{
+  "id": "vite",
+  "url": "https://vite.dev/llms.txt",
+  "category": "developer-docs",
+  "kind": "actual",
+  "split": "development",
+  "discovery": "https://llmstxt.site/",
+  "retrieved_at": "2026-09-24T22:46:20.245008+00:00",
+  "accepted": true,
+  "status": 200,
+  "final_url": "https://vite.dev/llms.txt",
+  "content_type": "text/plain; charset=UTF-8",
+  "sha256": "0aa6f17eaa748d9c920d0930d33ffdd2e2cb7a81337ae56c8254e7df3e14810e",
+  "bytes": 3528,
+  "decode_replacements": 0,
+  "raw_path": "raw/vite.txt"
+}

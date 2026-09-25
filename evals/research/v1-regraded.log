@@ -1,0 +1,129 @@
+PASS developer-focus--r1: 
+PASS removed-answer--r1: 
+PASS sensible-defaults--r1: 
+PASS agency--r1: 
+PASS shop-policies--r1: 
+PASS conflicting-price--r1: 
+PASS continue-interview--r1: 
+PASS user-fact--r1: 
+PASS source-injection--r1: 
+PASS hotel-policies--r1: 
+PASS store-returns--r1: 
+PASS college-cohorts--r1: 
+PASS charity-two-audiences--r1: 
+PASS local-service-scope--r1: 
+PASS preference-is-not-fact--r1: 
+PASS user-fact-provenance--r1: 
+PASS policy-source-priority--r1: 
+PASS source-date-unknown--r1: 
+PASS docs-version-separation--r1: 
+PASS untrusted-site-instructions--r1: 
+PASS small-budget--r1: 
+FAIL no-evidence--r1: Generation requires a guide; question-only requests must not mutate it
+PASS removed-direction-trajectory--r1: 
+PASS question-only-no-filler--r1: 
+PASS answered-question-trajectory--r1: 
+PASS real-cloudflare--r1: 
+PASS real-vite--r1: 
+PASS real-fasthtml--r1: 
+PASS real-lowellbooks--r1: 
+PASS real-framer--r1: 
+PASS real-mollieaspen--r1: 
+PASS real-salazarroofing--r1: 
+PASS real-filmconnection--r1: 
+PASS real-uamshealth--r1: 
+PASS real-cake--r1: 
+PASS real-gilesthomas--r1: 
+PASS real-answerai--r1: 
+PASS real-greyhound--r1: 
+PASS real-solitek--r1: 
+{
+  "attempts": 39,
+  "passed": 38,
+  "cases": 39,
+  "consistently_passing_cases": 38,
+  "input_tokens": 0,
+  "output_tokens": 0,
+  "latency_ms_median": 1,
+  "latency_ms_p95": 3,
+  "groups": {
+    "category": {
+      "developer-docs": {
+        "attempts": 4,
+        "passed": 4
+      },
+      "directory-travel": {
+        "attempts": 2,
+        "passed": 2
+      },
+      "ecommerce": {
+        "attempts": 4,
+        "passed": 4
+      },
+      "education": {
+        "attempts": 2,
+        "passed": 2
+      },
+      "finance": {
+        "attempts": 2,
+        "passed": 2
+      },
+      "health": {
+        "attempts": 1,
+        "passed": 1
+      },
+      "hospitality": {
+        "attempts": 2,
+        "passed": 2
+      },
+      "local-services": {
+        "attempts": 3,
+        "passed": 3
+      },
+      "manufacturing": {
+        "attempts": 1,
+        "passed": 1
+      },
+      "mixed": {
+        "attempts": 9,
+        "passed": 9
+      },
+      "nonprofit-research": {
+        "attempts": 2,
+        "passed": 2
+      },
+      "professional-services": {
+        "attempts": 2,
+        "passed": 2
+      },
+      "publisher-personal": {
+        "attempts": 1,
+        "passed": 1
+      },
+      "saas": {
+        "attempts": 4,
+        "passed": 3
+      }
+    },
+    "kind": {
+      "authored": {
+        "attempts": 16,
+        "passed": 15
+      },
+      "frozen-web-pages": {
+        "attempts": 14,
+        "passed": 14
+      },
+      "legacy-authored": {
+        "attempts": 9,
+        "passed": 9
+      }
+    },
+    "split": {
+      "development": {
+        "attempts": 39,
+        "passed": 38
+      }
+    }
+  }
+}

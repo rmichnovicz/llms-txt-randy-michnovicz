@@ -1,0 +1,27 @@
+node_modules/
+.env
+.env.*
+!.env.example
+evals/results/
+.DS_Store
+# The supplied assignment must never be committed publicly.
+LLMs.txt Generator - Version 3.md
+
+.venv/
+__pycache__/
+.pytest_cache/
+.ruff_cache/
+*.egg-info/
+
+dist/
+
+frontend/test-results/
+frontend/playwright-report/
+
+# Local research on similar implementations.
+/docs/OTHER_SUBMISSIONS.md
+/docs/submission-research-sources.json
+
+# Local type-check cache and submission planning.
+.mypy_cache/
+/docs/SUBMISSION_CHECKLIST.local.md

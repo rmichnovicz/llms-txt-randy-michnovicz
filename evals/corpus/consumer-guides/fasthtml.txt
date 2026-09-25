@@ -1,0 +1,16 @@
+# FastHTML
+
+> FastHTML is a Python library for building HTML-first, server-rendered web applications using FastTags, Starlette, Uvicorn, and HTMX.
+
+FastHTML is aimed at web applications rather than API-first services. Its routing may feel familiar to FastAPI users, but FastHTML syntax is not FastAPI-compatible.
+
+Live reloading is intended for development and should be turned off for production deployment.
+
+## Overview
+
+- [FastHTML home](<https://www.fastht.ml/>): Overview, examples, and FAQ covering use cases, deployment, and the roles of Python, JavaScript, and HTMX.
+
+## Build an application
+
+- [Concise reference](<https://www.fastht.ml/docs/ref/concise_guide.html.md>): Minimal app example and reference notes on routes, FastTags, rendering, and JavaScript integration.
+- [Live reloading](<https://www.fastht.ml/docs/ref/live_reload.html.md>): Development setup using FastHTMLWithLiveReload or fast\_app\(live=True\), with reload caveats.

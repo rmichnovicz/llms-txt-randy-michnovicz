@@ -1,0 +1,327 @@
+{
+  "url": "https://cake.vn/bieu-phi",
+  "title": "Biểu phí",
+  "content": "Chào bạn, mình là Cake by VPBank\nMột ngân hàng số lấy nền tảng công nghệ và trí tuệ nhân tạo làm cốt lõi, tự tin đồng hành cùng bạn ở mọi điểm chạm trong cuộc sống hàng ngày, mang đến dịch vụ, tiện ích số đa dạng với trải nghiệm dễ dàng, nhanh, tiện và liền mạch.",
+  "links": [
+    {
+      "url": "https://cake.vn/",
+      "label": "Trang chủ"
+    },
+    {
+      "url": "https://cake.vn/the-tin-dung-2in1",
+      "label": "Thẻ"
+    },
+    {
+      "url": "https://cake.vn/the-tin-dung-2in1/the-cake-2in1/goi-premium",
+      "label": "Thẻ Cake 2in1 - Gói Premium"
+    },
+    {
+      "url": "https://cake.vn/the-tin-dung-2in1/the-cake-2in1/goi-standard",
+      "label": "Thẻ Cake 2in1 - Gói Standard"
+    },
+    {
+      "url": "https://cake.vn/the-tin-dung-2in1/the-cake-partner/the-tin-dung-be-cake-2in1",
+      "label": "Thẻ Be Cake 2in1"
+    },
+    {
+      "url": "https://cake.vn/the-tin-dung-2in1/the-cake-partner/the-tin-dung-vieon-cake-2in1",
+      "label": "Thẻ VieON Cake 2in1"
+    },
+    {
+      "url": "https://cake.vn/the-tin-dung-2in1/the-cake-partner/the-tu-do-2in1",
+      "label": "Thẻ Tự Do 2in1"
+    },
+    {
+      "url": "https://cake.vn/the-tin-dung-2in1/the-thanh-toan/the-thanh-toan-thu-cung",
+      "label": "Thẻ thanh toán Thú Cưng"
+    },
+    {
+      "url": "https://cake.vn/khoan-vay",
+      "label": "Vay"
+    },
+    {
+      "url": "https://cake.vn/khoan-vay/vay-nhanh",
+      "label": "Vay nhanh"
+    },
+    {
+      "url": "https://cake.vn/khoan-vay/ung-truoc",
+      "label": "Ứng Trước"
+    },
+    {
+      "url": "https://cake.vn/khoan-vay/ung-tien-nhanh",
+      "label": "Ứng tiền nhanh"
+    },
+    {
+      "url": "https://cake.vn/khoan-vay/ung-tien-nhanh-lien-ket-so-tiet-kiem",
+      "label": "Ứng tiền liên kết sổ tiết kiệm"
+    },
+    {
+      "url": "https://cake.vn/tien-gui",
+      "label": "Tiền gửi"
+    },
+    {
+      "url": "https://cake.vn/tien-gui/tien-gui-tieu-chuan",
+      "label": "Tiền gửi tiêu chuẩn"
+    },
+    {
+      "url": "https://cake.vn/tien-gui/tien-gui-co-ky-han-tich-luy",
+      "label": "Tiền gửi tích lũy"
+    },
+    {
+      "url": "https://cake.vn/tai-khoan",
+      "label": "Tài khoản"
+    },
+    {
+      "url": "https://cake.vn/tai-khoan/tai-khoan-thanh-toan",
+      "label": "Tài khoản thanh toán"
+    },
+    {
+      "url": "https://cake.vn/tai-khoan/nhan-tien-quoc-te",
+      "label": "Dịch vụ Nhận tiền quốc tế - Cake GlobalX"
+    },
+    {
+      "url": "https://cake.vn/tai-khoan/dich-vu-thanh-toan",
+      "label": "Dịch vụ thanh toán"
+    },
+    {
+      "url": "https://cake.vn/tai-khoan/tai-khoan-quy-chung",
+      "label": "Tài khoản quỹ chung"
+    },
+    {
+      "url": "https://cake.vn/tien-ich-khac",
+      "label": "Tiện ích khác"
+    },
+    {
+      "url": "https://cake.vn/tien-ich-khac/dau-tu-chung-khoan/dau-tu-chung-khoan-dnse",
+      "label": "Đầu tư chứng khoán DNSE"
+    },
+    {
+      "url": "https://cake.vn/tien-ich-khac/bao-hiem-xe/bao-hiem-tnds-o-to",
+      "label": "Bảo hiểm TNDS ô tô"
+    },
+    {
+      "url": "https://cake.vn/tien-ich-khac/bao-hiem-xe/bao-hiem-tnds-xe-may",
+      "label": "Bảo hiểm TNDS xe máy"
+    },
+    {
+      "url": "https://cake.vn/gioi-thieu",
+      "label": "Về Cake"
+    },
+    {
+      "url": "https://cake.vn/dieu-kien-dieu-khoan",
+      "label": "Điều kiện điều khoản"
+    },
+    {
+      "url": "https://cake.vn/dieu-kien-dieu-khoan/dieu-kien-giao-dich-chung-ve-bao-ve-du-lieu-ca-nhan",
+      "label": "Bảo vệ dữ liệu cá nhân"
+    },
+    {
+      "url": "https://cake.vn/term-of-use/dieu-kien-giao-dich-chung-ve-mo-va-su-dung-tai-khoan-thanh-toan",
+      "label": "Mở & sử dụng Tài khoản thanh toán"
+    },
+    {
+      "url": "https://cake.vn/dieu-kien-dieu-khoan/dieu-kien-giao-dich-chung-ve-phat-hanh-va-su-dung-the-ghi-no",
+      "label": "Phát hành & sử dụng Thẻ ghi nợ"
+    },
+    {
+      "url": "https://cake.vn/dieu-kien-dieu-khoan/dieu-kien-giao-dich-chung-ve-cung-cap-va-su-dung-dich-vu-ngan-hang-dien-tu-ap-dung-doi-voi-khach-hang-ca-nhan-tai-vpbank",
+      "label": "Cung cấp & sử dụng dịch vụ Ngân hàng điện tử áp dụng đối với Khách hàng cá nhân"
+    },
+    {
+      "url": "https://cake.vn/dieu-kien-dieu-khoan/dieu-kien-dieu-khoan-tuan-thu-dao-lut-fatca",
+      "label": "Tuân thủ đạo luật FATCA"
+    },
+    {
+      "url": "https://cake.vn/dieu-kien-dieu-khoan/hop-dong-mo-va-su-dung-tai-khoan-thanh-toan",
+      "label": "Hợp đồng mở & sử dụng Tài khoản thanh toán"
+    },
+    {
+      "url": "https://cake.vn/dieu-kien-dieu-khoan/dieu-kien-dieu-khoan-dich-vu-dau-tu",
+      "label": "Dịch vụ đầu tư"
+    },
+    {
+      "url": "https://cake.vn/dieu-kien-dieu-khoan/dieu-kien-giao-dich-chung-san-pham-cho-vay-truc-tuyen-phuc-vu-nhu-cau-doi-song",
+      "label": "Sản phẩm cho vay trực tuyến không TSBĐ dành cho KHCN"
+    },
+    {
+      "url": "https://cake.vn/dieu-kien-dieu-khoan/dieu-kien-giao-dich-vinaphone",
+      "label": "Sản phẩm cho vay trực tuyến không TSBĐ dành cho KHCN sử dụng thuê bao Vinaphone"
+    },
+    {
+      "url": "https://cake.vn/dieu-kien-dieu-khoan/dieu-kien-giao-dich-chung-ve-lien-ket-vi-dien-tu",
+      "label": "Liên kết ví điện tử với Tài khoản thanh toán Cake dành cho KHCN"
+    },
+    {
+      "url": "https://cake.vn/dieu-kien-dieu-khoan/dieu-kien-chung-ve-cho-vay-han-muc-thau-chi",
+      "label": "Cho vay hạn mức thấu chi không TSBĐ trên ứng dụng Cake"
+    },
+    {
+      "url": "https://cake.vn/dieu-kien-dieu-khoan/dieu-kien-giao-dich-chung-the-tin-dung",
+      "label": "Thẻ tín dụng"
+    },
+    {
+      "url": "https://cake.vn/dieu-kien-dieu-khoan/dieu-kien-giao-dich-chung-ve-cung-cap-dich-vu-phi-tin-dung",
+      "label": "Cung cấp & sử dụng dịch vụ phi tín dụng dành cho KHCN tại VPBank"
+    },
+    {
+      "url": "https://cake.vn/dieu-kien-dieu-khoan/dieu-kien-giao-dich-chung-ve-cap-tin-dung",
+      "label": "Cấp tín dụng dành cho KHCN tại VPBank"
+    },
+    {
+      "url": "https://cake.vn/dieu-kien-dieu-khoan/dieu-khoan-va-dieu-kien-bao-hiem-khoan-vay-opes",
+      "label": "Bảo hiểm khoản vay OPES"
+    },
+    {
+      "url": "https://cake.vn/dieu-kien-dieu-khoan/dieu-kien-va-dieu-khoan-su-dung-the-tin-dung-cake-freedom",
+      "label": "Sử dụng Thẻ tín dụng Cake Freedom"
+    },
+    {
+      "url": "https://cake.vn/dieu-kien-dieu-khoan/dieu-kien-va-dieu-khoan-su-dung-the-tin-dung-be-cake",
+      "label": "Sử dụng Thẻ tín dụng Be Cake"
+    },
+    {
+      "url": "https://cake.vn/dieu-kien-dieu-khoan/dieu-kien-va-dieu-khoan-su-dung-the-tin-dung-vieon-cake",
+      "label": "Sử dụng Thẻ tín dụng VieON Cake"
+    },
+    {
+      "url": "https://cake.vn/dieu-kien-dieu-khoan/dieu-kien-giao-dich-chung-ve-cung-cap-va-su-dung-dich-vu-tien-gui-co-ky-han-bang-phuong-tien-dien-tu",
+      "label": "Cung cấp & sử dụng dịch vụ tiền gửi có kỳ hạn bằng phương tiện điện tử"
+    },
+    {
+      "url": "https://cake.vn/dieu-kien-dieu-khoan/dieu-khoan-va-dieu-kien-su-dung-dich-vu-vay-nhanh",
+      "label": "Dịch vụ Vay nhanh"
+    },
+    {
+      "url": "https://cake.vn/dieu-kien-dieu-khoan/dieu-khoan-va-dieu-kien-tra-gop-the-tin-dung-cake",
+      "label": "Trả góp Thẻ tín dụng Cake"
+    },
+    {
+      "url": "https://cake.vn/dieu-kien-dieu-khoan/huong-dan-khach-hang-su-dung-tai-khoan-thanh-toan-the-mo-bang-phuong-thuc-dien-tu-an-toan",
+      "label": "Hướng dẫn sử dụng Tài khoản thanh toán, Thẻ mở bằng phương thức điện tử an toàn"
+    },
+    {
+      "url": "https://cake.vn/bao-mat",
+      "label": "An toàn & bảo mật"
+    },
+    {
+      "url": "https://cake.vn/privacy",
+      "label": "An toàn & bảo mật"
+    },
+    {
+      "url": "https://cake.vn/formfee/bieu_mau_chung",
+      "label": "Thông tin chung"
+    },
+    {
+      "url": "https://cake.vn/formfee/bieu_mau_bieu_phi",
+      "label": "Biểu mẫu biểu phí"
+    },
+    {
+      "url": "https://cake.vn/huong-dan-su-dung",
+      "label": "Câu hỏi thường gặp"
+    },
+    {
+      "url": "https://cake.vn/lien-he",
+      "label": "Liên hệ"
+    },
+    {
+      "url": "https://cake.vn/lp/lien-he",
+      "label": "Tiếp nhận & xử lý phản ánh"
+    },
+    {
+      "url": "https://cake.vn/tin-tuc/hoat-dong",
+      "label": "Tin tức & bài viết"
+    },
+    {
+      "url": "https://cake.vn/tin-tuc/hoat-dong?page=1",
+      "label": "Tin hoạt động"
+    },
+    {
+      "url": "https://cake.vn/tin-tuc/bao-chi?page=1",
+      "label": "Tin báo chí"
+    },
+    {
+      "url": "https://cake.vn/tin-tuc/su-kien?page=1",
+      "label": "Sự kiện"
+    },
+    {
+      "url": "https://cake.vn/tin-tuc/tai-chinh?page=1",
+      "label": "Cẩm nang tài chính"
+    },
+    {
+      "url": "https://cake.vn/uu-dai/cake-uu-dai",
+      "label": "Tin ưu đãi"
+    },
+    {
+      "url": "https://cake.vn/uu-dai/cake-uu-dai?page1=1",
+      "label": "Ưu đãi Cake"
+    },
+    {
+      "url": "https://cake.vn/uu-dai/doi-tac-uu-dai?page2=1",
+      "label": "Ưu đãi đối tác"
+    },
+    {
+      "url": "https://cake.vn/uu-dai/uu-dai-tong-hop?page1=1",
+      "label": "Ưu đãi tổng hợp"
+    },
+    {
+      "url": "https://cake.vn/onboarding",
+      "label": "Tải ứng dụng"
+    },
+    {
+      "url": "https://cake.vn/cdn-cgi/l/email-protection",
+      "label": "[email protected]"
+    },
+    {
+      "url": "https://cake.vn/the-thanh-toan",
+      "label": "Thẻ thanh toán"
+    },
+    {
+      "url": "https://cake.vn/formfee",
+      "label": "Biểu mẫu biểu phí"
+    },
+    {
+      "url": "https://cake.vn/tuyen-dung",
+      "label": "Việc làm"
+    },
+    {
+      "url": "https://div.gov.vn/",
+      "label": ""
+    },
+    {
+      "url": "https://cake.vn/tin-tuc/hoat-dong/cake-by-vpbank-dat-chung-nhan-bao-mat-fido2",
+      "label": ""
+    },
+    {
+      "url": "https://cake.vn/tin-tuc/hoat-dong/ngan-hang-so-cake-dat-chung-nhan-ISO-IEC-27001-2022-dat-chuan-quoc-te",
+      "label": ""
+    },
+    {
+      "url": "https://cake.vn/tin-tuc/bao-chi/viet-nam-co-ngan-hang-so-dau-tien-dat-chung-chi-quoc-te-pci-3ds",
+      "label": ""
+    },
+    {
+      "url": "https://www.facebook.com/cake.themobilebank/",
+      "label": ""
+    },
+    {
+      "url": "https://www.instagram.com/cakebyvpbank/",
+      "label": ""
+    },
+    {
+      "url": "https://www.tiktok.com/@cakebyvpbank",
+      "label": ""
+    },
+    {
+      "url": "https://www.youtube.com/c/CakebyVPBankNg%C3%A2nh%C3%A0ngs%E1%BB%91",
+      "label": ""
+    },
+    {
+      "url": "https://www.linkedin.com/company/cake-by-vpbank/posts/?feedView=all",
+      "label": ""
+    }
+  ],
+  "body_sha256": "3f74a3e737848e6bef5196d6867e200efd5c9428aeadf1706d020790b380ef22",
+  "status": 200,
+  "origin": "frozen-corpus",
+  "retrieved_at": "2026-09-24T22:49:19.302027+00:00"
+}

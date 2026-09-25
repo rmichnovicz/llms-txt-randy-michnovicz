@@ -1,0 +1,1852 @@
+<html>
+    <head>
+        <meta name="viewport" content="initial-scale=1.0, width=device-width">
+        <meta charset="UTF-8">
+        <meta name="description" content="Currently mostly AI because in 2026 of course it is. Grinding through the nuts and bolts of LLMs and trying to work out why this stuff works...">
+
+        <link rel="canonical" href="/">
+
+        <link rel="alternate" type="application/rss+xml" title="Giles Thomas" href="/feed/rss.xml" />
+        <link rel="stylesheet" href="/styles/base.css">
+        <link rel="stylesheet" href="/styles/monokai.css">
+
+        <script src="/js/htmx.min.js"></script>
+
+        <link rel="icon" type="image/png" href="/images/favicons/favicon-96x96.png" sizes="96x96" />
+        <link rel="icon" type="image/svg+xml" href="/images/favicons/favicon.svg" />
+        <link rel="shortcut icon" href="/images/favicons/favicon.ico" />
+        <link rel="apple-touch-icon" sizes="180x180" href="/images/favicons/apple-touch-icon.png" />
+        <link rel="manifest" href="/images/favicons/site.webmanifest" />
+
+        <title>Giles' blog</title>
+
+        
+    
+        <script>
+            const urlParams = new URLSearchParams(window.location.search);
+            if (urlParams.has("page_id")) {
+                window.location.href = "/query-redirect/?page_id=" + urlParams.get("page_id");
+            } else if (urlParams.has("p")) {
+                window.location.href = "/query-redirect/?p=" + urlParams.get("p");
+            } else if (urlParams.has("feed")) {
+                window.location.href = "/query-redirect/?feed=" + urlParams.get("feed");
+            }
+        </script>
+
+        <link rel="alternate" type="text/markdown" title="LLM-friendly version" href="/llms.txt" />
+    
+
+    
+        <link rel="next" href="/page/2">
+    
+
+    
+
+    </head>
+
+    <body hx-on="click:
+        if (!event.target.closest('.dropdown-content')) {
+            htmx.findAll('.links-bar').forEach(el => el.dataset.currentDropdown = '')
+        }">
+        <div class="content">
+            <div class="site-header">
+                <a href="/">Giles' blog</a>
+
+                <div class="links">
+                    <a href="https://x.com/gpjt"><img src="/images/x-icon.png" alt="Me on X/Twitter" title="Me on X/Twitter"/></a>
+                    <a href="https://bsky.app/profile/gilesthomas.com"><img src="/images/bluesky-icon.png" alt="Me on Bluesky" title="Me on Bluesky"/></a>
+                    <a href="https://github.com/gpjt"><img src="/images/github-icon.png" alt="My GitHub profile" title="My GitHub profile"/></a>
+                    <a href="https://huggingface.co/gpjt"><img src="/images/hf-icon.png" alt="My Hugging Face profile" title="My Hugging Face profile"/></a>
+                    <a href="/feed/rss.xml"><img src="/images/rss-icon.png" alt="RSS feed for this blog" title="RSS feed for this blog"/></a>
+                </div>
+            </div>
+
+            <div class="tagline">
+                Writing the post that I wished I'd found when I started learning whatever it was...
+            </div>
+
+            <div class="links-bar"
+                 data-current-dropdown=""
+                 hx-on="click:
+                    if (event.target.closest('.dropdown')) {
+                        let targetId = event.target.closest('.dropdown').dataset.target;
+                        this.dataset.currentDropdown = (this.dataset.currentDropdown === targetId) ? '' : targetId;
+                        event.stopPropagation();
+                    }">
+
+                <div class="static-links-group">
+                    <div class="links-bar-link">
+                        <a href="/about">About</a>
+                    </div>
+
+                    <div class="links-bar-link">
+                        <a href="/contact">Contact</a>
+                    </div>
+                </div>
+
+                <div class="dropdown-group">
+                    
+                        <div class="links-bar-link dropdown" data-target="archives-dropdown">
+                            Archives <span class="dropdown-indicator"></span>
+                        </div>
+                    
+                    
+                        <div class="links-bar-link dropdown" data-target="categories-dropdown">
+                            Categories <span class="dropdown-indicator"></span>
+                        </div>
+                    
+                    <div class="links-bar-link dropdown" data-target="blogroll-dropdown">
+                        Blogroll <span class="dropdown-indicator"></span>
+                    </div>
+                </div>
+
+                <div id="archives-dropdown" class="dropdown-content">
+                    <ul>
+                        
+                            <li>
+                                <a href="/2026/09">
+                                    September 2026 (2)
+                                </a>
+                            </li>
+                        
+                            <li>
+                                <a href="/2026/08">
+                                    August 2026 (4)
+                                </a>
+                            </li>
+                        
+                            <li>
+                                <a href="/2026/07">
+                                    July 2026 (8)
+                                </a>
+                            </li>
+                        
+                            <li>
+                                <a href="/2026/06">
+                                    June 2026 (7)
+                                </a>
+                            </li>
+                        
+                            <li>
+                                <a href="/2026/05">
+                                    May 2026 (2)
+                                </a>
+                            </li>
+                        
+                            <li>
+                                <a href="/2026/04">
+                                    April 2026 (11)
+                                </a>
+                            </li>
+                        
+                            <li>
+                                <a href="/2026/03">
+                                    March 2026 (3)
+                                </a>
+                            </li>
+                        
+                            <li>
+                                <a href="/2026/02">
+                                    February 2026 (4)
+                                </a>
+                            </li>
+                        
+                            <li>
+                                <a href="/2026/01">
+                                    January 2026 (4)
+                                </a>
+                            </li>
+                        
+                            <li>
+                                <a href="/2025/12">
+                                    December 2025 (1)
+                                </a>
+                            </li>
+                        
+                            <li>
+                                <a href="/2025/11">
+                                    November 2025 (3)
+                                </a>
+                            </li>
+                        
+                            <li>
+                                <a href="/2025/10">
+                                    October 2025 (9)
+                                </a>
+                            </li>
+                        
+                            <li>
+                                <a href="/2025/09">
+                                    September 2025 (3)
+                                </a>
+                            </li>
+                        
+                            <li>
+                                <a href="/2025/08">
+                                    August 2025 (5)
+                                </a>
+                            </li>
+                        
+                            <li>
+                                <a href="/2025/07">
+                                    July 2025 (1)
+                                </a>
+                            </li>
+                        
+                            <li>
+                                <a href="/2025/06">
+                                    June 2025 (2)
+                                </a>
+                            </li>
+                        
+                            <li>
+                                <a href="/2025/05">
+                                    May 2025 (3)
+                                </a>
+                            </li>
+                        
+                            <li>
+                                <a href="/2025/04">
+                                    April 2025 (2)
+                                </a>
+                            </li>
+                        
+                            <li>
+                                <a href="/2025/03">
+                                    March 2025 (7)
+                                </a>
+                            </li>
+                        
+                            <li>
+                                <a href="/2025/02">
+                                    February 2025 (10)
+                                </a>
+                            </li>
+                        
+                            <li>
+                                <a href="/2025/01">
+                                    January 2025 (6)
+                                </a>
+                            </li>
+                        
+                            <li>
+                                <a href="/2024/12">
+                                    December 2024 (7)
+                                </a>
+                            </li>
+                        
+                            <li>
+                                <a href="/2024/09">
+                                    September 2024 (1)
+                                </a>
+                            </li>
+                        
+                            <li>
+                                <a href="/2024/08">
+                                    August 2024 (2)
+                                </a>
+                            </li>
+                        
+                            <li>
+                                <a href="/2024/07">
+                                    July 2024 (2)
+                                </a>
+                            </li>
+                        
+                            <li>
+                                <a href="/2024/05">
+                                    May 2024 (2)
+                                </a>
+                            </li>
+                        
+                            <li>
+                                <a href="/2024/04">
+                                    April 2024 (2)
+                                </a>
+                            </li>
+                        
+                            <li>
+                                <a href="/2024/02">
+                                    February 2024 (2)
+                                </a>
+                            </li>
+                        
+                            <li>
+                                <a href="/2023/04">
+                                    April 2023 (1)
+                                </a>
+                            </li>
+                        
+                            <li>
+                                <a href="/2023/03">
+                                    March 2023 (2)
+                                </a>
+                            </li>
+                        
+                            <li>
+                                <a href="/2022/09">
+                                    September 2022 (1)
+                                </a>
+                            </li>
+                        
+                            <li>
+                                <a href="/2022/02">
+                                    February 2022 (1)
+                                </a>
+                            </li>
+                        
+                            <li>
+                                <a href="/2021/11">
+                                    November 2021 (1)
+                                </a>
+                            </li>
+                        
+                            <li>
+                                <a href="/2021/03">
+                                    March 2021 (1)
+                                </a>
+                            </li>
+                        
+                            <li>
+                                <a href="/2021/02">
+                                    February 2021 (2)
+                                </a>
+                            </li>
+                        
+                            <li>
+                                <a href="/2019/08">
+                                    August 2019 (1)
+                                </a>
+                            </li>
+                        
+                            <li>
+                                <a href="/2018/11">
+                                    November 2018 (1)
+                                </a>
+                            </li>
+                        
+                            <li>
+                                <a href="/2017/05">
+                                    May 2017 (1)
+                                </a>
+                            </li>
+                        
+                            <li>
+                                <a href="/2016/12">
+                                    December 2016 (1)
+                                </a>
+                            </li>
+                        
+                            <li>
+                                <a href="/2016/04">
+                                    April 2016 (1)
+                                </a>
+                            </li>
+                        
+                            <li>
+                                <a href="/2015/08">
+                                    August 2015 (1)
+                                </a>
+                            </li>
+                        
+                            <li>
+                                <a href="/2014/12">
+                                    December 2014 (1)
+                                </a>
+                            </li>
+                        
+                            <li>
+                                <a href="/2014/08">
+                                    August 2014 (1)
+                                </a>
+                            </li>
+                        
+                            <li>
+                                <a href="/2014/03">
+                                    March 2014 (1)
+                                </a>
+                            </li>
+                        
+                            <li>
+                                <a href="/2013/12">
+                                    December 2013 (1)
+                                </a>
+                            </li>
+                        
+                            <li>
+                                <a href="/2013/10">
+                                    October 2013 (3)
+                                </a>
+                            </li>
+                        
+                            <li>
+                                <a href="/2013/09">
+                                    September 2013 (4)
+                                </a>
+                            </li>
+                        
+                            <li>
+                                <a href="/2013/08">
+                                    August 2013 (2)
+                                </a>
+                            </li>
+                        
+                            <li>
+                                <a href="/2013/07">
+                                    July 2013 (1)
+                                </a>
+                            </li>
+                        
+                            <li>
+                                <a href="/2013/06">
+                                    June 2013 (1)
+                                </a>
+                            </li>
+                        
+                            <li>
+                                <a href="/2013/02">
+                                    February 2013 (1)
+                                </a>
+                            </li>
+                        
+                            <li>
+                                <a href="/2012/10">
+                                    October 2012 (1)
+                                </a>
+                            </li>
+                        
+                            <li>
+                                <a href="/2012/06">
+                                    June 2012 (1)
+                                </a>
+                            </li>
+                        
+                            <li>
+                                <a href="/2012/05">
+                                    May 2012 (1)
+                                </a>
+                            </li>
+                        
+                            <li>
+                                <a href="/2012/04">
+                                    April 2012 (1)
+                                </a>
+                            </li>
+                        
+                            <li>
+                                <a href="/2012/02">
+                                    February 2012 (1)
+                                </a>
+                            </li>
+                        
+                            <li>
+                                <a href="/2011/10">
+                                    October 2011 (1)
+                                </a>
+                            </li>
+                        
+                            <li>
+                                <a href="/2011/06">
+                                    June 2011 (1)
+                                </a>
+                            </li>
+                        
+                            <li>
+                                <a href="/2011/05">
+                                    May 2011 (1)
+                                </a>
+                            </li>
+                        
+                            <li>
+                                <a href="/2011/04">
+                                    April 2011 (1)
+                                </a>
+                            </li>
+                        
+                            <li>
+                                <a href="/2011/03">
+                                    March 2011 (1)
+                                </a>
+                            </li>
+                        
+                            <li>
+                                <a href="/2011/02">
+                                    February 2011 (1)
+                                </a>
+                            </li>
+                        
+                            <li>
+                                <a href="/2011/01">
+                                    January 2011 (1)
+                                </a>
+                            </li>
+                        
+                            <li>
+                                <a href="/2010/12">
+                                    December 2010 (3)
+                                </a>
+                            </li>
+                        
+                            <li>
+                                <a href="/2010/11">
+                                    November 2010 (1)
+                                </a>
+                            </li>
+                        
+                            <li>
+                                <a href="/2010/10">
+                                    October 2010 (1)
+                                </a>
+                            </li>
+                        
+                            <li>
+                                <a href="/2010/09">
+                                    September 2010 (1)
+                                </a>
+                            </li>
+                        
+                            <li>
+                                <a href="/2010/08">
+                                    August 2010 (1)
+                                </a>
+                            </li>
+                        
+                            <li>
+                                <a href="/2010/07">
+                                    July 2010 (1)
+                                </a>
+                            </li>
+                        
+                            <li>
+                                <a href="/2010/05">
+                                    May 2010 (3)
+                                </a>
+                            </li>
+                        
+                            <li>
+                                <a href="/2010/04">
+                                    April 2010 (1)
+                                </a>
+                            </li>
+                        
+                            <li>
+                                <a href="/2010/03">
+                                    March 2010 (2)
+                                </a>
+                            </li>
+                        
+                            <li>
+                                <a href="/2010/02">
+                                    February 2010 (3)
+                                </a>
+                            </li>
+                        
+                            <li>
+                                <a href="/2010/01">
+                                    January 2010 (4)
+                                </a>
+                            </li>
+                        
+                            <li>
+                                <a href="/2009/12">
+                                    December 2009 (2)
+                                </a>
+                            </li>
+                        
+                            <li>
+                                <a href="/2009/11">
+                                    November 2009 (5)
+                                </a>
+                            </li>
+                        
+                            <li>
+                                <a href="/2009/10">
+                                    October 2009 (2)
+                                </a>
+                            </li>
+                        
+                            <li>
+                                <a href="/2009/09">
+                                    September 2009 (2)
+                                </a>
+                            </li>
+                        
+                            <li>
+                                <a href="/2009/08">
+                                    August 2009 (3)
+                                </a>
+                            </li>
+                        
+                            <li>
+                                <a href="/2009/07">
+                                    July 2009 (1)
+                                </a>
+                            </li>
+                        
+                            <li>
+                                <a href="/2009/05">
+                                    May 2009 (1)
+                                </a>
+                            </li>
+                        
+                            <li>
+                                <a href="/2009/04">
+                                    April 2009 (1)
+                                </a>
+                            </li>
+                        
+                            <li>
+                                <a href="/2009/03">
+                                    March 2009 (5)
+                                </a>
+                            </li>
+                        
+                            <li>
+                                <a href="/2009/02">
+                                    February 2009 (5)
+                                </a>
+                            </li>
+                        
+                            <li>
+                                <a href="/2009/01">
+                                    January 2009 (5)
+                                </a>
+                            </li>
+                        
+                            <li>
+                                <a href="/2008/12">
+                                    December 2008 (3)
+                                </a>
+                            </li>
+                        
+                            <li>
+                                <a href="/2008/11">
+                                    November 2008 (7)
+                                </a>
+                            </li>
+                        
+                            <li>
+                                <a href="/2008/10">
+                                    October 2008 (4)
+                                </a>
+                            </li>
+                        
+                            <li>
+                                <a href="/2008/09">
+                                    September 2008 (2)
+                                </a>
+                            </li>
+                        
+                            <li>
+                                <a href="/2008/08">
+                                    August 2008 (1)
+                                </a>
+                            </li>
+                        
+                            <li>
+                                <a href="/2008/07">
+                                    July 2008 (1)
+                                </a>
+                            </li>
+                        
+                            <li>
+                                <a href="/2008/06">
+                                    June 2008 (1)
+                                </a>
+                            </li>
+                        
+                            <li>
+                                <a href="/2008/05">
+                                    May 2008 (1)
+                                </a>
+                            </li>
+                        
+                            <li>
+                                <a href="/2008/04">
+                                    April 2008 (1)
+                                </a>
+                            </li>
+                        
+                            <li>
+                                <a href="/2008/01">
+                                    January 2008 (4)
+                                </a>
+                            </li>
+                        
+                            <li>
+                                <a href="/2007/12">
+                                    December 2007 (3)
+                                </a>
+                            </li>
+                        
+                            <li>
+                                <a href="/2007/03">
+                                    March 2007 (3)
+                                </a>
+                            </li>
+                        
+                            <li>
+                                <a href="/2007/02">
+                                    February 2007 (1)
+                                </a>
+                            </li>
+                        
+                            <li>
+                                <a href="/2007/01">
+                                    January 2007 (2)
+                                </a>
+                            </li>
+                        
+                            <li>
+                                <a href="/2006/12">
+                                    December 2006 (4)
+                                </a>
+                            </li>
+                        
+                            <li>
+                                <a href="/2006/11">
+                                    November 2006 (18)
+                                </a>
+                            </li>
+                        
+                    </ul>
+                </div>
+                <div id="categories-dropdown" class="dropdown-content">
+                    <ul>
+                        
+                            
+                                <li>
+                                    <a href="/ai">
+                                        AI (100)
+                                    </a>
+                                </li>
+                            
+                        
+                            
+                                <li>
+                                    <a href="/python">
+                                        Python (79)
+                                    </a>
+                                </li>
+                            
+                        
+                            
+                                <li>
+                                    <a href="/til-deep-dives">
+                                        TIL deep dives (78)
+                                    </a>
+                                </li>
+                            
+                        
+                            
+                                <li>
+                                    <a href="/llm-from-scratch">
+                                        LLM from scratch (48)
+                                    </a>
+                                </li>
+                            
+                        
+                            
+                                <li>
+                                    <a href="/resolver-one">
+                                        Resolver One (34)
+                                    </a>
+                                </li>
+                            
+                        
+                            
+                                <li>
+                                    <a href="/pytorch">
+                                        PyTorch (24)
+                                    </a>
+                                </li>
+                            
+                        
+                            
+                                <li>
+                                    <a href="/til">
+                                        TIL (22)
+                                    </a>
+                                </li>
+                            
+                        
+                            
+                                <li>
+                                    <a href="/blogkeeping">
+                                        Blogkeeping (20)
+                                    </a>
+                                </li>
+                            
+                        
+                            
+                                <li>
+                                    <a href="/pythonanywhere">
+                                        PythonAnywhere (17)
+                                    </a>
+                                </li>
+                            
+                        
+                            
+                                <li>
+                                    <a href="/linux">
+                                        Linux (16)
+                                    </a>
+                                </li>
+                            
+                        
+                            
+                                <li>
+                                    <a href="/startups">
+                                        Startups (15)
+                                    </a>
+                                </li>
+                            
+                        
+                            
+                                <li>
+                                    <a href="/hugging-face">
+                                        Hugging Face (14)
+                                    </a>
+                                </li>
+                            
+                        
+                            
+                                <li>
+                                    <a href="/gadgets">
+                                        Gadgets (13)
+                                    </a>
+                                </li>
+                            
+                        
+                            
+                                <li>
+                                    <a href="/nslu2-offsite-backup-project">
+                                        NSLU2 offsite backup project (13)
+                                    </a>
+                                </li>
+                            
+                        
+                            
+                                <li>
+                                    <a href="/funny">
+                                        Funny (11)
+                                    </a>
+                                </li>
+                            
+                        
+                            
+                                <li>
+                                    <a href="/musings">
+                                        Musings (11)
+                                    </a>
+                                </li>
+                            
+                        
+                            
+                                <li>
+                                    <a href="/finance">
+                                        Finance (10)
+                                    </a>
+                                </li>
+                            
+                        
+                            
+                                <li>
+                                    <a href="/fine-tuning">
+                                        Fine-tuning LLMs (10)
+                                    </a>
+                                </li>
+                            
+                        
+                            
+                                <li>
+                                    <a href="/jax">
+                                        JAX (10)
+                                    </a>
+                                </li>
+                            
+                        
+                            
+                                <li>
+                                    <a href="/c">
+                                        C (9)
+                                    </a>
+                                </li>
+                            
+                        
+                            
+                                <li>
+                                    <a href="/website-design">
+                                        Website design (9)
+                                    </a>
+                                </li>
+                            
+                        
+                            
+                                <li>
+                                    <a href="/personal">
+                                        Personal (8)
+                                    </a>
+                                </li>
+                            
+                        
+                            
+                                <li>
+                                    <a href="/robotics">
+                                        Robotics (8)
+                                    </a>
+                                </li>
+                            
+                        
+                            
+                                <li>
+                                    <a href="/3d">
+                                        3D (5)
+                                    </a>
+                                </li>
+                            
+                        
+                            
+                                <li>
+                                    <a href="/quick-links">
+                                        Quick links (5)
+                                    </a>
+                                </li>
+                            
+                        
+                            
+                                <li>
+                                    <a href="/rants">
+                                        Rants (5)
+                                    </a>
+                                </li>
+                            
+                        
+                            
+                                <li>
+                                    <a href="/cryptography">
+                                        Cryptography (4)
+                                    </a>
+                                </li>
+                            
+                        
+                            
+                                <li>
+                                    <a href="/gpt-2-mysteries">
+                                        GPT-2 mysteries (4)
+                                    </a>
+                                </li>
+                            
+                        
+                            
+                                <li>
+                                    <a href="/javascript">
+                                        JavaScript (4)
+                                    </a>
+                                </li>
+                            
+                        
+                            
+                                <li>
+                                    <a href="/music">
+                                        Music (4)
+                                    </a>
+                                </li>
+                            
+                        
+                            
+                                <li>
+                                    <a href="/oddities">
+                                        Oddities (4)
+                                    </a>
+                                </li>
+                            
+                        
+                            
+                                <li>
+                                    <a href="/talks">
+                                        Talks (4)
+                                    </a>
+                                </li>
+                            
+                        
+                            
+                                <li>
+                                    <a href="/dirigible">
+                                        Dirigible (3)
+                                    </a>
+                                </li>
+                            
+                        
+                            
+                                <li>
+                                    <a href="/eee">
+                                        Eee (3)
+                                    </a>
+                                </li>
+                            
+                        
+                            
+                                <li>
+                                    <a href="/memes">
+                                        Memes (3)
+                                    </a>
+                                </li>
+                            
+                        
+                            
+                                <li>
+                                    <a href="/politics">
+                                        Politics (3)
+                                    </a>
+                                </li>
+                            
+                        
+                            
+                                <li>
+                                    <a href="/django">
+                                        Django (2)
+                                    </a>
+                                </li>
+                            
+                        
+                            
+                                <li>
+                                    <a href="/gpu-computing">
+                                        GPU Computing (2)
+                                    </a>
+                                </li>
+                            
+                        
+                            
+                                <li>
+                                    <a href="/latex">
+                                        LaTeX (2)
+                                    </a>
+                                </li>
+                            
+                        
+                            
+                                <li>
+                                    <a href="/mathml">
+                                        MathML (2)
+                                    </a>
+                                </li>
+                            
+                        
+                            
+                                <li>
+                                    <a href="/microprojects">
+                                        Microprojects (2)
+                                    </a>
+                                </li>
+                            
+                        
+                            
+                                <li>
+                                    <a href="/moe">
+                                        MoE models (2)
+                                    </a>
+                                </li>
+                            
+                        
+                            
+                                <li>
+                                    <a href="/olpc-xo">
+                                        OLPC XO (2)
+                                    </a>
+                                </li>
+                            
+                        
+                            
+                                <li>
+                                    <a href="/retro-language-models">
+                                        Retro Language Models (2)
+                                    </a>
+                                </li>
+                            
+                        
+                            
+                                <li>
+                                    <a href="/space">
+                                        Space (2)
+                                    </a>
+                                </li>
+                            
+                        
+                            
+                                <li>
+                                    <a href="/voip">
+                                        VoIP (2)
+                                    </a>
+                                </li>
+                            
+                        
+                            
+                                <li>
+                                    <a href="/copyright">
+                                        Copyright (1)
+                                    </a>
+                                </li>
+                            
+                        
+                            
+                                <li>
+                                    <a href="/golang">
+                                        Golang (1)
+                                    </a>
+                                </li>
+                            
+                        
+                            
+                                <li>
+                                    <a href="/poppy-the-training-box">
+                                        poppy the training box (1)
+                                    </a>
+                                </li>
+                            
+                        
+                            
+                                <li>
+                                    <a href="/raspberry-pi">
+                                        Raspberry Pi (1)
+                                    </a>
+                                </li>
+                            
+                        
+                            
+                                <li>
+                                    <a href="/software-dev-tools">
+                                        Software development tools (1)
+                                    </a>
+                                </li>
+                            
+                        
+                    </ul>
+                </div>
+                <div id="blogroll-dropdown" class="dropdown-content">
+                    <ul>
+                        <li><a href="https://agileabstractions.com/">Agile Abstractions</a></li>
+                        <li><a href="https://antirez.com/">antirez</a></li>
+                        <li><a href="https://www.astralcodexten.com/">Astral Codex Ten</a></li>
+                        <li><a href="https://blog.omega-prime.co.uk/">:: (Bloggable a) => a -> IO ()</a></li>
+                        <li><a href="https://daviddfriedman.substack.com/">David Friedman's Substack</a></li>
+                        <li><a href="https://robertsmithson1.substack.com/">Econ & Energy</a></li>
+                        <li><a href="https://ianozsvald.com/">Entrepreneurial Geekiness</a></li>
+                        <li><a href="https://holdenweb.blogspot.com/">For some value of "Magic"</a></li>
+                        <li><a href="https://hackaday.com/">Hackaday</a></li>
+                        <li><a href="https://kaleidic.substack.com/">kaleidic.ai newsletter</a></li>
+                        <li><a href="https://knowing.net/">Knowing.NET</a></li>
+                        <li><a href="https://languagelog.ldc.upenn.edu/nll/">Language Log</a></li>
+                        <li><a href="http://blog.millenniumhand.co.uk/">Millennium Hand</a></li>
+                        <li><a href="https://ntoll.org/">ntoll.org</a></li>
+                        <li><a href="https://www.obeythetestinggoat.com/">Obey the Testing Goat!</a></li>
+                        <li><a href="https://www.oneusefulthing.org/">One Useful Thing</a></li>
+                        <li><a href="https://pkaznowski.gitlab.io/projects/">PK</a></li>
+                        <li><a href="https://blog.pythonanywhere.com/">PythonAnywhere News</a></li>
+                        <li><a href="https://simonwillison.net/">Simon Willison's Weblog</a></li>
+                        <li><a href="https://medium.com/@societive">Societive</a></li>
+                        <li><a href="https://orestis.gr/">Software Deviser</a></li>
+                        <li><a href="https://filip.lajszczak.dev/">Some opinions, held with varying degrees of certainty</a></li>
+                        <li><a href="https://www.tartley.com/">tartley.com</a></li>
+                        <li><a href="https://geohot.github.io/blog/">the singularity is nearer</a></li>
+                        <li><a href="https://vgel.me/posts/">Theia Vogel's website</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            
+
+    
+        <div class="index-page-post">
+            <h2 class="post-header"><a href="/2026/09/gpt-2-to-moe">Extending Raschka's GPT-2: an MoE trained from scratch on an RTX 3090</a></h2>
+
+            <div class="post-subhead">
+                Posted on 10 <a href="/2026/09/">September 2026</a>
+                
+                    in
+                    
+                        <a href="/moe">MoE models</a>,
+                    
+                        <a href="/ai">AI</a>,
+                    
+                        <a href="/til-deep-dives">TIL deep dives</a>,
+                    
+                        <a href="/pytorch">PyTorch</a>,
+                    
+                        <a href="/python">Python</a>
+                    
+                
+
+                |
+
+                <span class="comment-count"
+                     hx-get="https://comments.gilesthomas.com/comment-count"
+                     hx-trigger="load"
+                     hx-vals='js:{
+                       "post_url": new URL("/2026/09/gpt-2-to-moe", "https://www.gilesthomas.com").toString()
+                     }'
+                ></span>
+            </div>
+
+            <p>Mixture-of-experts models are really nifty.  You get inference speed close to
+a small model's, with a lot of the smarts and knowledge of a large one.  While they
+use as much memory as an equivalently-sized dense (non-MoE) model, they're much faster.
+The frontier labs don't publish their architectures, but Claude and ChatGPT are widely
+rumoured to be MoEs these days -- and certainly many large open-weights models like
+<a href="https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro-0813">DeepSeek</a> and
+<a href="https://huggingface.co/moonshotai/Kimi-K3">Kimi K3</a> are.</p>
+
+<p>In this post, I'll show you how I added MoE support
+to the GPT-2-style code from
+<a href="https://sebastianraschka.com/">Sebastian Raschka</a>'s book
+"<a href="https://www.manning.com/books/build-a-large-language-model-from-scratch">Build a Large Language Model (from Scratch)</a>",
+then used that to train a 446M-parameter model with 220M active parameters
+from scratch on my RTX 3090 -- essentially, GPT-2 small with 6 experts, 2 active per token.
+I wanted to understand how MoEs work, and as always, felt that the best way to do
+that is to build one (and then to write it up like this).  Hopefully because it's all
+fresh in my mind as I write this, I should be able to explain things clearly for others
+who've finished Raschka's book.</p>
+
+<p>The training run took just less than eight days, and the resulting model
+got a better loss on my test set than any of the other models I've trained
+so far -- which was a good thing, given that it took <a href="/2025/12/llm-from-scratch-28-training-a-base-model-from-scratch">four times longer</a> to train!  It was also better
+than the original OpenAI GPT-2 small (124M parameters), but not as good as GPT-2 medium
+(345M parameters), although it was close.  That second result was interesting, as my
+model had more total parameters than GPT-2 medium, but fewer active ones.</p>
+
+<p>On an instruction fine-tuning test, it did
+better than any of my other models, but worse than both OpenAI models (why OpenAI's models are
+so good on that particular test is a <a href="/gpt-2-mysteries">mystery</a> I'm digging into separately).</p>
+
+<p>I'll go into those numbers in more depth later on.
+Firstly, though, I'll run through the code that I needed to add to GPT-2 to make this
+work -- not just the code for the experts themselves,
+but the additional code for training it.  With MoEs you can't just train to minimise loss on your training set --
+you need to add on an "auxiliary" loss to make sure they actually use
+all of their experts, and that was where it became most interesting.</p>
+
+<p>Before we get into the weeds, though, let's start off with the basics; how do MoEs work in Transformers-based LLMs?</p>
+
+
+            
+                <p>
+                    <a href="/2026/09/gpt-2-to-moe#id_fold">[ Read more ]</a>
+                </p>
+            
+
+        </div>
+
+        
+            <hr class="index-post-separator" />
+        
+
+    
+        <div class="index-page-post">
+            <h2 class="post-header"><a href="/2026/09/jax-models-on-hugging-face">Putting my JAX-trained models on the Hugging Face Hub</a></h2>
+
+            <div class="post-subhead">
+                Posted on 3 <a href="/2026/09/">September 2026</a>
+                
+                    in
+                    
+                        <a href="/hugging-face">Hugging Face</a>,
+                    
+                        <a href="/pytorch">PyTorch</a>,
+                    
+                        <a href="/jax">JAX</a>,
+                    
+                        <a href="/python">Python</a>,
+                    
+                        <a href="/ai">AI</a>
+                    
+                
+
+                |
+
+                <span class="comment-count"
+                     hx-get="https://comments.gilesthomas.com/comment-count"
+                     hx-trigger="load"
+                     hx-vals='js:{
+                       "post_url": new URL("/2026/09/jax-models-on-hugging-face", "https://www.gilesthomas.com").toString()
+                     }'
+                ></span>
+            </div>
+
+            <p>I hadn't uploaded the models that I trained using JAX to the Hugging Face Hub because
+Transformers has been PyTorch-only since <a href="https://huggingface.co/blog/transformers-v5">version 5</a>
+(though they say they're working to add interoperability with JAX in the future), so it
+would have been tough to get them working natively with <code>AutoModelForCausalLM</code> and the like.</p>
+
+<p>But then it dawned on me that I'd already written <a href="https://github.com/gpjt/jax-gpt2-from-scratch/blob/main/convert_model_to_pytorch.py">a conversion script</a> that could
+take my JAX safetensors files and convert them into ones compatible with my PyTorch
+code.  It's actually those converted models that I use for my evals -- so I could
+use my <a href="/2026/01/custom-automodelforcausallm-frompretrained-models-on-hugging-face">existing PyTorch script</a>
+to upload them.</p>
+
+<p>So, I've now uploaded PyTorch-compatible versions of all of my JAX-trained models:</p>
+
+<p>"<a href="/2026/07/llm-from-scratch-34b-building-and-training-gpt-2-small-in-jax">Writing an LLM from scratch, part 34b -- from bigrams to GPT-2, one component at a time (in JAX)</a>"</p>
+
+<ul>
+<li><a href="https://huggingface.co/gpjt/jax-no-mha-bias-no-dropout"><code>gpjt/jax-no-mha-bias-no-dropout</code></a>
+-- the first full LLM trained in the post, in the "Adding LayerNorm" section.</li>
+<li><a href="https://huggingface.co/gpjt/jax-no-mha-bias-with-dropout"><code>gpjt/jax-no-mha-bias-with-dropout</code></a>
+-- the second full LLM trained in the post, in the "Dropout" section.</li>
+<li><a href="https://huggingface.co/gpjt/jax-with-mha-bias-no-dropout"><code>gpjt/jax-with-mha-bias-no-dropout</code></a>
+-- the third full LLM trained in the post, in the "Adding bias to the MHA output projections" section.</li>
+</ul>
+
+<p>"<a href="/2026/07/why-do-openai-gpt2-weights-beat-mine-3-overtraining">Why do OpenAI's GPT-2 weights beat mine? Part three: testing overtraining</a>"</p>
+
+<ul>
+<li><a href="https://huggingface.co/gpjt/jax-with-mha-bias-no-dropout-extended"><code>gpjt/jax-with-mha-bias-no-dropout-extended</code></a>
+-- the single-epoch, double-Chinchilla-tokens model.</li>
+<li><a href="https://huggingface.co/gpjt/jax-with-mha-bias-no-dropout-2-epoch"><code>gpjt/jax-with-mha-bias-no-dropout-2-epoch</code></a>
+-- the model trained on two epochs over the Chinchilla-optimal number of tokens.</li>
+</ul>
+
+<p>"<a href="/2026/08/chinchilla-check">A quick(ish) Chinchilla check</a>"</p>
+
+<ul>
+<li><a href="https://huggingface.co/gpjt/jax-with-mha-bias-larger-chinchilla-1"><code>gpjt/jax-with-mha-bias-larger-chinchilla-1</code></a>
+-- the <code>slightly-larger</code> model.</li>
+<li><a href="https://huggingface.co/gpjt/jax-with-mha-bias-larger-chinchilla-2"><code>gpjt/jax-with-mha-bias-larger-chinchilla-2</code></a>
+-- the <code>slightly-smaller</code> model.</li>
+</ul>
+
+<p>I've also added links to the posts in question.</p>
+
+
+            
+
+        </div>
+
+        
+            <hr class="index-post-separator" />
+        
+
+    
+        <div class="index-page-post">
+            <h2 class="post-header"><a href="/2026/08/why-do-openai-gpt2-weights-beat-mine-4-ift-dropout">Why do OpenAI's GPT-2 weights beat mine?  Part four: digging into dropout</a></h2>
+
+            <div class="post-subhead">
+                Posted on 27 <a href="/2026/08/">August 2026</a>
+                
+                    in
+                    
+                        <a href="/gpt-2-mysteries">GPT-2 mysteries</a>,
+                    
+                        <a href="/ai">AI</a>
+                    
+                
+
+                |
+
+                <span class="comment-count"
+                     hx-get="https://comments.gilesthomas.com/comment-count"
+                     hx-trigger="load"
+                     hx-vals='js:{
+                       "post_url": new URL("/2026/08/why-do-openai-gpt2-weights-beat-mine-4-ift-dropout", "https://www.gilesthomas.com").toString()
+                     }'
+                ></span>
+            </div>
+
+            <p>I'm still digging into a mystery about the models I've been training; although
+an increasing number of them beat the OpenAI GPT-2 small weights on the narrow
+technical measure of the loss they get on a test set, they're
+<a href="/2026/07/why-do-openai-gpt2-weights-beat-mine-1-intro">not as good at an instruction-fine-tuning test</a>.</p>
+
+<p>While reading about MoE models, I came across this paragraph in the
+<a href="https://arxiv.org/pdf/2101.03961">Switch Transformers paper</a>:</p>
+
+<blockquote>
+  <p>Our paper considers the common NLP approach
+  of pre-training on a large corpus followed by fine-tuning on smaller downstream tasks such
+  as summarization or question answering. One issue that naturally arises is overfitting since
+  many fine-tuning tasks have very few examples. During fine-tuning of standard
+  Transformers, Raffel et al. (2019) use dropout (Srivastava et al., 2014) at each layer to prevent
+  overfitting.</p>
+</blockquote>
+
+<p>So far, when running my IFT test, I'd been aiming to use the same dropout setting
+for the fine tune as the model concerned had used in its original
+pre-training.  That was just because it seemed natural.</p>
+
+<p>But the goal of dropout is to prevent overfitting when training over multiple epochs
+-- or, at least, that's how most of what I've read explains why we
+don't need it on modern single-epoch training runs over large datasets.</p>
+
+<p>If that's
+the case, though, when we do multiple epochs for a fine-tune with a more restricted dataset --
+exactly what I was doing for the IFT test -- it might make sense
+to use dropout, regardless of whether or not the model was pre-trained with it.
+The fine-tuning setup already tries to avoid overfitting by bailing out when a validation
+loss starts rising, but dropout might still help it avoid overfitting prematurely.</p>
+
+<p>On the other hand, something felt a little wrong about fine-tuning a model with
+dropout if its pre-training had happened without it.  A model pre-trained with dropout have been trained
+on billions of tokens, and so the model will have spent a lot of effort learning
+to overcome the issues that dropout causes, but one trained without it won't have that benefit.  Suddenly exposing it to dropout in a much
+shorter fine-tuning run felt rather like asking someone who rarely drinks alcohol to take a
+few shots of whisky; I felt that the models might not be prepared for the effects.</p>
+
+<p>As I looked into this more, I noticed another surprising thing -- there was an error in the
+configuration that I was using when fine-tuning the OpenAI models, both small and
+medium.  They were originally trained with dropout (or so it's believed --
+<a href="https://cdn.openai.com/better-language-models/language_models_are_unsupervised_multitask_learners.pdf">the paper</a> doesn't
+say, but "<a href="https://www.manning.com/books/build-a-large-language-model-from-scratch">Build a Large Language Model (from Scratch)</a>"
+says that they were, and <a href="https://huggingface.co/docs/transformers/v4.48.2/en/model_doc/gpt2#transformers.GPT2Config">this config on the Hugging Face GPT-2 code</a>
+agrees).</p>
+
+<p>But that actually made my original puzzle of why they outperformed my models on the IFT
+test seem even more perplexing, at least in the light of this idea.  If dropout
+was a good thing for fine-tuning, then so far they had been penalised by <em>not</em> using it -- that is,
+they were even further ahead of my own models than I thought they were.</p>
+
+<p>It was time to take a careful look.</p>
+
+
+            
+                <p>
+                    <a href="/2026/08/why-do-openai-gpt2-weights-beat-mine-4-ift-dropout#id_fold">[ Read more ]</a>
+                </p>
+            
+
+        </div>
+
+        
+            <hr class="index-post-separator" />
+        
+
+    
+        <div class="index-page-post">
+            <h2 class="post-header"><a href="/2026/08/adding-d2">Adding diagrams to my static site generator with D2</a></h2>
+
+            <div class="post-subhead">
+                Posted on 25 <a href="/2026/08/">August 2026</a>
+                
+                    in
+                    
+                        <a href="/blogkeeping">Blogkeeping</a>,
+                    
+                        <a href="/til">TIL</a>,
+                    
+                        <a href="/python">Python</a>,
+                    
+                        <a href="/website-design">Website design</a>
+                    
+                
+
+                |
+
+                <span class="comment-count"
+                     hx-get="https://comments.gilesthomas.com/comment-count"
+                     hx-trigger="load"
+                     hx-vals='js:{
+                       "post_url": new URL("/2026/08/adding-d2", "https://www.gilesthomas.com").toString()
+                     }'
+                ></span>
+            </div>
+
+            <p>A lot of the time when I've been writing posts for this blog, I've felt that a diagram
+would really help.  But they're a pain to produce well, and I think I underuse
+them as a result.  I wanted to fix that, and wound up adding D2 support to my static
+site generator.  I think it works pretty well!</p>
+
+
+            
+                <p>
+                    <a href="/2026/08/adding-d2#id_fold">[ Read more ]</a>
+                </p>
+            
+
+        </div>
+
+        
+            <hr class="index-post-separator" />
+        
+
+    
+        <div class="index-page-post">
+            <h2 class="post-header"><a href="/2026/08/built-in-gelu">Use the built-in GELU, don't roll your own!</a></h2>
+
+            <div class="post-subhead">
+                Posted on 20 <a href="/2026/08/">August 2026</a>
+                
+                    in
+                    
+                        <a href="/ai">AI</a>,
+                    
+                        <a href="/pytorch">PyTorch</a>,
+                    
+                        <a href="/python">Python</a>
+                    
+                
+
+                |
+
+                <span class="comment-count"
+                     hx-get="https://comments.gilesthomas.com/comment-count"
+                     hx-trigger="load"
+                     hx-vals='js:{
+                       "post_url": new URL("/2026/08/built-in-gelu", "https://www.gilesthomas.com").toString()
+                     }'
+                ></span>
+            </div>
+
+            <p>Unsurprisingly, <a href="https://docs.pytorch.org/docs/2.13/generated/torch.nn.GELU.html">PyTorch's own built-in GELU function</a>
+is faster than the hand-rolled one I've been using to date.  But I was surprised at
+how <em>much</em> faster using it made things when training my models.  I discovered this
+accidentally just now while working on something unrelated, but am logging the details
+here for anyone else that might find it useful.</p>
+
+<p>The headline numbers: the same code, training the same model on the same data, ran
+at about:</p>
+
+<ul>
+<li>21,000 tokens per second using the hand-rolled GELU from <a href="https://sebastianraschka.com/">Sebastian Raschka</a>'s book
+"<a href="https://www.manning.com/books/build-a-large-language-model-from-scratch">Build a Large Language Model (from Scratch)</a>".</li>
+<li>25,000 tokens per second using PyTorch's built-in GELU with no arguments.</li>
+<li>25,000 tokens per second using the built-in GELU with <code>approximate="tanh"</code>, which
+uses the same maths as Raschka's version under the hood.</li>
+</ul>
+
+<p>That's a 20% increase in throughput for both of the built-in versions -- definitely nothing to be sneezed at.</p>
+
+<p>And what is particularly
+interesting is that there aren't that many GELUs going on -- it's a GPT-2 small-style
+model, with 12 layers.  So that's 12 GELUs handling tensors
+shaped <code>(batch_size, seq_len, 4 * d_emb)</code>, which is <code>(6, 1024, 3072)</code> for my training setup.
+Given that the rest of the model is doing all of the normal full attention stuff for GPT-2, it's
+<em>really</em> surprising that the GELUs alone must have been taking up so much of the time.  The throughput
+numbers mean that we must have been spending about 17% of our time on the extra overhead from the hand-rolled
+version, so that sets a lower bound for how much time the GELUs were taking up.</p>
+
+
+            
+                <p>
+                    <a href="/2026/08/built-in-gelu#id_fold">[ Read more ]</a>
+                </p>
+            
+
+        </div>
+
+        
+            <hr class="index-post-separator" />
+        
+
+    
+        <div class="index-page-post">
+            <h2 class="post-header"><a href="/2026/08/chinchilla-check">A quick(ish) Chinchilla check</a></h2>
+
+            <div class="post-subhead">
+                Posted on 7 <a href="/2026/08/">August 2026</a>
+                
+                    in
+                    
+                        <a href="/ai">AI</a>,
+                    
+                        <a href="/jax">JAX</a>,
+                    
+                        <a href="/python">Python</a>
+                    
+                
+
+                |
+
+                <span class="comment-count"
+                     hx-get="https://comments.gilesthomas.com/comment-count"
+                     hx-trigger="load"
+                     hx-vals='js:{
+                       "post_url": new URL("/2026/08/chinchilla-check", "https://www.gilesthomas.com").toString()
+                     }'
+                ></span>
+            </div>
+
+            <p>I recently <a href="/2026/07/why-do-openai-gpt2-weights-beat-mine-3-overtraining">overtrained a couple of GPT-2 style models</a>,
+training them both on 40 tokens per parameter rather than the 20 per parameter
+that is generally regarded as "Chinchilla-optimal".</p>
+
+<p>The normal heuristic is that instead of doing that, you should scale up the number
+of tokens and the number of parameters equally -- so I would have been better off
+scaling up the model by <math xmlns="http://www.w3.org/1998/Math/MathML" display="inline"><mrow><msqrt><mrow><mn>2</mn></mrow></msqrt></mrow></math> and the token count by the same amount.  By
+doing that, I should expect to get a better model in terms of loss on my held-back
+test set than I did with my 40-tokens-per-parameter models.</p>
+
+<p>My training machine <code>poppy</code> wasn't doing anything, so I decided to give that a go.
+Would the Chinchilla rule-of-thumb hold up?</p>
+
+<p>As you might expect, it did.  But it was a surprisingly close-run thing, and
+could conceivably have been in the noise.  Let's take a look.</p>
+
+
+            
+                <p>
+                    <a href="/2026/08/chinchilla-check#id_fold">[ Read more ]</a>
+                </p>
+            
+
+        </div>
+
+        
+            <hr class="index-post-separator" />
+        
+
+    
+        <div class="index-page-post">
+            <h2 class="post-header"><a href="/2026/07/ai-use">How I use AI on this blog</a></h2>
+
+            <div class="post-subhead">
+                Posted on 31 <a href="/2026/07/">July 2026</a>
+                
+                    in
+                    
+                        <a href="/ai">AI</a>,
+                    
+                        <a href="/blogkeeping">Blogkeeping</a>
+                    
+                
+
+                |
+
+                <span class="comment-count"
+                     hx-get="https://comments.gilesthomas.com/comment-count"
+                     hx-trigger="load"
+                     hx-vals='js:{
+                       "post_url": new URL("/2026/07/ai-use", "https://www.gilesthomas.com").toString()
+                     }'
+                ></span>
+            </div>
+
+            <p>Inspired by <a href="https://www.lesswrong.com/posts/tgigHkZoYrJEGe4tP/ai-use-policy-for-my-essay-writing">this LessWrong post</a>,
+I thought I'd write about how I use AI here.  This is less in the
+interest of disclosure, more to provide a snapshot of what I'm doing right now so
+that I can revisit it in the future and see how it changes.  And hey, maybe it'll be of
+interest to you, dear readers.</p>
+
+<p>If I were to summarise my working philosophy in fewer than ten words, it would be: AIs identify
+problems and I fix them myself.  With a very specific kind of exception (which I
+always flag), the text and code on this blog are human-generated.  That's not a
+moral stand, but more a constraint imposed by what this blog is meant to be -- a place for me to
+<a href="/2025/02/20250223-til-deep-dive-posts">learn in public</a>.</p>
+
+
+            
+                <p>
+                    <a href="/2026/07/ai-use#id_fold">[ Read more ]</a>
+                </p>
+            
+
+        </div>
+
+        
+            <hr class="index-post-separator" />
+        
+
+    
+        <div class="index-page-post">
+            <h2 class="post-header"><a href="/2026/07/why-do-openai-gpt2-weights-beat-mine-3-overtraining">Why do OpenAI's GPT-2 weights beat mine?  Part three: testing overtraining</a></h2>
+
+            <div class="post-subhead">
+                Posted on 31 <a href="/2026/07/">July 2026</a>
+                
+                    in
+                    
+                        <a href="/gpt-2-mysteries">GPT-2 mysteries</a>,
+                    
+                        <a href="/ai">AI</a>,
+                    
+                        <a href="/jax">JAX</a>,
+                    
+                        <a href="/python">Python</a>
+                    
+                
+
+                |
+
+                <span class="comment-count"
+                     hx-get="https://comments.gilesthomas.com/comment-count"
+                     hx-trigger="load"
+                     hx-vals='js:{
+                       "post_url": new URL("/2026/07/why-do-openai-gpt2-weights-beat-mine-3-overtraining", "https://www.gilesthomas.com").toString()
+                     }'
+                ></span>
+            </div>
+
+            <p>The GPT-2-style models that I've been training work really well, and I've even
+managed to train some that perform better than the original OpenAI small model
+in terms of cross entropy loss on a test set.  But
+<a href="/2026/07/why-do-openai-gpt2-weights-beat-mine-1-intro">as I wrote previously</a>,
+there's a mystery: why do they perform worse on my instruction fine-tuning evaluation?</p>
+
+<p>I had various theories about why that might be, and to me, the most plausible-seeming of them
+was the amount of data they were trained with.  As best I can find out, OpenAI's models were, by modern
+standards, trained on much more data than they should have been, while I'd used
+the theoretically optimal amount of training data.</p>
+
+<p>To put it in other words, OpenAI's models were overtrained.  If I deliberately
+overtrained my own models, could I match their performance?  This post is a write-up
+of what happened, but so as not to bury the lede -- it didn't seem to help much, if at all.</p>
+
+<p>Let's see why.</p>
+
+
+            
+                <p>
+                    <a href="/2026/07/why-do-openai-gpt2-weights-beat-mine-3-overtraining#id_fold">[ Read more ]</a>
+                </p>
+            
+
+        </div>
+
+        
+            <hr class="index-post-separator" />
+        
+
+    
+        <div class="index-page-post">
+            <h2 class="post-header"><a href="/2026/07/why-do-openai-gpt2-weights-beat-mine-2-the-bugfix">Why do OpenAI's GPT-2 weights beat mine?  Part two: the bugfix</a></h2>
+
+            <div class="post-subhead">
+                Posted on 30 <a href="/2026/07/">July 2026</a>
+                
+                    in
+                    
+                        <a href="/gpt-2-mysteries">GPT-2 mysteries</a>,
+                    
+                        <a href="/ai">AI</a>,
+                    
+                        <a href="/python">Python</a>
+                    
+                
+
+                |
+
+                <span class="comment-count"
+                     hx-get="https://comments.gilesthomas.com/comment-count"
+                     hx-trigger="load"
+                     hx-vals='js:{
+                       "post_url": new URL("/2026/07/why-do-openai-gpt2-weights-beat-mine-2-the-bugfix", "https://www.gilesthomas.com").toString()
+                     }'
+                ></span>
+            </div>
+
+            <p>I'm digging into why my GPT-2 style models score worse on an instruction-following eval than OpenAI's original weights;
+I gave the details in <a href="/2026/07/why-do-openai-gpt2-weights-beat-mine-1-intro">this post</a>.</p>
+
+<p>While I was writing up the results of my first experiment into possible causes,
+I ran the post past ChatGPT -- I always use an "editorial board" of AIs to check my
+posts for flow, style, and any technical errors (though all writing is always mine).
+It took a look at the eval code that I was running, and highlighted a bug.</p>
+
+<p>Luckily, it doesn't change the important results -- OpenAI's models continue to be
+better than mine at instruction-following. But it was
+enough to change the baseline numbers, re-ordering how well my own models did.
+So I fixed it and regenerated the baseline
+so that future experiments are based on solid ground.</p>
+
+
+            
+                <p>
+                    <a href="/2026/07/why-do-openai-gpt2-weights-beat-mine-2-the-bugfix#id_fold">[ Read more ]</a>
+                </p>
+            
+
+        </div>
+
+        
+            <hr class="index-post-separator" />
+        
+
+    
+        <div class="index-page-post">
+            <h2 class="post-header"><a href="/2026/07/why-do-openai-gpt2-weights-beat-mine-1-intro">Why do OpenAI's GPT-2 weights beat mine?</a></h2>
+
+            <div class="post-subhead">
+                Posted on 29 <a href="/2026/07/">July 2026</a>
+                
+                    in
+                    
+                        <a href="/gpt-2-mysteries">GPT-2 mysteries</a>,
+                    
+                        <a href="/ai">AI</a>
+                    
+                
+
+                |
+
+                <span class="comment-count"
+                     hx-get="https://comments.gilesthomas.com/comment-count"
+                     hx-trigger="load"
+                     hx-vals='js:{
+                       "post_url": new URL("/2026/07/why-do-openai-gpt2-weights-beat-mine-1-intro", "https://www.gilesthomas.com").toString()
+                     }'
+                ></span>
+            </div>
+
+            <p>When I finished my project training an <a href="/llm-from-scratch">LLM from scratch</a>, I was
+left with a minor mystery.  Why were my models worse at instruction-following than the original OpenAI
+GPT-2 small weights?</p>
+
+<p>I had an evaluation that I was running,
+based on the instruction fine-tuning code in chapter 7 of
+"<a href="https://www.manning.com/books/build-a-large-language-model-from-scratch">Build a Large Language Model (from Scratch)</a>".
+The process was to train a model on samples from the <a href="https://crfm.stanford.edu/2023/03/13/alpaca.html">Alpaca</a>
+instruction-following dataset until validation loss started rising, to use that instruction fine-tuned model to generate
+completions to a held-back test set, and then to use an LLM to compare the
+results from various different models.  The details are <a href="/2026/04/llm-from-scratch-32l-interventions-instruction-fine-tuning-tests">here</a>;
+let's call it the IFT eval.</p>
+
+<p>OpenAI's original weights for GPT-2 small consistently beat my own
+models, even when mine got better results than theirs on a more technical
+evaluation, where I just measured the cross entropy loss for each model on a
+held-back set of test sequences.  This surprised me; I would have expected
+a reasonably close correlation between the two evals -- that better test loss would imply
+better instruction-following.</p>
+
+<p>I have a couple of thoughts about why this might be, and given that I recently
+set up <a href="/2026/07/poppy-the-training-box-1-the-beginnings"><code>poppy</code>, my dedicated LLM training box</a>
+I decided to inaugurate her with an experiment to test one of them; further
+experiments will come in time -- though I don't think this will be a focus for the blog.  More
+of a running theme, with occasional posts until either I solve the mystery, or
+give up in despair...</p>
+
+<p>In this post I'll give a bit more detail about the nature of the problem, and
+list some of the things I've been thinking might be the cause.  In later posts,
+I'll dig into some of them.</p>
+
+
+            
+                <p>
+                    <a href="/2026/07/why-do-openai-gpt2-weights-beat-mine-1-intro#id_fold">[ Read more ]</a>
+                </p>
+            
+
+        </div>
+
+        
+
+    
+
+    
+        <div class="older-newer-footer">
+            
+                <a href="/page/2">&laquo; Older posts</a>
+            
+
+            
+        </div>
+    
+
+
+
+            <div class="footer">
+                Copyright (c) 2006-2026 by Giles Thomas.
+                This work is licensed under a <a href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>.
+            </div>
+        </div>
+
+    </body>
+
+</html>

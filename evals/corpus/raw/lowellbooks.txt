@@ -1,0 +1,139 @@
+# Lowell Books
+
+> Online Boutique Bookstore based in London, UK. Sells new books and non-book products (toys, games, board games, stationery, DVDs) via a private ecommerce platform. Curated selection across 100+ categories including fiction, non-fiction, children's books, graphic novels, manga, and academic titles.
+
+## Site:
+- URL: https://lowellbooks.com
+- Search: https://lowellbooks.com/search
+- Browse authors A–Z: https://lowellbooks.com/author/
+- Browse series: https://lowellbooks.com/serie/
+- Sitemap: https://lowellbooks.com/sitemap.xml
+
+## Legal:
+- Company: Lowell Books LTD
+- Location: London, United Kingdom
+- Contact Phone: +44 7551 339174
+- Email: hello@lowellbooks.com
+
+## Metadata:
+- Currency: GBP
+- Payment methods: Stripe, Credit Card, PayPal
+- Storefront description: "Online Boutique BookStore"
+- Founding year: 2024
+- Products: New books only (no used or second-hand)
+- Languages: Books available in many languages including English, Spanish, French, German, Italian, Portuguese, Arabic, Japanese, Russian, Chinese, and more
+
+## Shipping:
+- Ships to: United Kingdom and European Union
+- Free shipping: Orders over £25 within the UK
+- Estimated delivery: Approximately 48 business hours
+- International: EU shipping available
+
+## Categories:
+- [Accounting](https://lowellbooks.com/category/accounting/)
+- [Adventure](https://lowellbooks.com/category/adventure/)
+- [Annuals](https://lowellbooks.com/category/annuals/)
+- [Antiques & Collecting](https://lowellbooks.com/category/antiques-collecting/)
+- [Architecture](https://lowellbooks.com/category/architecture/)
+- [Art & Design](https://lowellbooks.com/category/art-design/)
+- [Astrology](https://lowellbooks.com/category/astrology/)
+- [Astronomy](https://lowellbooks.com/category/astronomy/)
+- [Beauty & Fashion](https://lowellbooks.com/category/beauty-fashion/)
+- [Bestseller](https://lowellbooks.com/category/bestseller/)
+- [Biography](https://lowellbooks.com/category/biography/)
+- [Biology](https://lowellbooks.com/category/biology/)
+- [Board Games / Puzzles](https://lowellbooks.com/category/board-games-puzzles/)
+- [Books for Babies](https://lowellbooks.com/category/books-for-babies/)
+- [Business](https://lowellbooks.com/category/business/)
+- [Business & Economics](https://lowellbooks.com/category/business-economics/)
+- [Chemistry](https://lowellbooks.com/category/chemistry/)
+- [Child Care](https://lowellbooks.com/category/child-care/)
+- [Children](https://lowellbooks.com/category/children/)
+- [Christmas](https://lowellbooks.com/category/christmas/)
+- [Classics](https://lowellbooks.com/category/classics/)
+- [Computer Programming / Software Engineering](https://lowellbooks.com/category/computer-programming-software-engineering/)
+- [Computers](https://lowellbooks.com/category/computers/)
+- [Cooking](https://lowellbooks.com/category/cooking/)
+- [Crafts](https://lowellbooks.com/category/crafts/)
+- [Crime](https://lowellbooks.com/category/crime/)
+- [Dance](https://lowellbooks.com/category/dance/)
+- [Do It Yourself](https://lowellbooks.com/category/do-it-yourself/)
+- [Drama](https://lowellbooks.com/category/drama/)
+- [Drawing & Painting](https://lowellbooks.com/category/drawing-painting/)
+- [Early Learning](https://lowellbooks.com/category/early-learning/)
+- [Economics](https://lowellbooks.com/category/economics/)
+- [Education](https://lowellbooks.com/category/education/)
+- [Engineering](https://lowellbooks.com/category/engineering/)
+- [Fairy Tales](https://lowellbooks.com/category/fairy-tales/)
+- [Fantasy](https://lowellbooks.com/category/fantasy/)
+- [Fantasy and Magic](https://lowellbooks.com/category/fantasy-and-magic/)
+- [Fiction](https://lowellbooks.com/category/fiction/)
+- [Finance](https://lowellbooks.com/category/finance/)
+- [Fortune-telling & Divination](https://lowellbooks.com/category/fortune-telling-divination/)
+- [Games](https://lowellbooks.com/category/games/)
+- [Gardening & Farming](https://lowellbooks.com/category/gardening-farming/)
+- [GCSE](https://lowellbooks.com/category/gcse/)
+- [Geography](https://lowellbooks.com/category/geography/)
+- [Gifts & Toys](https://lowellbooks.com/category/gifts-toys/)
+- [Graphic Novels](https://lowellbooks.com/category/graphic-novels/)
+- [Health & Fitness](https://lowellbooks.com/category/health-fitness/)
+- [History](https://lowellbooks.com/category/history/)
+- [Horror](https://lowellbooks.com/category/horror/)
+- [Humour](https://lowellbooks.com/category/humour/)
+- [Industry](https://lowellbooks.com/category/industry/)
+- [Language](https://lowellbooks.com/category/languages/)
+- [Law](https://lowellbooks.com/category/law/)
+- [LGBTQ+ Interest](https://lowellbooks.com/category/lgbtq-interest/)
+- [Literature](https://lowellbooks.com/category/literature/)
+- [Manga](https://lowellbooks.com/category/manga/)
+- [Mathematics](https://lowellbooks.com/category/mathematics/)
+- [Medical](https://lowellbooks.com/category/medical/)
+- [Music](https://lowellbooks.com/category/music/)
+- [Mystery](https://lowellbooks.com/category/mystery/)
+- [Mysticism & Occult](https://lowellbooks.com/category/mysticism-occult/)
+- [Nature](https://lowellbooks.com/category/nature/)
+- [Non-Fiction](https://lowellbooks.com/category/non-fiction/)
+- [Non-Fiction 5+](https://lowellbooks.com/category/non-fiction-5/)
+- [Non-Fiction 7+](https://lowellbooks.com/category/non-fiction-7/)
+- [Non-Fiction 9+](https://lowellbooks.com/category/non-fiction-9/)
+- [Non-Fiction 11+](https://lowellbooks.com/category/non-fiction-11/)
+- [Novel](https://lowellbooks.com/category/novel/)
+- [Paranormal](https://lowellbooks.com/category/paranormal/)
+- [Personal Development](https://lowellbooks.com/category/personal-development/)
+- [Pets](https://lowellbooks.com/category/pets/)
+- [Philosophy](https://lowellbooks.com/category/philosophy/)
+- [Photography](https://lowellbooks.com/category/photography/)
+- [Physics](https://lowellbooks.com/category/physics/)
+- [Picture Books](https://lowellbooks.com/category/picture-books/)
+- [Poetry](https://lowellbooks.com/category/poetry/)
+- [Political Science](https://lowellbooks.com/category/political-science/)
+- [Politics](https://lowellbooks.com/category/politics/)
+- [Psychology](https://lowellbooks.com/category/psychology/)
+- [Religion](https://lowellbooks.com/category/religion/)
+- [Romance](https://lowellbooks.com/category/romance/)
+- [Royalty](https://lowellbooks.com/category/royalty/)
+- [Science](https://lowellbooks.com/category/science/)
+- [Science Fiction](https://lowellbooks.com/category/science-fiction/)
+- [Self Help](https://lowellbooks.com/category/self-help/)
+- [Short Stories](https://lowellbooks.com/category/short-stories/)
+- [Soccer](https://lowellbooks.com/category/soccer/)
+- [Social Science](https://lowellbooks.com/category/social-science/)
+- [Society](https://lowellbooks.com/category/society/)
+- [Sociology](https://lowellbooks.com/category/sociology/)
+- [Spirituality & Beliefs](https://lowellbooks.com/category/spirituality-beliefs/)
+- [Sport](https://lowellbooks.com/category/sport/)
+- [Suspense](https://lowellbooks.com/category/suspense/)
+- [Technology](https://lowellbooks.com/category/technology/)
+- [Teenage Fiction](https://lowellbooks.com/category/teenage-fiction/)
+- [Theatre](https://lowellbooks.com/category/theatre/)
+- [Thriller](https://lowellbooks.com/category/thriller/)
+- [Transport](https://lowellbooks.com/category/transport/)
+- [Travel](https://lowellbooks.com/category/travel/)
+- [Travel Guides](https://lowellbooks.com/category/travel-guides/)
+- [True Crime](https://lowellbooks.com/category/true-crime/)
+- [True Stories](https://lowellbooks.com/category/true-stories/)
+- [Warfare and Defence](https://lowellbooks.com/category/warfare-and-defence/)
+- [Western](https://lowellbooks.com/category/western/)
+- [Wildlife](https://lowellbooks.com/category/wildlife/)
+- [Witchcraft](https://lowellbooks.com/category/witchcraft/)
+- [Young Adult](https://lowellbooks.com/category/young-adult/)

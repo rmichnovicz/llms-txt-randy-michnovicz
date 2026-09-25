@@ -1,0 +1,159 @@
+{
+  "parser_version": "corpus-v2",
+  "headings": [
+    {
+      "level": 1,
+      "text": "The Brando | Private Island Resort | French Polynesia Vacations",
+      "line": 1
+    },
+    {
+      "level": 2,
+      "text": "Main",
+      "line": 7
+    },
+    {
+      "level": 2,
+      "text": "Optional",
+      "line": 20
+    }
+  ],
+  "links": [
+    {
+      "label": "FR",
+      "url": "https://thebrando.com/fr/",
+      "canonical": "https://thebrando.com/fr/",
+      "raw_url": "https://thebrando.com/fr/",
+      "description": "French",
+      "line": 9
+    },
+    {
+      "label": "EN",
+      "url": "https://thebrando.com",
+      "canonical": "https://thebrando.com/",
+      "raw_url": "https://thebrando.com",
+      "description": "English",
+      "line": 10
+    },
+    {
+      "label": "Home",
+      "url": "https://thebrando.com/",
+      "canonical": "https://thebrando.com/",
+      "raw_url": "https://thebrando.com/",
+      "description": "",
+      "line": 11
+    },
+    {
+      "label": "The Atoll",
+      "url": "https://thebrando.com/the-atoll/",
+      "canonical": "https://thebrando.com/the-atoll/",
+      "raw_url": "https://thebrando.com/the-atoll/",
+      "description": "",
+      "line": 12
+    },
+    {
+      "label": "Overview",
+      "url": "https://thebrando.com/the-atoll/#overview",
+      "canonical": "https://thebrando.com/the-atoll/#overview",
+      "raw_url": "https://thebrando.com/the-atoll/#overview",
+      "description": "",
+      "line": 13
+    },
+    {
+      "label": "History",
+      "url": "https://thebrando.com/the-atoll/#history",
+      "canonical": "https://thebrando.com/the-atoll/#history",
+      "raw_url": "https://thebrando.com/the-atoll/#history",
+      "description": "",
+      "line": 14
+    },
+    {
+      "label": "Atoll Life",
+      "url": "https://thebrando.com/the-atoll/#atoll-life",
+      "canonical": "https://thebrando.com/the-atoll/#atoll-life",
+      "raw_url": "https://thebrando.com/the-atoll/#atoll-life",
+      "description": "",
+      "line": 15
+    },
+    {
+      "label": "Experiences",
+      "url": "https://thebrando.com/experiences/",
+      "canonical": "https://thebrando.com/experiences/",
+      "raw_url": "https://thebrando.com/experiences/",
+      "description": "",
+      "line": 16
+    },
+    {
+      "label": "Guided Excursions",
+      "url": "https://thebrando.com/guided-excursions/",
+      "canonical": "https://thebrando.com/guided-excursions/",
+      "raw_url": "https://thebrando.com/guided-excursions/",
+      "description": "Comprehensive guides",
+      "line": 17
+    },
+    {
+      "label": "Polynesian art & Culture",
+      "url": "https://thebrando.com/polynesian-art-culture/",
+      "canonical": "https://thebrando.com/polynesian-art-culture/",
+      "raw_url": "https://thebrando.com/polynesian-art-culture/",
+      "description": "",
+      "line": 18
+    },
+    {
+      "label": "News & Offers",
+      "url": "https://thebrando.com/news-offers/",
+      "canonical": "https://thebrando.com/news-offers/",
+      "raw_url": "https://thebrando.com/news-offers/",
+      "description": "",
+      "line": 22
+    },
+    {
+      "label": "Contact",
+      "url": "https://thebrando.com/contact/",
+      "canonical": "https://thebrando.com/contact/",
+      "raw_url": "https://thebrando.com/contact/",
+      "description": "Contact information",
+      "line": 23
+    },
+    {
+      "label": "Careers",
+      "url": "https://thebrando.com/careers/",
+      "canonical": "https://thebrando.com/careers/",
+      "raw_url": "https://thebrando.com/careers/",
+      "description": "",
+      "line": 24
+    },
+    {
+      "label": "Legal Notice",
+      "url": "https://thebrando.com/legal-notice",
+      "canonical": "https://thebrando.com/legal-notice",
+      "raw_url": "https://thebrando.com/legal-notice",
+      "description": "",
+      "line": 25
+    },
+    {
+      "label": "Privacy",
+      "url": "https://thebrando.com/privacy",
+      "canonical": "https://thebrando.com/privacy",
+      "raw_url": "https://thebrando.com/privacy",
+      "description": "",
+      "line": 26
+    }
+  ],
+  "bare_links": [],
+  "metrics": {
+    "bytes": 1098,
+    "words": 91,
+    "lines": 27,
+    "approx_tokens_chars_div_4": 275,
+    "h1_count": 1,
+    "link_count": 15,
+    "bare_url_count": 0,
+    "described_links": 4,
+    "unique_destinations": 14,
+    "markdown_destinations": 0
+  },
+  "flags": [
+    "duplicate-destinations-review",
+    "sparse-link-descriptions"
+  ]
+}

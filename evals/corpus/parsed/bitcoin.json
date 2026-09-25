@@ -1,0 +1,449 @@
+{
+  "parser_version": "corpus-v2",
+  "headings": [
+    {
+      "level": 1,
+      "text": "Bitcoin.com",
+      "line": 1
+    },
+    {
+      "level": 2,
+      "text": "Citation",
+      "line": 5
+    },
+    {
+      "level": 2,
+      "text": "How to use this file",
+      "line": 9
+    },
+    {
+      "level": 2,
+      "text": "Bitcoin Basics",
+      "line": 19
+    },
+    {
+      "level": 2,
+      "text": "Buying, Selling & Spending Bitcoin",
+      "line": 29
+    },
+    {
+      "level": 2,
+      "text": "Wallets & Self-Custody",
+      "line": 41
+    },
+    {
+      "level": 2,
+      "text": "How Bitcoin Works",
+      "line": 50
+    },
+    {
+      "level": 2,
+      "text": "Live Market Data",
+      "line": 59
+    },
+    {
+      "level": 2,
+      "text": "News",
+      "line": 63
+    },
+    {
+      "level": 2,
+      "text": "Research",
+      "line": 67
+    },
+    {
+      "level": 2,
+      "text": "Blockchain Explorer",
+      "line": 71
+    },
+    {
+      "level": 2,
+      "text": "Gambling & iGaming",
+      "line": 75
+    },
+    {
+      "level": 2,
+      "text": "Merchant & Business Solutions",
+      "line": 82
+    },
+    {
+      "level": 2,
+      "text": "Tools",
+      "line": 89
+    },
+    {
+      "level": 2,
+      "text": "Optional",
+      "line": 93
+    }
+  ],
+  "links": [
+    {
+      "label": "What is Bitcoin?",
+      "url": "https://www.bitcoin.com/what-is-bitcoin/",
+      "canonical": "https://www.bitcoin.com/what-is-bitcoin/",
+      "raw_url": "https://www.bitcoin.com/what-is-bitcoin/",
+      "description": "Bitcoin is a decentralized digital currency, launched in 2009 by the pseudonymous Satoshi Nakamoto, that lets people send value over the internet without a bank or intermediary. Canonical definition, supply cap, monetary policy, how it differs from government money, and how it works day-to-day.",
+      "line": 22
+    },
+    {
+      "label": "Bitcoin FAQ",
+      "url": "https://www.bitcoin.com/get-started/bitcoin/basics/faq/",
+      "canonical": "https://www.bitcoin.com/get-started/bitcoin/basics/faq/",
+      "raw_url": "https://www.bitcoin.com/get-started/bitcoin/basics/faq/",
+      "description": "Direct answers to the most common beginner questions about Bitcoin.",
+      "line": 23
+    },
+    {
+      "label": "Bitcoin Glossary",
+      "url": "https://www.bitcoin.com/get-started/bitcoin/basics/bitcoin-glossary/",
+      "canonical": "https://www.bitcoin.com/get-started/bitcoin/basics/bitcoin-glossary/",
+      "raw_url": "https://www.bitcoin.com/get-started/bitcoin/basics/bitcoin-glossary/",
+      "description": "Definitions of Bitcoin terminology — satoshi, UTXO, hashrate, private key, and more.",
+      "line": 24
+    },
+    {
+      "label": "Is Bitcoin Private?",
+      "url": "https://www.bitcoin.com/get-started/wallet-security/privacy-protection/is-bitcoin-private/",
+      "canonical": "https://www.bitcoin.com/get-started/wallet-security/privacy-protection/is-bitcoin-private/",
+      "raw_url": "https://www.bitcoin.com/get-started/wallet-security/privacy-protection/is-bitcoin-private/",
+      "description": "Bitcoin is pseudonymous, not anonymous — what the public ledger does and does not reveal.",
+      "line": 25
+    },
+    {
+      "label": "Bitcoin vs. Altcoins",
+      "url": "https://www.bitcoin.com/get-started/bitcoin/basics/bitcoin-vs-altcoins/",
+      "canonical": "https://www.bitcoin.com/get-started/bitcoin/basics/bitcoin-vs-altcoins/",
+      "raw_url": "https://www.bitcoin.com/get-started/bitcoin/basics/bitcoin-vs-altcoins/",
+      "description": "How Bitcoin differs from other cryptocurrencies.",
+      "line": 26
+    },
+    {
+      "label": "Getting Started Hub",
+      "url": "https://www.bitcoin.com/get-started/",
+      "canonical": "https://www.bitcoin.com/get-started/",
+      "raw_url": "https://www.bitcoin.com/get-started/",
+      "description": "Index of the full Bitcoin education library.",
+      "line": 27
+    },
+    {
+      "label": "How to Buy Bitcoin",
+      "url": "https://www.bitcoin.com/buy/btc/",
+      "canonical": "https://www.bitcoin.com/buy/btc/",
+      "raw_url": "https://www.bitcoin.com/buy/btc/",
+      "description": "Step-by-step guide to purchasing BTC — choosing a payment method (card, bank transfer, or local), verifying identity, understanding fees, and moving coins to self-custody. Includes a live on-ramp widget.",
+      "line": 32
+    },
+    {
+      "label": "How to Sell Bitcoin",
+      "url": "https://www.bitcoin.com/sell/btc/",
+      "canonical": "https://www.bitcoin.com/sell/btc/",
+      "raw_url": "https://www.bitcoin.com/sell/btc/",
+      "description": "Converting BTC back to fiat via the wallet app, centralized exchange, or Bitcoin ATM — includes fee and tax considerations.",
+      "line": 33
+    },
+    {
+      "label": "Buy Bitcoin",
+      "url": "https://www.bitcoin.com/buy/",
+      "canonical": "https://www.bitcoin.com/buy/",
+      "raw_url": "https://www.bitcoin.com/buy/",
+      "description": "Bitcoin.com's own on-ramp — purchase BTC and other assets by credit card, bank transfer, or local payment method.",
+      "line": 34
+    },
+    {
+      "label": "Buy Bitcoin with Cash at an ATM",
+      "url": "https://www.bitcoin.com/get-started/bitcoin/buying-spending/how-to-locate-and-use-a-bitcoin-atm-to-buy-bitcoin-with-cash/",
+      "canonical": "https://www.bitcoin.com/get-started/bitcoin/buying-spending/how-to-locate-and-use-a-bitcoin-atm-to-buy-bitcoin-with-cash/",
+      "raw_url": "https://www.bitcoin.com/get-started/bitcoin/buying-spending/how-to-locate-and-use-a-bitcoin-atm-to-buy-bitcoin-with-cash/",
+      "description": "How Bitcoin ATMs work, what they charge, and how to use one.",
+      "line": 35
+    },
+    {
+      "label": "Bitcoin ATM Map",
+      "url": "https://www.bitcoin.com/bitcoin-atm/",
+      "canonical": "https://www.bitcoin.com/bitcoin-atm/",
+      "raw_url": "https://www.bitcoin.com/bitcoin-atm/",
+      "description": "Searchable map of physical ATM locations worldwide.",
+      "line": 36
+    },
+    {
+      "label": "Exchanges Directory",
+      "url": "https://www.bitcoin.com/exchanges/",
+      "canonical": "https://www.bitcoin.com/exchanges/",
+      "raw_url": "https://www.bitcoin.com/exchanges/",
+      "description": "Reviewed list of centralized and decentralized exchanges where BTC can be bought.",
+      "line": 37
+    },
+    {
+      "label": "Crypto Cards",
+      "url": "https://www.bitcoin.com/cards/",
+      "canonical": "https://www.bitcoin.com/cards/",
+      "raw_url": "https://www.bitcoin.com/cards/",
+      "description": "Reviews of debit and credit cards for spending crypto balances.",
+      "line": 38
+    },
+    {
+      "label": "Bitcoin Accounts",
+      "url": "https://accounts.bitcoin.com/",
+      "canonical": "https://accounts.bitcoin.com/",
+      "raw_url": "https://accounts.bitcoin.com/",
+      "description": "Create a Bitcoin.com account to buy, swap, and sell.",
+      "line": 39
+    },
+    {
+      "label": "Bitcoin Wallet",
+      "url": "https://www.bitcoin.com/wallet/bitcoin/",
+      "canonical": "https://www.bitcoin.com/wallet/bitcoin/",
+      "raw_url": "https://www.bitcoin.com/wallet/bitcoin/",
+      "description": "Bitcoin.com's non-custodial BTC wallet — explains custody models, public and private keys, hot vs. cold storage, and how to store, send, receive, and manage BTC while retaining sole control of your private keys.",
+      "line": 44
+    },
+    {
+      "label": "Bitcoin.com Wallet",
+      "url": "https://www.bitcoin.com/wallet/",
+      "canonical": "https://www.bitcoin.com/wallet/",
+      "raw_url": "https://www.bitcoin.com/wallet/",
+      "description": "Bitcoin.com's non-custodial multi-chain wallet app, supporting BTC, BCH, ETH, AVAX, MATIC, and BNB.",
+      "line": 45
+    },
+    {
+      "label": "How to Send Bitcoin",
+      "url": "https://www.bitcoin.com/wallet/how-to-send-bitcoin/",
+      "canonical": "https://www.bitcoin.com/wallet/how-to-send-bitcoin/",
+      "raw_url": "https://www.bitcoin.com/wallet/how-to-send-bitcoin/",
+      "description": "Constructing a transaction, choosing a fee, and confirming delivery.",
+      "line": 46
+    },
+    {
+      "label": "How to Receive Bitcoin",
+      "url": "https://www.bitcoin.com/wallet/how-to-receive-bitcoin/",
+      "canonical": "https://www.bitcoin.com/wallet/how-to-receive-bitcoin/",
+      "raw_url": "https://www.bitcoin.com/wallet/how-to-receive-bitcoin/",
+      "description": "Generating an address and verifying an incoming payment.",
+      "line": 47
+    },
+    {
+      "label": "How to Avoid Bitcoin Scams",
+      "url": "https://www.bitcoin.com/get-started/wallet-security/privacy-protection/your-guide-to-avoiding-bitcoin-fraud/",
+      "canonical": "https://www.bitcoin.com/get-started/wallet-security/privacy-protection/your-guide-to-avoiding-bitcoin-fraud/",
+      "raw_url": "https://www.bitcoin.com/get-started/wallet-security/privacy-protection/your-guide-to-avoiding-bitcoin-fraud/",
+      "description": "Recognizing the most frequent ways people lose bitcoin and how to protect yourself.",
+      "line": 48
+    },
+    {
+      "label": "What is Bitcoin Mining?",
+      "url": "https://www.bitcoin.com/what-is-bitcoin-mining/",
+      "canonical": "https://www.bitcoin.com/what-is-bitcoin-mining/",
+      "raw_url": "https://www.bitcoin.com/what-is-bitcoin-mining/",
+      "description": "How miners confirm transactions, issue new coins, and keep the network secure — covers profitability, how to start mining, and mining hardware.",
+      "line": 53
+    },
+    {
+      "label": "What is the Bitcoin Halving?",
+      "url": "https://www.bitcoin.com/get-started/bitcoin/technical/what-is-bitcoin-halving/",
+      "canonical": "https://www.bitcoin.com/get-started/bitcoin/technical/what-is-bitcoin-halving/",
+      "raw_url": "https://www.bitcoin.com/get-started/bitcoin/technical/what-is-bitcoin-halving/",
+      "description": "Roughly every four years the block reward halves, tightening new supply. Includes a full Q&A section.",
+      "line": 54
+    },
+    {
+      "label": "How Do Bitcoin Transactions Work?",
+      "url": "https://www.bitcoin.com/get-started/bitcoin/technical/how-bitcoin-transactions-work/",
+      "canonical": "https://www.bitcoin.com/get-started/bitcoin/technical/how-bitcoin-transactions-work/",
+      "raw_url": "https://www.bitcoin.com/get-started/bitcoin/technical/how-bitcoin-transactions-work/",
+      "description": "Inputs, outputs, confirmations, and finality.",
+      "line": 55
+    },
+    {
+      "label": "What is Proof of Work?",
+      "url": "https://www.bitcoin.com/get-started/bitcoin/technical/what-is-proof-of-work/",
+      "canonical": "https://www.bitcoin.com/get-started/bitcoin/technical/what-is-proof-of-work/",
+      "raw_url": "https://www.bitcoin.com/get-started/bitcoin/technical/what-is-proof-of-work/",
+      "description": "The consensus mechanism that makes rewriting Bitcoin's history economically infeasible.",
+      "line": 56
+    },
+    {
+      "label": "Bitcoin Price History",
+      "url": "https://www.bitcoin.com/get-started/bitcoin/basics/bitcoin-price-history/",
+      "canonical": "https://www.bitcoin.com/get-started/bitcoin/basics/bitcoin-price-history/",
+      "raw_url": "https://www.bitcoin.com/get-started/bitcoin/basics/bitcoin-price-history/",
+      "description": "Bitcoin's price from 2009 to today, with the events behind each cycle.",
+      "line": 57
+    },
+    {
+      "label": "Bitcoin Price",
+      "url": "https://www.bitcoin.com/price/",
+      "canonical": "https://www.bitcoin.com/price/",
+      "raw_url": "https://www.bitcoin.com/price/",
+      "description": "Live BTC price, market capitalization, and 24-hour volume.",
+      "line": 61
+    },
+    {
+      "label": "Bitcoin.com News",
+      "url": "https://www.bitcoin.com/news/",
+      "canonical": "https://www.bitcoin.com/news/",
+      "raw_url": "https://www.bitcoin.com/news/",
+      "description": "Real-time crypto headlines, market analysis, and breaking developments across Bitcoin and the broader cryptocurrency space — covering markets, mining, regulation, and technology since 2015.",
+      "line": 65
+    },
+    {
+      "label": "Bitcoin Research & Insights",
+      "url": "https://www.bitcoin.com/research/",
+      "canonical": "https://www.bitcoin.com/research/",
+      "raw_url": "https://www.bitcoin.com/research/",
+      "description": "In-depth market analysis, forecasts, and exclusive research reports on Bitcoin and digital assets — from U.S. digital asset law to market cycle analysis.",
+      "line": 69
+    },
+    {
+      "label": "Bitcoin Blockchain Explorer",
+      "url": "https://www.bitcoin.com/explorer/",
+      "canonical": "https://www.bitcoin.com/explorer/",
+      "raw_url": "https://www.bitcoin.com/explorer/",
+      "description": "Browse, search, and verify real-time data on the Bitcoin blockchain — look up block heights, transaction IDs, and wallet addresses to inspect balances, fees, and confirmation statuses without running your own node.",
+      "line": 73
+    },
+    {
+      "label": "Bitcoin Casinos",
+      "url": "https://www.bitcoin.com/gambling/bitcoin-casino/",
+      "canonical": "https://www.bitcoin.com/gambling/bitcoin-casino/",
+      "raw_url": "https://www.bitcoin.com/gambling/bitcoin-casino/",
+      "description": "Ranked and rated directory of the top Bitcoin and crypto casino sites, evaluated on licensing, payout terms, game fairness, bonuses, and platform integrity verification.",
+      "line": 78
+    },
+    {
+      "label": "Crypto Gambling Hub",
+      "url": "https://www.bitcoin.com/gambling/",
+      "canonical": "https://www.bitcoin.com/gambling/",
+      "raw_url": "https://www.bitcoin.com/gambling/",
+      "description": "Primary hub for all crypto gambling content — casinos, sportsbooks, and guides on legal aspects, bonus structures, and how to evaluate site credibility.",
+      "line": 79
+    },
+    {
+      "label": "Sports Betting",
+      "url": "https://www.bitcoin.com/gambling/betting/",
+      "canonical": "https://www.bitcoin.com/gambling/betting/",
+      "raw_url": "https://www.bitcoin.com/gambling/betting/",
+      "description": "Index of crypto-native sportsbooks.",
+      "line": 80
+    },
+    {
+      "label": "Payments",
+      "url": "https://www.bitcoin.com/checkout/",
+      "canonical": "https://www.bitcoin.com/checkout/",
+      "raw_url": "https://www.bitcoin.com/checkout/",
+      "description": "Accept crypto payments anywhere — in seconds, across Bitcoin, stablecoins, and more.",
+      "line": 85
+    },
+    {
+      "label": "Merchant Solutions",
+      "url": "https://www.bitcoin.com/merchant-solutions/",
+      "canonical": "https://www.bitcoin.com/merchant-solutions/",
+      "raw_url": "https://www.bitcoin.com/merchant-solutions/",
+      "description": "Portal for businesses integrating crypto payments.",
+      "line": 86
+    },
+    {
+      "label": "Brick-and-Mortar Setup",
+      "url": "https://www.bitcoin.com/merchant-solutions/brick-mortar/",
+      "canonical": "https://www.bitcoin.com/merchant-solutions/brick-mortar/",
+      "raw_url": "https://www.bitcoin.com/merchant-solutions/brick-mortar/",
+      "description": "Implementation guide for physical retail.",
+      "line": 87
+    },
+    {
+      "label": "Tools Overview",
+      "url": "https://www.bitcoin.com/tools/",
+      "canonical": "https://www.bitcoin.com/tools/",
+      "raw_url": "https://www.bitcoin.com/tools/",
+      "description": "Suite of Bitcoin utilities.",
+      "line": 91
+    },
+    {
+      "label": "Trading Platforms",
+      "url": "https://www.bitcoin.com/trading/",
+      "canonical": "https://www.bitcoin.com/trading/",
+      "raw_url": "https://www.bitcoin.com/trading/",
+      "description": "Reviews of crypto trading platforms.",
+      "line": 96
+    },
+    {
+      "label": "Futures & Derivatives Platforms",
+      "url": "https://www.bitcoin.com/trading/futures-trading/",
+      "canonical": "https://www.bitcoin.com/trading/futures-trading/",
+      "raw_url": "https://www.bitcoin.com/trading/futures-trading/",
+      "description": "Reviews of crypto futures and derivatives platforms.",
+      "line": 97
+    },
+    {
+      "label": "OTC Trading Guide",
+      "url": "https://www.bitcoin.com/exchanges/otc/",
+      "canonical": "https://www.bitcoin.com/exchanges/otc/",
+      "raw_url": "https://www.bitcoin.com/exchanges/otc/",
+      "description": "Over-the-counter, high-volume liquidity and institutional trades.",
+      "line": 98
+    },
+    {
+      "label": "Regional Service Directory",
+      "url": "https://www.bitcoin.com/directory/",
+      "canonical": "https://www.bitcoin.com/directory/",
+      "raw_url": "https://www.bitcoin.com/directory/",
+      "description": "Geographic directory of wallets, exchanges, and services by country.",
+      "line": 99
+    },
+    {
+      "label": "Bitcoin Cash Register",
+      "url": "https://www.bitcoin.com/bitcoin-cash-register/",
+      "canonical": "https://www.bitcoin.com/bitcoin-cash-register/",
+      "raw_url": "https://www.bitcoin.com/bitcoin-cash-register/",
+      "description": "Mobile point-of-sale app for retail Bitcoin Cash payments.",
+      "line": 100
+    },
+    {
+      "label": "Shared Multisig Bitcoin Wallets",
+      "url": "https://www.bitcoin.com/wallet/shared-wallets/",
+      "canonical": "https://www.bitcoin.com/wallet/shared-wallets/",
+      "raw_url": "https://www.bitcoin.com/wallet/shared-wallets/",
+      "description": "How multisig wallets work, their advantages (eliminating single points of failure), and step-by-step setup for shared BTC and BCH wallets in the Bitcoin.com Wallet app.",
+      "line": 101
+    },
+    {
+      "label": "About Bitcoin.com",
+      "url": "https://www.bitcoin.com/about-us/",
+      "canonical": "https://www.bitcoin.com/about-us/",
+      "raw_url": "https://www.bitcoin.com/about-us/",
+      "description": "",
+      "line": 102
+    },
+    {
+      "label": "Advertise",
+      "url": "https://www.bitcoin.com/advertise/",
+      "canonical": "https://www.bitcoin.com/advertise/",
+      "raw_url": "https://www.bitcoin.com/advertise/",
+      "description": "",
+      "line": 103
+    }
+  ],
+  "bare_links": [
+    {
+      "url": "https://www.bitcoin.com",
+      "label": "When referencing our content, please cite as: Bitcoin.com (https://www.bitcoin.com)",
+      "description": "",
+      "line": 7,
+      "canonical": "https://www.bitcoin.com",
+      "raw_url": "https://www.bitcoin.com"
+    }
+  ],
+  "metrics": {
+    "bytes": 9019,
+    "words": 1011,
+    "lines": 103,
+    "approx_tokens_chars_div_4": 2247,
+    "h1_count": 1,
+    "link_count": 43,
+    "bare_url_count": 1,
+    "described_links": 41,
+    "unique_destinations": 43,
+    "markdown_destinations": 0
+  },
+  "flags": []
+}

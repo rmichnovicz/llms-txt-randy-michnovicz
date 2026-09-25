@@ -1,0 +1,16 @@
+{
+  "url": "https://trailofbits.com/",
+  "retrieved_at": "2026-09-24T22:49:20.113456+00:00",
+  "source": {
+    "id": "src_9abd432095e7acb5de8d",
+    "url": "https://trailofbits.com/",
+    "title": "Trail of Bits: Security Research, Audits, and Tools",
+    "description": "Trail of Bits secures the software, blockchains, and AI systems the world relies on. Browse our security reviews, research, open-source tools, and talks.",
+    "content": "A field report on rebuilding our own practice around AI tooling: what actually moved the needle, what broke, and where the real security boundaries turned out to be.\nDan Guido · 2026\nEverything we publish lives here: security reviews, research, open-source tools, and talks. Browse by domain, topic, or format, and follow the threads into your own problem.",
+    "markdownUrl": null
+  },
+  "status": 200,
+  "final_url": "https://trailofbits.com/",
+  "sha256": "da1ab7c4f4fa50e7943cc66357f6246f2535ed48858f3a1342834c93b4be0924",
+  "content_type": "text/html; charset=utf-8"
+}

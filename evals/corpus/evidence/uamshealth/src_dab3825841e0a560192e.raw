@@ -1,0 +1,1322 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head itemscope itemtype="https://schema.org/WebSite">
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+<title>UAMS Health | Arkansas's Leading Academic Medical Center</title>
+
+<!-- UAMS Analytics DataLayer v1.0.0 -->
+<script>
+window.dataLayer = window.dataLayer || [];
+window.dataLayer.push({"event":"page_view","page_type":"page"});
+</script>
+<meta name="dc.title" content="UAMS Health | Arkansas's Leading Academic Medical Center" />
+<meta name="dc.description" content="UAMS Health offers world-class care across nearly every specialty in Arkansas, from primary care to advanced treatments like cancer and neurosurgery." />
+<meta name="dc.relation" content="https://uamshealth.com/" />
+<meta name="dc.source" content="https://uamshealth.com/" />
+<meta name="dc.language" content="en_US" />
+<meta name="description" content="UAMS Health offers world-class care across nearly every specialty in Arkansas, from primary care to advanced treatments like cancer and neurosurgery." />
+<meta name="robots" content="index, follow, noodp, noarchive, nosnippet" />
+<meta name="googlebot" content="index, follow, noodp, noarchive, nosnippet, max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
+<meta name="bingbot" content="index, follow, noodp, noarchive, nosnippet, max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
+<meta name="google" content="noimageindex" />
+<link rel="canonical" href="https://uamshealth.com/" />
+<script type="application/ld+json">{
+				"@context": "https://schema.org",
+				"@type": "WebSite",
+				"url" : "https:\/\/uamshealth.com",
+				"potentialAction": {
+					"@type": "SearchAction",
+					"target": "https:\/\/uamshealth.com\/?s={search_term_string}",
+					"query-input": "required name=search_term_string"
+				}
+			}</script>
+<meta property="og:url" content="https://uamshealth.com/" />
+<meta property="og:site_name" content="UAMS Health" />
+<meta property="og:locale" content="en_US" />
+<meta property="og:type" content="website" />
+<meta property="og:title" content="UAMS Health | Arkansas&#039;s Leading Academic Medical Center" />
+<meta property="og:description" content="UAMS Health offers world-class care across nearly every specialty in Arkansas, from primary care to advanced treatments like cancer and neurosurgery." />
+<meta property="og:image" content="https://uamshealth.com/wp-content/uploads/2019/08/UAMS-campus-flowers.jpg" />
+<meta property="og:image:secure_url" content="https://uamshealth.com/wp-content/uploads/2019/08/UAMS-campus-flowers.jpg" />
+<meta property="og:image:width" content="5120" />
+<meta property="og:image:height" content="3417" />
+<meta property="og:image:alt" content="UAMS campus flowers" />
+<meta name="twitter:card" content="summary" />
+<meta name="twitter:title" content="UAMS Health | Arkansas&#039;s Leading Academic Medical Center" />
+<meta name="twitter:description" content="UAMS Health offers world-class care across nearly every specialty in Arkansas, from primary care to advanced treatments like cancer and neurosurgery." />
+<meta name="twitter:image" content="https://uamshealth.com/wp-content/uploads/2019/08/UAMS-campus-flowers-1024x683.jpg" />
+<link rel='dns-prefetch' href='//fonts.googleapis.com' />
+<link rel="alternate" type="application/rss+xml" title="UAMS Health &raquo; Feed" href="https://uamshealth.com/feed/" />
+<style id="wp-img-auto-sizes-contain-inline-css">
+img:is([sizes=auto i],[sizes^="auto," i]){contain-intrinsic-size:3000px 1500px}
+/*# sourceURL=wp-img-auto-sizes-contain-inline-css */
+</style>
+<link rel='stylesheet' id='uams-2020-css' href='https://uamshealth.com/wp-content/themes/uams-2020/style.css?ver=1.6.0' media='all' />
+<style id="wp-emoji-styles-inline-css">
+
+	img.wp-smiley, img.emoji {
+		display: inline !important;
+		border: none !important;
+		box-shadow: none !important;
+		height: 1em !important;
+		width: 1em !important;
+		margin: 0 0.07em !important;
+		vertical-align: -0.1em !important;
+		background: none !important;
+		padding: 0 !important;
+	}
+/*# sourceURL=wp-emoji-styles-inline-css */
+</style>
+<style id="wp-block-library-inline-css">
+:root{--wp-block-synced-color:#7a00df;--wp-block-synced-color--rgb:122,0,223;--wp-bound-block-color:var(--wp-block-synced-color);--wp-editor-canvas-background:#ddd;--wp-admin-theme-color:#007cba;--wp-admin-theme-color--rgb:0,124,186;--wp-admin-theme-color-darker-10:#006ba1;--wp-admin-theme-color-darker-10--rgb:0,107,160.5;--wp-admin-theme-color-darker-20:#005a87;--wp-admin-theme-color-darker-20--rgb:0,90,135;--wp-admin-border-width-focus:2px}@media (min-resolution:192dpi){:root{--wp-admin-border-width-focus:1.5px}}.wp-element-button{cursor:pointer}:root .has-very-light-gray-background-color{background-color:#eee}:root .has-very-dark-gray-background-color{background-color:#313131}:root .has-very-light-gray-color{color:#eee}:root .has-very-dark-gray-color{color:#313131}:root .has-vivid-green-cyan-to-vivid-cyan-blue-gradient-background{background:linear-gradient(135deg,#00d084,#0693e3)}:root .has-purple-crush-gradient-background{background:linear-gradient(135deg,#34e2e4,#4721fb 50%,#ab1dfe)}:root .has-hazy-dawn-gradient-background{background:linear-gradient(135deg,#faaca8,#dad0ec)}:root .has-subdued-olive-gradient-background{background:linear-gradient(135deg,#fafae1,#67a671)}:root .has-atomic-cream-gradient-background{background:linear-gradient(135deg,#fdd79a,#004a59)}:root .has-nightshade-gradient-background{background:linear-gradient(135deg,#330968,#31cdcf)}:root .has-midnight-gradient-background{background:linear-gradient(135deg,#020381,#2874fc)}:root{--wp--preset--font-size--normal:16px;--wp--preset--font-size--huge:42px}.has-regular-font-size{font-size:1em}.has-larger-font-size{font-size:2.625em}.has-normal-font-size{font-size:var(--wp--preset--font-size--normal)}.has-huge-font-size{font-size:var(--wp--preset--font-size--huge)}:root .has-text-align-center{text-align:center}:root .has-text-align-left{text-align:left}:root .has-text-align-right{text-align:right}.has-fit-text{white-space:nowrap!important}#end-resizable-editor-section{display:none}.aligncenter{clear:both}.items-justified-left{justify-content:flex-start}.items-justified-center{justify-content:center}.items-justified-right{justify-content:flex-end}.items-justified-space-between{justify-content:space-between}.screen-reader-text{word-wrap:normal!important;border:0;clip-path:inset(50%);height:1px;margin:-1px;overflow:hidden;padding:0;position:absolute;width:1px}.screen-reader-text:focus{background-color:#ddd;clip-path:none;color:#444;display:block;font-size:1em;height:auto;left:5px;line-height:normal;padding:15px 23px 14px;text-decoration:none;top:5px;width:auto;z-index:100000}html :where(.has-border-color){border-style:solid}html :where([style*=border-color]){border-style:solid}html :where([style*=border-top-color]){border-top-style:solid}html :where([style*=border-right-color]){border-right-style:solid}html :where([style*=border-bottom-color]){border-bottom-style:solid}html :where([style*=border-left-color]){border-left-style:solid}html :where([style*=border-width]){border-style:solid}html :where([style*=border-top-width]){border-top-style:solid}html :where([style*=border-right-width]){border-right-style:solid}html :where([style*=border-bottom-width]){border-bottom-style:solid}html :where([style*=border-left-width]){border-left-style:solid}html :where(img[class*=wp-image-]){height:auto;max-width:100%}:where(figure){margin:0 0 1em}html :where(.is-position-sticky){--wp-admin--admin-bar--position-offset:var(--wp-admin--admin-bar--height,0px)}@media screen and (max-width:600px){html :where(.is-position-sticky){--wp-admin--admin-bar--position-offset:0px}}
+
+/*# sourceURL=/wp-includes/css/dist/block-library/common.min.css */
+</style>
+
+<style id="global-styles-inline-css">
+:root{--wp--preset--aspect-ratio--square: 1;--wp--preset--aspect-ratio--4-3: 4/3;--wp--preset--aspect-ratio--3-4: 3/4;--wp--preset--aspect-ratio--3-2: 3/2;--wp--preset--aspect-ratio--2-3: 2/3;--wp--preset--aspect-ratio--16-9: 16/9;--wp--preset--aspect-ratio--9-16: 9/16;--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: #abb8c3;--wp--preset--color--white: #ffffff;--wp--preset--color--pale-pink: #f78da7;--wp--preset--color--vivid-red: #cf2e2e;--wp--preset--color--luminous-vivid-orange: #ff6900;--wp--preset--color--luminous-vivid-amber: #fcb900;--wp--preset--color--light-green-cyan: #7bdcb5;--wp--preset--color--vivid-green-cyan: #00d084;--wp--preset--color--pale-cyan-blue: #8ed1fc;--wp--preset--color--vivid-cyan-blue: #0693e3;--wp--preset--color--vivid-purple: #9b51e0;--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple: linear-gradient(135deg,rgb(6,147,227) 0%,rgb(155,81,224) 100%);--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan: linear-gradient(135deg,rgb(122,220,180) 0%,rgb(0,208,130) 100%);--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange: linear-gradient(135deg,rgb(252,185,0) 0%,rgb(255,105,0) 100%);--wp--preset--gradient--luminous-vivid-orange-to-vivid-red: linear-gradient(135deg,rgb(255,105,0) 0%,rgb(207,46,46) 100%);--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray: linear-gradient(135deg,rgb(238,238,238) 0%,rgb(169,184,195) 100%);--wp--preset--gradient--cool-to-warm-spectrum: linear-gradient(135deg,rgb(74,234,220) 0%,rgb(151,120,209) 20%,rgb(207,42,186) 40%,rgb(238,44,130) 60%,rgb(251,105,98) 80%,rgb(254,248,76) 100%);--wp--preset--gradient--blush-light-purple: linear-gradient(135deg,rgb(255,206,236) 0%,rgb(152,150,240) 100%);--wp--preset--gradient--blush-bordeaux: linear-gradient(135deg,rgb(254,205,165) 0%,rgb(254,45,45) 50%,rgb(107,0,62) 100%);--wp--preset--gradient--luminous-dusk: linear-gradient(135deg,rgb(255,203,112) 0%,rgb(199,81,192) 50%,rgb(65,88,208) 100%);--wp--preset--gradient--pale-ocean: linear-gradient(135deg,rgb(255,245,203) 0%,rgb(182,227,212) 50%,rgb(51,167,181) 100%);--wp--preset--gradient--electric-grass: linear-gradient(135deg,rgb(202,248,128) 0%,rgb(113,206,126) 100%);--wp--preset--gradient--midnight: linear-gradient(135deg,rgb(2,3,129) 0%,rgb(40,116,252) 100%);--wp--preset--font-size--small: 13px;--wp--preset--font-size--medium: 20px;--wp--preset--font-size--large: 36px;--wp--preset--font-size--x-large: 42px;--wp--preset--spacing--20: 0.44rem;--wp--preset--spacing--30: 0.67rem;--wp--preset--spacing--40: 1rem;--wp--preset--spacing--50: 1.5rem;--wp--preset--spacing--60: 2.25rem;--wp--preset--spacing--70: 3.38rem;--wp--preset--spacing--80: 5.06rem;--wp--preset--shadow--natural: 6px 6px 9px rgba(0, 0, 0, 0.2);--wp--preset--shadow--deep: 12px 12px 50px rgba(0, 0, 0, 0.4);--wp--preset--shadow--sharp: 6px 6px 0px rgba(0, 0, 0, 0.2);--wp--preset--shadow--outlined: 6px 6px 0px -3px rgb(255, 255, 255), 6px 6px rgb(0, 0, 0);--wp--preset--shadow--crisp: 6px 6px 0px rgb(0, 0, 0);}:root { --wp--style--global--content-size: 630px;--wp--style--global--wide-size: 1020px; }:where(body) { margin: 0; }.wp-site-blocks > .alignleft { float: left; margin-right: 2em; }.wp-site-blocks > .alignright { float: right; margin-left: 2em; }.wp-site-blocks > .aligncenter { justify-content: center; margin-left: auto; margin-right: auto; }:where(.is-layout-flex){gap: 0.5em;}:where(.is-layout-grid){gap: 0.5em;}.is-layout-flow > .alignleft{float: left;margin-inline-start: 0;margin-inline-end: 2em;}.is-layout-flow > .alignright{float: right;margin-inline-start: 2em;margin-inline-end: 0;}.is-layout-flow > .aligncenter{margin-left: auto !important;margin-right: auto !important;}.is-layout-constrained > .alignleft{float: left;margin-inline-start: 0;margin-inline-end: 2em;}.is-layout-constrained > .alignright{float: right;margin-inline-start: 2em;margin-inline-end: 0;}.is-layout-constrained > .aligncenter{margin-left: auto !important;margin-right: auto !important;}.is-layout-constrained > :where(:not(.alignleft):not(.alignright):not(.alignfull)){max-width: var(--wp--style--global--content-size);margin-left: auto !important;margin-right: auto !important;}.is-layout-constrained > .alignwide{max-width: var(--wp--style--global--wide-size);}body .is-layout-flex{display: flex;}.is-layout-flex{flex-wrap: wrap;align-items: center;}.is-layout-flex > :is(*, div){margin: 0;}body .is-layout-grid{display: grid;}.is-layout-grid > :is(*, div){margin: 0;}body{background-color: #fff;color: #212121;font-family: var(--wp--preset--font-family--system-fonts);font-size: 18px;line-height: 1.5;}a:where(:not(.wp-element-button)){color: #9d2235;}:root :where(.wp-element-button, .wp-block-button__link){background-color: #32373c;border-width: 0;color: #fff;font-family: inherit;font-size: inherit;font-style: inherit;font-weight: inherit;letter-spacing: inherit;line-height: inherit;padding-top: calc(0.667em + 2px);padding-right: calc(1.333em + 2px);padding-bottom: calc(0.667em + 2px);padding-left: calc(1.333em + 2px);text-decoration: none;text-transform: inherit;}.has-black-color{color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-color{color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-color{color: var(--wp--preset--color--white) !important;}.has-pale-pink-color{color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-color{color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-color{color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-color{color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-color{color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-color{color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-color{color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-color{color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-color{color: var(--wp--preset--color--vivid-purple) !important;}.has-black-background-color{background-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-background-color{background-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-background-color{background-color: var(--wp--preset--color--white) !important;}.has-pale-pink-background-color{background-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-background-color{background-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-background-color{background-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-background-color{background-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-background-color{background-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-background-color{background-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-background-color{background-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-background-color{background-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-background-color{background-color: var(--wp--preset--color--vivid-purple) !important;}.has-black-border-color{border-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-border-color{border-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-border-color{border-color: var(--wp--preset--color--white) !important;}.has-pale-pink-border-color{border-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-border-color{border-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-border-color{border-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-border-color{border-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-border-color{border-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-border-color{border-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-border-color{border-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-border-color{border-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-border-color{border-color: var(--wp--preset--color--vivid-purple) !important;}.has-vivid-cyan-blue-to-vivid-purple-gradient-background{background: var(--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple) !important;}.has-light-green-cyan-to-vivid-green-cyan-gradient-background{background: var(--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan) !important;}.has-luminous-vivid-amber-to-luminous-vivid-orange-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange) !important;}.has-luminous-vivid-orange-to-vivid-red-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-orange-to-vivid-red) !important;}.has-very-light-gray-to-cyan-bluish-gray-gradient-background{background: var(--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray) !important;}.has-cool-to-warm-spectrum-gradient-background{background: var(--wp--preset--gradient--cool-to-warm-spectrum) !important;}.has-blush-light-purple-gradient-background{background: var(--wp--preset--gradient--blush-light-purple) !important;}.has-blush-bordeaux-gradient-background{background: var(--wp--preset--gradient--blush-bordeaux) !important;}.has-luminous-dusk-gradient-background{background: var(--wp--preset--gradient--luminous-dusk) !important;}.has-pale-ocean-gradient-background{background: var(--wp--preset--gradient--pale-ocean) !important;}.has-electric-grass-gradient-background{background: var(--wp--preset--gradient--electric-grass) !important;}.has-midnight-gradient-background{background: var(--wp--preset--gradient--midnight) !important;}.has-small-font-size{font-size: var(--wp--preset--font-size--small) !important;}.has-medium-font-size{font-size: var(--wp--preset--font-size--medium) !important;}.has-large-font-size{font-size: var(--wp--preset--font-size--large) !important;}.has-x-large-font-size{font-size: var(--wp--preset--font-size--x-large) !important;}
+/*# sourceURL=global-styles-inline-css */
+</style>
+
+<link rel='stylesheet' id='fad-app-css-css' href='https://uamshealth.com/wp-content/plugins/UAMSWP-Find-a-Doc/assets/css/app.css?ver=2.3.0' media='all' />
+<link rel='stylesheet' id='fad-css-css' href='https://uamshealth.com/wp-content/plugins/UAMSWP-Find-a-Doc/assets/css/style.css?ver=2.3.0' media='all' />
+<link rel='stylesheet' id='logo-app-css-css' href='https://uamshealth.com/wp-content/plugins/UAMSWP-Logo-List/assets/css/app.css?ver=1.0.4' media='all' />
+<link rel='stylesheet' id='app-css-css' href='https://uamshealth.com/wp-content/themes/uams-2020/assets/css/app.css?ver=1.6.0' media='all' />
+<link rel='stylesheet' id='google-fonts-css' href='//fonts.googleapis.com/css?family=Fira+Sans:300,300i,500,500i,600,600i,800,800i&#038;display=swap&#038;ver=1.6.0' media='all' />
+<link rel='stylesheet' id='tablepress-default-css' href='https://uamshealth.com/wp-content/plugins/tablepress/css/build/default.css?ver=3.3.4' media='all' />
+<script id="jquery-core-js" src="https://uamshealth.com/wp-includes/js/jquery/jquery.min.js?ver=3.7.1"></script>
+<script id="jquery-migrate-js" src="https://uamshealth.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1"></script>
+	<!-- Google Tag Manager -->
+	<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+	new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+	j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+	'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+	})(window,document,'script','dataLayer','GTM-NGG4P7F');</script>
+	<!-- End Google Tag Manager -->
+<link rel="icon" href="https://uamshealth.com/wp-content/themes/uams-2020/images/favicon.ico" />
+        <link rel="icon" href="https://uamshealth.com/wp-content/themes/uams-2020/assets/favicon/favicon-32x32.png?v=1" sizes="32x32">
+    <link rel="icon" href="https://uamshealth.com/wp-content/themes/uams-2020/assets/favicon/favicon-96x96.png?v=1" sizes="96x96">
+    <link rel="icon" href="https://uamshealth.com/wp-content/themes/uams-2020/assets/favicon/favicon-128x128.png?v=1" sizes="128x128">
+    <link rel="icon" href="https://uamshealth.com/wp-content/themes/uams-2020/assets/favicon/favicon-167x167.png?v=1" sizes="167x167">
+    <link rel="icon" href="https://uamshealth.com/wp-content/themes/uams-2020/assets/favicon/favicon-192x192.png?v=1" sizes="192x192">
+        <link rel="apple-touch-icon" href="https://uamshealth.com/wp-content/themes/uams-2020/assets/favicon/favicon-120x120.png?v=1" sizes="120x120">
+    <link rel="apple-touch-icon" href="https://uamshealth.com/wp-content/themes/uams-2020/assets/favicon/favicon-152x152.png?v=1" sizes="152x152">
+    <link rel="apple-touch-icon" href="https://uamshealth.com/wp-content/themes/uams-2020/assets/favicon/favicon-180x180.png?v=1" sizes="180x180">
+        <meta name="msapplication-TileColor" content="#9D2235">
+    <meta name="msapplication-TileImage" content="https://uamshealth.com/wp-content/themes/uams-2020/assets/favicon/favicon-144x144.png">
+        <meta name="msapplication-config" content="https://uamshealth.com/wp-content/themes/uams-2020/assets/favicon/IEconfig.xml" />
+<style id="wp-custom-css">
+.logo-list-layout-grid .item-list .item img {
+        display:inline;
+}
+</style>
+</head>
+<body class="home wp-singular page-template page-template-templates page-template-page_landing page-template-templatespage_landing-php page page-id-1059520 wp-embed-responsive wp-theme-genesis wp-child-theme-uams-2020 header-full-width full-width-content genesis-breadcrumbs-hidden genesis-footer-widgets-hidden uamshealth main" itemscope itemtype="https://schema.org/WebPage">        <div id="site-container-outer">
+    	<!-- Google Tag Manager (noscript) -->
+	<noscript><iframe title="Google Tag Manager" src="https://www.googletagmanager.com/ns.html?id=GTM-NGG4P7F"
+	height="0" width="0" aria-hidden="true" style="display:none;visibility:hidden"></iframe></noscript>
+	<!-- End Google Tag Manager (noscript) -->
+<div class="site-container"><nav aria-label="Skip links"><ul class="genesis-skip-link"><li><a href="#genesis-nav-primary" class="screen-reader-shortcut"> Skip to primary navigation</a></li><li><a href="#genesis-content" class="screen-reader-shortcut"> Skip to main content</a></li></ul></nav><ul class="genesis-skip-link"><li><a href="#genesis-nav-primary" class="screen-reader-shortcut"> Skip to primary navigation</a></li><li><a href="#genesis-content" class="screen-reader-shortcut"> Skip to main content</a></li></ul><section id="header-search" class="closed" aria-label="Search">
+<div class="inner-container">
+<button type="button" id="toggle-search-inside" aria-controls="header-search" aria-expanded="false" title="Close Search">
+<span class="sr-only label">Toggle Search</span>
+<span class="fas fa-times fa-lg fa-fw"></span>
+</button>
+<form class="uams-search" role="search" method="get" id="searchform" action="https://uamshealth.com/" >
+    <div class="input-group">
+        <input type="search" class="form-control" id="uams-search-bar" value="" placeholder="Search..." name="s" autocomplete="off" aria-label="Enter search text">
+        <div class="input-group-append">
+            <button type="submit" id="searchsubmit" value="Search" class="btn btn-primary" title="Search"><span class="fas fa-search"></span><span class="sr-only">Search</span></button>
+        </div>
+    </div>
+    <div class="form-group text-center d-none" role="radiogroup" aria-labelledby="uams-search-picker-label">
+        <span class="sr-only" id="uams-search-picker-label">Choose which site to search.</span>
+        <div class="custom-control custom-radio custom-control-inline">
+            <input type="radio" id="search-scope-1" name="search-scope" class="custom-control-input" checked>
+            <label class="custom-control-label" for="search-scope-1">Current site</label>
+        </div>
+        <div class="custom-control custom-radio custom-control-inline">
+            <input type="radio" id="search-scope-2" name="search-scope" class="custom-control-input">
+            <label class="custom-control-label" for="search-scope-2">All of UAMS</label>
+        </div>
+    </div>
+    </form></div>
+</section>
+<header class="site-header navbar navbar-expand-sm" aria-label="Site Header" itemscope itemtype="https://schema.org/WPHeader">	<!-- /* Begin Title / Logo */  -->
+	<div class="global-title">
+
+	<a href="https://uamshealth.com" class="navbar-brand no-subbrand"><picture>
+		<source srcset="https://uamshealth.com/wp-content/themes/uams-2020/assets/svg/uams-logo_health_horizontal_dark.svg" media="(min-width: 576px)">
+		<source srcset="https://uamshealth.com/wp-content/themes/uams-2020/assets/svg/uams-logo_health_vertical_dark.svg" media="(min-width: 1px)">
+		<img src="https://uamshealth.com/wp-content/themes/uams-2020/assets/svg/uams-logo_health_horizontal_dark_386x50.png" alt="UAMS Health Logo" />
+		</picture><span class="sr-only">UAMS Health</span></a>	
+	</div>
+	<!-- /* End Title / Logo */ -->
+
+	<!-- /* Begin Right Navbar */ -->
+	<nav class="header-nav" aria-label="Resource Navigation">
+				<div class="collapse navbar-collapse" id="nav-secondary">
+			<ul class="nav">
+								<!-- Options - uamshealth -->
+				<li class="nav-item">
+					<a class="nav-link" href="https://www.uams.edu/">UAMS.edu</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="https://mychart.uamshealth.com/">MyChart</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="https://giving.uams.edu/">Giving</a>
+				</li>
+				<!-- End right nav -->
+							</ul>
+		</div>
+				<ul class="nav resource-nav" id="nav-resource">
+						<!-- uamshealth only -->
+			<li class="nav-item">
+				<a class="nav-link emergency-link" href="https://uamshealth.com/location/uams-emergency-room/" aria-label="Emergency Room"><svg class="" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="ambulance" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512" data-fa-i2svg=""><path fill="currentColor" d="M624 352h-16V243.9c0-12.7-5.1-24.9-14.1-33.9L494 110.1c-9-9-21.2-14.1-33.9-14.1H416V48c0-26.5-21.5-48-48-48H48C21.5 0 0 21.5 0 48v320c0 26.5 21.5 48 48 48h16c0 53 43 96 96 96s96-43 96-96h128c0 53 43 96 96 96s96-43 96-96h48c8.8 0 16-7.2 16-16v-32c0-8.8-7.2-16-16-16zM160 464c-26.5 0-48-21.5-48-48s21.5-48 48-48 48 21.5 48 48-21.5 48-48 48zm144-248c0 4.4-3.6 8-8 8h-56v56c0 4.4-3.6 8-8 8h-48c-4.4 0-8-3.6-8-8v-56h-56c-4.4 0-8-3.6-8-8v-48c0-4.4 3.6-8 8-8h56v-56c0-4.4 3.6-8 8-8h48c4.4 0 8 3.6 8 8v56h56c4.4 0 8 3.6 8 8v48zm176 248c-26.5 0-48-21.5-48-48s21.5-48 48-48 48 21.5 48 48-21.5 48-48 48zm80-208H416V144h44.1l99.9 99.9V256z"></path></svg><span class="sr-only">Emergency Room</span></a>
+			</li>
+						<li class="nav-item">
+				<button class="search-toggler" type="button" id="toggle-search" aria-controls="header-search" aria-expanded="false" title="Toggle Search">
+					<span class="sr-only label">Toggle Search</span>
+					<svg class="fa-search fa-fw" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="search" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" data-fa-i2svg=""><path fill="currentColor" d="M505 442.7L405.3 343c-4.5-4.5-10.6-7-17-7H372c27.6-35.3 44-79.7 44-128C416 93.1 322.9 0 208 0S0 93.1 0 208s93.1 208 208 208c48.3 0 92.7-16.4 128-44v16.3c0 6.4 2.5 12.5 7 17l99.7 99.7c9.4 9.4 24.6 9.4 33.9 0l28.3-28.3c9.4-9.4 9.4-24.6.1-34zM208 336c-70.7 0-128-57.2-128-128 0-70.7 57.2-128 128-128 70.7 0 128 57.2 128 128 0 70.7-57.2 128-128 128z"></path></svg>
+					<svg class="fa-times fa-fw" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="times" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 352 512" data-fa-i2svg=""><path fill="currentColor" d="M242.72 256l100.07-100.07c12.28-12.28 12.28-32.19 0-44.48l-22.24-22.24c-12.28-12.28-32.19-12.28-44.48 0L176 189.28 75.93 89.21c-12.28-12.28-32.19-12.28-44.48 0L9.21 111.45c-12.28 12.28-12.28 32.19 0 44.48L109.28 256 9.21 356.07c-12.28 12.28-12.28 32.19 0 44.48l22.24 22.24c12.28 12.28 32.2 12.28 44.48 0L176 322.72l100.07 100.07c12.28 12.28 32.2 12.28 44.48 0l22.24-22.24c12.28-12.28 12.28-32.19 0-44.48L242.72 256z"></path></svg>
+				</button>
+			</li>
+		</ul>
+
+		
+				<!-- // The data-target and aria-controls may need to be dynamically defined. -->
+		<button class="navbar-toggler mobile-menu-toggler" type="button" data-toggle="collapse" data-target="#genesis-nav-primary" aria-controls="genesis-nav-primary" aria-expanded="false" title="Toggle Primary navigation">
+			<span class="sr-only label">Toggle Primary Nav</span>
+			<svg class="" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="bars" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" data-fa-i2svg=""><path fill="currentColor" d="M16 132h416c8.837 0 16-7.163 16-16V76c0-8.837-7.163-16-16-16H16C7.163 60 0 67.163 0 76v40c0 8.837 7.163 16 16 16zm0 160h416c8.837 0 16-7.163 16-16v-40c0-8.837-7.163-16-16-16H16c-8.837 0-16 7.163-16 16v40c0 8.837 7.163 16 16 16zm0 160h416c8.837 0 16-7.163 16-16v-40c0-8.837-7.163-16-16-16H16c-8.837 0-16 7.163-16 16v40c0 8.837 7.163 16 16 16z"></path></svg>
+		</button>
+		
+		<style>
+			.emergency-link svg {
+				display: inline-block;
+				height: 1em;
+				overflow: visible;
+				font-size: 1.3333333333em;
+				line-height: .75em;
+				vertical-align: -.0667em;
+			}
+			.search-toggler svg {
+				display: inline-block;
+				height: 1em;
+				overflow: visible;
+				font-size: 1.3333333333em;
+				line-height: .75em;
+				vertical-align: -.0667em;
+			}
+			.mobile-menu-toggler svg {
+				display: inline-block;
+				/* font-size: inherit; */
+				height: 1em;
+				overflow: visible;
+				/* vertical-align: -.125em; */
+				font-size: 1.3333333333em;
+				line-height: .75em;
+				vertical-align: -.0667em;
+			}
+		</style>
+	
+	</nav>
+	<!-- /* End Right Navbar */ -->
+	</header><nav class="site-nav navbar navbar-expand-sm" aria-label="Primary Navigation"><div class="collapse navbar-collapse inner-container" id="genesis-nav-primary"><ul id="menu-uamshealth" class="nav navbar-nav align-self-end mr-auto"><li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-10418" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-10418 nav-item"><a title="Types of Care" href="/expertise/" class="nav-link"><span itemprop="name">Types of Care</span></a></li>
+<li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-10419" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-10419 nav-item"><a title="Locations" href="/location/" class="nav-link"><span itemprop="name">Locations</span></a></li>
+<li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-10420" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-10420 nav-item"><a title="Doctors" href="/provider/" class="nav-link"><span itemprop="name">Doctors</span></a></li>
+<li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-53055" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-53055 nav-item"><a title="Patients and Guests" href="/patients-and-guests/" class="nav-link"><span itemprop="name">Patients and Guests</span></a></li>
+<li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-909820" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-909820 nav-item"><a title="Referring Physicians" href="/referring-physicians/" class="nav-link"><span itemprop="name">Referring Physicians</span></a></li>
+<li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-931860" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-931860 nav-item"><a title="Appointments" href="https://uamshealth.com/make-an-appointment/" class="nav-link"><span itemprop="name">Appointments</span></a></li>
+<li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-1028233" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-1028233 nav-item dropdown"><a title="About Us" href="https://uamshealth.com/about-us/" class="nav-link"><span itemprop="name">About Us</span></a>
+<ul role="menu" class=" dropdown-menu" >
+	<li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-1028234" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1028234 nav-item"><a title="Awards and Recognition" href="https://uamshealth.com/about-us/awards-and-recognitions/" class="dropdown-item"><span itemprop="name">Awards and Recognition</span></a></li>
+	<li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-1050708" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1050708 nav-item"><a title="Clinical Trials" href="https://uamshealth.com/clinical-trials/" class="dropdown-item"><span itemprop="name">Clinical Trials</span></a></li>
+</ul>
+</li>
+</ul></div></nav><div class="content-sidebar-wrap row"><header class="entry-header sr-only"><h1 class="entry-title" itemprop="headline">UAMS Health</h1>
+</header><div class="col-12">    <section class="hero carousel uams-hero-block slide multiple-slides" id="carousel-hero-module-1" aria-label="Hero banner" data-ride="carousel" data-interval="15543" data-keyboard="true">
+            <ol class="carousel-indicators">
+                                <li data-target="#carousel-hero-module-1" data-slide-to="0" class="active"></li>
+                                <li data-target="#carousel-hero-module-1" data-slide-to="1" ></li>
+                                <li data-target="#carousel-hero-module-1" data-slide-to="2" ></li>
+                            </ol>
+    <div class="carousel-inner">
+        <div class="carousel-item red active" id="carousel-item-0">
+            <div class="image-container">
+                <picture>
+                                        <!-- Desktop Image, Aspect ratio 1.8685:1 -->
+                    <source srcset="https://uamshealth.com/wp-content/uploads/bis-images/1062487/silverfield-1435x768-cc.png" media="(min-width: 1921px)">
+                    <source srcset="https://uamshealth.com/wp-content/uploads/bis-images/1062487/silverfield-1076x576-cc.png" media="(min-width: 1500px)">
+                    <source srcset="https://uamshealth.com/wp-content/uploads/bis-images/1062487/silverfield-841x450-cc.png" media="(min-width: 1200px)">
+                    <source srcset="https://uamshealth.com/wp-content/uploads/bis-images/1062487/silverfield-673x360-cc.png" media="(min-width: 992px)">
+                    <!-- Tablet Image, Aspect ratio 1.4132:1 -->
+                    <source srcset="https://uamshealth.com/wp-content/uploads/bis-images/1062487/silverfield-578x409-cc.png" media="(min-width: 768px)">
+                    <!-- Mobile Image, Aspect ratio 16:9 -->
+                    <source srcset="https://uamshealth.com/wp-content/uploads/bis-images/1062487/silverfield-768x432-cc.png" media="(min-width: 576px)">
+                    <source srcset="https://uamshealth.com/wp-content/uploads/bis-images/1062487/silverfield-576x324-cc.png" media="(min-width: 1px)">
+                    <!-- Fallback -->
+                    <img src="https://uamshealth.com/wp-content/uploads/bis-images/1062487/silverfield-455x256-cc.png" alt="Head Coach Ryan Silverfield" />
+                                    </picture>
+            </div>
+            <div class="text-container">
+                <div class="inner-container">
+                    <h2>Trusted by Top Athletes, Focused on You</h2>
+                    <p>“UAMS Health is an essential part of our team.” - Ryan Silverfield, Head Coach, Arkansas Razorbacks</p>
+                                            <a class="btn btn-white" href="https://uamshealth.com/orthopaedics-and-sports-medicine/" aria-label="Trusted by Top Athletes, Focused on You" data-itemtitle="Trusted by Top Athletes, Focused on You">Explore Orthopaedic Care</a>
+                                    </div>
+            </div>
+        </div>
+                <div class="carousel-item blue" id="carousel-item-1">
+            <div class="image-container">
+                <picture>
+                                        <!-- Desktop Image, Aspect ratio 1.8685:1 -->
+                    <source srcset="https://uamshealth.com/wp-content/uploads/bis-images/1057635/CAsia-James-MD-with-patient-1435x768-cc.png" media="(min-width: 1921px)">
+                    <source srcset="https://uamshealth.com/wp-content/uploads/bis-images/1057635/CAsia-James-MD-with-patient-1076x576-cc.png" media="(min-width: 1500px)">
+                    <source srcset="https://uamshealth.com/wp-content/uploads/bis-images/1057635/CAsia-James-MD-with-patient-841x450-cc.png" media="(min-width: 1200px)">
+                    <source srcset="https://uamshealth.com/wp-content/uploads/bis-images/1057635/CAsia-James-MD-with-patient-673x360-cc.png" media="(min-width: 992px)">
+                    <!-- Tablet Image, Aspect ratio 1.4132:1 -->
+                    <source srcset="https://uamshealth.com/wp-content/uploads/bis-images/1057635/CAsia-James-MD-with-patient-578x409-cc.png" media="(min-width: 768px)">
+                    <!-- Mobile Image, Aspect ratio 16:9 -->
+                    <source srcset="https://uamshealth.com/wp-content/uploads/bis-images/1057635/CAsia-James-MD-with-patient-768x432-cc.png" media="(min-width: 576px)">
+                    <source srcset="https://uamshealth.com/wp-content/uploads/bis-images/1057635/CAsia-James-MD-with-patient-576x324-cc.png" media="(min-width: 1px)">
+                    <!-- Fallback -->
+                    <img src="https://uamshealth.com/wp-content/uploads/bis-images/1057635/CAsia-James-MD-with-patient-455x256-cc.png" alt="Dr. C'Asia James with a patient in El Dorado" />
+                                    </picture>
+            </div>
+            <div class="text-container">
+                <div class="inner-container">
+                    <h2>Rural Health Hub</h2>
+                    <p>The rural health hub brings together UAMS programs that strengthen rural health and well-being.</p>
+                                            <a class="btn btn-white" href="https://regionalcampuses.uams.edu/rural-health/" aria-label="Rural Health Hub" data-itemtitle="Rural Health Hub">Explore the Rural Health Hub</a>
+                                    </div>
+            </div>
+        </div>
+                <div class="carousel-item green" id="carousel-item-2">
+            <div class="image-container">
+                <picture>
+                                        <!-- Desktop Image, Aspect ratio 1.8685:1 -->
+                    <source srcset="https://uamshealth.com/wp-content/uploads/bis-images/1059666/symptom-checker-1435x768-cc.png" media="(min-width: 1921px)">
+                    <source srcset="https://uamshealth.com/wp-content/uploads/bis-images/1059666/symptom-checker-1076x576-cc.png" media="(min-width: 1500px)">
+                    <source srcset="https://uamshealth.com/wp-content/uploads/bis-images/1059666/symptom-checker-841x450-cc.png" media="(min-width: 1200px)">
+                    <source srcset="https://uamshealth.com/wp-content/uploads/bis-images/1059666/symptom-checker-673x360-cc.png" media="(min-width: 992px)">
+                    <!-- Tablet Image, Aspect ratio 1.4132:1 -->
+                    <source srcset="https://uamshealth.com/wp-content/uploads/bis-images/1059666/symptom-checker-578x409-cc.png" media="(min-width: 768px)">
+                    <!-- Mobile Image, Aspect ratio 16:9 -->
+                    <source srcset="https://uamshealth.com/wp-content/uploads/bis-images/1059666/symptom-checker-768x432-cc.png" media="(min-width: 576px)">
+                    <source srcset="https://uamshealth.com/wp-content/uploads/bis-images/1059666/symptom-checker-576x324-cc.png" media="(min-width: 1px)">
+                    <!-- Fallback -->
+                    <img src="https://uamshealth.com/wp-content/uploads/bis-images/1059666/symptom-checker-455x256-cc.png" alt="Man in a gray sweater looking down at his smartphone outdoors" />
+                                    </picture>
+            </div>
+            <div class="text-container">
+                <div class="inner-container">
+                    <h2>MyChart Symptom Checker</h2>
+                    <p>A quick way for patients to answer basic questions about their symptoms and be directed to the most appropriate urgent care.</p>
+                                            <a class="btn btn-white" href="https://mychart.uamshealth.com/mychart/app/self-triage?_gl=1*12sslee*_gcl_au*NDYyODg4ODcyLjE3NzA2NDc5NjQ." aria-label="MyChart Symptom Checker" data-itemtitle="MyChart Symptom Checker">Access the Symptom Checker</a>
+                                    </div>
+            </div>
+        </div>
+                    </div><!-- .carousel-inner -->
+            <a class="carousel-control-prev" href="#carousel-hero-module-1" role="button" data-slide="prev">
+                <span class="fas fa-angle-left"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carousel-hero-module-1" role="button" data-slide="next">
+                <span class="fas fa-angle-right"></span>
+                <span class="sr-only">Next</span>
+            </a>
+          </section>
+</div><main class="content col-sm-12" id="genesis-content"><article class="post-1059520 page type-page status-publish has-post-thumbnail entry" aria-label="UAMS Health" itemscope itemtype="https://schema.org/CreativeWork"><div class="entry-content clearfix" itemprop="text"><section class="uams-module action-bar alignfull count-4 bg-auto" id="action-bar-block_c946d01b5c5fef150f4335471faf7d2b" aria-label="Important Links">
+    <h2 class="sr-only">Important Links</h2>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-12 col-md-3 item">
+                <div class="inner-container">
+                    <div class="text-container">
+                        <h3 class="h5" data-moduletitle="Important Links">Appointments</h3>
+                        <p>Get an appointment with the experts.</p>
+                    </div>
+                    <a class="btn btn-primary" href="https://uamshealth.com/patients-and-guests/appointments/" aria-label="Appointments" data-moduletitle="Important Links" data-itemtitle="Appointments">Make an Appointment</a>
+                </div>
+            </div>
+                <div class="col-12 col-md-3 item">
+                <div class="inner-container">
+                    <div class="text-container">
+                        <h3 class="h5" data-moduletitle="Important Links">Our Doctors</h3>
+                        <p>Search by name, condition, location and more.</p>
+                    </div>
+                    <a class="btn btn-primary" href="https://uamshealth.com/provider/" aria-label="Our Doctors" data-moduletitle="Important Links" data-itemtitle="Our Doctors">Find A Doctor</a>
+                </div>
+            </div>
+                <div class="col-12 col-md-3 item">
+                <div class="inner-container">
+                    <div class="text-container">
+                        <h3 class="h5" data-moduletitle="Important Links">Billing &#038; Cost Information</h3>
+                        <p>Manage your account, get cost estimates and price transparency.</p>
+                    </div>
+                    <a class="btn btn-primary" href="https://uamshealth.com/patients-and-guests/patient-support/billing/" aria-label="Billing &#038; Cost Information" data-moduletitle="Important Links" data-itemtitle="Billing &#038; Cost Information">Go to Billing and Costs</a>
+                </div>
+            </div>
+                <div class="col-12 col-md-3 item">
+                <div class="inner-container">
+                    <div class="text-container">
+                        <h3 class="h5" data-moduletitle="Important Links">UAMS Nursing</h3>
+                        <p>A rewarding career with endless opportunities.</p>
+                    </div>
+                    <a class="btn btn-primary" href="https://uamshealth.com/nurses/" aria-label="UAMS Nursing" data-moduletitle="Important Links" data-itemtitle="UAMS Nursing">Explore UAMS Nursing Careers</a>
+                </div>
+            </div>
+            </div>
+    </div>
+</section>
+
+
+<section class="uams-module cta-bar  alignfull cta-bar-centered bg-blue bg-image extra-padding cta-bar-lg" id="cta-bar-module-block_5e27762d1de4324289487108d0521f86" aria-label="For a Better State of Health.">
+    <style>
+        #cta-bar-module-block_5e27762d1de4324289487108d0521f86:before {
+            background-image: url("https://uamshealth.com/wp-content/uploads/bis-images/1026747/uams-med-center-flowers-576x288-cc.jpg");
+        }
+
+        /* XS Breakpoint */
+        @media (min-width: 576px) {
+            #cta-bar-module-block_5e27762d1de4324289487108d0521f86:before {
+                background-image: url("https://uamshealth.com/wp-content/uploads/bis-images/1026747/uams-med-center-flowers-768x384-cc.jpg");
+            }
+        }
+
+        /* SM Breakpoint */
+        @media (min-width: 768px) {
+            #cta-bar-module-block_5e27762d1de4324289487108d0521f86:before {
+                background-image: url("https://uamshealth.com/wp-content/uploads/bis-images/1026747/uams-med-center-flowers-992x496-cc.jpg");
+            }
+        }
+
+        /* MD Breakpoint */
+        @media (min-width: 992px) {
+            #cta-bar-module-block_5e27762d1de4324289487108d0521f86:before {
+                background-image: url("https://uamshealth.com/wp-content/uploads/bis-images/1026747/uams-med-center-flowers-1200x600-cc.jpg");
+            }
+        }
+
+        /* LG Breakpoint */
+        @media (min-width: 1200px) {
+            #cta-bar-module-block_5e27762d1de4324289487108d0521f86:before {
+                background-image: url("https://uamshealth.com/wp-content/uploads/bis-images/1026747/uams-med-center-flowers-1500x750-cc.jpg");
+            }
+        }
+
+        /* XL Breakpoint */
+        @media (min-width: 1500px) {
+            #cta-bar-module-block_5e27762d1de4324289487108d0521f86:before {
+                background-image: url("https://uamshealth.com/wp-content/uploads/bis-images/1026747/uams-med-center-flowers-1921x961-cc.jpg");
+            }
+        }
+
+        /* XXL Breakpoint */
+        @media (min-width: 1921px) {
+            #cta-bar-module-block_5e27762d1de4324289487108d0521f86:before {
+                background-image: url("https://uamshealth.com/wp-content/uploads/bis-images/1026747/uams-med-center-flowers-2560x1280-cc.jpg");
+            }
+        }
+    </style>
+        <div class="container-fluid">
+        <div class="row">
+            <div class="col-12">
+                <div class="inner-container">
+                    <div class="cta-heading">
+                        <h2>For a Better State of Health.</h2>
+                    </div>
+                    <div class="cta-body">
+                        <div class="text-container">
+                            <p>Start living your happiest, healthiest life with a visit to UAMS Health. With clinics covering nearly every medical need, we provide world-class treatment in a comforting, patient- and family-centered environment.</p>
+                        </div>
+                                                <div class="btn-container">
+                            <a href="tel:(501) 686-8000" data-moduletitle="For a Better State of Health.">Call UAMS Health <span class="no-break">(501) 686-8000</span></a>
+                        </div>                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<section class="uams-module no-padding side-by-side uams-side-by-side-block alignfull image-on-left image-background-center bg-auto" id="side-by-side-image-side-block_90ab3d4f73f8e54d65e1290c42c9feaa" aria-label="Leading the Way in Cancer Care">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-12 col-md-6 image-container" aria-label="UAMS Winthrop P. Rockefeller Cancer Institute" role="img">
+
+                                <style>
+                    #side-by-side-image-side-block_90ab3d4f73f8e54d65e1290c42c9feaa .image-container {
+                        background-image: url("https://uamshealth.com/wp-content/uploads/bis-images/1059691/cancer-institute-576x324-cc.jpg");
+                    }
+
+                    /* XS Breakpoint */
+                    @media (min-width: 576px) {
+                        #side-by-side-image-side-block_90ab3d4f73f8e54d65e1290c42c9feaa .image-container {
+                            background-image: url("https://uamshealth.com/wp-content/uploads/bis-images/1059691/cancer-institute-768x432-cc.jpg");
+                        }
+                    }
+
+                    /* SM Breakpoint */
+                    @media (min-width: 768px) {
+                        #side-by-side-image-side-block_90ab3d4f73f8e54d65e1290c42c9feaa .image-container {
+                            background-image: url("https://uamshealth.com/wp-content/uploads/bis-images/1059691/cancer-institute-992x558-cc.jpg");
+                        }
+                    }
+
+                    /* MD Breakpoint */
+                    @media (min-width: 992px) {
+                        #side-by-side-image-side-block_90ab3d4f73f8e54d65e1290c42c9feaa .image-container {
+                            background-image: url("https://uamshealth.com/wp-content/uploads/bis-images/1059691/cancer-institute-1200x675-cc.jpg");
+                        }
+                    }
+
+                    /* LG Breakpoint */
+                    @media (min-width: 1200px) {
+                        #side-by-side-image-side-block_90ab3d4f73f8e54d65e1290c42c9feaa .image-container {
+                            background-image: url("https://uamshealth.com/wp-content/uploads/bis-images/1059691/cancer-institute-1500x844-cc.jpg");
+                        }
+                    }
+
+                    /* XL Breakpoint */
+                    @media (min-width: 1500px) {
+                        #side-by-side-image-side-block_90ab3d4f73f8e54d65e1290c42c9feaa .image-container {
+                            background-image: url("https://uamshealth.com/wp-content/uploads/bis-images/1059691/cancer-institute-1921x1081-cc.jpg");
+                        }
+                    }
+
+                    /* XXL Breakpoint */
+                    @media (min-width: 1921px) {
+                        #side-by-side-image-side-block_90ab3d4f73f8e54d65e1290c42c9feaa .image-container {
+                            background-image: url("https://uamshealth.com/wp-content/uploads/bis-images/1059691/cancer-institute-2560x1440-cc.jpg");
+                        }
+                    }
+                </style>
+                                <div class="image-inner-container">
+                </div>
+            </div>
+            <div class="col-12 col-md-6 text-container">
+                <div class="text-inner-container">
+                    <h2 class="h3">Leading the Way in Cancer Care</h2>
+                    <p>The UAMS Winthrop P. Rockefeller Cancer Institute is Arkansas&#8217; only academic cancer treatment and research facility. From diagnosis to survivorship, our specialists deliver advanced, compassionate care backed by nationally recognized research.</p>                    <a class="btn btn-primary" href="https://uamshealth.com/comprehensive-cancer-care/" aria-label="Leading the Way in Cancer Care" data-moduletitle="Leading the Way in Cancer Care">Explore Cancer Care</a>                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<section class="uams-module no-padding side-by-side uams-side-by-side-block alignfull image-on-right image-background-center bg-auto" id="side-by-side-image-side-block_59816e4b670635886d9db864c7b651e3" aria-label="UAMS Orthopaedics &#038; Sports Medicine">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-12 col-md-6 image-container" aria-label="Doctor pointing with a pen at a foot and ankle bone model with an orthopaedic hardware plate, while explaining it to a patient." role="img">
+
+                                <style>
+                    #side-by-side-image-side-block_59816e4b670635886d9db864c7b651e3 .image-container {
+                        background-image: url("https://uamshealth.com/wp-content/uploads/bis-images/1059713/uams-ortho-576x324-cc.png");
+                    }
+
+                    /* XS Breakpoint */
+                    @media (min-width: 576px) {
+                        #side-by-side-image-side-block_59816e4b670635886d9db864c7b651e3 .image-container {
+                            background-image: url("https://uamshealth.com/wp-content/uploads/bis-images/1059713/uams-ortho-768x432-cc.png");
+                        }
+                    }
+
+                    /* SM Breakpoint */
+                    @media (min-width: 768px) {
+                        #side-by-side-image-side-block_59816e4b670635886d9db864c7b651e3 .image-container {
+                            background-image: url("https://uamshealth.com/wp-content/uploads/bis-images/1059713/uams-ortho-992x558-cc.png");
+                        }
+                    }
+
+                    /* MD Breakpoint */
+                    @media (min-width: 992px) {
+                        #side-by-side-image-side-block_59816e4b670635886d9db864c7b651e3 .image-container {
+                            background-image: url("https://uamshealth.com/wp-content/uploads/bis-images/1059713/uams-ortho-1200x675-cc.png");
+                        }
+                    }
+
+                    /* LG Breakpoint */
+                    @media (min-width: 1200px) {
+                        #side-by-side-image-side-block_59816e4b670635886d9db864c7b651e3 .image-container {
+                            background-image: url("https://uamshealth.com/wp-content/uploads/bis-images/1059713/uams-ortho-1500x844-cc.png");
+                        }
+                    }
+
+                    /* XL Breakpoint */
+                    @media (min-width: 1500px) {
+                        #side-by-side-image-side-block_59816e4b670635886d9db864c7b651e3 .image-container {
+                            background-image: url("https://uamshealth.com/wp-content/uploads/bis-images/1059713/uams-ortho-1921x1081-cc.png");
+                        }
+                    }
+
+                    /* XXL Breakpoint */
+                    @media (min-width: 1921px) {
+                        #side-by-side-image-side-block_59816e4b670635886d9db864c7b651e3 .image-container {
+                            background-image: url("https://uamshealth.com/wp-content/uploads/bis-images/1059713/uams-ortho-2560x1440-cc.png");
+                        }
+                    }
+                </style>
+                                <div class="image-inner-container">
+                </div>
+            </div>
+            <div class="col-12 col-md-6 text-container">
+                <div class="text-inner-container">
+                    <h2 class="h3">UAMS Orthopaedics &#038; Sports Medicine</h2>
+                    <p>Get back to your active lifestyle with top-rated orthopaedic care from UAMS Health. Our board-certified surgeons offer both surgical and non-surgical treatment options at multiple locations across Arkansas.</p>                    <a class="btn btn-primary" href="https://uamshealth.com/orthopaedics-and-sports-medicine/" aria-label="UAMS Orthopaedics &#038; Sports Medicine" data-moduletitle="UAMS Orthopaedics &#038; Sports Medicine">Schedule an Appointment</a>                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+			<!-- UAMSWP Output Side-by-Side Image & Text -->
+						<script>var json_data = [{"ID":173254,"date":"2026-09-04T08:14:51","link":"https:\/\/news.uams.edu\/2026\/09\/04\/myeloma-patient-family-credit-uams-for-his-improved-outlook\/","modified":"2026-09-04T08:14:51","title":"Myeloma Patient, Family Credit UAMS for His Improved Outlook","content":"<p>Chris Seab has come a long way since his myeloma diagnosis, and the future looks better every day.<\/p>\n<p>On a recent visit with his wife Liz to the Winthrop P. Rockefeller Cancer Institute\u2019s Myeloma Center at the University of Arkansas for Medical Sciences (UAMS), the Seabs, who live in Billings, Montana, talked about Seab\u2019s progress.<\/p>\n<p>\u201cOur visit here last summer was very positive, and this recent trip was even better,\u201d he said. \u201cMy numbers have continued to drop.\u201d<\/p>\n<p>An injury to his back in March 2024 while skiing turned out to be the first sign of a problem.<\/p>\n<p>\u201cIt felt like a bad muscle pull,\u201d Chris Seab said. \u201cI went to a chiropractor, but it didn\u2019t help. Acupuncture was a little better, but not much.\u201d<\/p>\n<p>The issue escalated on a business trip.<\/p>\n<p>\u201cOne day I was walking to my hotel, and it felt like if I took one more step I\u2019d fall over \u2014 the pain was so intense,\u201d he said. \u201cI spent the next couple of days in bed before I was able to drive home.\u201d<\/p>\n<p>\u201cMemorial Day weekend I was working at home in our kitchen and my pen fell to the floor,\u201d he continued. \u201cI went to pick it up, fell out of the chair, and I couldn\u2019t get back up. I called my wife, and she and my son managed to get me to the emergency room.\u201d<\/p>\n<p>Tests revealed he had shattered the L5 vertebrae in his lower back, and he likely had cancer. Additionally, Seab had lesions all over his body, including the legs, pelvis, shoulder, and spine.<\/p>\n<p>\u201cAn orthopaedic surgeon thought they may need to put a rod in my left leg,\u201d he said.<\/p>\n<p>Liz Seab started calling around for recommendations and &#8220;Go to UAMS,&#8221; was the most common response.<\/p>\n<p>Chris Seab\u2019s first appointment was in June 2024, when he was assigned to Myeloma Center physician Maurizio Zangari, M.D.<\/p>\n<p>More testing at UAMS revealed the seriousness of his condition.<\/p>\n<div id=\"attachment_173258\" class=\"wp-caption alignright\" style=\"width: 210px\"><a href=\"https:\/\/news.uams.edu\/wp-content\/uploads\/2026\/09\/UAM_8257-scaled.jpg\"><img loading=\"lazy\" decoding=\"async\" class=\"wp-image-173258 size-medium\" src=\"https:\/\/news.uams.edu\/wp-content\/uploads\/2026\/09\/UAM_8257-200x300.jpg\" alt=\"Rob Guba, Chris Seab, Burke Moran\" width=\"200\" height=\"300\" srcset=\"https:\/\/news.uams.edu\/wp-content\/uploads\/2026\/09\/UAM_8257-200x300.jpg 200w, https:\/\/news.uams.edu\/wp-content\/uploads\/2026\/09\/UAM_8257-684x1024.jpg 684w, https:\/\/news.uams.edu\/wp-content\/uploads\/2026\/09\/UAM_8257-768x1150.jpg 768w, https:\/\/news.uams.edu\/wp-content\/uploads\/2026\/09\/UAM_8257-1025x1536.jpg 1025w, https:\/\/news.uams.edu\/wp-content\/uploads\/2026\/09\/UAM_8257-1367x2048.jpg 1367w, https:\/\/news.uams.edu\/wp-content\/uploads\/2026\/09\/UAM_8257-375x562.jpg 375w, https:\/\/news.uams.edu\/wp-content\/uploads\/2026\/09\/UAM_8257-750x1124.jpg 750w, https:\/\/news.uams.edu\/wp-content\/uploads\/2026\/09\/UAM_8257-1140x1708.jpg 1140w, https:\/\/news.uams.edu\/wp-content\/uploads\/2026\/09\/UAM_8257-scaled.jpg 1709w\" sizes=\"auto, (max-width: 200px) 100vw, 200px\" \/><\/a><p class=\"wp-caption-text\">Burke Moran (left) and Rob Guba (right), longtime friends of Chris Seab, led a cross-country bike ride in January and February 2025 that raised more than $30,000 for myeloma research at UAMS.<\/p><\/div>\n<p>\u201cHe had about 90% cancer in his bone marrow,\u201d Liz Seab said.<\/p>\n<p>Stem cell transplant was the prescribed treatment, with the first harvest of cells occurring in July 2024.<\/p>\n<p>\u201cI remember watching the Fourth of July fireworks out of my hospital room window,\u201d Chris Seab said.<\/p>\n<p>The first stem cell transplant took place in October 2024, followed by a second in February 2025. The second transplant was done on an outpatient basis.<\/p>\n<p>\u201cI enjoyed that a lot more,\u201d he said. \u201cI had a lot more freedom not being stuck in a hospital bed.\u201d<\/p>\n<p>While Seab was at UAMS for treatment last year, two of his childhood friends established the nonprofit Wheeling for Healing and embarked on a cross-county e-bike ride to raise money in support of him and others affected by multiple myeloma. Their effort resulted in $30,000 for myeloma research at UAMS.<\/p>\n<p>Liz Seab said the Stem Cell Transplant Unit provided excellent care for her husband.<\/p>\n<p>\u201cThey explained everything as we went along. We felt comfortable that anything that came up could be managed,\u201d she said.<\/p>\n<p>Following the transplants, Zangari prescribed a regimen beginning in April 2025 that included cancer drugs carfilzomib and isutaximab. This is when things began to steadily improve.<\/p>\n<p>\u201cThere was no leveling out with my results, the numbers gradually came down,\u201d Chris Saeb said.<\/p>\n<p>\u201cHe\u2019s doing very well,\u201d said Zangari said. \u201cWe\u2019re in a maintenance phase now.\u201d<\/p>\n<p>\u201cHis blood work looks really good,\u201d Liz Seab added. \u201cHe now goes for local treatment once a month.\u201d<\/p>\n<p>She also noted an unexpected result.<\/p>\n<p>\u201cChris\u2019 lesions are resolving themselves,\u201d she said. \u201cWe didn\u2019t realize that would be possible.\u201d<\/p>\n<p>More than two years after the initial diagnosis, the path looks clearer.<\/p>\n<p>\u201cEverything is positive,\u201d Chris Seab said.<\/p>\n<p>\u201cOne of the greatest things we did was making the choice to come here,\u201d Liz Seab said. \u201cI think the trajectory of Chris\u2019 recovery would have been very different if we didn\u2019t have the benefit of the depth of experience and knowledge present at UAMS.\u201d<\/p>\n","excerpt":"<p>Chris Seab has come a long way since his myeloma diagnosis, and the future looks better every day.<\/p>\n<div><a class=\"more\" href=\"https:\/\/news.uams.edu\/2026\/09\/04\/myeloma-patient-family-credit-uams-for-his-improved-outlook\/\">Read more<\/a><\/div>","thumbnail":"https:\/\/news.uams.edu\/wp-content\/uploads\/2026\/09\/UAM_7277-150x150.jpg","thumbalt":"Chris and Liz Seab","thumbcaption":"<p>Chris and Liz Seab of Billings, Montana. Chris Seab was initially diagnosed with myeloma in May 2024 and has received two stem cell transplants.<\/p>\n<div><a class=\"more\" href=\"https:\/\/news.uams.edu\/2026\/09\/04\/myeloma-patient-family-credit-uams-for-his-improved-outlook\/uam_7277\/\">Read more<\/a><\/div>","image":"https:\/\/news.uams.edu\/wp-content\/uploads\/2026\/09\/UAM_7277-1024x576.jpg","image_sm":"https:\/\/news.uams.edu\/wp-content\/uploads\/2026\/09\/UAM_7277-512x288.jpg","imagealt":"Chris and Liz Seab","imagecaption":"<p>Chris and Liz Seab of Billings, Montana. Chris Seab was initially diagnosed with myeloma in May 2024 and has received two stem cell transplants.<\/p>\n<div><a class=\"more\" href=\"https:\/\/news.uams.edu\/2026\/09\/04\/myeloma-patient-family-credit-uams-for-his-improved-outlook\/uam_7277\/\">Read more<\/a><\/div>","author_name":"Nathan Tidwell","terms":[{"term_id":13,"name":"Featured","slug":"featured","term_group":0,"term_taxonomy_id":13,"taxonomy":"category","description":"","parent":0,"count":1327,"filter":"raw","term_order":"0"},{"term_id":6894,"name":"Myeloma Center","slug":"myeloma-center","term_group":0,"term_taxonomy_id":6894,"taxonomy":"category","description":"","parent":6892,"count":108,"filter":"raw","term_order":"0"},{"term_id":29,"name":"Myeloma Patient Stories","slug":"myeloma","term_group":0,"term_taxonomy_id":29,"taxonomy":"category","description":"Patient stories about Myeloma ","parent":18,"count":59,"filter":"raw","term_order":"0"}]}];</script>			<section class="uamswp-news-syndication-wrapper uams-module bg-auto alignfull no-padding side-by-side image-on-left image-background-center img-fluid"id="side-by-side-173254" aria-label="Patient Stories">
+				<div class="uamswp-news-syndication-side">
+				<script>var json_data = [{"ID":173254,"date":"2026-09-04T08:14:51","link":"https:\/\/news.uams.edu\/2026\/09\/04\/myeloma-patient-family-credit-uams-for-his-improved-outlook\/","modified":"2026-09-04T08:14:51","title":"Myeloma Patient, Family Credit UAMS for His Improved Outlook","content":"<p>Chris Seab has come a long way since his myeloma diagnosis, and the future looks better every day.<\/p>\n<p>On a recent visit with his wife Liz to the Winthrop P. Rockefeller Cancer Institute\u2019s Myeloma Center at the University of Arkansas for Medical Sciences (UAMS), the Seabs, who live in Billings, Montana, talked about Seab\u2019s progress.<\/p>\n<p>\u201cOur visit here last summer was very positive, and this recent trip was even better,\u201d he said. \u201cMy numbers have continued to drop.\u201d<\/p>\n<p>An injury to his back in March 2024 while skiing turned out to be the first sign of a problem.<\/p>\n<p>\u201cIt felt like a bad muscle pull,\u201d Chris Seab said. \u201cI went to a chiropractor, but it didn\u2019t help. Acupuncture was a little better, but not much.\u201d<\/p>\n<p>The issue escalated on a business trip.<\/p>\n<p>\u201cOne day I was walking to my hotel, and it felt like if I took one more step I\u2019d fall over \u2014 the pain was so intense,\u201d he said. \u201cI spent the next couple of days in bed before I was able to drive home.\u201d<\/p>\n<p>\u201cMemorial Day weekend I was working at home in our kitchen and my pen fell to the floor,\u201d he continued. \u201cI went to pick it up, fell out of the chair, and I couldn\u2019t get back up. I called my wife, and she and my son managed to get me to the emergency room.\u201d<\/p>\n<p>Tests revealed he had shattered the L5 vertebrae in his lower back, and he likely had cancer. Additionally, Seab had lesions all over his body, including the legs, pelvis, shoulder, and spine.<\/p>\n<p>\u201cAn orthopaedic surgeon thought they may need to put a rod in my left leg,\u201d he said.<\/p>\n<p>Liz Seab started calling around for recommendations and &#8220;Go to UAMS,&#8221; was the most common response.<\/p>\n<p>Chris Seab\u2019s first appointment was in June 2024, when he was assigned to Myeloma Center physician Maurizio Zangari, M.D.<\/p>\n<p>More testing at UAMS revealed the seriousness of his condition.<\/p>\n<div id=\"attachment_173258\" class=\"wp-caption alignright\" style=\"width: 210px\"><a href=\"https:\/\/news.uams.edu\/wp-content\/uploads\/2026\/09\/UAM_8257-scaled.jpg\"><img loading=\"lazy\" decoding=\"async\" class=\"wp-image-173258 size-medium\" src=\"https:\/\/news.uams.edu\/wp-content\/uploads\/2026\/09\/UAM_8257-200x300.jpg\" alt=\"Rob Guba, Chris Seab, Burke Moran\" width=\"200\" height=\"300\" srcset=\"https:\/\/news.uams.edu\/wp-content\/uploads\/2026\/09\/UAM_8257-200x300.jpg 200w, https:\/\/news.uams.edu\/wp-content\/uploads\/2026\/09\/UAM_8257-684x1024.jpg 684w, https:\/\/news.uams.edu\/wp-content\/uploads\/2026\/09\/UAM_8257-768x1150.jpg 768w, https:\/\/news.uams.edu\/wp-content\/uploads\/2026\/09\/UAM_8257-1025x1536.jpg 1025w, https:\/\/news.uams.edu\/wp-content\/uploads\/2026\/09\/UAM_8257-1367x2048.jpg 1367w, https:\/\/news.uams.edu\/wp-content\/uploads\/2026\/09\/UAM_8257-375x562.jpg 375w, https:\/\/news.uams.edu\/wp-content\/uploads\/2026\/09\/UAM_8257-750x1124.jpg 750w, https:\/\/news.uams.edu\/wp-content\/uploads\/2026\/09\/UAM_8257-1140x1708.jpg 1140w, https:\/\/news.uams.edu\/wp-content\/uploads\/2026\/09\/UAM_8257-scaled.jpg 1709w\" sizes=\"auto, (max-width: 200px) 100vw, 200px\" \/><\/a><p class=\"wp-caption-text\">Burke Moran (left) and Rob Guba (right), longtime friends of Chris Seab, led a cross-country bike ride in January and February 2025 that raised more than $30,000 for myeloma research at UAMS.<\/p><\/div>\n<p>\u201cHe had about 90% cancer in his bone marrow,\u201d Liz Seab said.<\/p>\n<p>Stem cell transplant was the prescribed treatment, with the first harvest of cells occurring in July 2024.<\/p>\n<p>\u201cI remember watching the Fourth of July fireworks out of my hospital room window,\u201d Chris Seab said.<\/p>\n<p>The first stem cell transplant took place in October 2024, followed by a second in February 2025. The second transplant was done on an outpatient basis.<\/p>\n<p>\u201cI enjoyed that a lot more,\u201d he said. \u201cI had a lot more freedom not being stuck in a hospital bed.\u201d<\/p>\n<p>While Seab was at UAMS for treatment last year, two of his childhood friends established the nonprofit Wheeling for Healing and embarked on a cross-county e-bike ride to raise money in support of him and others affected by multiple myeloma. Their effort resulted in $30,000 for myeloma research at UAMS.<\/p>\n<p>Liz Seab said the Stem Cell Transplant Unit provided excellent care for her husband.<\/p>\n<p>\u201cThey explained everything as we went along. We felt comfortable that anything that came up could be managed,\u201d she said.<\/p>\n<p>Following the transplants, Zangari prescribed a regimen beginning in April 2025 that included cancer drugs carfilzomib and isutaximab. This is when things began to steadily improve.<\/p>\n<p>\u201cThere was no leveling out with my results, the numbers gradually came down,\u201d Chris Saeb said.<\/p>\n<p>\u201cHe\u2019s doing very well,\u201d said Zangari said. \u201cWe\u2019re in a maintenance phase now.\u201d<\/p>\n<p>\u201cHis blood work looks really good,\u201d Liz Seab added. \u201cHe now goes for local treatment once a month.\u201d<\/p>\n<p>She also noted an unexpected result.<\/p>\n<p>\u201cChris\u2019 lesions are resolving themselves,\u201d she said. \u201cWe didn\u2019t realize that would be possible.\u201d<\/p>\n<p>More than two years after the initial diagnosis, the path looks clearer.<\/p>\n<p>\u201cEverything is positive,\u201d Chris Seab said.<\/p>\n<p>\u201cOne of the greatest things we did was making the choice to come here,\u201d Liz Seab said. \u201cI think the trajectory of Chris\u2019 recovery would have been very different if we didn\u2019t have the benefit of the depth of experience and knowledge present at UAMS.\u201d<\/p>\n","excerpt":"<p>Chris Seab has come a long way since his myeloma diagnosis, and the future looks better every day.<\/p>\n<div><a class=\"more\" href=\"https:\/\/news.uams.edu\/2026\/09\/04\/myeloma-patient-family-credit-uams-for-his-improved-outlook\/\">Read more<\/a><\/div>","thumbnail":"https:\/\/news.uams.edu\/wp-content\/uploads\/2026\/09\/UAM_7277-150x150.jpg","thumbalt":"Chris and Liz Seab","thumbcaption":"<p>Chris and Liz Seab of Billings, Montana. Chris Seab was initially diagnosed with myeloma in May 2024 and has received two stem cell transplants.<\/p>\n<div><a class=\"more\" href=\"https:\/\/news.uams.edu\/2026\/09\/04\/myeloma-patient-family-credit-uams-for-his-improved-outlook\/uam_7277\/\">Read more<\/a><\/div>","image":"https:\/\/news.uams.edu\/wp-content\/uploads\/2026\/09\/UAM_7277-1024x576.jpg","image_sm":"https:\/\/news.uams.edu\/wp-content\/uploads\/2026\/09\/UAM_7277-512x288.jpg","imagealt":"Chris and Liz Seab","imagecaption":"<p>Chris and Liz Seab of Billings, Montana. Chris Seab was initially diagnosed with myeloma in May 2024 and has received two stem cell transplants.<\/p>\n<div><a class=\"more\" href=\"https:\/\/news.uams.edu\/2026\/09\/04\/myeloma-patient-family-credit-uams-for-his-improved-outlook\/uam_7277\/\">Read more<\/a><\/div>","author_name":"Nathan Tidwell","terms":[{"term_id":13,"name":"Featured","slug":"featured","term_group":0,"term_taxonomy_id":13,"taxonomy":"category","description":"","parent":0,"count":1327,"filter":"raw","term_order":"0"},{"term_id":6894,"name":"Myeloma Center","slug":"myeloma-center","term_group":0,"term_taxonomy_id":6894,"taxonomy":"category","description":"","parent":6892,"count":108,"filter":"raw","term_order":"0"},{"term_id":29,"name":"Myeloma Patient Stories","slug":"myeloma","term_group":0,"term_taxonomy_id":29,"taxonomy":"category","description":"Patient stories about Myeloma ","parent":18,"count":59,"filter":"raw","term_order":"0"}]}];</script>					<div class="container-fluid img-fluid">
+						<div class="row">
+							<div class="col-12 col-md-6 image-container" aria-label="Chris and Liz Seab" role="img">
+								<style>
+									#side-by-side-173254 .image-container { background-image: url("https://news.uams.edu/wp-content/uploads/2026/09/UAM_7277-1024x576.jpg"); }
+								</style>
+								<div class="image-inner-container">
+								</div>
+							</div>
+							<div class="col-12 col-md-6 text-container">
+								<div class="text-inner-container">
+									<h2 class="h3">
+										<span class="category"><a href="" aria-label="See more  stories" data-moduletitle="Patient Stories" data-categorytitle=""></a></span><span class="sr-only">: </span>										<span class="title">Myeloma Patient, Family Credit UAMS for His Improved Outlook</span>
+									</h2>
+									<p><p>Chris Seab has come a long way since his myeloma diagnosis, and the future looks better every day.</p>
+<div></div></p>
+									<div class="cta-container">
+										<a class="btn btn-primary" href="https://news.uams.edu/2026/09/04/myeloma-patient-family-credit-uams-for-his-improved-outlook/" aria-label="Read Myeloma Patient, Family Credit UAMS for His Improved Outlook" data-moduletitle="Patient Stories" data-categorytitle="">Read more</a>
+																					<a href="" class="btn btn-outline-primary" aria-label="View the full list of  stories" data-moduletitle="Patient Stories" data-categorytitle="">View the  Archive</a>
+																			</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</section>
+							
+
+    <section class="uams-module extra-padding call-out alignfull bg-green" id="call-out-block_1f1164a57e04441f82af6acd08f0ca20" aria-label="Make an Appointment">
+                <div class="container-fluid">
+            <div class="row">
+                <div class="col-12">
+                    <div class="text-container">
+                        <div class="call-out-heading">
+                            <h2>Make an Appointment</h2>
+                        </div>
+                        <div class="call-out-body">
+                            <p>Request an appointment directly with <a href="https://uamshealth.com/location/">your clinic</a> or by calling the main UAMS Health appointment line at <a class="no-break" href="tel:5016868000">(501) 686-8000</a>.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+<div class="uams-module no-padding text-image-overlay alignfull" id="text-image-overlay-block_fb7b745c5f7e6daaa44256f36dcf0157">
+    <div class="container-fluid">
+        <div class="row">
+            <section class="col-12 col-sm-6 item bg-image item-1 bg-red" aria-label="Your Heart, Our Priority">
+                                <style>
+                    #text-image-overlay-block_fb7b745c5f7e6daaa44256f36dcf0157 .item-1:before {
+                        background-image: url("https://uamshealth.com/wp-content/uploads/bis-images/1059737/heart-care-uams-576x432-cc.png");
+                    }
+
+                    /* XS Breakpoint */
+                    @media (min-width: 576px) {
+                        #text-image-overlay-block_fb7b745c5f7e6daaa44256f36dcf0157 .item-1:before {
+                            background-image: url("https://uamshealth.com/wp-content/uploads/bis-images/1059737/heart-care-uams-768x576-cc.png");
+                        }
+                    }
+
+                    /* SM Breakpoint */
+                    @media (min-width: 768px) {
+                        #text-image-overlay-block_fb7b745c5f7e6daaa44256f36dcf0157 .item-1:before {
+                            background-image: url("https://uamshealth.com/wp-content/uploads/bis-images/1059737/heart-care-uams-496x372-cc.png");
+                        }
+                    }
+
+                    /* MD Breakpoint */
+                    @media (min-width: 992px) {
+                        #text-image-overlay-block_fb7b745c5f7e6daaa44256f36dcf0157 .item-1:before {
+                            background-image: url("https://uamshealth.com/wp-content/uploads/bis-images/1059737/heart-care-uams-600x450-cc.png");
+                        }
+                    }
+
+                    /* LG Breakpoint */
+                    @media (min-width: 1200px) {
+                        #text-image-overlay-block_fb7b745c5f7e6daaa44256f36dcf0157 .item-1:before {
+                            background-image: url("https://uamshealth.com/wp-content/uploads/bis-images/1059737/heart-care-uams-750x563-cc.png");
+                        }
+                    }
+
+                    /* XL Breakpoint */
+                    @media (min-width: 1500px) {
+                        #text-image-overlay-block_fb7b745c5f7e6daaa44256f36dcf0157 .item-1:before {
+                            background-image: url("https://uamshealth.com/wp-content/uploads/bis-images/1059737/heart-care-uams-961x720-cc.png");
+                        }
+                    }
+
+                    /* XXL Breakpoint */
+                    @media (min-width: 1921px) {
+                        #text-image-overlay-block_fb7b745c5f7e6daaa44256f36dcf0157 .item-1:before {
+                            background-image: url("https://uamshealth.com/wp-content/uploads/bis-images/1059737/heart-care-uams-1280x960-cc.png");
+                        }
+                    }
+                </style>
+                                <div class="text-container">
+                    <h2>Your Heart, Our Priority</h2>
+                    <p>Personalized heart care for all. Our team of surgical and non-surgical heart specialists delivers expert, advanced treatment for every stage of heart health.</p>
+                    <a href="https://uamshealth.com/comprehensive-heart-care/" aria-label="Your Heart, Our Priority" class="btn btn-white" data-itemtitle="Your Heart, Our Priority">Schedule an Appointment</a>
+                </div>
+            </section>
+            <section class="col-12 col-sm-6 item bg-image item-2 bg-teal" aria-label="UAMS Health Women's Health">
+                                <style>
+                    #text-image-overlay-block_fb7b745c5f7e6daaa44256f36dcf0157 .item-2:before {
+                        background-image: url("https://uamshealth.com/wp-content/uploads/bis-images/1059738/uams-womens-health-576x432-cc.png");
+                    }
+
+                    /* XS Breakpoint */
+                    @media (min-width: 576px) {
+                        #text-image-overlay-block_fb7b745c5f7e6daaa44256f36dcf0157 .item-2:before {
+                            background-image: url("https://uamshealth.com/wp-content/uploads/bis-images/1059738/uams-womens-health-768x576-cc.png");
+                        }
+                    }
+
+                    /* SM Breakpoint */
+                    @media (min-width: 768px) {
+                        #text-image-overlay-block_fb7b745c5f7e6daaa44256f36dcf0157 .item-2:before {
+                            background-image: url("https://uamshealth.com/wp-content/uploads/bis-images/1059738/uams-womens-health-496x372-cc.png");
+                        }
+                    }
+
+                    /* MD Breakpoint */
+                    @media (min-width: 992px) {
+                        #text-image-overlay-block_fb7b745c5f7e6daaa44256f36dcf0157 .item-2:before {
+                            background-image: url("https://uamshealth.com/wp-content/uploads/bis-images/1059738/uams-womens-health-600x450-cc.png");
+                        }
+                    }
+
+                    /* LG Breakpoint */
+                    @media (min-width: 1200px) {
+                        #text-image-overlay-block_fb7b745c5f7e6daaa44256f36dcf0157 .item-2:before {
+                            background-image: url("https://uamshealth.com/wp-content/uploads/bis-images/1059738/uams-womens-health-750x563-cc.png");
+                        }
+                    }
+
+                    /* XL Breakpoint */
+                    @media (min-width: 1500px) {
+                        #text-image-overlay-block_fb7b745c5f7e6daaa44256f36dcf0157 .item-2:before {
+                            background-image: url("https://uamshealth.com/wp-content/uploads/bis-images/1059738/uams-womens-health-961x720-cc.png");
+                        }
+                    }
+
+                    /* XXL Breakpoint */
+                    @media (min-width: 1921px) {
+                        #text-image-overlay-block_fb7b745c5f7e6daaa44256f36dcf0157 .item-2:before {
+                            background-image: url("https://uamshealth.com/wp-content/uploads/bis-images/1059738/uams-womens-health-1280x960-cc.png");
+                        }
+                    }
+                </style>
+                                <div class="text-container">
+                    <h2>UAMS Health Women&#8217;s Health</h2>
+                    <p>From yearly exams to specialized procedures, our women&#8217;s health team provides personalized care through every stage of life, from prenatal through post-menopause, including comprehensive breast care and OB/GYN services.</p>
+                    <a href="https://uamshealth.com/expertise/womens-health/" aria-label="UAMS Health Women's Health" class="btn btn-white" data-itemtitle="UAMS Health Women's Health">Explore Women&#8217;s Health</a>
+                </div>
+            </section>
+        </div>
+    </div>
+</div>
+
+
+            <!-- UAMSWP Output Cards -->
+			<section class="uamswp-news-syndication-wrapper uams-module bg-auto alignfull" aria-label="UAMS Health News">
+				<div class="uamswp-news-syndication-cards">
+					<div class="container-fluid">
+						<div class="row">
+							<div class="col-12">
+								<h2 class="module-title"><span class="title">UAMS Health News</span></h2>
+							</div>
+							<div class="col-12">
+								<div class="card-list card-list-left">
+																			<div class="item" itemscope itemtype="http://schema.org/NewsArticle">
+											<div class="card">
+																									<div class="card-img-top">
+														<picture>
+																															<img decoding="async" src="https://news.uams.edu/wp-content/uploads/2026/09/Hospital-exterior-nite-1-512x288.jpg" alt="UAMS more than $5 million in funding under the HEART and RISE ARKANSAS initiatives of the Arkansas Rural Health Transformation Program (RHTP)." itemprop="url">
+																														</picture>
+													</div>
+																								<div class="card-body">
+													<h3 class="card-title h5" itemprop="headline">Arkansas Rural Health Transformation Program Awards UAMS $5 Million to Fund 6 Initiatives</h3>
+													<p>LITTLE ROCK — The University of Arkansas for Medical Sciences (UAMS) received more than $5 million in funding under the HEART and RISE ARKANSAS initiatives of the Arkansas Rural Health Transformation Program (RHTP).</p>
+<div></div>													<!-- <p class="card-text" itemprop="articleBody"></p> -->
+													<a href="https://news.uams.edu/2026/09/24/arkansas-rural-health-transformation-program-awards-uams-5-million-to-fund-6-initiatives/" class="btn btn-primary stretched-link" aria-label="Arkansas Rural Health Transformation Program Awards UAMS $5 Million to Fund 6 Initiatives" itemprop="url" data-moduletitle="UAMS Health News" data-categorytitle="">Read more</a>
+												</div>
+											</div>
+											<span class="news-item-byline-author" itemprop="author" itemscope itemtype="http://schema.org/Person">
+												<meta itemprop="name" content="Yavonda Chase"/>
+											</span>
+											<meta itemprop="datePublished" content="2026-09-24T15:21:56+00:00"/>
+											<meta itemprop="dateModified" content="2026-09-24T15:21:56+00:00"/>
+											<span itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+												<meta itemprop="name" content="University of Arkansas for Medical Sciences"/>
+												<span itemprop="logo" itemscope itemtype="https://schema.org/ImageObject">
+													<meta itemprop="url" content="http://web.uams.edu/wp-content/uploads/sites/51/2017/09/UAMS_Academic_40-1.png"/>
+													<meta itemprop="width" content="297"/>
+													<meta itemprop="height" content="40"/>
+												</span>
+											</span>
+											<meta itemscope itemprop="mainEntityOfPage"  itemType="https://schema.org/WebPage" itemid="https://news.uams.edu/2026/09/24/arkansas-rural-health-transformation-program-awards-uams-5-million-to-fund-6-initiatives/"/>
+										</div>
+																			<div class="item" itemscope itemtype="http://schema.org/NewsArticle">
+											<div class="card">
+																									<div class="card-img-top">
+														<picture>
+																															<img decoding="async" src="https://news.uams.edu/wp-content/uploads/2026/09/Hellou-Myeloma-Center-Logo-512x288.png" alt="Tamer Hellou" itemprop="url">
+																														</picture>
+													</div>
+																								<div class="card-body">
+													<h3 class="card-title h5" itemprop="headline">Hematologist Tamer Hellou, M.D., Joins UAMS Myeloma Center</h3>
+													<p>Hematologist Tamer Hellou, M.D., has joined the University of Arkansas for Medical Sciences (UAMS) Winthrop P. Rockefeller Cancer Institute’s Myeloma Center.</p>
+<div></div>													<!-- <p class="card-text" itemprop="articleBody"></p> -->
+													<a href="https://news.uams.edu/2026/09/22/hematologist-tamer-hellou-m-d-joins-uams-myeloma-center/" class="btn btn-primary stretched-link" aria-label="Hematologist Tamer Hellou, M.D., Joins UAMS Myeloma Center" itemprop="url" data-moduletitle="UAMS Health News" data-categorytitle="">Read more</a>
+												</div>
+											</div>
+											<span class="news-item-byline-author" itemprop="author" itemscope itemtype="http://schema.org/Person">
+												<meta itemprop="name" content="Nathan Tidwell"/>
+											</span>
+											<meta itemprop="datePublished" content="2026-09-22T10:24:21+00:00"/>
+											<meta itemprop="dateModified" content="2026-09-22T15:32:19+00:00"/>
+											<span itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+												<meta itemprop="name" content="University of Arkansas for Medical Sciences"/>
+												<span itemprop="logo" itemscope itemtype="https://schema.org/ImageObject">
+													<meta itemprop="url" content="http://web.uams.edu/wp-content/uploads/sites/51/2017/09/UAMS_Academic_40-1.png"/>
+													<meta itemprop="width" content="297"/>
+													<meta itemprop="height" content="40"/>
+												</span>
+											</span>
+											<meta itemscope itemprop="mainEntityOfPage"  itemType="https://schema.org/WebPage" itemid="https://news.uams.edu/2026/09/22/hematologist-tamer-hellou-m-d-joins-uams-myeloma-center/"/>
+										</div>
+																			<div class="item" itemscope itemtype="http://schema.org/NewsArticle">
+											<div class="card">
+																									<div class="card-img-top">
+														<picture>
+																															<img decoding="async" src="https://news.uams.edu/wp-content/uploads/2026/09/DSC_4376-512x288.jpg" alt="Scott and Jo Rampy cut the ribbon for the new UAMS Health MS Clinic in Fayetteville." itemprop="url">
+																														</picture>
+													</div>
+																								<div class="card-body">
+													<h3 class="card-title h5" itemprop="headline">UAMS Celebrates Opening of Multiple Sclerosis Clinic in Fayetteville</h3>
+													<p>FAYETTEVILLE — The University of Arkansas for Medical Sciences (UAMS) held a ribbon-cutting ceremony Sept. 18 to celebrate the opening of the UAMS Health MS Clinic, located at the UAMS Northwest Regional Campus in Fayetteville.</p>
+<div></div>													<!-- <p class="card-text" itemprop="articleBody"></p> -->
+													<a href="https://news.uams.edu/2026/09/18/uams-celebrates-opening-of-multiple-sclerosis-clinic-in-fayetteville/" class="btn btn-primary stretched-link" aria-label="UAMS Celebrates Opening of Multiple Sclerosis Clinic in Fayetteville" itemprop="url" data-moduletitle="UAMS Health News" data-categorytitle="Medical News">Read more</a>
+												</div>
+											</div>
+											<span class="news-item-byline-author" itemprop="author" itemscope itemtype="http://schema.org/Person">
+												<meta itemprop="name" content="Andrew Vogler"/>
+											</span>
+											<meta itemprop="datePublished" content="2026-09-18T13:12:44+00:00"/>
+											<meta itemprop="dateModified" content="2026-09-18T14:51:35+00:00"/>
+											<span itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+												<meta itemprop="name" content="University of Arkansas for Medical Sciences"/>
+												<span itemprop="logo" itemscope itemtype="https://schema.org/ImageObject">
+													<meta itemprop="url" content="http://web.uams.edu/wp-content/uploads/sites/51/2017/09/UAMS_Academic_40-1.png"/>
+													<meta itemprop="width" content="297"/>
+													<meta itemprop="height" content="40"/>
+												</span>
+											</span>
+											<meta itemscope itemprop="mainEntityOfPage"  itemType="https://schema.org/WebPage" itemid="https://news.uams.edu/2026/09/18/uams-celebrates-opening-of-multiple-sclerosis-clinic-in-fayetteville/"/>
+										</div>
+																			<div class="item" itemscope itemtype="http://schema.org/NewsArticle">
+											<div class="card">
+																									<div class="card-img-top">
+														<picture>
+																															<img decoding="async" src="https://news.uams.edu/wp-content/uploads/2026/09/iStock-513115726-scaled-512x288.jpg" alt="An older man smiles as he&#039;s having his blood pressure measured by a woman in this stock image." itemprop="url">
+																														</picture>
+													</div>
+																								<div class="card-body">
+													<h3 class="card-title h5" itemprop="headline">UAMS Donald W. Reynolds Institute on Aging to Host Geriatric Care Conference on Oct. 1-3</h3>
+													<p>The University of Arkansas for Medical Sciences (UAMS) will host its 2026 Geriatrics Updates conference Oct. 1-3, providing an opportunity for health professionals, patients, caregivers, and community members to learn about the latest developments in research and clinical care for older adults. </p>
+<div></div>													<!-- <p class="card-text" itemprop="articleBody"></p> -->
+													<a href="https://news.uams.edu/2026/09/16/uams-donald-w-reynolds-institute-on-aging-to-host-geriatric-care-conference-on-oct-1-3/" class="btn btn-primary stretched-link" aria-label="UAMS Donald W. Reynolds Institute on Aging to Host Geriatric Care Conference on Oct. 1-3" itemprop="url" data-moduletitle="UAMS Health News" data-categorytitle="Medical News">Read more</a>
+												</div>
+											</div>
+											<span class="news-item-byline-author" itemprop="author" itemscope itemtype="http://schema.org/Person">
+												<meta itemprop="name" content="Chris Carmody"/>
+											</span>
+											<meta itemprop="datePublished" content="2026-09-16T09:33:28+00:00"/>
+											<meta itemprop="dateModified" content="2026-09-16T09:35:58+00:00"/>
+											<span itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+												<meta itemprop="name" content="University of Arkansas for Medical Sciences"/>
+												<span itemprop="logo" itemscope itemtype="https://schema.org/ImageObject">
+													<meta itemprop="url" content="http://web.uams.edu/wp-content/uploads/sites/51/2017/09/UAMS_Academic_40-1.png"/>
+													<meta itemprop="width" content="297"/>
+													<meta itemprop="height" content="40"/>
+												</span>
+											</span>
+											<meta itemscope itemprop="mainEntityOfPage"  itemType="https://schema.org/WebPage" itemid="https://news.uams.edu/2026/09/16/uams-donald-w-reynolds-institute-on-aging-to-host-geriatric-care-conference-on-oct-1-3/"/>
+										</div>
+																	</div>
+							</div>
+											</div>
+				</div>
+			</section>
+			
+
+<section class="uams-module no-padding side-by-side uams-side-by-side-block alignfull image-on-left image-background-center bg-gray" id="side-by-side-image-side-block_3be5780084f2dfb64a21d1b7647f5736" aria-label="Family Doctors Near You">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-12 col-md-6 image-container" aria-label="Smiling family of three, a father, mother, and young daughter, embracing and laughing together on a porch." role="img">
+
+                                <style>
+                    #side-by-side-image-side-block_3be5780084f2dfb64a21d1b7647f5736 .image-container {
+                        background-image: url("https://uamshealth.com/wp-content/uploads/bis-images/1059743/uams-family-care-576x324-cc.png");
+                    }
+
+                    /* XS Breakpoint */
+                    @media (min-width: 576px) {
+                        #side-by-side-image-side-block_3be5780084f2dfb64a21d1b7647f5736 .image-container {
+                            background-image: url("https://uamshealth.com/wp-content/uploads/bis-images/1059743/uams-family-care-768x432-cc.png");
+                        }
+                    }
+
+                    /* SM Breakpoint */
+                    @media (min-width: 768px) {
+                        #side-by-side-image-side-block_3be5780084f2dfb64a21d1b7647f5736 .image-container {
+                            background-image: url("https://uamshealth.com/wp-content/uploads/bis-images/1059743/uams-family-care-992x558-cc.png");
+                        }
+                    }
+
+                    /* MD Breakpoint */
+                    @media (min-width: 992px) {
+                        #side-by-side-image-side-block_3be5780084f2dfb64a21d1b7647f5736 .image-container {
+                            background-image: url("https://uamshealth.com/wp-content/uploads/bis-images/1059743/uams-family-care-1200x675-cc.png");
+                        }
+                    }
+
+                    /* LG Breakpoint */
+                    @media (min-width: 1200px) {
+                        #side-by-side-image-side-block_3be5780084f2dfb64a21d1b7647f5736 .image-container {
+                            background-image: url("https://uamshealth.com/wp-content/uploads/bis-images/1059743/uams-family-care-1500x844-cc.png");
+                        }
+                    }
+
+                    /* XL Breakpoint */
+                    @media (min-width: 1500px) {
+                        #side-by-side-image-side-block_3be5780084f2dfb64a21d1b7647f5736 .image-container {
+                            background-image: url("https://uamshealth.com/wp-content/uploads/bis-images/1059743/uams-family-care-1921x1081-cc.png");
+                        }
+                    }
+
+                    /* XXL Breakpoint */
+                    @media (min-width: 1921px) {
+                        #side-by-side-image-side-block_3be5780084f2dfb64a21d1b7647f5736 .image-container {
+                            background-image: url("https://uamshealth.com/wp-content/uploads/bis-images/1059743/uams-family-care-2560x1440-cc.png");
+                        }
+                    }
+                </style>
+                                <div class="image-inner-container">
+                </div>
+            </div>
+            <div class="col-12 col-md-6 text-container">
+                <div class="text-inner-container">
+                    <h2 class="h3">Family Doctors Near You</h2>
+                    <p>Looking for a primary care physician for your whole family? Get preventive care, routine checkups, immunizations, and chronic condition management close to home at locations across Arkansas.</p>                    <a class="btn btn-primary" href="https://uamshealth.com/location/?_location_type=primary-care" aria-label="Family Doctors Near You" data-moduletitle="Family Doctors Near You">Find a Location Near You</a>                </div>
+            </div>
+        </div>
+    </div>
+</section>
+</div></article></main></div><footer class="site-footer" itemscope itemtype="https://schema.org/WPFooter"><div itemscope="" itemtype="https://schema.org/LocalBusiness" class="schema"><a href="https://uamshealth.com/" class="logo"><img src="https://uamshealth.com/wp-content/themes/uams-2020/assets/svg/uams-logo_health_horizontal_white.svg" alt="UAMS Health Logo" itemprop="image" /><span class="sr-only">UAMS Health</span></a><span itemprop="name" class="sr-only">University of Arkansas for Medical Sciences</span><div class="schema-address" itemprop="address" itemscope="" itemtype="https://schema.org/PostalAddress"><strong class="sr-only">Mailing Address:</strong> <span itemprop="streetAddress">4301 West Markham Street</span>, <span itemprop="addressLocality">Little Rock</span>, <span itemprop="addressRegion">AR</span> <span itemprop="postalCode">72205</span></div><div class="schema-phone"><span id="footer-phone-label">Phone:</span> <span itemprop="telephone"><a href="tel:501-686-7000" aria-labelledby="footer-phone-label">(501) 686-7000</a></span></div></div><div role="navigation" aria-label="Social media"><ul class="nav social"><li class="nav-item"><a class="nav-link" href="https://www.facebook.com/UAMShealth" target="_blank" title="Facebook"><span class="fab fa-facebook"></span><span class="sr-only">Facebook</span></a></li><li class="nav-item"><a class="nav-link" href="https://x.com/uamshealth" target="_blank" title="X"><span class="fab fa-square-x-twitter"></span><span class="sr-only">X</span></a></li><li class="nav-item"><a class="nav-link" href="https://www.instagram.com/uamshealth/" target="_blank" title="Instagram"><span class="fab fa-instagram"></span><span class="sr-only">Instagram</span></a></li><li class="nav-item"><a class="nav-link" href="https://www.youtube.com/UAMSHealth" target="_blank" title="YouTube"><span class="fab fa-youtube"></span><span class="sr-only">YouTube</span></a></li><li class="nav-item"><a class="nav-link" href="https://www.linkedin.com/company/uams/" target="_blank" title="LinkedIn"><span class="fab fa-linkedin"></span><span class="sr-only">LinkedIn</span></a></li></ul></div><div role="navigation" aria-label="Footer Navigation"><ul class="nav legal"><li class="nav-item"><a class="nav-link" href="https://uamshealth.com/disclaimer/" target="_blank">Disclaimer</a></li><li class="nav-item"><a class="nav-link" href="https://web.uams.edu/terms-of-use/" target="_blank">Terms of Use</a></li><li class="nav-item"><a class="nav-link" href="https://web.uams.edu/privacy/" target="_blank">Privacy Statement</a></li><li class="nav-item"><a class="nav-link" href="https://hipaa.uams.edu/forms/notice-of-privacy-practices-information/" target="_blank">Notice of Privacy Practices</a></li><li class="nav-item"><a class="nav-link" href="https://uamshealth.com/patients-and-guests/patient-support/billing/price-transparency/" target="_blank">Price Transparency</a></li><li class="nav-item"><a class="nav-link" href="https://uamshealth.com/legal-notices/" target="_blank">Legal Notices</a></li></ul></div><p class="copyright">&copy; 2026 University of Arkansas for Medical Sciences</p><p></p></footer></div>        </div>
+    <script type="speculationrules">
+{"prefetch":[{"source":"document","where":{"and":[{"href_matches":"/*"},{"not":{"href_matches":["/wp-*.php","/wp-admin/*","/wp-content/uploads/*","/wp-content/*","/wp-content/plugins/*","/wp-content/themes/uams-2020/*","/wp-content/themes/genesis/*","/*\\?(.+)"]}},{"not":{"selector_matches":"a[rel~=\"nofollow\"]"}},{"not":{"selector_matches":".no-prefetch, .no-prefetch a"}}]},"eagerness":"conservative"}]}
+</script>
+					<div id="asp-statistics" data-statistics-id="0" style="display:none;"></div>
+					<script id="skip-links-js" src="https://uamshealth.com/wp-content/themes/genesis/lib/js/skip-links.min.js?ver=3.6.2"></script>
+<script id="app-js-js" src="https://uamshealth.com/wp-content/themes/uams-2020/assets/js/uams.min.js?ver=1.6.0"></script>
+<script id="fa-js-js" src="https://uamshealth.com/wp-content/themes/uams-2020/assets/js/fa.min.js?ver=1.6.0"></script>
+<script id="uams-alert-js" src="https://uamshealth.com/wp-content/themes/uams-2020/assets/js/uamsalert.js?ver=2.5.0"></script>
+<script id="wp-emoji-settings" type="application/json">
+{"baseUrl":"https://s.w.org/images/core/emoji/17.0.2/72x72/","ext":".png","svgUrl":"https://s.w.org/images/core/emoji/17.0.2/svg/","svgExt":".svg","source":{"concatemoji":"https://uamshealth.com/wp-includes/js/wp-emoji-release.min.js?ver=7.0.6"}}
+</script>
+<script type="module">
+/*! This file is auto-generated */
+var e="script#wp-emoji-settings",t=document.querySelector(e);if(!(t instanceof HTMLScriptElement))throw new Error("Element missing: "+e);const r=JSON.parse(t.text),s=(window._wpemojiSettings=r,"wpEmojiSettingsSupports"),o=["flag","emoji"];function i(e){try{var t={supportTests:e,timestamp:(new Date).valueOf()};sessionStorage.setItem(s,JSON.stringify(t))}catch(e){}}function c(e,t,n){e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(t,0,0);t=new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data);e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(n,0,0);const r=new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data);return t.every((e,t)=>e===r[t])}function p(e,t){e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(t,0,0);var n=e.getImageData(16,16,1,1);for(let e=0;e<n.data.length;e++)if(0!==n.data[e])return!1;return!0}function u(e,t,n,r){switch(t){case"flag":return n(e,"\ud83c\udff3\ufe0f\u200d\u26a7\ufe0f","\ud83c\udff3\ufe0f\u200b\u26a7\ufe0f")?!1:!n(e,"\ud83c\udde8\ud83c\uddf6","\ud83c\udde8\u200b\ud83c\uddf6")&&!n(e,"\ud83c\udff4\udb40\udc67\udb40\udc62\udb40\udc65\udb40\udc6e\udb40\udc67\udb40\udc7f","\ud83c\udff4\u200b\udb40\udc67\u200b\udb40\udc62\u200b\udb40\udc65\u200b\udb40\udc6e\u200b\udb40\udc67\u200b\udb40\udc7f");case"emoji":return!r(e,"\ud83e\u1fac8")}return!1}function f(e,t,n,r){let a;const s=(a="undefined"!=typeof WorkerGlobalScope&&self instanceof WorkerGlobalScope?new OffscreenCanvas(300,150):document.createElement("canvas")).getContext("2d",{willReadFrequently:!0}),o=(s.textBaseline="top",s.font="600 32px Arial",{});return e.forEach(e=>{o[e]=t(s,e,n,r)}),o}function a(e){var t=document.createElement("script");t.src=e,t.defer=!0,document.head.appendChild(t)}r.supports={everything:!0,everythingExceptFlag:!0},new Promise(t=>{let n=function(){try{var e=JSON.parse(sessionStorage.getItem(s));if("object"==typeof e&&"number"==typeof e.timestamp&&(new Date).valueOf()<e.timestamp+604800&&"object"==typeof e.supportTests)return e.supportTests}catch(e){}return null}();if(!n){if("undefined"!=typeof Worker&&"undefined"!=typeof OffscreenCanvas&&"undefined"!=typeof URL&&URL.createObjectURL&&"undefined"!=typeof Blob)try{var e="postMessage("+f.toString()+"("+[JSON.stringify(o),u.toString(),c.toString(),p.toString()].join(",")+"));",r=new Blob([e],{type:"text/javascript"});const a=new Worker(URL.createObjectURL(r),{name:"wpTestEmojiSupports"});return void(a.onmessage=e=>{i(n=e.data),a.terminate(),t(n)})}catch(e){}i(n=f(o,u,c,p))}t(n)}).then(e=>{for(const n in e)r.supports[n]=e[n],r.supports.everything=r.supports.everything&&r.supports[n],"flag"!==n&&(r.supports.everythingExceptFlag=r.supports.everythingExceptFlag&&r.supports[n]);var t;r.supports.everythingExceptFlag=r.supports.everythingExceptFlag&&!r.supports.flag,r.supports.everything||((t=r.source||{}).concatemoji?a(t.concatemoji):t.wpemoji&&t.twemoji&&(a(t.twemoji),a(t.wpemoji)))});
+//# sourceURL=https://uamshealth.com/wp-includes/js/wp-emoji-loader.min.js
+</script>
+<!-- UAMS Analytics: Click Event Listeners -->
+<script>
+(function() {
+    'use strict';
+
+    var DL = window.dataLayer = window.dataLayer || [];
+    var debug = false;
+    var pageType = 'homepage';
+
+    function push(data) {
+        DL.push(data);
+        if (debug) console.log('[UAMS DL Click]', data);
+    }
+
+    // ── Helper: extract text content, trimmed ──
+    function textOf(el, maxLen) {
+        var t = (el.textContent || el.innerText || '').replace(/\s+/g, ' ').trim();
+        if (maxLen && t.length > maxLen) t = t.substring(0, maxLen) + '...';
+        return t;
+    }
+
+    // ── Helper: find closest ancestor with data attribute ──
+    function closestData(el, attr) {
+        while (el && el !== document.body) {
+            if (el.getAttribute && el.getAttribute(attr)) return el.getAttribute(attr);
+            el = el.parentElement;
+        }
+        return '';
+    }
+
+    // ── Helper: get NPI from page context if on provider page ──
+    function getProviderNPI() {
+        for (var i = 0; i < DL.length; i++) {
+            if (DL[i].provider_npi) return DL[i].provider_npi;
+        }
+        return '';
+    }
+
+    function getProviderName() {
+        for (var i = 0; i < DL.length; i++) {
+            if (DL[i].provider_name) return DL[i].provider_name;
+        }
+        return '';
+    }
+
+    function getProviderSpecialty() {
+        for (var i = 0; i < DL.length; i++) {
+            if (DL[i].provider_specialty) return DL[i].provider_specialty;
+        }
+        return '';
+    }
+
+    function getLocationName() {
+        for (var i = 0; i < DL.length; i++) {
+            if (DL[i].location_name) return DL[i].location_name;
+        }
+        return '';
+    }
+
+    // ═══════════════════════════════════════════════════════════
+    //  1. PHONE CALL CLICKS (tel: links)
+    // ═══════════════════════════════════════════════════════════
+
+    document.addEventListener('click', function(e) {
+        var link = e.target.closest('a[href^="tel:"]');
+        if (!link) return;
+
+        var phone = link.getAttribute('href').replace('tel:', '').trim();
+
+        push({
+            'event': 'phone_call_click',
+            'phone_number': phone,
+            'page_type': pageType,
+            'location_name': getLocationName(),
+            'provider_npi': getProviderNPI(),
+            'provider_name': getProviderName(),
+            'click_text': textOf(link, 100)
+        });
+    }, true);
+
+    // ═══════════════════════════════════════════════════════════
+    //  2. APPOINTMENT / SCHEDULING CLICKS
+    // ═══════════════════════════════════════════════════════════
+
+    // Match links containing appointment-related keywords
+    var appointmentPatterns = [
+        'make-an-appointment',
+        'request-appointment',
+        'schedule',
+        'booking',
+        'mychart'
+    ];
+
+    document.addEventListener('click', function(e) {
+        var link = e.target.closest('a');
+        if (!link) return;
+
+        var href = (link.getAttribute('href') || '').toLowerCase();
+        var text = textOf(link, 200).toLowerCase();
+
+        // Check if it's an appointment-related link
+        var isAppointment = false;
+        var eventName = '';
+
+        for (var i = 0; i < appointmentPatterns.length; i++) {
+            if (href.indexOf(appointmentPatterns[i]) > -1 || text.indexOf(appointmentPatterns[i]) > -1) {
+                isAppointment = true;
+                break;
+            }
+        }
+
+        // Also catch common button text
+        if (!isAppointment) {
+            var apptTexts = ['make an appointment', 'request an appointment', 'book appointment', 'schedule a visit', 'schedule an appointment'];
+            for (var j = 0; j < apptTexts.length; j++) {
+                if (text.indexOf(apptTexts[j]) > -1) {
+                    isAppointment = true;
+                    break;
+                }
+            }
+        }
+
+        if (!isAppointment) return;
+
+        // Determine if it's MyChart/online scheduling vs general appointment
+        if (href.indexOf('mychart') > -1 || href.indexOf('schedule') > -1) {
+            eventName = 'online_scheduling_click';
+        } else {
+            eventName = 'appointment_click';
+        }
+
+        push({
+            'event': eventName,
+            'page_type': pageType,
+            'provider_npi': getProviderNPI(),
+            'provider_name': getProviderName(),
+            'provider_specialty': getProviderSpecialty(),
+            'location_name': getLocationName(),
+            'click_text': textOf(link, 100),
+            'destination_url': href
+        });
+    }, true);
+
+    // ═══════════════════════════════════════════════════════════
+    //  3. DIRECTION / MAP CLICKS
+    // ═══════════════════════════════════════════════════════════
+
+    document.addEventListener('click', function(e) {
+        var link = e.target.closest('a');
+        if (!link) return;
+
+        var href = (link.getAttribute('href') || '').toLowerCase();
+        var text = textOf(link, 200).toLowerCase();
+
+        var isDirections = (
+            href.indexOf('maps.google') > -1 ||
+            href.indexOf('google.com/maps') > -1 ||
+            href.indexOf('maps.apple') > -1 ||
+            href.indexOf('waze.com') > -1 ||
+            href.indexOf('goo.gl/maps') > -1 ||
+            text.indexOf('get directions') > -1 ||
+            text.indexOf('directions') > -1 && text.indexOf('map') > -1
+        );
+
+        if (!isDirections) return;
+
+        push({
+            'event': 'location_directions_click',
+            'page_type': pageType,
+            'location_name': getLocationName(),
+            'click_text': textOf(link, 100)
+        });
+    }, true);
+
+    // ═══════════════════════════════════════════════════════════
+    //  4. PROVIDER LINK CLICKS (from condition/treatment pages)
+    // ═══════════════════════════════════════════════════════════
+
+    if (pageType === 'condition' || pageType === 'treatment') {
+        document.addEventListener('click', function(e) {
+            var link = e.target.closest('a[href*="/provider/"]');
+            if (!link) return;
+
+            var href = link.getAttribute('href') || '';
+            // Extract provider slug from URL
+            var match = href.match(/\/provider\/([^\/\?#]+)/);
+            var providerSlug = match ? match[1] : '';
+
+            var eventName = pageType === 'condition'
+                ? 'condition_to_provider'
+                : 'treatment_to_provider';
+
+            var contentName = '';
+            for (var i = 0; i < DL.length; i++) {
+                if (DL[i].condition_name) { contentName = DL[i].condition_name; break; }
+                if (DL[i].treatment_name) { contentName = DL[i].treatment_name; break; }
+            }
+
+            push({
+                'event': eventName,
+                'page_type': pageType,
+                'content_name': contentName,
+                'provider_slug': providerSlug,
+                'click_text': textOf(link, 100)
+            });
+        }, true);
+    }
+
+    // ═══════════════════════════════════════════════════════════
+    //  5. PDF DOWNLOADS
+    // ═══════════════════════════════════════════════════════════
+
+    document.addEventListener('click', function(e) {
+        var link = e.target.closest('a[href$=".pdf"], a[href*=".pdf?"]');
+        if (!link) return;
+
+        var href = link.getAttribute('href') || '';
+        var fileName = href.split('/').pop().split('?')[0];
+
+        push({
+            'event': 'pdf_download',
+            'page_type': pageType,
+            'file_name': fileName,
+            'file_url': href,
+            'click_text': textOf(link, 100)
+        });
+    }, true);
+
+    // ═══════════════════════════════════════════════════════════
+    //  6. MEDICAL RECORDS LINK CLICKS
+    // ═══════════════════════════════════════════════════════════
+
+    document.addEventListener('click', function(e) {
+        var link = e.target.closest('a');
+        if (!link) return;
+
+        var href = (link.getAttribute('href') || '').toLowerCase();
+        var text = textOf(link, 200).toLowerCase();
+
+        if (href.indexOf('medical-records') > -1 || text.indexOf('medical records') > -1) {
+            push({
+                'event': 'medical_records_click',
+                'page_type': pageType,
+                'click_text': textOf(link, 100)
+            });
+        }
+    }, true);
+
+    // ═══════════════════════════════════════════════════════════
+    //  7. EXTERNAL LINK CLICKS (outbound)
+    // ═══════════════════════════════════════════════════════════
+
+    document.addEventListener('click', function(e) {
+        var link = e.target.closest('a');
+        if (!link) return;
+
+        var href = link.getAttribute('href') || '';
+        if (!href.match(/^https?:\/\//)) return;
+
+        // Skip if same domain
+        try {
+            var linkHost = new URL(href).hostname;
+            if (linkHost.indexOf('uamshealth.com') > -1 || linkHost.indexOf('uams.edu') > -1) return;
+        } catch(ex) {
+            return;
+        }
+
+        push({
+            'event': 'outbound_link_click',
+            'page_type': pageType,
+            'outbound_url': href,
+            'outbound_domain': linkHost,
+            'click_text': textOf(link, 100)
+        });
+    }, true);
+
+    // ═══════════════════════════════════════════════════════════
+    //  8. FAQ ACCORDION INTERACTIONS
+    // ═══════════════════════════════════════════════════════════
+
+    // Match common accordion/toggle patterns
+    document.addEventListener('click', function(e) {
+        var toggle = e.target.closest('.accordion-header, .faq-question, [data-toggle="collapse"], .wp-block-heading + .wp-block-group, summary, [role="button"][aria-expanded]');
+        if (!toggle) return;
+
+        push({
+            'event': 'faq_interaction',
+            'page_type': pageType,
+            'question_text': textOf(toggle, 150),
+            'page_path': window.location.pathname
+        });
+    }, true);
+
+    // ═══════════════════════════════════════════════════════════
+    //  9. PROVIDER SEARCH FILTERS (FacetWP)
+    // ═══════════════════════════════════════════════════════════
+
+    if (pageType === 'provider_archive' || pageType === 'location_archive') {
+        // FacetWP fires a custom event after filtering
+        document.addEventListener('facetwp-loaded', function() {
+            // Get active filters from FacetWP
+            if (typeof FWP === 'undefined') return;
+
+            var activeFilters = [];
+            for (var facetName in FWP.facets) {
+                if (FWP.facets.hasOwnProperty(facetName)) {
+                    var vals = FWP.facets[facetName];
+                    if (vals && vals.length > 0) {
+                        activeFilters.push({
+                            filter: facetName,
+                            values: vals
+                        });
+                    }
+                }
+            }
+
+            var eventType = '';
+
+            var eventName = pageType === 'provider_archive'
+                ? 'provider_search'
+                : 'location_search';
+
+            if (activeFilters.length === 0) return;
+
+            push({
+                'event': eventName,
+                'page_type': pageType,
+                'filter_count': activeFilters.length,
+                // 'filters': Object.entries(FWP.facets),
+                'filters_keys': activeFilters.map(filter => filter.filter),
+                'filters_values': activeFilters.map(filter => filter.values),
+                'results_count': FWP.settings.pager ? FWP.settings.pager.total_rows : 0
+            });
+        });
+    }
+
+})();
+</script>
+    
+<script type="application/ld+json">
+{
+    "@context": "https://schema.org",
+    "@type": "MedicalOrganization",
+    "name": "UAMS Health",
+    "legalName": "University of Arkansas for Medical Sciences",
+    "url": "https://uamshealth.com",
+    "logo": "https://uamshealth.com/wp-content/themes/uams-2020/assets/svg/uams-logo_health_horizontal_dark_386x50.png",
+    "sameAs": [
+        "https://www.facebook.com/UAMSHealth",
+        "https://twitter.com/uaborhealthcare",
+        "https://www.instagram.com/uamshealth/",
+        "https://www.linkedin.com/company/uams/",
+        "https://www.youtube.com/user/UAMSHealth"
+    ],
+    "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "4301 W. Markham Street",
+        "addressLocality": "Little Rock",
+        "addressRegion": "AR",
+        "postalCode": "72205",
+        "addressCountry": "US"
+    },
+    "telephone": "+1-501-686-7000",
+    "contactPoint": {
+        "@type": "ContactPoint",
+        "telephone": "+1-501-686-8000",
+        "contactType": "patient appointments"
+    }
+}
+</script>
+</body></html>

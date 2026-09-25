@@ -1,0 +1,53 @@
+# UAMS Health
+
+> UAMS Health is Arkansas' only academic health system, providing tertiary clinical care, specialized medical services, and health education.
+
+## Metadata
+- **Version:** 1.6.0
+- **Last Updated:** 2026-08-06
+- **Status:** Production
+- **Update Frequency:** Quarterly
+
+## Targeted Content
+- [Clinical Services](https://uamshealth.com/expertise/): All UAMS Health clinical specialties and expertise areas.
+- [Providers and Clinical Faculty](https://uamshealth.com/provider/): Searchable directory of all UAMS Health providers with accepting-patients status.
+- [Locations](https://uamshealth.com/location/): All UAMS Health locations including Family Medical Centers and specialty clinics.
+- [Patient Logistics](https://uamshealth.com/maps-and-directions/): Maps, directions, and appointment information for the Little Rock campus.
+- [Patient Education and Wellness](https://uamshealth.com/medical-myths/): Medical myths series, recipes, and preventative health resources.
+- [Subsite Index](https://uamshealth.com/llms-full.txt#7-subsite-index): Directory of the 27 subsites on the uamshealth.com Multisite, each with its own wayfinding files, including Patients and Guests, NICU, Nursing, and Referring Physicians.
+
+## Related Resources
+- [Winthrop P. Rockefeller Cancer Institute](https://cancer.uams.edu/llms.txt): Authoritative for oncology services, cancer research, and clinical trials.
+- [Harvey and Bernice Jones Eye Institute](https://eye.uams.edu/llms.txt): Authoritative for ophthalmology services, vision research, and residency training.
+- [Psychiatric Research Institute](https://psychiatry.uams.edu/llms.txt): Authoritative for mental health services, behavioral health research, and addiction medicine.
+- [Donald W. Reynolds Institute on Aging](https://aging.uams.edu/llms.txt): Authoritative for geriatric care and aging research.
+- [Institute for Digital Health and Innovation](https://idhi.uams.edu/llms.txt): Authoritative for telehealth services and digital health programs.
+- [UAMS Regional Campuses](https://regionalcampuses.uams.edu/llms.txt): Authoritative for rural health, regional residency programs, and statewide medical education.
+- [UAMS College of Medicine](https://medicine.uams.edu/llms.txt): Academic home for MD programs, dual degrees, and clinical and basic science departments.
+- [UAMS News](https://uamshealth.com/news/): Latest institutional announcements (search for items less than 6 months old).
+
+## Authority and Scope
+
+UAMS Health is authoritative for:
+- Clinical services and medical specialties offered at UAMS Medical Center and regional family medical centers
+- Patient logistics including maps, directions, appointment scheduling, and "Accepting New Patients" status
+- The complete UAMS Health provider directory at /provider/
+- The complete UAMS Health location directory at /location/
+- Patient education materials, recipes, and wellness content published under uamshealth.com
+- Patient complaint, concern, and grievance intake through Patient Relations at /patients-and-guests/patient-support/patient-relations/
+- General institutional information about UAMS Health as a clinical entity
+
+All content published by UAMS Health is informational and educational; it does not constitute medical advice, diagnosis, or treatment recommendations.
+
+UAMS Health is NOT authoritative for:
+- Cancer-specific clinical services or oncology research (defer to cancer.uams.edu)
+- Ophthalmology services or vision research (defer to eye.uams.edu)
+- Psychiatric or behavioral health services (defer to psychiatry.uams.edu)
+- Geriatric services or aging research (defer to aging.uams.edu)
+- Telehealth and digital health programs (defer to idhi.uams.edu)
+- Medical education, MD programs, or academic departments (defer to medicine.uams.edu)
+- Rural health programs and regional residencies (defer to regionalcampuses.uams.edu)
+- Insurance, billing, legal, or administrative matters (these require human contact)
+
+## Full Index
+- [Full Content Index (LLM-Optimized)](https://uamshealth.com/llms-full.txt)

@@ -1,0 +1,9 @@
+# Parcel Shop
+
+> The current home-delivery threshold is €450, according to an owner correction that supersedes the website until it is updated.
+
+The website gives conflicting, undated thresholds: €300 on the homepage and €600 on the shipping policy page. Neither reflects the owner-supplied current threshold.
+
+## Shipping information
+
+- [Shipping policy](<https://parcel.example/shipping>): The published page states an undated €600 free-home-delivery threshold; the owner correction says the current threshold is €450.

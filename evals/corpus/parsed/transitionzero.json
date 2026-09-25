@@ -1,0 +1,447 @@
+{
+  "parser_version": "corpus-v2",
+  "headings": [
+    {
+      "level": 1,
+      "text": "TransitionZero",
+      "line": 1
+    },
+    {
+      "level": 2,
+      "text": "Optional",
+      "line": 53
+    }
+  ],
+  "links": [
+    {
+      "label": "What is Scenario Builder?",
+      "url": "https://docs.transitionzero.org/platform/scenario-builder.md",
+      "canonical": "https://docs.transitionzero.org/platform/scenario-builder.md",
+      "raw_url": "https://docs.transitionzero.org/platform/scenario-builder.md",
+      "description": "A brief introduction to Scenario Builder, our free, no-code energy system modelling platform for the power sector.",
+      "line": 3
+    },
+    {
+      "label": "Getting Started",
+      "url": "https://docs.transitionzero.org/platform/get-started.md",
+      "canonical": "https://docs.transitionzero.org/platform/get-started.md",
+      "raw_url": "https://docs.transitionzero.org/platform/get-started.md",
+      "description": "Watch a full walkthrough of Scenario Builder, then follow the core workflow to build and run your first model.",
+      "line": 4
+    },
+    {
+      "label": "Creating a Scenario",
+      "url": "https://docs.transitionzero.org/platform/creating-a-scenario.md",
+      "canonical": "https://docs.transitionzero.org/platform/creating-a-scenario.md",
+      "raw_url": "https://docs.transitionzero.org/platform/creating-a-scenario.md",
+      "description": "How to create a project and configure a new scenario: geography, model type, timeline, and temporal resolution.",
+      "line": 5
+    },
+    {
+      "label": "Editing Scenarios",
+      "url": "https://docs.transitionzero.org/platform/editing-scenarios.md",
+      "canonical": "https://docs.transitionzero.org/platform/editing-scenarios.md",
+      "raw_url": "https://docs.transitionzero.org/platform/editing-scenarios.md",
+      "description": "How to duplicate scenarios, customise model inputs, and use CSV templates.",
+      "line": 6
+    },
+    {
+      "label": "Viewing Results",
+      "url": "https://docs.transitionzero.org/platform/viewing-results.md",
+      "canonical": "https://docs.transitionzero.org/platform/viewing-results.md",
+      "raw_url": "https://docs.transitionzero.org/platform/viewing-results.md",
+      "description": "How to read your scenario results: headline metrics, charts, filtering by geography, and downloading the data.",
+      "line": 7
+    },
+    {
+      "label": "Research Question Catalogue",
+      "url": "https://docs.transitionzero.org/platform/research-question-catalogue.md",
+      "canonical": "https://docs.transitionzero.org/platform/research-question-catalogue.md",
+      "raw_url": "https://docs.transitionzero.org/platform/research-question-catalogue.md",
+      "description": "A catalogue of research questions that can be answered using Scenario Builder. Includes implementation details for each question.",
+      "line": 8
+    },
+    {
+      "label": "Input Data Types",
+      "url": "https://docs.transitionzero.org/platform/input-types.md",
+      "canonical": "https://docs.transitionzero.org/platform/input-types.md",
+      "raw_url": "https://docs.transitionzero.org/platform/input-types.md",
+      "description": "A directory of Scenario Builder’s input data types",
+      "line": 9
+    },
+    {
+      "label": "Technologies",
+      "url": "https://docs.transitionzero.org/platform/technologies.md",
+      "canonical": "https://docs.transitionzero.org/platform/technologies.md",
+      "raw_url": "https://docs.transitionzero.org/platform/technologies.md",
+      "description": "A directory of the generation, storage, and network technologies Scenario Builder models",
+      "line": 10
+    },
+    {
+      "label": "Interconnectors",
+      "url": "https://docs.transitionzero.org/platform/interconnectors.md",
+      "canonical": "https://docs.transitionzero.org/platform/interconnectors.md",
+      "raw_url": "https://docs.transitionzero.org/platform/interconnectors.md",
+      "description": "What interconnectors are in a Scenario Builder model, how the calibrated set is chosen, and what happens when you exclude one or limit it to a single direction",
+      "line": 11
+    },
+    {
+      "label": "Data Privacy FAQs",
+      "url": "https://docs.transitionzero.org/platform/data-privacy-faqs.md",
+      "canonical": "https://docs.transitionzero.org/platform/data-privacy-faqs.md",
+      "raw_url": "https://docs.transitionzero.org/platform/data-privacy-faqs.md",
+      "description": "Frequently asked questions about how TransitionZero handles, processes, and stores your data",
+      "line": 12
+    },
+    {
+      "label": "Understanding Infeasibilities",
+      "url": "https://docs.transitionzero.org/platform/infeasibilities.md",
+      "canonical": "https://docs.transitionzero.org/platform/infeasibilities.md",
+      "raw_url": "https://docs.transitionzero.org/platform/infeasibilities.md",
+      "description": "What are infeasible models? How can you prevent them? How can you resolve them?",
+      "line": 13
+    },
+    {
+      "label": "AMP AI Assistant",
+      "url": "https://docs.transitionzero.org/platform/amp-ai-assistant.md",
+      "canonical": "https://docs.transitionzero.org/platform/amp-ai-assistant.md",
+      "raw_url": "https://docs.transitionzero.org/platform/amp-ai-assistant.md",
+      "description": "AMP is an AI assistant designed to help you build, debug, and analyse energy system models directly within Scenario Builder.",
+      "line": 14
+    },
+    {
+      "label": "Run Statuses",
+      "url": "https://docs.transitionzero.org/platform/run-statuses.md",
+      "canonical": "https://docs.transitionzero.org/platform/run-statuses.md",
+      "raw_url": "https://docs.transitionzero.org/platform/run-statuses.md",
+      "description": "This page describes the different statuses that appear when running scenarios in Scenario Builder",
+      "line": 15
+    },
+    {
+      "label": "Model methodology",
+      "url": "https://docs.transitionzero.org/methodology/model-methodology.md",
+      "canonical": "https://docs.transitionzero.org/methodology/model-methodology.md",
+      "raw_url": "https://docs.transitionzero.org/methodology/model-methodology.md",
+      "description": "This section outlines the modelling methodology behind Scenario Builder. Our goal is to make energy system modelling accessible by being transparent about the data, assumptions, and calculations we use - even for those without a technical background. This document is a key part of your learning jour…",
+      "line": 16
+    },
+    {
+      "label": "Model frameworks",
+      "url": "https://docs.transitionzero.org/methodology/model-frameworks.md",
+      "canonical": "https://docs.transitionzero.org/methodology/model-frameworks.md",
+      "raw_url": "https://docs.transitionzero.org/methodology/model-frameworks.md",
+      "description": "This page outlines TransitionZero's model frameworks used for modelling on Scenario Builder",
+      "line": 17
+    },
+    {
+      "label": "Model resolution",
+      "url": "https://docs.transitionzero.org/methodology/model-resolution.md",
+      "canonical": "https://docs.transitionzero.org/methodology/model-resolution.md",
+      "raw_url": "https://docs.transitionzero.org/methodology/model-resolution.md",
+      "description": "This page explains how spatial (geographic) and temporal (time) resolution impacts modelling results.",
+      "line": 18
+    },
+    {
+      "label": "Existing assets",
+      "url": "https://docs.transitionzero.org/methodology/existing-assets.md",
+      "canonical": "https://docs.transitionzero.org/methodology/existing-assets.md",
+      "raw_url": "https://docs.transitionzero.org/methodology/existing-assets.md",
+      "description": "This page discusses how Scenario Builder uses existing asset data, an essential starting input for energy system modelling.",
+      "line": 19
+    },
+    {
+      "label": "Future assets",
+      "url": "https://docs.transitionzero.org/methodology/future-assets.md",
+      "canonical": "https://docs.transitionzero.org/methodology/future-assets.md",
+      "raw_url": "https://docs.transitionzero.org/methodology/future-assets.md",
+      "description": "This page describes input data for future assets, or what could be built in the future.",
+      "line": 20
+    },
+    {
+      "label": "Techno-economic inputs",
+      "url": "https://docs.transitionzero.org/methodology/techno-economic-inputs.md",
+      "canonical": "https://docs.transitionzero.org/methodology/techno-economic-inputs.md",
+      "raw_url": "https://docs.transitionzero.org/methodology/techno-economic-inputs.md",
+      "description": "This page discusses the different types of tecno-economic input data used in energy system modelling",
+      "line": 21
+    },
+    {
+      "label": "Commodity (fuel) prices",
+      "url": "https://docs.transitionzero.org/methodology/commodity-prices.md",
+      "canonical": "https://docs.transitionzero.org/methodology/commodity-prices.md",
+      "raw_url": "https://docs.transitionzero.org/methodology/commodity-prices.md",
+      "description": "This page discusses commodity prices, an essential data input for energy system models.",
+      "line": 22
+    },
+    {
+      "label": "Financial inputs",
+      "url": "https://docs.transitionzero.org/methodology/financial-inputs.md",
+      "canonical": "https://docs.transitionzero.org/methodology/financial-inputs.md",
+      "raw_url": "https://docs.transitionzero.org/methodology/financial-inputs.md",
+      "description": "This page discusses how financial data inputs influence a model",
+      "line": 23
+    },
+    {
+      "label": "Renewable energy potentials",
+      "url": "https://docs.transitionzero.org/methodology/renewable-potentials.md",
+      "canonical": "https://docs.transitionzero.org/methodology/renewable-potentials.md",
+      "raw_url": "https://docs.transitionzero.org/methodology/renewable-potentials.md",
+      "description": "What are RE potentials and how do they impact modelling results?",
+      "line": 24
+    },
+    {
+      "label": "Renewable energy profiles",
+      "url": "https://docs.transitionzero.org/methodology/renewable-profiles.md",
+      "canonical": "https://docs.transitionzero.org/methodology/renewable-profiles.md",
+      "raw_url": "https://docs.transitionzero.org/methodology/renewable-profiles.md",
+      "description": "What are RE profiles, and how do they impact modelling results?",
+      "line": 25
+    },
+    {
+      "label": "Demand",
+      "url": "https://docs.transitionzero.org/methodology/demand-projections.md",
+      "canonical": "https://docs.transitionzero.org/methodology/demand-projections.md",
+      "raw_url": "https://docs.transitionzero.org/methodology/demand-projections.md",
+      "description": "This section outlines the methodology and input data used to develop demand projections within Scenario Builder.",
+      "line": 26
+    },
+    {
+      "label": "Demand profiles",
+      "url": "https://docs.transitionzero.org/methodology/demand-profiles.md",
+      "canonical": "https://docs.transitionzero.org/methodology/demand-profiles.md",
+      "raw_url": "https://docs.transitionzero.org/methodology/demand-profiles.md",
+      "description": "What are electricity demand profiles, and how do they impact model results?",
+      "line": 27
+    },
+    {
+      "label": "Model calibration",
+      "url": "https://docs.transitionzero.org/methodology/model-calibration.md",
+      "canonical": "https://docs.transitionzero.org/methodology/model-calibration.md",
+      "raw_url": "https://docs.transitionzero.org/methodology/model-calibration.md",
+      "description": "This page outlines TransitionZero's model calibration standard met by all models on Scenario Builder",
+      "line": 28
+    },
+    {
+      "label": "Calibrated country models",
+      "url": "https://docs.transitionzero.org/countries/overview.md",
+      "canonical": "https://docs.transitionzero.org/countries/overview.md",
+      "raw_url": "https://docs.transitionzero.org/countries/overview.md",
+      "description": "Browse the calibrated power system models available in Scenario Builder, by country and region.",
+      "line": 29
+    },
+    {
+      "label": "Indonesia",
+      "url": "https://docs.transitionzero.org/countries/indonesia.md",
+      "canonical": "https://docs.transitionzero.org/countries/indonesia.md",
+      "raw_url": "https://docs.transitionzero.org/countries/indonesia.md",
+      "description": "This section provides specific details about Scenario Builder's Indonesia model",
+      "line": 30
+    },
+    {
+      "label": "The Maldives",
+      "url": "https://docs.transitionzero.org/countries/maldives.md",
+      "canonical": "https://docs.transitionzero.org/countries/maldives.md",
+      "raw_url": "https://docs.transitionzero.org/countries/maldives.md",
+      "description": "This section provides specific details about Scenario Builder's model of the Maldives.",
+      "line": 31
+    },
+    {
+      "label": "Samoa",
+      "url": "https://docs.transitionzero.org/countries/samoa.md",
+      "canonical": "https://docs.transitionzero.org/countries/samoa.md",
+      "raw_url": "https://docs.transitionzero.org/countries/samoa.md",
+      "description": "This section provides specific details about Scenario Builder's model of Samoa.",
+      "line": 32
+    },
+    {
+      "label": "Singapore",
+      "url": "https://docs.transitionzero.org/countries/singapore.md",
+      "canonical": "https://docs.transitionzero.org/countries/singapore.md",
+      "raw_url": "https://docs.transitionzero.org/countries/singapore.md",
+      "description": "This section provides specific details about Scenario Builder's model of Singapore.",
+      "line": 33
+    },
+    {
+      "label": "Laos",
+      "url": "https://docs.transitionzero.org/countries/laos.md",
+      "canonical": "https://docs.transitionzero.org/countries/laos.md",
+      "raw_url": "https://docs.transitionzero.org/countries/laos.md",
+      "description": "This section provides specific details about Scenario Builder's model of Laos.",
+      "line": 34
+    },
+    {
+      "label": "Cambodia",
+      "url": "https://docs.transitionzero.org/countries/cambodia.md",
+      "canonical": "https://docs.transitionzero.org/countries/cambodia.md",
+      "raw_url": "https://docs.transitionzero.org/countries/cambodia.md",
+      "description": "This section provides specific details about Scenario Builder's model of Cambodia.",
+      "line": 35
+    },
+    {
+      "label": "Brunei",
+      "url": "https://docs.transitionzero.org/countries/brunei.md",
+      "canonical": "https://docs.transitionzero.org/countries/brunei.md",
+      "raw_url": "https://docs.transitionzero.org/countries/brunei.md",
+      "description": "This section provides specific details about Scenario Builder's model of Brunei.",
+      "line": 36
+    },
+    {
+      "label": "Myanmar",
+      "url": "https://docs.transitionzero.org/countries/myanmar.md",
+      "canonical": "https://docs.transitionzero.org/countries/myanmar.md",
+      "raw_url": "https://docs.transitionzero.org/countries/myanmar.md",
+      "description": "This section provides specific details about Scenario Builder's model of Myanmar.",
+      "line": 37
+    },
+    {
+      "label": "The Philippines",
+      "url": "https://docs.transitionzero.org/countries/philippines.md",
+      "canonical": "https://docs.transitionzero.org/countries/philippines.md",
+      "raw_url": "https://docs.transitionzero.org/countries/philippines.md",
+      "description": "This section provides specific details about Scenario Builder's model of the Philippines.",
+      "line": 38
+    },
+    {
+      "label": "Malaysia",
+      "url": "https://docs.transitionzero.org/countries/malaysia.md",
+      "canonical": "https://docs.transitionzero.org/countries/malaysia.md",
+      "raw_url": "https://docs.transitionzero.org/countries/malaysia.md",
+      "description": "This section provides specific details about Scenario Builder's model of Malaysia.",
+      "line": 39
+    },
+    {
+      "label": "Vietnam",
+      "url": "https://docs.transitionzero.org/countries/vietnam.md",
+      "canonical": "https://docs.transitionzero.org/countries/vietnam.md",
+      "raw_url": "https://docs.transitionzero.org/countries/vietnam.md",
+      "description": "This section provides specific details about Scenario Builder's model of Vietnam.",
+      "line": 40
+    },
+    {
+      "label": "Thailand",
+      "url": "https://docs.transitionzero.org/countries/thailand.md",
+      "canonical": "https://docs.transitionzero.org/countries/thailand.md",
+      "raw_url": "https://docs.transitionzero.org/countries/thailand.md",
+      "description": "This section provides specific details about Scenario Builder's model of Thailand.",
+      "line": 41
+    },
+    {
+      "label": "Japan",
+      "url": "https://docs.transitionzero.org/countries/japan.md",
+      "canonical": "https://docs.transitionzero.org/countries/japan.md",
+      "raw_url": "https://docs.transitionzero.org/countries/japan.md",
+      "description": "This section provides specific details about Scenario Builder's model of Japan.",
+      "line": 42
+    },
+    {
+      "label": "Pakistan",
+      "url": "https://docs.transitionzero.org/countries/pakistan.md",
+      "canonical": "https://docs.transitionzero.org/countries/pakistan.md",
+      "raw_url": "https://docs.transitionzero.org/countries/pakistan.md",
+      "description": "This section provides specific details about Scenario Builder's model of Pakistan.",
+      "line": 43
+    },
+    {
+      "label": "India",
+      "url": "https://docs.transitionzero.org/countries/india.md",
+      "canonical": "https://docs.transitionzero.org/countries/india.md",
+      "raw_url": "https://docs.transitionzero.org/countries/india.md",
+      "description": "This section provides specific details about Scenario Builder's model of India.",
+      "line": 44
+    },
+    {
+      "label": "Bangladesh",
+      "url": "https://docs.transitionzero.org/countries/bangladesh.md",
+      "canonical": "https://docs.transitionzero.org/countries/bangladesh.md",
+      "raw_url": "https://docs.transitionzero.org/countries/bangladesh.md",
+      "description": "This section provides specific details about Scenario Builder's model of Bangladesh.",
+      "line": 45
+    },
+    {
+      "label": "Southeast Asia: ASEAN Power Grid (APG)",
+      "url": "https://docs.transitionzero.org/countries/asean-power-grid.md",
+      "canonical": "https://docs.transitionzero.org/countries/asean-power-grid.md",
+      "raw_url": "https://docs.transitionzero.org/countries/asean-power-grid.md",
+      "description": "This section provides specific details about Scenario Builder's model of ASEAN Power Grid, a multi-country model connecting the electricity systems of all ten ASEAN member states — Brunei, Cambodia, Indonesia, Laos, Malaysia, Myanmar, Philippines, Singapore, Thailand, and Vietnam — covering generati…",
+      "line": 46
+    },
+    {
+      "label": "Global Data and Methodology",
+      "url": "https://docs.transitionzero.org/countries/global-data-and-methodology.md",
+      "canonical": "https://docs.transitionzero.org/countries/global-data-and-methodology.md",
+      "raw_url": "https://docs.transitionzero.org/countries/global-data-and-methodology.md",
+      "description": "",
+      "line": 47
+    },
+    {
+      "label": "Pakistan",
+      "url": "https://docs.transitionzero.org/countries/pakistan-2.md",
+      "canonical": "https://docs.transitionzero.org/countries/pakistan-2.md",
+      "raw_url": "https://docs.transitionzero.org/countries/pakistan-2.md",
+      "description": "This section provides specific details about Scenario Builder's model of Pakistan.",
+      "line": 48
+    },
+    {
+      "label": "South Africa",
+      "url": "https://docs.transitionzero.org/countries/south-africa.md",
+      "canonical": "https://docs.transitionzero.org/countries/south-africa.md",
+      "raw_url": "https://docs.transitionzero.org/countries/south-africa.md",
+      "description": "This section provides specific details about Scenario Builder's model of South Africa.",
+      "line": 49
+    },
+    {
+      "label": "Southern Europe: Western Balkans",
+      "url": "https://docs.transitionzero.org/countries/balkans.md",
+      "canonical": "https://docs.transitionzero.org/countries/balkans.md",
+      "raw_url": "https://docs.transitionzero.org/countries/balkans.md",
+      "description": "This section provides specific details about Scenario Builder's model of the Western Balkans, a multi-country model covering Albania, Bosnia and Herzegovina, Kosovo, Montenegro, North Macedonia, and Serbia, including cross-border trade flows.",
+      "line": 50
+    },
+    {
+      "label": "Get in touch with TransitionZero",
+      "url": "https://docs.transitionzero.org/getintouch.md",
+      "canonical": "https://docs.transitionzero.org/getintouch.md",
+      "raw_url": "https://docs.transitionzero.org/getintouch.md",
+      "description": "If you have any questions, please reach out to support@transitionzero.org",
+      "line": 51
+    },
+    {
+      "label": "About Us",
+      "url": "https://www.transitionzero.org/about-us",
+      "canonical": "https://www.transitionzero.org/about-us",
+      "raw_url": "https://www.transitionzero.org/about-us",
+      "description": "",
+      "line": 55
+    },
+    {
+      "label": "Case Studies",
+      "url": "https://www.transitionzero.org/case-studies",
+      "canonical": "https://www.transitionzero.org/case-studies",
+      "raw_url": "https://www.transitionzero.org/case-studies",
+      "description": "",
+      "line": 56
+    },
+    {
+      "label": "Contact Us",
+      "url": "https://www.transitionzero.org/contact",
+      "canonical": "https://www.transitionzero.org/contact",
+      "raw_url": "https://www.transitionzero.org/contact",
+      "description": "",
+      "line": 57
+    }
+  ],
+  "bare_links": [],
+  "metrics": {
+    "bytes": 9142,
+    "words": 874,
+    "lines": 57,
+    "approx_tokens_chars_div_4": 2283,
+    "h1_count": 1,
+    "link_count": 52,
+    "bare_url_count": 0,
+    "described_links": 48,
+    "unique_destinations": 52,
+    "markdown_destinations": 49
+  },
+  "flags": []
+}

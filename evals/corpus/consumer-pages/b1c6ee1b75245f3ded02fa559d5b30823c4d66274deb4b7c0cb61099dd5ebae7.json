@@ -1,0 +1,155 @@
+{
+  "url": "https://vite.dev/",
+  "title": "Vite | Next Generation Frontend Tooling",
+  "content": "Vite makes web development enjoyable again\nOn demand source file serving over native ESM, with blazing fast dependency pre-bundling.\nInstantly reflect changes as you save, no matter how big your app is.\nTypeScript, JSX, CSS, Workers, WebAssembly... and more just a plugin away.\nAdvanced tree-shaking, built-in minification, fine-grained chunking control powered by Rolldown.\nVite plugins extends Rollup's well-designed plugin interface with a few extra Vite-specific options.\nDesigned to be built on top of.\nIt's never been easier to setup custom SSR (Server-Side Rendering), or build your own SSR framework.\nOur CI continuously tests Vite changes against downstream projects, allowing us to improve Vite with stability and confidence.\nDon't take our word for it - listen to what Vite community members have to say.\nGithub Stars\nWeekly NPM downloads",
+  "links": [
+    {
+      "url": "https://viteconf.org/",
+      "label": "ViteConf 2026 - October 15, Online"
+    },
+    {
+      "url": "https://vite.dev/",
+      "label": ""
+    },
+    {
+      "url": "https://vite.dev/guide/",
+      "label": "Guide"
+    },
+    {
+      "url": "https://vite.dev/config/",
+      "label": "Config"
+    },
+    {
+      "url": "https://vite.dev/plugins/",
+      "label": "Plugins"
+    },
+    {
+      "url": "https://vite.dev/team",
+      "label": "Team"
+    },
+    {
+      "url": "https://vite.dev/blog",
+      "label": "Blog"
+    },
+    {
+      "url": "https://vite.dev/releases",
+      "label": "Releases"
+    },
+    {
+      "url": "https://vite.dev/acknowledgements",
+      "label": "Acknowledgements"
+    },
+    {
+      "url": "https://github.com/vitejs/.github/blob/main/CODE_OF_CONDUCT.md",
+      "label": "Code of Conduct"
+    },
+    {
+      "url": "https://registry.vite.dev/plugins",
+      "label": "Plugin Registry"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=bmWQqAKLgT4",
+      "label": "The Documentary"
+    },
+    {
+      "url": "https://bsky.app/profile/vite.dev",
+      "label": "Bluesky"
+    },
+    {
+      "url": "https://elk.zone/m.webtoo.ls/@vite",
+      "label": "Mastodon"
+    },
+    {
+      "url": "https://x.com/vite_js",
+      "label": "X"
+    },
+    {
+      "url": "https://chat.vite.dev/",
+      "label": "Discord Chat"
+    },
+    {
+      "url": "https://github.com/vitejs/awesome-vite",
+      "label": "Awesome Vite"
+    },
+    {
+      "url": "https://dev.to/t/vite",
+      "label": "DEV Community"
+    },
+    {
+      "url": "https://github.com/vitejs/vite/blob/main/packages/vite/CHANGELOG.md",
+      "label": "Changelog"
+    },
+    {
+      "url": "https://github.com/vitejs/vite/blob/main/CONTRIBUTING.md",
+      "label": "Contributing"
+    },
+    {
+      "url": "https://main.vite.dev/",
+      "label": "Unreleased Docs"
+    },
+    {
+      "url": "https://v7.vite.dev/",
+      "label": "Vite 7 Docs"
+    },
+    {
+      "url": "https://v6.vite.dev/",
+      "label": "Vite 6 Docs"
+    },
+    {
+      "url": "https://v5.vite.dev/",
+      "label": "Vite 5 Docs"
+    },
+    {
+      "url": "https://v4.vite.dev/",
+      "label": "Vite 4 Docs"
+    },
+    {
+      "url": "https://v3.vite.dev/",
+      "label": "Vite 3 Docs"
+    },
+    {
+      "url": "https://v2.vite.dev/",
+      "label": "Vite 2 Docs"
+    },
+    {
+      "url": "https://cn.vite.dev/",
+      "label": "简体中文"
+    },
+    {
+      "url": "https://ja.vite.dev/",
+      "label": "日本語"
+    },
+    {
+      "url": "https://es.vite.dev/",
+      "label": "Español"
+    },
+    {
+      "url": "https://ko.vite.dev/",
+      "label": "한국어"
+    },
+    {
+      "url": "https://de.vite.dev/",
+      "label": "Deutsch"
+    },
+    {
+      "url": "https://github.com/vitejs/vite",
+      "label": ""
+    },
+    {
+      "url": "https://voidzero.dev/",
+      "label": "By"
+    },
+    {
+      "url": "https://github.com/sponsors/vitejs",
+      "label": "Become a Sponsor"
+    },
+    {
+      "url": "https://github.com/vitejs/vite/releases",
+      "label": "Releases"
+    }
+  ],
+  "body_sha256": "04797a62b5b7e1b71ca542a734ee9196e33473412e97f205ae9986c004ab9764",
+  "status": 200,
+  "origin": "frozen-corpus",
+  "retrieved_at": "2026-09-24T22:49:10.519202+00:00"
+}

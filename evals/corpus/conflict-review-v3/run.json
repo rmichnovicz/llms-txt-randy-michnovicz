@@ -1,0 +1,10 @@
+{
+  "mode": "openai",
+  "split": "development",
+  "repeats": 2,
+  "corpus_sha256": "cf32c1040830efe913c1e2b4b8d4a6447e0c3b747a51acb04742f69c693d7c55",
+  "case_count": 3,
+  "started_at": "2026-09-25T01:31:40.675449+00:00",
+  "workers": 3,
+  "prompt_override": null
+}

@@ -1,0 +1,16 @@
+{
+  "url": "https://www.salazarroofing.com/locations",
+  "retrieved_at": "2026-09-24T22:49:15.653083+00:00",
+  "source": {
+    "id": "src_a098358d4b9980c2e6f4",
+    "url": "https://www.salazarroofing.com/locations",
+    "title": "Locations | Salazar Roofing",
+    "description": "Proudly serving residential and commercial owners with roofing services in Oklahoma City for more than 40 years! Learn more about your locations!",
+    "content": "OK #CE80000259\n209 E Main St. Yukon, OK 73099\n1302 SW Lee Blvd. Lawton, OK 73501\nFL #CCC1328320\n2314 S Hopkins Ave.Titusville, FL 32780\n2414 Andalusia Blvd.Cape Coral, FL 33909Unit C\nLA #68698\n3482 S Beglis Pkwy.Sulphur, LA 70665\nCO #244932\n5475 Peoria StBuilding 3, Suite 105Denver, CO 80239",
+    "markdownUrl": null
+  },
+  "status": 200,
+  "final_url": "https://www.salazarroofing.com/locations",
+  "sha256": "44558fddcaf7a6c268e0ecaf57b8f67fe84dfc1d65dc5d7e1c6b3357035cc07a",
+  "content_type": "text/html; charset=utf-8"
+}

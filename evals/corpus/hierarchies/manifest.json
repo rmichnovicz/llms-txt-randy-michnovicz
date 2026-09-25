@@ -1,0 +1,38 @@
+[
+  {
+    "url": "https://svelte.dev/llms.txt",
+    "file": "0.txt",
+    "sha256": "70c9177e2461eaa3c00a3d02c90e5e84f806e030933e60cabed6307929975489",
+    "retrieved_at": "2026-09-25T02:06:31.532453+00:00"
+  },
+  {
+    "url": "https://svelte.dev/docs/svelte/llms.txt",
+    "file": "1.txt",
+    "sha256": "8b966cbbe5288f13b16d0180e3b4fad08e03ff029703d34c4d9b648d494cf1b2",
+    "retrieved_at": "2026-09-25T02:06:31.867996+00:00"
+  },
+  {
+    "url": "https://svelte.dev/docs/kit/llms.txt",
+    "file": "2.txt",
+    "sha256": "3cbb0b9a36f04a7bbf02d5196e6f3f4e75017d4e1a26c430fe876ff696da2cbc",
+    "retrieved_at": "2026-09-25T02:06:32.168690+00:00"
+  },
+  {
+    "url": "https://developers.cloudflare.com/llms.txt",
+    "file": "3.txt",
+    "sha256": "56c67faa37a224b273c15dbc2e5bf4469a344a0485c2e7525f893ad35f77a118",
+    "retrieved_at": "2026-09-25T02:06:32.296021+00:00"
+  },
+  {
+    "url": "https://developers.cloudflare.com/workers/llms.txt",
+    "file": "4.txt",
+    "sha256": "884ddfdbc398ac84047a39ba3acfec9bf1f8e299c3f37bebab4442615f0fbde7",
+    "retrieved_at": "2026-09-25T02:06:32.439848+00:00"
+  },
+  {
+    "url": "https://developers.cloudflare.com/d1/llms.txt",
+    "file": "5.txt",
+    "sha256": "89fa79d48e768f4322d6da50297b81e73822221a501fc33d2bb5d031be3348b6",
+    "retrieved_at": "2026-09-25T02:06:32.578843+00:00"
+  }
+]

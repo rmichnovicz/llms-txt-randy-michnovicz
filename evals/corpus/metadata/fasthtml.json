@@ -1,0 +1,17 @@
+{
+  "id": "fasthtml",
+  "url": "https://www.fastht.ml/docs/llms.txt",
+  "category": "developer-docs",
+  "kind": "actual",
+  "split": "development",
+  "discovery": "https://llmstxt.org/",
+  "retrieved_at": "2026-09-24T22:46:20.342673+00:00",
+  "accepted": true,
+  "status": 200,
+  "final_url": "https://www.fastht.ml/docs/llms.txt",
+  "content_type": "text/plain; charset=utf-8",
+  "sha256": "34b02bd4e790bccce964d602c63a471cb0400e57b40889d1a334db62572e487e",
+  "bytes": 4796,
+  "decode_replacements": 0,
+  "raw_path": "raw/fasthtml.txt"
+}

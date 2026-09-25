@@ -1,0 +1,17 @@
+{
+  "id": "hotelcalifornian",
+  "url": "https://www.hotelcalifornian.com/llms.txt",
+  "category": "hospitality",
+  "kind": "actual",
+  "split": "development",
+  "discovery": "https://llmstxt.site/",
+  "retrieved_at": "2026-09-24T22:46:21.526996+00:00",
+  "accepted": true,
+  "status": 200,
+  "final_url": "https://thehotelsnetwork.com/static/thn-static-content/llms/01F8A2HA5XSHCN0S4PD8A54A9H/llms.txt",
+  "content_type": "text/plain; charset=utf-8",
+  "sha256": "f87b64172bdd9c579dab279eaf077d2dbd8270eb772d367ac0083f277e9131a8",
+  "bytes": 44068,
+  "decode_replacements": 0,
+  "raw_path": "raw/hotelcalifornian.txt"
+}

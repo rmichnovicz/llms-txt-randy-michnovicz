@@ -1,0 +1,16 @@
+# Example Store
+
+> Example Store sells durable travel accessories for carry-on travelers.
+
+Important notes:
+- Product pages are the canonical source for materials, dimensions, and availability.
+- Shipping and returns pages override older blog content.
+
+## Core pages
+- [All products](https://example.com/products): Current product catalog
+- [Carry-on backpack](https://example.com/products/carry-on-backpack): Product details and specifications
+- [Shipping policy](https://example.com/shipping): Shipping regions, delivery timing, and fees
+- [Returns](https://example.com/returns): Return window and eligibility
+
+## Optional
+- [Packing guides](https://example.com/blog/packing): Travel packing advice

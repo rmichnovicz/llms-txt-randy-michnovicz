@@ -1,0 +1,16 @@
+{
+  "url": "https://lowellbooks.com/",
+  "retrieved_at": "2026-09-24T22:49:11.974838+00:00",
+  "source": {
+    "id": "src_9c3fbaf8a7bc5faa5d59",
+    "url": "https://lowellbooks.com/",
+    "title": "Lowell Books | Online Bookstore. Buy books, puzzles, board games, gifts",
+    "description": "Lowell Books is a boutique online bookstore based in London, offering a curated selection of unique and inspiring books. With a focus on quality and discovery, we connect readers with titles that spark imagination and broaden horizons.",
+    "content": "Bestsellers\nLegend, fantasy and adventure combine in the BIGGEST debut of the year. A fast-paced tale of bravery and unlikely friendship for age 9-12.\n            Christopher Galvin\n        \n        \n        \n            HardCover\n        \n        \n        \n        \n            \n                Published:\n                2026\n            \n        \n        \n    \n        \n        \n            12.99\n        \n        \n        £9.50\n        \n        27%",
+    "markdownUrl": null
+  },
+  "status": 200,
+  "final_url": "https://lowellbooks.com/",
+  "sha256": "8bcb14e333940aa4b04ed8f5002adb8b301a60ee852f6b3851b305c57ff582f2",
+  "content_type": "text/html; charset=utf-8"
+}

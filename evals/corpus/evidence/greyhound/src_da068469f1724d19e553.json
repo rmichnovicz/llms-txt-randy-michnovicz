@@ -1,0 +1,16 @@
+{
+  "url": "https://www.greyhound.com.au/",
+  "retrieved_at": "2026-09-24T22:49:21.480738+00:00",
+  "source": {
+    "id": "src_da068469f1724d19e553",
+    "url": "https://www.greyhound.com.au/",
+    "title": "Bus Tickets, Travel Passes & Packages | Greyhound Australia",
+    "description": "Travel with Australia's favourite coach company. Our services offer free Wi-Fi, leather seats, USB chargers, generous luggage allowance & more!",
+    "content": "Australia's Favourite Coach Travel\nChoose passengers\nTravelling from\nTravelling to\nDeparture date\nReturn date\nSelect service or location\nDate of travel\nDate of travel\nTravelling from\nTravelling to\nThe cheapest and most convenient way to travel around Australia.\nWith over 180 stops around the nation on Australia’s most extensive coach network, there are so many places to see and explore.\nOur coaches are just the beginning. From unforgettable experiences to tour and accommodation packages, we'll help you make the most of your travel dollars.",
+    "markdownUrl": null
+  },
+  "status": 200,
+  "final_url": "https://www.greyhound.com.au/",
+  "sha256": "2e7d3d9d2ce849e4f8450687a1fa179090a36aa9b4b6e17cb190d6740c9a8f56",
+  "content_type": "text/html; charset=utf-8"
+}

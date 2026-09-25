@@ -1,0 +1,7 @@
+# Query Cloud
+
+> Query Cloud is a search product for developers and business teams.
+
+## Overview
+
+- [Query Cloud overview](<https://removed-direction-trajectory.example/home>): Introduces the search product and its intended audiences.

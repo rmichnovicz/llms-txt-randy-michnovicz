@@ -1,0 +1,239 @@
+{
+  "url": "https://terminaltrove.com/",
+  "title": "Terminal Trove - The $HOME of all things in the terminal.",
+  "content": "Sponsored By\nBrowse By Categories\nTerminal Tool of The Week\nRun tasks and workflows from Markdown.\nBrowse Newly Added Tools\nAn interactive redis client with autocompletion and syntax highlighting.\nLike btop, but for your AI coding agents.\nA text calculator for natural language expressions with a vim-style TUI.\nA reverse engineering CLI and TUI for PE, ELF and Mach-O binaries.\nRun tasks and workflows from Markdown.\nA terminal file explorer with deep Git integration.\nLike btop, but for your AI coding agents.\nRun tasks and workflows from Markdown.\nBrowse By Language\nConfirm your email to receive updates from Terminal Trove.",
+  "links": [
+    {
+      "url": "https://terminaltrove.com/advertise/",
+      "label": "Advertise"
+    },
+    {
+      "url": "https://terminaltrove.com/explore/",
+      "label": "Explore"
+    },
+    {
+      "url": "https://terminaltrove.com/dev/random/",
+      "label": "...or a random one?"
+    },
+    {
+      "url": "https://coderabbit.link/terminal-trove-montly-002",
+      "label": "Cut Code Review Time & Bugs in Half. Supports TypeScript, Python, Java, Rust, and more.   Install CodeRabbit CLI"
+    },
+    {
+      "url": "https://terminaltrove.com/categories/",
+      "label": "Categories"
+    },
+    {
+      "url": "https://terminaltrove.com/categories/tui/",
+      "label": "TUI"
+    },
+    {
+      "url": "https://terminaltrove.com/categories/cli/",
+      "label": "CLI"
+    },
+    {
+      "url": "https://terminaltrove.com/categories/ai/",
+      "label": "AI"
+    },
+    {
+      "url": "https://terminaltrove.com/categories/llm/",
+      "label": "LLM"
+    },
+    {
+      "url": "https://terminaltrove.com/categories/git/",
+      "label": "GIT"
+    },
+    {
+      "url": "https://terminaltrove.com/categories/monitoring/",
+      "label": "MONITORING"
+    },
+    {
+      "url": "https://terminaltrove.com/categories/networking/",
+      "label": "NETWORKING"
+    },
+    {
+      "url": "https://terminaltrove.com/categories/security/",
+      "label": "SECURITY"
+    },
+    {
+      "url": "https://terminaltrove.com/categories/devops/",
+      "label": "DEVOPS"
+    },
+    {
+      "url": "https://terminaltrove.com/categories/docker/",
+      "label": "DOCKER"
+    },
+    {
+      "url": "https://terminaltrove.com/categories/kubernetes/",
+      "label": "KUBERNETES"
+    },
+    {
+      "url": "https://terminaltrove.com/categories/database/",
+      "label": "DATABASE"
+    },
+    {
+      "url": "https://terminaltrove.com/categories/text-editors/",
+      "label": "TEXT EDITORS"
+    },
+    {
+      "url": "https://terminaltrove.com/tool-of-the-week/",
+      "label": "Tool of The Week"
+    },
+    {
+      "url": "https://terminaltrove.com/upmd/",
+      "label": "upmd Run tasks and workflows from Markdown."
+    },
+    {
+      "url": "https://terminaltrove.com/new/",
+      "label": "New"
+    },
+    {
+      "url": "https://terminaltrove.com/iredis/",
+      "label": "iredis An interactive redis client with autocompletion and syntax highlighting."
+    },
+    {
+      "url": "https://terminaltrove.com/abtop/",
+      "label": "abtop Like btop, but for your AI coding agents."
+    },
+    {
+      "url": "https://terminaltrove.com/numr/",
+      "label": "numr A text calculator for natural language expressions with a vim-style TUI."
+    },
+    {
+      "url": "https://terminaltrove.com/knife/",
+      "label": "knife A reverse engineering CLI and TUI for PE, ELF and Mach-O binaries."
+    },
+    {
+      "url": "https://terminaltrove.com/grut/",
+      "label": "grut A terminal file explorer with deep Git integration."
+    },
+    {
+      "url": "https://terminaltrove.com/language/rust/",
+      "label": "RUST"
+    },
+    {
+      "url": "https://terminaltrove.com/language/python/",
+      "label": "PYTHON"
+    },
+    {
+      "url": "https://terminaltrove.com/language/c/",
+      "label": "C"
+    },
+    {
+      "url": "https://terminaltrove.com/language/haskell/",
+      "label": "HASKELL"
+    },
+    {
+      "url": "https://terminaltrove.com/language/go/",
+      "label": "GOLANG"
+    },
+    {
+      "url": "https://terminaltrove.com/language/javascript/",
+      "label": "JS"
+    },
+    {
+      "url": "https://terminaltrove.com/language/cpp/",
+      "label": "C++"
+    },
+    {
+      "url": "https://terminaltrove.com/language/shell/",
+      "label": "SHELL"
+    },
+    {
+      "url": "https://terminaltrove.com/",
+      "label": "Terminal Trove"
+    },
+    {
+      "url": "https://terminaltrove.com/list/",
+      "label": "List"
+    },
+    {
+      "url": "https://terminaltrove.com/blog/",
+      "label": "Blog"
+    },
+    {
+      "url": "https://terminaltrove.com/compare/terminals/",
+      "label": "Compare Terminals"
+    },
+    {
+      "url": "https://terminaltrove.com/compare/ai-coding-agents/",
+      "label": "Compare AI Coding Agents"
+    },
+    {
+      "url": "https://terminaltrove.com/terminals/",
+      "label": "Terminals"
+    },
+    {
+      "url": "https://terminaltrove.com/ai-coding-agents/",
+      "label": "AI Coding Agents"
+    },
+    {
+      "url": "https://terminaltrove.com/about/",
+      "label": "About"
+    },
+    {
+      "url": "https://terminaltrove.com/submit/",
+      "label": "Submit a Tool"
+    },
+    {
+      "url": "https://news.terminaltrove.com/emails/webview/717057/109290368538772875",
+      "label": "See an example update."
+    },
+    {
+      "url": "https://x.com/terminaltrove",
+      "label": ""
+    },
+    {
+      "url": "https://instagram.com/terminaltrove",
+      "label": ""
+    },
+    {
+      "url": "https://mastodon.social/@terminaltrove",
+      "label": ""
+    },
+    {
+      "url": "https://bsky.app/profile/terminaltrove.bsky.social",
+      "label": ""
+    },
+    {
+      "url": "https://threads.net/terminaltrove",
+      "label": ""
+    },
+    {
+      "url": "https://github.com/terminaltrove",
+      "label": ""
+    },
+    {
+      "url": "https://tiktok.com/@terminaltrove",
+      "label": ""
+    },
+    {
+      "url": "https://www.facebook.com/terminaltrove",
+      "label": ""
+    },
+    {
+      "url": "https://www.linkedin.com/company/terminaltrove/",
+      "label": ""
+    },
+    {
+      "url": "https://terminaltrove.com/privacy/",
+      "label": "privacy"
+    },
+    {
+      "url": "https://terminaltrove.com/terms/",
+      "label": "terms"
+    },
+    {
+      "url": "https://terminaltrove.com/feeds/",
+      "label": "feeds"
+    },
+    {
+      "url": "https://terminaltrove.com/compare/",
+      "label": "compare"
+    }
+  ],
+  "body_sha256": "aef12130f7c08c30965487a35cb005b70055569dfb059c09c1134b288fcf8cbd",
+  "status": 200,
+  "origin": "frozen-corpus",
+  "retrieved_at": "2026-09-24T22:49:21.572736+00:00"
+}

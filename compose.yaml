@@ -1,0 +1,18 @@
+services:
+  postgres:
+    image: postgres:16-alpine
+    environment:
+      POSTGRES_USER: brief
+      POSTGRES_PASSWORD: brief-local-only
+      POSTGRES_DB: brief
+    ports:
+      - "127.0.0.1:55432:5432"
+    volumes:
+      - brief-postgres:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U brief -d brief"]
+      interval: 2s
+      timeout: 3s
+      retries: 20
+volumes:
+  brief-postgres:

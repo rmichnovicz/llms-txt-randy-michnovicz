@@ -1,0 +1,31 @@
+{
+  "case_id": "shelter-priority",
+  "judge_prompt_version": "dialogue-review-v1",
+  "payload_sha256": "5119dec59928a6832943cefd07741cf35c60ebbaf84e17c749a0472d69bd189a",
+  "advisory": true,
+  "model": "gpt-6-sol",
+  "judgment": {
+    "scores": {
+      "question_value": 2,
+      "options": 2,
+      "recommendation_reason": 2,
+      "answer_fidelity": 2,
+      "decision_lifecycle": 2
+    },
+    "issues": [],
+    "summary": "The dialogue identifies the consequential one-link audience choice, offers distinct actionable options, and uses a reversible intake default without claiming to know the owner's intent. Every supplied branch honors its active decision, including the donor and custom answers; dismissal, extra-question mode, and removal are handled appropriately."
+  },
+  "anchor_errors": [],
+  "usage": {
+    "input_tokens": 4363,
+    "input_tokens_details": {
+      "cache_write_tokens": 4360,
+      "cached_tokens": 0
+    },
+    "output_tokens": 259,
+    "output_tokens_details": {
+      "reasoning_tokens": 156
+    },
+    "total_tokens": 4622
+  }
+}

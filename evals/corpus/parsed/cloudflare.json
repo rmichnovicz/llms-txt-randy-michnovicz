@@ -1,0 +1,929 @@
+{
+  "parser_version": "corpus-v2",
+  "headings": [
+    {
+      "level": 1,
+      "text": "Cloudflare Developer Documentation",
+      "line": 1
+    },
+    {
+      "level": 2,
+      "text": "Application performance",
+      "line": 7
+    },
+    {
+      "level": 2,
+      "text": "Application security",
+      "line": 25
+    },
+    {
+      "level": 2,
+      "text": "Cloudflare One",
+      "line": 40
+    },
+    {
+      "level": 2,
+      "text": "Consumer services",
+      "line": 49
+    },
+    {
+      "level": 2,
+      "text": "Core platform",
+      "line": 55
+    },
+    {
+      "level": 2,
+      "text": "Developer platform",
+      "line": 79
+    },
+    {
+      "level": 2,
+      "text": "Docs collections",
+      "line": 120
+    },
+    {
+      "level": 2,
+      "text": "Network security",
+      "line": 124
+    },
+    {
+      "level": 2,
+      "text": "Other",
+      "line": 132
+    }
+  ],
+  "links": [
+    {
+      "label": "Argo Smart Routing",
+      "url": "https://developers.cloudflare.com/argo-smart-routing/llms.txt",
+      "canonical": "https://developers.cloudflare.com/argo-smart-routing/llms.txt",
+      "raw_url": "https://developers.cloudflare.com/argo-smart-routing/llms.txt",
+      "description": "Route web traffic across the fastest, most reliable network paths",
+      "line": 9
+    },
+    {
+      "label": "Automatic Platform Optimization",
+      "url": "https://developers.cloudflare.com/automatic-platform-optimization/llms.txt",
+      "canonical": "https://developers.cloudflare.com/automatic-platform-optimization/llms.txt",
+      "raw_url": "https://developers.cloudflare.com/automatic-platform-optimization/llms.txt",
+      "description": "Improve WordPress site performance by serving it from Cloudflare's global network",
+      "line": 10
+    },
+    {
+      "label": "Cache / CDN",
+      "url": "https://developers.cloudflare.com/cache/llms.txt",
+      "canonical": "https://developers.cloudflare.com/cache/llms.txt",
+      "raw_url": "https://developers.cloudflare.com/cache/llms.txt",
+      "description": "Make websites faster by caching content across our global server network",
+      "line": 11
+    },
+    {
+      "label": "China Network",
+      "url": "https://developers.cloudflare.com/china-network/llms.txt",
+      "canonical": "https://developers.cloudflare.com/china-network/llms.txt",
+      "raw_url": "https://developers.cloudflare.com/china-network/llms.txt",
+      "description": "Fast, global network serving visitors inside and outside of China",
+      "line": 12
+    },
+    {
+      "label": "Cloudflare Web Analytics",
+      "url": "https://developers.cloudflare.com/web-analytics/llms.txt",
+      "canonical": "https://developers.cloudflare.com/web-analytics/llms.txt",
+      "raw_url": "https://developers.cloudflare.com/web-analytics/llms.txt",
+      "description": "Get vital web analytics for your website",
+      "line": 13
+    },
+    {
+      "label": "DNS",
+      "url": "https://developers.cloudflare.com/dns/llms.txt",
+      "canonical": "https://developers.cloudflare.com/dns/llms.txt",
+      "raw_url": "https://developers.cloudflare.com/dns/llms.txt",
+      "description": "Deliver excellent performance and reliability to your domain",
+      "line": 14
+    },
+    {
+      "label": "Google tag gateway for advertisers",
+      "url": "https://developers.cloudflare.com/google-tag-gateway/llms.txt",
+      "canonical": "https://developers.cloudflare.com/google-tag-gateway/llms.txt",
+      "raw_url": "https://developers.cloudflare.com/google-tag-gateway/llms.txt",
+      "description": "Add a layer of data security and privacy controls when using Google Tag Manager",
+      "line": 15
+    },
+    {
+      "label": "Health Checks",
+      "url": "https://developers.cloudflare.com/health-checks/llms.txt",
+      "canonical": "https://developers.cloudflare.com/health-checks/llms.txt",
+      "raw_url": "https://developers.cloudflare.com/health-checks/llms.txt",
+      "description": "Monitor IPs or hostnames and get notified of issues",
+      "line": 16
+    },
+    {
+      "label": "Load Balancing",
+      "url": "https://developers.cloudflare.com/load-balancing/llms.txt",
+      "canonical": "https://developers.cloudflare.com/load-balancing/llms.txt",
+      "raw_url": "https://developers.cloudflare.com/load-balancing/llms.txt",
+      "description": "Maximize application performance and availability",
+      "line": 17
+    },
+    {
+      "label": "Smart Shield",
+      "url": "https://developers.cloudflare.com/smart-shield/llms.txt",
+      "canonical": "https://developers.cloudflare.com/smart-shield/llms.txt",
+      "raw_url": "https://developers.cloudflare.com/smart-shield/llms.txt",
+      "description": "Safeguard your origin with just a few clicks.",
+      "line": 18
+    },
+    {
+      "label": "Spectrum",
+      "url": "https://developers.cloudflare.com/spectrum/llms.txt",
+      "canonical": "https://developers.cloudflare.com/spectrum/llms.txt",
+      "raw_url": "https://developers.cloudflare.com/spectrum/llms.txt",
+      "description": "Secure and accelerate any TCP or UDP-based application",
+      "line": 19
+    },
+    {
+      "label": "Speed",
+      "url": "https://developers.cloudflare.com/speed/llms.txt",
+      "canonical": "https://developers.cloudflare.com/speed/llms.txt",
+      "raw_url": "https://developers.cloudflare.com/speed/llms.txt",
+      "description": "Improve the performance of your website or web application",
+      "line": 20
+    },
+    {
+      "label": "SSL/TLS",
+      "url": "https://developers.cloudflare.com/ssl/llms.txt",
+      "canonical": "https://developers.cloudflare.com/ssl/llms.txt",
+      "raw_url": "https://developers.cloudflare.com/ssl/llms.txt",
+      "description": "Encrypt your web traffic to prevent data theft and other tampering",
+      "line": 21
+    },
+    {
+      "label": "Waiting Room",
+      "url": "https://developers.cloudflare.com/waiting-room/llms.txt",
+      "canonical": "https://developers.cloudflare.com/waiting-room/llms.txt",
+      "raw_url": "https://developers.cloudflare.com/waiting-room/llms.txt",
+      "description": "Create a virtual waiting room to manage peak traffic",
+      "line": 22
+    },
+    {
+      "label": "Web3",
+      "url": "https://developers.cloudflare.com/web3/llms.txt",
+      "canonical": "https://developers.cloudflare.com/web3/llms.txt",
+      "raw_url": "https://developers.cloudflare.com/web3/llms.txt",
+      "description": "Gateways to networks to help you develop applications without worrying about running infrastructure",
+      "line": 23
+    },
+    {
+      "label": "API Shield",
+      "url": "https://developers.cloudflare.com/api-shield/llms.txt",
+      "canonical": "https://developers.cloudflare.com/api-shield/llms.txt",
+      "raw_url": "https://developers.cloudflare.com/api-shield/llms.txt",
+      "description": "Identify and address your API vulnerabilities",
+      "line": 27
+    },
+    {
+      "label": "Bots",
+      "url": "https://developers.cloudflare.com/bots/llms.txt",
+      "canonical": "https://developers.cloudflare.com/bots/llms.txt",
+      "raw_url": "https://developers.cloudflare.com/bots/llms.txt",
+      "description": "Protect your domain from bad bot traffic",
+      "line": 28
+    },
+    {
+      "label": "Challenges",
+      "url": "https://developers.cloudflare.com/cloudflare-challenges/llms.txt",
+      "canonical": "https://developers.cloudflare.com/cloudflare-challenges/llms.txt",
+      "raw_url": "https://developers.cloudflare.com/cloudflare-challenges/llms.txt",
+      "description": "Verify visitors are not bots with lightweight challenges",
+      "line": 29
+    },
+    {
+      "label": "Client-side security",
+      "url": "https://developers.cloudflare.com/client-side-security/llms.txt",
+      "canonical": "https://developers.cloudflare.com/client-side-security/llms.txt",
+      "raw_url": "https://developers.cloudflare.com/client-side-security/llms.txt",
+      "description": "Provide client-side protection for your website visitors",
+      "line": 30
+    },
+    {
+      "label": "DDoS Protection",
+      "url": "https://developers.cloudflare.com/ddos-protection/llms.txt",
+      "canonical": "https://developers.cloudflare.com/ddos-protection/llms.txt",
+      "raw_url": "https://developers.cloudflare.com/ddos-protection/llms.txt",
+      "description": "Protect against DDoS attacks automatically with uncompromised performance",
+      "line": 31
+    },
+    {
+      "label": "DMARC Management",
+      "url": "https://developers.cloudflare.com/dmarc-management/llms.txt",
+      "canonical": "https://developers.cloudflare.com/dmarc-management/llms.txt",
+      "raw_url": "https://developers.cloudflare.com/dmarc-management/llms.txt",
+      "description": "Protect your email domain and stop brand impersonation",
+      "line": 32
+    },
+    {
+      "label": "Firewall Rules (deprecated)",
+      "url": "https://developers.cloudflare.com/firewall/llms.txt",
+      "canonical": "https://developers.cloudflare.com/firewall/llms.txt",
+      "raw_url": "https://developers.cloudflare.com/firewall/llms.txt",
+      "description": "Create rules that examine incoming HTTP traffic against a set of powerful filters to block, challenge, log, or allow matching requests. Firewall Rules have been replaced with WAF custom rules.",
+      "line": 33
+    },
+    {
+      "label": "Key Transparency Auditor",
+      "url": "https://developers.cloudflare.com/key-transparency/llms.txt",
+      "canonical": "https://developers.cloudflare.com/key-transparency/llms.txt",
+      "raw_url": "https://developers.cloudflare.com/key-transparency/llms.txt",
+      "description": "Secure the distribution of public keys in E2EE messaging systems",
+      "line": 34
+    },
+    {
+      "label": "Secrets Store",
+      "url": "https://developers.cloudflare.com/secrets-store/llms.txt",
+      "canonical": "https://developers.cloudflare.com/secrets-store/llms.txt",
+      "raw_url": "https://developers.cloudflare.com/secrets-store/llms.txt",
+      "description": "Encrypt and store sensitive information as secrets that are securely reusable across an account",
+      "line": 35
+    },
+    {
+      "label": "Security Center",
+      "url": "https://developers.cloudflare.com/security-center/llms.txt",
+      "canonical": "https://developers.cloudflare.com/security-center/llms.txt",
+      "raw_url": "https://developers.cloudflare.com/security-center/llms.txt",
+      "description": "Enhance your security posture with a range of security products and one-click solutions",
+      "line": 36
+    },
+    {
+      "label": "Turnstile",
+      "url": "https://developers.cloudflare.com/turnstile/llms.txt",
+      "canonical": "https://developers.cloudflare.com/turnstile/llms.txt",
+      "raw_url": "https://developers.cloudflare.com/turnstile/llms.txt",
+      "description": "Turnstile is Cloudflare's smart CAPTCHA alternative",
+      "line": 37
+    },
+    {
+      "label": "WAF",
+      "url": "https://developers.cloudflare.com/waf/llms.txt",
+      "canonical": "https://developers.cloudflare.com/waf/llms.txt",
+      "raw_url": "https://developers.cloudflare.com/waf/llms.txt",
+      "description": "Filter incoming traffic and protect against web app vulnerabilities",
+      "line": 38
+    },
+    {
+      "label": "Cloudflare Mesh",
+      "url": "https://developers.cloudflare.com/mesh/llms.txt",
+      "canonical": "https://developers.cloudflare.com/mesh/llms.txt",
+      "raw_url": "https://developers.cloudflare.com/mesh/llms.txt",
+      "description": "Connect services and devices with post-quantum encrypted mesh networking",
+      "line": 42
+    },
+    {
+      "label": "Cloudflare Network Firewall",
+      "url": "https://developers.cloudflare.com/cloudflare-network-firewall/llms.txt",
+      "canonical": "https://developers.cloudflare.com/cloudflare-network-firewall/llms.txt",
+      "raw_url": "https://developers.cloudflare.com/cloudflare-network-firewall/llms.txt",
+      "description": "Protect your enterprise network with advanced firewall-as-a-service protection",
+      "line": 43
+    },
+    {
+      "label": "Cloudflare One",
+      "url": "https://developers.cloudflare.com/cloudflare-one/llms.txt",
+      "canonical": "https://developers.cloudflare.com/cloudflare-one/llms.txt",
+      "raw_url": "https://developers.cloudflare.com/cloudflare-one/llms.txt",
+      "description": "Replace legacy security perimeters with Cloudflare's network to protect your organization",
+      "line": 44
+    },
+    {
+      "label": "Cloudflare WAN",
+      "url": "https://developers.cloudflare.com/cloudflare-wan/llms.txt",
+      "canonical": "https://developers.cloudflare.com/cloudflare-wan/llms.txt",
+      "raw_url": "https://developers.cloudflare.com/cloudflare-wan/llms.txt",
+      "description": "Replace legacy WAN and securely connect any traffic source to Cloudflare's network",
+      "line": 45
+    },
+    {
+      "label": "Data Localization Suite",
+      "url": "https://developers.cloudflare.com/data-localization/llms.txt",
+      "canonical": "https://developers.cloudflare.com/data-localization/llms.txt",
+      "raw_url": "https://developers.cloudflare.com/data-localization/llms.txt",
+      "description": "Control where Cloudflare stores and inspects data",
+      "line": 46
+    },
+    {
+      "label": "Multi-Cloud Networking",
+      "url": "https://developers.cloudflare.com/multi-cloud-networking/llms.txt",
+      "canonical": "https://developers.cloudflare.com/multi-cloud-networking/llms.txt",
+      "raw_url": "https://developers.cloudflare.com/multi-cloud-networking/llms.txt",
+      "description": "Automate resource discovery and simplify managing your public cloud infrastructure",
+      "line": 47
+    },
+    {
+      "label": "1.1.1.1 (DNS Resolver)",
+      "url": "https://developers.cloudflare.com/1.1.1.1/llms.txt",
+      "canonical": "https://developers.cloudflare.com/1.1.1.1/llms.txt",
+      "raw_url": "https://developers.cloudflare.com/1.1.1.1/llms.txt",
+      "description": "A blazing fast DNS resolver built for private browsing",
+      "line": 51
+    },
+    {
+      "label": "Radar",
+      "url": "https://developers.cloudflare.com/radar/llms.txt",
+      "canonical": "https://developers.cloudflare.com/radar/llms.txt",
+      "raw_url": "https://developers.cloudflare.com/radar/llms.txt",
+      "description": "Investigate Internet usage around the world using Cloudflare's data",
+      "line": 52
+    },
+    {
+      "label": "WARP Client",
+      "url": "https://developers.cloudflare.com/warp-client/llms.txt",
+      "canonical": "https://developers.cloudflare.com/warp-client/llms.txt",
+      "raw_url": "https://developers.cloudflare.com/warp-client/llms.txt",
+      "description": "Allows individuals or organizations to have a faster, more secure connection to the Internet",
+      "line": 53
+    },
+    {
+      "label": "AI Crawl Control",
+      "url": "https://developers.cloudflare.com/ai-crawl-control/llms.txt",
+      "canonical": "https://developers.cloudflare.com/ai-crawl-control/llms.txt",
+      "raw_url": "https://developers.cloudflare.com/ai-crawl-control/llms.txt",
+      "description": "Analyze and control third-party AI crawlers in your website",
+      "line": 57
+    },
+    {
+      "label": "Analytics",
+      "url": "https://developers.cloudflare.com/analytics/llms.txt",
+      "canonical": "https://developers.cloudflare.com/analytics/llms.txt",
+      "raw_url": "https://developers.cloudflare.com/analytics/llms.txt",
+      "description": "Visualize the performance, security, and reliability data collected by Cloudflare products",
+      "line": 58
+    },
+    {
+      "label": "Billing",
+      "url": "https://developers.cloudflare.com/billing/llms.txt",
+      "canonical": "https://developers.cloudflare.com/billing/llms.txt",
+      "raw_url": "https://developers.cloudflare.com/billing/llms.txt",
+      "description": "Manage billing, plans, and subscriptions for your account",
+      "line": 59
+    },
+    {
+      "label": "Cloudflare Fundamentals",
+      "url": "https://developers.cloudflare.com/fundamentals/llms.txt",
+      "canonical": "https://developers.cloudflare.com/fundamentals/llms.txt",
+      "raw_url": "https://developers.cloudflare.com/fundamentals/llms.txt",
+      "description": "Learn about using Cloudflare and features that span across Cloudflare products",
+      "line": 60
+    },
+    {
+      "label": "Cloudflare Tunnel",
+      "url": "https://developers.cloudflare.com/tunnel/llms.txt",
+      "canonical": "https://developers.cloudflare.com/tunnel/llms.txt",
+      "raw_url": "https://developers.cloudflare.com/tunnel/llms.txt",
+      "description": "Connect your origin servers, APIs, and services to Cloudflare without a publicly routable IP address",
+      "line": 61
+    },
+    {
+      "label": "Log Explorer",
+      "url": "https://developers.cloudflare.com/log-explorer/llms.txt",
+      "canonical": "https://developers.cloudflare.com/log-explorer/llms.txt",
+      "raw_url": "https://developers.cloudflare.com/log-explorer/llms.txt",
+      "description": "Store and explore your logs in the Cloudflare dashboard or API",
+      "line": 62
+    },
+    {
+      "label": "Logs",
+      "url": "https://developers.cloudflare.com/logs/llms.txt",
+      "canonical": "https://developers.cloudflare.com/logs/llms.txt",
+      "raw_url": "https://developers.cloudflare.com/logs/llms.txt",
+      "description": "Access detailed logs with metadata from Cloudflare products",
+      "line": 63
+    },
+    {
+      "label": "Network",
+      "url": "https://developers.cloudflare.com/network/llms.txt",
+      "canonical": "https://developers.cloudflare.com/network/llms.txt",
+      "raw_url": "https://developers.cloudflare.com/network/llms.txt",
+      "description": "Manage Cloudflare network settings for your website",
+      "line": 64
+    },
+    {
+      "label": "Notifications",
+      "url": "https://developers.cloudflare.com/notifications/llms.txt",
+      "canonical": "https://developers.cloudflare.com/notifications/llms.txt",
+      "raw_url": "https://developers.cloudflare.com/notifications/llms.txt",
+      "description": "Define what you want to be notified about and how",
+      "line": 65
+    },
+    {
+      "label": "Pulumi",
+      "url": "https://developers.cloudflare.com/pulumi/llms.txt",
+      "canonical": "https://developers.cloudflare.com/pulumi/llms.txt",
+      "raw_url": "https://developers.cloudflare.com/pulumi/llms.txt",
+      "description": "Create, deploy, and manage Cloudflare resources in various programming languages",
+      "line": 66
+    },
+    {
+      "label": "Randomness Beacon",
+      "url": "https://developers.cloudflare.com/randomness-beacon/llms.txt",
+      "canonical": "https://developers.cloudflare.com/randomness-beacon/llms.txt",
+      "raw_url": "https://developers.cloudflare.com/randomness-beacon/llms.txt",
+      "description": "Explore drand, a distributed service providing randomness to applications",
+      "line": 67
+    },
+    {
+      "label": "Reference Architecture",
+      "url": "https://developers.cloudflare.com/reference-architecture/llms.txt",
+      "canonical": "https://developers.cloudflare.com/reference-architecture/llms.txt",
+      "raw_url": "https://developers.cloudflare.com/reference-architecture/llms.txt",
+      "description": "Guides and diagrams explain Cloudflare products and how to integrate with IT architectures",
+      "line": 68
+    },
+    {
+      "label": "Registrar",
+      "url": "https://developers.cloudflare.com/registrar/llms.txt",
+      "canonical": "https://developers.cloudflare.com/registrar/llms.txt",
+      "raw_url": "https://developers.cloudflare.com/registrar/llms.txt",
+      "description": "Buy and renew your domain at cost, add another layer of security to your DNS records for free",
+      "line": 69
+    },
+    {
+      "label": "Resource Tagging",
+      "url": "https://developers.cloudflare.com/resource-tagging/llms.txt",
+      "canonical": "https://developers.cloudflare.com/resource-tagging/llms.txt",
+      "raw_url": "https://developers.cloudflare.com/resource-tagging/llms.txt",
+      "description": "Attach key-value metadata to Cloudflare resources for organization, access control, and billing attribution",
+      "line": 70
+    },
+    {
+      "label": "Rules",
+      "url": "https://developers.cloudflare.com/rules/llms.txt",
+      "canonical": "https://developers.cloudflare.com/rules/llms.txt",
+      "raw_url": "https://developers.cloudflare.com/rules/llms.txt",
+      "description": "Modify incoming requests, change Cloudflare settings, or trigger actions",
+      "line": 71
+    },
+    {
+      "label": "Ruleset Engine",
+      "url": "https://developers.cloudflare.com/ruleset-engine/llms.txt",
+      "canonical": "https://developers.cloudflare.com/ruleset-engine/llms.txt",
+      "raw_url": "https://developers.cloudflare.com/ruleset-engine/llms.txt",
+      "description": "Create rulesets and rules for different Cloudflare products",
+      "line": 72
+    },
+    {
+      "label": "Support",
+      "url": "https://developers.cloudflare.com/support/llms.txt",
+      "canonical": "https://developers.cloudflare.com/support/llms.txt",
+      "raw_url": "https://developers.cloudflare.com/support/llms.txt",
+      "description": "Cloudflare Support-focused documentation",
+      "line": 73
+    },
+    {
+      "label": "Tenant",
+      "url": "https://developers.cloudflare.com/tenant/llms.txt",
+      "canonical": "https://developers.cloudflare.com/tenant/llms.txt",
+      "raw_url": "https://developers.cloudflare.com/tenant/llms.txt",
+      "description": "Provision and manage Cloudflare accounts and services for your team or customers",
+      "line": 74
+    },
+    {
+      "label": "Terraform",
+      "url": "https://developers.cloudflare.com/terraform/llms.txt",
+      "canonical": "https://developers.cloudflare.com/terraform/llms.txt",
+      "raw_url": "https://developers.cloudflare.com/terraform/llms.txt",
+      "description": "Define and store Cloudflare configurations in source code repositories like GitHub",
+      "line": 75
+    },
+    {
+      "label": "Time Services",
+      "url": "https://developers.cloudflare.com/time-services/llms.txt",
+      "canonical": "https://developers.cloudflare.com/time-services/llms.txt",
+      "raw_url": "https://developers.cloudflare.com/time-services/llms.txt",
+      "description": "Cloudflare's suite of time services: NTP, NTS, and Roughtime",
+      "line": 76
+    },
+    {
+      "label": "Version Management",
+      "url": "https://developers.cloudflare.com/version-management/llms.txt",
+      "canonical": "https://developers.cloudflare.com/version-management/llms.txt",
+      "raw_url": "https://developers.cloudflare.com/version-management/llms.txt",
+      "description": "Safely manage configurations on Cloudflare's global network with versioning, staging, and rollbacks",
+      "line": 77
+    },
+    {
+      "label": "Agent Lee",
+      "url": "https://developers.cloudflare.com/agent-lee/llms.txt",
+      "canonical": "https://developers.cloudflare.com/agent-lee/llms.txt",
+      "raw_url": "https://developers.cloudflare.com/agent-lee/llms.txt",
+      "description": "An AI co-pilot built into the Cloudflare dashboard that helps you navigate, configure, and take actions on Cloudflare services",
+      "line": 81
+    },
+    {
+      "label": "Agent Memory",
+      "url": "https://developers.cloudflare.com/agent-memory/llms.txt",
+      "canonical": "https://developers.cloudflare.com/agent-memory/llms.txt",
+      "raw_url": "https://developers.cloudflare.com/agent-memory/llms.txt",
+      "description": "Persistent AI-powered memory for agents and applications — automatically extract, classify, and recall knowledge from conversations",
+      "line": 82
+    },
+    {
+      "label": "Agents",
+      "url": "https://developers.cloudflare.com/agents/llms.txt",
+      "canonical": "https://developers.cloudflare.com/agents/llms.txt",
+      "raw_url": "https://developers.cloudflare.com/agents/llms.txt",
+      "description": "Build AI-powered agents to perform tasks, persist state, browse the web, and communicate in real-time",
+      "line": 83
+    },
+    {
+      "label": "AI",
+      "url": "https://developers.cloudflare.com/ai/llms.txt",
+      "canonical": "https://developers.cloudflare.com/ai/llms.txt",
+      "raw_url": "https://developers.cloudflare.com/ai/llms.txt",
+      "description": "Run AI models on Cloudflare's global network",
+      "line": 84
+    },
+    {
+      "label": "AI Gateway",
+      "url": "https://developers.cloudflare.com/ai-gateway/llms.txt",
+      "canonical": "https://developers.cloudflare.com/ai-gateway/llms.txt",
+      "raw_url": "https://developers.cloudflare.com/ai-gateway/llms.txt",
+      "description": "Observe and control your AI applications",
+      "line": 85
+    },
+    {
+      "label": "AI Search",
+      "url": "https://developers.cloudflare.com/ai-search/llms.txt",
+      "canonical": "https://developers.cloudflare.com/ai-search/llms.txt",
+      "raw_url": "https://developers.cloudflare.com/ai-search/llms.txt",
+      "description": "Create fully managed RAG pipelines for your AI applications",
+      "line": 86
+    },
+    {
+      "label": "Artifacts",
+      "url": "https://developers.cloudflare.com/artifacts/llms.txt",
+      "canonical": "https://developers.cloudflare.com/artifacts/llms.txt",
+      "raw_url": "https://developers.cloudflare.com/artifacts/llms.txt",
+      "description": "Store, version, and share filesystem artifacts across Workers, APIs, and git-compatible tools",
+      "line": 87
+    },
+    {
+      "label": "Browser Run",
+      "url": "https://developers.cloudflare.com/browser-run/llms.txt",
+      "canonical": "https://developers.cloudflare.com/browser-run/llms.txt",
+      "raw_url": "https://developers.cloudflare.com/browser-run/llms.txt",
+      "description": "Control and interact with headless browser instances programmatically",
+      "line": 88
+    },
+    {
+      "label": "Cloudflare for Platforms",
+      "url": "https://developers.cloudflare.com/cloudflare-for-platforms/llms.txt",
+      "canonical": "https://developers.cloudflare.com/cloudflare-for-platforms/llms.txt",
+      "raw_url": "https://developers.cloudflare.com/cloudflare-for-platforms/llms.txt",
+      "description": "Build your own multi-tenant platform using Cloudflare as infrastructure",
+      "line": 89
+    },
+    {
+      "label": "Cloudflare Images",
+      "url": "https://developers.cloudflare.com/images/llms.txt",
+      "canonical": "https://developers.cloudflare.com/images/llms.txt",
+      "raw_url": "https://developers.cloudflare.com/images/llms.txt",
+      "description": "Store, transform, optimize, and deliver images at scale",
+      "line": 90
+    },
+    {
+      "label": "Cloudflare Wallets",
+      "url": "https://developers.cloudflare.com/wallets/llms.txt",
+      "canonical": "https://developers.cloudflare.com/wallets/llms.txt",
+      "raw_url": "https://developers.cloudflare.com/wallets/llms.txt",
+      "description": "Reserve a wallet handle and give your account and its agents a stable, human-readable identity for agentic payments",
+      "line": 91
+    },
+    {
+      "label": "Containers",
+      "url": "https://developers.cloudflare.com/containers/llms.txt",
+      "canonical": "https://developers.cloudflare.com/containers/llms.txt",
+      "raw_url": "https://developers.cloudflare.com/containers/llms.txt",
+      "description": "Enhance your Workers with serverless containers",
+      "line": 92
+    },
+    {
+      "label": "D1",
+      "url": "https://developers.cloudflare.com/d1/llms.txt",
+      "canonical": "https://developers.cloudflare.com/d1/llms.txt",
+      "raw_url": "https://developers.cloudflare.com/d1/llms.txt",
+      "description": "Create managed, serverless databases with SQL semantics",
+      "line": 93
+    },
+    {
+      "label": "Durable Objects",
+      "url": "https://developers.cloudflare.com/durable-objects/llms.txt",
+      "canonical": "https://developers.cloudflare.com/durable-objects/llms.txt",
+      "raw_url": "https://developers.cloudflare.com/durable-objects/llms.txt",
+      "description": "A special kind of Cloudflare Worker combining compute with storage",
+      "line": 94
+    },
+    {
+      "label": "Dynamic Workers",
+      "url": "https://developers.cloudflare.com/dynamic-workers/llms.txt",
+      "canonical": "https://developers.cloudflare.com/dynamic-workers/llms.txt",
+      "raw_url": "https://developers.cloudflare.com/dynamic-workers/llms.txt",
+      "description": "Spin up isolated Workers on demand to execute code",
+      "line": 95
+    },
+    {
+      "label": "Email Service",
+      "url": "https://developers.cloudflare.com/email-service/llms.txt",
+      "canonical": "https://developers.cloudflare.com/email-service/llms.txt",
+      "raw_url": "https://developers.cloudflare.com/email-service/llms.txt",
+      "description": "Send transactional emails at scale with Cloudflare Email Service",
+      "line": 96
+    },
+    {
+      "label": "Flagship",
+      "url": "https://developers.cloudflare.com/flagship/llms.txt",
+      "canonical": "https://developers.cloudflare.com/flagship/llms.txt",
+      "raw_url": "https://developers.cloudflare.com/flagship/llms.txt",
+      "description": "Feature flags evaluated at the edge for Cloudflare Workers",
+      "line": 97
+    },
+    {
+      "label": "Hyperdrive",
+      "url": "https://developers.cloudflare.com/hyperdrive/llms.txt",
+      "canonical": "https://developers.cloudflare.com/hyperdrive/llms.txt",
+      "raw_url": "https://developers.cloudflare.com/hyperdrive/llms.txt",
+      "description": "Accelerate database queries to make databases fast globally",
+      "line": 98
+    },
+    {
+      "label": "KV",
+      "url": "https://developers.cloudflare.com/kv/llms.txt",
+      "canonical": "https://developers.cloudflare.com/kv/llms.txt",
+      "raw_url": "https://developers.cloudflare.com/kv/llms.txt",
+      "description": "Global, low-latency, key-value data storage",
+      "line": 99
+    },
+    {
+      "label": "MoQ",
+      "url": "https://developers.cloudflare.com/moq/llms.txt",
+      "canonical": "https://developers.cloudflare.com/moq/llms.txt",
+      "raw_url": "https://developers.cloudflare.com/moq/llms.txt",
+      "description": "Protocol for live media",
+      "line": 100
+    },
+    {
+      "label": "Pages",
+      "url": "https://developers.cloudflare.com/pages/llms.txt",
+      "canonical": "https://developers.cloudflare.com/pages/llms.txt",
+      "raw_url": "https://developers.cloudflare.com/pages/llms.txt",
+      "description": "Build full-stack, serverless applications globally with minimal configuration",
+      "line": 101
+    },
+    {
+      "label": "Pipelines",
+      "url": "https://developers.cloudflare.com/pipelines/llms.txt",
+      "canonical": "https://developers.cloudflare.com/pipelines/llms.txt",
+      "raw_url": "https://developers.cloudflare.com/pipelines/llms.txt",
+      "description": "Ingest real time data streams and load into R2",
+      "line": 102
+    },
+    {
+      "label": "Privacy Gateway",
+      "url": "https://developers.cloudflare.com/privacy-gateway/llms.txt",
+      "canonical": "https://developers.cloudflare.com/privacy-gateway/llms.txt",
+      "raw_url": "https://developers.cloudflare.com/privacy-gateway/llms.txt",
+      "description": "Implement the Oblivious HTTP IETF standard to improve client privacy",
+      "line": 103
+    },
+    {
+      "label": "Privacy Pass",
+      "url": "https://developers.cloudflare.com/privacy-pass/llms.txt",
+      "canonical": "https://developers.cloudflare.com/privacy-pass/llms.txt",
+      "raw_url": "https://developers.cloudflare.com/privacy-pass/llms.txt",
+      "description": "Privacy Pass tokens let users prove a claim without revealing their identity or being tracked across requests.",
+      "line": 104
+    },
+    {
+      "label": "Privacy Proxy",
+      "url": "https://developers.cloudflare.com/privacy-proxy/llms.txt",
+      "canonical": "https://developers.cloudflare.com/privacy-proxy/llms.txt",
+      "raw_url": "https://developers.cloudflare.com/privacy-proxy/llms.txt",
+      "description": "A MASQUE-based forward proxy that protects user privacy while preserving geolocation accuracy",
+      "line": 105
+    },
+    {
+      "label": "Queues",
+      "url": "https://developers.cloudflare.com/queues/llms.txt",
+      "canonical": "https://developers.cloudflare.com/queues/llms.txt",
+      "raw_url": "https://developers.cloudflare.com/queues/llms.txt",
+      "description": "Reliably send and receive messages without the egress fees",
+      "line": 106
+    },
+    {
+      "label": "R2",
+      "url": "https://developers.cloudflare.com/r2/llms.txt",
+      "canonical": "https://developers.cloudflare.com/r2/llms.txt",
+      "raw_url": "https://developers.cloudflare.com/r2/llms.txt",
+      "description": "Store large amounts of unstructured data without egress fees",
+      "line": 107
+    },
+    {
+      "label": "R2 Data Catalog",
+      "url": "https://developers.cloudflare.com/r2-data-catalog/llms.txt",
+      "canonical": "https://developers.cloudflare.com/r2-data-catalog/llms.txt",
+      "raw_url": "https://developers.cloudflare.com/r2-data-catalog/llms.txt",
+      "description": "Create, manage, and query Iceberg tables stored in R2",
+      "line": 108
+    },
+    {
+      "label": "R2 SQL",
+      "url": "https://developers.cloudflare.com/r2-sql/llms.txt",
+      "canonical": "https://developers.cloudflare.com/r2-sql/llms.txt",
+      "raw_url": "https://developers.cloudflare.com/r2-sql/llms.txt",
+      "description": "Cloudflare's serverless, distributed query engine for data stored in R2 Data Catalog",
+      "line": 109
+    },
+    {
+      "label": "Realtime",
+      "url": "https://developers.cloudflare.com/realtime/llms.txt",
+      "canonical": "https://developers.cloudflare.com/realtime/llms.txt",
+      "raw_url": "https://developers.cloudflare.com/realtime/llms.txt",
+      "description": "RealtimeKit, SFU and TURN",
+      "line": 110
+    },
+    {
+      "label": "Sandbox SDK",
+      "url": "https://developers.cloudflare.com/sandbox/llms.txt",
+      "canonical": "https://developers.cloudflare.com/sandbox/llms.txt",
+      "raw_url": "https://developers.cloudflare.com/sandbox/llms.txt",
+      "description": "Build secure, isolated code execution environments",
+      "line": 111
+    },
+    {
+      "label": "Stream",
+      "url": "https://developers.cloudflare.com/stream/llms.txt",
+      "canonical": "https://developers.cloudflare.com/stream/llms.txt",
+      "raw_url": "https://developers.cloudflare.com/stream/llms.txt",
+      "description": "Store, encode, deliver, and play videos on sites and applications",
+      "line": 112
+    },
+    {
+      "label": "Vectorize",
+      "url": "https://developers.cloudflare.com/vectorize/llms.txt",
+      "canonical": "https://developers.cloudflare.com/vectorize/llms.txt",
+      "raw_url": "https://developers.cloudflare.com/vectorize/llms.txt",
+      "description": "Store, query, and manage high-dimensional vector databases",
+      "line": 113
+    },
+    {
+      "label": "Workers",
+      "url": "https://developers.cloudflare.com/workers/llms.txt",
+      "canonical": "https://developers.cloudflare.com/workers/llms.txt",
+      "raw_url": "https://developers.cloudflare.com/workers/llms.txt",
+      "description": "Build, deploy, and scale serverless applications globally with low latency and minimal configuration",
+      "line": 114
+    },
+    {
+      "label": "Workers AI",
+      "url": "https://developers.cloudflare.com/workers-ai/llms.txt",
+      "canonical": "https://developers.cloudflare.com/workers-ai/llms.txt",
+      "raw_url": "https://developers.cloudflare.com/workers-ai/llms.txt",
+      "description": "Run AI models in Workers, Pages, or via API",
+      "line": 115
+    },
+    {
+      "label": "Workers VPC",
+      "url": "https://developers.cloudflare.com/workers-vpc/llms.txt",
+      "canonical": "https://developers.cloudflare.com/workers-vpc/llms.txt",
+      "raw_url": "https://developers.cloudflare.com/workers-vpc/llms.txt",
+      "description": "Connect Cloudflare Worker's Virtual Private Cloud to your private clouds to build cross-cloud apps.",
+      "line": 116
+    },
+    {
+      "label": "Workflows",
+      "url": "https://developers.cloudflare.com/workflows/llms.txt",
+      "canonical": "https://developers.cloudflare.com/workflows/llms.txt",
+      "raw_url": "https://developers.cloudflare.com/workflows/llms.txt",
+      "description": "Build durable, multi-step applications using the Workers platform",
+      "line": 117
+    },
+    {
+      "label": "Zaraz",
+      "url": "https://developers.cloudflare.com/zaraz/llms.txt",
+      "canonical": "https://developers.cloudflare.com/zaraz/llms.txt",
+      "raw_url": "https://developers.cloudflare.com/zaraz/llms.txt",
+      "description": "Run third-party tools and services on the cloud for improved speed and security",
+      "line": 118
+    },
+    {
+      "label": "Learning Paths",
+      "url": "https://developers.cloudflare.com/learning-paths/llms.txt",
+      "canonical": "https://developers.cloudflare.com/learning-paths/llms.txt",
+      "raw_url": "https://developers.cloudflare.com/learning-paths/llms.txt",
+      "description": "Guided modules and projects to help you get started with Cloudflare",
+      "line": 122
+    },
+    {
+      "label": "BYOIP",
+      "url": "https://developers.cloudflare.com/byoip/llms.txt",
+      "canonical": "https://developers.cloudflare.com/byoip/llms.txt",
+      "raw_url": "https://developers.cloudflare.com/byoip/llms.txt",
+      "description": "Get Cloudflare's security and performance while using your own IPs",
+      "line": 126
+    },
+    {
+      "label": "Magic Transit",
+      "url": "https://developers.cloudflare.com/magic-transit/llms.txt",
+      "canonical": "https://developers.cloudflare.com/magic-transit/llms.txt",
+      "raw_url": "https://developers.cloudflare.com/magic-transit/llms.txt",
+      "description": "Network functions at Cloudflare scale for on-premise, cloud-hosted, and hybrid networks",
+      "line": 127
+    },
+    {
+      "label": "Network Error Logging",
+      "url": "https://developers.cloudflare.com/network-error-logging/llms.txt",
+      "canonical": "https://developers.cloudflare.com/network-error-logging/llms.txt",
+      "raw_url": "https://developers.cloudflare.com/network-error-logging/llms.txt",
+      "description": "Review connectivity issues to learn when and where an incident is happening and its impact",
+      "line": 128
+    },
+    {
+      "label": "Network Flow",
+      "url": "https://developers.cloudflare.com/network-flow/llms.txt",
+      "canonical": "https://developers.cloudflare.com/network-flow/llms.txt",
+      "raw_url": "https://developers.cloudflare.com/network-flow/llms.txt",
+      "description": "Visibility into your network and cloud traffic by analyzing network flow data",
+      "line": 129
+    },
+    {
+      "label": "Network Interconnect",
+      "url": "https://developers.cloudflare.com/network-interconnect/llms.txt",
+      "canonical": "https://developers.cloudflare.com/network-interconnect/llms.txt",
+      "raw_url": "https://developers.cloudflare.com/network-interconnect/llms.txt",
+      "description": "Faster, more reliable, and more secure than connecting over the Internet",
+      "line": 130
+    },
+    {
+      "label": "Agent setup",
+      "url": "https://developers.cloudflare.com/agent-setup/llms.txt",
+      "canonical": "https://developers.cloudflare.com/agent-setup/llms.txt",
+      "raw_url": "https://developers.cloudflare.com/agent-setup/llms.txt",
+      "description": "Install an agent of your choice, connect skills and MCP servers, and start deploying to Cloudflare — all from your editor or terminal.",
+      "line": 134
+    },
+    {
+      "label": "Docs for agents",
+      "url": "https://developers.cloudflare.com/docs-for-agents/llms.txt",
+      "canonical": "https://developers.cloudflare.com/docs-for-agents/llms.txt",
+      "raw_url": "https://developers.cloudflare.com/docs-for-agents/llms.txt",
+      "description": "Learn how AI agents and LLMs consume Cloudflare documentation",
+      "line": 135
+    },
+    {
+      "label": "Migration Guides",
+      "url": "https://developers.cloudflare.com/migration-guides/llms.txt",
+      "canonical": "https://developers.cloudflare.com/migration-guides/llms.txt",
+      "raw_url": "https://developers.cloudflare.com/migration-guides/llms.txt",
+      "description": "Content designed to help you migrate from another provider to Cloudflare.",
+      "line": 136
+    },
+    {
+      "label": "Security dashboard",
+      "url": "https://developers.cloudflare.com/security/llms.txt",
+      "canonical": "https://developers.cloudflare.com/security/llms.txt",
+      "raw_url": "https://developers.cloudflare.com/security/llms.txt",
+      "description": "Documentation for the Security dashboard with an updated user interface.",
+      "line": 137
+    },
+    {
+      "label": "Style Guide",
+      "url": "https://developers.cloudflare.com/style-guide/llms.txt",
+      "canonical": "https://developers.cloudflare.com/style-guide/llms.txt",
+      "raw_url": "https://developers.cloudflare.com/style-guide/llms.txt",
+      "description": "Style guide to follow for contributing to Cloudflare docs.",
+      "line": 138
+    },
+    {
+      "label": "Use cases",
+      "url": "https://developers.cloudflare.com/use-cases/llms.txt",
+      "canonical": "https://developers.cloudflare.com/use-cases/llms.txt",
+      "raw_url": "https://developers.cloudflare.com/use-cases/llms.txt",
+      "description": "Discover what's possible with Cloudflare.",
+      "line": 139
+    }
+  ],
+  "bare_links": [],
+  "metrics": {
+    "bytes": 16049,
+    "words": 1452,
+    "lines": 139,
+    "approx_tokens_chars_div_4": 4012,
+    "h1_count": 1,
+    "link_count": 107,
+    "bare_url_count": 0,
+    "described_links": 107,
+    "unique_destinations": 107,
+    "markdown_destinations": 0
+  },
+  "flags": [
+    "large-index-test-task-routing"
+  ]
+}

@@ -1,0 +1,16 @@
+# Example Guide
+
+> Example Guide publishes practical, source-backed explainers about home energy upgrades.
+
+Important notes:
+- Articles include visible publish and update dates.
+- Buying guides disclose affiliate relationships where applicable.
+
+## Core pages
+- [Best heat pump guide](https://example.com/heat-pumps): Current buying guide
+- [Solar calculator](https://example.com/solar-calculator): Free estimate tool
+- [Methodology](https://example.com/methodology): How recommendations are researched
+- [Corrections policy](https://example.com/corrections): Editorial corrections process
+
+## Optional
+- [Archive](https://example.com/archive): Older articles

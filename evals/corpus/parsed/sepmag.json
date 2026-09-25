@@ -1,0 +1,22 @@
+{
+  "parser_version": "corpus-v1",
+  "headings": [],
+  "links": [],
+  "metrics": {
+    "bytes": 270656,
+    "words": 7452,
+    "lines": 2685,
+    "approx_tokens_chars_div_4": 67641,
+    "h1_count": 0,
+    "link_count": 0,
+    "described_links": 0,
+    "unique_destinations": 0,
+    "markdown_destinations": 0
+  },
+  "flags": [
+    "html-instead-of-markdown",
+    "missing-h1",
+    "no-markdown-links-review-purpose",
+    "large-context-test-budget"
+  ]
+}

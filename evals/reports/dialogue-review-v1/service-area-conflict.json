@@ -1,0 +1,45 @@
+{
+  "case_id": "service-area-conflict",
+  "judge_prompt_version": "dialogue-review-v1",
+  "payload_sha256": "00fe5e3b17932e300b4cc9241f99e0db8464cf2b074d6210651ac6a97de45b80",
+  "advisory": true,
+  "model": "gpt-6-sol",
+  "judgment": {
+    "scores": {
+      "question_value": 2,
+      "options": 1,
+      "recommendation_reason": 2,
+      "answer_fidelity": 2,
+      "decision_lifecycle": 2
+    },
+    "issues": [
+      {
+        "dimension": "options",
+        "stage": "removed",
+        "quote": "\"options\": [\"Yes, San Francisco is served\", \"No, San Francisco is not served\"]",
+        "reason": "The regenerated question offers distinct answers, but unlike the first question it has no defer or unconfirmed choice despite the conflicting pages. An owner who cannot yet verify coverage has no fitting option."
+      }
+    ],
+    "summary": "The dialogue identifies the consequential coverage conflict, recommends cautious wording, and produces useful guides without treating either page as conclusive. The selected, custom, dismissed, and extra-question branches respect their active decisions. The only weakness is the missing uncertainty option in the regenerated question."
+  },
+  "anchor_errors": [
+    {
+      "dimension": "options",
+      "stage": "removed",
+      "quote": "\"options\": [\"Yes, San Francisco is served\", \"No, San Francisco is not served\"]",
+      "reason": "The regenerated question offers distinct answers, but unlike the first question it has no defer or unconfirmed choice despite the conflicting pages. An owner who cannot yet verify coverage has no fitting option."
+    }
+  ],
+  "usage": {
+    "input_tokens": 4130,
+    "input_tokens_details": {
+      "cache_write_tokens": 4127,
+      "cached_tokens": 0
+    },
+    "output_tokens": 689,
+    "output_tokens_details": {
+      "reasoning_tokens": 516
+    },
+    "total_tokens": 4819
+  }
+}

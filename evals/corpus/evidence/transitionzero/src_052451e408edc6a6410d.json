@@ -1,0 +1,16 @@
+{
+  "url": "https://docs.transitionzero.org/",
+  "retrieved_at": "2026-09-24T22:49:19.749578+00:00",
+  "source": {
+    "id": "src_052451e408edc6a6410d",
+    "url": "https://docs.transitionzero.org/platform/scenario-builder",
+    "title": "What is Scenario Builder? - TransitionZero",
+    "description": "A brief introduction to Scenario Builder, our free, no-code energy system modelling platform for the power sector.",
+    "content": "What can Scenario Builder do ?\n- Analyze energy transition pathways for the power sector\n- Understand optimal capacity and generation mixes within a system\n- Assess the impact of demand, technology, economic, and policy constraints on emissions, price, and cost outcomes\nWhat type of research can Scenario Builder be used for?\nScenario Builder helps answer questions like:\n- What will it cost to decarbonise a country’s electricity grid?\n- What infrastructure investments are needed to meet rising demand?\n- What emissions reductions can we expect from current policies?",
+    "markdownUrl": null
+  },
+  "status": 200,
+  "final_url": "https://docs.transitionzero.org/platform/scenario-builder",
+  "sha256": "cfc49f44fd427e206b9f7c0e5e8426b93738ce7433e94a7defa5854a058a1907",
+  "content_type": "text/html; charset=utf-8"
+}

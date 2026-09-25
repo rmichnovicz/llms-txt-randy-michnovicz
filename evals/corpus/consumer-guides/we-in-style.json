@@ -1,0 +1,5 @@
+{
+  "source_artifact": "evals/results/corpus-v2-holdout/real-we-in-style--r1.llms.txt",
+  "sha256": "6b98f9630a0ec50204f5139926ba0b4ee9f3be8a64da6e8059f8cc4578c65835",
+  "producer_request_sha256": "85cb6ff2854c92a031707b0505c9e5b21cb44d92bb72a683586938dec1ffb523"
+}

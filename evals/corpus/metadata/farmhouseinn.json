@@ -1,0 +1,17 @@
+{
+  "id": "farmhouseinn",
+  "url": "https://www.farmhouseinn.com/llms.txt",
+  "category": "hospitality",
+  "kind": "actual",
+  "split": "development",
+  "discovery": "https://llmstxt.site/",
+  "retrieved_at": "2026-09-24T22:46:21.721017+00:00",
+  "accepted": true,
+  "status": 200,
+  "final_url": "https://thehotelsnetwork.com/static/thn-static-content/llms/01F8A2QF9EQ0ZMZ9571DV9ZSZX/llms.txt",
+  "content_type": "text/plain; charset=utf-8",
+  "sha256": "92406fdf7cc35682a7096c39536c58e46502955a200f8e8ef9bf9799c6a00288",
+  "bytes": 52178,
+  "decode_replacements": 0,
+  "raw_path": "raw/farmhouseinn.txt"
+}

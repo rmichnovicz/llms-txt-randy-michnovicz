@@ -1,0 +1,449 @@
+{
+  "parser_version": "corpus-v2",
+  "headings": [
+    {
+      "level": 1,
+      "text": "Greyhound Australia",
+      "line": 1
+    },
+    {
+      "level": 2,
+      "text": "About",
+      "line": 5
+    },
+    {
+      "level": 2,
+      "text": "Routes and Services",
+      "line": 11
+    },
+    {
+      "level": 2,
+      "text": "Travel Passes",
+      "line": 20
+    },
+    {
+      "level": 2,
+      "text": "Booking Information",
+      "line": 29
+    },
+    {
+      "level": 2,
+      "text": "Fare Types and Pricing",
+      "line": 37
+    },
+    {
+      "level": 2,
+      "text": "Cancellations and Changes",
+      "line": 44
+    },
+    {
+      "level": 2,
+      "text": "Travel Information",
+      "line": 51
+    },
+    {
+      "level": 2,
+      "text": "Onboard Services",
+      "line": 59
+    },
+    {
+      "level": 2,
+      "text": "Baggage Policy",
+      "line": 66
+    },
+    {
+      "level": 2,
+      "text": "Travel Requirements",
+      "line": 74
+    },
+    {
+      "level": 2,
+      "text": "Food and Breaks",
+      "line": 80
+    },
+    {
+      "level": 2,
+      "text": "Travel Assistance",
+      "line": 85
+    },
+    {
+      "level": 2,
+      "text": "My Greyhound Account",
+      "line": 90
+    },
+    {
+      "level": 2,
+      "text": "Rewards Program",
+      "line": 95
+    },
+    {
+      "level": 2,
+      "text": "Freight Services",
+      "line": 100
+    },
+    {
+      "level": 2,
+      "text": "Terms and Policies",
+      "line": 105
+    },
+    {
+      "level": 2,
+      "text": "Travel Guides and Blog",
+      "line": 110
+    }
+  ],
+  "links": [
+    {
+      "label": "About Greyhound Australia",
+      "url": "https://www.greyhound.com.au/company/about-us",
+      "canonical": "https://www.greyhound.com.au/company/about-us",
+      "raw_url": "https://www.greyhound.com.au/company/about-us",
+      "description": "Company history spanning over 100 years. Founded in 1928 by AR Penfold in Toowoomba. Merged with Pioneer, McCafferty's and Bus Australia. Officially became Greyhound Australia in 2004. Operates 180+ stops across Australia's mainland states.",
+      "line": 7
+    },
+    {
+      "label": "Network Map",
+      "url": "https://www.greyhound.com.au/company/network-map",
+      "canonical": "https://www.greyhound.com.au/company/network-map",
+      "raw_url": "https://www.greyhound.com.au/company/network-map",
+      "description": "Interactive map showing all 180+ bus stops nationwide covering city, coast and country routes",
+      "line": 8
+    },
+    {
+      "label": "Contact Us",
+      "url": "https://www.greyhound.com.au/contact-us",
+      "canonical": "https://www.greyhound.com.au/contact-us",
+      "raw_url": "https://www.greyhound.com.au/contact-us",
+      "description": "Customer service phone 1300 473 946. Head office at 692B Curtin Avenue, Pinkenba, QLD 4008",
+      "line": 9
+    },
+    {
+      "label": "All Routes",
+      "url": "https://www.greyhound.com.au/buses",
+      "canonical": "https://www.greyhound.com.au/buses",
+      "raw_url": "https://www.greyhound.com.au/buses",
+      "description": "List of most popular point-to-point bus services connecting major cities and regional destinations",
+      "line": 13
+    },
+    {
+      "label": "Sydney to Melbourne",
+      "url": "https://www.greyhound.com.au/buses/sydney-to-melbourne",
+      "canonical": "https://www.greyhound.com.au/buses/sydney-to-melbourne",
+      "raw_url": "https://www.greyhound.com.au/buses/sydney-to-melbourne",
+      "description": "12-13 hours via Hume Highway. Multiple daily departures",
+      "line": 14
+    },
+    {
+      "label": "Sydney to Canberra",
+      "url": "https://www.greyhound.com.au/buses/sydney-to-canberra",
+      "canonical": "https://www.greyhound.com.au/buses/sydney-to-canberra",
+      "raw_url": "https://www.greyhound.com.au/buses/sydney-to-canberra",
+      "description": "Approximately 3.5 hours. Regular services",
+      "line": 15
+    },
+    {
+      "label": "Brisbane to Cairns",
+      "url": "https://www.greyhound.com.au/buses/brisbane-to-cairns",
+      "canonical": "https://www.greyhound.com.au/buses/brisbane-to-cairns",
+      "raw_url": "https://www.greyhound.com.au/buses/brisbane-to-cairns",
+      "description": "East Coast service through major Queensland destinations",
+      "line": 16
+    },
+    {
+      "label": "Canberra to Sydney",
+      "url": "https://www.greyhound.com.au/buses/canberra-to-sydney",
+      "canonical": "https://www.greyhound.com.au/buses/canberra-to-sydney",
+      "raw_url": "https://www.greyhound.com.au/buses/canberra-to-sydney",
+      "description": "Return service from ACT to NSW capital",
+      "line": 17
+    },
+    {
+      "label": "Popular Destinations",
+      "url": "https://www.greyhound.com.au/destination-guides",
+      "canonical": "https://www.greyhound.com.au/destination-guides",
+      "raw_url": "https://www.greyhound.com.au/destination-guides",
+      "description": "Services to Brisbane, Sydney, Melbourne, Adelaide, Cairns, Darwin, Gold Coast, Byron Bay, Noosa, Townsville, Airlie Beach, Mackay",
+      "line": 18
+    },
+    {
+      "label": "Travel Passes Overview",
+      "url": "https://www.greyhound.com.au/travel-passes",
+      "canonical": "https://www.greyhound.com.au/travel-passes",
+      "raw_url": "https://www.greyhound.com.au/travel-passes",
+      "description": "Unlimited travel passes valid for 12 months from purchase. Choose between National and East Coast options",
+      "line": 22
+    },
+    {
+      "label": "National Whimit Pass",
+      "url": "https://www.greyhound.com.au/travel-passes",
+      "canonical": "https://www.greyhound.com.au/travel-passes",
+      "raw_url": "https://www.greyhound.com.au/travel-passes",
+      "description": "From $449 for 15-120 travel days. Unlimited travel to any of 180+ stops on Australia's largest coach network. Travel in any direction on any route",
+      "line": 23
+    },
+    {
+      "label": "East Coast Whimit Pass",
+      "url": "https://www.greyhound.com.au/travel-passes",
+      "canonical": "https://www.greyhound.com.au/travel-passes",
+      "raw_url": "https://www.greyhound.com.au/travel-passes",
+      "description": "From $309 for 7-45 travel days. Unlimited travel between Melbourne and Cairns on East Coast services",
+      "line": 24
+    },
+    {
+      "label": "How to Book",
+      "url": "https://www.greyhound.com.au/travel-information/faq",
+      "canonical": "https://www.greyhound.com.au/travel-information/faq",
+      "raw_url": "https://www.greyhound.com.au/travel-information/faq",
+      "description": "Book online at greyhound.com.au with no booking fee, by phone 1300 473 946 with $5 fee, at travel centres with $5 fee, through accredited agents, or directly with driver with $5 fee",
+      "line": 31
+    },
+    {
+      "label": "Payment Options",
+      "url": "https://www.greyhound.com.au/travel-information/faq",
+      "canonical": "https://www.greyhound.com.au/travel-information/faq",
+      "raw_url": "https://www.greyhound.com.au/travel-information/faq",
+      "description": "Credit card including Visa and Mastercard, PayPal, Zip. SSL encryption for online security",
+      "line": 32
+    },
+    {
+      "label": "Seat Selection",
+      "url": "https://www.greyhound.com.au/travel-information/faq",
+      "canonical": "https://www.greyhound.com.au/travel-information/faq",
+      "raw_url": "https://www.greyhound.com.au/travel-information/faq",
+      "description": "Select your seat when booking subject to availability. View seat map online",
+      "line": 33
+    },
+    {
+      "label": "Manage Booking",
+      "url": "https://www.greyhound.com.au/manage-booking",
+      "canonical": "https://www.greyhound.com.au/manage-booking",
+      "raw_url": "https://www.greyhound.com.au/manage-booking",
+      "description": "Change trips online up to 1 hour before departure or call centre up to 15 minutes before. Use 8-digit booking number",
+      "line": 34
+    },
+    {
+      "label": "Tickets Available",
+      "url": "https://www.greyhound.com.au/travel-information/faq",
+      "canonical": "https://www.greyhound.com.au/travel-information/faq",
+      "raw_url": "https://www.greyhound.com.au/travel-information/faq",
+      "description": "Bookings available 12 months in advance",
+      "line": 35
+    },
+    {
+      "label": "Compare Fares",
+      "url": "https://www.greyhound.com.au/travel-information/faq",
+      "canonical": "https://www.greyhound.com.au/travel-information/faq",
+      "raw_url": "https://www.greyhound.com.au/travel-information/faq",
+      "description": "Three fare tiers including Early Bird with lowest price and no changes, Advantage with changes up to 24 hours before, Flexible with changes up to 15 minutes before and refundable with Travel Sure add-on.",
+      "line": 39
+    },
+    {
+      "label": "Discounts and Concessions",
+      "url": "https://www.greyhound.com.au/deals",
+      "canonical": "https://www.greyhound.com.au/deals",
+      "raw_url": "https://www.greyhound.com.au/deals",
+      "description": "Children 3-14 years get 17.5% off. Infants 0-2 years nursed free or seated 50% off. Seniors, pensioners, veterans, health care card holders get 10% off. Students with valid ISIC get 10% off. Return trips get 5% off. Carers who are accompanying passengers over 15 who do not meet independent travel conditions get 50% off. Chaperones for school-aged children get 50% off",
+      "line": 42
+    },
+    {
+      "label": "Cancellation Policy",
+      "url": "https://www.greyhound.com.au/travel-information/faq",
+      "canonical": "https://www.greyhound.com.au/travel-information/faq",
+      "raw_url": "https://www.greyhound.com.au/travel-information/faq",
+      "description": "Contact call centre 1300 473 946 to cancel. Early Bird and Advantage fares non-refundable. Flexible fares refundable with Travel Sure add-on",
+      "line": 46
+    },
+    {
+      "label": "Frequently Asked Questions",
+      "url": "https://www.greyhound.com.au/travel-information/faq",
+      "canonical": "https://www.greyhound.com.au/travel-information/faq",
+      "raw_url": "https://www.greyhound.com.au/travel-information/faq",
+      "description": "Comprehensive answers on booking, baggage, travel assistance, onboard services",
+      "line": 53
+    },
+    {
+      "label": "Timetables",
+      "url": "https://www.greyhound.com.au/travel-information/timetables",
+      "canonical": "https://www.greyhound.com.au/travel-information/timetables",
+      "raw_url": "https://www.greyhound.com.au/travel-information/timetables",
+      "description": "Service schedules for all routes",
+      "line": 54
+    },
+    {
+      "label": "Coach Tracker",
+      "url": "https://www.greyhound.com.au/coach-tracker",
+      "canonical": "https://www.greyhound.com.au/coach-tracker",
+      "raw_url": "https://www.greyhound.com.au/coach-tracker",
+      "description": "Real-time GPS tracking of your bus. View live location and estimated arrival times",
+      "line": 55
+    },
+    {
+      "label": "Service Updates",
+      "url": "https://www.greyhound.com.au/travel-information/service-updates",
+      "canonical": "https://www.greyhound.com.au/travel-information/service-updates",
+      "raw_url": "https://www.greyhound.com.au/travel-information/service-updates",
+      "description": "Current delays and service disruptions",
+      "line": 56
+    },
+    {
+      "label": "Get You There Guarantee",
+      "url": "https://www.greyhound.com.au/travel-information/faq",
+      "canonical": "https://www.greyhound.com.au/travel-information/faq",
+      "raw_url": "https://www.greyhound.com.au/travel-information/faq",
+      "description": "If service delayed 2 or more hours due to mechanical fault or late arrival and departure, your next trip is free",
+      "line": 57
+    },
+    {
+      "label": "Coach Features",
+      "url": "https://www.greyhound.com.au/travel-information/faq",
+      "canonical": "https://www.greyhound.com.au/travel-information/faq",
+      "raw_url": "https://www.greyhound.com.au/travel-information/faq",
+      "description": "Modern air-conditioned coaches with reclining leather seats, free WiFi on East Coast services in Telstra areas, USB charging ports, onboard restroom. Some coaches have tray tables, and water fountain.",
+      "line": 61
+    },
+    {
+      "label": "Baggage Allowance",
+      "url": "https://www.greyhound.com.au/travel-information/faq",
+      "canonical": "https://www.greyhound.com.au/travel-information/faq",
+      "raw_url": "https://www.greyhound.com.au/travel-information/faq",
+      "description": "2 checked bags maximum 20kg each, plus 1 hand luggage maximum 8kg. Additional bags $10 each with maximum 2 extra bags",
+      "line": 68
+    },
+    {
+      "label": "Before You Travel",
+      "url": "https://www.greyhound.com.au/travel-information/faq",
+      "canonical": "https://www.greyhound.com.au/travel-information/faq",
+      "raw_url": "https://www.greyhound.com.au/travel-information/faq",
+      "description": "Arrive 20 minutes before departure. Present ticket on mobile device or printed copy, or provide booking number with photo ID. Coach will not wait if you are late",
+      "line": 76
+    },
+    {
+      "label": "Children Travel",
+      "url": "https://www.greyhound.com.au/travel-information/faq",
+      "canonical": "https://www.greyhound.com.au/travel-information/faq",
+      "raw_url": "https://www.greyhound.com.au/travel-information/faq",
+      "description": "Children under 15 must be accompanied by parent, guardian or chaperone aged 15 or older. No unaccompanied minors permitted",
+      "line": 77
+    },
+    {
+      "label": "Connecting Services",
+      "url": "https://www.greyhound.com.au/travel-information/faq",
+      "canonical": "https://www.greyhound.com.au/travel-information/faq",
+      "raw_url": "https://www.greyhound.com.au/travel-information/faq",
+      "description": "Allow minimum 30 minutes between connections. Contact call centre 1300 473 946 if missed connection due to Greyhound delay",
+      "line": 78
+    },
+    {
+      "label": "Meal Stops",
+      "url": "https://www.greyhound.com.au/travel-information/faq",
+      "canonical": "https://www.greyhound.com.au/travel-information/faq",
+      "raw_url": "https://www.greyhound.com.au/travel-information/faq",
+      "description": "Longer trips include meal break stops lasting 15-30 minutes. Food available for purchase at stops. Check timetable for break locations",
+      "line": 82
+    },
+    {
+      "label": "Accessibility",
+      "url": "https://www.greyhound.com.au/travel-information/travel-assistance",
+      "canonical": "https://www.greyhound.com.au/travel-information/travel-assistance",
+      "raw_url": "https://www.greyhound.com.au/travel-information/travel-assistance",
+      "description": "Contact customer service 1300 473 946 before travel to arrange assistance. Carers receive discounted fare at 50% off standard adult fare",
+      "line": 87
+    },
+    {
+      "label": "Easy Access Services",
+      "url": "https://www.greyhound.com.au/travel-information/travel-assistance",
+      "canonical": "https://www.greyhound.com.au/travel-information/travel-assistance",
+      "raw_url": "https://www.greyhound.com.au/travel-information/travel-assistance",
+      "description": "Progressive rollout of Easy Access coaches with wheelchair lifts on nominated services",
+      "line": 88
+    },
+    {
+      "label": "Account Dashboard",
+      "url": "https://www.greyhound.com.au/my-greyhound",
+      "canonical": "https://www.greyhound.com.au/my-greyhound",
+      "raw_url": "https://www.greyhound.com.au/my-greyhound",
+      "description": "Free account to manage bookings, view booking history, add trips in real-time, update contact information",
+      "line": 92
+    },
+    {
+      "label": "Password Reset",
+      "url": "https://www.greyhound.com.au/my-greyhound/reset-password",
+      "canonical": "https://www.greyhound.com.au/my-greyhound/reset-password",
+      "raw_url": "https://www.greyhound.com.au/my-greyhound/reset-password",
+      "description": "Reset forgotten password via email",
+      "line": 93
+    },
+    {
+      "label": "Greyhound Rewards",
+      "url": "https://www.greyhound.com.au/rewards",
+      "canonical": "https://www.greyhound.com.au/rewards",
+      "raw_url": "https://www.greyhound.com.au/rewards",
+      "description": "Earn G-DOLLARS for every ticket purchase. Redeem on next trip or save for 12 months. G-Wallet accessible through My Greyhound account",
+      "line": 97
+    },
+    {
+      "label": "Greyhound Freight",
+      "url": "https://greyhoundfreight.com.au",
+      "canonical": "https://greyhoundfreight.com.au/",
+      "raw_url": "https://greyhoundfreight.com.au",
+      "description": "Delivers 220,000 plus parcels annually across Australia. Uses available space in passenger coach network plus freight depots and agents",
+      "line": 102
+    },
+    {
+      "label": "Terms and Conditions",
+      "url": "https://www.greyhound.com.au/ticket-information/terms-and-conditions",
+      "canonical": "https://www.greyhound.com.au/ticket-information/terms-and-conditions",
+      "raw_url": "https://www.greyhound.com.au/ticket-information/terms-and-conditions",
+      "description": "Full booking and travel terms",
+      "line": 107
+    },
+    {
+      "label": "Privacy Policy",
+      "url": "https://www.greyhound.com.au/privacy-policy",
+      "canonical": "https://www.greyhound.com.au/privacy-policy",
+      "raw_url": "https://www.greyhound.com.au/privacy-policy",
+      "description": "Data protection and privacy practices",
+      "line": 108
+    },
+    {
+      "label": "Travel Blog",
+      "url": "https://www.greyhound.com.au/travel-blog",
+      "canonical": "https://www.greyhound.com.au/travel-blog",
+      "raw_url": "https://www.greyhound.com.au/travel-blog",
+      "description": "Destination guides, travel tips, itinerary suggestions",
+      "line": 112
+    },
+    {
+      "label": "Destination Guides",
+      "url": "https://www.greyhound.com.au/destination-guides",
+      "canonical": "https://www.greyhound.com.au/destination-guides",
+      "raw_url": "https://www.greyhound.com.au/destination-guides",
+      "description": "Regional travel information for popular Australian destinations",
+      "line": 113
+    },
+    {
+      "label": "East Coast Destinations",
+      "url": "https://www.greyhound.com.au/travel-blog/best-east-coast-stops",
+      "canonical": "https://www.greyhound.com.au/travel-blog/best-east-coast-stops",
+      "raw_url": "https://www.greyhound.com.au/travel-blog/best-east-coast-stops",
+      "description": "Best places to visit along Australia's East Coast",
+      "line": 114
+    }
+  ],
+  "bare_links": [],
+  "metrics": {
+    "bytes": 9981,
+    "words": 1195,
+    "lines": 114,
+    "approx_tokens_chars_div_4": 2496,
+    "h1_count": 1,
+    "link_count": 42,
+    "bare_url_count": 0,
+    "described_links": 42,
+    "unique_destinations": 25,
+    "markdown_destinations": 0
+  },
+  "flags": [
+    "duplicate-destinations-review"
+  ]
+}

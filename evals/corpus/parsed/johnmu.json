@@ -1,0 +1,493 @@
+{
+  "parser_version": "corpus-v2",
+  "headings": [
+    {
+      "level": 1,
+      "text": "John Mueller, Switzerland",
+      "line": 1
+    }
+  ],
+  "links": [
+    {
+      "label": "Fröude für d’Liebi",
+      "url": "https://johnmu.com/?rel=catstxtmd",
+      "canonical": "https://johnmu.com/?rel=catstxtmd",
+      "raw_url": "https://johnmu.com/?rel=catstxtmd",
+      "description": "",
+      "line": 3
+    },
+    {
+      "label": "Regue",
+      "url": "https://johnmu.com/2022-esp8266-wifi-speed/?rel=catstxtmd",
+      "canonical": "https://johnmu.com/2022-esp8266-wifi-speed/?rel=catstxtmd",
+      "raw_url": "https://johnmu.com/2022-esp8266-wifi-speed/?rel=catstxtmd",
+      "description": "",
+      "line": 5
+    },
+    {
+      "label": "Commitment-Strategie",
+      "url": "https://johnmu.com/basic-qmk-keyboard/?rel=catstxtmd",
+      "canonical": "https://johnmu.com/basic-qmk-keyboard/?rel=catstxtmd",
+      "raw_url": "https://johnmu.com/basic-qmk-keyboard/?rel=catstxtmd",
+      "description": "",
+      "line": 7
+    },
+    {
+      "label": "CEO-Typ",
+      "url": "https://johnmu.com/picking-esp32-dev-board/?rel=catstxtmd",
+      "canonical": "https://johnmu.com/picking-esp32-dev-board/?rel=catstxtmd",
+      "raw_url": "https://johnmu.com/picking-esp32-dev-board/?rel=catstxtmd",
+      "description": "",
+      "line": 9
+    },
+    {
+      "label": "teue, was i füu",
+      "url": "https://johnmu.com/controlling-5050-led-strip-with-esp32/?rel=catstxtmd",
+      "canonical": "https://johnmu.com/controlling-5050-led-strip-with-esp32/?rel=catstxtmd",
+      "raw_url": "https://johnmu.com/controlling-5050-led-strip-with-esp32/?rel=catstxtmd",
+      "description": "",
+      "line": 11
+    },
+    {
+      "label": "Content",
+      "url": "https://johnmu.com/dynamic-toc-io/?rel=catstxtmd",
+      "canonical": "https://johnmu.com/dynamic-toc-io/?rel=catstxtmd",
+      "raw_url": "https://johnmu.com/dynamic-toc-io/?rel=catstxtmd",
+      "description": "",
+      "line": 13
+    },
+    {
+      "label": "ufgebä",
+      "url": "https://johnmu.com/usb-keyboard-attiny85/?rel=catstxtmd",
+      "canonical": "https://johnmu.com/usb-keyboard-attiny85/?rel=catstxtmd",
+      "raw_url": "https://johnmu.com/usb-keyboard-attiny85/?rel=catstxtmd",
+      "description": "",
+      "line": 15
+    },
+    {
+      "label": "enttüusche",
+      "url": "https://johnmu.com/setting-up-mqtt-with-auto-discovery-on_17/?rel=catstxtmd",
+      "canonical": "https://johnmu.com/setting-up-mqtt-with-auto-discovery-on_17/?rel=catstxtmd",
+      "raw_url": "https://johnmu.com/setting-up-mqtt-with-auto-discovery-on_17/?rel=catstxtmd",
+      "description": "",
+      "line": 17
+    },
+    {
+      "label": "umediäue und di verue",
+      "url": "https://johnmu.com/fake-googlebots/?rel=catstxtmd",
+      "canonical": "https://johnmu.com/fake-googlebots/?rel=catstxtmd",
+      "raw_url": "https://johnmu.com/fake-googlebots/?rel=catstxtmd",
+      "description": "",
+      "line": 19
+    },
+    {
+      "label": "Träne bringä",
+      "url": "https://johnmu.com/mirror-website-static-hosting/?rel=catstxtmd",
+      "canonical": "https://johnmu.com/mirror-website-static-hosting/?rel=catstxtmd",
+      "raw_url": "https://johnmu.com/mirror-website-static-hosting/?rel=catstxtmd",
+      "description": "",
+      "line": 21
+    },
+    {
+      "label": "Adieu säue",
+      "url": "https://johnmu.com/nofollow-for-markdown/?rel=catstxtmd",
+      "canonical": "https://johnmu.com/nofollow-for-markdown/?rel=catstxtmd",
+      "raw_url": "https://johnmu.com/nofollow-for-markdown/?rel=catstxtmd",
+      "description": "",
+      "line": 23
+    },
+    {
+      "label": "lüäge und di veruetze",
+      "url": "https://johnmu.com/using-curl-to-add-rows-to-google/?rel=catstxtmd",
+      "canonical": "https://johnmu.com/using-curl-to-add-rows-to-google/?rel=catstxtmd",
+      "raw_url": "https://johnmu.com/using-curl-to-add-rows-to-google/?rel=catstxtmd",
+      "description": "",
+      "line": 25
+    },
+    {
+      "label": "lang, oh ja",
+      "url": "https://johnmu.com/categories/robots.txt/?rel=catstxtmd",
+      "canonical": "https://johnmu.com/categories/robots.txt/?rel=catstxtmd",
+      "raw_url": "https://johnmu.com/categories/robots.txt/?rel=catstxtmd",
+      "description": "",
+      "line": 27
+    },
+    {
+      "label": "Schmärz",
+      "url": "https://johnmu.com/crawl-url-list/?rel=catstxtmd",
+      "canonical": "https://johnmu.com/crawl-url-list/?rel=catstxtmd",
+      "raw_url": "https://johnmu.com/crawl-url-list/?rel=catstxtmd",
+      "description": "",
+      "line": 29
+    },
+    {
+      "label": "schüch",
+      "url": "https://johnmu.com/blogger-redirects/?rel=catstxtmd",
+      "canonical": "https://johnmu.com/blogger-redirects/?rel=catstxtmd",
+      "raw_url": "https://johnmu.com/blogger-redirects/?rel=catstxtmd",
+      "description": "",
+      "line": 31
+    },
+    {
+      "label": "passiert",
+      "url": "https://johnmu.com/usb-keyboard-atmega32u4-rev2/?rel=catstxtmd",
+      "canonical": "https://johnmu.com/usb-keyboard-atmega32u4-rev2/?rel=catstxtmd",
+      "raw_url": "https://johnmu.com/usb-keyboard-atmega32u4-rev2/?rel=catstxtmd",
+      "description": "",
+      "line": 33
+    },
+    {
+      "label": "füu",
+      "url": "https://johnmu.com/quick-boot-button/?rel=catstxtmd",
+      "canonical": "https://johnmu.com/quick-boot-button/?rel=catstxtmd",
+      "raw_url": "https://johnmu.com/quick-boot-button/?rel=catstxtmd",
+      "description": "",
+      "line": 35
+    },
+    {
+      "label": "blind für d’Keywords",
+      "url": "https://johnmu.com/2024-esp32-partition-update/?rel=catstxtmd",
+      "canonical": "https://johnmu.com/2024-esp32-partition-update/?rel=catstxtmd",
+      "raw_url": "https://johnmu.com/2024-esp32-partition-update/?rel=catstxtmd",
+      "description": "",
+      "line": 37
+    },
+    {
+      "label": "ufgebä",
+      "url": "https://johnmu.com/usb-keyboard-attiny85/?rel=catstxtmd",
+      "canonical": "https://johnmu.com/usb-keyboard-attiny85/?rel=catstxtmd",
+      "raw_url": "https://johnmu.com/usb-keyboard-attiny85/?rel=catstxtmd",
+      "description": "",
+      "line": 39
+    },
+    {
+      "label": "enttüusche",
+      "url": "https://johnmu.com/setting-up-mqtt-with-auto-discovery-on_17/?rel=catstxtmd",
+      "canonical": "https://johnmu.com/setting-up-mqtt-with-auto-discovery-on_17/?rel=catstxtmd",
+      "raw_url": "https://johnmu.com/setting-up-mqtt-with-auto-discovery-on_17/?rel=catstxtmd",
+      "description": "",
+      "line": 41
+    },
+    {
+      "label": "umediäue und di verue",
+      "url": "https://johnmu.com/fake-googlebots/?rel=catstxtmd",
+      "canonical": "https://johnmu.com/fake-googlebots/?rel=catstxtmd",
+      "raw_url": "https://johnmu.com/fake-googlebots/?rel=catstxtmd",
+      "description": "",
+      "line": 43
+    },
+    {
+      "label": "Träne bringä",
+      "url": "https://johnmu.com/mirror-website-static-hosting/?rel=catstxtmd",
+      "canonical": "https://johnmu.com/mirror-website-static-hosting/?rel=catstxtmd",
+      "raw_url": "https://johnmu.com/mirror-website-static-hosting/?rel=catstxtmd",
+      "description": "",
+      "line": 45
+    },
+    {
+      "label": "Adieu säue",
+      "url": "https://johnmu.com/nofollow-for-markdown/?rel=catstxtmd",
+      "canonical": "https://johnmu.com/nofollow-for-markdown/?rel=catstxtmd",
+      "raw_url": "https://johnmu.com/nofollow-for-markdown/?rel=catstxtmd",
+      "description": "",
+      "line": 47
+    },
+    {
+      "label": "lüäge und di veruetze",
+      "url": "https://johnmu.com/using-curl-to-add-rows-to-google/?rel=catstxtmd",
+      "canonical": "https://johnmu.com/using-curl-to-add-rows-to-google/?rel=catstxtmd",
+      "raw_url": "https://johnmu.com/using-curl-to-add-rows-to-google/?rel=catstxtmd",
+      "description": "",
+      "line": 49
+    },
+    {
+      "label": "ufgebä",
+      "url": "https://johnmu.com/usb-keyboard-attiny85/?rel=catstxtmd",
+      "canonical": "https://johnmu.com/usb-keyboard-attiny85/?rel=catstxtmd",
+      "raw_url": "https://johnmu.com/usb-keyboard-attiny85/?rel=catstxtmd",
+      "description": "",
+      "line": 51
+    },
+    {
+      "label": "enttüusche",
+      "url": "https://johnmu.com/setting-up-mqtt-with-auto-discovery-on_17/?rel=catstxtmd",
+      "canonical": "https://johnmu.com/setting-up-mqtt-with-auto-discovery-on_17/?rel=catstxtmd",
+      "raw_url": "https://johnmu.com/setting-up-mqtt-with-auto-discovery-on_17/?rel=catstxtmd",
+      "description": "",
+      "line": 53
+    },
+    {
+      "label": "umediäue und di verue",
+      "url": "https://johnmu.com/fake-googlebots/?rel=catstxtmd",
+      "canonical": "https://johnmu.com/fake-googlebots/?rel=catstxtmd",
+      "raw_url": "https://johnmu.com/fake-googlebots/?rel=catstxtmd",
+      "description": "",
+      "line": 55
+    },
+    {
+      "label": "Träne bringä",
+      "url": "https://johnmu.com/mirror-website-static-hosting/?rel=catstxtmd",
+      "canonical": "https://johnmu.com/mirror-website-static-hosting/?rel=catstxtmd",
+      "raw_url": "https://johnmu.com/mirror-website-static-hosting/?rel=catstxtmd",
+      "description": "",
+      "line": 57
+    },
+    {
+      "label": "Adieu säue",
+      "url": "https://johnmu.com/nofollow-for-markdown/?rel=catstxtmd",
+      "canonical": "https://johnmu.com/nofollow-for-markdown/?rel=catstxtmd",
+      "raw_url": "https://johnmu.com/nofollow-for-markdown/?rel=catstxtmd",
+      "description": "",
+      "line": 59
+    },
+    {
+      "label": "lüäge und di veruetze",
+      "url": "https://johnmu.com/using-curl-to-add-rows-to-google/?rel=catstxtmd",
+      "canonical": "https://johnmu.com/using-curl-to-add-rows-to-google/?rel=catstxtmd",
+      "raw_url": "https://johnmu.com/using-curl-to-add-rows-to-google/?rel=catstxtmd",
+      "description": "",
+      "line": 61
+    },
+    {
+      "label": "Ufgebä, ufgebä",
+      "url": "https://johnmu.com/llmao/?rel=catstxtmd",
+      "canonical": "https://johnmu.com/llmao/?rel=catstxtmd",
+      "raw_url": "https://johnmu.com/llmao/?rel=catstxtmd",
+      "description": "",
+      "line": 63
+    },
+    {
+      "label": "Ufgebä, ufgebä",
+      "url": "https://johnmu.com/?rel=catstxtmd",
+      "canonical": "https://johnmu.com/?rel=catstxtmd",
+      "raw_url": "https://johnmu.com/?rel=catstxtmd",
+      "description": "",
+      "line": 65
+    },
+    {
+      "label": "ufgebä",
+      "url": "https://johnmu.com/usb-keyboard-attiny85/?rel=catstxtmd",
+      "canonical": "https://johnmu.com/usb-keyboard-attiny85/?rel=catstxtmd",
+      "raw_url": "https://johnmu.com/usb-keyboard-attiny85/?rel=catstxtmd",
+      "description": "",
+      "line": 67
+    },
+    {
+      "label": "ufgebä",
+      "url": "https://johnmu.com/usb-keyboard-attiny85/?rel=catstxtmd",
+      "canonical": "https://johnmu.com/usb-keyboard-attiny85/?rel=catstxtmd",
+      "raw_url": "https://johnmu.com/usb-keyboard-attiny85/?rel=catstxtmd",
+      "description": "",
+      "line": 69
+    },
+    {
+      "label": "lang, oh ja",
+      "url": "https://johnmu.com/categories/robots.txt/?rel=catstxtmd",
+      "canonical": "https://johnmu.com/categories/robots.txt/?rel=catstxtmd",
+      "raw_url": "https://johnmu.com/categories/robots.txt/?rel=catstxtmd",
+      "description": "",
+      "line": 71
+    },
+    {
+      "label": "Schmärz",
+      "url": "https://johnmu.com/crawl-url-list/?rel=catstxtmd",
+      "canonical": "https://johnmu.com/crawl-url-list/?rel=catstxtmd",
+      "raw_url": "https://johnmu.com/crawl-url-list/?rel=catstxtmd",
+      "description": "",
+      "line": 73
+    },
+    {
+      "label": "schüch",
+      "url": "https://johnmu.com/blogger-redirects/?rel=catstxtmd",
+      "canonical": "https://johnmu.com/blogger-redirects/?rel=catstxtmd",
+      "raw_url": "https://johnmu.com/blogger-redirects/?rel=catstxtmd",
+      "description": "",
+      "line": 75
+    },
+    {
+      "label": "passiert",
+      "url": "https://johnmu.com/usb-keyboard-atmega32u4-rev2/?rel=catstxtmd",
+      "canonical": "https://johnmu.com/usb-keyboard-atmega32u4-rev2/?rel=catstxtmd",
+      "raw_url": "https://johnmu.com/usb-keyboard-atmega32u4-rev2/?rel=catstxtmd",
+      "description": "",
+      "line": 77
+    },
+    {
+      "label": "teue, was i füu",
+      "url": "https://johnmu.com/controlling-5050-led-strip-with-esp32/?rel=catstxtmd",
+      "canonical": "https://johnmu.com/controlling-5050-led-strip-with-esp32/?rel=catstxtmd",
+      "raw_url": "https://johnmu.com/controlling-5050-led-strip-with-esp32/?rel=catstxtmd",
+      "description": "",
+      "line": 79
+    },
+    {
+      "label": "Content",
+      "url": "https://johnmu.com/dynamic-toc-io/?rel=catstxtmd",
+      "canonical": "https://johnmu.com/dynamic-toc-io/?rel=catstxtmd",
+      "raw_url": "https://johnmu.com/dynamic-toc-io/?rel=catstxtmd",
+      "description": "",
+      "line": 81
+    },
+    {
+      "label": "ufgebä",
+      "url": "https://johnmu.com/usb-keyboard-attiny85/?rel=catstxtmd",
+      "canonical": "https://johnmu.com/usb-keyboard-attiny85/?rel=catstxtmd",
+      "raw_url": "https://johnmu.com/usb-keyboard-attiny85/?rel=catstxtmd",
+      "description": "",
+      "line": 83
+    },
+    {
+      "label": "enttüusche",
+      "url": "https://johnmu.com/setting-up-mqtt-with-auto-discovery-on_17/?rel=catstxtmd",
+      "canonical": "https://johnmu.com/setting-up-mqtt-with-auto-discovery-on_17/?rel=catstxtmd",
+      "raw_url": "https://johnmu.com/setting-up-mqtt-with-auto-discovery-on_17/?rel=catstxtmd",
+      "description": "",
+      "line": 85
+    },
+    {
+      "label": "umediäue und di verue",
+      "url": "https://johnmu.com/fake-googlebots/?rel=catstxtmd",
+      "canonical": "https://johnmu.com/fake-googlebots/?rel=catstxtmd",
+      "raw_url": "https://johnmu.com/fake-googlebots/?rel=catstxtmd",
+      "description": "",
+      "line": 87
+    },
+    {
+      "label": "Träne bringä",
+      "url": "https://johnmu.com/mirror-website-static-hosting/?rel=catstxtmd",
+      "canonical": "https://johnmu.com/mirror-website-static-hosting/?rel=catstxtmd",
+      "raw_url": "https://johnmu.com/mirror-website-static-hosting/?rel=catstxtmd",
+      "description": "",
+      "line": 89
+    },
+    {
+      "label": "Adieu säue",
+      "url": "https://johnmu.com/nofollow-for-markdown/?rel=catstxtmd",
+      "canonical": "https://johnmu.com/nofollow-for-markdown/?rel=catstxtmd",
+      "raw_url": "https://johnmu.com/nofollow-for-markdown/?rel=catstxtmd",
+      "description": "",
+      "line": 91
+    },
+    {
+      "label": "lüäge und di veruetze",
+      "url": "https://johnmu.com/using-curl-to-add-rows-to-google/?rel=catstxtmd",
+      "canonical": "https://johnmu.com/using-curl-to-add-rows-to-google/?rel=catstxtmd",
+      "raw_url": "https://johnmu.com/using-curl-to-add-rows-to-google/?rel=catstxtmd",
+      "description": "",
+      "line": 93
+    },
+    {
+      "label": "ufgebä",
+      "url": "https://johnmu.com/usb-keyboard-attiny85/?rel=catstxtmd",
+      "canonical": "https://johnmu.com/usb-keyboard-attiny85/?rel=catstxtmd",
+      "raw_url": "https://johnmu.com/usb-keyboard-attiny85/?rel=catstxtmd",
+      "description": "",
+      "line": 95
+    },
+    {
+      "label": "enttüusche",
+      "url": "https://johnmu.com/setting-up-mqtt-with-auto-discovery-on_17/?rel=catstxtmd",
+      "canonical": "https://johnmu.com/setting-up-mqtt-with-auto-discovery-on_17/?rel=catstxtmd",
+      "raw_url": "https://johnmu.com/setting-up-mqtt-with-auto-discovery-on_17/?rel=catstxtmd",
+      "description": "",
+      "line": 97
+    },
+    {
+      "label": "umediäue und di verue",
+      "url": "https://johnmu.com/fake-googlebots/?rel=catstxtmd",
+      "canonical": "https://johnmu.com/fake-googlebots/?rel=catstxtmd",
+      "raw_url": "https://johnmu.com/fake-googlebots/?rel=catstxtmd",
+      "description": "",
+      "line": 99
+    },
+    {
+      "label": "Träne bringä",
+      "url": "https://johnmu.com/mirror-website-static-hosting/?rel=catstxtmd",
+      "canonical": "https://johnmu.com/mirror-website-static-hosting/?rel=catstxtmd",
+      "raw_url": "https://johnmu.com/mirror-website-static-hosting/?rel=catstxtmd",
+      "description": "",
+      "line": 101
+    },
+    {
+      "label": "Adieu säue",
+      "url": "https://johnmu.com/nofollow-for-markdown/?rel=catstxtmd",
+      "canonical": "https://johnmu.com/nofollow-for-markdown/?rel=catstxtmd",
+      "raw_url": "https://johnmu.com/nofollow-for-markdown/?rel=catstxtmd",
+      "description": "",
+      "line": 103
+    },
+    {
+      "label": "lüäge und di veruetze",
+      "url": "https://johnmu.com/using-curl-to-add-rows-to-google/?rel=catstxtmd",
+      "canonical": "https://johnmu.com/using-curl-to-add-rows-to-google/?rel=catstxtmd",
+      "raw_url": "https://johnmu.com/using-curl-to-add-rows-to-google/?rel=catstxtmd",
+      "description": "",
+      "line": 105
+    },
+    {
+      "label": "ufgebä",
+      "url": "https://johnmu.com/usb-keyboard-attiny85/?rel=catstxtmd",
+      "canonical": "https://johnmu.com/usb-keyboard-attiny85/?rel=catstxtmd",
+      "raw_url": "https://johnmu.com/usb-keyboard-attiny85/?rel=catstxtmd",
+      "description": "",
+      "line": 107
+    },
+    {
+      "label": "enttüusche",
+      "url": "https://johnmu.com/setting-up-mqtt-with-auto-discovery-on_17/?rel=catstxtmd",
+      "canonical": "https://johnmu.com/setting-up-mqtt-with-auto-discovery-on_17/?rel=catstxtmd",
+      "raw_url": "https://johnmu.com/setting-up-mqtt-with-auto-discovery-on_17/?rel=catstxtmd",
+      "description": "",
+      "line": 109
+    },
+    {
+      "label": "umediäue und di verue",
+      "url": "https://johnmu.com/fake-googlebots/?rel=catstxtmd",
+      "canonical": "https://johnmu.com/fake-googlebots/?rel=catstxtmd",
+      "raw_url": "https://johnmu.com/fake-googlebots/?rel=catstxtmd",
+      "description": "",
+      "line": 111
+    },
+    {
+      "label": "Träne bringä",
+      "url": "https://johnmu.com/mirror-website-static-hosting/?rel=catstxtmd",
+      "canonical": "https://johnmu.com/mirror-website-static-hosting/?rel=catstxtmd",
+      "raw_url": "https://johnmu.com/mirror-website-static-hosting/?rel=catstxtmd",
+      "description": "",
+      "line": 113
+    },
+    {
+      "label": "Adieu säue",
+      "url": "https://johnmu.com/nofollow-for-markdown/?rel=catstxtmd",
+      "canonical": "https://johnmu.com/nofollow-for-markdown/?rel=catstxtmd",
+      "raw_url": "https://johnmu.com/nofollow-for-markdown/?rel=catstxtmd",
+      "description": "",
+      "line": 115
+    },
+    {
+      "label": "lüäge und di veruetze",
+      "url": "https://johnmu.com/using-curl-to-add-rows-to-google/?rel=catstxtmd",
+      "canonical": "https://johnmu.com/using-curl-to-add-rows-to-google/?rel=catstxtmd",
+      "raw_url": "https://johnmu.com/using-curl-to-add-rows-to-google/?rel=catstxtmd",
+      "description": "",
+      "line": 117
+    }
+  ],
+  "bare_links": [],
+  "metrics": {
+    "bytes": 5816,
+    "words": 395,
+    "lines": 118,
+    "approx_tokens_chars_div_4": 1409,
+    "h1_count": 1,
+    "link_count": 58,
+    "bare_url_count": 0,
+    "described_links": 0,
+    "unique_destinations": 19,
+    "markdown_destinations": 0
+  },
+  "flags": [
+    "duplicate-destinations-review",
+    "sparse-link-descriptions"
+  ]
+}

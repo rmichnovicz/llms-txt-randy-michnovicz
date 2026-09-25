@@ -1,0 +1,16 @@
+{
+  "url": "https://www.greyhound.com.au/travel-information/faq",
+  "retrieved_at": "2026-09-24T22:49:24.973113+00:00",
+  "source": {
+    "id": "src_5fbcb55f8687679698d7",
+    "url": "https://www.greyhound.com.au/travel-information/faq",
+    "title": "Frequently Asked Questions | Greyhound Australia",
+    "description": "Find out how to change your booking, cancel or get a refund, view FAQs about travelling with kids or pets, & much more!",
+    "content": "Frequently Asked Questions\nFrequently Asked Questions\nFind answers to frequently asked questions and useful information to know before, during and after your trip with us. Just select one of the topics quicklinks below to get started.\nStill have questions? Browse FAQs & how-to guides or submit your enquiry online.\n| BEFORE & AFTER YOUR TRIP | \n| Making a Booking |  | Changing a Booking |  | Tickets & Passes | \n| Deals & Discounts |  | Greyhound Rewards |  | My Greyhound | \n| Preparing For Your Trip |  | Travel With Children |  | After Your Travel | \n| BAGGAGE/LUGGAGE |",
+    "markdownUrl": null
+  },
+  "status": 200,
+  "final_url": "https://www.greyhound.com.au/travel-information/faq",
+  "sha256": "2a6c2b6a38228c5c75a17cc0b0fd535d787a501790a4772bd790d78c7213ae1e",
+  "content_type": "text/html; charset=utf-8"
+}

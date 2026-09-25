@@ -1,0 +1,81 @@
+[
+  {
+    "site": "https://plausible.io/docs/",
+    "discovered_including_entry": 1,
+    "fetches": 1,
+    "bytes": 18445,
+    "stop_reason": "exhausted",
+    "remaining_indexes": 0,
+    "trace": [
+      {
+        "url": "https://plausible.io/sitemap.xml",
+        "status": 200,
+        "bytes": 18445
+      }
+    ],
+    "recorded_fetch_seconds": 0.087
+  },
+  {
+    "site": "https://tally.so/help/",
+    "discovered_including_entry": 199,
+    "fetches": 1,
+    "bytes": 73529,
+    "stop_reason": "exhausted",
+    "remaining_indexes": 0,
+    "trace": [
+      {
+        "url": "https://tally.so/sitemap.xml",
+        "status": 200,
+        "bytes": 73529
+      }
+    ],
+    "recorded_fetch_seconds": 0.533
+  },
+  {
+    "site": "https://vercel.com/docs/",
+    "discovered_including_entry": 1000,
+    "fetches": 1,
+    "bytes": 1030897,
+    "stop_reason": "url_budget",
+    "remaining_indexes": 0,
+    "trace": [
+      {
+        "url": "https://vercel.com/sitemap.xml",
+        "status": 200,
+        "bytes": 1030897
+      }
+    ],
+    "recorded_fetch_seconds": 0.511
+  },
+  {
+    "site": "https://www.shopify.com/blog/",
+    "discovered_including_entry": 1000,
+    "fetches": 4,
+    "bytes": 1415436,
+    "stop_reason": "url_budget",
+    "remaining_indexes": 565,
+    "trace": [
+      {
+        "url": "https://www.shopify.com/sitemaps_list.xml",
+        "status": 200,
+        "bytes": 44458
+      },
+      {
+        "url": "https://www.shopify.com/blog/authors/sitemap.xml",
+        "status": 200,
+        "bytes": 61405
+      },
+      {
+        "url": "https://www.shopify.com/blog/topics/sitemap.xml",
+        "status": 200,
+        "bytes": 252
+      },
+      {
+        "url": "https://www.shopify.com/sitemap_blog.xml",
+        "status": 200,
+        "bytes": 1309321
+      }
+    ],
+    "recorded_fetch_seconds": 2.507
+  }
+]

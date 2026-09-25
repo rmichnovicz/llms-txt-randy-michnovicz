@@ -1,0 +1,16 @@
+# Example Repair Co
+
+> Example Repair Co provides same-day appliance repair in Austin, Texas.
+
+Important notes:
+- Service area pages define where bookings are available.
+- Contact page is the canonical source for hours and phone number.
+
+## Core pages
+- [Services](https://example.com/services): Appliance repair services offered
+- [Service areas](https://example.com/areas): Neighborhoods and cities served
+- [Booking](https://example.com/book): Public booking and contact options
+- [Reviews](https://example.com/reviews): Customer testimonials and proof points
+
+## Optional
+- [Troubleshooting guides](https://example.com/guides): DIY checks before booking

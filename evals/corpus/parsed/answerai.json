@@ -1,0 +1,55 @@
+{
+  "parser_version": "corpus-v2",
+  "headings": [
+    {
+      "level": 1,
+      "text": "Answer.AI company website",
+      "line": 1
+    },
+    {
+      "level": 2,
+      "text": "Docs",
+      "line": 7
+    }
+  ],
+  "links": [
+    {
+      "label": "Launch post describing Answer.AI's mission and purpose",
+      "url": "https://www.answer.ai/posts/2023-12-12-launch.md",
+      "canonical": "https://www.answer.ai/posts/2023-12-12-launch.md",
+      "raw_url": "https://www.answer.ai/posts/2023-12-12-launch.md",
+      "description": "Describes Answer.AI, a \"new old kind of R&D lab\"",
+      "line": 9
+    },
+    {
+      "label": "Lessons from history’s greatest R&D labs",
+      "url": "https://www.answer.ai/posts/2024-01-26-freaktakes-lessons.md",
+      "canonical": "https://www.answer.ai/posts/2024-01-26-freaktakes-lessons.md",
+      "raw_url": "https://www.answer.ai/posts/2024-01-26-freaktakes-lessons.md",
+      "description": "A historical analysis of what the earliest electrical and great applied R&D labs can teach Answer.AI, and potential pitfalls, by R&D lab historian Eric Gilliam",
+      "line": 10
+    },
+    {
+      "label": "Answer.AI projects",
+      "url": "https://www.answer.ai/overview.md",
+      "canonical": "https://www.answer.ai/overview.md",
+      "raw_url": "https://www.answer.ai/overview.md",
+      "description": "Brief descriptions and dates of released Answer.AI projects",
+      "line": 11
+    }
+  ],
+  "bare_links": [],
+  "metrics": {
+    "bytes": 760,
+    "words": 92,
+    "lines": 12,
+    "approx_tokens_chars_div_4": 190,
+    "h1_count": 1,
+    "link_count": 3,
+    "bare_url_count": 0,
+    "described_links": 3,
+    "unique_destinations": 3,
+    "markdown_destinations": 3
+  },
+  "flags": []
+}

@@ -1,0 +1,7 @@
+# Parcel Shop
+
+> The homepage and shipping policy report different thresholds for free home delivery; neither states a date.
+
+## Shipping
+
+- [Shipping policy](<https://parcel.example/shipping>): Reports free home delivery over €600; the homepage reports a different threshold.

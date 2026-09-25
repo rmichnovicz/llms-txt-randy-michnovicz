@@ -1,0 +1,17 @@
+{
+  "id": "anthropic",
+  "url": "https://docs.anthropic.com/llms.txt",
+  "category": "developer-docs",
+  "kind": "actual",
+  "split": "development",
+  "discovery": "https://llmstxt.site/",
+  "retrieved_at": "2026-09-24T22:46:20.110711+00:00",
+  "accepted": true,
+  "status": 200,
+  "final_url": "https://platform.claude.com/llms.txt",
+  "content_type": "text/plain; charset=utf-8",
+  "sha256": "c5114f5d460291c411adfefd525f245631488f3c5824d8f25864a79b807f4458",
+  "bytes": 69098,
+  "decode_replacements": 0,
+  "raw_path": "raw/anthropic.txt"
+}

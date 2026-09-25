@@ -1,0 +1,9 @@
+# Parcel Shop
+
+> The shipping policy effective September 1, 2026 states that home delivery is free for orders over €600.
+
+The archived 2024 threshold of €300 was superseded by the 2026 shipping policy.
+
+## Shipping
+
+- [Shipping policy](<https://parcel.example/shipping>): Effective September 1, 2026; states the free home delivery threshold.

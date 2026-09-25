@@ -1,0 +1,71 @@
+{
+  "site": "https://plausible.io/docs/",
+  "robots_status": 200,
+  "strategies": {
+    "legacy": {
+      "eligible_urls": 0,
+      "urls": [],
+      "fetches": 1,
+      "bytes": 18445,
+      "recorded_fetch_seconds": 0.087,
+      "remaining_sitemaps": 0,
+      "trace": [
+        {
+          "url": "https://plausible.io/sitemap.xml",
+          "status": 200,
+          "bytes": 18445,
+          "seconds": 0.087,
+          "locations": 163
+        }
+      ]
+    },
+    "ranked": {
+      "eligible_urls": 0,
+      "urls": [],
+      "fetches": 1,
+      "bytes": 18445,
+      "recorded_fetch_seconds": 0.087,
+      "remaining_sitemaps": 0,
+      "trace": [
+        {
+          "url": "https://plausible.io/sitemap.xml",
+          "status": 200,
+          "bytes": 18445,
+          "seconds": 0.087,
+          "locations": 163
+        }
+      ]
+    },
+    "scoped": {
+      "eligible_urls": 0,
+      "urls": [],
+      "fetches": 1,
+      "bytes": 18445,
+      "recorded_fetch_seconds": 0.087,
+      "remaining_sitemaps": 0,
+      "trace": [
+        {
+          "url": "https://plausible.io/sitemap.xml",
+          "status": 200,
+          "bytes": 18445,
+          "seconds": 0.087,
+          "locations": 163
+        }
+      ]
+    }
+  },
+  "captures": [
+    {
+      "url": "https://plausible.io/robots.txt",
+      "status": 200,
+      "seconds": 0.2618230419466272,
+      "file": "0dd2fcdd55152095.xml.gz"
+    },
+    {
+      "url": "https://plausible.io/sitemap.xml",
+      "status": 200,
+      "seconds": 0.08740137494169176,
+      "file": "cff94a4fe83cc712.xml.gz"
+    }
+  ]
+}

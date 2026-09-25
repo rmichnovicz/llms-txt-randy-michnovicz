@@ -1,0 +1,31 @@
+{
+  "case_id": "no-filler-local-service-scope",
+  "judge_prompt_version": "dialogue-review-v1",
+  "payload_sha256": "652a888a7f4a2b13d3c4248c52906f59054ba0dd80ff5292badb7e268d2b8db4",
+  "advisory": true,
+  "model": "gpt-6-sol",
+  "judgment": {
+    "scores": {
+      "question_value": 2,
+      "options": 2,
+      "recommendation_reason": 2,
+      "answer_fidelity": 2,
+      "decision_lifecycle": 2
+    },
+    "issues": [],
+    "summary": "The supplied pages support a useful guide without clarification. The draft accurately covers services, geographic limits, appointment hours, and the lack of emergency callouts. No question or decision branches were exercised; their scores are not-applicable, not evidence of success."
+  },
+  "anchor_errors": [],
+  "usage": {
+    "input_tokens": 1007,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 140,
+    "output_tokens_details": {
+      "reasoning_tokens": 43
+    },
+    "total_tokens": 1147
+  }
+}

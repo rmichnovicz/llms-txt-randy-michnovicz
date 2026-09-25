@@ -1,0 +1,11 @@
+# Parcel Shop
+
+> Parcel Shop’s shipping policy is linked below; the free-delivery threshold is omitted because the site gives conflicting amounts.
+
+## Shopping
+
+- [Parcel Shop home](<https://parcel.example/>): Store home page.
+
+## Shipping
+
+- [Shipping policy](<https://parcel.example/shipping>): Shipping information; consult the policy for delivery terms.

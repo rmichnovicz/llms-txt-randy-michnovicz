@@ -1,0 +1,22 @@
+# MOLLIE Aspen | Boutique Hotel in Aspen | Official Site
+
+> Experience MOLLIE Aspen, where understated luxury meets a warm, residential ambiance in downtown Aspen, Colorado. A 68-room boutique hotel featuring Petit Trois Aspen by Chef Ludo Lefebvre, a rooftop spa pool with Aspen Mountain views, and complimentary Rivian electric vehicle shuttles.
+
+Complete hotel details: https://mollieaspen.com/llms-full.txt
+
+## Main
+
+- [Home](https://mollieaspen.com/): Overview of the hotel, location, and booking
+- [Rest](https://mollieaspen.com/rooms/): 68 rooms and suites blending Japanese and Scandinavian design, including suites with private terraces
+- [Specials](https://mollieaspen.com/specials/): Current packages and seasonal offers
+- [Experience](https://mollieaspen.com/amenities/): Rooftop spa pool, Naturopathica spa suite, fitness room, and guest amenities
+- [Taste](https://mollieaspen.com/dine-drink/): Petit Trois Aspen by Chef Ludo Lefebvre, the all-day cafe and wine bar, and the Roof Terrace Bar
+- [Gather](https://mollieaspen.com/meetings-events/): The Weaving Room (up to 60 guests) and Roof Terrace (up to 80 guests) for meetings, events, and weddings
+- [Events](https://mollieaspen.com/events/): Calendar of live music, wine tastings, classes, and community events
+- [Explore](https://mollieaspen.com/explore/): Guide to Aspen activities, attractions, and dining near the hotel
+- [Gallery](https://mollieaspen.com/gallery/): Photos of rooms, dining, and the rooftop
+
+## Optional
+
+- [Journal](https://mollieaspen.com/blog/): Aspen travel guides and hotel news
+- [Press](https://mollieaspen.com/press/): Media coverage and press resources

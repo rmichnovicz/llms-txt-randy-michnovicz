@@ -1,0 +1,17 @@
+{
+  "id": "elogic",
+  "url": "https://elogic.co/llms.txt",
+  "category": "professional-services",
+  "kind": "actual",
+  "split": "holdout",
+  "discovery": "https://llmstxt.site/",
+  "retrieved_at": "2026-09-24T22:46:26.407359+00:00",
+  "accepted": true,
+  "status": 200,
+  "final_url": "https://elogic.co/llms.txt",
+  "content_type": "text/plain",
+  "sha256": "745291c320307ff8813d69632e373ecc5061e8b2cbe34325fab719b9116a8a73",
+  "bytes": 13859,
+  "decode_replacements": 0,
+  "raw_path": "raw/elogic.txt"
+}

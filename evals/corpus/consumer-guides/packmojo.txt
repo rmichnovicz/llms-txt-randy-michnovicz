@@ -1,0 +1,18 @@
+# PackMojo
+
+> PackMojo offers custom packaging for brands, including mailer boxes, with options to configure packaging, order samples, and arrange production and shipping.
+
+PackMojo lists a 100-unit minimum for custom mailer boxes, applied separately to each variation in size, material, or artwork.
+
+PackMojo says custom samples are reimbursable with an order of at least 500 units.
+
+PackMojo reports typical production lead times of 12–16 days; larger bulk orders may take 3–4 weeks, and shipping time varies by method.
+
+## Explore custom packaging
+
+- [Custom packaging overview](<https://packmojo.com/>): Introduces packaging options and the process from customization through sampling, production, and delivery.
+- [Custom mailer boxes](<https://packmojo.com/custom-packaging/mailer-boxes/>): Covers mailer-box uses, minimum quantities, materials, printing options, and production and shipping estimates.
+
+## Test packaging before production
+
+- [Packaging samples](<https://packmojo.com/samples/>): Outlines sampling options for checking packaging size, structure, artwork, and finishes.

@@ -1,0 +1,5 @@
+{
+  "source_artifact": "evals/results/corpus-v2-holdout/real-picflow--r1.llms.txt",
+  "sha256": "9153ade7368f591d9f3f7397aff958168c04809b1c46a8ac61fc8a639765a525",
+  "producer_request_sha256": "17f39d94fa766274a2efb36f5495bc9c882da7cd419b221bf82a9a6010038004"
+}

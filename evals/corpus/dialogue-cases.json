@@ -1,0 +1,366 @@
+[
+  {
+    "id": "undated-interest-conflict",
+    "kind": "authored",
+    "input": {
+      "siteUrl": "https://source-date-unknown.example/",
+      "sources": [
+        {
+          "id": "home",
+          "url": "https://source-date-unknown.example/home",
+          "title": "Cove Savings",
+          "description": "",
+          "content": "Comparison site for deposit products, not a bank."
+        },
+        {
+          "id": "a",
+          "url": "https://source-date-unknown.example/a",
+          "title": "Saver account",
+          "description": "",
+          "content": "Rate stated as 4.1% annual interest. No date supplied."
+        },
+        {
+          "id": "b",
+          "url": "https://source-date-unknown.example/b",
+          "title": "Saver details",
+          "description": "",
+          "content": "Rate stated as 3.8% annual interest. No date supplied."
+        }
+      ],
+      "decisions": [],
+      "dismissedTopics": [],
+      "mode": "generate",
+      "maxQuestions": 2
+    },
+    "ambiguity_pattern": "rate|interest|4[.]1|3[.]8",
+    "rubric": "Both undated rates have equal authority. Ask which is current or offer omission pending verification. Explain the conflict. Never recommend picking the higher rate as fact.",
+    "custom": {
+      "kind": "fact",
+      "statement": "I checked with the owner: the current annual interest rate is 4.25%. Use that rate and identify this as owner-provided.",
+      "document_pattern": "4[.]25",
+      "removed_forbidden": "4[.]25"
+    },
+    "expect_question": true
+  },
+  {
+    "id": "shelter-priority",
+    "kind": "authored",
+    "input": {
+      "siteUrl": "https://charity-two-audiences.example/",
+      "sources": [
+        {
+          "id": "home",
+          "url": "https://charity-two-audiences.example/home",
+          "title": "Night Shelter",
+          "description": "",
+          "content": "Independent charity serving York."
+        },
+        {
+          "id": "help",
+          "url": "https://charity-two-audiences.example/help",
+          "title": "Get help",
+          "description": "",
+          "content": "To request a bed call the intake team. Availability changes daily."
+        },
+        {
+          "id": "donate",
+          "url": "https://charity-two-audiences.example/donate",
+          "title": "Donate",
+          "description": "",
+          "content": "Donations support shelter operations. We do not promise that each dollar buys a specified number of beds."
+        },
+        {
+          "id": "impact",
+          "url": "https://charity-two-audiences.example/impact",
+          "title": "Annual report",
+          "description": "",
+          "content": "2025 audited financial statements and program outcomes."
+        },
+        {
+          "id": "shop",
+          "url": "https://charity-two-audiences.example/shop",
+          "title": "Internal shop login",
+          "description": "",
+          "content": "Staff merchandise portal."
+        }
+      ],
+      "decisions": [
+        {
+          "id": "budget",
+          "kind": "preference",
+          "statement": "This guide must contain exactly one resource link. I have not chosen which audience to prioritize.",
+          "active": true
+        }
+      ],
+      "dismissedTopics": [],
+      "mode": "generate",
+      "maxQuestions": 2
+    },
+    "ambiguity_pattern": "audience|priorit|help|donor|donat|bed",
+    "rubric": "Only one resource is allowed. Recipient intake versus donor information is a consequential choice. Offer concrete alternatives and explain the default without claiming to know the owner intent.",
+    "custom": {
+      "kind": "preference",
+      "statement": "Prioritize people seeking a bed. Include only the intake resource; no donation, impact, or staff-shop links.",
+      "include": [
+        "help"
+      ],
+      "exclude": [
+        "donate",
+        "impact",
+        "shop"
+      ]
+    },
+    "expect_question": true
+  },
+  {
+    "id": "real-shipping-conflict",
+    "kind": "real-capture",
+    "input": {
+      "siteUrl": "https://we-in-style.com/",
+      "sources": [
+        {
+          "id": "page0",
+          "url": "https://we-in-style.com/",
+          "title": "Luxury Fashion for Men, Women & Children | Shop Designer Brands – WE IN STYLE American Express Apple Pay BLIK Cartes Bancaires Klarna Mastercard MobilePay PayPal Shop Pay Visa",
+          "description": "",
+          "content": "Explore our latest products.\nTrending Brands\nMen's New Arrivals\nWomen's New Arrivals\nWomen's Outlet\nRockstud East-West Bag\nVlogo Bag in Burgundy Leather\nStraight Black Denim Jean\nBeige Silk Stripe Shorts\nSilk Stripe Long Dress\nLong Orange Shirt Dress\nOrange Satin Effect Shorts\nFluid Satin Effect Shirt Red\nLong Sleeve Cotton Shirt\nBrown Cotton Straight Jeans\nDenim Boucle Oversized Shirt\nMen's Outlet\nD-Miroir Beige Polo - Droite de Monsieur\nPalmiers Swim Shorts - Drôle de Monsieur\nBeige Tweed Jacket Droled de Monsieur\nStriped T-Shirt - Spring-Summer 2026\nSweat à Capuche Effet Denim Gris\nBrown Leather Zipped Jacket\nGivenchy Grey Denim Cargo Pants\nLarge Worker Pants Beige\nFree shipping\nEnjoy free delivery with Chronopost Pickup from the first euro, or free home delivery via DHL from €600.\nReturns within 30 days\nWrong size or model? You have 30 days from receipt to return it.\nSecure payments\nWe accept all major cards, Apple Pay, PayPal, Klarna, iDEAL, and additional local payment methods depending on your country.\nNeed help?\nOur customer service team is here to assist you online, by email, or via WhatsApp."
+        },
+        {
+          "id": "page1",
+          "url": "https://we-in-style.com/policies/shipping-policy",
+          "title": "Shipping policy – WE IN STYLE American Express Apple Pay BLIK Cartes Bancaires Klarna Mastercard MobilePay PayPal Shop Pay Visa",
+          "description": "",
+          "content": "Shipping policy\nThe cost of delivery varies based on the size, weight, and destination of your order. However, we are pleased to offer free delivery for orders over €300. Additionally, delivery to Pickup Points in France is free with no minimum purchase.\nFor orders below these amounts, the home delivery fee will be displayed at checkout, allowing you to see the exact cost before finalizing your purchase.\nOnce your order is confirmed, we'll dispatch it within 2 business days. The delivery timeframe depends on your location, typically ranging from 1 to 7 business days.\nWe'll provide you with tracking information and an estimated delivery date via email, so you can monitor your order's progress.\nAdditionally, you can track your order by visiting the Orders section in your customer account.\nCustoms duties and import taxes may apply to international deliveries, depending on your country's customs laws and regulations. These charges are the responsibility of the recipient and may vary according to the value of the order and local customs regulations. We recommend that you check your country's customs regulations before placing an order."
+        }
+      ],
+      "decisions": [],
+      "dismissedTopics": [],
+      "mode": "generate",
+      "maxQuestions": 2
+    },
+    "ambiguity_pattern": "shipping|delivery|300|600|threshold",
+    "rubric": "Homepage and shipping policy disagree on free delivery thresholds. Cite both. Do not silently resolve the contradiction or recommend a new threshold as fact. Linking policy without quoting a number is a reasonable temporary suggestion.",
+    "custom": {
+      "kind": "fact",
+      "statement": "I own the store. The free home-delivery threshold is now €450. The website is awaiting correction. Use €450 and distinguish this owner update from the captured pages.",
+      "document_pattern": "450",
+      "removed_forbidden": "450"
+    },
+    "expect_question": true
+  },
+  {
+    "id": "service-area-conflict",
+    "kind": "authored",
+    "input": {
+      "siteUrl": "https://local-service-scope.example/",
+      "sources": [
+        {
+          "id": "home",
+          "url": "https://local-service-scope.example/home",
+          "title": "Bay Electric",
+          "description": "",
+          "content": "Electrical repairs in Oakland and Berkeley. Licensed contractor. We do not serve San Francisco."
+        },
+        {
+          "id": "area",
+          "url": "https://local-service-scope.example/area",
+          "title": "Service area",
+          "description": "",
+          "content": "Service area: Oakland, Berkeley, and San Francisco. No effective date."
+        },
+        {
+          "id": "contact",
+          "url": "https://local-service-scope.example/contact",
+          "title": "Request estimate",
+          "description": "",
+          "content": "Appointments Monday through Friday 9–5. We do not offer emergency callouts."
+        }
+      ],
+      "decisions": [],
+      "dismissedTopics": [],
+      "mode": "generate",
+      "maxQuestions": 2
+    },
+    "ambiguity_pattern": "Francisco|area|coverage|geograph|serv",
+    "rubric": "The overview lists Oakland/Berkeley while service-area page includes San Francisco. Ask whether SF is served, explain conflicting scope, suggest cautious wording rather than inventing broad coverage.",
+    "custom": {
+      "kind": "fact",
+      "statement": "Owner correction: service is now limited to Alameda only. Replace all previous city coverage statements.",
+      "document_pattern": "Alameda",
+      "removed_forbidden": "Alameda"
+    },
+    "expect_question": true
+  },
+  {
+    "id": "developer-or-buyer",
+    "kind": "authored",
+    "input": {
+      "siteUrl": "https://removed-direction-trajectory.example/",
+      "sources": [
+        {
+          "id": "home",
+          "url": "https://removed-direction-trajectory.example/home",
+          "title": "Query Cloud",
+          "description": "",
+          "content": "Search product for developers and business teams."
+        },
+        {
+          "id": "api",
+          "url": "https://removed-direction-trajectory.example/api",
+          "title": "API",
+          "description": "",
+          "content": "REST endpoints and authentication."
+        },
+        {
+          "id": "plans",
+          "url": "https://removed-direction-trajectory.example/plans",
+          "title": "Plans",
+          "description": "",
+          "content": "Team and enterprise plans; see current rates here."
+        }
+      ],
+      "decisions": [
+        {
+          "id": "budget",
+          "kind": "preference",
+          "statement": "Include exactly one resource link. The site does not establish whether this guide should serve API implementers or buyers.",
+          "active": true
+        }
+      ],
+      "dismissedTopics": [],
+      "mode": "generate",
+      "maxQuestions": 2
+    },
+    "ambiguity_pattern": "audience|developer|buyer|API|pricing|plan|priorit",
+    "rubric": "Choose between API implementation and buying/plans under one-link limit. Options should change the actual chosen link, with a grounded tentative recommendation.",
+    "custom": {
+      "kind": "preference",
+      "statement": "This guide is for buyers only. Include the plans resource and exclude API documentation.",
+      "include": [
+        "plans"
+      ],
+      "exclude": [
+        "api"
+      ]
+    },
+    "expect_question": true
+  },
+  {
+    "id": "no-filler-sparse-portfolio",
+    "kind": "authored",
+    "input": {
+      "siteUrl": "https://sparse-portfolio.example/",
+      "sources": [
+        {
+          "id": "home",
+          "url": "https://sparse-portfolio.example/home",
+          "title": "Ari Chen",
+          "description": "",
+          "content": "Independent illustrator in Taipei."
+        },
+        {
+          "id": "work",
+          "url": "https://sparse-portfolio.example/work",
+          "title": "Selected work",
+          "description": "",
+          "content": "Editorial illustration and book cover projects."
+        },
+        {
+          "id": "contact",
+          "url": "https://sparse-portfolio.example/contact",
+          "title": "Contact",
+          "description": "",
+          "content": "For commissions email the address on this page."
+        }
+      ],
+      "decisions": [],
+      "dismissedTopics": [],
+      "mode": "generate",
+      "maxQuestions": 2
+    },
+    "ambiguity_pattern": null,
+    "rubric": "Evidence supports a useful default. Do not invent questions merely to use the budget, and do not repeat dismissed topics.",
+    "custom": null,
+    "expect_question": false
+  },
+  {
+    "id": "no-filler-local-service-scope",
+    "kind": "authored",
+    "input": {
+      "siteUrl": "https://local-service-scope.example/",
+      "sources": [
+        {
+          "id": "home",
+          "url": "https://local-service-scope.example/home",
+          "title": "Bay Electric",
+          "description": "",
+          "content": "Electrical repairs in Oakland and Berkeley. Licensed contractor."
+        },
+        {
+          "id": "area",
+          "url": "https://local-service-scope.example/area",
+          "title": "Service area",
+          "description": "",
+          "content": "Oakland and Berkeley only; no service in San Francisco."
+        },
+        {
+          "id": "contact",
+          "url": "https://local-service-scope.example/contact",
+          "title": "Request estimate",
+          "description": "",
+          "content": "Appointments Monday through Friday 9–5. We do not offer emergency callouts."
+        }
+      ],
+      "decisions": [],
+      "dismissedTopics": [],
+      "mode": "generate",
+      "maxQuestions": 2
+    },
+    "ambiguity_pattern": null,
+    "rubric": "Evidence supports a useful default. Do not invent questions merely to use the budget, and do not repeat dismissed topics.",
+    "custom": null,
+    "expect_question": false
+  },
+  {
+    "id": "no-filler-question-only-no-filler",
+    "kind": "authored",
+    "input": {
+      "siteUrl": "https://question-only-no-filler.example/",
+      "sources": [
+        {
+          "id": "home",
+          "url": "https://question-only-no-filler.example/home",
+          "title": "Clear Studio",
+          "description": "",
+          "content": "Design studio for local restaurants."
+        },
+        {
+          "id": "work",
+          "url": "https://question-only-no-filler.example/work",
+          "title": "Projects",
+          "description": "",
+          "content": "Restaurant identities and menu design."
+        },
+        {
+          "id": "contact",
+          "url": "https://question-only-no-filler.example/contact",
+          "title": "Contact",
+          "description": "",
+          "content": "Project inquiries via contact form."
+        }
+      ],
+      "decisions": [],
+      "dismissedTopics": [
+        "audience",
+        "tone",
+        "resource_order"
+      ],
+      "mode": "questions",
+      "maxQuestions": 2
+    },
+    "ambiguity_pattern": null,
+    "rubric": "Evidence supports a useful default. Do not invent questions merely to use the budget, and do not repeat dismissed topics.",
+    "custom": null,
+    "expect_question": false
+  }
+]

@@ -1,0 +1,9 @@
+# Night Shelter
+
+> An independent charity serving York.
+
+Bed availability changes daily; people seeking a bed are directed to call the intake team.
+
+## Get shelter help
+
+- [Request a bed](<https://charity-two-audiences.example/help>): Explains that bed requests go through the intake team and availability changes daily.

@@ -1,0 +1,55 @@
+{
+  "parser_version": "corpus-v2",
+  "headings": [
+    {
+      "level": 1,
+      "text": "llms.txt",
+      "line": 1
+    },
+    {
+      "level": 2,
+      "text": "Docs",
+      "line": 5
+    }
+  ],
+  "links": [
+    {
+      "label": "llms.txt proposal",
+      "url": "https://llmstxt.org/index.md",
+      "canonical": "https://llmstxt.org/index.md",
+      "raw_url": "https://llmstxt.org/index.md",
+      "description": "The proposal for llms.txt",
+      "line": 7
+    },
+    {
+      "label": "Python library docs",
+      "url": "https://llmstxt.org/intro.html.md",
+      "canonical": "https://llmstxt.org/intro.html.md",
+      "raw_url": "https://llmstxt.org/intro.html.md",
+      "description": "Docs for llms-txt python lib",
+      "line": 8
+    },
+    {
+      "label": "ed demo",
+      "url": "https://llmstxt.org/ed.md",
+      "canonical": "https://llmstxt.org/ed.md",
+      "raw_url": "https://llmstxt.org/ed.md",
+      "description": "Tongue-in-cheek example of how llms.txt could be used in the classic ed editor, used to show how editors could incorporate llms.txt in general.",
+      "line": 9
+    }
+  ],
+  "bare_links": [],
+  "metrics": {
+    "bytes": 637,
+    "words": 85,
+    "lines": 10,
+    "approx_tokens_chars_div_4": 160,
+    "h1_count": 1,
+    "link_count": 3,
+    "bare_url_count": 0,
+    "described_links": 3,
+    "unique_destinations": 3,
+    "markdown_destinations": 3
+  },
+  "flags": []
+}

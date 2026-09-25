@@ -1,0 +1,5 @@
+{
+  "source_artifact": "evals/results/corpus-v2-holdout/real-packmojo--r1.llms.txt",
+  "sha256": "43077c4c84c3c2a8ac9bd67fed5e23be4b4cf28627fe0c23091c9a78811d48f0",
+  "producer_request_sha256": "b1216aafc8924f5a4c371a8d9d11870f85d43e9b2d75024fe8acbff08dc2ff78"
+}

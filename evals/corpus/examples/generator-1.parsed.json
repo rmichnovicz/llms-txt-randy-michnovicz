@@ -1,0 +1,70 @@
+{
+  "parser_version": "corpus-v2",
+  "headings": [
+    {
+      "level": 1,
+      "text": "Acme Analytics",
+      "line": 1
+    },
+    {
+      "level": 2,
+      "text": "Docs",
+      "line": 7
+    },
+    {
+      "level": 2,
+      "text": "Product",
+      "line": 12
+    }
+  ],
+  "links": [
+    {
+      "label": "Getting started",
+      "url": "https://example.com/docs/getting-started",
+      "canonical": "https://example.com/docs/getting-started",
+      "raw_url": "https://example.com/docs/getting-started",
+      "description": "Install the SDK and send your first event.",
+      "line": 9
+    },
+    {
+      "label": "API reference",
+      "url": "https://example.com/docs/api",
+      "canonical": "https://example.com/docs/api",
+      "raw_url": "https://example.com/docs/api",
+      "description": "REST API, SDKs, and webhook reference.",
+      "line": 10
+    },
+    {
+      "label": "Funnels",
+      "url": "https://example.com/features/funnels",
+      "canonical": "https://example.com/features/funnels",
+      "raw_url": "https://example.com/features/funnels",
+      "description": "Build conversion funnels from tracked events.",
+      "line": 14
+    },
+    {
+      "label": "Cohorts",
+      "url": "https://example.com/features/cohorts",
+      "canonical": "https://example.com/features/cohorts",
+      "raw_url": "https://example.com/features/cohorts",
+      "description": "Segment users by behavior.",
+      "line": 15
+    }
+  ],
+  "bare_links": [],
+  "metrics": {
+    "bytes": 611,
+    "words": 68,
+    "lines": 15,
+    "approx_tokens_chars_div_4": 153,
+    "h1_count": 1,
+    "link_count": 4,
+    "bare_url_count": 0,
+    "described_links": 4,
+    "unique_destinations": 4,
+    "markdown_destinations": 0
+  },
+  "flags": [
+    "placeholder-review"
+  ]
+}

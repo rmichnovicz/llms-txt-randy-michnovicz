@@ -1,0 +1,97 @@
+{
+  "parser_version": "corpus-v2",
+  "headings": [
+    {
+      "level": 1,
+      "text": "Svelte Documentation for LLMs",
+      "line": 1
+    },
+    {
+      "level": 2,
+      "text": "Documentation Sets",
+      "line": 5
+    },
+    {
+      "level": 2,
+      "text": "Individual Package Documentation",
+      "line": 11
+    },
+    {
+      "level": 2,
+      "text": "Notes",
+      "line": 18
+    }
+  ],
+  "links": [
+    {
+      "label": "Abridged documentation",
+      "url": "https://svelte.dev/llms-medium.txt",
+      "canonical": "https://svelte.dev/llms-medium.txt",
+      "raw_url": "https://svelte.dev/llms-medium.txt",
+      "description": "A shorter version of the Svelte and SvelteKit documentation, with examples and non-essential content removed",
+      "line": 7
+    },
+    {
+      "label": "Compressed documentation",
+      "url": "https://svelte.dev/llms-small.txt",
+      "canonical": "https://svelte.dev/llms-small.txt",
+      "raw_url": "https://svelte.dev/llms-small.txt",
+      "description": "A minimal version of the Svelte and SvelteKit documentation, with many examples and non-essential content removed",
+      "line": 8
+    },
+    {
+      "label": "Complete documentation",
+      "url": "https://svelte.dev/llms-full.txt",
+      "canonical": "https://svelte.dev/llms-full.txt",
+      "raw_url": "https://svelte.dev/llms-full.txt",
+      "description": "The complete Svelte and SvelteKit documentation including all examples and additional content",
+      "line": 9
+    },
+    {
+      "label": "Svelte documentation",
+      "url": "https://svelte.dev/docs/svelte/llms.txt",
+      "canonical": "https://svelte.dev/docs/svelte/llms.txt",
+      "raw_url": "https://svelte.dev/docs/svelte/llms.txt",
+      "description": "This is the developer documentation for Svelte.",
+      "line": 13
+    },
+    {
+      "label": "SvelteKit documentation",
+      "url": "https://svelte.dev/docs/kit/llms.txt",
+      "canonical": "https://svelte.dev/docs/kit/llms.txt",
+      "raw_url": "https://svelte.dev/docs/kit/llms.txt",
+      "description": "This is the developer documentation for SvelteKit.",
+      "line": 14
+    },
+    {
+      "label": "Svelte CLI documentation",
+      "url": "https://svelte.dev/docs/cli/llms.txt",
+      "canonical": "https://svelte.dev/docs/cli/llms.txt",
+      "raw_url": "https://svelte.dev/docs/cli/llms.txt",
+      "description": "This is the developer documentation for Svelte CLI.",
+      "line": 15
+    },
+    {
+      "label": "Svelte AI documentation",
+      "url": "https://svelte.dev/docs/ai/llms.txt",
+      "canonical": "https://svelte.dev/docs/ai/llms.txt",
+      "raw_url": "https://svelte.dev/docs/ai/llms.txt",
+      "description": "This is the developer documentation for Svelte AI.",
+      "line": 16
+    }
+  ],
+  "bare_links": [],
+  "metrics": {
+    "bytes": 1676,
+    "words": 196,
+    "lines": 23,
+    "approx_tokens_chars_div_4": 419,
+    "h1_count": 1,
+    "link_count": 7,
+    "bare_url_count": 0,
+    "described_links": 7,
+    "unique_destinations": 7,
+    "markdown_destinations": 0
+  },
+  "flags": []
+}

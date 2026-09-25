@@ -1,0 +1,17 @@
+{
+  "id": "gilesthomas",
+  "url": "https://www.gilesthomas.com/llms.txt",
+  "category": "publisher-personal",
+  "kind": "actual",
+  "split": "development",
+  "discovery": "https://llmstxt.site/",
+  "retrieved_at": "2026-09-24T22:46:25.643176+00:00",
+  "accepted": true,
+  "status": 200,
+  "final_url": "https://www.gilesthomas.com/llms.txt",
+  "content_type": "text/plain",
+  "sha256": "f188496b8d86b6784fb1359641e4dc8c0da328d12b651825f5059c899cfcaada",
+  "bytes": 118039,
+  "decode_replacements": 0,
+  "raw_path": "raw/gilesthomas.txt"
+}

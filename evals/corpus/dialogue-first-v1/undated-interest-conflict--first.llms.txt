@@ -1,0 +1,14 @@
+# Cove Savings
+
+> Cove Savings is a comparison site for deposit products, not a bank.
+
+The two saver pages quote different annual interest rates—4.1% and 3.8%—and neither provides a date. The guide does not identify either rate as current.
+
+## About the comparison site
+
+- [Cove Savings](<https://source-date-unknown.example/home>): Introduces the deposit-product comparison site.
+
+## Saver account information
+
+- [Saver account](<https://source-date-unknown.example/a>): Quotes 4.1% annual interest without a date.
+- [Saver details](<https://source-date-unknown.example/b>): Quotes 3.8% annual interest without a date.

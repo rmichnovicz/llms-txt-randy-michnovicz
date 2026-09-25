@@ -1,0 +1,133 @@
+{
+  "parser_version": "corpus-v2",
+  "headings": [
+    {
+      "level": 1,
+      "text": "MOLLIE Aspen | Boutique Hotel in Aspen | Official Site",
+      "line": 1
+    },
+    {
+      "level": 2,
+      "text": "Main",
+      "line": 7
+    },
+    {
+      "level": 2,
+      "text": "Optional",
+      "line": 19
+    }
+  ],
+  "links": [
+    {
+      "label": "Home",
+      "url": "https://mollieaspen.com/",
+      "canonical": "https://mollieaspen.com/",
+      "raw_url": "https://mollieaspen.com/",
+      "description": "Overview of the hotel, location, and booking",
+      "line": 9
+    },
+    {
+      "label": "Rest",
+      "url": "https://mollieaspen.com/rooms/",
+      "canonical": "https://mollieaspen.com/rooms/",
+      "raw_url": "https://mollieaspen.com/rooms/",
+      "description": "68 rooms and suites blending Japanese and Scandinavian design, including suites with private terraces",
+      "line": 10
+    },
+    {
+      "label": "Specials",
+      "url": "https://mollieaspen.com/specials/",
+      "canonical": "https://mollieaspen.com/specials/",
+      "raw_url": "https://mollieaspen.com/specials/",
+      "description": "Current packages and seasonal offers",
+      "line": 11
+    },
+    {
+      "label": "Experience",
+      "url": "https://mollieaspen.com/amenities/",
+      "canonical": "https://mollieaspen.com/amenities/",
+      "raw_url": "https://mollieaspen.com/amenities/",
+      "description": "Rooftop spa pool, Naturopathica spa suite, fitness room, and guest amenities",
+      "line": 12
+    },
+    {
+      "label": "Taste",
+      "url": "https://mollieaspen.com/dine-drink/",
+      "canonical": "https://mollieaspen.com/dine-drink/",
+      "raw_url": "https://mollieaspen.com/dine-drink/",
+      "description": "Petit Trois Aspen by Chef Ludo Lefebvre, the all-day cafe and wine bar, and the Roof Terrace Bar",
+      "line": 13
+    },
+    {
+      "label": "Gather",
+      "url": "https://mollieaspen.com/meetings-events/",
+      "canonical": "https://mollieaspen.com/meetings-events/",
+      "raw_url": "https://mollieaspen.com/meetings-events/",
+      "description": "The Weaving Room (up to 60 guests) and Roof Terrace (up to 80 guests) for meetings, events, and weddings",
+      "line": 14
+    },
+    {
+      "label": "Events",
+      "url": "https://mollieaspen.com/events/",
+      "canonical": "https://mollieaspen.com/events/",
+      "raw_url": "https://mollieaspen.com/events/",
+      "description": "Calendar of live music, wine tastings, classes, and community events",
+      "line": 15
+    },
+    {
+      "label": "Explore",
+      "url": "https://mollieaspen.com/explore/",
+      "canonical": "https://mollieaspen.com/explore/",
+      "raw_url": "https://mollieaspen.com/explore/",
+      "description": "Guide to Aspen activities, attractions, and dining near the hotel",
+      "line": 16
+    },
+    {
+      "label": "Gallery",
+      "url": "https://mollieaspen.com/gallery/",
+      "canonical": "https://mollieaspen.com/gallery/",
+      "raw_url": "https://mollieaspen.com/gallery/",
+      "description": "Photos of rooms, dining, and the rooftop",
+      "line": 17
+    },
+    {
+      "label": "Journal",
+      "url": "https://mollieaspen.com/blog/",
+      "canonical": "https://mollieaspen.com/blog/",
+      "raw_url": "https://mollieaspen.com/blog/",
+      "description": "Aspen travel guides and hotel news",
+      "line": 21
+    },
+    {
+      "label": "Press",
+      "url": "https://mollieaspen.com/press/",
+      "canonical": "https://mollieaspen.com/press/",
+      "raw_url": "https://mollieaspen.com/press/",
+      "description": "Media coverage and press resources",
+      "line": 22
+    }
+  ],
+  "bare_links": [
+    {
+      "url": "https://mollieaspen.com/llms-full.txt",
+      "label": "Complete hotel details: https://mollieaspen.com/llms-full.txt",
+      "description": "",
+      "line": 5,
+      "canonical": "https://mollieaspen.com/llms-full.txt",
+      "raw_url": "https://mollieaspen.com/llms-full.txt"
+    }
+  ],
+  "metrics": {
+    "bytes": 1651,
+    "words": 195,
+    "lines": 22,
+    "approx_tokens_chars_div_4": 413,
+    "h1_count": 1,
+    "link_count": 11,
+    "bare_url_count": 1,
+    "described_links": 11,
+    "unique_destinations": 11,
+    "markdown_destinations": 0
+  },
+  "flags": []
+}

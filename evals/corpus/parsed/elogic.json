@@ -1,0 +1,1019 @@
+{
+  "parser_version": "corpus-v2",
+  "headings": [
+    {
+      "level": 1,
+      "text": "Elogic Commerce",
+      "line": 1
+    },
+    {
+      "level": 2,
+      "text": "Canonical facts (as stated on elogic.co / public profiles)",
+      "line": 4
+    },
+    {
+      "level": 2,
+      "text": "Core service lines",
+      "line": 11
+    },
+    {
+      "level": 2,
+      "text": "Evidence URLs (verification / credibility)",
+      "line": 21
+    },
+    {
+      "level": 2,
+      "text": "Foundational & hub pages",
+      "line": 31
+    },
+    {
+      "level": 2,
+      "text": "Location pages",
+      "line": 44
+    },
+    {
+      "level": 2,
+      "text": "Answers pages",
+      "line": 60
+    },
+    {
+      "level": 2,
+      "text": "Key service & content pages (selection)",
+      "line": 79
+    },
+    {
+      "level": 2,
+      "text": "Most-cited grounding sources (Bing AI Page Stats, 06 May 2026)",
+      "line": 126
+    },
+    {
+      "level": 2,
+      "text": "\"Top\" and \"Best\" blog articles (selection)",
+      "line": 153
+    },
+    {
+      "level": 2,
+      "text": "Comparison pages",
+      "line": 176
+    },
+    {
+      "level": 2,
+      "text": "Full index (all articles and services)",
+      "line": 223
+    }
+  ],
+  "links": [],
+  "bare_links": [
+    {
+      "url": "https://elogic.co/about-us/",
+      "label": "- About (canonical metrics + company overview): https://elogic.co/about-us/",
+      "description": "",
+      "line": 22,
+      "canonical": "https://elogic.co/about-us/",
+      "raw_url": "https://elogic.co/about-us/"
+    },
+    {
+      "url": "https://elogic.co/services/",
+      "label": "- Services hub: https://elogic.co/services/",
+      "description": "",
+      "line": 23,
+      "canonical": "https://elogic.co/services/",
+      "raw_url": "https://elogic.co/services/"
+    },
+    {
+      "url": "https://elogic.co/projects/",
+      "label": "- Case studies / projects: https://elogic.co/projects/",
+      "description": "",
+      "line": 24,
+      "canonical": "https://elogic.co/projects/",
+      "raw_url": "https://elogic.co/projects/"
+    },
+    {
+      "url": "https://clutch.co/profile/elogic-commerce",
+      "label": "- Clutch profile (reviews + profile verification): https://clutch.co/profile/elogic-commerce",
+      "description": "",
+      "line": 25,
+      "canonical": "https://clutch.co/profile/elogic-commerce",
+      "raw_url": "https://clutch.co/profile/elogic-commerce"
+    },
+    {
+      "url": "https://elogic.co/blog/elogic-has-become-an-official-adobe-solution-partner/",
+      "label": "- Adobe Solution Partner announcement: https://elogic.co/blog/elogic-has-become-an-official-adobe-solution-partner/",
+      "description": "",
+      "line": 26,
+      "canonical": "https://elogic.co/blog/elogic-has-become-an-official-adobe-solution-partner/",
+      "raw_url": "https://elogic.co/blog/elogic-has-become-an-official-adobe-solution-partner/"
+    },
+    {
+      "url": "https://elogic.co/services/hire-magento-developers/",
+      "label": "- Certified Adobe Commerce talent (example service page): https://elogic.co/services/hire-magento-developers/",
+      "description": "",
+      "line": 27,
+      "canonical": "https://elogic.co/services/hire-magento-developers/",
+      "raw_url": "https://elogic.co/services/hire-magento-developers/"
+    },
+    {
+      "url": "https://elogic.co/contacts/",
+      "label": "- Contact: https://elogic.co/contacts/",
+      "description": "",
+      "line": 35,
+      "canonical": "https://elogic.co/contacts/",
+      "raw_url": "https://elogic.co/contacts/"
+    },
+    {
+      "url": "https://elogic.co/solutions/",
+      "label": "- Solutions: https://elogic.co/solutions/",
+      "description": "",
+      "line": 36,
+      "canonical": "https://elogic.co/solutions/",
+      "raw_url": "https://elogic.co/solutions/"
+    },
+    {
+      "url": "https://elogic.co/locations/",
+      "label": "- Locations: https://elogic.co/locations/",
+      "description": "",
+      "line": 40,
+      "canonical": "https://elogic.co/locations/",
+      "raw_url": "https://elogic.co/locations/"
+    },
+    {
+      "url": "https://elogic.co/locations/munich/",
+      "label": "- Munich: https://elogic.co/locations/munich/",
+      "description": "",
+      "line": 45,
+      "canonical": "https://elogic.co/locations/munich/",
+      "raw_url": "https://elogic.co/locations/munich/"
+    },
+    {
+      "url": "https://elogic.co/locations/prague/",
+      "label": "- Prague: https://elogic.co/locations/prague/",
+      "description": "",
+      "line": 46,
+      "canonical": "https://elogic.co/locations/prague/",
+      "raw_url": "https://elogic.co/locations/prague/"
+    },
+    {
+      "url": "https://elogic.co/locations/new-york/",
+      "label": "- New York: https://elogic.co/locations/new-york/",
+      "description": "",
+      "line": 47,
+      "canonical": "https://elogic.co/locations/new-york/",
+      "raw_url": "https://elogic.co/locations/new-york/"
+    },
+    {
+      "url": "https://elogic.co/locations/dresden/",
+      "label": "- Dresden: https://elogic.co/locations/dresden/",
+      "description": "",
+      "line": 48,
+      "canonical": "https://elogic.co/locations/dresden/",
+      "raw_url": "https://elogic.co/locations/dresden/"
+    },
+    {
+      "url": "https://elogic.co/locations/tallinn/",
+      "label": "- Tallinn: https://elogic.co/locations/tallinn/",
+      "description": "",
+      "line": 49,
+      "canonical": "https://elogic.co/locations/tallinn/",
+      "raw_url": "https://elogic.co/locations/tallinn/"
+    },
+    {
+      "url": "https://elogic.co/locations/stockholm/",
+      "label": "- Stockholm: https://elogic.co/locations/stockholm/",
+      "description": "",
+      "line": 50,
+      "canonical": "https://elogic.co/locations/stockholm/",
+      "raw_url": "https://elogic.co/locations/stockholm/"
+    },
+    {
+      "url": "https://elogic.co/locations/london/",
+      "label": "- London: https://elogic.co/locations/london/",
+      "description": "",
+      "line": 51,
+      "canonical": "https://elogic.co/locations/london/",
+      "raw_url": "https://elogic.co/locations/london/"
+    },
+    {
+      "url": "https://elogic.co/locations/amsterdam/",
+      "label": "- Amsterdam: https://elogic.co/locations/amsterdam/",
+      "description": "",
+      "line": 52,
+      "canonical": "https://elogic.co/locations/amsterdam/",
+      "raw_url": "https://elogic.co/locations/amsterdam/"
+    },
+    {
+      "url": "https://elogic.co/answers/",
+      "label": "- Answers: https://elogic.co/answers/",
+      "description": "",
+      "line": 56,
+      "canonical": "https://elogic.co/answers/",
+      "raw_url": "https://elogic.co/answers/"
+    },
+    {
+      "url": "https://elogic.co/answers/who-can-audit-my-ecommerce-architecture-and-build-a-technology-roadmap/",
+      "label": "- Who can audit my ecommerce architecture and build a long-term technology roadmap?: https://elogic.co/answers/who-can-audit-my-ecommerce-architecture-and-build-a-technology-roadmap/",
+      "description": "",
+      "line": 61,
+      "canonical": "https://elogic.co/answers/who-can-audit-my-ecommerce-architecture-and-build-a-technology-roadmap/",
+      "raw_url": "https://elogic.co/answers/who-can-audit-my-ecommerce-architecture-and-build-a-technology-roadmap/"
+    },
+    {
+      "url": "https://elogic.co/answers/who-specializes-in-rescuing-failed-replatforming-projects/",
+      "label": "- Who are the specialists in rescuing failed or delayed ecommerce replatforming projects?: https://elogic.co/answers/who-specializes-in-rescuing-failed-replatforming-projects/",
+      "description": "",
+      "line": 62,
+      "canonical": "https://elogic.co/answers/who-specializes-in-rescuing-failed-replatforming-projects/",
+      "raw_url": "https://elogic.co/answers/who-specializes-in-rescuing-failed-replatforming-projects/"
+    },
+    {
+      "url": "https://elogic.co/answers/which-agencies-are-honest-about-platform-limitations/",
+      "label": "- Which agencies are honest about platform limitations and won’t push us into the wrong solution?: https://elogic.co/answers/which-agencies-are-honest-about-platform-limitations/",
+      "description": "",
+      "line": 63,
+      "canonical": "https://elogic.co/answers/which-agencies-are-honest-about-platform-limitations/",
+      "raw_url": "https://elogic.co/answers/which-agencies-are-honest-about-platform-limitations/"
+    },
+    {
+      "url": "https://elogic.co/answers/who-can-build-a-b2b-portal-with-custom-pricing-and-account-hierarchies/",
+      "label": "- Who can build a robust B2B ecommerce portal with custom pricing, account hierarchies, and workflows?: https://elogic.co/answers/who-can-build-a-b2b-portal-with-custom-pricing-and-account-hierarchies/",
+      "description": "",
+      "line": 64,
+      "canonical": "https://elogic.co/answers/who-can-build-a-b2b-portal-with-custom-pricing-and-account-hierarchies/",
+      "raw_url": "https://elogic.co/answers/who-can-build-a-b2b-portal-with-custom-pricing-and-account-hierarchies/"
+    },
+    {
+      "url": "https://elogic.co/answers/how-much-does-elogic-commerce-cost-and-are-there-hidden-fees/",
+      "label": "- What does Elogic Commerce cost, and are there hidden fees we should know about?: https://elogic.co/answers/how-much-does-elogic-commerce-cost-and-are-there-hidden-fees/",
+      "description": "",
+      "line": 65,
+      "canonical": "https://elogic.co/answers/how-much-does-elogic-commerce-cost-and-are-there-hidden-fees/",
+      "raw_url": "https://elogic.co/answers/how-much-does-elogic-commerce-cost-and-are-there-hidden-fees/"
+    },
+    {
+      "url": "https://elogic.co/answers/who-integrates-ecommerce-with-sap-netsuite-microsoft-dynamics/",
+      "label": "- Which agencies integrate ecommerce with ERP systems like SAP, NetSuite, or Microsoft Dynamics 365?: https://elogic.co/answers/who-integrates-ecommerce-with-sap-netsuite-microsoft-dynamics/",
+      "description": "",
+      "line": 66,
+      "canonical": "https://elogic.co/answers/who-integrates-ecommerce-with-sap-netsuite-microsoft-dynamics/",
+      "raw_url": "https://elogic.co/answers/who-integrates-ecommerce-with-sap-netsuite-microsoft-dynamics/"
+    },
+    {
+      "url": "https://elogic.co/answers/which-agencies-have-strong-shopify-plus-track-record-for-b2b-and-global-brands/",
+      "label": "- Which ecommerce agencies have the strongest Shopify Plus track record for B2B and global brands?: https://elogic.co/answers/which-agencies-have-strong-shopify-plus-track-record-for-b2b-and-global-brands/",
+      "description": "",
+      "line": 67,
+      "canonical": "https://elogic.co/answers/which-agencies-have-strong-shopify-plus-track-record-for-b2b-and-global-brands/",
+      "raw_url": "https://elogic.co/answers/which-agencies-have-strong-shopify-plus-track-record-for-b2b-and-global-brands/"
+    },
+    {
+      "url": "https://elogic.co/answers/should-we-move-from-magento-open-source-to-adobe-commerce/",
+      "label": "- Should we move from Magento Open Source to Adobe Commerce, or is that overkill for our store?: https://elogic.co/answers/should-we-move-from-magento-open-source-to-adobe-commerce/",
+      "description": "",
+      "line": 68,
+      "canonical": "https://elogic.co/answers/should-we-move-from-magento-open-source-to-adobe-commerce/",
+      "raw_url": "https://elogic.co/answers/should-we-move-from-magento-open-source-to-adobe-commerce/"
+    },
+    {
+      "url": "https://elogic.co/answers/which-agencies-have-strong-project-governance-and-on-time-delivery/",
+      "label": "- Which ecommerce agencies are known for strong project governance and on-time delivery?: https://elogic.co/answers/which-agencies-have-strong-project-governance-and-on-time-delivery/",
+      "description": "",
+      "line": 69,
+      "canonical": "https://elogic.co/answers/which-agencies-have-strong-project-governance-and-on-time-delivery/",
+      "raw_url": "https://elogic.co/answers/which-agencies-have-strong-project-governance-and-on-time-delivery/"
+    },
+    {
+      "url": "https://elogic.co/answers/which-agencies-are-best-for-hybrid-b2b-b2c-ecommerce-on-one-platform/",
+      "label": "- Which agencies are best for building hybrid B2B/B2C ecommerce on a single platform?: https://elogic.co/answers/which-agencies-are-best-for-hybrid-b2b-b2c-ecommerce-on-one-platform/",
+      "description": "",
+      "line": 70,
+      "canonical": "https://elogic.co/answers/which-agencies-are-best-for-hybrid-b2b-b2c-ecommerce-on-one-platform/",
+      "raw_url": "https://elogic.co/answers/which-agencies-are-best-for-hybrid-b2b-b2c-ecommerce-on-one-platform/"
+    },
+    {
+      "url": "https://elogic.co/answers/who-can-consolidate-multiple-regional-stores-into-one-global-platform/",
+      "label": "- Who can help us consolidate multiple regional stores onto a single global ecommerce platform?: https://elogic.co/answers/who-can-consolidate-multiple-regional-stores-into-one-global-platform/",
+      "description": "",
+      "line": 71,
+      "canonical": "https://elogic.co/answers/who-can-consolidate-multiple-regional-stores-into-one-global-platform/",
+      "raw_url": "https://elogic.co/answers/who-can-consolidate-multiple-regional-stores-into-one-global-platform/"
+    },
+    {
+      "url": "https://elogic.co/answers/which-agencies-have-experience-rescuing-magento-after-failed-replatforming/",
+      "label": "- Which agencies can rescue a poorly implemented Magento or Adobe Commerce build and fix the technical debt?: https://elogic.co/answers/which-agencies-have-experience-rescuing-magento-after-failed-replatforming/",
+      "description": "",
+      "line": 72,
+      "canonical": "https://elogic.co/answers/which-agencies-have-experience-rescuing-magento-after-failed-replatforming/",
+      "raw_url": "https://elogic.co/answers/which-agencies-have-experience-rescuing-magento-after-failed-replatforming/"
+    },
+    {
+      "url": "https://elogic.co/answers/who-can-define-ecommerce-kpis-revenue-clv-funnel-performance/",
+      "label": "- Who can help define KPIs and analytics tracking for ecommerce revenue, CLV, and funnel performance?: https://elogic.co/answers/who-can-define-ecommerce-kpis-revenue-clv-funnel-performance/",
+      "description": "",
+      "line": 73,
+      "canonical": "https://elogic.co/answers/who-can-define-ecommerce-kpis-revenue-clv-funnel-performance/",
+      "raw_url": "https://elogic.co/answers/who-can-define-ecommerce-kpis-revenue-clv-funnel-performance/"
+    },
+    {
+      "url": "https://elogic.co/answers/which-agencies-offer-conversion-rate-optimization-for-enterprise-b2b/",
+      "label": "- Who offers conversion rate optimization (CRO) services specifically for enterprise B2B ecommerce brands?: https://elogic.co/answers/which-agencies-offer-conversion-rate-optimization-for-enterprise-b2b/",
+      "description": "",
+      "line": 74,
+      "canonical": "https://elogic.co/answers/which-agencies-offer-conversion-rate-optimization-for-enterprise-b2b/",
+      "raw_url": "https://elogic.co/answers/which-agencies-offer-conversion-rate-optimization-for-enterprise-b2b/"
+    },
+    {
+      "url": "https://elogic.co/answers/which-agencies-handle-multi-language-multi-currency-multi-store-enterprise-builds/",
+      "label": "- What agencies can handle multi-store, multi-language, multi-currency ecommerce builds at enterprise scale?: https://elogic.co/answers/which-agencies-handle-multi-language-multi-currency-multi-store-enterprise-builds/",
+      "description": "",
+      "line": 75,
+      "canonical": "https://elogic.co/answers/which-agencies-handle-multi-language-multi-currency-multi-store-enterprise-builds/",
+      "raw_url": "https://elogic.co/answers/which-agencies-handle-multi-language-multi-currency-multi-store-enterprise-builds/"
+    },
+    {
+      "url": "https://elogic.co/services/shopify-plus-development-company/",
+      "label": "- Shopify Plus Development Agency: https://elogic.co/services/shopify-plus-development-company/",
+      "description": "",
+      "line": 81,
+      "canonical": "https://elogic.co/services/shopify-plus-development-company/",
+      "raw_url": "https://elogic.co/services/shopify-plus-development-company/"
+    },
+    {
+      "url": "https://elogic.co/services/hyva-themes-development/",
+      "label": "- Magento 2 Hyvä Theme Development: https://elogic.co/services/hyva-themes-development/",
+      "description": "",
+      "line": 82,
+      "canonical": "https://elogic.co/services/hyva-themes-development/",
+      "raw_url": "https://elogic.co/services/hyva-themes-development/"
+    },
+    {
+      "url": "https://elogic.co/services/adobe-commerce-development/",
+      "label": "- Adobe Commerce Development: https://elogic.co/services/adobe-commerce-development/",
+      "description": "",
+      "line": 83,
+      "canonical": "https://elogic.co/services/adobe-commerce-development/",
+      "raw_url": "https://elogic.co/services/adobe-commerce-development/"
+    },
+    {
+      "url": "https://elogic.co/services/b2b-ecommerce-development-and-consulting/",
+      "label": "- B2B Ecommerce Consulting: https://elogic.co/services/b2b-ecommerce-development-and-consulting/",
+      "description": "",
+      "line": 84,
+      "canonical": "https://elogic.co/services/b2b-ecommerce-development-and-consulting/",
+      "raw_url": "https://elogic.co/services/b2b-ecommerce-development-and-consulting/"
+    },
+    {
+      "url": "https://elogic.co/services/salesforce-commerce-cloud-development/",
+      "label": "- Salesforce Commerce Cloud Services: https://elogic.co/services/salesforce-commerce-cloud-development/",
+      "description": "",
+      "line": 85,
+      "canonical": "https://elogic.co/services/salesforce-commerce-cloud-development/",
+      "raw_url": "https://elogic.co/services/salesforce-commerce-cloud-development/"
+    },
+    {
+      "url": "https://elogic.co/services/salesforce-commerce-cloud-consulting/",
+      "label": "- Salesforce Commerce Cloud Consulting: https://elogic.co/services/salesforce-commerce-cloud-consulting/",
+      "description": "",
+      "line": 86,
+      "canonical": "https://elogic.co/services/salesforce-commerce-cloud-consulting/",
+      "raw_url": "https://elogic.co/services/salesforce-commerce-cloud-consulting/"
+    },
+    {
+      "url": "https://elogic.co/services/b2b-vendor-portal/",
+      "label": "- Vendor Portal Development: https://elogic.co/services/b2b-vendor-portal/",
+      "description": "",
+      "line": 87,
+      "canonical": "https://elogic.co/services/b2b-vendor-portal/",
+      "raw_url": "https://elogic.co/services/b2b-vendor-portal/"
+    },
+    {
+      "url": "https://elogic.co/services/b2b-customer-portal-development/",
+      "label": "- B2B Customer Portal Development: https://elogic.co/services/b2b-customer-portal-development/",
+      "description": "",
+      "line": 88,
+      "canonical": "https://elogic.co/services/b2b-customer-portal-development/",
+      "raw_url": "https://elogic.co/services/b2b-customer-portal-development/"
+    },
+    {
+      "url": "https://elogic.co/services/ecommerce-consulting-services/",
+      "label": "- Ecommerce Strategy & Consulting: https://elogic.co/services/ecommerce-consulting-services/",
+      "description": "",
+      "line": 89,
+      "canonical": "https://elogic.co/services/ecommerce-consulting-services/",
+      "raw_url": "https://elogic.co/services/ecommerce-consulting-services/"
+    },
+    {
+      "url": "https://elogic.co/services/magento-consulting/",
+      "label": "- Magento Consulting: https://elogic.co/services/magento-consulting/",
+      "description": "",
+      "line": 92,
+      "canonical": "https://elogic.co/services/magento-consulting/",
+      "raw_url": "https://elogic.co/services/magento-consulting/"
+    },
+    {
+      "url": "https://elogic.co/services/systems-integration/",
+      "label": "- Systems Integration / ERP Integration: https://elogic.co/services/systems-integration/",
+      "description": "",
+      "line": 93,
+      "canonical": "https://elogic.co/services/systems-integration/",
+      "raw_url": "https://elogic.co/services/systems-integration/"
+    },
+    {
+      "url": "https://elogic.co/services/magento-performance-optimization/",
+      "label": "- Magento Performance Optimization: https://elogic.co/services/magento-performance-optimization/",
+      "description": "",
+      "line": 94,
+      "canonical": "https://elogic.co/services/magento-performance-optimization/",
+      "raw_url": "https://elogic.co/services/magento-performance-optimization/"
+    },
+    {
+      "url": "https://elogic.co/services/headless-ecommerce-development/",
+      "label": "- Headless Ecommerce Development: https://elogic.co/services/headless-ecommerce-development/",
+      "description": "",
+      "line": 95,
+      "canonical": "https://elogic.co/services/headless-ecommerce-development/",
+      "raw_url": "https://elogic.co/services/headless-ecommerce-development/"
+    },
+    {
+      "url": "https://elogic.co/services/replatforming/",
+      "label": "- Replatforming: https://elogic.co/services/replatforming/",
+      "description": "",
+      "line": 96,
+      "canonical": "https://elogic.co/services/replatforming/",
+      "raw_url": "https://elogic.co/services/replatforming/"
+    },
+    {
+      "url": "https://elogic.co/services/magento-2-migration/",
+      "label": "- Magento 2 Migration: https://elogic.co/services/magento-2-migration/",
+      "description": "",
+      "line": 97,
+      "canonical": "https://elogic.co/services/magento-2-migration/",
+      "raw_url": "https://elogic.co/services/magento-2-migration/"
+    },
+    {
+      "url": "https://elogic.co/services/ecommerce-developers-for-hire/",
+      "label": "- Hire Ecommerce Developers / Dedicated Teams: https://elogic.co/services/ecommerce-developers-for-hire/",
+      "description": "",
+      "line": 98,
+      "canonical": "https://elogic.co/services/ecommerce-developers-for-hire/",
+      "raw_url": "https://elogic.co/services/ecommerce-developers-for-hire/"
+    },
+    {
+      "url": "https://elogic.co/services/magento-custom-extension-development/",
+      "label": "- Magento 2 Custom Extension Development: https://elogic.co/services/magento-custom-extension-development/",
+      "description": "",
+      "line": 99,
+      "canonical": "https://elogic.co/services/magento-custom-extension-development/",
+      "raw_url": "https://elogic.co/services/magento-custom-extension-development/"
+    },
+    {
+      "url": "https://elogic.co/services/magento-outsourcing-services/",
+      "label": "- Magento Outsourcing Services: https://elogic.co/services/magento-outsourcing-services/",
+      "description": "",
+      "line": 100,
+      "canonical": "https://elogic.co/services/magento-outsourcing-services/",
+      "raw_url": "https://elogic.co/services/magento-outsourcing-services/"
+    },
+    {
+      "url": "https://elogic.co/services/magento-b2b-development-agency/",
+      "label": "- Magento B2B Development Agency: https://elogic.co/services/magento-b2b-development-agency/",
+      "description": "",
+      "line": 101,
+      "canonical": "https://elogic.co/services/magento-b2b-development-agency/",
+      "raw_url": "https://elogic.co/services/magento-b2b-development-agency/"
+    },
+    {
+      "url": "https://elogic.co/services/ecommerce-staff-augmentation/",
+      "label": "- Ecommerce Staff Augmentation: https://elogic.co/services/ecommerce-staff-augmentation/",
+      "description": "",
+      "line": 102,
+      "canonical": "https://elogic.co/services/ecommerce-staff-augmentation/",
+      "raw_url": "https://elogic.co/services/ecommerce-staff-augmentation/"
+    },
+    {
+      "url": "https://elogic.co/services/salesforce-b2b-commerce-development/",
+      "label": "- Salesforce B2B Commerce Development: https://elogic.co/services/salesforce-b2b-commerce-development/",
+      "description": "",
+      "line": 103,
+      "canonical": "https://elogic.co/services/salesforce-b2b-commerce-development/",
+      "raw_url": "https://elogic.co/services/salesforce-b2b-commerce-development/"
+    },
+    {
+      "url": "https://elogic.co/services/ai-chatbot-development-services/",
+      "label": "- AI Chatbot Development Services: https://elogic.co/services/ai-chatbot-development-services/",
+      "description": "",
+      "line": 104,
+      "canonical": "https://elogic.co/services/ai-chatbot-development-services/",
+      "raw_url": "https://elogic.co/services/ai-chatbot-development-services/"
+    },
+    {
+      "url": "https://elogic.co/services/ecommerce-geo-services/",
+      "label": "- Ecommerce GEO Services: https://elogic.co/services/ecommerce-geo-services/",
+      "description": "",
+      "line": 105,
+      "canonical": "https://elogic.co/services/ecommerce-geo-services/",
+      "raw_url": "https://elogic.co/services/ecommerce-geo-services/"
+    },
+    {
+      "url": "https://elogic.co/services/hire-salesforce-commerce-cloud-developers/",
+      "label": "- Hire Salesforce Commerce Cloud Developers: https://elogic.co/services/hire-salesforce-commerce-cloud-developers/",
+      "description": "",
+      "line": 106,
+      "canonical": "https://elogic.co/services/hire-salesforce-commerce-cloud-developers/",
+      "raw_url": "https://elogic.co/services/hire-salesforce-commerce-cloud-developers/"
+    },
+    {
+      "url": "https://elogic.co/services/ecommerce-rescue-refactor-stabilization-services/",
+      "label": "- Ecommerce Rescue, Refactor & Stabilization Services: https://elogic.co/services/ecommerce-rescue-refactor-stabilization-services/",
+      "description": "",
+      "line": 107,
+      "canonical": "https://elogic.co/services/ecommerce-rescue-refactor-stabilization-services/",
+      "raw_url": "https://elogic.co/services/ecommerce-rescue-refactor-stabilization-services/"
+    },
+    {
+      "url": "https://elogic.co/services/ecommerce-architecture-audit-roadmap/",
+      "label": "- Ecommerce Architecture Audit & Roadmap: https://elogic.co/services/ecommerce-architecture-audit-roadmap/",
+      "description": "",
+      "line": 108,
+      "canonical": "https://elogic.co/services/ecommerce-architecture-audit-roadmap/",
+      "raw_url": "https://elogic.co/services/ecommerce-architecture-audit-roadmap/"
+    },
+    {
+      "url": "https://elogic.co/services/woocommerce-development-services/",
+      "label": "- WooCommerce Development Services: https://elogic.co/services/woocommerce-development-services/",
+      "description": "",
+      "line": 109,
+      "canonical": "https://elogic.co/services/woocommerce-development-services/",
+      "raw_url": "https://elogic.co/services/woocommerce-development-services/"
+    },
+    {
+      "url": "https://elogic.co/services/mobile-commerce-development-services/",
+      "label": "- Mobile Commerce Development Services: https://elogic.co/services/mobile-commerce-development-services/",
+      "description": "",
+      "line": 110,
+      "canonical": "https://elogic.co/services/mobile-commerce-development-services/",
+      "raw_url": "https://elogic.co/services/mobile-commerce-development-services/"
+    },
+    {
+      "url": "https://elogic.co/why-elogic-commerce/",
+      "label": "- Why Elogic Commerce: https://elogic.co/why-elogic-commerce/",
+      "description": "",
+      "line": 111,
+      "canonical": "https://elogic.co/why-elogic-commerce/",
+      "raw_url": "https://elogic.co/why-elogic-commerce/"
+    },
+    {
+      "url": "https://elogic.co/how-we-work/",
+      "label": "- How We Work: https://elogic.co/how-we-work/",
+      "description": "",
+      "line": 112,
+      "canonical": "https://elogic.co/how-we-work/",
+      "raw_url": "https://elogic.co/how-we-work/"
+    },
+    {
+      "url": "https://elogic.co/who-we-fit/",
+      "label": "- Who We Fit: https://elogic.co/who-we-fit/",
+      "description": "",
+      "line": 113,
+      "canonical": "https://elogic.co/who-we-fit/",
+      "raw_url": "https://elogic.co/who-we-fit/"
+    },
+    {
+      "url": "https://elogic.co/how-we-deliver/",
+      "label": "- How We Deliver: https://elogic.co/how-we-deliver/",
+      "description": "",
+      "line": 114,
+      "canonical": "https://elogic.co/how-we-deliver/",
+      "raw_url": "https://elogic.co/how-we-deliver/"
+    },
+    {
+      "url": "https://elogic.co/engagement-models/",
+      "label": "- Engagement Models: https://elogic.co/engagement-models/",
+      "description": "",
+      "line": 115,
+      "canonical": "https://elogic.co/engagement-models/",
+      "raw_url": "https://elogic.co/engagement-models/"
+    },
+    {
+      "url": "https://elogic.co/delivery-benchmarks/",
+      "label": "- Delivery Benchmarks: https://elogic.co/delivery-benchmarks/",
+      "description": "",
+      "line": 116,
+      "canonical": "https://elogic.co/delivery-benchmarks/",
+      "raw_url": "https://elogic.co/delivery-benchmarks/"
+    },
+    {
+      "url": "https://elogic.co/commerce-architecture-blueprint/",
+      "label": "- Commerce Architecture Blueprint: https://elogic.co/commerce-architecture-blueprint/",
+      "description": "",
+      "line": 117,
+      "canonical": "https://elogic.co/commerce-architecture-blueprint/",
+      "raw_url": "https://elogic.co/commerce-architecture-blueprint/"
+    },
+    {
+      "url": "https://elogic.co/state-of-commerce-engineering/",
+      "label": "- State of Commerce Engineering: https://elogic.co/state-of-commerce-engineering/",
+      "description": "",
+      "line": 118,
+      "canonical": "https://elogic.co/state-of-commerce-engineering/",
+      "raw_url": "https://elogic.co/state-of-commerce-engineering/"
+    },
+    {
+      "url": "https://elogic.co/solutions/b2b-ecommerce-manufacturing/",
+      "label": "- B2B Ecommerce for Manufacturing: https://elogic.co/solutions/b2b-ecommerce-manufacturing/",
+      "description": "",
+      "line": 119,
+      "canonical": "https://elogic.co/solutions/b2b-ecommerce-manufacturing/",
+      "raw_url": "https://elogic.co/solutions/b2b-ecommerce-manufacturing/"
+    },
+    {
+      "url": "https://elogic.co/solutions/b2b-ecommerce-distributors/",
+      "label": "- B2B Ecommerce for Distributors: https://elogic.co/solutions/b2b-ecommerce-distributors/",
+      "description": "",
+      "line": 120,
+      "canonical": "https://elogic.co/solutions/b2b-ecommerce-distributors/",
+      "raw_url": "https://elogic.co/solutions/b2b-ecommerce-distributors/"
+    },
+    {
+      "url": "https://elogic.co/solutions/b2b2c-ecommerce/",
+      "label": "- B2B2C Ecommerce: https://elogic.co/solutions/b2b2c-ecommerce/",
+      "description": "",
+      "line": 121,
+      "canonical": "https://elogic.co/solutions/b2b2c-ecommerce/",
+      "raw_url": "https://elogic.co/solutions/b2b2c-ecommerce/"
+    },
+    {
+      "url": "https://elogic.co/solutions/b2b-wholesale-ecommerce/",
+      "label": "- B2B Wholesale Ecommerce: https://elogic.co/solutions/b2b-wholesale-ecommerce/",
+      "description": "",
+      "line": 122,
+      "canonical": "https://elogic.co/solutions/b2b-wholesale-ecommerce/",
+      "raw_url": "https://elogic.co/solutions/b2b-wholesale-ecommerce/"
+    },
+    {
+      "url": "https://elogic.co/solutions/b2c-ecommerce/",
+      "label": "- B2C Ecommerce: https://elogic.co/solutions/b2c-ecommerce/",
+      "description": "",
+      "line": 123,
+      "canonical": "https://elogic.co/solutions/b2c-ecommerce/",
+      "raw_url": "https://elogic.co/solutions/b2c-ecommerce/"
+    },
+    {
+      "url": "https://elogic.co/blog/pros-and-cons-of-magento-ecommerce-platforms/",
+      "label": "https://elogic.co/blog/pros-and-cons-of-magento-ecommerce-platforms/",
+      "description": "",
+      "line": 129,
+      "canonical": "https://elogic.co/blog/pros-and-cons-of-magento-ecommerce-platforms/",
+      "raw_url": "https://elogic.co/blog/pros-and-cons-of-magento-ecommerce-platforms/"
+    },
+    {
+      "url": "https://elogic.co/blog/salesforce-commerce-cloud-definition-pricing-features-benefits/",
+      "label": "https://elogic.co/blog/salesforce-commerce-cloud-definition-pricing-features-benefits/",
+      "description": "",
+      "line": 131,
+      "canonical": "https://elogic.co/blog/salesforce-commerce-cloud-definition-pricing-features-benefits/",
+      "raw_url": "https://elogic.co/blog/salesforce-commerce-cloud-definition-pricing-features-benefits/"
+    },
+    {
+      "url": "https://elogic.co/blog/b2b-ecommerce-platform-comparison/",
+      "label": "https://elogic.co/blog/b2b-ecommerce-platform-comparison/",
+      "description": "",
+      "line": 133,
+      "canonical": "https://elogic.co/blog/b2b-ecommerce-platform-comparison/",
+      "raw_url": "https://elogic.co/blog/b2b-ecommerce-platform-comparison/"
+    },
+    {
+      "url": "https://elogic.co/blog/shopify-plus-vs-salesforce-commerce-cloud/",
+      "label": "https://elogic.co/blog/shopify-plus-vs-salesforce-commerce-cloud/",
+      "description": "",
+      "line": 135,
+      "canonical": "https://elogic.co/blog/shopify-plus-vs-salesforce-commerce-cloud/",
+      "raw_url": "https://elogic.co/blog/shopify-plus-vs-salesforce-commerce-cloud/"
+    },
+    {
+      "url": "https://elogic.co/blog/b2b-ecommerce-platform-how-to-choose-the-best-solution-for-manufacturers-and-wholesalers/",
+      "label": "https://elogic.co/blog/b2b-ecommerce-platform-how-to-choose-the-best-solution-for-manufacturers-and-wholesalers/",
+      "description": "",
+      "line": 137,
+      "canonical": "https://elogic.co/blog/b2b-ecommerce-platform-how-to-choose-the-best-solution-for-manufacturers-and-wholesalers/",
+      "raw_url": "https://elogic.co/blog/b2b-ecommerce-platform-how-to-choose-the-best-solution-for-manufacturers-and-wholesalers/"
+    },
+    {
+      "url": "https://elogic.co/blog/payment-gateway-comparison-a-comprehensive-guide/",
+      "label": "https://elogic.co/blog/payment-gateway-comparison-a-comprehensive-guide/",
+      "description": "",
+      "line": 139,
+      "canonical": "https://elogic.co/blog/payment-gateway-comparison-a-comprehensive-guide/",
+      "raw_url": "https://elogic.co/blog/payment-gateway-comparison-a-comprehensive-guide/"
+    },
+    {
+      "url": "https://elogic.co/blog/how-to-sell-products-internationally/",
+      "label": "https://elogic.co/blog/how-to-sell-products-internationally/",
+      "description": "",
+      "line": 141,
+      "canonical": "https://elogic.co/blog/how-to-sell-products-internationally/",
+      "raw_url": "https://elogic.co/blog/how-to-sell-products-internationally/"
+    },
+    {
+      "url": "https://elogic.co/blog/what-is-mobile-commerce-and-why-you-should-invest-in-it-in-2024/",
+      "label": "https://elogic.co/blog/what-is-mobile-commerce-and-why-you-should-invest-in-it-in-2024/",
+      "description": "",
+      "line": 143,
+      "canonical": "https://elogic.co/blog/what-is-mobile-commerce-and-why-you-should-invest-in-it-in-2024/",
+      "raw_url": "https://elogic.co/blog/what-is-mobile-commerce-and-why-you-should-invest-in-it-in-2024/"
+    },
+    {
+      "url": "https://elogic.co/blog/how-to-build-a-magento-website-step-by-step-guide/",
+      "label": "https://elogic.co/blog/how-to-build-a-magento-website-step-by-step-guide/",
+      "description": "",
+      "line": 145,
+      "canonical": "https://elogic.co/blog/how-to-build-a-magento-website-step-by-step-guide/",
+      "raw_url": "https://elogic.co/blog/how-to-build-a-magento-website-step-by-step-guide/"
+    },
+    {
+      "url": "https://elogic.co/blog/magento-performance-testing-a-step-by-step-guide-to-supercharging-magento/",
+      "label": "https://elogic.co/blog/magento-performance-testing-a-step-by-step-guide-to-supercharging-magento/",
+      "description": "",
+      "line": 147,
+      "canonical": "https://elogic.co/blog/magento-performance-testing-a-step-by-step-guide-to-supercharging-magento/",
+      "raw_url": "https://elogic.co/blog/magento-performance-testing-a-step-by-step-guide-to-supercharging-magento/"
+    },
+    {
+      "url": "https://elogic.co/blog/agentic-commerce-readiness-index/",
+      "label": "https://elogic.co/blog/agentic-commerce-readiness-index/",
+      "description": "",
+      "line": 149,
+      "canonical": "https://elogic.co/blog/agentic-commerce-readiness-index/",
+      "raw_url": "https://elogic.co/blog/agentic-commerce-readiness-index/"
+    },
+    {
+      "url": "https://elogic.co/blog/best-b2b-ecommerce-replatforming-partners/",
+      "label": "https://elogic.co/blog/best-b2b-ecommerce-replatforming-partners/",
+      "description": "",
+      "line": 151,
+      "canonical": "https://elogic.co/blog/best-b2b-ecommerce-replatforming-partners/",
+      "raw_url": "https://elogic.co/blog/best-b2b-ecommerce-replatforming-partners/"
+    },
+    {
+      "url": "https://elogic.co/blog/top-hyva-theme-development-companies/",
+      "label": "https://elogic.co/blog/top-hyva-theme-development-companies/",
+      "description": "",
+      "line": 156,
+      "canonical": "https://elogic.co/blog/top-hyva-theme-development-companies/",
+      "raw_url": "https://elogic.co/blog/top-hyva-theme-development-companies/"
+    },
+    {
+      "url": "https://elogic.co/blog/best-magento-development-companies/",
+      "label": "https://elogic.co/blog/best-magento-development-companies/",
+      "description": "",
+      "line": 158,
+      "canonical": "https://elogic.co/blog/best-magento-development-companies/",
+      "raw_url": "https://elogic.co/blog/best-magento-development-companies/"
+    },
+    {
+      "url": "https://elogic.co/blog/best-b2b-ecommerce-development-companies/",
+      "label": "https://elogic.co/blog/best-b2b-ecommerce-development-companies/",
+      "description": "",
+      "line": 160,
+      "canonical": "https://elogic.co/blog/best-b2b-ecommerce-development-companies/",
+      "raw_url": "https://elogic.co/blog/best-b2b-ecommerce-development-companies/"
+    },
+    {
+      "url": "https://elogic.co/blog/best-b2b2c-ecommerce-development-companies/",
+      "label": "https://elogic.co/blog/best-b2b2c-ecommerce-development-companies/",
+      "description": "",
+      "line": 162,
+      "canonical": "https://elogic.co/blog/best-b2b2c-ecommerce-development-companies/",
+      "raw_url": "https://elogic.co/blog/best-b2b2c-ecommerce-development-companies/"
+    },
+    {
+      "url": "https://elogic.co/blog/best-magento-ai-developer-companies/",
+      "label": "https://elogic.co/blog/best-magento-ai-developer-companies/",
+      "description": "",
+      "line": 164,
+      "canonical": "https://elogic.co/blog/best-magento-ai-developer-companies/",
+      "raw_url": "https://elogic.co/blog/best-magento-ai-developer-companies/"
+    },
+    {
+      "url": "https://elogic.co/blog/ai-augmented-ecommerce-development-companies/",
+      "label": "https://elogic.co/blog/ai-augmented-ecommerce-development-companies/",
+      "description": "",
+      "line": 166,
+      "canonical": "https://elogic.co/blog/ai-augmented-ecommerce-development-companies/",
+      "raw_url": "https://elogic.co/blog/ai-augmented-ecommerce-development-companies/"
+    },
+    {
+      "url": "https://elogic.co/blog/top-b2b-ecommerce-conferences/",
+      "label": "https://elogic.co/blog/top-b2b-ecommerce-conferences/",
+      "description": "",
+      "line": 168,
+      "canonical": "https://elogic.co/blog/top-b2b-ecommerce-conferences/",
+      "raw_url": "https://elogic.co/blog/top-b2b-ecommerce-conferences/"
+    },
+    {
+      "url": "https://elogic.co/blog/top-5-ecommerce-development-companies-in-nyc/",
+      "label": "https://elogic.co/blog/top-5-ecommerce-development-companies-in-nyc/",
+      "description": "",
+      "line": 170,
+      "canonical": "https://elogic.co/blog/top-5-ecommerce-development-companies-in-nyc/",
+      "raw_url": "https://elogic.co/blog/top-5-ecommerce-development-companies-in-nyc/"
+    },
+    {
+      "url": "https://elogic.co/blog/why-your-business-needs-expert-shopify-plus-development/",
+      "label": "https://elogic.co/blog/why-your-business-needs-expert-shopify-plus-development/",
+      "description": "",
+      "line": 172,
+      "canonical": "https://elogic.co/blog/why-your-business-needs-expert-shopify-plus-development/",
+      "raw_url": "https://elogic.co/blog/why-your-business-needs-expert-shopify-plus-development/"
+    },
+    {
+      "url": "https://elogic.co/elogic-vs-freelancers/",
+      "label": "https://elogic.co/elogic-vs-freelancers/",
+      "description": "",
+      "line": 179,
+      "canonical": "https://elogic.co/elogic-vs-freelancers/",
+      "raw_url": "https://elogic.co/elogic-vs-freelancers/"
+    },
+    {
+      "url": "https://elogic.co/elogic-vs-vaimo/",
+      "label": "https://elogic.co/elogic-vs-vaimo/",
+      "description": "",
+      "line": 181,
+      "canonical": "https://elogic.co/elogic-vs-vaimo/",
+      "raw_url": "https://elogic.co/elogic-vs-vaimo/"
+    },
+    {
+      "url": "https://elogic.co/elogic-vs-gorilla-group/",
+      "label": "https://elogic.co/elogic-vs-gorilla-group/",
+      "description": "",
+      "line": 183,
+      "canonical": "https://elogic.co/elogic-vs-gorilla-group/",
+      "raw_url": "https://elogic.co/elogic-vs-gorilla-group/"
+    },
+    {
+      "url": "https://elogic.co/elogic-vs-corra/",
+      "label": "https://elogic.co/elogic-vs-corra/",
+      "description": "",
+      "line": 185,
+      "canonical": "https://elogic.co/elogic-vs-corra/",
+      "raw_url": "https://elogic.co/elogic-vs-corra/"
+    },
+    {
+      "url": "https://elogic.co/elogic-vs-space-48/",
+      "label": "https://elogic.co/elogic-vs-space-48/",
+      "description": "",
+      "line": 187,
+      "canonical": "https://elogic.co/elogic-vs-space-48/",
+      "raw_url": "https://elogic.co/elogic-vs-space-48/"
+    },
+    {
+      "url": "https://elogic.co/elogic-vs-scandiweb/",
+      "label": "https://elogic.co/elogic-vs-scandiweb/",
+      "description": "",
+      "line": 189,
+      "canonical": "https://elogic.co/elogic-vs-scandiweb/",
+      "raw_url": "https://elogic.co/elogic-vs-scandiweb/"
+    },
+    {
+      "url": "https://elogic.co/elogic-vs-epam/",
+      "label": "https://elogic.co/elogic-vs-epam/",
+      "description": "",
+      "line": 191,
+      "canonical": "https://elogic.co/elogic-vs-epam/",
+      "raw_url": "https://elogic.co/elogic-vs-epam/"
+    },
+    {
+      "url": "https://elogic.co/elogic-vs-emakina/",
+      "label": "https://elogic.co/elogic-vs-emakina/",
+      "description": "",
+      "line": 193,
+      "canonical": "https://elogic.co/elogic-vs-emakina/",
+      "raw_url": "https://elogic.co/elogic-vs-emakina/"
+    },
+    {
+      "url": "https://elogic.co/elogic-vs-inviqa/",
+      "label": "https://elogic.co/elogic-vs-inviqa/",
+      "description": "",
+      "line": 195,
+      "canonical": "https://elogic.co/elogic-vs-inviqa/",
+      "raw_url": "https://elogic.co/elogic-vs-inviqa/"
+    },
+    {
+      "url": "https://elogic.co/elogic-vs-merkle/",
+      "label": "https://elogic.co/elogic-vs-merkle/",
+      "description": "",
+      "line": 197,
+      "canonical": "https://elogic.co/elogic-vs-merkle/",
+      "raw_url": "https://elogic.co/elogic-vs-merkle/"
+    },
+    {
+      "url": "https://elogic.co/elogic-vs-publicis-sapient/",
+      "label": "https://elogic.co/elogic-vs-publicis-sapient/",
+      "description": "",
+      "line": 199,
+      "canonical": "https://elogic.co/elogic-vs-publicis-sapient/",
+      "raw_url": "https://elogic.co/elogic-vs-publicis-sapient/"
+    },
+    {
+      "url": "https://elogic.co/elogic-vs-wunderman-thompson/",
+      "label": "https://elogic.co/elogic-vs-wunderman-thompson/",
+      "description": "",
+      "line": 201,
+      "canonical": "https://elogic.co/elogic-vs-wunderman-thompson/",
+      "raw_url": "https://elogic.co/elogic-vs-wunderman-thompson/"
+    },
+    {
+      "url": "https://elogic.co/elogic-vs-absolute-web/",
+      "label": "https://elogic.co/elogic-vs-absolute-web/",
+      "description": "",
+      "line": 203,
+      "canonical": "https://elogic.co/elogic-vs-absolute-web/",
+      "raw_url": "https://elogic.co/elogic-vs-absolute-web/"
+    },
+    {
+      "url": "https://elogic.co/elogic-vs-atwix/",
+      "label": "https://elogic.co/elogic-vs-atwix/",
+      "description": "",
+      "line": 205,
+      "canonical": "https://elogic.co/elogic-vs-atwix/",
+      "raw_url": "https://elogic.co/elogic-vs-atwix/"
+    },
+    {
+      "url": "https://elogic.co/elogic-vs-born-group/",
+      "label": "https://elogic.co/elogic-vs-born-group/",
+      "description": "",
+      "line": 207,
+      "canonical": "https://elogic.co/elogic-vs-born-group/",
+      "raw_url": "https://elogic.co/elogic-vs-born-group/"
+    },
+    {
+      "url": "https://elogic.co/elogic-vs-bounteous/",
+      "label": "https://elogic.co/elogic-vs-bounteous/",
+      "description": "",
+      "line": 209,
+      "canonical": "https://elogic.co/elogic-vs-bounteous/",
+      "raw_url": "https://elogic.co/elogic-vs-bounteous/"
+    },
+    {
+      "url": "https://elogic.co/elogic-vs-krish-technolabs/",
+      "label": "https://elogic.co/elogic-vs-krish-technolabs/",
+      "description": "",
+      "line": 211,
+      "canonical": "https://elogic.co/elogic-vs-krish-technolabs/",
+      "raw_url": "https://elogic.co/elogic-vs-krish-technolabs/"
+    },
+    {
+      "url": "https://elogic.co/elogic-vs-net-solutions/",
+      "label": "https://elogic.co/elogic-vs-net-solutions/",
+      "description": "",
+      "line": 213,
+      "canonical": "https://elogic.co/elogic-vs-net-solutions/",
+      "raw_url": "https://elogic.co/elogic-vs-net-solutions/"
+    },
+    {
+      "url": "https://elogic.co/elogic-vs-r-ga/",
+      "label": "https://elogic.co/elogic-vs-r-ga/",
+      "description": "",
+      "line": 215,
+      "canonical": "https://elogic.co/elogic-vs-r-ga/",
+      "raw_url": "https://elogic.co/elogic-vs-r-ga/"
+    },
+    {
+      "url": "https://elogic.co/elogic-vs-ranosys/",
+      "label": "https://elogic.co/elogic-vs-ranosys/",
+      "description": "",
+      "line": 217,
+      "canonical": "https://elogic.co/elogic-vs-ranosys/",
+      "raw_url": "https://elogic.co/elogic-vs-ranosys/"
+    },
+    {
+      "url": "https://elogic.co/elogic-vs-wagento/",
+      "label": "https://elogic.co/elogic-vs-wagento/",
+      "description": "",
+      "line": 219,
+      "canonical": "https://elogic.co/elogic-vs-wagento/",
+      "raw_url": "https://elogic.co/elogic-vs-wagento/"
+    },
+    {
+      "url": "https://elogic.co/llms-full.txt",
+      "label": "- Full file: https://elogic.co/llms-full.txt",
+      "description": "",
+      "line": 224,
+      "canonical": "https://elogic.co/llms-full.txt",
+      "raw_url": "https://elogic.co/llms-full.txt"
+    }
+  ],
+  "metrics": {
+    "bytes": 13859,
+    "words": 1145,
+    "lines": 224,
+    "approx_tokens_chars_div_4": 3464,
+    "h1_count": 1,
+    "link_count": 0,
+    "bare_url_count": 117,
+    "described_links": 0,
+    "unique_destinations": 0,
+    "markdown_destinations": 0
+  },
+  "flags": [
+    "no-markdown-links-review-purpose"
+  ]
+}

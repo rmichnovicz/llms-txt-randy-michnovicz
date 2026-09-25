@@ -1,0 +1,17 @@
+# MOLLIE Aspen
+
+> MOLLIE is a boutique hotel in downtown Aspen, Colorado, with guest rooms, dining, and access to Aspen’s year-round activities.
+
+The hotel describes its rooms as drawing on Japanese and Scandinavian design. Its homepage says all four ski areas are accessible from the property.
+
+## Stay
+
+- [Rooms and suites](<https://mollieaspen.com/rooms/>): Includes details for the Shadow Mountain Junior Suite, such as its terrace, soaking tub, and accessible features.
+
+## Eat and drink
+
+- [Dining and bars](<https://mollieaspen.com/dine-drink/>): Information on Petit Trois, the cafe and wine bar, and the third-floor Petit Familia lounge.
+
+## About the hotel and Aspen
+
+- [Hotel overview](<https://mollieaspen.com/>): An introduction to the hotel, its downtown Aspen setting, and nearby cultural and outdoor activities.

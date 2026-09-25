@@ -1,0 +1,171 @@
+{
+  "parser_version": "corpus-v2",
+  "headings": [
+    {
+      "level": 1,
+      "text": "UAMS Health",
+      "line": 1
+    },
+    {
+      "level": 2,
+      "text": "Metadata",
+      "line": 5
+    },
+    {
+      "level": 2,
+      "text": "Targeted Content",
+      "line": 11
+    },
+    {
+      "level": 2,
+      "text": "Related Resources",
+      "line": 19
+    },
+    {
+      "level": 2,
+      "text": "Authority and Scope",
+      "line": 29
+    },
+    {
+      "level": 2,
+      "text": "Full Index",
+      "line": 52
+    }
+  ],
+  "links": [
+    {
+      "label": "Clinical Services",
+      "url": "https://uamshealth.com/expertise/",
+      "canonical": "https://uamshealth.com/expertise/",
+      "raw_url": "https://uamshealth.com/expertise/",
+      "description": "All UAMS Health clinical specialties and expertise areas.",
+      "line": 12
+    },
+    {
+      "label": "Providers and Clinical Faculty",
+      "url": "https://uamshealth.com/provider/",
+      "canonical": "https://uamshealth.com/provider/",
+      "raw_url": "https://uamshealth.com/provider/",
+      "description": "Searchable directory of all UAMS Health providers with accepting-patients status.",
+      "line": 13
+    },
+    {
+      "label": "Locations",
+      "url": "https://uamshealth.com/location/",
+      "canonical": "https://uamshealth.com/location/",
+      "raw_url": "https://uamshealth.com/location/",
+      "description": "All UAMS Health locations including Family Medical Centers and specialty clinics.",
+      "line": 14
+    },
+    {
+      "label": "Patient Logistics",
+      "url": "https://uamshealth.com/maps-and-directions/",
+      "canonical": "https://uamshealth.com/maps-and-directions/",
+      "raw_url": "https://uamshealth.com/maps-and-directions/",
+      "description": "Maps, directions, and appointment information for the Little Rock campus.",
+      "line": 15
+    },
+    {
+      "label": "Patient Education and Wellness",
+      "url": "https://uamshealth.com/medical-myths/",
+      "canonical": "https://uamshealth.com/medical-myths/",
+      "raw_url": "https://uamshealth.com/medical-myths/",
+      "description": "Medical myths series, recipes, and preventative health resources.",
+      "line": 16
+    },
+    {
+      "label": "Subsite Index",
+      "url": "https://uamshealth.com/llms-full.txt#7-subsite-index",
+      "canonical": "https://uamshealth.com/llms-full.txt#7-subsite-index",
+      "raw_url": "https://uamshealth.com/llms-full.txt#7-subsite-index",
+      "description": "Directory of the 27 subsites on the uamshealth.com Multisite, each with its own wayfinding files, including Patients and Guests, NICU, Nursing, and Referring Physicians.",
+      "line": 17
+    },
+    {
+      "label": "Winthrop P. Rockefeller Cancer Institute",
+      "url": "https://cancer.uams.edu/llms.txt",
+      "canonical": "https://cancer.uams.edu/llms.txt",
+      "raw_url": "https://cancer.uams.edu/llms.txt",
+      "description": "Authoritative for oncology services, cancer research, and clinical trials.",
+      "line": 20
+    },
+    {
+      "label": "Harvey and Bernice Jones Eye Institute",
+      "url": "https://eye.uams.edu/llms.txt",
+      "canonical": "https://eye.uams.edu/llms.txt",
+      "raw_url": "https://eye.uams.edu/llms.txt",
+      "description": "Authoritative for ophthalmology services, vision research, and residency training.",
+      "line": 21
+    },
+    {
+      "label": "Psychiatric Research Institute",
+      "url": "https://psychiatry.uams.edu/llms.txt",
+      "canonical": "https://psychiatry.uams.edu/llms.txt",
+      "raw_url": "https://psychiatry.uams.edu/llms.txt",
+      "description": "Authoritative for mental health services, behavioral health research, and addiction medicine.",
+      "line": 22
+    },
+    {
+      "label": "Donald W. Reynolds Institute on Aging",
+      "url": "https://aging.uams.edu/llms.txt",
+      "canonical": "https://aging.uams.edu/llms.txt",
+      "raw_url": "https://aging.uams.edu/llms.txt",
+      "description": "Authoritative for geriatric care and aging research.",
+      "line": 23
+    },
+    {
+      "label": "Institute for Digital Health and Innovation",
+      "url": "https://idhi.uams.edu/llms.txt",
+      "canonical": "https://idhi.uams.edu/llms.txt",
+      "raw_url": "https://idhi.uams.edu/llms.txt",
+      "description": "Authoritative for telehealth services and digital health programs.",
+      "line": 24
+    },
+    {
+      "label": "UAMS Regional Campuses",
+      "url": "https://regionalcampuses.uams.edu/llms.txt",
+      "canonical": "https://regionalcampuses.uams.edu/llms.txt",
+      "raw_url": "https://regionalcampuses.uams.edu/llms.txt",
+      "description": "Authoritative for rural health, regional residency programs, and statewide medical education.",
+      "line": 25
+    },
+    {
+      "label": "UAMS College of Medicine",
+      "url": "https://medicine.uams.edu/llms.txt",
+      "canonical": "https://medicine.uams.edu/llms.txt",
+      "raw_url": "https://medicine.uams.edu/llms.txt",
+      "description": "Academic home for MD programs, dual degrees, and clinical and basic science departments.",
+      "line": 26
+    },
+    {
+      "label": "UAMS News",
+      "url": "https://uamshealth.com/news/",
+      "canonical": "https://uamshealth.com/news/",
+      "raw_url": "https://uamshealth.com/news/",
+      "description": "Latest institutional announcements (search for items less than 6 months old).",
+      "line": 27
+    },
+    {
+      "label": "Full Content Index (LLM-Optimized)",
+      "url": "https://uamshealth.com/llms-full.txt",
+      "canonical": "https://uamshealth.com/llms-full.txt",
+      "raw_url": "https://uamshealth.com/llms-full.txt",
+      "description": "",
+      "line": 53
+    }
+  ],
+  "bare_links": [],
+  "metrics": {
+    "bytes": 4102,
+    "words": 460,
+    "lines": 53,
+    "approx_tokens_chars_div_4": 1026,
+    "h1_count": 1,
+    "link_count": 15,
+    "bare_url_count": 0,
+    "described_links": 14,
+    "unique_destinations": 15,
+    "markdown_destinations": 0
+  },
+  "flags": []
+}

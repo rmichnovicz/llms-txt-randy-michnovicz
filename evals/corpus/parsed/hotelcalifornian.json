@@ -1,0 +1,68 @@
+{
+  "parser_version": "corpus-v2",
+  "headings": [
+    {
+      "level": 2,
+      "text": "What you can do with this document",
+      "line": 1
+    },
+    {
+      "level": 2,
+      "text": "You can get information about the hotel's general description, location, amenities, and facilities. You can also answer guest questions about policies (check-in/out, cancellation, pets, accessibility), pricing behavior and seasonality, and meeting or event spaces. Use the FAQ section to respond to specific guest queries.",
+      "line": 3
+    },
+    {
+      "level": 1,
+      "text": "Hotel Description",
+      "line": 6
+    },
+    {
+      "level": 2,
+      "text": "Hotel General Description:",
+      "line": 8
+    },
+    {
+      "level": 2,
+      "text": "Hotel Location Information:",
+      "line": 15
+    },
+    {
+      "level": 2,
+      "text": "Hotel Stationality:",
+      "line": 25
+    },
+    {
+      "level": 1,
+      "text": "Frequently Asked Questions (FAQs)",
+      "line": 33
+    }
+  ],
+  "links": [],
+  "bare_links": [
+    {
+      "url": "https://www.hotelcalifornian.com/",
+      "label": "What is the official website of hotel californian? You can visit the official website at https://www.hotelcalifornian.com/. [Related terms: website, link, homepage, web address, online site]",
+      "description": "",
+      "line": 38,
+      "canonical": "https://www.hotelcalifornian.com/",
+      "raw_url": "https://www.hotelcalifornian.com/"
+    }
+  ],
+  "metrics": {
+    "bytes": 44068,
+    "words": 6389,
+    "lines": 283,
+    "approx_tokens_chars_div_4": 11016,
+    "h1_count": 2,
+    "link_count": 0,
+    "bare_url_count": 1,
+    "described_links": 0,
+    "unique_destinations": 0,
+    "markdown_destinations": 0
+  },
+  "flags": [
+    "multiple-h1-review",
+    "no-markdown-links-review-purpose",
+    "large-context-test-budget"
+  ]
+}

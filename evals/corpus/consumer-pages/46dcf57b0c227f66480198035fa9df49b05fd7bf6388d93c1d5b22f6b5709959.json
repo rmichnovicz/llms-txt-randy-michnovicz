@@ -1,0 +1,59 @@
+{
+  "url": "https://help.picflow.com/en",
+  "title": "Home | Picflow Knowledge Base Fin",
+  "content": "Learn some basics and get started faster with Picflow.\nExplore what you can do with galleries and how to share them.\nLearn more about the multiple types of review tools in Picflow.\nMaster the ins-and-outs of team and user management on Picflow.\nInformation about your Picflow account and subscription.\nExplore how you can use Picflow apps and connect other platforms.\nExplore Picflow's terms, data practices, and platform policies.",
+  "links": [
+    {
+      "url": "https://help.picflow.com/en/",
+      "label": ""
+    },
+    {
+      "url": "https://help.picflow.com/en/collections/2209061-getting-started",
+      "label": "Getting Started Learn some basics and get started faster with Picflow. 6 articles"
+    },
+    {
+      "url": "https://help.picflow.com/en/collections/3251979-galleries-sharing",
+      "label": "Galleries & Sharing Explore what you can do with galleries and how to share them. 16 articles"
+    },
+    {
+      "url": "https://help.picflow.com/en/collections/3097436-proofing-workflow",
+      "label": "Proofing & Workflow Learn more about the multiple types of review tools in Picflow. 6 articles"
+    },
+    {
+      "url": "https://help.picflow.com/en/collections/3958515-team-users",
+      "label": "Team & Users Master the ins-and-outs of team and user management on Picflow. 4 articles"
+    },
+    {
+      "url": "https://help.picflow.com/en/collections/3276592-account-billing",
+      "label": "Account & Billing Information about your Picflow account and subscription. 10 articles"
+    },
+    {
+      "url": "https://help.picflow.com/en/collections/7108440-apps-integrations",
+      "label": "Apps & Integrations Explore how you can use Picflow apps and connect other platforms. 11 articles"
+    },
+    {
+      "url": "https://help.picflow.com/en/collections/3116271-terms-policies",
+      "label": "Terms & Policies Explore Picflow's terms, data practices, and platform policies. 11 articles"
+    },
+    {
+      "url": "https://feedback.picflow.com/",
+      "label": "Feature Requests"
+    },
+    {
+      "url": "https://picflow.com/a/bugs",
+      "label": "Bug Reports"
+    },
+    {
+      "url": "https://www.intercom.com/intercom-link?company=Picflow&solution=customer-support",
+      "label": "We run on Fin"
+    },
+    {
+      "url": "https://help.picflow.com/en",
+      "label": "Skip to main content"
+    }
+  ],
+  "body_sha256": "b1ed0c91e9784be3b612566e75e312dc18624e14a33f426505800534c836154c",
+  "status": 200,
+  "origin": "live-capture",
+  "retrieved_at": "2026-09-24T23:09:25.891574+00:00"
+}

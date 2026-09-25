@@ -1,0 +1,121 @@
+<script>{
+	"title": "jQuery",
+	"pageTemplate": "page-fullwidth.php",
+	"customFields": [
+			{ "key": "hide_title", "value": 1 }
+	]
+}</script>
+
+<div id="banner-secondary" class="row">
+	<div class="downloads-box four columns push-eight">
+		<div class="download-main">
+			<a href="/download/" class="button large">
+				<span class="download"></span>
+				Download jQuery
+				<span>v3.7.1</span>
+				<span class="support-notice">The 1.x and 2.x branches no longer receive patches.</span>
+			</a>
+			<div class="download-options">
+				<a href="https://github.com/jquery/jquery">View Source on GitHub →</a>
+				<a href="https://learn.jquery.com/about-jquery/how-jquery-works/">How jQuery Works →</a>
+			</div>
+		</div>
+	</div>
+	<div class="features-box row eight columns pull-four">
+		<div class="feature-box lightweight-footprint four columns center-txt">
+			<div class="feature-box-image"></div>
+			<h3>Lightweight Footprint</h3>
+			<p>Only 30kB minified and gzipped. Can also be included as an AMD module</p>
+		</div>
+
+		<div class="feature-box css3-compliant four columns center-txt">
+			<div class="feature-box-image"></div>
+			<h3>CSS3 Compliant</h3>
+			<p>Supports CSS3 selectors to find elements as well as in style property manipulation</p>
+		</div>
+
+		<div class="feature-box cross-browser four columns center-txt">
+			<div class="feature-box-image"></div>
+			<h3>Cross-Browser</h3>
+			<p><a href="/browser-support/">Chrome, Edge, Firefox, IE, Safari, Android, iOS, and more</a></p>
+		</div>
+	</div>
+</div>
+
+<div id="home-content" class="clearfix row">
+	<section class="eight columns">
+		<h2 class="block">What is jQuery?</h2>
+
+		<p>jQuery is a fast, small, and feature-rich JavaScript library. It makes
+		things like HTML document traversal and manipulation, event handling,
+		animation, and Ajax much simpler with an easy-to-use API that works across
+		a multitude of browsers. With a combination of versatility and
+		extensibility, jQuery has changed the way that millions of people write
+		JavaScript.</p>
+
+		<h2 class="block">Other Related Projects</h2>
+		<section class="project-tiles row">
+			<a href="https://jqueryui.com" class="project-tile six columns color secondary-orange">
+				<div class="jqueryui small logo">jQueryUI</div>
+			</a>
+			<a href="https://jquerymobile.com" class="project-tile six columns color secondary-green">
+				<div class="jquery-mobile small logo">jQuery Mobile</div>
+			</a>
+		</section>
+		<section class="project-tiles row">
+			<a href="https://qunitjs.com" class="project-tile six columns color qunit-secondary-purple">
+				<div class="qunitjs small logo">QUnit</div>
+			</a>
+			<a href="https://sizzlejs.com" class="project-tile six columns color sizzle-red">
+				<div class="sizzlejs small logo">Sizzle</div>
+			</a>
+		</section>
+	</section>
+	<aside class="four columns resources">
+		<h3>Resources</h3>
+		<ul>
+			<li><a href="https://api.jquery.com">jQuery Core API Documentation</a></li>
+			<li><a href="https://learn.jquery.com">jQuery Learning Center</a></li>
+			<li><a href="https://blog.jquery.com">jQuery Blog</a></li>
+			<li><a href="https://contribute.jquery.com">Contribute to jQuery</a></li>
+			<li><a href="https://jquery.org">About the jQuery Foundation</a></li>
+			<li><a href="https://github.com/jquery/jquery/issues">Browse or Submit jQuery Bugs</a></li>
+		</ul>
+
+	</aside>
+</div>
+
+<section>
+	<h2 class="block">A Brief Look</h2>
+
+	<h3>DOM Traversal and Manipulation</h3>
+	<p>Get the <code>&lt;button&gt;</code> element with the class 'continue' and change its HTML to 'Next Step...'</p>
+	<pre><code>$( "button.continue" ).html( "Next Step..." )</code></pre>
+
+	<h3>Event Handling</h3>
+	<p>Show the <code>#banner-message</code> element that is hidden with
+		<code>display:none</code> in its CSS when any button in <code>#button-container</code> is
+		clicked.</p>
+	<pre><code>
+	var hiddenBox = $( "#banner-message" );
+	$( "#button-container button" ).on( "click", function( event ) {
+		hiddenBox.show();
+	});
+	</pre></code>
+
+	<h3>Ajax</h3>
+	<p>Call a local script on the server <code>/api/getWeather</code>
+		with the query parameter <code>zipcode=97201</code>
+		and replace the element <code>#weather-temp</code>'s html with the returned text.</p>
+	<pre><code>
+	$.ajax({
+		url: "/api/getWeather",
+		data: {
+			zipcode: 97201
+		},
+		success: function( result ) {
+			$( "#weather-temp" ).html( "&lt;strong>" + result + "&lt;/strong> degrees" );
+		}
+	});
+	</pre></code>
+</section>

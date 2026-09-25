@@ -1,0 +1,17 @@
+{
+  "id": "webrecorder",
+  "url": "https://webrecorder.net/llms.txt",
+  "category": "nonprofit-research",
+  "kind": "actual",
+  "split": "development",
+  "discovery": "https://llmstxt.site/",
+  "retrieved_at": "2026-09-24T22:46:26.039380+00:00",
+  "accepted": true,
+  "status": 200,
+  "final_url": "https://webrecorder.net/llms.txt",
+  "content_type": "text/plain; charset=utf-8",
+  "sha256": "bb340a53e0a8a98ac9081d691b313ec908bd06c9e831ebbfa0c8599f2032218f",
+  "bytes": 4218,
+  "decode_replacements": 0,
+  "raw_path": "raw/webrecorder.txt"
+}

@@ -1,0 +1,306 @@
+{
+  "parser_version": "corpus-v2",
+  "headings": [
+    {
+      "level": 1,
+      "text": "Salazar Roofing & Construction",
+      "line": 1
+    },
+    {
+      "level": 1,
+      "text": "Pages:",
+      "line": 5
+    },
+    {
+      "level": 2,
+      "text": "Main / Core Pages",
+      "line": 8
+    },
+    {
+      "level": 1,
+      "text": "Contact Information",
+      "line": 40
+    },
+    {
+      "level": 1,
+      "text": "Social Media",
+      "line": 84
+    }
+  ],
+  "links": [
+    {
+      "label": "Homepage - Roof Repair & Replacement in Oklahoma City",
+      "url": "https://www.salazarroofing.com/",
+      "canonical": "https://www.salazarroofing.com/",
+      "raw_url": "https://www.salazarroofing.com/",
+      "description": "",
+      "line": 9
+    },
+    {
+      "label": "About Us",
+      "url": "https://www.salazarroofing.com/about-us",
+      "canonical": "https://www.salazarroofing.com/about-us",
+      "raw_url": "https://www.salazarroofing.com/about-us",
+      "description": "",
+      "line": 10
+    },
+    {
+      "label": "Residential Roofing in Oklahoma City",
+      "url": "https://www.salazarroofing.com/residential-roofing-contractors-okc",
+      "canonical": "https://www.salazarroofing.com/residential-roofing-contractors-okc",
+      "raw_url": "https://www.salazarroofing.com/residential-roofing-contractors-okc",
+      "description": "",
+      "line": 11
+    },
+    {
+      "label": "Commercial Roofing in Oklahoma City",
+      "url": "https://www.salazarroofing.com/commercial-roofing-contractors-okc",
+      "canonical": "https://www.salazarroofing.com/commercial-roofing-contractors-okc",
+      "raw_url": "https://www.salazarroofing.com/commercial-roofing-contractors-okc",
+      "description": "",
+      "line": 12
+    },
+    {
+      "label": "Locations",
+      "url": "https://www.salazarroofing.com/locations",
+      "canonical": "https://www.salazarroofing.com/locations",
+      "raw_url": "https://www.salazarroofing.com/locations",
+      "description": "",
+      "line": 13
+    },
+    {
+      "label": "Roofing Contractor in Oklahoma City, OK",
+      "url": "https://www.salazarroofing.com/locations/oklahoma-city",
+      "canonical": "https://www.salazarroofing.com/locations/oklahoma-city",
+      "raw_url": "https://www.salazarroofing.com/locations/oklahoma-city",
+      "description": "",
+      "line": 14
+    },
+    {
+      "label": "Roof Repair & Replacement in Colorado Springs",
+      "url": "https://www.salazarroofing.com/locations/roofing-company-colorado-springs",
+      "canonical": "https://www.salazarroofing.com/locations/roofing-company-colorado-springs",
+      "raw_url": "https://www.salazarroofing.com/locations/roofing-company-colorado-springs",
+      "description": "",
+      "line": 15
+    },
+    {
+      "label": "Roof Repairs & Replacement in Florida",
+      "url": "https://www.salazarroofing.com/locations/roofing-contractors-florida",
+      "canonical": "https://www.salazarroofing.com/locations/roofing-contractors-florida",
+      "raw_url": "https://www.salazarroofing.com/locations/roofing-contractors-florida",
+      "description": "",
+      "line": 16
+    },
+    {
+      "label": "Roof Repairs & Replacement in Edmond, OK",
+      "url": "https://www.salazarroofing.com/locations/roofing-edmond-ok",
+      "canonical": "https://www.salazarroofing.com/locations/roofing-edmond-ok",
+      "raw_url": "https://www.salazarroofing.com/locations/roofing-edmond-ok",
+      "description": "",
+      "line": 17
+    },
+    {
+      "label": "Featured Projects in Oklahoma City",
+      "url": "https://www.salazarroofing.com/featured-projects-okc",
+      "canonical": "https://www.salazarroofing.com/featured-projects-okc",
+      "raw_url": "https://www.salazarroofing.com/featured-projects-okc",
+      "description": "",
+      "line": 18
+    },
+    {
+      "label": "Barrel Vault | Stone Coated Steel Roofing",
+      "url": "https://www.salazarroofing.com/properties/barrel-vault",
+      "canonical": "https://www.salazarroofing.com/properties/barrel-vault",
+      "raw_url": "https://www.salazarroofing.com/properties/barrel-vault",
+      "description": "",
+      "line": 19
+    },
+    {
+      "label": "Roofing at Briargate Office Center",
+      "url": "https://www.salazarroofing.com/properties/briargate-office-center",
+      "canonical": "https://www.salazarroofing.com/properties/briargate-office-center",
+      "raw_url": "https://www.salazarroofing.com/properties/briargate-office-center",
+      "description": "",
+      "line": 20
+    },
+    {
+      "label": "Standing Seam Metal Roofing at Canadian County Expo Center",
+      "url": "https://www.salazarroofing.com/properties/canadian-county-expo-center",
+      "canonical": "https://www.salazarroofing.com/properties/canadian-county-expo-center",
+      "raw_url": "https://www.salazarroofing.com/properties/canadian-county-expo-center",
+      "description": "",
+      "line": 21
+    },
+    {
+      "label": "Davinci Slate Roofing at Chickasaw White House",
+      "url": "https://www.salazarroofing.com/properties/chickasaw-white-house",
+      "canonical": "https://www.salazarroofing.com/properties/chickasaw-white-house",
+      "raw_url": "https://www.salazarroofing.com/properties/chickasaw-white-house",
+      "description": "",
+      "line": 22
+    },
+    {
+      "label": "Golden Palace - Restaurant Green Roof Installation - Roof Repair Company",
+      "url": "https://www.salazarroofing.com/properties/golden-palace",
+      "canonical": "https://www.salazarroofing.com/properties/golden-palace",
+      "raw_url": "https://www.salazarroofing.com/properties/golden-palace",
+      "description": "",
+      "line": 23
+    },
+    {
+      "label": "Roof Shingles Installation Company - Shingle Roof Repair Contractor",
+      "url": "https://www.salazarroofing.com/properties/hobby-lobby",
+      "canonical": "https://www.salazarroofing.com/properties/hobby-lobby",
+      "raw_url": "https://www.salazarroofing.com/properties/hobby-lobby",
+      "description": "",
+      "line": 24
+    },
+    {
+      "label": "Duro-last Roofing System at Koco Channel 5",
+      "url": "https://www.salazarroofing.com/properties/koco-channel-5",
+      "canonical": "https://www.salazarroofing.com/properties/koco-channel-5",
+      "raw_url": "https://www.salazarroofing.com/properties/koco-channel-5",
+      "description": "",
+      "line": 25
+    },
+    {
+      "label": "Lake In The Woods Condos - Condominium Roof Installation - Condominium Roof Services Contractor",
+      "url": "https://www.salazarroofing.com/properties/lake-in-the-woods-2",
+      "canonical": "https://www.salazarroofing.com/properties/lake-in-the-woods-2",
+      "raw_url": "https://www.salazarroofing.com/properties/lake-in-the-woods-2",
+      "description": "",
+      "line": 26
+    },
+    {
+      "label": "Lifeway Church Project | Standing Seam Metal Roofing",
+      "url": "https://www.salazarroofing.com/properties/lifeway-church",
+      "canonical": "https://www.salazarroofing.com/properties/lifeway-church",
+      "raw_url": "https://www.salazarroofing.com/properties/lifeway-church",
+      "description": "",
+      "line": 27
+    },
+    {
+      "label": "OKC Golf & Country Club - Country Club Roof Installation - Country Club Roofing Contractor",
+      "url": "https://www.salazarroofing.com/properties/okc-golf-country-club",
+      "canonical": "https://www.salazarroofing.com/properties/okc-golf-country-club",
+      "raw_url": "https://www.salazarroofing.com/properties/okc-golf-country-club",
+      "description": "",
+      "line": 28
+    },
+    {
+      "label": "OKC Zoo Asia Exhibit - Wood Shakes Roof at OKC Zoo Asia Exhibit",
+      "url": "https://www.salazarroofing.com/properties/okc-zoo-asia-exhibit",
+      "canonical": "https://www.salazarroofing.com/properties/okc-zoo-asia-exhibit",
+      "raw_url": "https://www.salazarroofing.com/properties/okc-zoo-asia-exhibit",
+      "description": "",
+      "line": 29
+    },
+    {
+      "label": "Oklahoma Heart Hospital - Hospital Roofing Contractor - Hospital Roof Repair Company",
+      "url": "https://www.salazarroofing.com/properties/oklahoma-heart-hospital",
+      "canonical": "https://www.salazarroofing.com/properties/oklahoma-heart-hospital",
+      "raw_url": "https://www.salazarroofing.com/properties/oklahoma-heart-hospital",
+      "description": "",
+      "line": 30
+    },
+    {
+      "label": "St. Nepomuk - Catholic Church Roofing Contractor - Church Roofing Company",
+      "url": "https://www.salazarroofing.com/properties/st-nepomuk",
+      "canonical": "https://www.salazarroofing.com/properties/st-nepomuk",
+      "raw_url": "https://www.salazarroofing.com/properties/st-nepomuk",
+      "description": "",
+      "line": 31
+    },
+    {
+      "label": "Temtrol / Nortek - PVC Duro-Last Retrofit System Installers Company",
+      "url": "https://www.salazarroofing.com/properties/temtrol-nortek",
+      "canonical": "https://www.salazarroofing.com/properties/temtrol-nortek",
+      "raw_url": "https://www.salazarroofing.com/properties/temtrol-nortek",
+      "description": "",
+      "line": 32
+    },
+    {
+      "label": "The Toby Keith Foundation | Shingles & Standing Seam Metal Roof",
+      "url": "https://www.salazarroofing.com/properties/the-toby-keith-foundation",
+      "canonical": "https://www.salazarroofing.com/properties/the-toby-keith-foundation",
+      "raw_url": "https://www.salazarroofing.com/properties/the-toby-keith-foundation",
+      "description": "",
+      "line": 33
+    },
+    {
+      "label": "COVID-19 Readiness",
+      "url": "https://www.salazarroofing.com/covid-19-readiness",
+      "canonical": "https://www.salazarroofing.com/covid-19-readiness",
+      "raw_url": "https://www.salazarroofing.com/covid-19-readiness",
+      "description": "",
+      "line": 34
+    },
+    {
+      "label": "Delayed & Damage Roof Insurance Claim in OKC",
+      "url": "https://www.salazarroofing.com/insurance",
+      "canonical": "https://www.salazarroofing.com/insurance",
+      "raw_url": "https://www.salazarroofing.com/insurance",
+      "description": "",
+      "line": 35
+    },
+    {
+      "label": "Privacy Policy",
+      "url": "https://www.salazarroofing.com/privacy-policy",
+      "canonical": "https://www.salazarroofing.com/privacy-policy",
+      "raw_url": "https://www.salazarroofing.com/privacy-policy",
+      "description": "",
+      "line": 36
+    },
+    {
+      "label": "Contact Us",
+      "url": "https://www.salazarroofing.com/contact",
+      "canonical": "https://www.salazarroofing.com/contact",
+      "raw_url": "https://www.salazarroofing.com/contact",
+      "description": "",
+      "line": 37
+    }
+  ],
+  "bare_links": [
+    {
+      "url": "https://www.facebook.com/SalazarRoofing/",
+      "label": "facebook: https://www.facebook.com/SalazarRoofing/",
+      "description": "",
+      "line": 85,
+      "canonical": "https://www.facebook.com/SalazarRoofing/",
+      "raw_url": "https://www.facebook.com/SalazarRoofing/"
+    },
+    {
+      "url": "https://www.linkedin.com/company/salazar-roofing/",
+      "label": "linkedin: https://www.linkedin.com/company/salazar-roofing/",
+      "description": "",
+      "line": 86,
+      "canonical": "https://www.linkedin.com/company/salazar-roofing/",
+      "raw_url": "https://www.linkedin.com/company/salazar-roofing/"
+    },
+    {
+      "url": "https://www.instagram.com/salazar_roofing/",
+      "label": "instagram: https://www.instagram.com/salazar_roofing/",
+      "description": "",
+      "line": 87,
+      "canonical": "https://www.instagram.com/salazar_roofing/",
+      "raw_url": "https://www.instagram.com/salazar_roofing/"
+    }
+  ],
+  "metrics": {
+    "bytes": 4541,
+    "words": 411,
+    "lines": 87,
+    "approx_tokens_chars_div_4": 1136,
+    "h1_count": 4,
+    "link_count": 29,
+    "bare_url_count": 3,
+    "described_links": 0,
+    "unique_destinations": 29,
+    "markdown_destinations": 0
+  },
+  "flags": [
+    "multiple-h1-review",
+    "sparse-link-descriptions"
+  ]
+}

@@ -1,0 +1,1269 @@
+{
+  "parser_version": "corpus-v2",
+  "headings": [
+    {
+      "level": 1,
+      "text": "Axelerant",
+      "line": 1
+    },
+    {
+      "level": 2,
+      "text": "How to read this site as an agent",
+      "line": 7
+    },
+    {
+      "level": 2,
+      "text": "Core pages",
+      "line": 14
+    },
+    {
+      "level": 2,
+      "text": "What we do",
+      "line": 24
+    },
+    {
+      "level": 2,
+      "text": "Platforms",
+      "line": 52
+    },
+    {
+      "level": 2,
+      "text": "Industries",
+      "line": 65
+    },
+    {
+      "level": 2,
+      "text": "How we do",
+      "line": 71
+    },
+    {
+      "level": 2,
+      "text": "Other pages",
+      "line": 79
+    },
+    {
+      "level": 2,
+      "text": "Optional",
+      "line": 98
+    },
+    {
+      "level": 3,
+      "text": "Blog posts (sample)",
+      "line": 102
+    },
+    {
+      "level": 3,
+      "text": "Case studies (sample)",
+      "line": 145
+    },
+    {
+      "level": 2,
+      "text": "Sitemap",
+      "line": 190
+    }
+  ],
+  "links": [
+    {
+      "label": "/",
+      "url": "https://www.axelerant.com/",
+      "canonical": "https://www.axelerant.com/",
+      "raw_url": "https://www.axelerant.com/",
+      "description": "Home. Positioning, Foyer concierge agent, entry points by intent.",
+      "line": 16
+    },
+    {
+      "label": "/about",
+      "url": "https://www.axelerant.com/about",
+      "canonical": "https://www.axelerant.com/about",
+      "raw_url": "https://www.axelerant.com/about",
+      "description": "Company history, leadership, culture, canonical facts.",
+      "line": 17
+    },
+    {
+      "label": "/approach",
+      "url": "https://www.axelerant.com/approach",
+      "canonical": "https://www.axelerant.com/approach",
+      "raw_url": "https://www.axelerant.com/approach",
+      "description": "Four-layer delivery loop (Experience, Data, Activation, Optimization).",
+      "line": 18
+    },
+    {
+      "label": "/blog",
+      "url": "https://www.axelerant.com/blog",
+      "canonical": "https://www.axelerant.com/blog",
+      "raw_url": "https://www.axelerant.com/blog",
+      "description": "Field notes on AI-native delivery.",
+      "line": 19
+    },
+    {
+      "label": "/careers",
+      "url": "https://www.axelerant.com/careers",
+      "canonical": "https://www.axelerant.com/careers",
+      "raw_url": "https://www.axelerant.com/careers",
+      "description": "Open roles and how we hire.",
+      "line": 20
+    },
+    {
+      "label": "/contact",
+      "url": "https://www.axelerant.com/contact",
+      "canonical": "https://www.axelerant.com/contact",
+      "raw_url": "https://www.axelerant.com/contact",
+      "description": "Start a conversation.",
+      "line": 21
+    },
+    {
+      "label": "/work",
+      "url": "https://www.axelerant.com/work",
+      "canonical": "https://www.axelerant.com/work",
+      "raw_url": "https://www.axelerant.com/work",
+      "description": "Case study index by client, lens, and industry.",
+      "line": 22
+    },
+    {
+      "label": "/what-we-do",
+      "url": "https://www.axelerant.com/what-we-do",
+      "canonical": "https://www.axelerant.com/what-we-do",
+      "raw_url": "https://www.axelerant.com/what-we-do",
+      "description": "",
+      "line": 26
+    },
+    {
+      "label": "/what-we-do/design",
+      "url": "https://www.axelerant.com/what-we-do/design",
+      "canonical": "https://www.axelerant.com/what-we-do/design",
+      "raw_url": "https://www.axelerant.com/what-we-do/design",
+      "description": "Design lens: UX research, product and service design, UI and design systems, content, brand, accessibility.",
+      "line": 27
+    },
+    {
+      "label": "/what-we-do/design/accessibility-and-inclusive-design",
+      "url": "https://www.axelerant.com/what-we-do/design/accessibility-and-inclusive-design",
+      "canonical": "https://www.axelerant.com/what-we-do/design/accessibility-and-inclusive-design",
+      "raw_url": "https://www.axelerant.com/what-we-do/design/accessibility-and-inclusive-design",
+      "description": "",
+      "line": 28
+    },
+    {
+      "label": "/what-we-do/design/brand-design",
+      "url": "https://www.axelerant.com/what-we-do/design/brand-design",
+      "canonical": "https://www.axelerant.com/what-we-do/design/brand-design",
+      "raw_url": "https://www.axelerant.com/what-we-do/design/brand-design",
+      "description": "",
+      "line": 29
+    },
+    {
+      "label": "/what-we-do/design/content-design",
+      "url": "https://www.axelerant.com/what-we-do/design/content-design",
+      "canonical": "https://www.axelerant.com/what-we-do/design/content-design",
+      "raw_url": "https://www.axelerant.com/what-we-do/design/content-design",
+      "description": "",
+      "line": 30
+    },
+    {
+      "label": "/what-we-do/design/product-and-service-design",
+      "url": "https://www.axelerant.com/what-we-do/design/product-and-service-design",
+      "canonical": "https://www.axelerant.com/what-we-do/design/product-and-service-design",
+      "raw_url": "https://www.axelerant.com/what-we-do/design/product-and-service-design",
+      "description": "",
+      "line": 31
+    },
+    {
+      "label": "/what-we-do/design/ui-and-design-systems",
+      "url": "https://www.axelerant.com/what-we-do/design/ui-and-design-systems",
+      "canonical": "https://www.axelerant.com/what-we-do/design/ui-and-design-systems",
+      "raw_url": "https://www.axelerant.com/what-we-do/design/ui-and-design-systems",
+      "description": "",
+      "line": 32
+    },
+    {
+      "label": "/what-we-do/design/ux-research",
+      "url": "https://www.axelerant.com/what-we-do/design/ux-research",
+      "canonical": "https://www.axelerant.com/what-we-do/design/ux-research",
+      "raw_url": "https://www.axelerant.com/what-we-do/design/ux-research",
+      "description": "",
+      "line": 33
+    },
+    {
+      "label": "/what-we-do/engineering",
+      "url": "https://www.axelerant.com/what-we-do/engineering",
+      "canonical": "https://www.axelerant.com/what-we-do/engineering",
+      "raw_url": "https://www.axelerant.com/what-we-do/engineering",
+      "description": "Engineering lens: AI, application, cloud, data, platform, and quality engineering.",
+      "line": 34
+    },
+    {
+      "label": "/what-we-do/engineering/ai",
+      "url": "https://www.axelerant.com/what-we-do/engineering/ai",
+      "canonical": "https://www.axelerant.com/what-we-do/engineering/ai",
+      "raw_url": "https://www.axelerant.com/what-we-do/engineering/ai",
+      "description": "",
+      "line": 35
+    },
+    {
+      "label": "/what-we-do/engineering/application",
+      "url": "https://www.axelerant.com/what-we-do/engineering/application",
+      "canonical": "https://www.axelerant.com/what-we-do/engineering/application",
+      "raw_url": "https://www.axelerant.com/what-we-do/engineering/application",
+      "description": "",
+      "line": 36
+    },
+    {
+      "label": "/what-we-do/engineering/cloud",
+      "url": "https://www.axelerant.com/what-we-do/engineering/cloud",
+      "canonical": "https://www.axelerant.com/what-we-do/engineering/cloud",
+      "raw_url": "https://www.axelerant.com/what-we-do/engineering/cloud",
+      "description": "",
+      "line": 37
+    },
+    {
+      "label": "/what-we-do/engineering/data",
+      "url": "https://www.axelerant.com/what-we-do/engineering/data",
+      "canonical": "https://www.axelerant.com/what-we-do/engineering/data",
+      "raw_url": "https://www.axelerant.com/what-we-do/engineering/data",
+      "description": "",
+      "line": 38
+    },
+    {
+      "label": "/what-we-do/engineering/platform",
+      "url": "https://www.axelerant.com/what-we-do/engineering/platform",
+      "canonical": "https://www.axelerant.com/what-we-do/engineering/platform",
+      "raw_url": "https://www.axelerant.com/what-we-do/engineering/platform",
+      "description": "",
+      "line": 39
+    },
+    {
+      "label": "/what-we-do/engineering/quality",
+      "url": "https://www.axelerant.com/what-we-do/engineering/quality",
+      "canonical": "https://www.axelerant.com/what-we-do/engineering/quality",
+      "raw_url": "https://www.axelerant.com/what-we-do/engineering/quality",
+      "description": "",
+      "line": 40
+    },
+    {
+      "label": "/what-we-do/revops-and-growth",
+      "url": "https://www.axelerant.com/what-we-do/revops-and-growth",
+      "canonical": "https://www.axelerant.com/what-we-do/revops-and-growth",
+      "raw_url": "https://www.axelerant.com/what-we-do/revops-and-growth",
+      "description": "RevOps and Growth Marketing lens: analytics, CRO, CRM architecture, discoverability, journey orchestration, lead management, marketing automation, subscription lifecycle.",
+      "line": 41
+    },
+    {
+      "label": "/what-we-do/revops-and-growth/analytics-and-measurement",
+      "url": "https://www.axelerant.com/what-we-do/revops-and-growth/analytics-and-measurement",
+      "canonical": "https://www.axelerant.com/what-we-do/revops-and-growth/analytics-and-measurement",
+      "raw_url": "https://www.axelerant.com/what-we-do/revops-and-growth/analytics-and-measurement",
+      "description": "",
+      "line": 42
+    },
+    {
+      "label": "/what-we-do/revops-and-growth/conversion-rate-optimization",
+      "url": "https://www.axelerant.com/what-we-do/revops-and-growth/conversion-rate-optimization",
+      "canonical": "https://www.axelerant.com/what-we-do/revops-and-growth/conversion-rate-optimization",
+      "raw_url": "https://www.axelerant.com/what-we-do/revops-and-growth/conversion-rate-optimization",
+      "description": "",
+      "line": 43
+    },
+    {
+      "label": "/what-we-do/revops-and-growth/crm-implementation-and-architecture",
+      "url": "https://www.axelerant.com/what-we-do/revops-and-growth/crm-implementation-and-architecture",
+      "canonical": "https://www.axelerant.com/what-we-do/revops-and-growth/crm-implementation-and-architecture",
+      "raw_url": "https://www.axelerant.com/what-we-do/revops-and-growth/crm-implementation-and-architecture",
+      "description": "",
+      "line": 44
+    },
+    {
+      "label": "/what-we-do/revops-and-growth/discoverability",
+      "url": "https://www.axelerant.com/what-we-do/revops-and-growth/discoverability",
+      "canonical": "https://www.axelerant.com/what-we-do/revops-and-growth/discoverability",
+      "raw_url": "https://www.axelerant.com/what-we-do/revops-and-growth/discoverability",
+      "description": "",
+      "line": 45
+    },
+    {
+      "label": "/what-we-do/revops-and-growth/journey-orchestration",
+      "url": "https://www.axelerant.com/what-we-do/revops-and-growth/journey-orchestration",
+      "canonical": "https://www.axelerant.com/what-we-do/revops-and-growth/journey-orchestration",
+      "raw_url": "https://www.axelerant.com/what-we-do/revops-and-growth/journey-orchestration",
+      "description": "",
+      "line": 46
+    },
+    {
+      "label": "/what-we-do/revops-and-growth/lead-management-and-routing",
+      "url": "https://www.axelerant.com/what-we-do/revops-and-growth/lead-management-and-routing",
+      "canonical": "https://www.axelerant.com/what-we-do/revops-and-growth/lead-management-and-routing",
+      "raw_url": "https://www.axelerant.com/what-we-do/revops-and-growth/lead-management-and-routing",
+      "description": "",
+      "line": 47
+    },
+    {
+      "label": "/what-we-do/revops-and-growth/marketing-automation",
+      "url": "https://www.axelerant.com/what-we-do/revops-and-growth/marketing-automation",
+      "canonical": "https://www.axelerant.com/what-we-do/revops-and-growth/marketing-automation",
+      "raw_url": "https://www.axelerant.com/what-we-do/revops-and-growth/marketing-automation",
+      "description": "",
+      "line": 48
+    },
+    {
+      "label": "/what-we-do/revops-and-growth/subscription-and-membership-lifecycle",
+      "url": "https://www.axelerant.com/what-we-do/revops-and-growth/subscription-and-membership-lifecycle",
+      "canonical": "https://www.axelerant.com/what-we-do/revops-and-growth/subscription-and-membership-lifecycle",
+      "raw_url": "https://www.axelerant.com/what-we-do/revops-and-growth/subscription-and-membership-lifecycle",
+      "description": "",
+      "line": 49
+    },
+    {
+      "label": "/what-we-do/strategy",
+      "url": "https://www.axelerant.com/what-we-do/strategy",
+      "canonical": "https://www.axelerant.com/what-we-do/strategy",
+      "raw_url": "https://www.axelerant.com/what-we-do/strategy",
+      "description": "Strategy lens: digital, tech, data, brand, and growth strategy.",
+      "line": 50
+    },
+    {
+      "label": "/platforms",
+      "url": "https://www.axelerant.com/platforms",
+      "canonical": "https://www.axelerant.com/platforms",
+      "raw_url": "https://www.axelerant.com/platforms",
+      "description": "Platform capabilities overview.",
+      "line": 54
+    },
+    {
+      "label": "/platforms/acquia",
+      "url": "https://www.axelerant.com/platforms/acquia",
+      "canonical": "https://www.axelerant.com/platforms/acquia",
+      "raw_url": "https://www.axelerant.com/platforms/acquia",
+      "description": "",
+      "line": 55
+    },
+    {
+      "label": "/platforms/anthropic",
+      "url": "https://www.axelerant.com/platforms/anthropic",
+      "canonical": "https://www.axelerant.com/platforms/anthropic",
+      "raw_url": "https://www.axelerant.com/platforms/anthropic",
+      "description": "",
+      "line": 56
+    },
+    {
+      "label": "/platforms/aws",
+      "url": "https://www.axelerant.com/platforms/aws",
+      "canonical": "https://www.axelerant.com/platforms/aws",
+      "raw_url": "https://www.axelerant.com/platforms/aws",
+      "description": "",
+      "line": 57
+    },
+    {
+      "label": "/platforms/contentful",
+      "url": "https://www.axelerant.com/platforms/contentful",
+      "canonical": "https://www.axelerant.com/platforms/contentful",
+      "raw_url": "https://www.axelerant.com/platforms/contentful",
+      "description": "",
+      "line": 58
+    },
+    {
+      "label": "/platforms/drupal",
+      "url": "https://www.axelerant.com/platforms/drupal",
+      "canonical": "https://www.axelerant.com/platforms/drupal",
+      "raw_url": "https://www.axelerant.com/platforms/drupal",
+      "description": "",
+      "line": 59
+    },
+    {
+      "label": "/platforms/hubspot",
+      "url": "https://www.axelerant.com/platforms/hubspot",
+      "canonical": "https://www.axelerant.com/platforms/hubspot",
+      "raw_url": "https://www.axelerant.com/platforms/hubspot",
+      "description": "",
+      "line": 60
+    },
+    {
+      "label": "/platforms/hubspot/mergers-acquisitions",
+      "url": "https://www.axelerant.com/platforms/hubspot/mergers-acquisitions",
+      "canonical": "https://www.axelerant.com/platforms/hubspot/mergers-acquisitions",
+      "raw_url": "https://www.axelerant.com/platforms/hubspot/mergers-acquisitions",
+      "description": "",
+      "line": 61
+    },
+    {
+      "label": "/platforms/mautic",
+      "url": "https://www.axelerant.com/platforms/mautic",
+      "canonical": "https://www.axelerant.com/platforms/mautic",
+      "raw_url": "https://www.axelerant.com/platforms/mautic",
+      "description": "",
+      "line": 62
+    },
+    {
+      "label": "/platforms/salesforce",
+      "url": "https://www.axelerant.com/platforms/salesforce",
+      "canonical": "https://www.axelerant.com/platforms/salesforce",
+      "raw_url": "https://www.axelerant.com/platforms/salesforce",
+      "description": "",
+      "line": 63
+    },
+    {
+      "label": "/industries",
+      "url": "https://www.axelerant.com/industries",
+      "canonical": "https://www.axelerant.com/industries",
+      "raw_url": "https://www.axelerant.com/industries",
+      "description": "Industries index.",
+      "line": 67
+    },
+    {
+      "label": "/industries/higher-ed",
+      "url": "https://www.axelerant.com/industries/higher-ed",
+      "canonical": "https://www.axelerant.com/industries/higher-ed",
+      "raw_url": "https://www.axelerant.com/industries/higher-ed",
+      "description": "Higher-Ed industry page.",
+      "line": 68
+    },
+    {
+      "label": "/industries/private-equity",
+      "url": "https://www.axelerant.com/industries/private-equity",
+      "canonical": "https://www.axelerant.com/industries/private-equity",
+      "raw_url": "https://www.axelerant.com/industries/private-equity",
+      "description": "Private-Equity industry page.",
+      "line": 69
+    },
+    {
+      "label": "/how-we-do",
+      "url": "https://www.axelerant.com/how-we-do",
+      "canonical": "https://www.axelerant.com/how-we-do",
+      "raw_url": "https://www.axelerant.com/how-we-do",
+      "description": "The loop, not the line. Approach overview.",
+      "line": 73
+    },
+    {
+      "label": "/how-we-do/activation",
+      "url": "https://www.axelerant.com/how-we-do/activation",
+      "canonical": "https://www.axelerant.com/how-we-do/activation",
+      "raw_url": "https://www.axelerant.com/how-we-do/activation",
+      "description": "",
+      "line": 74
+    },
+    {
+      "label": "/how-we-do/data",
+      "url": "https://www.axelerant.com/how-we-do/data",
+      "canonical": "https://www.axelerant.com/how-we-do/data",
+      "raw_url": "https://www.axelerant.com/how-we-do/data",
+      "description": "",
+      "line": 75
+    },
+    {
+      "label": "/how-we-do/experience",
+      "url": "https://www.axelerant.com/how-we-do/experience",
+      "canonical": "https://www.axelerant.com/how-we-do/experience",
+      "raw_url": "https://www.axelerant.com/how-we-do/experience",
+      "description": "",
+      "line": 76
+    },
+    {
+      "label": "/how-we-do/optimization",
+      "url": "https://www.axelerant.com/how-we-do/optimization",
+      "canonical": "https://www.axelerant.com/how-we-do/optimization",
+      "raw_url": "https://www.axelerant.com/how-we-do/optimization",
+      "description": "",
+      "line": 77
+    },
+    {
+      "label": "/ai-visibility-audit",
+      "url": "https://www.axelerant.com/ai-visibility-audit",
+      "canonical": "https://www.axelerant.com/ai-visibility-audit",
+      "raw_url": "https://www.axelerant.com/ai-visibility-audit",
+      "description": "",
+      "line": 81
+    },
+    {
+      "label": "/ai-visibility-audit/compare",
+      "url": "https://www.axelerant.com/ai-visibility-audit/compare",
+      "canonical": "https://www.axelerant.com/ai-visibility-audit/compare",
+      "raw_url": "https://www.axelerant.com/ai-visibility-audit/compare",
+      "description": "",
+      "line": 82
+    },
+    {
+      "label": "/ai-visibility-audit/history",
+      "url": "https://www.axelerant.com/ai-visibility-audit/history",
+      "canonical": "https://www.axelerant.com/ai-visibility-audit/history",
+      "raw_url": "https://www.axelerant.com/ai-visibility-audit/history",
+      "description": "",
+      "line": 83
+    },
+    {
+      "label": "/drupal-continuous-development-and-maintenance",
+      "url": "https://www.axelerant.com/drupal-continuous-development-and-maintenance",
+      "canonical": "https://www.axelerant.com/drupal-continuous-development-and-maintenance",
+      "raw_url": "https://www.axelerant.com/drupal-continuous-development-and-maintenance",
+      "description": "",
+      "line": 84
+    },
+    {
+      "label": "/event-website-redesign",
+      "url": "https://www.axelerant.com/event-website-redesign",
+      "canonical": "https://www.axelerant.com/event-website-redesign",
+      "raw_url": "https://www.axelerant.com/event-website-redesign",
+      "description": "",
+      "line": 85
+    },
+    {
+      "label": "/health-nonprofit-website-redesign",
+      "url": "https://www.axelerant.com/health-nonprofit-website-redesign",
+      "canonical": "https://www.axelerant.com/health-nonprofit-website-redesign",
+      "raw_url": "https://www.axelerant.com/health-nonprofit-website-redesign",
+      "description": "",
+      "line": 86
+    },
+    {
+      "label": "/lp/digital-estate-diligence-scoping",
+      "url": "https://www.axelerant.com/lp/digital-estate-diligence-scoping",
+      "canonical": "https://www.axelerant.com/lp/digital-estate-diligence-scoping",
+      "raw_url": "https://www.axelerant.com/lp/digital-estate-diligence-scoping",
+      "description": "",
+      "line": 87
+    },
+    {
+      "label": "/meet/sachin",
+      "url": "https://www.axelerant.com/meet/sachin",
+      "canonical": "https://www.axelerant.com/meet/sachin",
+      "raw_url": "https://www.axelerant.com/meet/sachin",
+      "description": "",
+      "line": 88
+    },
+    {
+      "label": "/member-experience-scorecard",
+      "url": "https://www.axelerant.com/member-experience-scorecard",
+      "canonical": "https://www.axelerant.com/member-experience-scorecard",
+      "raw_url": "https://www.axelerant.com/member-experience-scorecard",
+      "description": "",
+      "line": 89
+    },
+    {
+      "label": "/partner-portal",
+      "url": "https://www.axelerant.com/partner-portal",
+      "canonical": "https://www.axelerant.com/partner-portal",
+      "raw_url": "https://www.axelerant.com/partner-portal",
+      "description": "",
+      "line": 90
+    },
+    {
+      "label": "/pe-portco-modernization",
+      "url": "https://www.axelerant.com/pe-portco-modernization",
+      "canonical": "https://www.axelerant.com/pe-portco-modernization",
+      "raw_url": "https://www.axelerant.com/pe-portco-modernization",
+      "description": "",
+      "line": 91
+    },
+    {
+      "label": "/privacy-policy",
+      "url": "https://www.axelerant.com/privacy-policy",
+      "canonical": "https://www.axelerant.com/privacy-policy",
+      "raw_url": "https://www.axelerant.com/privacy-policy",
+      "description": "",
+      "line": 92
+    },
+    {
+      "label": "/services",
+      "url": "https://www.axelerant.com/services",
+      "canonical": "https://www.axelerant.com/services",
+      "raw_url": "https://www.axelerant.com/services",
+      "description": "",
+      "line": 93
+    },
+    {
+      "label": "/uk-highered-ai-discoverability",
+      "url": "https://www.axelerant.com/uk-highered-ai-discoverability",
+      "canonical": "https://www.axelerant.com/uk-highered-ai-discoverability",
+      "raw_url": "https://www.axelerant.com/uk-highered-ai-discoverability",
+      "description": "",
+      "line": 94
+    },
+    {
+      "label": "/vendor-partners",
+      "url": "https://www.axelerant.com/vendor-partners",
+      "canonical": "https://www.axelerant.com/vendor-partners",
+      "raw_url": "https://www.axelerant.com/vendor-partners",
+      "description": "",
+      "line": 95
+    },
+    {
+      "label": "/web-estate-cost-reduction",
+      "url": "https://www.axelerant.com/web-estate-cost-reduction",
+      "canonical": "https://www.axelerant.com/web-estate-cost-reduction",
+      "raw_url": "https://www.axelerant.com/web-estate-cost-reduction",
+      "description": "",
+      "line": 96
+    },
+    {
+      "label": "/blog/1-million-requests-hit-your-apis",
+      "url": "https://www.axelerant.com/blog/1-million-requests-hit-your-apis",
+      "canonical": "https://www.axelerant.com/blog/1-million-requests-hit-your-apis",
+      "raw_url": "https://www.axelerant.com/blog/1-million-requests-hit-your-apis",
+      "description": "",
+      "line": 104
+    },
+    {
+      "label": "/blog/10-techniques-improving-frontend-performance",
+      "url": "https://www.axelerant.com/blog/10-techniques-improving-frontend-performance",
+      "canonical": "https://www.axelerant.com/blog/10-techniques-improving-frontend-performance",
+      "raw_url": "https://www.axelerant.com/blog/10-techniques-improving-frontend-performance",
+      "description": "",
+      "line": 105
+    },
+    {
+      "label": "/blog/10-tips-to-help-you-succeed-as-a-remote-team-member",
+      "url": "https://www.axelerant.com/blog/10-tips-to-help-you-succeed-as-a-remote-team-member",
+      "canonical": "https://www.axelerant.com/blog/10-tips-to-help-you-succeed-as-a-remote-team-member",
+      "raw_url": "https://www.axelerant.com/blog/10-tips-to-help-you-succeed-as-a-remote-team-member",
+      "description": "",
+      "line": 106
+    },
+    {
+      "label": "/blog/12-higher-education-website-features-new-age-marketers-need",
+      "url": "https://www.axelerant.com/blog/12-higher-education-website-features-new-age-marketers-need",
+      "canonical": "https://www.axelerant.com/blog/12-higher-education-website-features-new-age-marketers-need",
+      "raw_url": "https://www.axelerant.com/blog/12-higher-education-website-features-new-age-marketers-need",
+      "description": "",
+      "line": 107
+    },
+    {
+      "label": "/blog/12-pain-points-fixed-drupal-ecommerce",
+      "url": "https://www.axelerant.com/blog/12-pain-points-fixed-drupal-ecommerce",
+      "canonical": "https://www.axelerant.com/blog/12-pain-points-fixed-drupal-ecommerce",
+      "raw_url": "https://www.axelerant.com/blog/12-pain-points-fixed-drupal-ecommerce",
+      "description": "",
+      "line": 108
+    },
+    {
+      "label": "/blog/12-tips-for-drupalcon-barcelona-infographic",
+      "url": "https://www.axelerant.com/blog/12-tips-for-drupalcon-barcelona-infographic",
+      "canonical": "https://www.axelerant.com/blog/12-tips-for-drupalcon-barcelona-infographic",
+      "raw_url": "https://www.axelerant.com/blog/12-tips-for-drupalcon-barcelona-infographic",
+      "description": "",
+      "line": 109
+    },
+    {
+      "label": "/blog/19-were-taking-another-look-at-performance-management-our-hiring-process",
+      "url": "https://www.axelerant.com/blog/19-were-taking-another-look-at-performance-management-our-hiring-process",
+      "canonical": "https://www.axelerant.com/blog/19-were-taking-another-look-at-performance-management-our-hiring-process",
+      "raw_url": "https://www.axelerant.com/blog/19-were-taking-another-look-at-performance-management-our-hiring-process",
+      "description": "",
+      "line": 110
+    },
+    {
+      "label": "/blog/20-steps-life-without-drupaler-burnout",
+      "url": "https://www.axelerant.com/blog/20-steps-life-without-drupaler-burnout",
+      "canonical": "https://www.axelerant.com/blog/20-steps-life-without-drupaler-burnout",
+      "raw_url": "https://www.axelerant.com/blog/20-steps-life-without-drupaler-burnout",
+      "description": "",
+      "line": 111
+    },
+    {
+      "label": "/blog/20-tools-distributed-staff-augmentation",
+      "url": "https://www.axelerant.com/blog/20-tools-distributed-staff-augmentation",
+      "canonical": "https://www.axelerant.com/blog/20-tools-distributed-staff-augmentation",
+      "raw_url": "https://www.axelerant.com/blog/20-tools-distributed-staff-augmentation",
+      "description": "",
+      "line": 112
+    },
+    {
+      "label": "/blog/2026-insights-newsletters-edition-1",
+      "url": "https://www.axelerant.com/blog/2026-insights-newsletters-edition-1",
+      "canonical": "https://www.axelerant.com/blog/2026-insights-newsletters-edition-1",
+      "raw_url": "https://www.axelerant.com/blog/2026-insights-newsletters-edition-1",
+      "description": "",
+      "line": 113
+    },
+    {
+      "label": "/blog/2026-insights-newsletters-edition-2",
+      "url": "https://www.axelerant.com/blog/2026-insights-newsletters-edition-2",
+      "canonical": "https://www.axelerant.com/blog/2026-insights-newsletters-edition-2",
+      "raw_url": "https://www.axelerant.com/blog/2026-insights-newsletters-edition-2",
+      "description": "",
+      "line": 114
+    },
+    {
+      "label": "/blog/2026-insights-podcasts-bill-whitebone-ditching-the-comfort-zone-drupal-edtech-racing-cars",
+      "url": "https://www.axelerant.com/blog/2026-insights-podcasts-bill-whitebone-ditching-the-comfort-zone-drupal-edtech-racing-cars",
+      "canonical": "https://www.axelerant.com/blog/2026-insights-podcasts-bill-whitebone-ditching-the-comfort-zone-drupal-edtech-racing-cars",
+      "raw_url": "https://www.axelerant.com/blog/2026-insights-podcasts-bill-whitebone-ditching-the-comfort-zone-drupal-edtech-racing-cars",
+      "description": "",
+      "line": 115
+    },
+    {
+      "label": "/blog/2026-insights-resources-podcast-episodes-dave-terry",
+      "url": "https://www.axelerant.com/blog/2026-insights-resources-podcast-episodes-dave-terry",
+      "canonical": "https://www.axelerant.com/blog/2026-insights-resources-podcast-episodes-dave-terry",
+      "raw_url": "https://www.axelerant.com/blog/2026-insights-resources-podcast-episodes-dave-terry",
+      "description": "",
+      "line": 116
+    },
+    {
+      "label": "/blog/2026-insights-resources-podcast-episodes-george-demet",
+      "url": "https://www.axelerant.com/blog/2026-insights-resources-podcast-episodes-george-demet",
+      "canonical": "https://www.axelerant.com/blog/2026-insights-resources-podcast-episodes-george-demet",
+      "raw_url": "https://www.axelerant.com/blog/2026-insights-resources-podcast-episodes-george-demet",
+      "description": "",
+      "line": 117
+    },
+    {
+      "label": "/blog/2026-insights-resources-podcast-episodes-george-demet-building-remote-first-sustainable-business",
+      "url": "https://www.axelerant.com/blog/2026-insights-resources-podcast-episodes-george-demet-building-remote-first-sustainable-business",
+      "canonical": "https://www.axelerant.com/blog/2026-insights-resources-podcast-episodes-george-demet-building-remote-first-sustainable-business",
+      "raw_url": "https://www.axelerant.com/blog/2026-insights-resources-podcast-episodes-george-demet-building-remote-first-sustainable-business",
+      "description": "",
+      "line": 118
+    },
+    {
+      "label": "/blog/2026-insights-resources-podcast-episodes-humans-behind-dx-bill-whitebone",
+      "url": "https://www.axelerant.com/blog/2026-insights-resources-podcast-episodes-humans-behind-dx-bill-whitebone",
+      "canonical": "https://www.axelerant.com/blog/2026-insights-resources-podcast-episodes-humans-behind-dx-bill-whitebone",
+      "raw_url": "https://www.axelerant.com/blog/2026-insights-resources-podcast-episodes-humans-behind-dx-bill-whitebone",
+      "description": "",
+      "line": 119
+    },
+    {
+      "label": "/blog/2026-insights-resources-podcast-episodes-humans-behind-dx-jessica-drislane",
+      "url": "https://www.axelerant.com/blog/2026-insights-resources-podcast-episodes-humans-behind-dx-jessica-drislane",
+      "canonical": "https://www.axelerant.com/blog/2026-insights-resources-podcast-episodes-humans-behind-dx-jessica-drislane",
+      "raw_url": "https://www.axelerant.com/blog/2026-insights-resources-podcast-episodes-humans-behind-dx-jessica-drislane",
+      "description": "",
+      "line": 120
+    },
+    {
+      "label": "/blog/2026-insights-resources-podcast-episodes-humans-behind-dx-michael-meyers",
+      "url": "https://www.axelerant.com/blog/2026-insights-resources-podcast-episodes-humans-behind-dx-michael-meyers",
+      "canonical": "https://www.axelerant.com/blog/2026-insights-resources-podcast-episodes-humans-behind-dx-michael-meyers",
+      "raw_url": "https://www.axelerant.com/blog/2026-insights-resources-podcast-episodes-humans-behind-dx-michael-meyers",
+      "description": "",
+      "line": 121
+    },
+    {
+      "label": "/blog/2026-insights-resources-podcast-episodes-humans-behind-dx-michael-meyers-work-ethic-startup-burn",
+      "url": "https://www.axelerant.com/blog/2026-insights-resources-podcast-episodes-humans-behind-dx-michael-meyers-work-ethic-startup-burn",
+      "canonical": "https://www.axelerant.com/blog/2026-insights-resources-podcast-episodes-humans-behind-dx-michael-meyers-work-ethic-startup-burn",
+      "raw_url": "https://www.axelerant.com/blog/2026-insights-resources-podcast-episodes-humans-behind-dx-michael-meyers-work-ethic-startup-burn",
+      "description": "",
+      "line": 122
+    },
+    {
+      "label": "/blog/2026-insights-resources-podcast-episodes-humans-behind-dx-mitchell-lawson",
+      "url": "https://www.axelerant.com/blog/2026-insights-resources-podcast-episodes-humans-behind-dx-mitchell-lawson",
+      "canonical": "https://www.axelerant.com/blog/2026-insights-resources-podcast-episodes-humans-behind-dx-mitchell-lawson",
+      "raw_url": "https://www.axelerant.com/blog/2026-insights-resources-podcast-episodes-humans-behind-dx-mitchell-lawson",
+      "description": "",
+      "line": 123
+    },
+    {
+      "label": "/blog/2026-insights-resources-podcast-episodes-jeff-walpole-telecom-sales",
+      "url": "https://www.axelerant.com/blog/2026-insights-resources-podcast-episodes-jeff-walpole-telecom-sales",
+      "canonical": "https://www.axelerant.com/blog/2026-insights-resources-podcast-episodes-jeff-walpole-telecom-sales",
+      "raw_url": "https://www.axelerant.com/blog/2026-insights-resources-podcast-episodes-jeff-walpole-telecom-sales",
+      "description": "",
+      "line": 124
+    },
+    {
+      "label": "/blog/2026-insights-resources-podcast-episodes-teri-sun-wild-safari-rides-b2me-and-creating-augmented-",
+      "url": "https://www.axelerant.com/blog/2026-insights-resources-podcast-episodes-teri-sun-wild-safari-rides-b2me-and-creating-augmented-",
+      "canonical": "https://www.axelerant.com/blog/2026-insights-resources-podcast-episodes-teri-sun-wild-safari-rides-b2me-and-creating-augmented-",
+      "raw_url": "https://www.axelerant.com/blog/2026-insights-resources-podcast-episodes-teri-sun-wild-safari-rides-b2me-and-creating-augmented-",
+      "description": "",
+      "line": 125
+    },
+    {
+      "label": "/blog/2026-insights-webinar-episodes-accessibility",
+      "url": "https://www.axelerant.com/blog/2026-insights-webinar-episodes-accessibility",
+      "canonical": "https://www.axelerant.com/blog/2026-insights-webinar-episodes-accessibility",
+      "raw_url": "https://www.axelerant.com/blog/2026-insights-webinar-episodes-accessibility",
+      "description": "",
+      "line": 126
+    },
+    {
+      "label": "/blog/35-hour-work-week",
+      "url": "https://www.axelerant.com/blog/35-hour-work-week",
+      "canonical": "https://www.axelerant.com/blog/35-hour-work-week",
+      "raw_url": "https://www.axelerant.com/blog/35-hour-work-week",
+      "description": "",
+      "line": 127
+    },
+    {
+      "label": "/blog/4-examples-of-behat-success",
+      "url": "https://www.axelerant.com/blog/4-examples-of-behat-success",
+      "canonical": "https://www.axelerant.com/blog/4-examples-of-behat-success",
+      "raw_url": "https://www.axelerant.com/blog/4-examples-of-behat-success",
+      "description": "",
+      "line": 128
+    },
+    {
+      "label": "/blog/4-takeaways-drupal-engineers-acquia-engage",
+      "url": "https://www.axelerant.com/blog/4-takeaways-drupal-engineers-acquia-engage",
+      "canonical": "https://www.axelerant.com/blog/4-takeaways-drupal-engineers-acquia-engage",
+      "raw_url": "https://www.axelerant.com/blog/4-takeaways-drupal-engineers-acquia-engage",
+      "description": "",
+      "line": 129
+    },
+    {
+      "label": "/blog/5-awkward-acquia-engage-london-questions-for-axelerant",
+      "url": "https://www.axelerant.com/blog/5-awkward-acquia-engage-london-questions-for-axelerant",
+      "canonical": "https://www.axelerant.com/blog/5-awkward-acquia-engage-london-questions-for-axelerant",
+      "raw_url": "https://www.axelerant.com/blog/5-awkward-acquia-engage-london-questions-for-axelerant",
+      "description": "",
+      "line": 130
+    },
+    {
+      "label": "/blog/5-reasons-why-remote-work-challenges-are-the-worst",
+      "url": "https://www.axelerant.com/blog/5-reasons-why-remote-work-challenges-are-the-worst",
+      "canonical": "https://www.axelerant.com/blog/5-reasons-why-remote-work-challenges-are-the-worst",
+      "raw_url": "https://www.axelerant.com/blog/5-reasons-why-remote-work-challenges-are-the-worst",
+      "description": "",
+      "line": 131
+    },
+    {
+      "label": "/blog/5-ways-drupal-devops-multiplies-production-capabilities",
+      "url": "https://www.axelerant.com/blog/5-ways-drupal-devops-multiplies-production-capabilities",
+      "canonical": "https://www.axelerant.com/blog/5-ways-drupal-devops-multiplies-production-capabilities",
+      "raw_url": "https://www.axelerant.com/blog/5-ways-drupal-devops-multiplies-production-capabilities",
+      "description": "",
+      "line": 132
+    },
+    {
+      "label": "/blog/6-drupal-devops-engineer-skills-to-bank-on",
+      "url": "https://www.axelerant.com/blog/6-drupal-devops-engineer-skills-to-bank-on",
+      "canonical": "https://www.axelerant.com/blog/6-drupal-devops-engineer-skills-to-bank-on",
+      "raw_url": "https://www.axelerant.com/blog/6-drupal-devops-engineer-skills-to-bank-on",
+      "description": "",
+      "line": 133
+    },
+    {
+      "label": "/blog/7-ways-thriving-open-source-organization-culture",
+      "url": "https://www.axelerant.com/blog/7-ways-thriving-open-source-organization-culture",
+      "canonical": "https://www.axelerant.com/blog/7-ways-thriving-open-source-organization-culture",
+      "raw_url": "https://www.axelerant.com/blog/7-ways-thriving-open-source-organization-culture",
+      "description": "",
+      "line": 134
+    },
+    {
+      "label": "/blog/7-ways-win-mobile-application-testing",
+      "url": "https://www.axelerant.com/blog/7-ways-win-mobile-application-testing",
+      "canonical": "https://www.axelerant.com/blog/7-ways-win-mobile-application-testing",
+      "raw_url": "https://www.axelerant.com/blog/7-ways-win-mobile-application-testing",
+      "description": "",
+      "line": 135
+    },
+    {
+      "label": "/blog/9-drupal-project-management-tips",
+      "url": "https://www.axelerant.com/blog/9-drupal-project-management-tips",
+      "canonical": "https://www.axelerant.com/blog/9-drupal-project-management-tips",
+      "raw_url": "https://www.axelerant.com/blog/9-drupal-project-management-tips",
+      "description": "",
+      "line": 136
+    },
+    {
+      "label": "/blog/9-ways-drupal-quality-assurance-saved-projects",
+      "url": "https://www.axelerant.com/blog/9-ways-drupal-quality-assurance-saved-projects",
+      "canonical": "https://www.axelerant.com/blog/9-ways-drupal-quality-assurance-saved-projects",
+      "raw_url": "https://www.axelerant.com/blog/9-ways-drupal-quality-assurance-saved-projects",
+      "description": "",
+      "line": 137
+    },
+    {
+      "label": "/blog/a-complete-checklist-for-hiring-a-drupal-developer",
+      "url": "https://www.axelerant.com/blog/a-complete-checklist-for-hiring-a-drupal-developer",
+      "canonical": "https://www.axelerant.com/blog/a-complete-checklist-for-hiring-a-drupal-developer",
+      "raw_url": "https://www.axelerant.com/blog/a-complete-checklist-for-hiring-a-drupal-developer",
+      "description": "",
+      "line": 138
+    },
+    {
+      "label": "/blog/a-qa-engineers-perspective-to-accessibility-testing",
+      "url": "https://www.axelerant.com/blog/a-qa-engineers-perspective-to-accessibility-testing",
+      "canonical": "https://www.axelerant.com/blog/a-qa-engineers-perspective-to-accessibility-testing",
+      "raw_url": "https://www.axelerant.com/blog/a-qa-engineers-perspective-to-accessibility-testing",
+      "description": "",
+      "line": 139
+    },
+    {
+      "label": "/blog/a-tale-of-three-camps-axelerant-at-goa-london-mountain-camp",
+      "url": "https://www.axelerant.com/blog/a-tale-of-three-camps-axelerant-at-goa-london-mountain-camp",
+      "canonical": "https://www.axelerant.com/blog/a-tale-of-three-camps-axelerant-at-goa-london-mountain-camp",
+      "raw_url": "https://www.axelerant.com/blog/a-tale-of-three-camps-axelerant-at-goa-london-mountain-camp",
+      "description": "",
+      "line": 140
+    },
+    {
+      "label": "/blog/a-year-of-knowledge-sharing-at-axelerant",
+      "url": "https://www.axelerant.com/blog/a-year-of-knowledge-sharing-at-axelerant",
+      "canonical": "https://www.axelerant.com/blog/a-year-of-knowledge-sharing-at-axelerant",
+      "raw_url": "https://www.axelerant.com/blog/a-year-of-knowledge-sharing-at-axelerant",
+      "description": "",
+      "line": 141
+    },
+    {
+      "label": "/blog/accessibility-compliance-acts-and-standards-guide",
+      "url": "https://www.axelerant.com/blog/accessibility-compliance-acts-and-standards-guide",
+      "canonical": "https://www.axelerant.com/blog/accessibility-compliance-acts-and-standards-guide",
+      "raw_url": "https://www.axelerant.com/blog/accessibility-compliance-acts-and-standards-guide",
+      "description": "",
+      "line": 142
+    },
+    {
+      "label": "/blog/accessibility-statements-universities",
+      "url": "https://www.axelerant.com/blog/accessibility-statements-universities",
+      "canonical": "https://www.axelerant.com/blog/accessibility-statements-universities",
+      "raw_url": "https://www.axelerant.com/blog/accessibility-statements-universities",
+      "description": "",
+      "line": 143
+    },
+    {
+      "label": "/work/acquia",
+      "url": "https://www.axelerant.com/work/acquia",
+      "canonical": "https://www.axelerant.com/work/acquia",
+      "raw_url": "https://www.axelerant.com/work/acquia",
+      "description": "",
+      "line": 149
+    },
+    {
+      "label": "/work/acquia-cloud",
+      "url": "https://www.axelerant.com/work/acquia-cloud",
+      "canonical": "https://www.axelerant.com/work/acquia-cloud",
+      "raw_url": "https://www.axelerant.com/work/acquia-cloud",
+      "description": "",
+      "line": 150
+    },
+    {
+      "label": "/work/acquia-dam",
+      "url": "https://www.axelerant.com/work/acquia-dam",
+      "canonical": "https://www.axelerant.com/work/acquia-dam",
+      "raw_url": "https://www.axelerant.com/work/acquia-dam",
+      "description": "",
+      "line": 151
+    },
+    {
+      "label": "/work/acquia-site-factory",
+      "url": "https://www.axelerant.com/work/acquia-site-factory",
+      "canonical": "https://www.axelerant.com/work/acquia-site-factory",
+      "raw_url": "https://www.axelerant.com/work/acquia-site-factory",
+      "description": "",
+      "line": 152
+    },
+    {
+      "label": "/work/advance-velocity",
+      "url": "https://www.axelerant.com/work/advance-velocity",
+      "canonical": "https://www.axelerant.com/work/advance-velocity",
+      "raw_url": "https://www.axelerant.com/work/advance-velocity",
+      "description": "",
+      "line": 153
+    },
+    {
+      "label": "/work/blue-state",
+      "url": "https://www.axelerant.com/work/blue-state",
+      "canonical": "https://www.axelerant.com/work/blue-state",
+      "raw_url": "https://www.axelerant.com/work/blue-state",
+      "description": "",
+      "line": 154
+    },
+    {
+      "label": "/work/blue-state-v2",
+      "url": "https://www.axelerant.com/work/blue-state-v2",
+      "canonical": "https://www.axelerant.com/work/blue-state-v2",
+      "raw_url": "https://www.axelerant.com/work/blue-state-v2",
+      "description": "",
+      "line": 155
+    },
+    {
+      "label": "/work/bringing-drupals-responsive-design-to-georgias-premier-medical-group",
+      "url": "https://www.axelerant.com/work/bringing-drupals-responsive-design-to-georgias-premier-medical-group",
+      "canonical": "https://www.axelerant.com/work/bringing-drupals-responsive-design-to-georgias-premier-medical-group",
+      "raw_url": "https://www.axelerant.com/work/bringing-drupals-responsive-design-to-georgias-premier-medical-group",
+      "description": "",
+      "line": 156
+    },
+    {
+      "label": "/work/configero",
+      "url": "https://www.axelerant.com/work/configero",
+      "canonical": "https://www.axelerant.com/work/configero",
+      "raw_url": "https://www.axelerant.com/work/configero",
+      "description": "",
+      "line": 157
+    },
+    {
+      "label": "/work/consolidating-digital-experience-for-retail-megalith",
+      "url": "https://www.axelerant.com/work/consolidating-digital-experience-for-retail-megalith",
+      "canonical": "https://www.axelerant.com/work/consolidating-digital-experience-for-retail-megalith",
+      "raw_url": "https://www.axelerant.com/work/consolidating-digital-experience-for-retail-megalith",
+      "description": "",
+      "line": 158
+    },
+    {
+      "label": "/work/continuous-support-for-synduits-network-marketing-platform",
+      "url": "https://www.axelerant.com/work/continuous-support-for-synduits-network-marketing-platform",
+      "canonical": "https://www.axelerant.com/work/continuous-support-for-synduits-network-marketing-platform",
+      "raw_url": "https://www.axelerant.com/work/continuous-support-for-synduits-network-marketing-platform",
+      "description": "",
+      "line": 159
+    },
+    {
+      "label": "/work/creating-a-community-based-wordpress-website-for-integrative-wellness",
+      "url": "https://www.axelerant.com/work/creating-a-community-based-wordpress-website-for-integrative-wellness",
+      "canonical": "https://www.axelerant.com/work/creating-a-community-based-wordpress-website-for-integrative-wellness",
+      "raw_url": "https://www.axelerant.com/work/creating-a-community-based-wordpress-website-for-integrative-wellness",
+      "description": "",
+      "line": 160
+    },
+    {
+      "label": "/work/devops-financial-services-cloud-migration-and-adoption",
+      "url": "https://www.axelerant.com/work/devops-financial-services-cloud-migration-and-adoption",
+      "canonical": "https://www.axelerant.com/work/devops-financial-services-cloud-migration-and-adoption",
+      "raw_url": "https://www.axelerant.com/work/devops-financial-services-cloud-migration-and-adoption",
+      "description": "",
+      "line": 161
+    },
+    {
+      "label": "/work/devops-healthcare-ai-ml-ops",
+      "url": "https://www.axelerant.com/work/devops-healthcare-ai-ml-ops",
+      "canonical": "https://www.axelerant.com/work/devops-healthcare-ai-ml-ops",
+      "raw_url": "https://www.axelerant.com/work/devops-healthcare-ai-ml-ops",
+      "description": "",
+      "line": 162
+    },
+    {
+      "label": "/work/devops-high-tech-infrastructure-as-code",
+      "url": "https://www.axelerant.com/work/devops-high-tech-infrastructure-as-code",
+      "canonical": "https://www.axelerant.com/work/devops-high-tech-infrastructure-as-code",
+      "raw_url": "https://www.axelerant.com/work/devops-high-tech-infrastructure-as-code",
+      "description": "",
+      "line": 163
+    },
+    {
+      "label": "/work/devops-hospitality-wunderman",
+      "url": "https://www.axelerant.com/work/devops-hospitality-wunderman",
+      "canonical": "https://www.axelerant.com/work/devops-hospitality-wunderman",
+      "raw_url": "https://www.axelerant.com/work/devops-hospitality-wunderman",
+      "description": "",
+      "line": 164
+    },
+    {
+      "label": "/work/drupal-commerce-for-the-rich-and-famous",
+      "url": "https://www.axelerant.com/work/drupal-commerce-for-the-rich-and-famous",
+      "canonical": "https://www.axelerant.com/work/drupal-commerce-for-the-rich-and-famous",
+      "raw_url": "https://www.axelerant.com/work/drupal-commerce-for-the-rich-and-famous",
+      "description": "",
+      "line": 165
+    },
+    {
+      "label": "/work/drupal-healthcare-build",
+      "url": "https://www.axelerant.com/work/drupal-healthcare-build",
+      "canonical": "https://www.axelerant.com/work/drupal-healthcare-build",
+      "raw_url": "https://www.axelerant.com/work/drupal-healthcare-build",
+      "description": "",
+      "line": 166
+    },
+    {
+      "label": "/work/drupal-hospitality-wunderman",
+      "url": "https://www.axelerant.com/work/drupal-hospitality-wunderman",
+      "canonical": "https://www.axelerant.com/work/drupal-hospitality-wunderman",
+      "raw_url": "https://www.axelerant.com/work/drupal-hospitality-wunderman",
+      "description": "",
+      "line": 167
+    },
+    {
+      "label": "/work/drupal-media-entertainment-migration",
+      "url": "https://www.axelerant.com/work/drupal-media-entertainment-migration",
+      "canonical": "https://www.axelerant.com/work/drupal-media-entertainment-migration",
+      "raw_url": "https://www.axelerant.com/work/drupal-media-entertainment-migration",
+      "description": "",
+      "line": 168
+    },
+    {
+      "label": "/work/drupal-retail-partnership-portal-application-development",
+      "url": "https://www.axelerant.com/work/drupal-retail-partnership-portal-application-development",
+      "canonical": "https://www.axelerant.com/work/drupal-retail-partnership-portal-application-development",
+      "raw_url": "https://www.axelerant.com/work/drupal-retail-partnership-portal-application-development",
+      "description": "",
+      "line": 169
+    },
+    {
+      "label": "/work/drupal-transformation-doctors-without-borders-website",
+      "url": "https://www.axelerant.com/work/drupal-transformation-doctors-without-borders-website",
+      "canonical": "https://www.axelerant.com/work/drupal-transformation-doctors-without-borders-website",
+      "raw_url": "https://www.axelerant.com/work/drupal-transformation-doctors-without-borders-website",
+      "description": "",
+      "line": 170
+    },
+    {
+      "label": "/work/dxp-for-university-of-east-london",
+      "url": "https://www.axelerant.com/work/dxp-for-university-of-east-london",
+      "canonical": "https://www.axelerant.com/work/dxp-for-university-of-east-london",
+      "raw_url": "https://www.axelerant.com/work/dxp-for-university-of-east-london",
+      "description": "",
+      "line": 171
+    },
+    {
+      "label": "/work/east-west-center-platform-modernization-user-engagement",
+      "url": "https://www.axelerant.com/work/east-west-center-platform-modernization-user-engagement",
+      "canonical": "https://www.axelerant.com/work/east-west-center-platform-modernization-user-engagement",
+      "raw_url": "https://www.axelerant.com/work/east-west-center-platform-modernization-user-engagement",
+      "description": "",
+      "line": 172
+    },
+    {
+      "label": "/work/elevating-idmcs-user-experience",
+      "url": "https://www.axelerant.com/work/elevating-idmcs-user-experience",
+      "canonical": "https://www.axelerant.com/work/elevating-idmcs-user-experience",
+      "raw_url": "https://www.axelerant.com/work/elevating-idmcs-user-experience",
+      "description": "",
+      "line": 173
+    },
+    {
+      "label": "/work/energy-safety-canada-member-experience",
+      "url": "https://www.axelerant.com/work/energy-safety-canada-member-experience",
+      "canonical": "https://www.axelerant.com/work/energy-safety-canada-member-experience",
+      "raw_url": "https://www.axelerant.com/work/energy-safety-canada-member-experience",
+      "description": "",
+      "line": 174
+    },
+    {
+      "label": "/work/engineering-a-real-time-betting-platform",
+      "url": "https://www.axelerant.com/work/engineering-a-real-time-betting-platform",
+      "canonical": "https://www.axelerant.com/work/engineering-a-real-time-betting-platform",
+      "raw_url": "https://www.axelerant.com/work/engineering-a-real-time-betting-platform",
+      "description": "",
+      "line": 175
+    },
+    {
+      "label": "/work/engineering-plugins-for-acquia-campaign-studio-mautic",
+      "url": "https://www.axelerant.com/work/engineering-plugins-for-acquia-campaign-studio-mautic",
+      "canonical": "https://www.axelerant.com/work/engineering-plugins-for-acquia-campaign-studio-mautic",
+      "raw_url": "https://www.axelerant.com/work/engineering-plugins-for-acquia-campaign-studio-mautic",
+      "description": "",
+      "line": 176
+    },
+    {
+      "label": "/work/exceptional-customer-support-through-salesforce-einstein-chatbot",
+      "url": "https://www.axelerant.com/work/exceptional-customer-support-through-salesforce-einstein-chatbot",
+      "canonical": "https://www.axelerant.com/work/exceptional-customer-support-through-salesforce-einstein-chatbot",
+      "raw_url": "https://www.axelerant.com/work/exceptional-customer-support-through-salesforce-einstein-chatbot",
+      "description": "",
+      "line": 177
+    },
+    {
+      "label": "/work/fortune-500-financial-services-decoupled-drupal",
+      "url": "https://www.axelerant.com/work/fortune-500-financial-services-decoupled-drupal",
+      "canonical": "https://www.axelerant.com/work/fortune-500-financial-services-decoupled-drupal",
+      "raw_url": "https://www.axelerant.com/work/fortune-500-financial-services-decoupled-drupal",
+      "description": "",
+      "line": 178
+    },
+    {
+      "label": "/work/frontend-high-tech-jamstack",
+      "url": "https://www.axelerant.com/work/frontend-high-tech-jamstack",
+      "canonical": "https://www.axelerant.com/work/frontend-high-tech-jamstack",
+      "raw_url": "https://www.axelerant.com/work/frontend-high-tech-jamstack",
+      "description": "",
+      "line": 179
+    },
+    {
+      "label": "/work/frontend-high-tech-javascript",
+      "url": "https://www.axelerant.com/work/frontend-high-tech-javascript",
+      "canonical": "https://www.axelerant.com/work/frontend-high-tech-javascript",
+      "raw_url": "https://www.axelerant.com/work/frontend-high-tech-javascript",
+      "description": "",
+      "line": 180
+    },
+    {
+      "label": "/work/frontend-retail-accessibility",
+      "url": "https://www.axelerant.com/work/frontend-retail-accessibility",
+      "canonical": "https://www.axelerant.com/work/frontend-retail-accessibility",
+      "raw_url": "https://www.axelerant.com/work/frontend-retail-accessibility",
+      "description": "",
+      "line": 181
+    },
+    {
+      "label": "/work/global-non-profit-hubspot-marketing-ops",
+      "url": "https://www.axelerant.com/work/global-non-profit-hubspot-marketing-ops",
+      "canonical": "https://www.axelerant.com/work/global-non-profit-hubspot-marketing-ops",
+      "raw_url": "https://www.axelerant.com/work/global-non-profit-hubspot-marketing-ops",
+      "description": "",
+      "line": 182
+    },
+    {
+      "label": "/work/global-retail-franchise-empowers-ecommerce",
+      "url": "https://www.axelerant.com/work/global-retail-franchise-empowers-ecommerce",
+      "canonical": "https://www.axelerant.com/work/global-retail-franchise-empowers-ecommerce",
+      "raw_url": "https://www.axelerant.com/work/global-retail-franchise-empowers-ecommerce",
+      "description": "",
+      "line": 183
+    },
+    {
+      "label": "/work/land-grant-university-acquia-blueprint",
+      "url": "https://www.axelerant.com/work/land-grant-university-acquia-blueprint",
+      "canonical": "https://www.axelerant.com/work/land-grant-university-acquia-blueprint",
+      "raw_url": "https://www.axelerant.com/work/land-grant-university-acquia-blueprint",
+      "description": "",
+      "line": 184
+    },
+    {
+      "label": "/work/learningdesigned-cast-drupal-audit",
+      "url": "https://www.axelerant.com/work/learningdesigned-cast-drupal-audit",
+      "canonical": "https://www.axelerant.com/work/learningdesigned-cast-drupal-audit",
+      "raw_url": "https://www.axelerant.com/work/learningdesigned-cast-drupal-audit",
+      "description": "",
+      "line": 185
+    },
+    {
+      "label": "/work/marketing-automation-campaign-factory-mdg-axelerant",
+      "url": "https://www.axelerant.com/work/marketing-automation-campaign-factory-mdg-axelerant",
+      "canonical": "https://www.axelerant.com/work/marketing-automation-campaign-factory-mdg-axelerant",
+      "raw_url": "https://www.axelerant.com/work/marketing-automation-campaign-factory-mdg-axelerant",
+      "description": "",
+      "line": 186
+    },
+    {
+      "label": "/work/modernizing-wrap-website-for-global-audience",
+      "url": "https://www.axelerant.com/work/modernizing-wrap-website-for-global-audience",
+      "canonical": "https://www.axelerant.com/work/modernizing-wrap-website-for-global-audience",
+      "raw_url": "https://www.axelerant.com/work/modernizing-wrap-website-for-global-audience",
+      "description": "",
+      "line": 187
+    },
+    {
+      "label": "/work/moving-sharepoint-drupal8",
+      "url": "https://www.axelerant.com/work/moving-sharepoint-drupal8",
+      "canonical": "https://www.axelerant.com/work/moving-sharepoint-drupal8",
+      "raw_url": "https://www.axelerant.com/work/moving-sharepoint-drupal8",
+      "description": "",
+      "line": 188
+    }
+  ],
+  "bare_links": [
+    {
+      "url": "https://www.axelerant.com/sitemap.xml",
+      "label": "- Full URL inventory: https://www.axelerant.com/sitemap.xml",
+      "description": "",
+      "line": 11,
+      "canonical": "https://www.axelerant.com/sitemap.xml",
+      "raw_url": "https://www.axelerant.com/sitemap.xml"
+    },
+    {
+      "url": "https://www.axelerant.com/robots.txt",
+      "label": "- Robots policy: https://www.axelerant.com/robots.txt",
+      "description": "",
+      "line": 12,
+      "canonical": "https://www.axelerant.com/robots.txt",
+      "raw_url": "https://www.axelerant.com/robots.txt"
+    }
+  ],
+  "metrics": {
+    "bytes": 18660,
+    "words": 627,
+    "lines": 192,
+    "approx_tokens_chars_div_4": 4665,
+    "h1_count": 1,
+    "link_count": 146,
+    "bare_url_count": 2,
+    "described_links": 16,
+    "unique_destinations": 146,
+    "markdown_destinations": 0
+  },
+  "flags": [
+    "large-index-test-task-routing",
+    "sparse-link-descriptions"
+  ]
+}

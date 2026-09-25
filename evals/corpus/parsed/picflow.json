@@ -1,0 +1,226 @@
+{
+  "parser_version": "corpus-v2",
+  "headings": [
+    {
+      "level": 1,
+      "text": "Picflow",
+      "line": 1
+    },
+    {
+      "level": 2,
+      "text": "Key Features",
+      "line": 5
+    },
+    {
+      "level": 2,
+      "text": "Resources",
+      "line": 14
+    },
+    {
+      "level": 2,
+      "text": "Apps and Integrations",
+      "line": 22
+    },
+    {
+      "level": 2,
+      "text": "Comparison with Alternatives",
+      "line": 34
+    },
+    {
+      "level": 2,
+      "text": "Company Resources",
+      "line": 46
+    },
+    {
+      "level": 2,
+      "text": "Bot Access Policy",
+      "line": 53
+    }
+  ],
+  "links": [
+    {
+      "label": "Pricing",
+      "url": "https://picflow.com/pricing",
+      "canonical": "https://picflow.com/pricing",
+      "raw_url": "https://picflow.com/pricing",
+      "description": "Detailed pricing plans and options.",
+      "line": 16
+    },
+    {
+      "label": "Reviews",
+      "url": "https://picflow.com/love",
+      "canonical": "https://picflow.com/love",
+      "raw_url": "https://picflow.com/love",
+      "description": "Testimonials and feedback from Picflow users.",
+      "line": 17
+    },
+    {
+      "label": "Customers",
+      "url": "https://picflow.com/",
+      "canonical": "https://picflow.com/",
+      "raw_url": "https://picflow.com/",
+      "description": "Case studies and success stories.",
+      "line": 18
+    },
+    {
+      "label": "Blog",
+      "url": "https://picflow.com/blog",
+      "canonical": "https://picflow.com/blog",
+      "raw_url": "https://picflow.com/blog",
+      "description": "Articles on creative workflows, online proofing, and digital asset management.",
+      "line": 19
+    },
+    {
+      "label": "Book a Demo",
+      "url": "https://meet.picflow.com/demo",
+      "canonical": "https://meet.picflow.com/demo",
+      "raw_url": "https://meet.picflow.com/demo",
+      "description": "Schedule a live demonstration of Picflow.",
+      "line": 20
+    },
+    {
+      "label": "iPhone App",
+      "url": "https://apps.apple.com/app/picflow/id6741537409",
+      "canonical": "https://apps.apple.com/app/picflow/id6741537409",
+      "raw_url": "https://apps.apple.com/app/picflow/id6741537409",
+      "description": "Get the Picflow mobile app for iOS.",
+      "line": 24
+    },
+    {
+      "label": "Android App",
+      "url": "https://play.google.com/store/apps/details?id=com.picflow.pwa.twa",
+      "canonical": "https://play.google.com/store/apps/details?id=com.picflow.pwa.twa",
+      "raw_url": "https://play.google.com/store/apps/details?id=com.picflow.pwa.twa",
+      "description": "Get the Picflow mobile app for Android.",
+      "line": 25
+    },
+    {
+      "label": "Lightroom Plugin",
+      "url": "https://help.picflow.com/en/articles/8587606-how-to-install-the-lightroom-plugin",
+      "canonical": "https://help.picflow.com/en/articles/8587606-how-to-install-the-lightroom-plugin",
+      "raw_url": "https://help.picflow.com/en/articles/8587606-how-to-install-the-lightroom-plugin",
+      "description": "Upload photos and videos directly from Lightroom to Picflow.",
+      "line": 26
+    },
+    {
+      "label": "Zapier",
+      "url": "https://zapier.com/apps/picflow/integrations",
+      "canonical": "https://zapier.com/apps/picflow/integrations",
+      "raw_url": "https://zapier.com/apps/picflow/integrations",
+      "description": "Automate workflows by connecting Picflow with other apps.",
+      "line": 27
+    },
+    {
+      "label": "Chrome Extension",
+      "url": "https://chromewebstore.google.com/detail/save-to-picflow/fdengbikckdhbbliklkdnbglacleeogg",
+      "canonical": "https://chromewebstore.google.com/detail/save-to-picflow/fdengbikckdhbbliklkdnbglacleeogg",
+      "raw_url": "https://chromewebstore.google.com/detail/save-to-picflow/fdengbikckdhbbliklkdnbglacleeogg",
+      "description": "Collect assets from all over the web and save them to Picflow.",
+      "line": 28
+    },
+    {
+      "label": "Picflow vs. Pixieset",
+      "url": "https://picflow.com/compare/pixieset-alternative",
+      "canonical": "https://picflow.com/compare/pixieset-alternative",
+      "raw_url": "https://picflow.com/compare/pixieset-alternative",
+      "description": "Picflow is collaboration-first (comments, on-image annotations, approval statuses) for fast client reviews. Pixieset is sales-first with a built-in store and photographer websites.",
+      "line": 36
+    },
+    {
+      "label": "Picflow vs. SmugMug",
+      "url": "https://picflow.com/compare/smugmug-alternative",
+      "canonical": "https://picflow.com/compare/smugmug-alternative",
+      "raw_url": "https://picflow.com/compare/smugmug-alternative",
+      "description": "Picflow focuses on proofing and delivery for creative teams. SmugMug centers on portfolio hosting and e-commerce/print sales.",
+      "line": 37
+    },
+    {
+      "label": "Picflow vs. PhotoShelter",
+      "url": "https://picflow.com/compare/photoshelter-alternative",
+      "canonical": "https://picflow.com/compare/photoshelter-alternative",
+      "raw_url": "https://picflow.com/compare/photoshelter-alternative",
+      "description": "Picflow streamlines client review/approvals; PhotoShelter adds selling and licensing tools alongside client delivery/DAM features.",
+      "line": 38
+    },
+    {
+      "label": "Picflow vs. Frame.io",
+      "url": "https://picflow.com/compare/frame-io-alternative",
+      "canonical": "https://picflow.com/compare/frame-io-alternative",
+      "raw_url": "https://picflow.com/compare/frame-io-alternative",
+      "description": "Picflow gives designers and clients a simple shared gallery for both images and video review. Frame.io is specialized for video teams with deep Adobe Creative Cloud integration and pro workflows.",
+      "line": 39
+    },
+    {
+      "label": "Picflow vs. Pic-Time",
+      "url": "https://picflow.com/compare/pic-time-alternative",
+      "canonical": "https://picflow.com/compare/pic-time-alternative",
+      "raw_url": "https://picflow.com/compare/pic-time-alternative",
+      "description": "Picflow prioritizes feedback and approvals; Pic-Time emphasizes client galleries with a strong print store and sales automations.",
+      "line": 40
+    },
+    {
+      "label": "Picflow vs. Filestage",
+      "url": "https://picflow.com/compare/filestage-alternative",
+      "canonical": "https://picflow.com/compare/filestage-alternative",
+      "raw_url": "https://picflow.com/compare/filestage-alternative",
+      "description": "Picflow is a lightweight, client-friendly proofing gallery. Filestage is more complex and less intuitive with staged workflows.",
+      "line": 41
+    },
+    {
+      "label": "Picflow vs. Ziflow",
+      "url": "https://picflow.com/compare/ziflow-alternative",
+      "canonical": "https://picflow.com/compare/ziflow-alternative",
+      "raw_url": "https://picflow.com/compare/ziflow-alternative",
+      "description": "Picflow simplifies reviews in branded galleries; Ziflow targets approval for governance and compliance.",
+      "line": 42
+    },
+    {
+      "label": "Picflow vs. Air.inc",
+      "url": "https://picflow.com/compare/air-inc-alternative",
+      "canonical": "https://picflow.com/compare/air-inc-alternative",
+      "raw_url": "https://picflow.com/compare/air-inc-alternative",
+      "description": "Picflow is for sharing, proofing, and delivering assets to clients. Air is a more technical DAM-style for managing assets in campaigns.",
+      "line": 43
+    },
+    {
+      "label": "Privacy Policy",
+      "url": "https://picflow.com/privacy-policy",
+      "canonical": "https://picflow.com/privacy-policy",
+      "raw_url": "https://picflow.com/privacy-policy",
+      "description": "Information on data privacy and protection.",
+      "line": 48
+    },
+    {
+      "label": "Terms of Service",
+      "url": "https://picflow.com/terms-of-service",
+      "canonical": "https://picflow.com/terms-of-service",
+      "raw_url": "https://picflow.com/terms-of-service",
+      "description": "Legal terms governing the use of Picflow.",
+      "line": 49
+    },
+    {
+      "label": "Terms of Use",
+      "url": "https://picflow.com/terms-of-use",
+      "canonical": "https://picflow.com/terms-of-use",
+      "raw_url": "https://picflow.com/terms-of-use",
+      "description": "Additional usage terms and conditions.",
+      "line": 50
+    }
+  ],
+  "bare_links": [],
+  "metrics": {
+    "bytes": 4347,
+    "words": 487,
+    "lines": 57,
+    "approx_tokens_chars_div_4": 1087,
+    "h1_count": 1,
+    "link_count": 21,
+    "bare_url_count": 0,
+    "described_links": 21,
+    "unique_destinations": 21,
+    "markdown_destinations": 0
+  },
+  "flags": [
+    "robots-style-directives-not-enforced-by-llms-txt"
+  ]
+}

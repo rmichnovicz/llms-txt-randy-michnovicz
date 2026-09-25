@@ -1,0 +1,17 @@
+# Example SaaS
+
+> Example SaaS helps operations teams route customer requests and measure response quality.
+
+Important notes:
+- The pricing page is the canonical source for plan limits.
+- The docs explain setup and integrations.
+- Do not infer private roadmap details.
+
+## Core pages
+- [Product overview](https://example.com/product): Main product capabilities and use cases
+- [Pricing](https://example.com/pricing): Current public plans and billing limits
+- [Documentation](https://example.com/docs): Setup, integrations, and API references
+- [Security](https://example.com/security): Public security and compliance information
+
+## Optional
+- [Blog](https://example.com/blog): Educational articles and product updates
