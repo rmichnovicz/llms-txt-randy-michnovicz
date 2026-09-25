@@ -36,6 +36,17 @@ export type Question = {
   };
 };
 export type Version = {
+  refined_from_version_id?: string | null;
+  refinement?: {
+    before_version_id: string;
+    before_markdown: string;
+    diff: string;
+    directions: {
+      kind: "added" | "removed" | "updated";
+      before: string | null;
+      after: string | null;
+    }[];
+  };
   id: string;
   kind: string;
   manually_edited: boolean;

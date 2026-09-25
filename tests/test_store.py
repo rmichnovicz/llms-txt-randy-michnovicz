@@ -54,7 +54,7 @@ def expire(database: Database, job: dict[str, Any]) -> None:
 def test_migration_is_idempotent(database: Database) -> None:
     database.migrate()
     with database.connect() as connection:
-        assert require_row(connection.execute("SELECT count(*) AS n FROM schema_migrations").fetchone())["n"] == 11
+        assert require_row(connection.execute("SELECT count(*) AS n FROM schema_migrations").fetchone())["n"] == 12
 
 
 def test_creation_and_enqueue_are_one_transaction(store: Store, monkeypatch: MonkeyPatch) -> None:

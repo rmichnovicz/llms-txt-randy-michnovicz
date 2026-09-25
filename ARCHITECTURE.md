@@ -7,18 +7,52 @@ message broker is used.
 
 ## Deployed runtime
 
+Separate services (current deployed demo):
+
 ```mermaid
 flowchart TD
   Browser[Browser] --> Assets[React static assets]
-  Browser <--> Proxy[Pages API proxy]
-  Proxy <--> API[FastAPI]
-  API <-->|Enqueue / read| DB[(Postgres: state and job queue)]
-  Scheduler[Hourly scheduler] --> DB
-  DB <-->|Claim / save| Worker[Python worker]
+  Browser -->|Requests| Proxy[Pages API proxy]
+  Proxy -->|Requests| API[FastAPI service]
+  API -->|Responses and SSE| Proxy
+  Proxy -->|Responses and SSE| Browser
+  API -->|Save edits and enqueue jobs| DB[(Postgres: state and durable jobs)]
+  DB -->|Read results and poll progress| API
+  Scheduler[Hourly scheduler] -->|Enqueue due checks| DB
+  DB -->|Claim jobs and load inputs| Worker[Worker service: job threads]
+  Worker -->|Save progress and results; enqueue follow-up jobs| DB
   Worker --> Websites[Public websites]
   Worker --> Model[OpenAI Responses API]
   API --> Websites
 ```
+
+Embedded mode (optional single-process deployment):
+
+```mermaid
+flowchart TD
+  Browser[Browser via frontend proxy] -->|Requests| API
+  API -->|Responses and SSE| Browser
+  subgraph Backend[Single backend process]
+    API[FastAPI event loop]
+    Worker[Worker supervisor and job threads]
+    Live[In-memory progress and bounded subscriber queues]
+    API -->|Start and stop| Worker
+    Worker -->|Thread-safe progress and completion notifications| Live
+    API -->|Invalidate after edits| Live
+    Live -->|Wake SSE streams| API
+  end
+  API -->|Save edits and enqueue jobs| DB[(Postgres: state and durable jobs)]
+  DB -->|Read results on connect or invalidation| API
+  DB -->|Poll and claim jobs; load inputs| Worker
+  Worker -->|Checkpoint progress; save results and follow-up jobs| DB
+  Scheduler[Hourly scheduler] -->|Enqueue due checks| DB
+  Worker --> Websites[Public websites]
+  Worker --> Model[OpenAI Responses API]
+  API --> Websites
+```
+
+Both modes use SQL for job dispatch and recovery. The embedded memory queues
+carry live updates to the API; they do not replace the durable job queue.
 
 Cloudflare Pages hosts the static assets and proxy. Railway runs the API,
 worker, scheduler, and Postgres.
@@ -45,6 +79,79 @@ For local development, Vite proxies API requests to FastAPI. The optional
 single API process and delivers progress through memory queues. It still uses
 Postgres for durable state. The deployed demo uses a separate worker service.
 See [deployment](docs/DEPLOYMENT.md) and [live progress](docs/LIVE_PROGRESS.md).
+
+## API and worker interaction
+
+The API and workers participate in the same workflow. Their separation assigns
+responsibilities while preserving two-way communication through shared durable
+state and, in embedded mode, direct in-memory progress notifications.
+
+| Direction | Interaction |
+| --- | --- |
+| API to workers | User actions save inputs and queue jobs in Postgres. Workers claim those jobs and load the saved sources and decisions needed to execute them. |
+| Workers to API | Workers save job status, progress, snapshots, and generated results. The API exposes those results and streams status changes to the browser. Embedded workers also push live progress directly to the API event loop. |
+| Worker to subsequent work | Completing a usable crawl can atomically queue a generation job, which any available worker can claim. |
+| Edits during execution | API mutations can change the project revision while a worker runs. Completion checks reject stale results so they cannot overwrite newer state. |
+
+In embedded mode, FastAPI starts and stops the worker supervisor with its own
+lifecycle. Worker progress crosses threads through `call_soon_threadsafe` and
+wakes bounded subscriber queues on the API loop. Worker completion or failure
+invalidates live state so streams reread SQL; successful API mutations also
+invalidate stream state. These notifications keep viewers current without
+making workers wait for browsers. They do not dispatch jobs or interrupt running
+work when an edit occurs: SQL claims and completion checks still handle those
+boundaries.
+
+With separate services, the same workflow communicates through Postgres, and
+the API polls saved progress for SSE delivery. Workers do not call API HTTP
+endpoints, and the API does not wait for a crawl or generation to finish before
+returning the queued job to the caller.
+
+## Why SQL jobs, and when to separate services
+
+The durable Postgres job queue is the shared foundation in both deployment
+modes. Keeping API and worker code logically separate does not require running
+them as separate services. Deployment can follow the workload:
+
+| Deployment | Benefits | Tradeoffs |
+| --- | --- | --- |
+| One API process with embedded worker threads | Fewer services to operate; in-memory live progress | API and jobs share CPU, memory, process failures, and restarts; current live delivery requires a single API process |
+| Separate API and worker services | Scale browser traffic and job capacity independently; restart the API without interrupting workers; process-level failure isolation | More services to operate; progress delivery currently polls Postgres |
+
+Separate services make horizontal scaling easier: additional worker processes
+claim jobs through the same SQL locking and lease protocol, while API replicas
+can serve requests independently. Each worker also has bounded thread concurrency,
+controlled by `BRIEF_WORKER_CONCURRENCY` (default `4`). More workers still consume
+shared database capacity and external provider limits; adding processes alone
+does not remove those constraints.
+
+SQL persists accepted work as well as finished results. Creating a project and
+queuing its initial crawl happen in one transaction; completing a crawl and
+queuing generation also happen together. A restart therefore does not silently
+discard accepted requests or leave a saved crawl without its intended follow-up
+job. Leases recover interrupted work, and revision checks prevent an older job
+from overwriting newer edits, including within a single process.
+
+In-memory queues are useful for communication inside an embedded process. They
+already carry live progress, but job dispatch still polls SQL in both modes.
+A possible optimization is to send an in-memory wake-up after committing a job,
+while retaining database claiming and periodic recovery scans. A crash between
+the commit and wake-up would then delay work rather than lose it. These wake-ups
+are not implemented; external scheduler submissions would also need to be found
+by the scans. A memory-only work queue would lose pending work on restart and
+would not coordinate independent API and worker processes.
+
+The current scaling limitation in progress delivery is database polling: in
+separate-service mode, each connected SSE stream reads compact SQL state once
+per second. More viewers increase database load even without more jobs. Shared
+cross-process notifications and fan-out are a future optimization if that load
+warrants them; the embedded mode already avoids per-event SQL polling through
+its memory queues. See [live progress](docs/LIVE_PROGRESS.md) for checkpoint and
+reconnect behavior.
+
+Keep the durable SQL queue in either deployment. Use embedded workers when
+operational simplicity matters most, and separate services when independent
+scaling, deployment, or failure isolation justifies the extra service boundary.
 
 ## From URL to published guide
 

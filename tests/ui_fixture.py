@@ -222,7 +222,7 @@ elif sys.argv[1] == "evaluate":
                         "action": "answer",
                         "url": None,
                         "answer": "Authenticate using an API key.",
-                        "citations": [{"url": source["url"], "quote": source["content"]}],
+                        "citations": [{"url": source["url"], "passage_id": "p1"}],
                     }
             return Completion(raw, {"model": "browser-test-fixture"})
 

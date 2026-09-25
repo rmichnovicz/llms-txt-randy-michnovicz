@@ -9,8 +9,11 @@ export default function VersionReview({
   version: Version;
 }) {
   const proposal = version.id === project.proposal?.id;
-  const [view, setView] = useState(proposal ? "changes" : "documents");
-  const lines = (project.proposal_diff || "")
+  const refinement = proposal ? undefined : version.refinement;
+  const [view, setView] = useState(
+    proposal || refinement ? "changes" : "documents",
+  );
+  const lines = ((refinement ? refinement.diff : project.proposal_diff) || "")
     .split("\n")
     .filter((line) => !line.startsWith("---") && !line.startsWith("+++"));
   const additions = lines.filter((line) => line.startsWith("+")).length;
@@ -24,9 +27,11 @@ export default function VersionReview({
       <p className="review-intro">
         {proposal
           ? "Review the suggested edits to your saved draft. Nothing changes until you use this version."
-          : "Compare this saved version with your current draft before restoring it."}
+          : refinement
+            ? "These changes are already saved in this version. Compare it with the draft it replaced."
+            : "Compare this saved version with your current draft before restoring it."}
       </p>
-      {proposal && (
+      {(proposal || refinement) && (
         <>
           <div
             className="review-summary"
@@ -38,21 +43,51 @@ export default function VersionReview({
                 ? `${additions} added ${additions === 1 ? "line" : "lines"}, ${removals} removed`
                 : "No document wording changes"}
             </strong>
-            <span>
-              {changes.length}{" "}
-              {changes.length === 1
-                ? "source page differs"
-                : "source pages differ"}{" "}
-              from your draft’s evidence
-            </span>
+            {proposal && (
+              <span>
+                {changes.length}{" "}
+                {changes.length === 1
+                  ? "source page differs"
+                  : "source pages differ"}{" "}
+                from your draft’s evidence
+              </span>
+            )}
           </div>
           {version.structured_result?.explanation && (
             <p className="review-rationale">
-              <strong>Why this update</strong>
+              <strong>
+                {refinement ? "About this refinement" : "Why this update"}
+              </strong>
               {version.structured_result.explanation}
             </p>
           )}
-          {changes.length > 0 && (
+          {refinement && refinement.directions.length > 0 && (
+            <details className="review-evidence" open>
+              <summary>
+                Directions behind this refinement (
+                {refinement.directions.length})
+              </summary>
+              <ul>
+                {refinement.directions.map((direction, i) => (
+                  <li key={i}>
+                    <span className="review-change-kind">
+                      {direction.kind === "added"
+                        ? "Added"
+                        : direction.kind === "removed"
+                          ? "Removed"
+                          : "Updated"}
+                    </span>
+                    <span>
+                      {direction.before && <del>{direction.before}</del>}
+                      {direction.before && direction.after && <br />}
+                      {direction.after}
+                    </span>
+                  </li>
+                ))}
+              </ul>
+            </details>
+          )}
+          {proposal && changes.length > 0 && (
             <details className="review-evidence">
               <summary>
                 Website evidence behind this update ({changes.length})
@@ -76,7 +111,7 @@ export default function VersionReview({
               </ul>
             </details>
           )}
-          {unresolved > 0 && (
+          {proposal && unresolved > 0 && (
             <p className="review-blocker" role="status">
               Resolve {unresolved} flagged{" "}
               {unresolved === 1 ? "answer" : "answers"} in the Change inbox
@@ -106,12 +141,20 @@ export default function VersionReview({
       {view === "changes" ? (
         <section
           className="review-diff"
-          aria-label="Proposed document diff"
+          aria-label={
+            refinement ? "Refinement document diff" : "Proposed document diff"
+          }
           tabIndex={0}
         >
           <div className="review-diff-legend">
-            <span>+ Added to your draft</span>
-            <span>− Removed from your draft</span>
+            <span>
+              {refinement ? "+ Added in this version" : "+ Added to your draft"}
+            </span>
+            <span>
+              {refinement
+                ? "− Removed in this version"
+                : "− Removed from your draft"}
+            </span>
           </div>
           {!additions && !removals ? (
             <p className="review-empty">
@@ -150,13 +193,26 @@ export default function VersionReview({
       ) : (
         <div className="compare-columns">
           <div>
-            <h3>Current draft</h3>
-            <pre tabIndex={0} aria-label="Current draft text">
-              {project.draft?.markdown}
+            <h3>{refinement ? "Before refinement" : "Current draft"}</h3>
+            <pre
+              tabIndex={0}
+              aria-label={
+                refinement ? "Before refinement text" : "Current draft text"
+              }
+            >
+              {refinement
+                ? refinement.before_markdown
+                : project.draft?.markdown}
             </pre>
           </div>
           <div>
-            <h3>{proposal ? "Proposed update" : "Selected version"}</h3>
+            <h3>
+              {proposal
+                ? "Proposed update"
+                : refinement
+                  ? "After refinement"
+                  : "Selected version"}
+            </h3>
             <pre tabIndex={0} aria-label="Selected version text">
               {version.markdown}
             </pre>

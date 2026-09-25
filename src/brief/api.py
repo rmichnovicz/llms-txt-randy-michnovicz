@@ -276,6 +276,9 @@ def create_app(store: Store | None = None) -> FastAPI:
             version = connection.execute(
                 "SELECT * FROM document_versions WHERE id = %s AND project_id = %s", (version_id, project["id"])
             ).fetchone()
+            from brief.refinement_history import attach
+
+            attach(connection, version)
         if not version:
             raise HTTPException(404, "Version not found")
         return version

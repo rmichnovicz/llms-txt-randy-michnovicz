@@ -35,6 +35,7 @@ export type TestRun = {
     results: ReaderResult[];
     limitations: string;
     guide_sha256: string;
+    reader_prompt?: string;
   } | null;
 };
 const outcomeLabel = (value: string) =>
@@ -97,6 +98,7 @@ export default function GuideTests({
         r.suite_id === current.suite_id &&
         r.report &&
         r.reader_model === current.reader_model &&
+        r.report.reader_prompt === current.report?.reader_prompt &&
         new Date(r.created_at) < new Date(current.created_at),
     );
   const active = runs.find((r) => ["pending", "running"].includes(r.status));
@@ -312,7 +314,9 @@ export default function GuideTests({
                         {result.citations.map((citation, i) => (
                           <div className="test-citation" key={i}>
                             <SafeLink url={citation.url} />
-                            <blockquote>{citation.quote}</blockquote>
+                            {citation.quote && (
+                              <blockquote>{citation.quote}</blockquote>
+                            )}
                             <span>
                               {citation.verified
                                 ? "Quote verified in an opened page"

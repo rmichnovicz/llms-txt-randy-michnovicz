@@ -54,7 +54,7 @@ class Reader:
 def test_reader_only_receives_opened_pages_and_checks_quote_provenance() -> None:
     reader = Reader(
         action("open", url=URL),
-        action("answer", answer="Use an API key.", citations=[{"url": URL, "quote": "Authenticate with an API key."}]),
+        action("answer", answer="Use an API key.", citations=[{"url": URL, "passage_id": "p1"}]),
     )
     result = guide_tests.trial(reader, QUESTION, ENTRY, [SOURCE], [])
     assert result["outcome"] == "evidence_matched"
@@ -64,13 +64,75 @@ def test_reader_only_receives_opened_pages_and_checks_quote_provenance() -> None
 
 
 @pytest.mark.parametrize(
-    "url,quote", [(URL, "Invented fact from nowhere"), ("https://other.com/", "Authenticate with an API key.")]
+    "url,passage_id,opened",
+    [(URL, "p99", True), (URL, "p1", False), ("https://other.com/", "p1", True), ("file:///etc/passwd", "p1", True)],
 )
-def test_invented_or_unread_citations_fail(url: str, quote: str) -> None:
-    reader = Reader(action("answer", answer="Use a key", citations=[{"url": url, "quote": quote}]))
-    result = guide_tests.trial(reader, QUESTION, ENTRY, [SOURCE], [])
+def test_invented_or_unread_citations_fail(url: str, passage_id: str, opened: bool) -> None:
+    outputs = [action("open", url=URL)] if opened else []
+    outputs.append(action("answer", answer="Use a key", citations=[{"url": url, "passage_id": passage_id}]))
+    result = guide_tests.trial(Reader(*outputs), QUESTION, ENTRY, [SOURCE], [])
     assert result["outcome"] == "needs_review"
-    assert "lacks valid quotes" in result["reason"]
+    assert "lacks valid passage references" in result["reason"]
+    assert result["citations"][0]["verified"] is False
+    assert result["citations"][0]["quote"] == ""
+
+
+@pytest.mark.parametrize(
+    "source_text,old_quote",
+    [
+        (
+            "$ python -m pip install requests¶\nTo install Requests, simply run this simple command in your terminal of choice:",
+            "$ python -m pip install requests\x0b\nTo install Requests, simply run this simple command in your terminal of choice:",
+        ),
+        (
+            "timeout (float or tuple) – (optional) How many seconds to wait for the server to send data before giving up.",
+            "timeout (float or tuple) \x03 (optional) How many seconds to wait for the server to send data before giving up.",
+        ),
+    ],
+)
+def test_source_passages_avoid_character_corruption(source_text: str, old_quote: str) -> None:
+    from brief.consumer_eval import quote_matches
+
+    assert not quote_matches(old_quote, source_text)
+    reader = Reader(
+        action("open", url=URL),
+        action("answer", answer="The source answers this question.", citations=[{"url": URL, "passage_id": "p1"}]),
+    )
+    source = {**SOURCE, "content": source_text}
+    result = guide_tests.trial(reader, {**QUESTION, "expected_url": None}, ENTRY, [source], [])
+    assert result["outcome"] == "citations_verified"
+    assert result["citations"][0]["quote"] == source_text.splitlines()[0]
+    assert reader.requests[1]["observations"][1]["passages"][0] == {
+        "id": "p1",
+        "text": source_text.splitlines()[0],
+    }
+
+
+def test_passage_ids_cannot_cite_a_guide_or_text_beyond_the_reader_budget() -> None:
+    child = "https://example.com/docs/llms.txt"
+    entry = guide_tests.guide_page(f"# Root\n[Docs]({child})", "https://example.com/llms.txt")
+    reader = Reader(
+        action("open", url=child),
+        action("open", url=URL),
+        action(
+            "answer",
+            answer="Unsupported answer",
+            citations=[
+                {"url": child, "passage_id": "p1"},
+                {"url": URL, "passage_id": "p2"},
+            ],
+        ),
+    )
+    result = guide_tests.trial(
+        reader,
+        QUESTION,
+        entry,
+        [{**SOURCE, "content": "x" * 12000 + "\nHidden passage"}],
+        [{"url": child, "content": ENTRY["content"]}],
+    )
+    assert result["outcome"] == "needs_review"
+    assert all(not c["verified"] for c in result["citations"])
+    assert "Hidden passage" not in json.dumps(reader.requests)
 
 
 def test_unknown_links_and_missing_frozen_pages_are_explicit() -> None:
@@ -91,7 +153,7 @@ def test_layered_guide_links_are_followed_without_revealing_other_sources() -> N
     reader = Reader(
         action("open", url=child),
         action("open", url=URL),
-        action("answer", answer="API key", citations=[{"url": URL, "quote": QUESTION["reference_quote"]}]),
+        action("answer", answer="API key", citations=[{"url": URL, "passage_id": "p1"}]),
     )
     result = guide_tests.trial(reader, QUESTION, entry, [SOURCE], [{"url": child, "content": ENTRY["content"]}])
     assert result["expected_reached"]

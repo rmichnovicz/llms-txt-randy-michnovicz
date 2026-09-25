@@ -101,6 +101,13 @@ Start with a small site that serves HTML, such as `https://llmstxt.org/`.
    expand **Publish your guide** to host a saved version at a stable URL.
    To put it on your own domain, download it and upload it there.
 
+After a refinement finishes, **View refinement changes** shows the directions
+that changed and the exact document additions and removals. Switch to **Full
+documents** for the before-and-after text. These changes are already saved.
+You can reopen each **Refined draft** in History, with its original comparison
+preserved even after restoring an older version. Changelogs start with refinements
+created after migration 012; existing versions keep their previous history view.
+
 You can also watch the browser tests exercise the flow using fixed sample data:
 run `npm --prefix frontend run test:e2e` with Postgres and Chrome available.
 This doesn't need a model key. See [browser QA](docs/BROWSER_QA.md) for details.

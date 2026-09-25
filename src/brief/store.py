@@ -85,6 +85,9 @@ class Store:
             project["proposal"] = connection.execute(
                 "SELECT * FROM document_versions WHERE id = %s", (project["proposal_version_id"],)
             ).fetchone()
+            from brief.refinement_history import attach
+
+            attach(connection, project["draft"])
             project["decisions"] = connection.execute(
                 "SELECT * FROM decisions WHERE project_id = %s ORDER BY created_at", (project_id,)
             ).fetchall()
@@ -92,7 +95,7 @@ class Store:
                 "SELECT * FROM questions WHERE project_id = %s ORDER BY created_at", (project_id,)
             ).fetchall()
             project["versions"] = connection.execute(
-                "SELECT id, kind, manually_edited, created_at FROM document_versions WHERE project_id = %s ORDER BY created_at DESC LIMIT 30",
+                "SELECT id, kind, manually_edited, created_at, refined_from_version_id FROM document_versions WHERE project_id = %s ORDER BY created_at DESC LIMIT 30",
                 (project_id,),
             ).fetchall()
             project["guides"] = connection.execute(
@@ -479,7 +482,8 @@ class Store:
             kind = "draft" if live["replace_draft"] or not project["draft_version_id"] else "proposal"
             connection.execute(
                 """INSERT INTO document_versions(id, project_id, job_id, snapshot_id, kind, generation_input,
-                    structured_result, markdown, model_metadata, decisions_revision) VALUES (%s,%s,%s,%s,%s,%s,%s,%s,%s,%s)""",
+                    structured_result, markdown, model_metadata, decisions_revision, refined_from_version_id)
+                    VALUES (%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s)""",
                 (
                     version_id,
                     project["id"],
@@ -491,6 +495,7 @@ class Store:
                     markdown,
                     Jsonb(completion.metadata),
                     project["decisions_revision"],
+                    project["draft_version_id"] if kind == "draft" and live["replace_draft"] else None,
                 ),
             )
             if kind == "draft":

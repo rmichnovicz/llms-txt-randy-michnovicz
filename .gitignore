@@ -1,4 +1,9 @@
 node_modules/
+/.presentation-build/
+/.slides-build/
+# Local presentation exports, build intermediates, and experiment output.
+/artifacts/
+/presentation/
 .wrangler/
 .dev.vars*
 .env

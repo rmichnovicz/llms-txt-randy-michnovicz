@@ -634,6 +634,11 @@ export default function Workspace({
                         : project.draft?.structured_result.explanation ||
                           "Your first draft will appear here when it’s ready."}
                     </p>
+                    {!running && project.draft?.refinement && (
+                      <button onClick={() => setReview(project.draft)}>
+                        View refinement changes
+                      </button>
+                    )}
                   </div>
                 </div>
                 {running && (
@@ -1239,9 +1244,11 @@ export default function Workspace({
                       <strong>
                         {v.manually_edited
                           ? "Manual edit"
-                          : v.kind === "proposal"
-                            ? "Generated proposal"
-                            : "Generated draft"}
+                          : v.refined_from_version_id
+                            ? "Refined draft"
+                            : v.kind === "proposal"
+                              ? "Generated proposal"
+                              : "Generated draft"}
                       </strong>
                     </span>
                     <span>
@@ -1382,7 +1389,9 @@ export default function Workspace({
             <h2 id="review-title">
               {review.id === project.proposal?.id
                 ? "Review proposed changes"
-                : "Review this version"}
+                : review.refinement
+                  ? "Refinement changelog"
+                  : "Review this version"}
             </h2>
             <button
               className="modal-close"
@@ -1393,31 +1402,36 @@ export default function Workspace({
             </button>
           </div>
           <VersionReview key={review.id} project={project} version={review} />
-          <p>
-            Using this version changes the document. Your saved decisions stay
-            as they are.
-          </p>
+          {review.id !== project.draft?.id && (
+            <p>
+              Using this version changes the document. Your saved decisions stay
+              as they are.
+            </p>
+          )}
           <div className="modal-actions">
-            <button onClick={() => setReview(null)}>Keep current</button>
-            <button
-              className="primary"
-              disabled={
-                blocked ||
-                review.id === project.draft?.id ||
-                (review.id === project.proposal?.id &&
-                  activeDecisions.some((d) => d.needs_review))
-              }
-              onClick={() =>
-                action(async () => {
-                  await api(path + `/versions/${review.id}/use`, "POST", {
-                    revision: project.revision,
-                  });
-                  setReview(null);
-                }, "Document version restored.")
-              }
-            >
-              Use this version
+            <button onClick={() => setReview(null)}>
+              {review.id === project.draft?.id ? "Done" : "Keep current"}
             </button>
+            {review.id !== project.draft?.id && (
+              <button
+                className="primary"
+                disabled={
+                  blocked ||
+                  (review.id === project.proposal?.id &&
+                    activeDecisions.some((d) => d.needs_review))
+                }
+                onClick={() =>
+                  action(async () => {
+                    await api(path + `/versions/${review.id}/use`, "POST", {
+                      revision: project.revision,
+                    });
+                    setReview(null);
+                  }, "Document version restored.")
+                }
+              >
+                Use this version
+              </button>
+            )}
           </div>
         </Modal>
       )}
