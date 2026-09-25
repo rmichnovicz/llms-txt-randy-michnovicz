@@ -1,0 +1,100 @@
+{
+  "evidence": "Live model regeneration through the production decision API and worker, in an isolated Postgres schema; source pages replayed from saved Tally capture. No live crawl or real owner response.",
+  "question": {
+    "topic": "guide_resource_priority",
+    "options": [
+      "General form building",
+      "Creating forms with Tally AI",
+      "Importing existing forms"
+    ],
+    "question": "Which starting path should this guide emphasize?",
+    "rationale": "A general form-building focus keeps the first-form guide and templates first. An AI-first focus would lead with Tally AI, while a migration focus would lead with importing existing forms and cover that workflow more prominently.",
+    "evidence_ids": [
+      "src_f06d75d6f14c16418cf6",
+      "src_2a4c944ef9556c40db9d",
+      "src_c9cd073d975f4b87bf74",
+      "src_3187533458620153b32e"
+    ],
+    "recommended_option": 0
+  },
+  "simulated_owner_answer": "Importing existing forms",
+  "before_first_section": {
+    "title": "Start building",
+    "links": [
+      {
+        "sourceId": "src_f06d75d6f14c16418cf6",
+        "label": "Get started",
+        "description": "An introduction to building forms with Tally\u2019s document-style editor."
+      },
+      {
+        "sourceId": "src_4643dd99d71715ab303c",
+        "label": "Create a form",
+        "description": "Add questions and logic, customize the form, then publish and share it."
+      },
+      {
+        "sourceId": "src_2a4c944ef9556c40db9d",
+        "label": "Form templates",
+        "description": "Browse forms to adapt instead of starting from a blank page."
+      },
+      {
+        "sourceId": "src_c9cd073d975f4b87bf74",
+        "label": "Tally AI",
+        "description": "Create or edit a form with a plain-language prompt; Tally says it is available on all plans."
+      },
+      {
+        "sourceId": "src_3187533458620153b32e",
+        "label": "Import a form",
+        "description": "Bring in a Typeform form or turn supported files into editable draft forms."
+      }
+    ]
+  },
+  "after_first_section": {
+    "links": [
+      {
+        "label": "Import forms",
+        "source_id": "src_3187533458620153b32e",
+        "description": "Import directly from Typeform or upload a PDF, image, screenshot, JSON, CSV, Markdown or Word file as an editable draft."
+      },
+      {
+        "label": "Create and edit a form",
+        "source_id": "src_4643dd99d71715ab303c",
+        "description": "Review the editor\u2019s question blocks, logic, styling and publishing options after importing."
+      },
+      {
+        "label": "Tally AI",
+        "source_id": "src_c9cd073d975f4b87bf74",
+        "description": "Create or edit forms from a plain-language prompt, or recreate a form from a screenshot or PDF in the editor."
+      }
+    ],
+    "title": "Bring an existing form to Tally"
+  },
+  "question_status": "answered",
+  "pending_questions": [],
+  "explanation": "The guide leads with importing existing forms, as requested, while retaining alternative starting paths and the main building, sharing and policy resources. Plan-dependent features and the fair-use qualification are called out.",
+  "model_metadata": {
+    "cache": {
+      "status": "miss",
+      "request_hash": "f804ed7df448d4ffbb5b3e508a92b852da7fd1cb490f39f4c6e731c7b2468495"
+    },
+    "model": "gpt-6-sol",
+    "usage": {
+      "input_tokens": 38490,
+      "total_tokens": 40089,
+      "output_tokens": 1599,
+      "input_tokens_details": {
+        "cached_tokens": 1524,
+        "cache_write_tokens": 36963
+      },
+      "output_tokens_details": {
+        "reasoning_tokens": 72
+      }
+    },
+    "attempts": 1,
+    "provider": "openai",
+    "reasoning": "medium",
+    "duration_ms": 28852,
+    "response_id": "resp_0ffb834380a669c8016ab63d6f2ca887d28cd91ac4806d497d",
+    "prompt_version": "brief-generation-v6",
+    "max_output_tokens": 12000
+  }
+}

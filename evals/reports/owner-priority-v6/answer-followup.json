@@ -1,0 +1,104 @@
+{
+  "evidence": "Live model regeneration through the production decision API and worker, in an isolated Postgres schema; source pages replayed from saved Tally capture. No live crawl or real owner response.",
+  "question": {
+    "topic": "starting-workflow-priority",
+    "options": [
+      "Build a new form first \u2014 lead with the first-form guide and editor resources.",
+      "Move existing forms first \u2014 lead with importing and reviewing drafts.",
+      "Evaluate Tally first \u2014 lead with pricing, plan differences, and policies before tutorials."
+    ],
+    "question": "Which starting path should this guide emphasize first?",
+    "rationale": "Leading with a first-form tutorial would favor new builds; leading with import would serve people bringing existing forms; leading with pricing would serve people evaluating Tally before building. The draft provisionally includes all three.",
+    "evidence_ids": [
+      "src_f06d75d6f14c16418cf6",
+      "src_3187533458620153b32e",
+      "src_c1c9c119f01a61c05c02"
+    ],
+    "recommended_option": 0
+  },
+  "simulated_owner_answer": "Move existing forms first \u2014 lead with importing and reviewing drafts.",
+  "before_first_section": {
+    "title": "Choose a starting point",
+    "links": [
+      {
+        "sourceId": "src_f06d75d6f14c16418cf6",
+        "label": "Get started",
+        "description": "An introduction to creating and publishing a first form."
+      },
+      {
+        "sourceId": "src_4643dd99d71715ab303c",
+        "label": "Create a form",
+        "description": "Build with questions and blocks, then customize, publish, and share."
+      },
+      {
+        "sourceId": "src_2a4c944ef9556c40db9d",
+        "label": "Template gallery",
+        "description": "Explore ready-made forms to customize."
+      },
+      {
+        "sourceId": "src_c9cd073d975f4b87bf74",
+        "label": "Create with Tally AI",
+        "description": "Generate or edit a form from a plain-language prompt; AI is optional and available on the free plan."
+      },
+      {
+        "sourceId": "src_3187533458620153b32e",
+        "label": "Import an existing form",
+        "description": "Bring in Typeform forms or supported files as editable drafts; review them before sharing."
+      },
+      {
+        "sourceId": "src_c1c9c119f01a61c05c02",
+        "label": "Pricing and plan features",
+        "description": "Compare free, Pro, and Business features and check fair-usage qualifications."
+      }
+    ]
+  },
+  "after_first_section": {
+    "links": [
+      {
+        "label": "Import forms into Tally",
+        "source_id": "src_3187533458620153b32e",
+        "description": "Connect Typeform or upload an existing file, then review and edit the resulting draft."
+      },
+      {
+        "label": "Create and edit a form",
+        "source_id": "src_4643dd99d71715ab303c",
+        "description": "Use the document-style editor to revise questions, logic, appearance, and the published form."
+      },
+      {
+        "label": "Name form fields",
+        "source_id": "src_aeebcf3d5f77ce91e4af",
+        "description": "Give imported questions clear titles so responses are identifiable in submissions."
+      }
+    ],
+    "title": "Move an existing form"
+  },
+  "question_status": "answered",
+  "pending_questions": [],
+  "explanation": "The guide leads with importing and reviewing drafts, as requested, while retaining routes for new forms and the main resources needed to build, publish, and assess Tally. No further editorial decision is needed.",
+  "model_metadata": {
+    "cache": {
+      "status": "miss",
+      "request_hash": "b42e9492bfd4047378f6c63d821721b10f0ecaa63c696146699f7aff04cbf7c7"
+    },
+    "model": "gpt-6-sol",
+    "usage": {
+      "input_tokens": 38531,
+      "total_tokens": 40180,
+      "output_tokens": 1649,
+      "input_tokens_details": {
+        "cached_tokens": 1567,
+        "cache_write_tokens": 36961
+      },
+      "output_tokens_details": {
+        "reasoning_tokens": 86
+      }
+    },
+    "attempts": 1,
+    "provider": "openai",
+    "reasoning": "medium",
+    "duration_ms": 25471,
+    "response_id": "resp_047ff2780b858142016ab63de8abb887d09f09ba8347d455cc",
+    "prompt_version": "brief-generation-v6",
+    "max_output_tokens": 12000
+  }
+}

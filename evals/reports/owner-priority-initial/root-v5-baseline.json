@@ -1,0 +1,190 @@
+{
+  "raw": {
+    "guide": {
+      "title": "Tally",
+      "summary": {
+        "text": "Tally is a document-style online form builder for creating, sharing, and embedding forms without coding.",
+        "evidenceIds": [
+          "src_dda354e774105135abca"
+        ]
+      },
+      "context": [
+        {
+          "text": "Tally offers unlimited forms and submissions on its free plan, subject to fair usage guidelines. Pro and Business plans add features.",
+          "evidenceIds": [
+            "src_c1c9c119f01a61c05c02"
+          ]
+        },
+        {
+          "text": "Visitors can try the builder without an account, but Tally\u2019s terms say an account is required to publish a form.",
+          "evidenceIds": [
+            "src_dda354e774105135abca",
+            "src_feca852d3150d2097b38"
+          ]
+        }
+      ],
+      "sections": [
+        {
+          "title": "Start building",
+          "links": [
+            {
+              "sourceId": "src_f06d75d6f14c16418cf6",
+              "label": "Get started",
+              "description": "Introductory help for creating and managing a form."
+            },
+            {
+              "sourceId": "src_4643dd99d71715ab303c",
+              "label": "Create a form",
+              "description": "Build with questions and blocks, then publish and share."
+            },
+            {
+              "sourceId": "src_2a4c944ef9556c40db9d",
+              "label": "Form templates",
+              "description": "Browse ready-made forms to adapt to your needs."
+            },
+            {
+              "sourceId": "src_636ea3fab7a981981634",
+              "label": "Use and create templates",
+              "description": "Customize gallery templates or save forms as reusable templates."
+            },
+            {
+              "sourceId": "src_c9cd073d975f4b87bf74",
+              "label": "Tally AI",
+              "description": "Tally\u2019s guide to generating and editing forms from prompts in the editor."
+            },
+            {
+              "sourceId": "src_3187533458620153b32e",
+              "label": "Import a form",
+              "description": "Bring in Typeform forms or create editable drafts from uploaded files."
+            }
+          ]
+        },
+        {
+          "title": "Questions and form behavior",
+          "links": [
+            {
+              "sourceId": "src_95698bb89f24aac98717",
+              "label": "Feature overview",
+              "description": "Entry point for Tally\u2019s blocks, settings, integrations, and other features."
+            },
+            {
+              "sourceId": "src_fcdcc4284a1897cf1530",
+              "label": "Input blocks",
+              "description": "Choose fields for text, selections, dates, uploads, payments, and more."
+            },
+            {
+              "sourceId": "src_2204e0eefc8d71f705f0",
+              "label": "Conditional logic",
+              "description": "Show or hide blocks, skip pages, and route respondents based on answers."
+            },
+            {
+              "sourceId": "src_8e9aaf6b346405cb077c",
+              "label": "Calculated fields",
+              "description": "Calculate scores, prices, or other values from responses."
+            },
+            {
+              "sourceId": "src_e54d2793c843d152f87f",
+              "label": "Hidden fields",
+              "description": "Pass URL parameters into forms for personalization or traffic-source data."
+            },
+            {
+              "sourceId": "src_d25742b121bd66c7aa79",
+              "label": "Multi-page forms",
+              "description": "Arrange questions across pages or show one question per page."
+            },
+            {
+              "sourceId": "src_953b655ec176618e20c3",
+              "label": "Form settings",
+              "description": "Configure access, notifications, completion behavior, and other settings; some options require paid plans."
+            }
+          ]
+        },
+        {
+          "title": "Design, sharing, and responses",
+          "links": [
+            {
+              "sourceId": "src_da7e5237ec5e147bbe38",
+              "label": "Customize a form",
+              "description": "Adjust themes, colors, fonts, images, and layout; custom CSS requires Pro."
+            },
+            {
+              "sourceId": "src_3a245294ac0a180377b4",
+              "label": "Embed a form",
+              "description": "Add a standard, popup, or full-page form embed to a website."
+            },
+            {
+              "sourceId": "src_e1ba910d8da22b4d5201",
+              "label": "Thank You pages",
+              "description": "Customize the screen shown after submission, including different pages for different form paths."
+            },
+            {
+              "sourceId": "src_74398e7b28da93163356",
+              "label": "File uploads",
+              "description": "Collect respondent files; the free plan has a 10 MB per-file limit."
+            },
+            {
+              "sourceId": "src_ccf821c07e74b4a93293",
+              "label": "Payment forms",
+              "description": "Collect card payments through Stripe; standard Stripe fees apply."
+            },
+            {
+              "sourceId": "src_edb0bed4116f1298abb3",
+              "label": "Electronic signatures",
+              "description": "Add a signature field and export signed submissions as PDFs; check local legal requirements."
+            }
+          ]
+        },
+        {
+          "title": "Plans, help, and policies",
+          "links": [
+            {
+              "sourceId": "src_c1c9c119f01a61c05c02",
+              "label": "Pricing and plans",
+              "description": "Compare the free plan with Pro and Business features and fair-use limits."
+            },
+            {
+              "sourceId": "src_6f00cbc12483d0bc22ae",
+              "label": "Help center",
+              "description": "Browse Tally\u2019s guides on building forms, integrations, and billing."
+            },
+            {
+              "sourceId": "src_a80f04aee68ec2af2c82",
+              "label": "Privacy notice",
+              "description": "Read how Tally says it processes personal data and handles data requests."
+            },
+            {
+              "sourceId": "src_feca852d3150d2097b38",
+              "label": "Terms and conditions",
+              "description": "Review account, usage, subscription, and support terms."
+            }
+          ]
+        }
+      ]
+    },
+    "explanation": "Organized the available pages around building and managing forms, with plan limits and policy links kept accessible. Omitted monthly prices because the supplied pages give different figures.",
+    "questions": []
+  },
+  "metadata": {
+    "provider": "openai",
+    "model": "gpt-6-sol",
+    "reasoning": "medium",
+    "prompt_version": "brief-generation-v5",
+    "response_id": "resp_07fb67b8f6943c5c016ab63cfd6f1087d282cedfa93250c870",
+    "duration_ms": 27739,
+    "usage": {
+      "input_tokens": 38240,
+      "input_tokens_details": {
+        "cache_write_tokens": 36838,
+        "cached_tokens": 1399
+      },
+      "output_tokens": 1642,
+      "output_tokens_details": {
+        "reasoning_tokens": 128
+      },
+      "total_tokens": 39882
+    },
+    "max_output_tokens": 12000,
+    "attempts": 1
+  },
+  "input": "../../corpus/owner-priority-cases.json"
+}

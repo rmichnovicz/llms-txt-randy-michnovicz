@@ -2,7 +2,9 @@ from __future__ import annotations
 
 import asyncio
 import logging
+import os
 from collections.abc import Awaitable, Callable
+from concurrent.futures import ThreadPoolExecutor
 from datetime import UTC, datetime
 from typing import TYPE_CHECKING, Any
 
@@ -175,7 +177,54 @@ async def run_once(
     return True
 
 
-async def run_forever(store: Store, *, generator: Generator | None = None, live: LiveProgress | None = None) -> None:
-    while True:
-        if not await run_once(store, generator=generator, live=live):
-            await asyncio.sleep(2)
+async def run_forever(
+    store: Store,
+    *,
+    generator: Generator | None = None,
+    live: LiveProgress | None = None,
+    concurrency: int | None = None,
+) -> None:
+    """Supervise bounded child threads, each with its own job and heartbeat loop."""
+    if concurrency is None:
+        concurrency = int(os.environ.get("BRIEF_WORKER_CONCURRENCY", "4"))
+    if concurrency < 1:
+        raise ValueError("BRIEF_WORKER_CONCURRENCY must be at least 1")
+
+    async def consume() -> None:
+        while True:
+            if not await run_once(store, generator=generator, live=live):
+                await asyncio.sleep(2)
+
+    async def supervise() -> None:
+        parent_loop = asyncio.get_running_loop()
+        ready: asyncio.Future[tuple[asyncio.AbstractEventLoop, asyncio.Task[None]]] = parent_loop.create_future()
+
+        async def child() -> None:
+            task = asyncio.create_task(consume())
+            parent_loop.call_soon_threadsafe(ready.set_result, (asyncio.get_running_loop(), task))
+            try:
+                await task
+            except asyncio.CancelledError:
+                pass
+
+        def run_child() -> None:
+            asyncio.run(child())
+
+        thread = parent_loop.run_in_executor(executor, run_child)
+        try:
+            await asyncio.shield(ready)
+            await asyncio.shield(thread)
+        finally:
+            # Shield startup so cancellation cannot strand a newly started child.
+            loop, task = await asyncio.shield(ready)
+            if not thread.done():
+                try:
+                    loop.call_soon_threadsafe(task.cancel)
+                except RuntimeError:
+                    pass  # The child finished and closed its loop during shutdown.
+            await thread
+
+    with ThreadPoolExecutor(max_workers=concurrency, thread_name_prefix="brief-job") as executor:
+        async with asyncio.TaskGroup() as children:
+            for _ in range(concurrency):
+                children.create_task(supervise())

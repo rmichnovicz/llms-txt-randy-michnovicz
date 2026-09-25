@@ -72,7 +72,11 @@ uv run --env-file .env brief worker
 ```
 
 Jobs and documents stay in Postgres in either mode. The embedded worker uses its
-own thread and event loop, with in-memory queues for live progress. See
+own supervisor thread, with in-memory queues for live progress. Both worker modes
+run up to four jobs concurrently in child threads, each with its own event loop
+and lease renewal. Set `BRIEF_WORKER_CONCURRENCY` to a positive integer to change
+that limit (use `1` for serial processing). `brief worker --once` still runs just
+one job. See
 [live progress](docs/LIVE_PROGRESS.md) for recovery behavior and deployment limits.
 
 <a id="five-minute-reviewer-walkthrough"></a>

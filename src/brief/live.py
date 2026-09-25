@@ -56,7 +56,7 @@ class LiveProgress:
 
 
 class DemoWorker:
-    """One isolated worker event loop; normal thread-offloaded model/extraction calls."""
+    """Isolated worker supervisor managing the child job threads."""
 
     def __init__(self, store: Store, generator: Generator | None, live: LiveProgress) -> None:
         self.store, self.generator, self.live = store, generator, live

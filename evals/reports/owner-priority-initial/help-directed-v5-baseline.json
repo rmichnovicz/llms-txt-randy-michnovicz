@@ -1,0 +1,249 @@
+{
+  "raw": {
+    "guide": {
+      "title": "Tally Help Center",
+      "summary": {
+        "text": "Practical guides for creating, publishing, connecting, and improving Tally forms.",
+        "evidenceIds": [
+          "src_cca6b20f4186d5daefd3",
+          "src_4643dd99d71715ab303c"
+        ]
+      },
+      "context": [
+        {
+          "text": "Tally describes its editor as working like a document: type to build a form and use / to insert blocks.",
+          "evidenceIds": [
+            "src_4643dd99d71715ab303c",
+            "src_fcdcc4284a1897cf1530"
+          ]
+        },
+        {
+          "text": "Tally offers unlimited forms and submissions on its free plan, subject to its fair use policy. Some settings and insights require Pro or Business.",
+          "evidenceIds": [
+            "src_52419ac4842101779528",
+            "src_712643e491ec93d2be76",
+            "src_953b655ec176618e20c3",
+            "src_ffdcf7891a30909bfd68"
+          ]
+        }
+      ],
+      "sections": [
+        {
+          "title": "Build your first form",
+          "links": [
+            {
+              "sourceId": "src_4643dd99d71715ab303c",
+              "label": "Create a form",
+              "description": "Add questions and content, customize the form, then publish and share it."
+            },
+            {
+              "sourceId": "src_fcdcc4284a1897cf1530",
+              "label": "Input blocks",
+              "description": "Choose fields for text, choices, dates, files, payments, and other responses."
+            },
+            {
+              "sourceId": "src_636ea3fab7a981981634",
+              "label": "Use form templates",
+              "description": "Start from a ready-made template or save a form as a reusable template."
+            },
+            {
+              "sourceId": "src_d25742b121bd66c7aa79",
+              "label": "Create a multi-step form",
+              "description": "Add page breaks, group questions, and configure eligible one-question pages to auto-jump."
+            },
+            {
+              "sourceId": "src_953b655ec176618e20c3",
+              "label": "Configure form settings",
+              "description": "Manage access, notifications, completion behavior, and respondent options."
+            }
+          ]
+        },
+        {
+          "title": "Personalize the form experience",
+          "links": [
+            {
+              "sourceId": "src_2204e0eefc8d71f705f0",
+              "label": "Conditional logic",
+              "description": "Show or hide blocks, require answers, calculate values, and send respondents along different paths."
+            },
+            {
+              "sourceId": "src_e54d2793c843d152f87f",
+              "label": "Hidden fields",
+              "description": "Pass URL parameters into a form to track sources or reuse information you already have."
+            },
+            {
+              "sourceId": "src_8e9aaf6b346405cb077c",
+              "label": "Calculated fields",
+              "description": "Build scores, prices, and text values from answers; includes formula and troubleshooting guidance."
+            },
+            {
+              "sourceId": "src_7d74204bcd05c7c5bb0d",
+              "label": "Answer piping",
+              "description": "Insert earlier answers into later questions, text, and thank-you messages."
+            },
+            {
+              "sourceId": "src_e1ba910d8da22b4d5201",
+              "label": "Thank You pages",
+              "description": "Customize the post-submission page or create different pages for different logic paths."
+            }
+          ]
+        },
+        {
+          "title": "Style and share",
+          "links": [
+            {
+              "sourceId": "src_da7e5237ec5e147bbe38",
+              "label": "Customize your form",
+              "description": "Adjust themes, colors, fonts, layout, images, and other design elements."
+            },
+            {
+              "sourceId": "src_3a245294ac0a180377b4",
+              "label": "Embed a form",
+              "description": "Add a standard, popup, or full-page form to a website and configure its appearance."
+            },
+            {
+              "sourceId": "src_4b4e87f1c434c253aa25",
+              "label": "Popup forms",
+              "description": "Set popup triggers and appearance, then add the generated code to a site."
+            },
+            {
+              "sourceId": "src_43c5726063c22e56ca78",
+              "label": "Redirect on completion",
+              "description": "Send respondents to another URL after submission, optionally using form data."
+            },
+            {
+              "sourceId": "src_a5a2a901723ad839b42b",
+              "label": "Build accessible forms",
+              "description": "Review Tally\u2019s accessibility guidance and known limitation for the signature field; test your specific form."
+            }
+          ]
+        },
+        {
+          "title": "Collect and improve responses",
+          "links": [
+            {
+              "sourceId": "src_ffdcf7891a30909bfd68",
+              "label": "Form insights",
+              "description": "Review answer charts and visit metrics; drop-off insights require Pro."
+            },
+            {
+              "sourceId": "src_cd823ac1cf520f993e19",
+              "label": "Email notifications",
+              "description": "Set up submission emails for form owners or respondents."
+            },
+            {
+              "sourceId": "src_74398e7b28da93163356",
+              "label": "File uploads",
+              "description": "Collect respondent files, set file rules, and access uploads from submissions."
+            },
+            {
+              "sourceId": "src_ccf821c07e74b4a93293",
+              "label": "Payment forms",
+              "description": "Connect Stripe to collect card payments; standard Stripe fees apply."
+            },
+            {
+              "sourceId": "src_b4dc830217a0db19a5f0",
+              "label": "Partial submissions",
+              "description": "Capture unfinished entries after enabling this Pro setting; earlier entries are not recovered."
+            },
+            {
+              "sourceId": "src_e166a65ce5158424fea6",
+              "label": "Prevent duplicate submissions",
+              "description": "Choose an identifier to deter repeat entries and understand its limitations."
+            }
+          ]
+        },
+        {
+          "title": "Connect tools and automate",
+          "links": [
+            {
+              "sourceId": "src_63243bf5febd8df4280f",
+              "label": "Integration directory",
+              "description": "Find guides for direct connections, automation tools, analytics, embeds, and the API."
+            },
+            {
+              "sourceId": "src_e688317a004f567d0781",
+              "label": "Google Sheets integration",
+              "description": "Sync submissions to a spreadsheet and check delivery logs when responses are missing."
+            },
+            {
+              "sourceId": "src_9a0705895e5f2aa21796",
+              "label": "Notion integration",
+              "description": "Map form fields to Notion database properties and troubleshoot syncing."
+            },
+            {
+              "sourceId": "src_5e23604d5ab6887e5ab0",
+              "label": "Webhooks",
+              "description": "Send new submissions as JSON to your endpoint, with signing and retry guidance."
+            },
+            {
+              "sourceId": "src_b22275a51481e811e274",
+              "label": "Tally API",
+              "description": "Programmatically manage forms and submissions; review authentication, pagination, versioning, and rate limits."
+            }
+          ]
+        },
+        {
+          "title": "Manage data and resolve issues",
+          "links": [
+            {
+              "sourceId": "src_1e6244f24d7bbfcb43a0",
+              "label": "Frequently asked questions",
+              "description": "Find answers about exports, saved answers, embeds, account settings, and common form questions."
+            },
+            {
+              "sourceId": "src_54eb8227620065bf214f",
+              "label": "Delete and recover form data",
+              "description": "Delete forms or submissions and restore items from Trash within 90 days, unless permanently removed."
+            },
+            {
+              "sourceId": "src_108ea2ce6f51efba7c07",
+              "label": "Form version history",
+              "description": "Preview and restore saved versions; republish to update an already-published form."
+            },
+            {
+              "sourceId": "src_e187b5acdc41e650c454",
+              "label": "GDPR guidance",
+              "description": "Read Tally\u2019s account of its data-processing roles and privacy measures; this is not legal advice."
+            },
+            {
+              "sourceId": "src_52419ac4842101779528",
+              "label": "Plans and pricing",
+              "description": "Check which needs may call for Pro or Business rather than the free plan."
+            },
+            {
+              "sourceId": "src_712643e491ec93d2be76",
+              "label": "Fair use policy",
+              "description": "Review usage guidance and when Tally may contact you about a custom plan."
+            }
+          ]
+        }
+      ]
+    },
+    "explanation": "Organized the help resources around the form-building workflow, with troubleshooting and data management close at hand. Pricing appears only where readers may need to check feature availability.",
+    "questions": []
+  },
+  "metadata": {
+    "provider": "openai",
+    "model": "gpt-6-sol",
+    "reasoning": "medium",
+    "prompt_version": "brief-generation-v5",
+    "response_id": "resp_0387a615c9b1311f016ab63cfd711c87d08b9056ac641c1b2d",
+    "duration_ms": 36916,
+    "usage": {
+      "input_tokens": 40120,
+      "input_tokens_details": {
+        "cache_write_tokens": 38718,
+        "cached_tokens": 1399
+      },
+      "output_tokens": 2291,
+      "output_tokens_details": {
+        "reasoning_tokens": 158
+      },
+      "total_tokens": 42411
+    },
+    "max_output_tokens": 12000,
+    "attempts": 1
+  },
+  "input": "../../corpus/owner-priority-cases.json"
+}
